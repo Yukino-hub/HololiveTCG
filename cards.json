@@ -1,6 +1,6 @@
 [
     {
-        "cardNumber": "hSD001-001",
+                "cardNumber": "hSD001-001",
         "name": "Tokino Sora",
         "type": "Oshi Holomen",
         "lives": 5,
@@ -9,6 +9,7 @@
         "oshiSkillDescription": "[Once per turn] Swap one cheer card from your stage to one of your Holomen.",
         "spOshiSkillName": "じゃあ敵だね (\"then you're an enemy\")",
         "spOshiSkillPower": 2,
-        "spOshiSkillDescription": "[Once per game] Switch your opponent's center Holomen with one of their back Holomen. Then, for the duration of this turn, your white center Holomen's arts increase by 50."
+        "spOshiSkillDescription": "[Once per game] Switch your opponent's center Holomen with one of their back Holomen. Then, for the duration of this turn, your white center Holomen's arts increase by 50.",
+        "image": "images/tokino-sora.jpg"
     }
 ]
