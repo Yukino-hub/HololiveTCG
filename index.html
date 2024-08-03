@@ -65,12 +65,7 @@
         </div>
     </div>
     <script>
-        // JavaScript to handle search functionality and displaying cards
         document.addEventListener('DOMContentLoaded', function() {
-            const cards = [
-                // Your JSON card data here
-            ];
-
             const searchBar = document.getElementById('searchBar');
             const cardList = document.getElementById('cardList');
 
@@ -125,8 +120,14 @@
 
             searchBar.addEventListener('input', filterCards);
 
-            // Display all cards initially
-            displayCards(cards);
+            // Fetch card data from external file
+            fetch('cards.json')
+                .then(response => response.json())
+                .then(data => {
+                    window.cards = data; // Make data accessible globally
+                    displayCards(cards); // Display all cards initially
+                })
+                .catch(error => console.error('Error loading card data:', error));
         });
     </script>
 </body>
