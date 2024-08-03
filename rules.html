@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hololive TCG Rules</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2, h3 {
+            color: #333;
+        }
+        ol, ul {
+            padding-left: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hololive TCG Rules</h1>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>Card Types</h2>
+            <ul>
+                <li><strong>Oshi Holomen Card (Leader):</strong> Can only have 1 per deck. Placed on the field from the start to end. It has 2 skills: Oshi Skill (top) and SP Oshi Skill (bottom, once per game).</li>
+                <li><strong>Cheer Card:</strong> Represents Mana/Don/Energy. Draw one each turn and attach to any Holomen on the "stage."</li>
+                <li><strong>Holomen Card:</strong> Character cards. Up to 4 per card.</li>
+                <li><strong>Support Card:</strong> Event or Item cards. Up to 4 per card.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Winning Conditions</h2>
+            <ul>
+                <li>Reduce the opponent's life to 0 by defeating their Holomen.</li>
+                <li>When all opponent's Holomen, except Oshi Holomen, are gone from the "stage."</li>
+                <li>When the opponent runs out of cards to draw (deck out).</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Deck Setup</h2>
+            <ul>
+                <li><strong>Deck:</strong> 50 cards. Up to 4 copies per card. Can include different color Holomen cards (Characters) in addition to the Oshi Holomen (Leader).</li>
+                <li><strong>Cheer:</strong> 20 cards. Can contain different colors with no limit on the same card.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Preparing the Game</h2>
+            <ol>
+                <li>Shuffle 50 Holomen cards face down on the deck area.</li>
+                <li>Shuffle 20 Cheer cards face down on the cheer area.</li>
+                <li>Place the Oshi Holomen face down in the Oshi Position.</li>
+                <li>Determine who goes first.</li>
+                <li>Draw 7 cards from the deck.</li>
+                <li>Mulligan once: Reshuffle and draw 7 cards again if desired.</li>
+                <li>Place 1 Debut Holomen card in the "stage's" center position. If no Debut Holomen, show all your cards to the opponent, reshuffle your hand into your deck, and draw one fewer card until you get at least one Debut Holomen. (7 → 6 → 5 → 4).</li>
+                <li>If you still have Debut or Spot Holomen, place them face down on the "stage's" back position.</li>
+                <li>After both players have placed all their cards, flip the Oshi Holomen and Holomen cards to face up on the stage.</li>
+                <li>Set life points based on your Oshi Holomen value (from the Cheer deck).</li>
+                <li>The starting player begins the game.</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>Gameplay</h2>
+            <ol>
+                <li><strong>Refresh Phase:</strong>
+                    <ul>
+                        <li>Re-stand Holomen (front/backline).</li>
+                        <li>Move Collab Holomen to the back stage and rest them.</li>
+                        <li>If there are no center Holomen, move one active backline Holomen to the center stage. If there are no active Holomen on the backline, move one rested Holomen to the center stage.</li>
+                    </ul>
+                </li>
+                <li><strong>Draw Phase:</strong> Draw 1 card from the deck.</li>
+                <li><strong>Cheer Phase:</strong> Show one Cheer card from the cheer deck and attach it to any Holomen on the "stage."</li>
+                <li><strong>Main Phase:</strong> Perform the following actions as desired:
+                    <ul>
+                        <li><strong>A - Place Debut or Spot Holomen:</strong> Place from hand with a maximum of 6 Holomen on stage excluding Oshi Holomen.</li>
+                        <li><strong>B - Bloom (Evolution):</strong> Carry forward all Cheer cards, support cards, damage, and status of the cards. You can Bloom from Debut to 1st, and from 1st to 2nd, but not on the first turn or if HP after Bloom is less than current damage.</li>
+                        <li><strong>C - Collab:</strong> Once per turn, place the top of your deck into the Holopower area (face down) and move one active backline Holomen to the Collab area. Collab Holomen stay there until the Refresh Phase of your next turn.</li>
+                        <li><strong>D - Use Oshi Holomen Skill:</strong> Subtract from the Holopower base based on the skill's cost. (Card moved to archive.)</li>
+                        <li><strong>E - Use Support Card:</strong> Use any number of support cards. Limited support cards can only be used once per turn, even with different names. Limited support cards cannot be used on the first turn.</li>
+                        <li><strong>F - Baton Touch:</strong> Swap active Center Holomen with Backline Active Holomen by archiving the Cheer cost indicated on the card. You can only Baton Touch once per turn (except for ability and support card). </li>
+                    </ul>
+                </li>
+                <li><strong>Performance Phase:</strong> Use Arts (skills) from your center or Collab Holomen. This phase is skipped on the first player turn. Active Center Holomen and Collab Holomen can use Arts once per turn. Choose the opponent's Center Holomen or Collab Holomen to declare the Arts, calculate damage, and put the damage marker on the card. Downed Holomen (KO) cause the player to take a life. Show the life and attach it to any Holomen on the field. Some attacks may deal double damage.</li>
+                <li><strong>End Turn:</strong> Abilities that indicate [During your turn] will be disabled. If you do not have any center Holomen, follow steps from the Refresh Phase to move one Holomen to the center.</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h2>Special Notes</h2>
+            <ul>
+                <li>Holomen are not rested using Arts and will likely stay active unless affected by other rules.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
