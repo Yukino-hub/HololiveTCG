@@ -28,37 +28,6 @@
             padding: 20px;
             margin: auto;
         }
-        h2, h3 {
-            color: #333;
-        }
-        ol, ul {
-            padding-left: 20px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .card {
-            border: 1px solid #ddd;
-            padding: 10px;
-            margin: 10px;
-            border-radius: 5px;
-            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-            max-width: 200px;
-            display: inline-block;
-            vertical-align: top;
-            cursor: pointer;
-        }
-        .card img {
-            max-width: 100%;
-            height: auto; /* Maintain aspect ratio */
-        }
-        .card .details {
-            margin-top: 10px;
-        }
-        .buzz, .limited {
-            color: red;
-            font-weight: bold;
-        }
         .search-container {
             text-align: center;
             margin-bottom: 20px;
@@ -78,6 +47,21 @@
             flex-wrap: wrap;
             justify-content: center;
         }
+        .card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto; /* Maintain aspect ratio */
+        }
         .modal {
             display: none;
             position: fixed;
@@ -88,39 +72,45 @@
             background: rgba(0, 0, 0, 0.5);
             justify-content: center;
             align-items: center;
-            z-index: 1000;
         }
         .modal-content {
-            background: white;
-            border-radius: 10px;
-            display: flex;
+            background: #fff;
+            border-radius: 5px;
             padding: 20px;
-            max-width: 80vw;
-            max-height: 80vh;
-            overflow: auto;
-            align-items: flex-start;
+            max-width: 800px;
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
         .modal-content img {
-            max-width: 150px;
+            max-width: 200px;
+            height: auto;
             margin-right: 20px;
         }
-        .modal-content .details {
-            max-width: 500px;
+        .modal-content div {
+            font-family: Arial, sans-serif;
+        }
+        .modal-content p {
+            margin: 0;
+            padding: 5px 0;
+        }
+        .modal-content strong {
+            font-weight: bold;
         }
         .modal-content .details p {
-            margin: 10px 0;
+            margin: 5px 0;
         }
-        .modal-content .details h2 {
-            margin: 0;
+        .modal-content .details p span {
+            font-weight: bold;
         }
-        .modal-content .details .skills {
-            margin-top: 20px;
-        }
-        .modal-content .details .skills h3 {
-            margin-bottom: 10px;
-        }
-        .modal-content .hidden {
-            display: none;
+        .modal-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -146,36 +136,12 @@
         </div>
     </div>
 
-    <!-- Modal -->
     <div id="modal" class="modal">
         <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
             <img id="modalImage" src="" alt="">
-            <div class="details">
-                <h2 id="modalName"></h2>
-                <p id="modalCardNumber">Card Number: <span id="modalCardNumberText"></span></p>
-                <p id="modalRarity">Rarity: <span id="modalRarityText"></span></p>
-                <p id="modalBloomLevel">Bloom Level: <span id="modalBloomLevelText"></span></p>
-                <p id="modalHp" class="hidden">HP: <span id="modalHpText"></span></p>
-                <p id="modalColor">Color: <span id="modalColorText"></span></p>
-                <p id="modalLives" class="hidden">Lives: <span id="modalLivesText"></span></p>
-                <p id="modalAbility" class="hidden">Ability: <span id="modalAbilityText"></span></p>
-                <p id="modalBuzz">Buzz: <span id="modalBuzzText"></span></p>
-                <p id="modalType" class="hidden">Type: <span id="modalTypeText"></span></p>
-                <div id="modalOshiSkill" class="hidden">
-                    <h3>Oshi Skill</h3>
-                    <p id="modalOshiSkillName"></p>
-                    <p id="modalOshiSkillDescription"></p>
-                </div>
-                <div id="modalSpOshiSkill" class="hidden">
-                    <h3>SP Oshi Skill</h3>
-                    <p id="modalSpOshiSkillName"></p>
-                    <p id="modalSpOshiSkillDescription"></p>
-                </div>
-                <div class="skills hidden" id="modalSkills">
-                    <!-- Skills will be populated here -->
-                </div>
-                <p id="modalCollabEffect" class="hidden">Collab Effect: <span id="modalCollabEffectText"></span></p>
-                <p id="modalExtraEffect" class="hidden">Extra Effect: <span id="modalExtraEffectText"></span></p>
+            <div id="modalText">
+                <!-- Modal text content will be populated here -->
             </div>
         </div>
     </div>
@@ -187,106 +153,7 @@
             const cardList = document.getElementById('cardList');
             const modal = document.getElementById('modal');
             const modalImage = document.getElementById('modalImage');
-            const modalName = document.getElementById('modalName');
-            const modalCardNumberText = document.getElementById('modalCardNumberText');
-            const modalRarityText = document.getElementById('modalRarityText');
-            const modalBloomLevelText = document.getElementById('modalBloomLevelText');
-            const modalHpText = document.getElementById('modalHpText');
-            const modalColorText = document.getElementById('modalColorText');
-            const modalLivesText = document.getElementById('modalLivesText');
-            const modalAbilityText = document.getElementById('modalAbilityText');
-            const modalBuzzText = document.getElementById('modalBuzzText');
-            const modalTypeText = document.getElementById('modalTypeText');
-            const modalOshiSkill = document.getElementById('modalOshiSkill');
-            const modalOshiSkillName = document.getElementById('modalOshiSkillName');
-            const modalOshiSkillDescription = document.getElementById('modalOshiSkillDescription');
-            const modalSpOshiSkill = document.getElementById('modalSpOshiSkill');
-            const modalSpOshiSkillName = document.getElementById('modalSpOshiSkillName');
-            const modalSpOshiSkillDescription = document.getElementById('modalSpOshiSkillDescription');
-            const modalSkills = document.getElementById('modalSkills');
-            const modalCollabEffect = document.getElementById('modalCollabEffect');
-            const modalCollabEffectText = document.getElementById('modalCollabEffectText');
-            const modalExtraEffect = document.getElementById('modalExtraEffect');
-            const modalExtraEffectText = document.getElementById('modalExtraEffectText');
-
-            function openModal(card) {
-                modalImage.src = card.image;
-                modalName.textContent = card.name;
-                modalCardNumberText.textContent = card.cardNumber || '';
-                modalRarityText.textContent = card.rarity || '';
-                modalBloomLevelText.textContent = card.bloomLevel || '';
-                modalHpText.textContent = card.hp || '';
-                modalColorText.textContent = card.color || '';
-                modalLivesText.textContent = card.lives || '';
-                modalAbilityText.textContent = card.ability || '';
-                modalBuzzText.textContent = card.buzz || '';
-                modalTypeText.textContent = card.type || '';
-
-                // Hide elements if their values are empty
-                document.getElementById('modalHp').classList.toggle('hidden', !card.hp);
-                document.getElementById('modalLives').classList.toggle('hidden', !card.lives);
-                document.getElementById('modalAbility').classList.toggle('hidden', !card.ability);
-                document.getElementById('modalType').classList.toggle('hidden', !card.type);
-
-                // Oshi Skill
-                if (card.oshiSkill) {
-                    modalOshiSkill.classList.remove('hidden');
-                    modalOshiSkillName.textContent = card.oshiSkill.name || '';
-                    modalOshiSkillDescription.textContent = card.oshiSkill.description || '';
-                } else {
-                    modalOshiSkill.classList.add('hidden');
-                }
-
-                // SP Oshi Skill
-                if (card.spOshiSkill) {
-                    modalSpOshiSkill.classList.remove('hidden');
-                    modalSpOshiSkillName.textContent = card.spOshiSkill.name || '';
-                    modalSpOshiSkillDescription.textContent = card.spOshiSkill.description || '';
-                } else {
-                    modalSpOshiSkill.classList.add('hidden');
-                }
-
-                // Skills
-                if (card.skills && card.skills.length > 0) {
-                    modalSkills.innerHTML = '<h3>Skills</h3>';
-                    card.skills.forEach(skill => {
-                        const skillElement = document.createElement('div');
-                        skillElement.innerHTML = `
-                            <p><strong>Skill Name:</strong> ${skill.name}</p>
-                            <p><strong>DMG:</strong> ${skill.dmg || 'N/A'}</p>
-                            ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
-                        `;
-                        modalSkills.appendChild(skillElement);
-                    });
-                    modalSkills.classList.remove('hidden');
-                } else {
-                    modalSkills.classList.add('hidden');
-                }
-
-                // Collab Effect
-                if (card.collabEffect) {
-                    modalCollabEffect.classList.remove('hidden');
-                    modalCollabEffectText.textContent = card.collabEffect || '';
-                } else {
-                    modalCollabEffect.classList.add('hidden');
-                }
-
-                // Extra Effect
-                if (card.extraEffect) {
-                    modalExtraEffect.classList.remove('hidden');
-                    modalExtraEffectText.textContent = card.extraEffect || '';
-                } else {
-                    modalExtraEffect.classList.add('hidden');
-                }
-
-                modal.style.display = 'flex';
-            }
-
-            document.addEventListener('click', function(event) {
-                if (event.target === modal) {
-                    modal.style.display = 'none';
-                }
-            });
+            const modalText = document.getElementById('modalText');
 
             function displayCards(filteredCards) {
                 cardList.innerHTML = '';
@@ -295,9 +162,8 @@
                     cardElement.className = 'card';
                     cardElement.innerHTML = `
                         <h3>${card.name}</h3>
-                        <img src="${card.image}" alt="${card.name}">
+                        <img src="${card.image}" alt="${card.name}" onclick="openModal('${card.image}', '${card.cardNumber}', '${card.rarity || 'N/A'}', '${card.bloomLevel || 'N/A'}', '${card.hp || 'N/A'}', '${card.color || 'N/A'}', '${card.lives || 'N/A'}', '${card.ability || 'N/A'}', '${card.buzz || ''}', '${card.type || 'N/A'}', '${card.collabEffect || ''}', '${card.extraEffect || ''}')">
                     `;
-                    cardElement.addEventListener('click', () => openModal(card));
                     cardList.appendChild(cardElement);
                 });
             }
@@ -311,6 +177,28 @@
                     return matchesSearch && matchesSeries;
                 });
                 displayCards(filteredCards);
+            }
+
+            function openModal(image, cardNumber, rarity, bloomLevel, hp, color, lives, ability, buzz, type, collabEffect, extraEffect) {
+                modalImage.src = image;
+                modalText.innerHTML = `
+                    ${cardNumber ? `<p><strong>Card Number:</strong> ${cardNumber}</p>` : ''}
+                    ${rarity ? `<p><strong>Rarity:</strong> ${rarity}</p>` : ''}
+                    ${bloomLevel ? `<p><strong>Bloom Level:</strong> ${bloomLevel}</p>` : ''}
+                    ${hp ? `<p><strong>HP:</strong> ${hp}</p>` : ''}
+                    ${color ? `<p><strong>Color:</strong> ${color}</p>` : ''}
+                    ${lives ? `<p><strong>Lives:</strong> ${lives}</p>` : ''}
+                    ${ability ? `<p><strong>Ability:</strong> ${ability}</p>` : ''}
+                    ${buzz ? `<p><strong>Buzz:</strong> ${buzz}</p>` : ''}
+                    ${type ? `<p><strong>Type:</strong> ${type}</p>` : ''}
+                    ${collabEffect ? `<p><strong>Collab Effect:</strong> ${collabEffect}</p>` : ''}
+                    ${extraEffect ? `<p><strong>Extra Effect:</strong> ${extraEffect}</p>` : ''}
+                `;
+                modal.style.display = 'flex';
+            }
+
+            function closeModal() {
+                modal.style.display = 'none';
             }
 
             searchBar.addEventListener('input', filterCards);
