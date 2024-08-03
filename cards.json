@@ -1,13 +1,66 @@
 [
     {
-        "cardNumber": "hSD01-001",
+        "cardNumber": "hSD001-001",
         "name": "Tokino Sora",
         "type": "Oshi Holomen",
         "lives": 5,
-        "oshiSkillName": "リプレイスメント (\"Replacement\") Power - 1",
-        "oshiSkillDescription": "[Once per turn] Swap one cheer card from your stage to one of your Holomen.",
-        "spOshiSkillName": "じゃあ敵だね (\"then you're an enemy\") Power -2",
-        "spOshiSkillDescription": "[Once per game] Switch your opponent's center Holomen with one of their back Holomen. Then, for the duration of this turn, your white center Holomen's arts increase by 50.",
+        "color": "White",
+        "oshiSkill": {
+            "name": "リプレイスメント (\"Replacement\")",
+            "power": 1,
+            "description": "[Once per turn] Swap one cheer card from your stage to one of your Holomen."
+        },
+        "spOshiSkill": {
+            "name": "じゃあ敵だね (\"then you're an enemy\")",
+            "power": 2,
+            "description": "[Once per game] Switch your opponent's center Holomen with one of their back Holomen. Then, for the duration of this turn, your white center Holomen's arts increase by 50."
+        },
         "image": "images/hSD01-001.jpg"
+    },
+    {
+        "cardNumber": "hSD01-002",
+        "name": "Azki",
+        "type": "OSR",
+        "lives": 6,
+        "color": "Green",
+        "oshiSkill": {
+            "name": "左手に地図 (\"Map on the left\")",
+            "power": 3,
+            "description": "[Once per turn] Usable when rolling a die with your Holomen's ability: Declare one number on the die, and treat the next rolled number as the declared number."
+        },
+        "spOshiSkill": {
+            "name": "手にマイク (\"Mic On the Right\")",
+            "power": 3,
+            "description": "[Once per game] Send any number of archived cheer cards to one Green Holomen."
+        },
+        "image": "images/hSD01-002.jpg"
+    },
+    {
+        "cardNumber": "hSD001-003",
+        "name": "Tokino Sora",
+        "raity": "C",
+        "bloomLevel": "Debut",
+        "hp": 60,
+        "color": "White",
+        "skills": [
+            { "name": "ぬんぬん", "dmg": 30 },
+            { "Cost" : "1 Colorless"}.
+        ],
+        "image": "images/hSD01-003.jpg"
+    },
+    {
+        "cardNumber": "hSD001-005",
+        "name": "Tokino Sora",
+        "rarity": "U",
+        "BloomLevel": "1st",
+        "hp": 150,
+        "color": "White",
+        "skills": [
+            { "name": "ぬんぬんしよう", "cost": "1White", "dmg": 30 },
+            { "name" :  "あなたの心は･･･くもりのち晴れ!", "cost" : "1White, 1Colorless", "dmg" : 50"},
+        ],
+        "image": "images/hSD01-005.jpg"
     }
+
 ]
+  
