@@ -2,3 +2,23 @@ YS-004 Suisei . OS, Power - 2 :  [Once per turn] During this turn, your blue col
 YS-003 Kiara. OS, Power -2 : [Once per turn] During this turn, your red collaboration Holomen's arts gain +20. SPOS: power -1 : [Once per game] Return one red Holomen from your archive to your hand
 YS-002 Pekora. OS, Power -2 : [Once per turn] During this turn, your green collaboration Holomen's arts gain +20. SPOS, Power -1 : [Once per game] Heal all of your green Holomen for 20 HP.
 YS-001 Mumei. OS, Power 02 : [Once per turn] During this turn, your white collaboration Holomen's arts gain +20. SPOS. Power -1 : [Once per game] During your opponent's turn, when your white Holomen takes damage from an opponent, you may use this: Reduce the damage that Holomen takes by 20.
+[
+    {
+        "cardNumber": "hYS01-001",
+        "name": "Nanashi Mumei",
+        "rarity": "OC",
+        "lives": 5,
+        "color": "White",
+        "oshiSkill": {
+            "name": "ホワイトバトン (\"White Baton\")",
+            "power": 2,
+            "description": "[Once per turn] During this turn, your white collaboration Holomen's arts gain +20."
+        },
+        "spOshiSkill": {
+            "name": "・クイックガード (\"Quick Guard\")",
+            "power": 1,
+            "description": "[Once per game] During your opponent's turn, when your white Holomen takes damage from an opponent, you may use this: Reduce the damage that Holomen takes by 20.
+["
+        },
+        "image": "images/hYS01-001.jpg"
+    },
