@@ -29,24 +29,17 @@
             max-width: 1200px;
             margin: auto;
         }
-        h2, h3 {
-            color: #333;
-        }
-        ol, ul {
-            padding-left: 20px;
-        }
-        .section {
-            margin-bottom: 20px;
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
         }
         .card {
             border: 1px solid #ddd;
             padding: 10px;
-            margin-bottom: 10px;
             border-radius: 5px;
             box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-            max-width: 150px; /* Reduced width */
-            display: inline-block; /* Keep cards inline */
-            vertical-align: top; /* Align cards vertically */
+            text-align: center;
         }
         .card img {
             max-width: 100%;
@@ -60,6 +53,12 @@
             color: red;
             font-weight: bold;
         }
+        .card .extraEffect,
+        .card .collabEffect,
+        .card .ability {
+            margin-top: 10px;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -70,7 +69,7 @@
     <div class="container">
         <!-- Search bar -->
         <input type="text" id="searchBar" placeholder="Search by Card Number...">
-        <div id="cardList">
+        <div id="cardList" class="card-grid">
             <!-- Cards will be displayed here -->
         </div>
     </div>
@@ -117,9 +116,9 @@
                             ` : ''}
                             ${card.buzz ? `<p class="buzz"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
                             ${card.limited ? `<p class="limited"><strong>Limited:</strong> ${card.limited}</p>` : ''}
-                            ${card.ability ? `<p><strong>Ability:</strong> ${card.ability}</p>` : ''}
-                            ${card.extraEffect ? `<p><strong>Extra Effect:</strong> ${card.extraEffect}</p>` : ''}
-                            ${card.collabEffect ? `<p><strong>Collab Effect:</strong> ${card.collabEffect}</p>` : ''}
+                            ${card.extraEffect ? `<p class="extraEffect"><strong>Extra Effect:</strong> ${card.extraEffect}</p>` : ''}
+                            ${card.collabEffect ? `<p class="collabEffect"><strong>Collab Effect:</strong> ${card.collabEffect}</p>` : ''}
+                            ${card.ability ? `<p class="ability"><strong>Ability:</strong> ${card.ability}</p>` : ''}
                         </div>
                     `;
                     cardList.appendChild(cardElement);
