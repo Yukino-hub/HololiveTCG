@@ -96,6 +96,9 @@
             margin: 0;
             padding: 5px 0;
         }
+        .modal-content h3 {
+            margin: 0 0 5px 0;
+        }
         .modal-content strong {
             font-weight: bold;
         }
@@ -138,6 +141,7 @@
             <span class="modal-close" onclick="closeModal()">&times;</span>
             <img id="modalImage" src="" alt="">
             <div id="modalText">
+                <h3 id="modalCardName"></h3>
                 <p id="modalCardNumberContainer"><strong>Card Number:</strong> <span id="modalCardNumber"></span></p>
                 <p id="modalRarityContainer"><strong>Rarity:</strong> <span id="modalRarity"></span></p>
                 <p id="modalBloomLevelContainer"><strong>Bloom Level:</strong> <span id="modalBloomLevel"></span></p>
@@ -157,7 +161,7 @@
                     <p><strong>SP Oshi Skill Name:</strong> <span id="modalSpOshiSkillName"></span></p>
                     <p><strong>Description:</strong> <span id="modalSpOshiSkillDescription"></span></p>
                 </div>
-                <div id="modalSkills" class="hidden">
+                <div id="modalSkills" class="skills hidden">
                     <h3>Skills</h3>
                 </div>
             </div>
@@ -172,6 +176,7 @@
             const modal = document.getElementById('modal');
             const modalImage = document.getElementById('modalImage');
 
+            const modalCardName = document.getElementById('modalCardName');
             const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
             const modalRarityContainer = document.getElementById('modalRarityContainer');
             const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
@@ -236,6 +241,7 @@
 
             window.openModal = function(card) {
                 modalImage.src = card.image;
+                modalCardName.textContent = card.name || '';
                 modalCardNumber.textContent = card.cardNumber || '';
                 modalRarity.textContent = card.rarity || '';
                 modalBloomLevel.textContent = card.bloomLevel || '';
