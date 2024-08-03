@@ -41,14 +41,14 @@
             margin-bottom: 10px;
             border-radius: 5px;
             box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-            max-width: 200px; /* Adjust the width as needed */
-            display: inline-block; /* Keep cards inline */
-            vertical-align: top; /* Align cards vertically */
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
         }
         .card img {
             max-width: 100%;
-            height: auto; /* Maintain aspect ratio */
-            cursor: pointer; /* Indicate clickable image */
+            height: auto;
+            cursor: pointer;
         }
         .card .details {
             margin-top: 10px;
@@ -59,16 +59,16 @@
             font-weight: bold;
         }
         .modal {
-            display: none; /* Hidden by default */
+            display: none;
             position: fixed;
-            z-index: 1; /* Sit on top */
+            z-index: 1;
             left: 0;
             top: 0;
             width: 100%;
             height: 100%;
             overflow: auto;
-            background-color: rgb(0,0,0); /* Fallback color */
-            background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0,0.9);
         }
         .modal-content {
             margin: auto;
@@ -180,7 +180,6 @@
 
             searchBar.addEventListener('input', filterCards);
 
-            // Function to open modal with the selected image and details
             window.openModal = function(cardNumber, imgSrc, name, rarity, bloomLevel, hp, color, lives, skills, oshiSkill, spOshiSkill, buzz, limited, extraEffect, collabEffect) {
                 modal.style.display = "block";
                 modalImg.src = imgSrc;
@@ -192,13 +191,13 @@
                     <p><strong>HP:</strong> ${hp}</p>
                     <p><strong>Color:</strong> ${color}</p>
                     ${lives ? `<p><strong>Lives:</strong> ${lives}</p>` : ''}
-                    ${skills ? skills : ''}
-                    ${oshiSkill ? oshiSkill : ''}
-                    ${spOshiSkill ? spOshiSkill : ''}
-                    ${buzz ? buzz : ''}
-                    ${limited ? limited : ''}
-                    ${extraEffect ? extraEffect : ''}
-                    ${collabEffect ? collabEffect : ''}
+                    ${skills ? `<div>${skills}</div>` : ''}
+                    ${oshiSkill ? `<div>${oshiSkill}</div>` : ''}
+                    ${spOshiSkill ? `<div>${spOshiSkill}</div>` : ''}
+                    ${buzz ? `<div>${buzz}</div>` : ''}
+                    ${limited ? `<div>${limited}</div>` : ''}
+                    ${extraEffect ? `<div>${extraEffect}</div>` : ''}
+                    ${collabEffect ? `<div>${collabEffect}</div>` : ''}
                 `;
             };
 
