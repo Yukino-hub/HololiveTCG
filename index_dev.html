@@ -78,6 +78,7 @@
             max-width: 80vw;
             max-height: 80vh;
             overflow: auto;
+            align-items: flex-start;
         }
         .modal-content img {
             max-width: 150px;
@@ -91,6 +92,12 @@
         }
         .modal-content .details h2 {
             margin: 0;
+        }
+        .modal-content .details .skills {
+            margin-top: 20px;
+        }
+        .modal-content .details .skills h3 {
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -114,15 +121,26 @@
             <img id="modalImage" src="" alt="">
             <div class="details">
                 <h2 id="modalName"></h2>
-                <p id="modalDescription"></p>
-                <p id="modalOshiSkill"></p>
-                <p id="modalSpOshiSkill"></p>
-                <p id="modalHp"></p>
-                <p id="modalColor"></p>
-                <p id="modalBuzz"></p>
-                <p id="modalLimited"></p>
-                <p id="modalExtraEffect"></p>
-                <p id="modalCollabEffect"></p>
+                <p id="modalCardNumber">Card Number: <span id="modalCardNumberText"></span></p>
+                <p id="modalRarity">Rarity: <span id="modalRarityText"></span></p>
+                <p id="modalBloomLevel">Bloom Level: <span id="modalBloomLevelText"></span></p>
+                <p id="modalHp">HP: <span id="modalHpText"></span></p>
+                <p id="modalColor">Color: <span id="modalColorText"></span></p>
+                <p id="modalBuzz">Buzz: <span id="modalBuzzText"></span></p>
+                <div id="modalOshiSkill">
+                    <h3>Oshi Skill</h3>
+                    <p id="modalOshiSkillName"></p>
+                    <p id="modalOshiSkillDescription"></p>
+                </div>
+                <div id="modalSpOshiSkill">
+                    <h3>SP Oshi Skill</h3>
+                    <p id="modalSpOshiSkillName"></p>
+                    <p id="modalSpOshiSkillDescription"></p>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div id="modalSkillsList"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -132,28 +150,56 @@
             const modal = document.getElementById('modal');
             const modalImage = document.getElementById('modalImage');
             const modalName = document.getElementById('modalName');
-            const modalDescription = document.getElementById('modalDescription');
-            const modalOshiSkill = document.getElementById('modalOshiSkill');
-            const modalSpOshiSkill = document.getElementById('modalSpOshiSkill');
-            const modalHp = document.getElementById('modalHp');
-            const modalColor = document.getElementById('modalColor');
-            const modalBuzz = document.getElementById('modalBuzz');
-            const modalLimited = document.getElementById('modalLimited');
-            const modalExtraEffect = document.getElementById('modalExtraEffect');
-            const modalCollabEffect = document.getElementById('modalCollabEffect');
+            const modalCardNumberText = document.getElementById('modalCardNumberText');
+            const modalRarityText = document.getElementById('modalRarityText');
+            const modalBloomLevelText = document.getElementById('modalBloomLevelText');
+            const modalHpText = document.getElementById('modalHpText');
+            const modalColorText = document.getElementById('modalColorText');
+            const modalBuzzText = document.getElementById('modalBuzzText');
+            const modalOshiSkillName = document.getElementById('modalOshiSkillName');
+            const modalOshiSkillDescription = document.getElementById('modalOshiSkillDescription');
+            const modalSpOshiSkillName = document.getElementById('modalSpOshiSkillName');
+            const modalSpOshiSkillDescription = document.getElementById('modalSpOshiSkillDescription');
+            const modalSkillsList = document.getElementById('modalSkillsList');
 
             function openModal(card) {
                 modalImage.src = card.image;
                 modalName.textContent = card.name;
-                modalDescription.textContent = card.description || '';
-                modalOshiSkill.textContent = card.oshiSkill ? `Oshi Skill: ${card.oshiSkill.name} - ${card.oshiSkill.description}` : '';
-                modalSpOshiSkill.textContent = card.spOshiSkill ? `SP Oshi Skill: ${card.spOshiSkill.name} - ${card.spOshiSkill.description}` : '';
-                modalHp.textContent = card.hp ? `HP: ${card.hp}` : '';
-                modalColor.textContent = card.color ? `Color: ${card.color}` : '';
-                modalBuzz.textContent = card.buzz ? `Buzz: ${card.buzz}` : '';
-                modalLimited.textContent = card.limited ? `Limited: ${card.limited}` : '';
-                modalExtraEffect.textContent = card.extraEffect ? `Extra Effect: ${card.extraEffect}` : '';
-                modalCollabEffect.textContent = card.collabEffect ? `Collab Effect: ${card.collabEffect}` : '';
+                modalCardNumberText.textContent = card.cardNumber || '';
+                modalRarityText.textContent = card.rarity || '';
+                modalBloomLevelText.textContent = card.bloomLevel || '';
+                modalHpText.textContent = card.hp || '';
+                modalColorText.textContent = card.color || '';
+                modalBuzzText.textContent = card.buzz ? 'Yes' : 'No';
+                
+                if (card.oshiSkill) {
+                    modalOshiSkillName.textContent = card.oshiSkill.name || '';
+                    modalOshiSkillDescription.textContent = card.oshiSkill.description || '';
+                } else {
+                    modalOshiSkillName.textContent = 'N/A';
+                    modalOshiSkillDescription.textContent = 'N/A';
+                }
+
+                if (card.spOshiSkill) {
+                    modalSpOshiSkillName.textContent = card.spOshiSkill.name || '';
+                    modalSpOshiSkillDescription.textContent = card.spOshiSkill.description || '';
+                } else {
+                    modalSpOshiSkillName.textContent = 'N/A';
+                    modalSpOshiSkillDescription.textContent = 'N/A';
+                }
+
+                modalSkillsList.innerHTML = '';
+                if (card.skills && card.skills.length) {
+                    card.skills.forEach(skill => {
+                        const skillElement = document.createElement('div');
+                        skillElement.innerHTML = `
+                            <p><strong>Name:</strong> ${skill.name}</p>
+                            <p><strong>Damage:</strong> ${skill.dmg}</p>
+                            ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
+                        `;
+                        modalSkillsList.appendChild(skillElement);
+                    });
+                }
                 modal.style.display = 'flex';
             }
 
