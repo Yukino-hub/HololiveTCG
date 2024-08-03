@@ -74,13 +74,8 @@
             <!-- Cards will be displayed here -->
         </div>
     </div>
-    <script>
-        // JavaScript to handle search functionality and displaying cards
+<script>
         document.addEventListener('DOMContentLoaded', function() {
-            const cards = [
-                // Your JSON card data here
-            ];
-
             const searchBar = document.getElementById('searchBar');
             const cardList = document.getElementById('cardList');
 
@@ -120,8 +115,8 @@
                                     <p><strong>Description:</strong> ${card.spOshiSkill.description}</p>
                                 </div>
                             ` : ''}
-                            ${card.buzz ? `<p class="buzz"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
-                            ${card.limited ? `<p class="limited"><strong>Limited:</strong> ${card.limited}</p>` : ''}
+                            ${card.buzz ? `<p class="highlight-red"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
+                            ${card.limited ? `<p class="highlight-red"><strong>Limited:</strong> ${card.limited}</p>` : ''}
                         </div>
                     `;
                     cardList.appendChild(cardElement);
@@ -136,8 +131,14 @@
 
             searchBar.addEventListener('input', filterCards);
 
-            // Display all cards initially
-            displayCards(cards);
+            // Fetch card data from external file
+            fetch('cards.json')
+                .then(response => response.json())
+                .then(data => {
+                    window.cards = data; // Make data accessible globally
+                    displayCards(cards); // Display all cards initially
+                })
+                .catch(error => console.error('Error loading card data:', error));
         });
     </script>
 </body>
