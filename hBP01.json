@@ -16,6 +16,25 @@
             "description": "[Once per game] When your blue holomen deal damage to opp's center holomen or collab holomen, you may use this to deal same amount of  special damage to one of opp backline holomen"
         },
         "image": "images/hBP01-001.jpg"
+    },
+
+     {
+        "cardNumber": "hSD001-004",
+        "name": "Usada Pekora",
+        "rarity": "OSR",
+        "lives": 6,
+        "color": "Green",
+        "oshiSkill": {
+            "name": "野兎たち~  (\"Wild Rabbits\")",
+            "power": 2,
+            "description": "[Once per turn] Usable during your opponent's turn when one of your Holomen is knocked down: Reassign all green cheers from your one of your downed Holomen to your other Holomen."
+        },
+        "spOshiSkill": {
+            "name": "幸運兎  (\"Lucky Rabbit\")",
+            "power": 3,
+            "description": "[Once pere game] During this turn, treat all your dice rolls as 6"
+        },
+        "image": "images/hBP01-001.jpg"
     }
 
 ]
