@@ -2,7 +2,7 @@
     {
         "cardNumber": "hSD001-001",
         "name": "Tokino Sora",
-        "type": "Oshi Holomen",
+        "Rarity" : "OSR"
         "lives": 5,
         "color": "White",
         "oshiSkill": {
@@ -20,7 +20,7 @@
     {
         "cardNumber": "hSD001-002",
         "name": "Azki",
-        "type": "OSR",
+        "Rarity" : "OSR"
         "lives": 6,
         "color": "Green",
         "oshiSkill": {
@@ -44,7 +44,6 @@
         "color": "White",
         "skills": [
             { "name": "ぬんぬん", "cost": "1 Colorless", "dmg": 30 },
-            { "name": "Baton Touch", "cost": "1 Colorless", "dmg": 0 }
         ],
         "image": "images/hSD01-003.jpg"
     },
@@ -60,5 +59,18 @@
             { "name": "あなたの心は･･･くもりのち晴れ!", "cost": "1 White, 1 Colorless", "dmg": 50 }
         ],
         "image": "images/hSD01-005.jpg"
+    },
+      {
+        "cardNumber": "hSD001-006",
+        "name": "Tokino Sora",
+        "rarity": "RR",
+        "bloomLevel": "1st", "Buzz",
+        "hp": 240,
+        "color": "White",
+        "skills": [
+            { "name": "ぬんぬんしよう", "cost": "1 White", "dmg": 30 },
+            { "name": "あなたの心は･･･くもりのち晴れ!", "cost": "1 White, 1 Colorless", "dmg": 50 }
+        ],
+        "image": "images/hSD01-006.jpg"
     }
 ]
