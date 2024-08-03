@@ -77,7 +77,7 @@
                                 ${card.skills ? `<p class="skill"><strong>Skills:</strong></p>
                                 <ul>
                                     ${card.skills.map(skill => `
-                                        <li>${skill.name}: Cost - ${skill.cost || 'N/A'}, DMG - ${skill.dmg || 'N/A'}</li>
+                                        <li>${skill.name}: DMG - ${skill.dmg || 'N/A'}</li>
                                     `).join('')}
                                 </ul>` : ''}
                             `;
@@ -85,13 +85,25 @@
                         });
                     }
 
+                    function filterCards(query) {
+                        if (query) {
+                            return data.filter(card => card.cardNumber.toLowerCase().includes(query));
+                        } else {
+                            return data;
+                        }
+                    }
+
+                    function handleSearch() {
+                        const searchValue = searchInput.value.toLowerCase();
+                        const filteredCards = filterCards(searchValue);
+                        displayCards(filteredCards);
+                    }
+
+                    // Initial display of all cards
                     displayCards(data);
 
-                    searchInput.addEventListener('input', function() {
-                        const searchValue = searchInput.value.toLowerCase();
-                        const filteredCards = data.filter(card => card.cardNumber.toLowerCase().includes(searchValue));
-                        displayCards(filteredCards);
-                    });
+                    // Search event listener
+                    searchInput.addEventListener('input', handleSearch);
                 })
                 .catch(error => console.error('Error loading card data:', error));
         });
