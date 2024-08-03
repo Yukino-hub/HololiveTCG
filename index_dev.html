@@ -99,6 +99,9 @@
         .modal-content .details .skills h3 {
             margin-bottom: 10px;
         }
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -127,19 +130,19 @@
                 <p id="modalHp">HP: <span id="modalHpText"></span></p>
                 <p id="modalColor">Color: <span id="modalColorText"></span></p>
                 <p id="modalBuzz">Buzz: <span id="modalBuzzText"></span></p>
-                <div id="modalOshiSkill">
+                <p id="modalType">Type: <span id="modalTypeText"></span></p>
+                <div id="modalOshiSkill" class="hidden">
                     <h3>Oshi Skill</h3>
                     <p id="modalOshiSkillName"></p>
                     <p id="modalOshiSkillDescription"></p>
                 </div>
-                <div id="modalSpOshiSkill">
+                <div id="modalSpOshiSkill" class="hidden">
                     <h3>SP Oshi Skill</h3>
                     <p id="modalSpOshiSkillName"></p>
                     <p id="modalSpOshiSkillDescription"></p>
                 </div>
-                <div class="skills">
-                    <h3>Skills</h3>
-                    <div id="modalSkillsList"></div>
+                <div class="skills hidden" id="modalSkills">
+                    <!-- Skills will be populated here -->
                 </div>
             </div>
         </div>
@@ -156,11 +159,14 @@
             const modalHpText = document.getElementById('modalHpText');
             const modalColorText = document.getElementById('modalColorText');
             const modalBuzzText = document.getElementById('modalBuzzText');
+            const modalTypeText = document.getElementById('modalTypeText');
+            const modalOshiSkill = document.getElementById('modalOshiSkill');
             const modalOshiSkillName = document.getElementById('modalOshiSkillName');
             const modalOshiSkillDescription = document.getElementById('modalOshiSkillDescription');
+            const modalSpOshiSkill = document.getElementById('modalSpOshiSkill');
             const modalSpOshiSkillName = document.getElementById('modalSpOshiSkillName');
             const modalSpOshiSkillDescription = document.getElementById('modalSpOshiSkillDescription');
-            const modalSkillsList = document.getElementById('modalSkillsList');
+            const modalSkills = document.getElementById('modalSkills');
 
             function openModal(card) {
                 modalImage.src = card.image;
@@ -171,25 +177,30 @@
                 modalHpText.textContent = card.hp || '';
                 modalColorText.textContent = card.color || '';
                 modalBuzzText.textContent = card.buzz ? 'Yes' : 'No';
-                
+                modalTypeText.textContent = card.type || 'N/A';
+
+                // Oshi Skill
                 if (card.oshiSkill) {
+                    modalOshiSkill.classList.remove('hidden');
                     modalOshiSkillName.textContent = card.oshiSkill.name || '';
                     modalOshiSkillDescription.textContent = card.oshiSkill.description || '';
                 } else {
-                    modalOshiSkillName.textContent = 'N/A';
-                    modalOshiSkillDescription.textContent = 'N/A';
+                    modalOshiSkill.classList.add('hidden');
                 }
 
+                // SP Oshi Skill
                 if (card.spOshiSkill) {
+                    modalSpOshiSkill.classList.remove('hidden');
                     modalSpOshiSkillName.textContent = card.spOshiSkill.name || '';
                     modalSpOshiSkillDescription.textContent = card.spOshiSkill.description || '';
                 } else {
-                    modalSpOshiSkillName.textContent = 'N/A';
-                    modalSpOshiSkillDescription.textContent = 'N/A';
+                    modalSpOshiSkill.classList.add('hidden');
                 }
 
-                modalSkillsList.innerHTML = '';
+                // Skills
+                modalSkills.innerHTML = '';
                 if (card.skills && card.skills.length) {
+                    modalSkills.classList.remove('hidden');
                     card.skills.forEach(skill => {
                         const skillElement = document.createElement('div');
                         skillElement.innerHTML = `
@@ -197,9 +208,13 @@
                             <p><strong>Damage:</strong> ${skill.dmg}</p>
                             ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
                         `;
-                        modalSkillsList.appendChild(skillElement);
+                        modalSkills.appendChild(skillElement);
                     });
+                } else {
+                    modalSkills.classList.add('hidden');
                 }
+
+                // Show the modal
                 modal.style.display = 'flex';
             }
 
@@ -228,17 +243,17 @@
                     });
             }
 
-            document.getElementById('seriesFilter').addEventListener('change', event => {
-                const series = event.target.value;
-                if (series) {
-                    loadCards(series);
+            document.getElementById('seriesFilter').addEventListener('change', (event) => {
+                const selectedSeries = event.target.value;
+                if (selectedSeries) {
+                    loadCards(selectedSeries);
                 } else {
-                    cardGrid.innerHTML = '';
+                    loadCards('hPR'); // Default series or handle as needed
                 }
             });
 
-            // Load default series or all cards if needed
-            loadCards('hSD01'); // Default load
+            // Load all cards by default
+            loadCards('hPR'); // Change to your default series or load all
         });
     </script>
 </body>
