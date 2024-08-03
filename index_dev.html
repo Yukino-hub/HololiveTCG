@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hololive TCG - Card Index</title>
     <style>
+        /* Your existing CSS styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -156,7 +157,7 @@
             function filterCards() {
                 const searchTerm = searchBar.value.toLowerCase();
                 const seriesTerm = seriesFilter.value;
-                const filteredCards = cards.filter(card => {
+                const filteredCards = window.cards.filter(card => {
                     const matchesSeries = seriesTerm === '' || card.cardNumber.startsWith(seriesTerm);
                     const matchesSearch = card.cardNumber.toLowerCase().includes(searchTerm);
                     return matchesSeries && matchesSearch;
@@ -165,14 +166,32 @@
             }
 
             searchBar.addEventListener('input', filterCards);
-            seriesFilter.addEventListener('change', filterCards);
+            seriesFilter.addEventListener('change', function() {
+                const series = seriesFilter.value;
+                if (series === '') {
+                    window.cards = allCards; // Reset to all cards if no series is selected
+                    filterCards();
+                } else {
+                    fetch(`${series}.json`)
+                        .then(response => response.json())
+                        .then(data => {
+                            window.cards = data;
+                            filterCards();
+                        })
+                        .catch(error => console.error('Error loading card data:', error));
+                }
+            });
 
-            // Fetch card data from external file
-            fetch('cards.json')
-                .then(response => response.json())
-                .then(data => {
-                    window.cards = data; // Make data accessible globally
-                    displayCards(cards); // Display all cards initially
+            // Fetch initial card data from all series
+            const seriesFiles = ['hSD01.json', 'hSB01.json', 'hYS01.json', 'hPR.json'];
+            const fetchPromises = seriesFiles.map(file => fetch(file).then(response => response.json()));
+            
+            Promise.all(fetchPromises)
+                .then(dataArrays => {
+                    const allCards = [].concat(...dataArrays);
+                    window.allCards = allCards; // Store all cards globally
+                    window.cards = allCards; // Initialize with all cards
+                    displayCards(allCards); // Display all cards initially
                 })
                 .catch(error => console.error('Error loading card data:', error));
         });
