@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hololive TCG Card Database</title>
+    <title>Hololive TCG - Card Index</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,131 +14,119 @@
             background: #f4f4f4;
             padding: 20px;
             text-align: center;
+            border-bottom: 2px solid #ddd;
+        }
+        header a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        header a:hover {
+            text-decoration: underline;
         }
         .container {
             padding: 20px;
             max-width: 1200px;
             margin: auto;
         }
-        input[type="text"] {
-            padding: 10px;
-            width: 100%;
-            max-width: 300px;
+        h2, h3 {
+            color: #333;
+        }
+        ol, ul {
+            padding-left: 20px;
+        }
+        .section {
             margin-bottom: 20px;
         }
         .card {
             border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
             border-radius: 5px;
-            padding: 15px;
-            margin-bottom: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
         }
         .card img {
             max-width: 100%;
-            height: auto;
         }
-        .card h3 {
-            margin: 0;
-        }
-        .card p {
-            margin: 5px 0;
-        }
-        .card .skills {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-        .card .skills li {
-            margin: 5px 0;
-        }
-        .card .buzz {
-            color: red;
-            font-weight: bold;
+        .card .details {
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Hololive TCG Card Database</h1>
+        <h1>Hololive TCG - Card Index</h1>
+        <p><a href="rules.html">View Game Rules</a></p>
     </header>
     <div class="container">
-        <input type="text" id="searchInput" placeholder="Search by Card Number">
-        <div id="cardsContainer"></div>
+        <!-- Search bar -->
+        <input type="text" id="searchBar" placeholder="Search by Card Number...">
+        <div id="cardList">
+            <!-- Cards will be displayed here -->
+        </div>
     </div>
-
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const searchInput = document.getElementById('searchInput');
-            const cardsContainer = document.getElementById('cardsContainer');
+        // JavaScript to handle search functionality and displaying cards
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = [
+                // Your JSON card data here
+            ];
 
-            async function fetchCards() {
-                try {
-                    const response = await fetch('cards.json'); // Adjust the path as necessary
-                    const cards = await response.json();
-                    return cards;
-                } catch (error) {
-                    console.error('Error fetching cards:', error);
-                    return [];
-                }
-            }
+            const searchBar = document.getElementById('searchBar');
+            const cardList = document.getElementById('cardList');
 
             function displayCards(filteredCards) {
-                cardsContainer.innerHTML = '';
+                cardList.innerHTML = '';
                 filteredCards.forEach(card => {
                     const cardElement = document.createElement('div');
                     cardElement.className = 'card';
-                    
                     cardElement.innerHTML = `
-                        <img src="${card.image}" alt="${card.name}">
                         <h3>${card.name}</h3>
-                        <p><strong>Card Number:</strong> ${card.cardNumber}</p>
-                        <p><strong>Rarity:</strong> ${card.rarity}</p>
-                        ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
-                        <p><strong>Color:</strong> ${card.color}</p>
-                        ${card.buzz ? '<p class="buzz">Buzz</p>' : ''}
-                        ${card.oshiSkill ? `
-                            <h4>Oshi Skill:</h4>
-                            <p><strong>Name:</strong> ${card.oshiSkill.name}</p>
-                            <p><strong>Power:</strong> ${card.oshiSkill.power}</p>
-                            <p><strong>Description:</strong> ${card.oshiSkill.description}</p>
-                        ` : ''}
-                        ${card.spOshiSkill ? `
-                            <h4>SP Oshi Skill:</h4>
-                            <p><strong>Name:</strong> ${card.spOshiSkill.name}</p>
-                            <p><strong>Power:</strong> ${card.spOshiSkill.power}</p>
-                            <p><strong>Description:</strong> ${card.spOshiSkill.description}</p>
-                        ` : ''}
-                        ${card.skills ? `
-                            <h4>Skills:</h4>
-                            <ul class="skills">
-                                ${card.skills.map(skill => `
-                                    <li>
-                                        <strong>Name:</strong> ${skill.name} 
-                                        <strong>DMG:</strong> ${skill.dmg}
-                                        ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
-                                    </li>
-                                `).join('')}
-                            </ul>
-                        ` : ''}
+                        <img src="${card.image}" alt="${card.name}">
+                        <div class="details">
+                            <p><strong>Card Number:</strong> ${card.cardNumber}</p>
+                            <p><strong>Rarity:</strong> ${card.rarity || 'N/A'}</p>
+                            <p><strong>Bloom Level:</strong> ${card.bloomLevel || 'N/A'}</p>
+                            <p><strong>HP:</strong> ${card.hp || 'N/A'}</p>
+                            <p><strong>Color:</strong> ${card.color || 'N/A'}</p>
+                            ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
+                            ${card.skills ? card.skills.map(skill => `
+                                <div>
+                                    <p><strong>Skill Name:</strong> ${skill.name}</p>
+                                    <p><strong>DMG:</strong> ${skill.dmg || 'N/A'}</p>
+                                    ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
+                                </div>
+                            `).join('') : ''}
+                            ${card.oshiSkill ? `
+                                <div>
+                                    <p><strong>Oshi Skill Name:</strong> ${card.oshiSkill.name}</p>
+                                    <p><strong>Power:</strong> ${card.oshiSkill.power}</p>
+                                    <p><strong>Description:</strong> ${card.oshiSkill.description}</p>
+                                </div>
+                            ` : ''}
+                            ${card.spOshiSkill ? `
+                                <div>
+                                    <p><strong>SP Oshi Skill Name:</strong> ${card.spOshiSkill.name}</p>
+                                    <p><strong>Power:</strong> ${card.spOshiSkill.power}</p>
+                                    <p><strong>Description:</strong> ${card.spOshiSkill.description}</p>
+                                </div>
+                            ` : ''}
+                            ${card.buzz ? `<p><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
+                        </div>
                     `;
-
-                    cardsContainer.appendChild(cardElement);
+                    cardList.appendChild(cardElement);
                 });
             }
 
-            async function filterCards() {
-                const searchValue = searchInput.value.toLowerCase();
-                const cards = await fetchCards();
-                const filteredCards = cards.filter(card => card.cardNumber.toLowerCase().includes(searchValue));
-                displayCards(filteredCards.length > 0 ? filteredCards : cards);
+            function filterCards() {
+                const searchTerm = searchBar.value.toLowerCase();
+                const filteredCards = cards.filter(card => card.cardNumber.toLowerCase().includes(searchTerm));
+                displayCards(filteredCards);
             }
 
-            searchInput.addEventListener('input', filterCards);
+            searchBar.addEventListener('input', filterCards);
 
-            // Initial load of all cards
-            fetchCards().then(displayCards);
+            // Display all cards initially
+            displayCards(cards);
         });
     </script>
 </body>
