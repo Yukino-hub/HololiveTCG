@@ -65,7 +65,7 @@
 <body>
     <header>
         <h1>Hololive TCG - Card Index</h1>
-        <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a> </p>
+        <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a></p>
     </header>
     <div class="container">
         <!-- Search bar -->
@@ -90,9 +90,9 @@
                         <div class="details">
                             <p><strong>Card Number:</strong> ${card.cardNumber}</p>
                             <p><strong>Rarity:</strong> ${card.rarity || 'N/A'}</p>
-                            <p><strong>Bloom Level:</strong> ${card.bloomLevel || 'N/A'}</p>
-                            <p><strong>HP:</strong> ${card.hp || 'N/A'}</p>
-                            <p><strong>Color:</strong> ${card.color || 'N/A'}</p>
+                            ${card.bloomLevel ? `<p><strong>Bloom Level:</strong> ${card.bloomLevel}</p>` : ''}
+                            ${card.hp ? `<p><strong>HP:</strong> ${card.hp}</p>` : ''}
+                            ${card.color ? `<p><strong>Color:</strong> ${card.color}</p>` : ''}
                             ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
                             ${card.skills ? card.skills.map(skill => `
                                 <div>
@@ -115,8 +115,8 @@
                                     <p><strong>Description:</strong> ${card.spOshiSkill.description}</p>
                                 </div>
                             ` : ''}
-                            ${card.buzz ? `<p class="highlight-red"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
-                            ${card.limited ? `<p class="highlight-red"><strong>Limited:</strong> ${card.limited}</p>` : ''}
+                            ${card.buzz ? `<p class="buzz"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
+                            ${card.limited ? `<p class="limited"><strong>Limited:</strong> ${card.limited}</p>` : ''}
                         </div>
                     `;
                     cardList.appendChild(cardElement);
@@ -142,4 +142,3 @@
         });
     </script>
 </body>
-</html>
