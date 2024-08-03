@@ -43,7 +43,10 @@
         "hp": 60,
         "color": "White",
         "skills": [
-            { "name": "ぬんぬん", "dmg": 30 }
+            {
+                "name": "ぬんぬん",
+                "dmg": 30
+            }
         ],
         "image": "images/hSD01-003.jpg"
     },
@@ -55,8 +58,14 @@
         "hp": 150,
         "color": "White",
         "skills": [
-            { "name": "ぬんぬんしよう", "dmg": 30 },
-            { "name": "あなたの心は･･･くもりのち晴れ!", "dmg": 50 }
+            {
+                "name": "ぬんぬんしよう",
+                "dmg": 30
+            },
+            {
+                "name": "あなたの心は･･･くもりのち晴れ!",
+                "dmg": 50
+            }
         ],
         "image": "images/hSD01-005.jpg"
     },
@@ -69,8 +78,15 @@
         "hp": 240,
         "color": "White",
         "skills": [
-            { "name": "ドリームライブ", "dmg": 30 },
-            { "name": "シンパシー ンパシー", "dmg": "60+", "description": "When you have the Holomen 'AZKI' on your stage, this art gains +50." }
+            {
+                "name": "ドリームライブ",
+                "dmg": 50
+            },
+            {
+                "name": "シンパシー ンパシー",
+                "dmg": "60+",
+                "description": "When you have the Holomen 'AZKI' on your stage, this art gains +50."
+            }
         ],
         "image": "images/hSD01-006.jpg"
     },
@@ -82,36 +98,115 @@
         "hp": 70,
         "color": "Green",
         "skills": [
-            { "name": "がんばれてえらい!", "dmg": 20 }
+            {
+                "name": "がんばれてえらい!",
+                "dmg": 20
+            }
         ],
         "image": "images/hSD01-008.jpg"
     },
-	
-	{
-		"cardNumber" : "hSD-010",
-		"Name" : "Azki",
-		"rarity" : "C",
-		"bloomLevel" : "1st",
-		"hp" : 160,
-		"color" : "Green",
-	    "skills": [
-            { "name": "きみとあてのない旅", "dmg": 50 }
+    {
+        "cardNumber": "hSD-010",
+        "name": "Azki",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Green",
+        "skills": [
+            {
+                "name": "きみとあてのない旅",
+                "dmg": 50
+            }
         ],
         "image": "images/hSD01-010.jpg"
-    },	
-	
-	{
-		"cardNumber" : "hSD-013",
-		"Name" : "SorAz",
-		"rarity" : "R",
-		"bloomLevel" : "1st",
-		"hp" : 160,
-		"color" : "White & Green",
-	    "skills": [
-            { "name": "越えたい未来", "dmg": 50, "Description": "You may roll a die once: If the result is odd, send the top card of your cheer deck to this Holomen. If the result is even, draw one card from your deck." }
+    },
+    {
+        "cardNumber": "hSD-013",
+        "name": "SorAz",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "White & Green",
+        "skills": [
+            {
+                "name": "越えたい未来",
+                "dmg": 50,
+                "description": "You may roll a die once: If the result is odd, send the top card of your cheer deck to this Holomen. If the result is even, draw one card from your deck."
+            }
         ],
-		"Extra Effect" : "This Holomen is also treated as 'Tokino Sora' and 'AZKI'"
+        "extraEffect": "This Holomen is also treated as 'Tokino Sora' and 'AZKI'",
         "image": "images/hSD01-013.jpg"
+    },
+    {
+        "cardNumber": "hSD01-014",
+        "name": "Amane Kanata",
+        "rarity": "U",
+        "hp": 150,
+        "color": "Colorless",
+        "bloomLevel": "Spot",
+        "extraEffect": "This Holomen cannot be Bloom",
+        "image": "images/hSD01-014.jpg"
+    },
+    {
+        "cardNumber": "hSD01-015",
+        "name": "Hakui Koyori",
+        "rarity": "U",
+        "hp": 50,
+        "color": "Colorless",
+        "bloomLevel": "Spot",
+        "collabEffect": "Collab Effect SoAzKo: When collaborating with 'Tokino Sora,' draw one card from your deck. When collaborating with 'AZKI,' send the top card of your cheer deck to your center Holomen",
+        "extraEffect": "This Holomen cannot be Bloom",
+        "image": "images/hSD01-015.jpg"
+    },
+    {
+        "cardNumber": "hSD01-016",
+        "name": "Harusaki Nodoka",
+        "rarity": "C",
+        "type": "Support",
+        "limited": true,
+        "description": "Draw 3 cards from your Deck",
+        "image": "images/hSD01-016.jpg"
+    },
+    {
+        "cardNumber": "hSD01-017",
+        "name": "Manechan",
+        "rarity": "C",
+        "type": "Support",
+        "limited": true,
+        "description": "You can only use this card if you have at least one other card in your hand besides this one. Return all cards in your hand to your deck and shuffle. Then, draw 5 cards from your deck.",
+        "image": "images/hSD01-017.jpg"
+    },
+    {
+        "cardNumber": "hSD01-018",
+        "name": "SubComputer",
+        "rarity": "C",
+        "type": "Support",
+        "description": "Look at the top 5 cards of your deck. Reveal one LIMITED support card from among them and add it to your hand. Then return the remaining cards to the bottom of your deck in any order.",
+        "image": "images/hSD01-018.jpg"
+    },
+    {
+        "cardNumber": "hSD01-019",
+        "name": "SuperComputer",
+        "rarity": "C",
+        "type": "Support",
+        "limited": true,
+        "description": "You can only use this card if you archive one of your cheers. Reveal one [1st Holomen or 2nd Holomen] card, excluding Buzz, from your deck and add it to your hand. Then shuffle your deck.",
+        "image": "images/hSD01-019.jpg"
+    },
+    {
+        "cardNumber": "hSD01-020",
+        "name": "ホロリスの輪",
+        "rarity": "C",
+        "type": "Support",
+        "description": "Roll a die once: If the result is 3 or higher, send one cheer card from your archive to your Holomen",
+        "image": "images/hSD01-020.jpg"
+    },
+    {
+        "cardNumber": "hSD01-021",
+        "name": "First Gravity",
+        "rarity": "C",
+        "type": "Support",
+        "description": "You can only use this card if you have 6 or fewer cards in your hand, excluding this one. Look at the top 4 cards of your deck. Reveal any number of 'Tokino Sora' and 'AZKI' cards from among them and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order.",
+        "image": "images/hSD01-021.jpg"
     }
-		
 ]
