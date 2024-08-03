@@ -105,8 +105,8 @@
                                     <p><strong>Description:</strong> ${card.spOshiSkill.description}</p>
                                 </div>
                             ` : ''}
-                            ${card.buzz ? `<p><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
-                            ${card.limited ? `<p><strong>Limited:</strong> ${card.limited}</p>` : ''}
+                            ${card.buzz ? `<p class="highlight-red"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
+                            ${card.limited ? `<p class="highlight-red"><strong>Limited:</strong> ${card.limited}</p>` : ''}
                         </div>
                     `;
                     cardList.appendChild(cardElement);
