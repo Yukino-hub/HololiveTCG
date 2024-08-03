@@ -50,6 +50,7 @@
                             <h3>${card.name} (#${card.cardNumber})</h3>
                             <p><strong>Type:</strong> ${card.type}</p>
                             ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
+                            ${card.buzz ? `<p><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
                             <p><strong>Color:</strong> ${card.color}</p>
                             ${card.rarity ? `<p><strong>Rarity:</strong> ${card.rarity}</p>` : ''}
                             ${card.bloomLevel ? `<p><strong>Bloom Level:</strong> ${card.bloomLevel}</p>` : ''}
@@ -61,7 +62,7 @@
                             ${card.skills ? `<p class="skill"><strong>Skills:</strong></p>
                             <ul>
                                 ${card.skills.map(skill => `
-                                    <li>${skill.name}: Cost - ${skill.cost || 'N/A'}, Damage - ${skill.dmg || 'N/A'}</li>
+                                    <li>${skill.name}: Cost - ${skill.cost || 'N/A'}, Dmg - ${skill.dmg || 'N/A'}</li>
                                 `).join('')}
                             </ul>` : ''}
                         `;
