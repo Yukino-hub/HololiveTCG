@@ -9,6 +9,14 @@
             font-family: Arial, sans-serif;
             margin: 20px;
         }
+        #search-container {
+            margin-bottom: 20px;
+        }
+        #search-input {
+            padding: 10px;
+            width: 100%;
+            max-width: 300px;
+        }
         #card-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -34,6 +42,9 @@
 </head>
 <body>
     <h1>Hololive TCG Card Database</h1>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search by card number...">
+    </div>
     <div id="card-grid"></div>
 
     <script>
@@ -42,31 +53,44 @@
                 .then(response => response.json())
                 .then(data => {
                     const cardGrid = document.getElementById('card-grid');
-                    data.forEach(card => {
-                        const cardElement = document.createElement('div');
-                        cardElement.classList.add('card');
-                        cardElement.innerHTML = `
-                            <img src="${card.image}" alt="${card.name}">
-                            <h3>${card.name} (#${card.cardNumber})</h3>
-                            <p><strong>Type:</strong> ${card.type}</p>
-                            ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
-                            ${card.buzz ? `<p><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
-                            <p><strong>Color:</strong> ${card.color}</p>
-                            ${card.rarity ? `<p><strong>Rarity:</strong> ${card.rarity}</p>` : ''}
-                            ${card.bloomLevel ? `<p><strong>Bloom Level:</strong> ${card.bloomLevel}</p>` : ''}
-                            ${card.hp ? `<p><strong>HP:</strong> ${card.hp}</p>` : ''}
-                            ${card.oshiSkill ? `<p class="skill"><strong>Oshi Skill:</strong> ${card.oshiSkill.name} (Power: ${card.oshiSkill.power})</p>
-                            <p>${card.oshiSkill.description}</p>` : ''}
-                            ${card.spOshiSkill ? `<p class="skill"><strong>SP Oshi Skill:</strong> ${card.spOshiSkill.name} (Power: ${card.spOshiSkill.power})</p>
-                            <p>${card.spOshiSkill.description}</p>` : ''}
-                            ${card.skills ? `<p class="skill"><strong>Skills:</strong></p>
-                            <ul>
-                                ${card.skills.map(skill => `
-                                    <li>${skill.name}: Cost - ${skill.cost || 'N/A'}, Dmg - ${skill.dmg || 'N/A'}</li>
-                                `).join('')}
-                            </ul>` : ''}
-                        `;
-                        cardGrid.appendChild(cardElement);
+                    const searchInput = document.getElementById('search-input');
+
+                    function displayCards(cards) {
+                        cardGrid.innerHTML = '';
+                        cards.forEach(card => {
+                            const cardElement = document.createElement('div');
+                            cardElement.classList.add('card');
+                            cardElement.innerHTML = `
+                                <img src="${card.image}" alt="${card.name}">
+                                <h3>${card.name} (#${card.cardNumber})</h3>
+                                <p><strong>Type:</strong> ${card.type}</p>
+                                ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
+                                ${card.buzz ? `<p><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
+                                <p><strong>Color:</strong> ${card.color}</p>
+                                ${card.rarity ? `<p><strong>Rarity:</strong> ${card.rarity}</p>` : ''}
+                                ${card.bloomLevel ? `<p><strong>Bloom Level:</strong> ${card.bloomLevel}</p>` : ''}
+                                ${card.hp ? `<p><strong>HP:</strong> ${card.hp}</p>` : ''}
+                                ${card.oshiSkill ? `<p class="skill"><strong>Oshi Skill:</strong> ${card.oshiSkill.name} (Power: ${card.oshiSkill.power})</p>
+                                <p>${card.oshiSkill.description}</p>` : ''}
+                                ${card.spOshiSkill ? `<p class="skill"><strong>SP Oshi Skill:</strong> ${card.spOshiSkill.name} (Power: ${card.spOshiSkill.power})</p>
+                                <p>${card.spOshiSkill.description}</p>` : ''}
+                                ${card.skills ? `<p class="skill"><strong>Skills:</strong></p>
+                                <ul>
+                                    ${card.skills.map(skill => `
+                                        <li>${skill.name}: Cost - ${skill.cost || 'N/A'}, DMG - ${skill.dmg || 'N/A'}</li>
+                                    `).join('')}
+                                </ul>` : ''}
+                            `;
+                            cardGrid.appendChild(cardElement);
+                        });
+                    }
+
+                    displayCards(data);
+
+                    searchInput.addEventListener('input', function() {
+                        const searchValue = searchInput.value.toLowerCase();
+                        const filteredCards = data.filter(card => card.cardNumber.toLowerCase().includes(searchValue));
+                        displayCards(filteredCards);
                     });
                 })
                 .catch(error => console.error('Error loading card data:', error));
