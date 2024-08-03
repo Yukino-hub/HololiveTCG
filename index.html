@@ -49,11 +49,11 @@
                             <img src="${card.image}" alt="${card.name}">
                             <h3>${card.name} (#${card.cardNumber})</h3>
                             <p><strong>Type:</strong> ${card.type}</p>
-                            <p><strong>Lives:</strong> ${card.lives || 'N/A'}</p>
+                            ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
                             <p><strong>Color:</strong> ${card.color}</p>
-                            <p><strong>Rarity:</strong> ${card.rarity || 'N/A'}</p>
-                            <p><strong>Bloom Level:</strong> ${card.bloomLevel || 'N/A'}</p>
-                            <p><strong>HP:</strong> ${card.hp || 'N/A'}</p>
+                            ${card.rarity ? `<p><strong>Rarity:</strong> ${card.rarity}</p>` : ''}
+                            ${card.bloomLevel ? `<p><strong>Bloom Level:</strong> ${card.bloomLevel}</p>` : ''}
+                            ${card.hp ? `<p><strong>HP:</strong> ${card.hp}</p>` : ''}
                             ${card.oshiSkill ? `<p class="skill"><strong>Oshi Skill:</strong> ${card.oshiSkill.name} (Power: ${card.oshiSkill.power})</p>
                             <p>${card.oshiSkill.description}</p>` : ''}
                             ${card.spOshiSkill ? `<p class="skill"><strong>SP Oshi Skill:</strong> ${card.spOshiSkill.name} (Power: ${card.spOshiSkill.power})</p>
