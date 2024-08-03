@@ -9,7 +9,6 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            box-sizing: border-box; /* Ensure padding and borders are included in element width */
         }
         header {
             background: #f4f4f4;
@@ -27,33 +26,26 @@
         }
         .container {
             padding: 20px;
-            width: 100%; /* Ensure container takes up full width */
-            max-width: none; /* Remove any max-width constraints */
-            box-sizing: border-box; /* Include padding in width calculations */
-            text-align: center; /* Center-align content in the container */
+            margin: auto;
         }
-        .search-bar {
-            width: 100%;
-            max-width: 600px; /* Adjust the maximum width as needed */
-            margin: 0 auto; /* Center the search bar horizontally */
-            padding: 15px;
-            box-sizing: border-box;
-            font-size: 16px; /* Increase font size for better readability */
-            margin-bottom: 40px; /* Add space below the search bar */
+        h2, h3 {
+            color: #333;
         }
-        .card-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-            margin: 0 auto; /* Center grid within container */
+        ol, ul {
+            padding-left: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
         }
         .card {
             border: 1px solid #ddd;
             padding: 10px;
+            margin: 10px;
             border-radius: 5px;
             box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-            text-align: center;
-            background: #fff;
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
         }
         .card img {
             max-width: 100%;
@@ -62,16 +54,28 @@
         .card .details {
             margin-top: 10px;
         }
-        .card .buzz,
-        .card .limited {
+        .buzz, .limited {
             color: red;
             font-weight: bold;
         }
-        .card .extraEffect,
-        .card .collabEffect,
-        .card .ability {
-            margin-top: 10px;
-            font-style: italic;
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #searchBar {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #seriesFilter {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #cardList {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
     </style>
 </head>
@@ -81,15 +85,25 @@
         <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a></p>
     </header>
     <div class="container">
-        <!-- Search bar -->
-        <input type="text" id="searchBar" placeholder="Search by Card Number..." class="search-bar">
-        <div id="cardList" class="card-grid">
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Search by Card Number...">
+            <br><br>
+            <select id="seriesFilter">
+                <option value="">Select Series</option>
+                <option value="hSD01">hSD01</option>
+                <option value="hBP01">hBP01</option>
+                <option value="hYS01">hYS01</option>
+                <option value="hPR">hPR</option>
+            </select>
+        </div>
+        <div id="cardList">
             <!-- Cards will be displayed here -->
         </div>
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const searchBar = document.getElementById('searchBar');
+            const seriesFilter = document.getElementById('seriesFilter');
             const cardList = document.getElementById('cardList');
 
             function displayCards(filteredCards) {
@@ -118,21 +132,21 @@
                                 <div>
                                     <p><strong>Oshi Skill Name:</strong> ${card.oshiSkill.name}</p>
                                     <p><strong>Power:</strong> ${card.oshiSkill.power}</p>
-                                    ${card.oshiSkill.description ? `<p><strong>Description:</strong> ${card.oshiSkill.description}</p>` : ''}
+                                    <p><strong>Description:</strong> ${card.oshiSkill.description}</p>
                                 </div>
                             ` : ''}
                             ${card.spOshiSkill ? `
                                 <div>
                                     <p><strong>SP Oshi Skill Name:</strong> ${card.spOshiSkill.name}</p>
                                     <p><strong>Power:</strong> ${card.spOshiSkill.power}</p>
-                                    ${card.spOshiSkill.description ? `<p><strong>Description:</strong> ${card.spOshiSkill.description}</p>` : ''}
+                                    <p><strong>Description:</strong> ${card.spOshiSkill.description}</p>
                                 </div>
                             ` : ''}
+                            ${card.ability ? `<p><strong>Ability:</strong> ${card.ability}</p>` : ''}
                             ${card.buzz ? `<p class="buzz"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
                             ${card.limited ? `<p class="limited"><strong>Limited:</strong> ${card.limited}</p>` : ''}
-                            ${card.extraEffect ? `<p class="extraEffect"><strong>Extra Effect:</strong> ${card.extraEffect}</p>` : ''}
-                            ${card.collabEffect ? `<p class="collabEffect"><strong>Collab Effect:</strong> ${card.collabEffect}</p>` : ''}
-                            ${card.ability ? `<p class="ability"><strong>Ability:</strong> ${card.ability}</p>` : ''}
+                            ${card.extraEffect ? `<p><strong>Extra Effect:</strong> ${card.extraEffect}</p>` : ''}
+                            ${card.collabEffect ? `<p><strong>Collab Effect:</strong> ${card.collabEffect}</p>` : ''}
                         </div>
                     `;
                     cardList.appendChild(cardElement);
@@ -141,17 +155,25 @@
 
             function filterCards() {
                 const searchTerm = searchBar.value.toLowerCase();
-                const filteredCards = cards.filter(card => card.cardNumber.toLowerCase().includes(searchTerm));
+                const seriesTerm = seriesFilter.value;
+                const filteredCards = cards.filter(card => {
+                    const matchesSearch = card.cardNumber.toLowerCase().includes(searchTerm);
+                    const matchesSeries = !seriesTerm || card.cardNumber.startsWith(seriesTerm);
+                    return matchesSearch && matchesSeries;
+                });
                 displayCards(filteredCards);
             }
 
             searchBar.addEventListener('input', filterCards);
+            seriesFilter.addEventListener('change', filterCards);
 
-            // Fetch card data from external file
-            fetch('cards.json')
-                .then(response => response.json())
-                .then(data => {
-                    window.cards = data; // Make data accessible globally
+            // Fetch card data from external files
+            const cardFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json'];
+            window.cards = [];
+
+            Promise.all(cardFiles.map(file => fetch(file).then(response => response.json())))
+                .then(dataArrays => {
+                    dataArrays.forEach(data => window.cards.push(...data));
                     displayCards(cards); // Display all cards initially
                 })
                 .catch(error => console.error('Error loading card data:', error));
