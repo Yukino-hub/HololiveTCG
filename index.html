@@ -223,7 +223,7 @@
                     cardElement.innerHTML = `
                         <img src="${card.image}" alt="${card.name}">
                         <p><strong>${card.cardNumber}</strong></p>
-                        <p>${card.name}</p>
+                        <p><strong>${card.name}/strong></p>
                     `;
                     cardElement.onclick = () => openModal(card);
                     cardList.appendChild(cardElement);
