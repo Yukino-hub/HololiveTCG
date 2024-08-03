@@ -155,12 +155,12 @@
                 <p id="modalCardNumber">Card Number: <span id="modalCardNumberText"></span></p>
                 <p id="modalRarity">Rarity: <span id="modalRarityText"></span></p>
                 <p id="modalBloomLevel">Bloom Level: <span id="modalBloomLevelText"></span></p>
-                <p id="modalHp">HP: <span id="modalHpText"></span></p>
+                <p id="modalHp" class="hidden">HP: <span id="modalHpText"></span></p>
                 <p id="modalColor">Color: <span id="modalColorText"></span></p>
-                <p id="modalLives">Lives: <span id="modalLivesText"></span></p>
-                <p id="modalAbility">Ability: <span id="modalAbilityText"></span></p>
+                <p id="modalLives" class="hidden">Lives: <span id="modalLivesText"></span></p>
+                <p id="modalAbility" class="hidden">Ability: <span id="modalAbilityText"></span></p>
                 <p id="modalBuzz">Buzz: <span id="modalBuzzText"></span></p>
-                <p id="modalType">Type: <span id="modalTypeText"></span></p>
+                <p id="modalType" class="hidden">Type: <span id="modalTypeText"></span></p>
                 <div id="modalOshiSkill" class="hidden">
                     <h3>Oshi Skill</h3>
                     <p id="modalOshiSkillName"></p>
@@ -174,6 +174,8 @@
                 <div class="skills hidden" id="modalSkills">
                     <!-- Skills will be populated here -->
                 </div>
+                <p id="modalCollabEffect" class="hidden">Collab Effect: <span id="modalCollabEffectText"></span></p>
+                <p id="modalExtraEffect" class="hidden">Extra Effect: <span id="modalExtraEffectText"></span></p>
             </div>
         </div>
     </div>
@@ -202,6 +204,10 @@
             const modalSpOshiSkillName = document.getElementById('modalSpOshiSkillName');
             const modalSpOshiSkillDescription = document.getElementById('modalSpOshiSkillDescription');
             const modalSkills = document.getElementById('modalSkills');
+            const modalCollabEffect = document.getElementById('modalCollabEffect');
+            const modalCollabEffectText = document.getElementById('modalCollabEffectText');
+            const modalExtraEffect = document.getElementById('modalExtraEffect');
+            const modalExtraEffectText = document.getElementById('modalExtraEffectText');
 
             function openModal(card) {
                 modalImage.src = card.image;
@@ -213,8 +219,14 @@
                 modalColorText.textContent = card.color || '';
                 modalLivesText.textContent = card.lives || '';
                 modalAbilityText.textContent = card.ability || '';
-                modalBuzzText.textContent = card.buzz ? 'Yes' : 'No';
-                modalTypeText.textContent = card.type || 'N/A';
+                modalBuzzText.textContent = card.buzz || '';
+                modalTypeText.textContent = card.type || '';
+
+                // Hide elements if their values are empty
+                document.getElementById('modalHp').classList.toggle('hidden', !card.hp);
+                document.getElementById('modalLives').classList.toggle('hidden', !card.lives);
+                document.getElementById('modalAbility').classList.toggle('hidden', !card.ability);
+                document.getElementById('modalType').classList.toggle('hidden', !card.type);
 
                 // Oshi Skill
                 if (card.oshiSkill) {
@@ -251,6 +263,22 @@
                     modalSkills.classList.add('hidden');
                 }
 
+                // Collab Effect
+                if (card.collabEffect) {
+                    modalCollabEffect.classList.remove('hidden');
+                    modalCollabEffectText.textContent = card.collabEffect || '';
+                } else {
+                    modalCollabEffect.classList.add('hidden');
+                }
+
+                // Extra Effect
+                if (card.extraEffect) {
+                    modalExtraEffect.classList.remove('hidden');
+                    modalExtraEffectText.textContent = card.extraEffect || '';
+                } else {
+                    modalExtraEffect.classList.add('hidden');
+                }
+
                 modal.style.display = 'flex';
             }
 
@@ -268,14 +296,6 @@
                     cardElement.innerHTML = `
                         <h3>${card.name}</h3>
                         <img src="${card.image}" alt="${card.name}">
-                        <div class="details">
-                            <p><strong>Card Number:</strong> ${card.cardNumber}</p>
-                            <p><strong>Rarity:</strong> ${card.rarity || 'N/A'}</p>
-                            ${card.bloomLevel ? `<p><strong>Bloom Level:</strong> ${card.bloomLevel}</p>` : ''}
-                            ${card.hp ? `<p><strong>HP:</strong> ${card.hp}</p>` : ''}
-                            ${card.color ? `<p><strong>Color:</strong> ${card.color}</p>` : ''}
-                            ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
-                        </div>
                     `;
                     cardElement.addEventListener('click', () => openModal(card));
                     cardList.appendChild(cardElement);
