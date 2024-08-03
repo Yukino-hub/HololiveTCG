@@ -44,7 +44,7 @@
             margin-bottom: 10px;
             border-radius: 5px;
             box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-            max-width: 200px; /* Adjust the width as needed */
+            max-width: 150px; /* Reduced width */
             display: inline-block; /* Keep cards inline */
             vertical-align: top; /* Align cards vertically */
         }
@@ -55,8 +55,8 @@
         .card .details {
             margin-top: 10px;
         }
-        .card .limited,
-        .card .buzz {
+        .card .buzz,
+        .card .limited {
             color: red;
             font-weight: bold;
         }
@@ -117,6 +117,9 @@
                             ` : ''}
                             ${card.buzz ? `<p class="buzz"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
                             ${card.limited ? `<p class="limited"><strong>Limited:</strong> ${card.limited}</p>` : ''}
+                            ${card.ability ? `<p><strong>Ability:</strong> ${card.ability}</p>` : ''}
+                            ${card.extraEffect ? `<p><strong>Extra Effect:</strong> ${card.extraEffect}</p>` : ''}
+                            ${card.collabEffect ? `<p><strong>Collab Effect:</strong> ${card.collabEffect}</p>` : ''}
                         </div>
                     `;
                     cardList.appendChild(cardElement);
