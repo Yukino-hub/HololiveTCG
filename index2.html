@@ -105,14 +105,14 @@
                                 <div>
                                     <p><strong>Oshi Skill Name:</strong> ${card.oshiSkill.name}</p>
                                     <p><strong>Power:</strong> ${card.oshiSkill.power}</p>
-                                    <p><strong>Description:</strong> ${card.oshiSkill.description}</p>
+                                    ${card.oshiSkill.description ? `<p><strong>Description:</strong> ${card.oshiSkill.description}</p>` : ''}
                                 </div>
                             ` : ''}
                             ${card.spOshiSkill ? `
                                 <div>
                                     <p><strong>SP Oshi Skill Name:</strong> ${card.spOshiSkill.name}</p>
                                     <p><strong>Power:</strong> ${card.spOshiSkill.power}</p>
-                                    <p><strong>Description:</strong> ${card.spOshiSkill.description}</p>
+                                    ${card.spOshiSkill.description ? `<p><strong>Description:</strong> ${card.spOshiSkill.description}</p>` : ''}
                                 </div>
                             ` : ''}
                             ${card.buzz ? `<p class="buzz"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
@@ -142,3 +142,4 @@
         });
     </script>
 </body>
+</html>
