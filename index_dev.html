@@ -69,18 +69,35 @@
             overflow: auto;
             background-color: rgb(0,0,0);
             background-color: rgba(0,0,0,0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .modal-content {
-            margin: auto;
-            display: block;
+            display: flex;
+            background-color: #fff;
             max-width: 80%;
             max-height: 80%;
+            border-radius: 10px;
+        }
+        .modal-img {
+            flex: 1;
+            max-width: 40%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .modal-img img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
         }
         .modal-details {
-            color: #fff;
-            text-align: center;
-            margin: 20px;
-            font-size: 18px;
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .modal-details h2 {
+            margin-top: 0;
         }
         .modal .close {
             position: absolute;
@@ -113,9 +130,13 @@
     </div>
     <!-- The Modal -->
     <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-img">
+                <img id="img01">
+            </div>
+            <div class="modal-details" id="modalDetails"></div>
+        </div>
         <span class="close">&times;</span>
-        <img class="modal-content" id="img01">
-        <div class="modal-details" id="modalDetails"></div>
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -174,14 +195,24 @@
 
             function filterCards() {
                 const searchTerm = searchBar.value.toLowerCase();
-                const filteredCards = cards.filter(card => card.cardNumber.toLowerCase().includes(searchTerm));
+                const selectedSeries = document.getElementById('seriesDropdown').value;
+                let filteredCards = cards;
+
+                if (searchTerm) {
+                    filteredCards = filteredCards.filter(card => card.cardNumber.toLowerCase().includes(searchTerm));
+                }
+
+                if (selectedSeries && selectedSeries !== 'all') {
+                    filteredCards = filteredCards.filter(card => card.cardNumber.startsWith(selectedSeries));
+                }
+
                 displayCards(filteredCards);
             }
 
             searchBar.addEventListener('input', filterCards);
 
-            window.openModal = function(cardNumber, imgSrc, name, rarity, bloomLevel, hp, color, lives, skills, oshiSkill, spOshiSkill, buzz, limited, extraEffect, collabEffect) {
-                modal.style.display = "block";
+            function openModal(cardNumber, imgSrc, name, rarity, bloomLevel, hp, color, lives, skills, oshiSkill, spOshiSkill, buzz, limited, extraEffect, collabEffect) {
+                modal.style.display = "flex";
                 modalImg.src = imgSrc;
                 modalDetails.innerHTML = `
                     <h2>${name}</h2>
