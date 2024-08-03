@@ -3,60 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hololive TCG Card Index</title>
+    <title>Hololive TCG - Card Index</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #f4f4f4;
         }
         header {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            width: 100%;
+            background: #f4f4f4;
+            padding: 20px;
             text-align: center;
-            position: fixed;
-            top: 0;
-            left: 0;
-            z-index: 1000;
+            border-bottom: 2px solid #ddd;
+        }
+        header a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        header a:hover {
+            text-decoration: underline;
         }
         .container {
-            margin-top: 60px;
             padding: 20px;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            margin: auto;
         }
-        select {
-            padding: 10px;
-            font-size: 16px;
+        h2, h3 {
+            color: #333;
+        }
+        ol, ul {
+            padding-left: 20px;
+        }
+        .section {
             margin-bottom: 20px;
         }
-        .card-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
         .card {
-            width: 150px;
-            height: 200px;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            overflow: hidden;
-            position: relative;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
             cursor: pointer;
         }
         .card img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+            max-width: 100%;
+            height: auto; /* Maintain aspect ratio */
+        }
+        .card .details {
+            margin-top: 10px;
+        }
+        .buzz, .limited {
+            color: red;
+            font-weight: bold;
+        }
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #searchBar {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #seriesFilter {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #cardList {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
         .modal {
             display: none;
@@ -99,26 +119,34 @@
         .modal-content .details .skills h3 {
             margin-bottom: 10px;
         }
-        .hidden {
+        .modal-content .hidden {
             display: none;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Hololive TCG Card Index</h1>
-        <a href="index.html">Card List</a>
+        <h1>Hololive TCG - Card Index</h1>
+        <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a></p>
     </header>
     <div class="container">
-        <select id="seriesFilter">
-            <option value="">Select Series</option>
-            <option value="hPR">hPR</option>
-            <option value="hBP01">hBP01</option>
-            <option value="hSD01">hSD01</option>
-            <option value="hYS01">hYS01</option>
-        </select>
-        <div class="card-grid" id="cardGrid"></div>
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Search by Card Number...">
+            <br><br>
+            <select id="seriesFilter">
+                <option value="">Select Series</option>
+                <option value="hSD01">hSD01</option>
+                <option value="hBP01">hBP01</option>
+                <option value="hYS01">hYS01</option>
+                <option value="hPR">hPR</option>
+            </select>
+        </div>
+        <div id="cardList">
+            <!-- Cards will be displayed here -->
+        </div>
     </div>
+
+    <!-- Modal -->
     <div id="modal" class="modal">
         <div class="modal-content">
             <img id="modalImage" src="" alt="">
@@ -129,6 +157,8 @@
                 <p id="modalBloomLevel">Bloom Level: <span id="modalBloomLevelText"></span></p>
                 <p id="modalHp">HP: <span id="modalHpText"></span></p>
                 <p id="modalColor">Color: <span id="modalColorText"></span></p>
+                <p id="modalLives">Lives: <span id="modalLivesText"></span></p>
+                <p id="modalAbility">Ability: <span id="modalAbilityText"></span></p>
                 <p id="modalBuzz">Buzz: <span id="modalBuzzText"></span></p>
                 <p id="modalType">Type: <span id="modalTypeText"></span></p>
                 <div id="modalOshiSkill" class="hidden">
@@ -147,9 +177,12 @@
             </div>
         </div>
     </div>
+
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const cardGrid = document.getElementById('cardGrid');
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchBar = document.getElementById('searchBar');
+            const seriesFilter = document.getElementById('seriesFilter');
+            const cardList = document.getElementById('cardList');
             const modal = document.getElementById('modal');
             const modalImage = document.getElementById('modalImage');
             const modalName = document.getElementById('modalName');
@@ -158,6 +191,8 @@
             const modalBloomLevelText = document.getElementById('modalBloomLevelText');
             const modalHpText = document.getElementById('modalHpText');
             const modalColorText = document.getElementById('modalColorText');
+            const modalLivesText = document.getElementById('modalLivesText');
+            const modalAbilityText = document.getElementById('modalAbilityText');
             const modalBuzzText = document.getElementById('modalBuzzText');
             const modalTypeText = document.getElementById('modalTypeText');
             const modalOshiSkill = document.getElementById('modalOshiSkill');
@@ -176,6 +211,8 @@
                 modalBloomLevelText.textContent = card.bloomLevel || '';
                 modalHpText.textContent = card.hp || '';
                 modalColorText.textContent = card.color || '';
+                modalLivesText.textContent = card.lives || '';
+                modalAbilityText.textContent = card.ability || '';
                 modalBuzzText.textContent = card.buzz ? 'Yes' : 'No';
                 modalTypeText.textContent = card.type || 'N/A';
 
@@ -198,62 +235,77 @@
                 }
 
                 // Skills
-                modalSkills.innerHTML = '';
-                if (card.skills && card.skills.length) {
-                    modalSkills.classList.remove('hidden');
+                if (card.skills && card.skills.length > 0) {
+                    modalSkills.innerHTML = '<h3>Skills</h3>';
                     card.skills.forEach(skill => {
                         const skillElement = document.createElement('div');
                         skillElement.innerHTML = `
-                            <p><strong>Name:</strong> ${skill.name}</p>
-                            <p><strong>Damage:</strong> ${skill.dmg}</p>
+                            <p><strong>Skill Name:</strong> ${skill.name}</p>
+                            <p><strong>DMG:</strong> ${skill.dmg || 'N/A'}</p>
                             ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
                         `;
                         modalSkills.appendChild(skillElement);
                     });
+                    modalSkills.classList.remove('hidden');
                 } else {
                     modalSkills.classList.add('hidden');
                 }
 
-                // Show the modal
                 modal.style.display = 'flex';
             }
 
-            function closeModal() {
-                modal.style.display = 'none';
-            }
-
-            document.addEventListener('click', event => {
+            document.addEventListener('click', function(event) {
                 if (event.target === modal) {
-                    closeModal();
+                    modal.style.display = 'none';
                 }
             });
 
-            function loadCards(series) {
-                fetch(`${series}.json`)
-                    .then(response => response.json())
-                    .then(cards => {
-                        cardGrid.innerHTML = '';
-                        cards.forEach(card => {
-                            const cardElement = document.createElement('div');
-                            cardElement.className = 'card';
-                            cardElement.innerHTML = `<img src="${card.image}" alt="${card.name}">`;
-                            cardElement.addEventListener('click', () => openModal(card));
-                            cardGrid.appendChild(cardElement);
-                        });
-                    });
+            function displayCards(filteredCards) {
+                cardList.innerHTML = '';
+                filteredCards.forEach(card => {
+                    const cardElement = document.createElement('div');
+                    cardElement.className = 'card';
+                    cardElement.innerHTML = `
+                        <h3>${card.name}</h3>
+                        <img src="${card.image}" alt="${card.name}">
+                        <div class="details">
+                            <p><strong>Card Number:</strong> ${card.cardNumber}</p>
+                            <p><strong>Rarity:</strong> ${card.rarity || 'N/A'}</p>
+                            ${card.bloomLevel ? `<p><strong>Bloom Level:</strong> ${card.bloomLevel}</p>` : ''}
+                            ${card.hp ? `<p><strong>HP:</strong> ${card.hp}</p>` : ''}
+                            ${card.color ? `<p><strong>Color:</strong> ${card.color}</p>` : ''}
+                            ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
+                        </div>
+                    `;
+                    cardElement.addEventListener('click', () => openModal(card));
+                    cardList.appendChild(cardElement);
+                });
             }
 
-            document.getElementById('seriesFilter').addEventListener('change', (event) => {
-                const selectedSeries = event.target.value;
-                if (selectedSeries) {
-                    loadCards(selectedSeries);
-                } else {
-                    loadCards('hPR'); // Default series or handle as needed
-                }
-            });
+            function filterCards() {
+                const searchTerm = searchBar.value.toLowerCase();
+                const seriesTerm = seriesFilter.value;
+                const filteredCards = cards.filter(card => {
+                    const matchesSearch = card.cardNumber.toLowerCase().includes(searchTerm);
+                    const matchesSeries = !seriesTerm || card.cardNumber.startsWith(seriesTerm);
+                    return matchesSearch && matchesSeries;
+                });
+                displayCards(filteredCards);
+            }
 
-            // Load all cards by default
-            loadCards('hPR'); // Change to your default series or load all
+            searchBar.addEventListener('input', filterCards);
+            seriesFilter.addEventListener('change', filterCards);
+
+            // Fetch card data from external files
+            const cardFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json'];
+            window.cards = [];
+
+            Promise.all(cardFiles.map(file => fetch(file).then(response => response.json())))
+                .then(dataArrays => {
+                    dataArrays.forEach(data => window.cards.push(...data));
+                    displayCards(cards); // Display all cards initially
+                })
+                .catch(error => console.error('Error loading card data:', error));
         });
     </script>
 </body>
