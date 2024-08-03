@@ -162,7 +162,7 @@
                     cardElement.className = 'card';
                     cardElement.innerHTML = `
                         <h3>${card.name}</h3>
-                        <img src="${card.image}" alt="${card.name}" onclick="openModal('${card.image}', '${card.cardNumber}', '${card.rarity || 'N/A'}', '${card.bloomLevel || 'N/A'}', '${card.hp || 'N/A'}', '${card.color || 'N/A'}', '${card.lives || 'N/A'}', '${card.ability || 'N/A'}', '${card.buzz || ''}', '${card.type || 'N/A'}', '${card.collabEffect || ''}', '${card.extraEffect || ''}')">
+                        <img src="${card.image}" alt="${card.name}" onclick="openModal('${card.image}', '${card.cardNumber || 'N/A'}', '${card.rarity || 'N/A'}', '${card.bloomLevel || 'N/A'}', '${card.hp || 'N/A'}', '${card.color || 'N/A'}', '${card.lives || 'N/A'}', '${card.ability || 'N/A'}', '${card.buzz || ''}', '${card.type || 'N/A'}', '${card.collabEffect || ''}', '${card.extraEffect || ''}')">
                     `;
                     cardList.appendChild(cardElement);
                 });
@@ -179,7 +179,7 @@
                 displayCards(filteredCards);
             }
 
-            function openModal(image, cardNumber, rarity, bloomLevel, hp, color, lives, ability, buzz, type, collabEffect, extraEffect) {
+            window.openModal = function(image, cardNumber, rarity, bloomLevel, hp, color, lives, ability, buzz, type, collabEffect, extraEffect) {
                 modalImage.src = image;
                 modalText.innerHTML = `
                     ${cardNumber ? `<p><strong>Card Number:</strong> ${cardNumber}</p>` : ''}
@@ -195,7 +195,7 @@
                     ${extraEffect ? `<p><strong>Extra Effect:</strong> ${extraEffect}</p>` : ''}
                 `;
                 modal.style.display = 'flex';
-            }
+            };
 
             function closeModal() {
                 modal.style.display = 'none';
