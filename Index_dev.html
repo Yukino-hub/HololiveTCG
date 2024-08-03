@@ -9,23 +9,30 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f9f9f9;
         }
         header {
-            background: #f4f4f4;
+            background: #fff;
             padding: 20px;
             text-align: center;
             border-bottom: 2px solid #ddd;
+        }
+        header h1 {
+            margin: 0;
+            color: #333;
         }
         header a {
             color: #007bff;
             text-decoration: none;
             margin: 0 15px;
+            font-weight: bold;
         }
         header a:hover {
             text-decoration: underline;
         }
         .container {
             padding: 20px;
+            max-width: 1200px;
             margin: auto;
         }
         .search-container {
@@ -33,34 +40,42 @@
             margin-bottom: 20px;
         }
         #searchBar {
-            width: 50%;
+            width: 100%;
+            max-width: 500px;
             padding: 10px;
             font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
         }
         #seriesFilter {
             margin-top: 20px;
             padding: 10px;
             font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
         }
         #cardList {
             display: flex;
             flex-wrap: wrap;
+            gap: 20px;
             justify-content: center;
         }
         .card {
             border: 1px solid #ddd;
             padding: 10px;
-            margin: 10px;
             border-radius: 5px;
             box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
             max-width: 200px;
-            display: inline-block;
-            vertical-align: top;
             cursor: pointer;
+            background: #fff;
+            transition: transform 0.2s;
         }
         .card img {
             max-width: 100%;
             height: auto; /* Maintain aspect ratio */
+        }
+        .card:hover {
+            transform: scale(1.05);
         }
         .modal {
             display: none;
@@ -72,6 +87,7 @@
             background: rgba(0, 0, 0, 0.5);
             justify-content: center;
             align-items: center;
+            z-index: 1000;
         }
         .modal-content {
             background: #fff;
@@ -81,8 +97,9 @@
             width: 90%;
             display: flex;
             flex-direction: row;
-            align-items: center;
+            align-items: flex-start;
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            position: relative;
         }
         .modal-content img {
             max-width: 200px;
@@ -112,18 +129,28 @@
         .hidden {
             display: none;
         }
+        @media (max-width: 768px) {
+            .modal-content {
+                flex-direction: column;
+                align-items: center;
+            }
+            .modal-content img {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Hololive TCG - Card Index</h1>
-        <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a></p>
+        <p><a href="index.html" aria-label="Go to card list">Card List</a> | <a href="rules.html" aria-label="View game rules">View Game Rules</a></p>
     </header>
     <div class="container">
         <div class="search-container">
-            <input type="text" id="searchBar" placeholder="Search by Card Number...">
+            <input type="text" id="searchBar" placeholder="Search by Card Number..." aria-label="Search by Card Number">
             <br><br>
-            <select id="seriesFilter">
+            <select id="seriesFilter" aria-label="Select Series">
                 <option value="">Select Series</option>
                 <option value="hSD01">hSD01</option>
                 <option value="hBP01">hBP01</option>
@@ -131,28 +158,28 @@
                 <option value="hPR">hPR</option>
             </select>
         </div>
-        <div id="cardList">
+        <div id="cardList" role="list">
             <!-- Cards will be displayed here -->
         </div>
     </div>
 
-    <div id="modal" class="modal" onclick="closeModal(event)">
+    <div id="modal" class="modal" role="dialog" aria-labelledby="modalCardName" aria-hidden="true" onclick="closeModal(event)">
         <div class="modal-content" onclick="event.stopPropagation()">
-            <span class="modal-close" onclick="closeModal()">&times;</span>
-            <img id="modalImage" src="" alt="">
+            <span class="modal-close" onclick="closeModal()" aria-label="Close modal">&times;</span>
+            <img id="modalImage" src="" alt="Card image">
             <div id="modalText">
                 <h3 id="modalCardName"></h3>
-                <p id="modalCardNumberContainer"><strong>Card Number:</strong> <span id="modalCardNumber"></span></p>
-                <p id="modalRarityContainer"><strong>Rarity:</strong> <span id="modalRarity"></span></p>
-                <p id="modalBloomLevelContainer"><strong>Bloom Level:</strong> <span id="modalBloomLevel"></span></p>
-                <p id="modalHPContainer"><strong>HP:</strong> <span id="modalHP"></span></p>
-                <p id="modalColorContainer"><strong>Color:</strong> <span id="modalColor"></span></p>
-                <p id="modalLivesContainer"><strong>Lives:</strong> <span id="modalLives"></span></p>
-                <p id="modalAbilityContainer"><strong>Ability:</strong> <span id="modalAbility"></span></p>
-                <p id="modalBuzzContainer"><strong>Buzz:</strong> <span id="modalBuzz"></span></p>
-                <p id="modalTypeContainer"><strong>Type:</strong> <span id="modalType"></span></p>
-                <p id="modalCollabEffectContainer"><strong>Collab Effect:</strong> <span id="modalCollabEffect"></span></p>
-                <p id="modalExtraEffectContainer"><strong>Extra Effect:</strong> <span id="modalExtraEffect"></span></p>
+                <p id="modalCardNumberContainer" class="hidden"><strong>Card Number:</strong> <span id="modalCardNumber"></span></p>
+                <p id="modalRarityContainer" class="hidden"><strong>Rarity:</strong> <span id="modalRarity"></span></p>
+                <p id="modalBloomLevelContainer" class="hidden"><strong>Bloom Level:</strong> <span id="modalBloomLevel"></span></p>
+                <p id="modalHPContainer" class="hidden"><strong>HP:</strong> <span id="modalHP"></span></p>
+                <p id="modalColorContainer" class="hidden"><strong>Color:</strong> <span id="modalColor"></span></p>
+                <p id="modalLivesContainer" class="hidden"><strong>Lives:</strong> <span id="modalLives"></span></p>
+                <p id="modalAbilityContainer" class="hidden"><strong>Ability:</strong> <span id="modalAbility"></span></p>
+                <p id="modalBuzzContainer" class="hidden"><strong>Buzz:</strong> <span id="modalBuzz"></span></p>
+                <p id="modalTypeContainer" class="hidden"><strong>Type:</strong> <span id="modalType"></span></p>
+                <p id="modalCollabEffectContainer" class="hidden"><strong>Collab Effect:</strong> <span id="modalCollabEffect"></span></p>
+                <p id="modalExtraEffectContainer" class="hidden"><strong>Extra Effect:</strong> <span id="modalExtraEffect"></span></p>
                 <div id="modalOshiSkill" class="hidden">
                     <p><strong>Oshi Skill Name:</strong> <span id="modalOshiSkillName"></span></p>
                     <p><strong>Description:</strong> <span id="modalOshiSkillDescription"></span></p>
@@ -217,7 +244,7 @@
                     const cardElement = document.createElement('div');
                     cardElement.className = 'card';
                     cardElement.innerHTML = `
-                        <img src="${card.image}" alt="${card.name}">
+                        <img src="${card.image}" alt="${card.name} image">
                         <p><strong>${card.cardNumber}</strong></p>
                         <p>${card.name}</p>
                     `;
@@ -240,7 +267,7 @@
             }
 
             window.openModal = function(card) {
-                modalImage.src = card.image;
+                modalImage.src = card.image || '';
                 modalCardName.textContent = card.name || '';
                 modalCardNumber.textContent = card.cardNumber || '';
                 modalRarity.textContent = card.rarity || '';
@@ -303,11 +330,13 @@
                 }
 
                 modal.style.display = 'flex';
+                modal.setAttribute('aria-hidden', 'false');
             };
 
             window.closeModal = function(event) {
                 if (event) event.stopPropagation();
                 modal.style.display = 'none';
+                modal.setAttribute('aria-hidden', 'true');
             };
 
             function toggleVisibility(element, value) {
@@ -325,12 +354,17 @@
             const cardFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json'];
             window.cards = [];
 
-            Promise.all(cardFiles.map(file => fetch(file).then(response => response.json())))
-                .then(dataArrays => {
-                    dataArrays.forEach(data => window.cards.push(...data));
-                    displayCards(cards); // Display all cards initially
+            Promise.all(cardFiles.map(file => 
+                fetch(file).then(response => {
+                    if (!response.ok) throw new Error(`Network response was not ok for ${file}`);
+                    return response.json();
                 })
-                .catch(error => console.error('Error loading card data:', error));
+            ))
+            .then(dataArrays => {
+                dataArrays.forEach(data => window.cards.push(...data));
+                displayCards(cards); // Display all cards initially
+            })
+            .catch(error => console.error('Error loading card data:', error));
         });
     </script>
 </body>
