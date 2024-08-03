@@ -3,103 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hololive TCG Database</title>
+    <title>Hololive TCG Card Database</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            margin: 20px;
         }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        #search-bar {
-            margin: 20px 0;
-            text-align: center;
-        }
-        #search-bar input {
-            padding: 10px;
-            width: 80%;
-            max-width: 400px;
-        }
-        .card-grid {
-            display: flex;
-            flex-wrap: wrap;
+        #card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
             gap: 20px;
-            justify-content: center;
         }
         .card {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 200px;
-            text-align: center;
-            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
             padding: 10px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 8px;
         }
         .card h3 {
             margin: 10px 0;
         }
         .card p {
-            padding: 0 10px;
-            color: #777;
-        }
-        .card .skill {
-            font-weight: bold;
-            color: #333;
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
+    <h1>Hololive TCG Card Database</h1>
+    <div id="card-grid"></div>
 
-<header>
-    <h1>Hololive TCG Database</h1>
-</header>
-
-<div class="container">
-    <div id="search-bar">
-        <input type="text" placeholder="Search for cards...">
-    </div>
-
-    <div class="card-grid" id="card-grid">
-        <!-- Cards will be loaded here dynamically -->
-    </div>
-</div>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        fetch('cards.json')
-            .then(response => response.json())
-            .then(cards => {
-                const cardGrid = document.getElementById('card-grid');
-                cards.forEach(card => {
-                    const cardElement = document.createElement('div');
-                    cardElement.classList.add('card');
-                    cardElement.innerHTML = `
-                        <h3>${card.name} (#${card.cardNumber})</h3>
-                        <p><strong>Type:</strong> ${card.type}</p>
-                        <p><strong>Lives:</strong> ${card.lives}</p>
-                        <p class="skill"><strong>Oshi Skill:</strong> ${card.oshiSkillName} (Power: ${card.oshiSkillPower})</p>
-                        <p>${card.oshiSkillDescription}</p>
-                        <p class="skill"><strong>SP Oshi Skill:</strong> ${card.spOshiSkillName} (Power: ${card.spOshiSkillPower})</p>
-                        <p>${card.spOshiSkillDescription}</p>
-                    `;
-                    cardGrid.appendChild(cardElement);
-                });
-            })
-            .catch(error => console.error('Error loading cards:', error));
-    });
-</script>
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('cards.json')
+                .then(response => response.json())
+                .then(data => {
+                    const cardGrid = document.getElementById('card-grid');
+                    data.forEach(card => {
+                        const cardElement = document.createElement('div');
+                        cardElement.classList.add('card');
+                        cardElement.innerHTML = `
+                            <img src="${card.image}" alt="${card.name}">
+                            <h3>${card.name} (#${card.cardNumber})</h3>
+                            <p><strong>Type:</strong> ${card.type}</p>
+                            <p><strong>Lives:</strong> ${card.lives || 'N/A'}</p>
+                            <p><strong>Color:</strong> ${card.color}</p>
+                            <p><strong>Rarity:</strong> ${card.rarity || 'N/A'}</p>
+                            <p><strong>Bloom Level:</strong> ${card.bloomLevel || 'N/A'}</p>
+                            <p><strong>HP:</strong> ${card.hp || 'N/A'}</p>
+                            ${card.oshiSkill ? `<p class="skill"><strong>Oshi Skill:</strong> ${card.oshiSkill.name} (Power: ${card.oshiSkill.power})</p>
+                            <p>${card.oshiSkill.description}</p>` : ''}
+                            ${card.spOshiSkill ? `<p class="skill"><strong>SP Oshi Skill:</strong> ${card.spOshiSkill.name} (Power: ${card.spOshiSkill.power})</p>
+                            <p>${card.spOshiSkill.description}</p>` : ''}
+                            ${card.skills ? `<p class="skill"><strong>Skills:</strong></p>
+                            <ul>
+                                ${card.skills.map(skill => `
+                                    <li>${skill.name}: Cost - ${skill.cost || 'N/A'}, Damage - ${skill.dmg || 'N/A'}</li>
+                                `).join('')}
+                            </ul>` : ''}
+                        `;
+                        cardGrid.appendChild(cardElement);
+                    });
+                })
+                .catch(error => console.error('Error loading card data:', error));
+        });
+    </script>
 </body>
 </html>
