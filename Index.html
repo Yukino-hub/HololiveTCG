@@ -45,10 +45,7 @@
             width: 200px;
             text-align: center;
             margin-bottom: 20px;
-        }
-        .card img {
-            width: 100%;
-            border-bottom: 1px solid #ddd;
+            padding: 10px;
         }
         .card h3 {
             margin: 10px 0;
@@ -56,6 +53,10 @@
         .card p {
             padding: 0 10px;
             color: #777;
+        }
+        .card .skill {
+            font-weight: bold;
+            color: #333;
         }
     </style>
 </head>
@@ -85,9 +86,13 @@
                     const cardElement = document.createElement('div');
                     cardElement.classList.add('card');
                     cardElement.innerHTML = `
-                        <img src="${card.image}" alt="${card.name}">
-                        <h3>${card.name}</h3>
-                        <p>${card.description}</p>
+                        <h3>${card.name} (#${card.cardNumber})</h3>
+                        <p><strong>Type:</strong> ${card.type}</p>
+                        <p><strong>Lives:</strong> ${card.lives}</p>
+                        <p class="skill"><strong>Oshi Skill:</strong> ${card.oshiSkillName} (Power: ${card.oshiSkillPower})</p>
+                        <p>${card.oshiSkillDescription}</p>
+                        <p class="skill"><strong>SP Oshi Skill:</strong> ${card.spOshiSkillName} (Power: ${card.spOshiSkillPower})</p>
+                        <p>${card.spOshiSkillDescription}</p>
                     `;
                     cardGrid.appendChild(cardElement);
                 });
