@@ -106,6 +106,9 @@
             font-size: 24px;
             cursor: pointer;
         }
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -130,12 +133,34 @@
         </div>
     </div>
 
-    <div id="modal" class="modal">
-        <div class="modal-content">
+    <div id="modal" class="modal" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
             <span class="modal-close" onclick="closeModal()">&times;</span>
             <img id="modalImage" src="" alt="">
             <div id="modalText">
                 <!-- Modal text content will be populated here -->
+                <p><strong>Card Number:</strong> <span id="modalCardNumber"></span></p>
+                <p><strong>Rarity:</strong> <span id="modalRarity"></span></p>
+                <p><strong>Bloom Level:</strong> <span id="modalBloomLevel"></span></p>
+                <p><strong>HP:</strong> <span id="modalHP"></span></p>
+                <p><strong>Color:</strong> <span id="modalColor"></span></p>
+                <p><strong>Lives:</strong> <span id="modalLives"></span></p>
+                <p><strong>Ability:</strong> <span id="modalAbility"></span></p>
+                <p><strong>Buzz:</strong> <span id="modalBuzz"></span></p>
+                <p><strong>Type:</strong> <span id="modalType"></span></p>
+                <p><strong>Collab Effect:</strong> <span id="modalCollabEffect"></span></p>
+                <p><strong>Extra Effect:</strong> <span id="modalExtraEffect"></span></p>
+                <div id="modalOshiSkill" class="hidden">
+                    <p><strong>Oshi Skill Name:</strong> <span id="modalOshiSkillName"></span></p>
+                    <p><strong>Description:</strong> <span id="modalOshiSkillDescription"></span></p>
+                </div>
+                <div id="modalSpOshiSkill" class="hidden">
+                    <p><strong>SP Oshi Skill Name:</strong> <span id="modalSpOshiSkillName"></span></p>
+                    <p><strong>Description:</strong> <span id="modalSpOshiSkillDescription"></span></p>
+                </div>
+                <div id="modalSkills" class="hidden">
+                    <h3>Skills</h3>
+                </div>
             </div>
         </div>
     </div>
@@ -149,6 +174,28 @@
             const modalImage = document.getElementById('modalImage');
             const modalText = document.getElementById('modalText');
 
+            const modalCardNumber = document.getElementById('modalCardNumber');
+            const modalRarity = document.getElementById('modalRarity');
+            const modalBloomLevel = document.getElementById('modalBloomLevel');
+            const modalHP = document.getElementById('modalHP');
+            const modalColor = document.getElementById('modalColor');
+            const modalLives = document.getElementById('modalLives');
+            const modalAbility = document.getElementById('modalAbility');
+            const modalBuzz = document.getElementById('modalBuzz');
+            const modalType = document.getElementById('modalType');
+            const modalCollabEffect = document.getElementById('modalCollabEffect');
+            const modalExtraEffect = document.getElementById('modalExtraEffect');
+
+            const modalOshiSkill = document.getElementById('modalOshiSkill');
+            const modalOshiSkillName = document.getElementById('modalOshiSkillName');
+            const modalOshiSkillDescription = document.getElementById('modalOshiSkillDescription');
+
+            const modalSpOshiSkill = document.getElementById('modalSpOshiSkill');
+            const modalSpOshiSkillName = document.getElementById('modalSpOshiSkillName');
+            const modalSpOshiSkillDescription = document.getElementById('modalSpOshiSkillDescription');
+
+            const modalSkills = document.getElementById('modalSkills');
+
             function displayCards(filteredCards) {
                 cardList.innerHTML = '';
                 filteredCards.forEach(card => {
@@ -156,7 +203,7 @@
                     cardElement.className = 'card';
                     cardElement.innerHTML = `
                         <h3>${card.name}</h3>
-                        <img src="${card.image}" alt="${card.name}" onclick="openModal('${card.image}', '${card.cardNumber || 'N/A'}', '${card.rarity || 'N/A'}', '${card.bloomLevel || 'N/A'}', '${card.hp || 'N/A'}', '${card.color || 'N/A'}', '${card.lives || 'N/A'}', '${card.ability || 'N/A'}', '${card.buzz || ''}', '${card.type || 'N/A'}', '${card.collabEffect || ''}', '${card.extraEffect || ''}')">
+                        <img src="${card.image}" alt="${card.name}" onclick="openModal(${JSON.stringify(card).replace(/"/g, '&quot;')})">
                     `;
                     cardList.appendChild(cardElement);
                 });
@@ -173,25 +220,60 @@
                 displayCards(filteredCards);
             }
 
-            window.openModal = function(image, cardNumber, rarity, bloomLevel, hp, color, lives, ability, buzz, type, collabEffect, extraEffect) {
-                modalImage.src = image;
-                modalText.innerHTML = `
-                    ${cardNumber !== 'N/A' ? `<p><strong>Card Number:</strong> ${cardNumber}</p>` : ''}
-                    ${rarity !== 'N/A' ? `<p><strong>Rarity:</strong> ${rarity}</p>` : ''}
-                    ${bloomLevel !== 'N/A' ? `<p><strong>Bloom Level:</strong> ${bloomLevel}</p>` : ''}
-                    ${hp !== 'N/A' ? `<p><strong>HP:</strong> ${hp}</p>` : ''}
-                    ${color !== 'N/A' ? `<p><strong>Color:</strong> ${color}</p>` : ''}
-                    ${lives !== 'N/A' ? `<p><strong>Lives:</strong> ${lives}</p>` : ''}
-                    ${ability !== 'N/A' ? `<p><strong>Ability:</strong> ${ability}</p>` : ''}
-                    ${buzz !== '' ? `<p><strong>Buzz:</strong> ${buzz}</p>` : ''}
-                    ${type !== 'N/A' ? `<p><strong>Type:</strong> ${type}</p>` : ''}
-                    ${collabEffect !== '' ? `<p><strong>Collab Effect:</strong> ${collabEffect}</p>` : ''}
-                    ${extraEffect !== '' ? `<p><strong>Extra Effect:</strong> ${extraEffect}</p>` : ''}
-                `;
+            window.openModal = function(card) {
+                modalImage.src = card.image;
+                modalCardNumber.textContent = card.cardNumber || 'N/A';
+                modalRarity.textContent = card.rarity || 'N/A';
+                modalBloomLevel.textContent = card.bloomLevel || 'N/A';
+                modalHP.textContent = card.hp || 'N/A';
+                modalColor.textContent = card.color || 'N/A';
+                modalLives.textContent = card.lives || 'N/A';
+                modalAbility.textContent = card.ability || 'N/A';
+                modalBuzz.textContent = card.buzz || '';
+                modalType.textContent = card.type || 'N/A';
+                modalCollabEffect.textContent = card.collabEffect || '';
+                modalExtraEffect.textContent = card.extraEffect || '';
+
+                // Oshi Skill
+                if (card.oshiSkill) {
+                    modalOshiSkill.classList.remove('hidden');
+                    modalOshiSkillName.textContent = card.oshiSkill.name || '';
+                    modalOshiSkillDescription.textContent = card.oshiSkill.description || '';
+                } else {
+                    modalOshiSkill.classList.add('hidden');
+                }
+
+                // SP Oshi Skill
+                if (card.spOshiSkill) {
+                    modalSpOshiSkill.classList.remove('hidden');
+                    modalSpOshiSkillName.textContent = card.spOshiSkill.name || '';
+                    modalSpOshiSkillDescription.textContent = card.spOshiSkill.description || '';
+                } else {
+                    modalSpOshiSkill.classList.add('hidden');
+                }
+
+                // Skills
+                if (card.skills && card.skills.length > 0) {
+                    modalSkills.innerHTML = '<h3>Skills</h3>';
+                    card.skills.forEach(skill => {
+                        const skillElement = document.createElement('div');
+                        skillElement.innerHTML = `
+                            <p><strong>Skill Name:</strong> ${skill.name}</p>
+                            <p><strong>DMG:</strong> ${skill.dmg || 'N/A'}</p>
+                            ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
+                        `;
+                        modalSkills.appendChild(skillElement);
+                    });
+                    modalSkills.classList.remove('hidden');
+                } else {
+                    modalSkills.classList.add('hidden');
+                }
+
                 modal.style.display = 'flex';
             };
 
-            window.closeModal = function() {
+            window.closeModal = function(event) {
+                if (event) event.stopPropagation();
                 modal.style.display = 'none';
             }
 
