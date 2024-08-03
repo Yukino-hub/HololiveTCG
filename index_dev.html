@@ -26,7 +26,7 @@
         }
         .container {
             padding: 20px;
-            max-width: 1200px;
+            max-width: 100%;
             margin: auto;
         }
         h2, h3 {
@@ -41,16 +41,16 @@
         .card {
             border: 1px solid #ddd;
             padding: 10px;
-            margin-bottom: 10px;
+            margin: 5px;
             border-radius: 5px;
             box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-            max-width: 200px; /* Adjust the width as needed */
-            display: inline-block; /* Keep cards inline */
-            vertical-align: top; /* Align cards vertically */
+            width: 150px;
+            display: inline-block;
+            vertical-align: top;
         }
         .card img {
-            max-width: 100%;
-            height: auto; /* Maintain aspect ratio */
+            width: 150px;
+            height: auto;
         }
         .card .details {
             margin-top: 10px;
@@ -60,6 +60,22 @@
             color: red;
             font-weight: bold;
         }
+        #searchBar {
+            display: block;
+            width: 50%;
+            margin: 20px auto 40px auto;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .filter-options {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .filter-options button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
@@ -68,8 +84,13 @@
         <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a> </p>
     </header>
     <div class="container">
-        <!-- Search bar -->
         <input type="text" id="searchBar" placeholder="Search by Card Number...">
+        <div class="filter-options">
+            <button onclick="loadSeries('hSD01')">hSD01</button>
+            <button onclick="loadSeries('hBP01')">hBP01</button>
+            <button onclick="loadSeries('hYS01')">hYS01</button>
+            <button onclick="loadSeries('hPR')">hPR</button>
+        </div>
         <div id="cardList">
             <!-- Cards will be displayed here -->
         </div>
@@ -78,6 +99,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             const searchBar = document.getElementById('searchBar');
             const cardList = document.getElementById('cardList');
+            let allCards = [];
 
             function displayCards(filteredCards) {
                 cardList.innerHTML = '';
@@ -91,8 +113,8 @@
                             <p><strong>Card Number:</strong> ${card.cardNumber}</p>
                             <p><strong>Rarity:</strong> ${card.rarity || 'N/A'}</p>
                             <p><strong>Bloom Level:</strong> ${card.bloomLevel || 'N/A'}</p>
-                            <p><strong>HP:</strong> ${card.hp || 'N/A'}</p>
-                            <p><strong>Color:</strong> ${card.color || 'N/A'}</p>
+                            ${card.hp ? `<p><strong>HP:</strong> ${card.hp}</p>` : ''}
+                            ${card.color ? `<p><strong>Color:</strong> ${card.color}</p>` : ''}
                             ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
                             ${card.skills ? card.skills.map(skill => `
                                 <div>
@@ -115,8 +137,11 @@
                                     <p><strong>Description:</strong> ${card.spOshiSkill.description}</p>
                                 </div>
                             ` : ''}
-                            ${card.buzz ? `<p class="highlight-red"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
-                            ${card.limited ? `<p class="highlight-red"><strong>Limited:</strong> ${card.limited}</p>` : ''}
+                            ${card.buzz ? `<p class="buzz"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
+                            ${card.limited ? `<p class="limited"><strong>Limited:</strong> ${card.limited}</p>` : ''}
+                            ${card.extraEffect ? `<p><strong>Extra Effect:</strong> ${card.extraEffect}</p>` : ''}
+                            ${card.collabEffect ? `<p><strong>Collab Effect:</strong> ${card.collabEffect}</p>` : ''}
+                            ${card.ability ? `<p><strong>Ability:</strong> ${card.ability}</p>` : ''}
                         </div>
                     `;
                     cardList.appendChild(cardElement);
@@ -125,20 +150,24 @@
 
             function filterCards() {
                 const searchTerm = searchBar.value.toLowerCase();
-                const filteredCards = cards.filter(card => card.cardNumber.toLowerCase().includes(searchTerm));
+                const filteredCards = allCards.filter(card => card.cardNumber.toLowerCase().includes(searchTerm));
                 displayCards(filteredCards);
             }
 
             searchBar.addEventListener('input', filterCards);
 
-            // Fetch card data from external file
-            fetch('cards.json')
-                .then(response => response.json())
-                .then(data => {
-                    window.cards = data; // Make data accessible globally
-                    displayCards(cards); // Display all cards initially
-                })
-                .catch(error => console.error('Error loading card data:', error));
+            function loadSeries(series) {
+                fetch(`${series}.json`)
+                    .then(response => response.json())
+                    .then(data => {
+                        allCards = data; // Update the global cards array
+                        displayCards(allCards); // Display all cards from the selected series
+                    })
+                    .catch(error => console.error('Error loading card data:', error));
+            }
+
+            // Load the initial series (hSD01)
+            loadSeries('hSD01');
         });
     </script>
 </body>
