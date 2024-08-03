@@ -30,6 +30,15 @@
             width: 100%; /* Ensure container takes up full width */
             max-width: none; /* Remove any max-width constraints */
             box-sizing: border-box; /* Include padding in width calculations */
+            text-align: center; /* Center-align content in the container */
+        }
+        .search-bar {
+            width: 100%;
+            max-width: 600px; /* Adjust the maximum width as needed */
+            margin: 0 auto; /* Center the search bar horizontally */
+            padding: 15px;
+            box-sizing: border-box;
+            font-size: 16px; /* Increase font size for better readability */
         }
         .card-grid {
             display: grid;
@@ -72,7 +81,7 @@
     </header>
     <div class="container">
         <!-- Search bar -->
-        <input type="text" id="searchBar" placeholder="Search by Card Number..." style="width: 100%; padding: 10px; box-sizing: border-box;">
+        <input type="text" id="searchBar" placeholder="Search by Card Number..." class="search-bar">
         <div id="cardList" class="card-grid">
             <!-- Cards will be displayed here -->
         </div>
