@@ -85,5 +85,33 @@
             { "name": "がんばれてえらい!", "dmg": 20 }
         ],
         "image": "images/hSD01-008.jpg"
+    },
+	
+	{
+		"cardNumber" : "hSD-010",
+		"Name" : "Azki",
+		"rarity" : "C",
+		"bloomLevel" : "1st",
+		"hp" : 160,
+		"color" : "Green",
+	    "skills": [
+            { "name": "きみとあてのない旅", "dmg": 50 }
+        ],
+        "image": "images/hSD01-010.jpg"
+    },	
+	
+		{
+		"cardNumber" : "hSD-013",
+		"Name" : "SorAz",
+		"rarity" : "R",
+		"bloomLevel" : "1st",
+		"hp" : 160,
+		"color" : "White & Green",
+	    "skills": [
+            { "name": "越えたい未来", "dmg": 50, "Description": "You may roll a die once: If the result is odd, send the top card of your cheer deck to this Holomen. If the result is even, draw one card from your deck." }
+        ],
+		"Extra Effect" : "This Holomen is also treated as 'Tokino Sora' and 'AZKI'"
+        "image": "images/hSD01-013.jpg"
     }
+		
 ]
