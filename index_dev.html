@@ -3,274 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hololive TCG Cards</title>
+    <title>Hololive TCG Card Index</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
         }
         .container {
+            margin-top: 60px;
+            padding: 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        select {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .card-grid {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            padding: 20px;
+            gap: 20px;
         }
         .card {
-            width: calc(25% - 40px);
-            margin: 20px;
-            border: 1px solid #ddd;
+            width: 150px;
+            height: 200px;
+            border: 1px solid #ccc;
             border-radius: 10px;
             overflow: hidden;
-            cursor: pointer;
             position: relative;
+            cursor: pointer;
         }
         .card img {
             width: 100%;
-            height: auto;
-            display: block;
-        }
-        .card h3 {
-            margin: 10px;
-        }
-        .search-bar {
-            text-align: center;
-            margin: 20px;
-        }
-        .search-bar input {
-            width: 300px;
-            padding: 10px;
-            font-size: 16px;
-        }
-        .dropdown {
-            margin: 20px;
-            text-align: center;
-        }
-        .dropdown select {
-            padding: 10px;
-            font-size: 16px;
+            height: 100%;
+            object-fit: cover;
         }
         .modal {
             display: none;
             position: fixed;
-            z-index: 1;
-            left: 0;
             top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
-            overflow: auto;
-            background-color: rgba(0,0,0,0.5);
-            display: flex;
-            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
             justify-content: center;
+            align-items: center;
+            z-index: 1000;
         }
         .modal-content {
-            display: flex;
-            background-color: #fff;
-            max-width: 80%;
-            max-height: 80%;
+            background: white;
             border-radius: 10px;
+            display: flex;
+            padding: 20px;
+            max-width: 80vw;
+            max-height: 80vh;
+            overflow: auto;
         }
-        .modal-img {
-            flex: 1;
-            max-width: 40%;
-            padding: 10px;
-            box-sizing: border-box;
+        .modal-content img {
+            max-width: 150px;
+            margin-right: 20px;
         }
-        .modal-img img {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
+        .modal-content .details {
+            max-width: 500px;
         }
-        .modal-details {
-            flex: 2;
-            padding: 10px;
-            overflow-y: auto;
+        .modal-content .details p {
+            margin: 10px 0;
         }
-        .modal-details div {
-            margin-bottom: 10px;
-        }
-        .modal .close {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            color: #fff;
-            font-size: 40px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        .modal .close:hover {
-            color: #bbb;
+        .modal-content .details h2 {
+            margin: 0;
         }
     </style>
 </head>
 <body>
-    <div class="search-bar">
-        <input type="text" id="search" placeholder="Search cards...">
-    </div>
-    <div class="dropdown">
+    <header>
+        <h1>Hololive TCG Card Index</h1>
+        <a href="index.html">Card List</a>
+    </header>
+    <div class="container">
         <select id="seriesFilter">
-            <option value="">All Series</option>
-            <option value="hSD01">hSD01</option>
-            <option value="hBP01">hBP01</option>
-            <option value="hYS01">hYS01</option>
+            <option value="">Select Series</option>
             <option value="hPR">hPR</option>
+            <option value="hBP01">hBP01</option>
+            <option value="hSD01">hSD01</option>
+            <option value="hYS01">hYS01</option>
         </select>
+        <div class="card-grid" id="cardGrid"></div>
     </div>
-    <div class="container" id="cardContainer">
-        <!-- Cards will be injected here -->
-    </div>
-
-    <!-- Modal -->
-    <div id="myModal" class="modal">
+    <div id="modal" class="modal">
         <div class="modal-content">
-            <div class="modal-img">
-                <img id="modalImage" src="" alt="Card Image">
-            </div>
-            <div class="modal-details" id="modalDetails">
-                <!-- Content will be populated by JavaScript -->
+            <img id="modalImage" src="" alt="">
+            <div class="details">
+                <h2 id="modalName"></h2>
+                <p id="modalDescription"></p>
+                <p id="modalOshiSkill"></p>
+                <p id="modalSpOshiSkill"></p>
+                <p id="modalHp"></p>
+                <p id="modalColor"></p>
+                <p id="modalBuzz"></p>
+                <p id="modalLimited"></p>
+                <p id="modalExtraEffect"></p>
+                <p id="modalCollabEffect"></p>
             </div>
         </div>
-        <span class="close" onclick="closeModal()">&times;</span>
     </div>
-
     <script>
-        const cards = {
-            "hSD01": [
-                {
-                    "cardNumber": "hSD01-001",
-                    "name": "Tokino Sora",
-                    "type": "Oshi Holomen",
-                    "lives": 5,
-                    "image": "images/hSD01-001.jpg",
-                    "buzz": "Powerful skill",
-                    "limited": "Yes",
-                    "extraEffect": "Extra power boost",
-                    "collabEffect": "Collaboration bonus"
-                }
-                // Add more cards for hSD01 here
-            ],
-            "hBP01": [
-                {
-                    "cardNumber": "hBP01-001",
-                    "name": "Card Name",
-                    "type": "Card Type",
-                    "lives": 5,
-                    "image": "images/hBP01-001.jpg",
-                    "buzz": "Special effect",
-                    "limited": "No",
-                    "extraEffect": "Extra effect details",
-                    "collabEffect": "Collaboration effect details"
-                }
-                // Add more cards for hBP01 here
-            ],
-            "hYS01": [
-                {
-                    "cardNumber": "hYS01-001",
-                    "name": "Nanashi Mumei",
-                    "rarity": "OC",
-                    "lives": 5,
-                    "color": "White",
-                    "oshiSkill": {
-                        "name": "ホワイトバトン (\"White Baton\")",
-                        "power": 2,
-                        "description": "[Once per turn] During this turn, your white collaboration Holomen's arts gain +20."
-                    },
-                    "spOshiSkill": {
-                        "name": "クイックガード (\"Quick Guard\")",
-                        "power": 1,
-                        "description": "[Once per game] During your opponent's turn, when your white Holomen takes damage from an opponent, you may use this: Reduce the damage that Holomen takes by 20."
-                    },
-                    "image": "images/hYS01-001.jpg"
-                }
-                // Add more cards for hYS01 here
-            ],
-            "hPR": [
-                {
-                    "cardNumber": "hPR-001",
-                    "name": "Promotion Card",
-                    "type": "Promo",
-                    "lives": 5,
-                    "image": "images/hPR-001.jpg",
-                    "buzz": "Promotional bonus",
-                    "limited": "No",
-                    "extraEffect": "Special promo effect",
-                    "collabEffect": "Promotional collaboration"
-                }
-                // Add more cards for hPR here
-            ]
-        };
+        document.addEventListener('DOMContentLoaded', () => {
+            const cardGrid = document.getElementById('cardGrid');
+            const modal = document.getElementById('modal');
+            const modalImage = document.getElementById('modalImage');
+            const modalName = document.getElementById('modalName');
+            const modalDescription = document.getElementById('modalDescription');
+            const modalOshiSkill = document.getElementById('modalOshiSkill');
+            const modalSpOshiSkill = document.getElementById('modalSpOshiSkill');
+            const modalHp = document.getElementById('modalHp');
+            const modalColor = document.getElementById('modalColor');
+            const modalBuzz = document.getElementById('modalBuzz');
+            const modalLimited = document.getElementById('modalLimited');
+            const modalExtraEffect = document.getElementById('modalExtraEffect');
+            const modalCollabEffect = document.getElementById('modalCollabEffect');
 
-        function displayCards(series) {
-            const container = document.getElementById('cardContainer');
-            container.innerHTML = '';
-
-            const filteredCards = series ? cards[series] : Object.values(cards).flat();
-            
-            filteredCards.forEach(card => {
-                const cardElement = document.createElement('div');
-                cardElement.classList.add('card');
-                cardElement.innerHTML = `
-                    <img src="${card.image}" alt="${card.name}" onclick="openModal('${card.image}', '${card.name}', '${card.cardNumber}', '${card.buzz || ''}', '${card.limited || ''}', '${card.extraEffect || ''}', '${card.collabEffect || ''}')">
-                    <h3>${card.name}</h3>
-                `;
-                container.appendChild(cardElement);
-            });
-        }
-
-        function openModal(image, name, cardNumber, buzz, limited, extraEffect, collabEffect) {
-            document.getElementById('myModal').style.display = 'flex';
-            document.getElementById('modalImage').src = image;
-            document.getElementById('modalDetails').innerHTML = `
-                <div><strong>Name:</strong> ${name}</div>
-                <div><strong>Card Number:</strong> ${cardNumber}</div>
-                ${buzz ? `<div><strong>Buzz:</strong> ${buzz}</div>` : ''}
-                ${limited ? `<div><strong>Limited:</strong> ${limited}</div>` : ''}
-                ${extraEffect ? `<div><strong>Extra Effect:</strong> ${extraEffect}</div>` : ''}
-                ${collabEffect ? `<div><strong>Collab Effect:</strong> ${collabEffect}</div>` : ''}
-            `;
-        }
-
-        function closeModal() {
-            document.getElementById('myModal').style.display = 'none';
-        }
-
-        window.onclick = function(event) {
-            if (event.target === document.getElementById('myModal')) {
-                closeModal();
+            function openModal(card) {
+                modalImage.src = card.image;
+                modalName.textContent = card.name;
+                modalDescription.textContent = card.description || '';
+                modalOshiSkill.textContent = card.oshiSkill ? `Oshi Skill: ${card.oshiSkill.name} - ${card.oshiSkill.description}` : '';
+                modalSpOshiSkill.textContent = card.spOshiSkill ? `SP Oshi Skill: ${card.spOshiSkill.name} - ${card.spOshiSkill.description}` : '';
+                modalHp.textContent = card.hp ? `HP: ${card.hp}` : '';
+                modalColor.textContent = card.color ? `Color: ${card.color}` : '';
+                modalBuzz.textContent = card.buzz ? `Buzz: ${card.buzz}` : '';
+                modalLimited.textContent = card.limited ? `Limited: ${card.limited}` : '';
+                modalExtraEffect.textContent = card.extraEffect ? `Extra Effect: ${card.extraEffect}` : '';
+                modalCollabEffect.textContent = card.collabEffect ? `Collab Effect: ${card.collabEffect}` : '';
+                modal.style.display = 'flex';
             }
-        }
 
-        document.getElementById('seriesFilter').addEventListener('change', function() {
-            displayCards(this.value);
-        });
+            function closeModal() {
+                modal.style.display = 'none';
+            }
 
-        document.getElementById('search').addEventListener('input', function() {
-            const searchTerm = this.value.toLowerCase();
-            const filteredCards = Object.values(cards).flat().filter(card =>
-                card.name.toLowerCase().includes(searchTerm)
-            );
-            displayFilteredCards(filteredCards);
-        });
-
-        function displayFilteredCards(cards) {
-            const container = document.getElementById('cardContainer');
-            container.innerHTML = '';
-            
-            cards.forEach(card => {
-                const cardElement = document.createElement('div');
-                cardElement.classList.add('card');
-                cardElement.innerHTML = `
-                    <img src="${card.image}" alt="${card.name}" onclick="openModal('${card.image}', '${card.name}', '${card.cardNumber}', '${card.buzz || ''}', '${card.limited || ''}', '${card.extraEffect || ''}', '${card.collabEffect || ''}')">
-                    <h3>${card.name}</h3>
-                `;
-                container.appendChild(cardElement);
+            document.addEventListener('click', event => {
+                if (event.target === modal) {
+                    closeModal();
+                }
             });
-        }
 
-        // Initial display
-        displayCards();
+            function loadCards(series) {
+                fetch(`${series}.json`)
+                    .then(response => response.json())
+                    .then(cards => {
+                        cardGrid.innerHTML = '';
+                        cards.forEach(card => {
+                            const cardElement = document.createElement('div');
+                            cardElement.className = 'card';
+                            cardElement.innerHTML = `<img src="${card.image}" alt="${card.name}">`;
+                            cardElement.addEventListener('click', () => openModal(card));
+                            cardGrid.appendChild(cardElement);
+                        });
+                    });
+            }
+
+            document.getElementById('seriesFilter').addEventListener('change', event => {
+                const series = event.target.value;
+                if (series) {
+                    loadCards(series);
+                } else {
+                    cardGrid.innerHTML = '';
+                }
+            });
+
+            // Load default series or all cards if needed
+            loadCards('hSD01'); // Default load
+        });
     </script>
 </body>
 </html>
