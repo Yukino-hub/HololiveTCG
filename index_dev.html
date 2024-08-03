@@ -96,7 +96,7 @@
 <body>
     <header>
         <h1>Hololive TCG - Card Index</h1>
-        <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a> </p>
+        <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a></p>
     </header>
     <div class="container">
         <!-- Search bar -->
@@ -125,7 +125,7 @@
                     cardElement.className = 'card';
                     cardElement.innerHTML = `
                         <h3>${card.name}</h3>
-                        <img src="${card.image}" alt="${card.name}" onclick="openModal(this.src)">
+                        <img src="${card.image}" alt="${card.name}" onclick="openModal('${card.image}')">
                         <div class="details">
                             <p><strong>Card Number:</strong> ${card.cardNumber}</p>
                             <p><strong>Rarity:</strong> ${card.rarity || 'N/A'}</p>
@@ -172,10 +172,11 @@
 
             searchBar.addEventListener('input', filterCards);
 
-            function openModal(src) {
+            // Function to open modal with the selected image
+            window.openModal = function(src) {
                 modal.style.display = "block";
                 modalImg.src = src;
-            }
+            };
 
             function closeModal() {
                 modal.style.display = "none";
