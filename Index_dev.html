@@ -32,7 +32,7 @@
         }
         .container {
             padding: 20px;
-            max-width: 1200px;
+            max-width: 100%; /* Full width of the screen */
             margin: auto;
         }
         .search-container {
@@ -57,8 +57,9 @@
         #cardList {
             display: grid;
             grid-template-columns: repeat(8, 1fr); /* 8 columns for larger screens */
-            gap: 20px; /* Space between cards */
-            justify-content: center;
+            gap: 10px; /* Adjust gap between cards as needed */
+            padding: 0 20px; /* Add horizontal padding to prevent cards from touching edges */
+            box-sizing: border-box; /* Ensure padding is included in width calculations */
         }
         .card {
             border: 1px solid #ddd;
@@ -67,7 +68,8 @@
             box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
             background: #fff;
             transition: transform 0.2s;
-            max-width: 100%; /* Ensure cards fit within their grid cell */
+            width: 100%; /* Ensure cards fill their grid cell */
+            box-sizing: border-box; /* Include padding and border in element's total width */
         }
         .card img {
             max-width: 100%;
@@ -201,12 +203,13 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            const cards = [];
+            const cardList = document.getElementById('cardList');
             const searchBar = document.getElementById('searchBar');
             const seriesFilter = document.getElementById('seriesFilter');
-            const cardList = document.getElementById('cardList');
             const modal = document.getElementById('modal');
             const modalImage = document.getElementById('modalImage');
-            // Other modal elements...
+            const modalText = document.getElementById('modalText');
 
             function displayCards(cards) {
                 cardList.innerHTML = '';
@@ -214,7 +217,7 @@
                     const cardElement = document.createElement('div');
                     cardElement.className = 'card';
                     cardElement.innerHTML = `
-                        <img src="${card.image}" alt="${card.name} image">
+                        <img src="${card.image || 'default.jpg'}" alt="${card.name} image">
                         <p><strong>${card.cardNumber}</strong></p>
                         <p>${card.name}</p>
                     `;
