@@ -60,20 +60,7 @@
         ],
         "image": "images/hSD01-005.jpg"
     },
-      {
-        "cardNumber": "hSD001-006",
-        "name": "Tokino Sora",
-        "rarity": "RR",
-        "bloomLevel": "1st", "Buzz",
-        "hp": 240,
-        "color": "White",
-        "skills": [
-            { "name": "ぬんぬんしよう", "cost": "1 White", "dmg": 30 },
-            { "name": "あなたの心は･･･くもりのち晴れ!", "cost": "1 White, 1 Colorless", "dmg": 50 }
-        ],
-        "image": "images/hSD01-006.jpg"
-    }
-	  {
+	{
         "cardNumber": "hSD001-006",
         "name": "Tokino Sora",
         "rarity": "RR",
