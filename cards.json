@@ -206,6 +206,7 @@
         "name": "First Gravity",
         "rarity": "C",
         "type": "Support",
+        "limited" : true,
         "description": "You can only use this card if you have 6 or fewer cards in your hand, excluding this one. Look at the top 4 cards of your deck. Reveal any number of 'Tokino Sora' and 'AZKI' cards from among them and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order.",
         "image": "images/hSD01-021.jpg"
     }
