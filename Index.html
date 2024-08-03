@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hololive TCG Database</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #search-bar {
+            margin: 20px 0;
+            text-align: center;
+        }
+        #search-bar input {
+            padding: 10px;
+            width: 80%;
+            max-width: 400px;
+        }
+        .card-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card img {
+            width: 100%;
+            border-bottom: 1px solid #ddd;
+        }
+        .card h3 {
+            margin: 10px 0;
+        }
+        .card p {
+            padding: 0 10px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hololive TCG Database</h1>
+</header>
+
+<div class="container">
+    <div id="search-bar">
+        <input type="text" placeholder="Search for cards...">
+    </div>
+
+    <div class="card-grid" id="card-grid">
+        <!-- Cards will be loaded here dynamically -->
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        fetch('cards.json')
+            .then(response => response.json())
+            .then(cards => {
+                const cardGrid = document.getElementById('card-grid');
+                cards.forEach(card => {
+                    const cardElement = document.createElement('div');
+                    cardElement.classList.add('card');
+                    cardElement.innerHTML = `
+                        <img src="${card.image}" alt="${card.name}">
+                        <h3>${card.name}</h3>
+                        <p>${card.description}</p>
+                    `;
+                    cardGrid.appendChild(cardElement);
+                });
+            })
+            .catch(error => console.error('Error loading cards:', error));
+    });
+</script>
+
+</body>
+</html>
