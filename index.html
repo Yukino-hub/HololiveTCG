@@ -7,105 +7,134 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
         }
-        #search-container {
-            margin-bottom: 20px;
+        header {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
         }
-        #search-input {
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        input[type="text"] {
             padding: 10px;
             width: 100%;
             max-width: 300px;
-        }
-        #card-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
+            margin-bottom: 20px;
         }
         .card {
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            padding: 10px;
-            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .card img {
             max-width: 100%;
-            border-radius: 8px;
+            height: auto;
         }
         .card h3 {
-            margin: 10px 0;
+            margin: 0;
         }
         .card p {
             margin: 5px 0;
         }
+        .card .skills {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .card .skills li {
+            margin: 5px 0;
+        }
+        .card .buzz {
+            color: red;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-    <h1>Hololive TCG Card Database</h1>
-    <div id="search-container">
-        <input type="text" id="search-input" placeholder="Search by card number...">
+    <header>
+        <h1>Hololive TCG Card Database</h1>
+    </header>
+    <div class="container">
+        <input type="text" id="searchInput" placeholder="Search by Card Number">
+        <div id="cardsContainer"></div>
     </div>
-    <div id="card-grid"></div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            fetch('cards.json')
-                .then(response => response.json())
-                .then(data => {
-                    const cardGrid = document.getElementById('card-grid');
-                    const searchInput = document.getElementById('search-input');
+        document.addEventListener('DOMContentLoaded', () => {
+            const searchInput = document.getElementById('searchInput');
+            const cardsContainer = document.getElementById('cardsContainer');
 
-                    function displayCards(cards) {
-                        cardGrid.innerHTML = '';
-                        cards.forEach(card => {
-                            const cardElement = document.createElement('div');
-                            cardElement.classList.add('card');
-                            cardElement.innerHTML = `
-                                <img src="${card.image}" alt="${card.name}">
-                                <h3>${card.name} (#${card.cardNumber})</h3>
-                                <p><strong>Type:</strong> ${card.type}</p>
-                                ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
-                                ${card.buzz ? `<p><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
-                                <p><strong>Color:</strong> ${card.color}</p>
-                                ${card.rarity ? `<p><strong>Rarity:</strong> ${card.rarity}</p>` : ''}
-                                ${card.bloomLevel ? `<p><strong>Bloom Level:</strong> ${card.bloomLevel}</p>` : ''}
-                                ${card.hp ? `<p><strong>HP:</strong> ${card.hp}</p>` : ''}
-                                ${card.oshiSkill ? `<p class="skill"><strong>Oshi Skill:</strong> ${card.oshiSkill.name} (Power: ${card.oshiSkill.power})</p>
-                                <p>${card.oshiSkill.description}</p>` : ''}
-                                ${card.spOshiSkill ? `<p class="skill"><strong>SP Oshi Skill:</strong> ${card.spOshiSkill.name} (Power: ${card.spOshiSkill.power})</p>
-                                <p>${card.spOshiSkill.description}</p>` : ''}
-                                ${card.skills ? `<p class="skill"><strong>Skills:</strong></p>
-                                <ul>
-                                    ${card.skills.map(skill => `
-                                        <li>${skill.name}: DMG - ${skill.dmg || 'N/A'}</li>
-                                    `).join('')}
-                                </ul>` : ''}
-                            `;
-                            cardGrid.appendChild(cardElement);
-                        });
-                    }
+            async function fetchCards() {
+                try {
+                    const response = await fetch('cards.json'); // Adjust the path as necessary
+                    const cards = await response.json();
+                    return cards;
+                } catch (error) {
+                    console.error('Error fetching cards:', error);
+                    return [];
+                }
+            }
 
-                    function filterCards(query) {
-                        if (query) {
-                            return data.filter(card => card.cardNumber.toLowerCase().includes(query));
-                        } else {
-                            return data;
-                        }
-                    }
+            function displayCards(filteredCards) {
+                cardsContainer.innerHTML = '';
+                filteredCards.forEach(card => {
+                    const cardElement = document.createElement('div');
+                    cardElement.className = 'card';
+                    
+                    cardElement.innerHTML = `
+                        <img src="${card.image}" alt="${card.name}">
+                        <h3>${card.name}</h3>
+                        <p><strong>Card Number:</strong> ${card.cardNumber}</p>
+                        <p><strong>Rarity:</strong> ${card.rarity}</p>
+                        ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
+                        <p><strong>Color:</strong> ${card.color}</p>
+                        ${card.buzz ? '<p class="buzz">Buzz</p>' : ''}
+                        ${card.oshiSkill ? `
+                            <h4>Oshi Skill:</h4>
+                            <p><strong>Name:</strong> ${card.oshiSkill.name}</p>
+                            <p><strong>Power:</strong> ${card.oshiSkill.power}</p>
+                            <p><strong>Description:</strong> ${card.oshiSkill.description}</p>
+                        ` : ''}
+                        ${card.spOshiSkill ? `
+                            <h4>SP Oshi Skill:</h4>
+                            <p><strong>Name:</strong> ${card.spOshiSkill.name}</p>
+                            <p><strong>Power:</strong> ${card.spOshiSkill.power}</p>
+                            <p><strong>Description:</strong> ${card.spOshiSkill.description}</p>
+                        ` : ''}
+                        ${card.skills ? `
+                            <h4>Skills:</h4>
+                            <ul class="skills">
+                                ${card.skills.map(skill => `
+                                    <li><strong>Name:</strong> ${skill.name} <strong>DMG:</strong> ${skill.dmg}</li>
+                                `).join('')}
+                            </ul>
+                        ` : ''}
+                    `;
 
-                    function handleSearch() {
-                        const searchValue = searchInput.value.toLowerCase();
-                        const filteredCards = filterCards(searchValue);
-                        displayCards(filteredCards);
-                    }
+                    cardsContainer.appendChild(cardElement);
+                });
+            }
 
-                    // Initial display of all cards
-                    displayCards(data);
+            async function filterCards() {
+                const searchValue = searchInput.value.toLowerCase();
+                const cards = await fetchCards();
+                const filteredCards = cards.filter(card => card.cardNumber.toLowerCase().includes(searchValue));
+                displayCards(filteredCards.length > 0 ? filteredCards : cards);
+            }
 
-                    // Search event listener
-                    searchInput.addEventListener('input', handleSearch);
-                })
-                .catch(error => console.error('Error loading card data:', error));
+            searchInput.addEventListener('input', filterCards);
+
+            // Initial load of all cards
+            fetchCards().then(displayCards);
         });
     </script>
 </body>
