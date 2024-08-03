@@ -114,7 +114,11 @@
                             <h4>Skills:</h4>
                             <ul class="skills">
                                 ${card.skills.map(skill => `
-                                    <li><strong>Name:</strong> ${skill.name} <strong>DMG:</strong> ${skill.dmg}</li>
+                                    <li>
+                                        <strong>Name:</strong> ${skill.name} 
+                                        <strong>DMG:</strong> ${skill.dmg}
+                                        ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
+                                    </li>
                                 `).join('')}
                             </ul>
                         ` : ''}
