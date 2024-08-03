@@ -1,7 +1,3 @@
-YS-004 Suisei . OS, Power - 2 :  [Once per turn] During this turn, your blue collaboration Holomen's arts gain +20.  SPOS, power -1 : [Once per game] When your Holomen deals damage to an opponent's back Holomen, you can use this: Deal 50 special damage to one of that opponent's back Holomen
-YS-003 Kiara. OS, Power -2 : [Once per turn] During this turn, your red collaboration Holomen's arts gain +20. SPOS: power -1 : [Once per game] Return one red Holomen from your archive to your hand
-YS-002 Pekora. OS, Power -2 : [Once per turn] During this turn, your green collaboration Holomen's arts gain +20. SPOS, Power -1 : [Once per game] Heal all of your green Holomen for 20 HP.
-YS-001 Mumei. OS, Power 02 : [Once per turn] During this turn, your white collaboration Holomen's arts gain +20. SPOS. Power -1 : [Once per game] During your opponent's turn, when your white Holomen takes damage from an opponent, you may use this: Reduce the damage that Holomen takes by 20.
 [
     {
         "cardNumber": "hYS01-001",
@@ -15,10 +11,67 @@ YS-001 Mumei. OS, Power 02 : [Once per turn] During this turn, your white collab
             "description": "[Once per turn] During this turn, your white collaboration Holomen's arts gain +20."
         },
         "spOshiSkill": {
-            "name": "・クイックガード (\"Quick Guard\")",
+            "name": "クイックガード (\"Quick Guard\")",
             "power": 1,
-            "description": "[Once per game] During your opponent's turn, when your white Holomen takes damage from an opponent, you may use this: Reduce the damage that Holomen takes by 20.
-["
+            "description": "[Once per game] During your opponent's turn, when your white Holomen takes damage from an opponent, you may use this: Reduce the damage that Holomen takes by 20." 
         },
         "image": "images/hYS01-001.jpg"
     },
+
+     {
+        "cardNumber": "hYS01-002",
+        "name": "Usada Pekora",
+        "rarity": "OC",
+        "lives": 5,
+        "color": "Green",
+        "oshiSkill": {
+            "name": "グリーンバトン (\"Green Baton\")",
+            "power": 2,
+            "description": "[Once per turn] During this turn, your green collaboration Holomen's arts gain +20."
+        },
+        "spOshiSkill": {
+            "name": "みんな頑張ろー!",
+            "power": 1,
+            "description": "[Once per game] Heal all of your green Holomen for 20 HP." 
+        },
+        "image": "images/hYS01-002.jpg"
+    },
+
+      {
+        "cardNumber": "hYS01-003",
+        "name": "Takanashi Kiara",
+        "rarity": "OC",
+        "lives": 5,
+        "color": "Red",
+        "oshiSkill": {
+            "name": "レッドバトン (\"Red Baton\")",
+            "power": 2,
+            "description": "[Once per turn] During this turn, your green collaboration Holomen's arts gain +20."
+        },
+        "spOshiSkill": {
+            "name": "さあ!もう一度! (\"Now! Once more!\")",
+            "power": 1,
+            "description": "[Once per game] Return one red Holomen from your archive to your hand" 
+        },
+        "image": "images/hYS01-003.jpg"
+    },
+
+     {
+        "cardNumber": "hYS01-004",
+        "name": "Hoshimachi Suisei",
+        "rarity": "OC",
+        "lives": 5,
+        "color": "Blue",
+        "oshiSkill": {
+            "name": "ブルーバトン (\"Blue Baton\")",
+            "power": 2,
+            "description": "[Once per turn] During this turn, your green collaboration Holomen's arts gain +20."
+        },
+        "spOshiSkill": {
+            "name": "バックショット (\"Back Shot\")",
+            "power": 1,
+            "description": "[Once per game] When your Holomen deals damage to an opponent's back Holomen, you can use this: Deal 50 special damage to one of that opponent's back Holomen" 
+        },
+        "image": "images/hYS01-004.jpg"
+    },
+]
