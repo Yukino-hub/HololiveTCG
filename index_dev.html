@@ -70,11 +70,17 @@
             background-color: rgb(0,0,0); /* Fallback color */
             background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
         }
-        .modal img {
+        .modal-content {
             margin: auto;
             display: block;
             max-width: 80%;
             max-height: 80%;
+        }
+        .modal-details {
+            color: #fff;
+            text-align: center;
+            margin: 20px;
+            font-size: 18px;
         }
         .modal .close {
             position: absolute;
@@ -109,6 +115,7 @@
     <div id="myModal" class="modal">
         <span class="close">&times;</span>
         <img class="modal-content" id="img01">
+        <div class="modal-details" id="modalDetails"></div>
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -116,6 +123,7 @@
             const cardList = document.getElementById('cardList');
             const modal = document.getElementById('myModal');
             const modalImg = document.getElementById('img01');
+            const modalDetails = document.getElementById('modalDetails');
             const closeBtn = document.querySelector('.modal .close');
 
             function displayCards(filteredCards) {
@@ -125,7 +133,7 @@
                     cardElement.className = 'card';
                     cardElement.innerHTML = `
                         <h3>${card.name}</h3>
-                        <img src="${card.image}" alt="${card.name}" onclick="openModal('${card.image}')">
+                        <img src="${card.image}" alt="${card.name}" onclick="openModal('${card.cardNumber}', '${card.image}', '${card.name}', '${card.rarity || 'N/A'}', '${card.bloomLevel || 'N/A'}', '${card.hp || 'N/A'}', '${card.color || 'N/A'}', '${card.lives || 'N/A'}', '${card.skills ? card.skills.map(skill => `<div><p><strong>Skill Name:</strong> ${skill.name}</p><p><strong>DMG:</strong> ${skill.dmg || 'N/A'}</p>${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}</div>`).join('') : ''}', '${card.oshiSkill ? `<div><p><strong>Oshi Skill Name:</strong> ${card.oshiSkill.name}</p><p><strong>Power:</strong> ${card.oshiSkill.power}</p><p><strong>Description:</strong> ${card.oshiSkill.description}</p></div>` : ''}', '${card.spOshiSkill ? `<div><p><strong>SP Oshi Skill Name:</strong> ${card.spOshiSkill.name}</p><p><strong>Power:</strong> ${card.spOshiSkill.power}</p><p><strong>Description:</strong> ${card.spOshiSkill.description}</p></div>` : ''}', '${card.buzz ? `<p class="buzz"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}', '${card.limited ? `<p class="limited"><strong>Limited:</strong> ${card.limited}</p>` : ''}', '${card.extraEffect ? `<p><strong>Extra Effect:</strong> ${card.extraEffect}</p>` : ''}', '${card.collabEffect ? `<p><strong>Collab Effect:</strong> ${card.collabEffect}</p>` : ''}')" />
                         <div class="details">
                             <p><strong>Card Number:</strong> ${card.cardNumber}</p>
                             <p><strong>Rarity:</strong> ${card.rarity || 'N/A'}</p>
@@ -172,10 +180,26 @@
 
             searchBar.addEventListener('input', filterCards);
 
-            // Function to open modal with the selected image
-            window.openModal = function(src) {
+            // Function to open modal with the selected image and details
+            window.openModal = function(cardNumber, imgSrc, name, rarity, bloomLevel, hp, color, lives, skills, oshiSkill, spOshiSkill, buzz, limited, extraEffect, collabEffect) {
                 modal.style.display = "block";
-                modalImg.src = src;
+                modalImg.src = imgSrc;
+                modalDetails.innerHTML = `
+                    <h2>${name}</h2>
+                    <p><strong>Card Number:</strong> ${cardNumber}</p>
+                    <p><strong>Rarity:</strong> ${rarity}</p>
+                    <p><strong>Bloom Level:</strong> ${bloomLevel}</p>
+                    <p><strong>HP:</strong> ${hp}</p>
+                    <p><strong>Color:</strong> ${color}</p>
+                    ${lives ? `<p><strong>Lives:</strong> ${lives}</p>` : ''}
+                    ${skills ? skills : ''}
+                    ${oshiSkill ? oshiSkill : ''}
+                    ${spOshiSkill ? spOshiSkill : ''}
+                    ${buzz ? buzz : ''}
+                    ${limited ? limited : ''}
+                    ${extraEffect ? extraEffect : ''}
+                    ${collabEffect ? collabEffect : ''}
+                `;
             };
 
             function closeModal() {
