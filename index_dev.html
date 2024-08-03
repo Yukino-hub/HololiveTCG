@@ -26,13 +26,11 @@
         }
         .container {
             padding: 20px;
+            max-width: 1200px;
             margin: auto;
         }
         h2, h3 {
             color: #333;
-        }
-        ol, ul {
-            padding-left: 20px;
         }
         .section {
             margin-bottom: 20px;
@@ -40,71 +38,85 @@
         .card {
             border: 1px solid #ddd;
             padding: 10px;
-            margin: 10px;
+            margin-bottom: 10px;
             border-radius: 5px;
             box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-            max-width: 200px;
-            display: inline-block;
-            vertical-align: top;
+            max-width: 200px; /* Adjust the width as needed */
+            display: inline-block; /* Keep cards inline */
+            vertical-align: top; /* Align cards vertically */
         }
         .card img {
             max-width: 100%;
             height: auto; /* Maintain aspect ratio */
+            cursor: pointer; /* Indicate clickable image */
         }
         .card .details {
             margin-top: 10px;
         }
-        .buzz, .limited {
+        .card .limited,
+        .card .buzz {
             color: red;
             font-weight: bold;
         }
-        .search-container {
-            text-align: center;
-            margin-bottom: 20px;
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
         }
-        #searchBar {
-            width: 50%;
-            padding: 10px;
-            font-size: 16px;
+        .modal img {
+            margin: auto;
+            display: block;
+            max-width: 80%;
+            max-height: 80%;
         }
-        #seriesFilter {
-            margin-top: 20px;
-            padding: 10px;
-            font-size: 16px;
+        .modal .close {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
         }
-        #cardList {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+        .modal .close:hover,
+        .modal .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Hololive TCG - Card Index</h1>
-        <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a></p>
+        <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a> </p>
     </header>
     <div class="container">
-        <div class="search-container">
-            <input type="text" id="searchBar" placeholder="Search by Card Number...">
-            <br><br>
-            <select id="seriesFilter">
-                <option value="">Select Series</option>
-                <option value="hSD01">hSD01</option>
-                <option value="hBP01">hBP01</option>
-                <option value="hYS01">hYS01</option>
-                <option value="hPR">hPR</option>
-            </select>
-        </div>
+        <!-- Search bar -->
+        <input type="text" id="searchBar" placeholder="Search by Card Number...">
         <div id="cardList">
             <!-- Cards will be displayed here -->
         </div>
     </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const searchBar = document.getElementById('searchBar');
-            const seriesFilter = document.getElementById('seriesFilter');
             const cardList = document.getElementById('cardList');
+            const modal = document.getElementById('myModal');
+            const modalImg = document.getElementById('img01');
+            const closeBtn = document.querySelector('.modal .close');
 
             function displayCards(filteredCards) {
                 cardList.innerHTML = '';
@@ -113,13 +125,13 @@
                     cardElement.className = 'card';
                     cardElement.innerHTML = `
                         <h3>${card.name}</h3>
-                        <img src="${card.image}" alt="${card.name}">
+                        <img src="${card.image}" alt="${card.name}" onclick="openModal(this.src)">
                         <div class="details">
                             <p><strong>Card Number:</strong> ${card.cardNumber}</p>
                             <p><strong>Rarity:</strong> ${card.rarity || 'N/A'}</p>
-                            ${card.bloomLevel ? `<p><strong>Bloom Level:</strong> ${card.bloomLevel}</p>` : ''}
-                            ${card.hp ? `<p><strong>HP:</strong> ${card.hp}</p>` : ''}
-                            ${card.color ? `<p><strong>Color:</strong> ${card.color}</p>` : ''}
+                            <p><strong>Bloom Level:</strong> ${card.bloomLevel || 'N/A'}</p>
+                            <p><strong>HP:</strong> ${card.hp || 'N/A'}</p>
+                            <p><strong>Color:</strong> ${card.color || 'N/A'}</p>
                             ${card.lives ? `<p><strong>Lives:</strong> ${card.lives}</p>` : ''}
                             ${card.skills ? card.skills.map(skill => `
                                 <div>
@@ -142,7 +154,6 @@
                                     <p><strong>Description:</strong> ${card.spOshiSkill.description}</p>
                                 </div>
                             ` : ''}
-                            ${card.ability ? `<p><strong>Ability:</strong> ${card.ability}</p>` : ''}
                             ${card.buzz ? `<p class="buzz"><strong>Buzz:</strong> ${card.buzz}</p>` : ''}
                             ${card.limited ? `<p class="limited"><strong>Limited:</strong> ${card.limited}</p>` : ''}
                             ${card.extraEffect ? `<p><strong>Extra Effect:</strong> ${card.extraEffect}</p>` : ''}
@@ -155,25 +166,34 @@
 
             function filterCards() {
                 const searchTerm = searchBar.value.toLowerCase();
-                const seriesTerm = seriesFilter.value;
-                const filteredCards = cards.filter(card => {
-                    const matchesSearch = card.cardNumber.toLowerCase().includes(searchTerm);
-                    const matchesSeries = !seriesTerm || card.cardNumber.startsWith(seriesTerm);
-                    return matchesSearch && matchesSeries;
-                });
+                const filteredCards = cards.filter(card => card.cardNumber.toLowerCase().includes(searchTerm));
                 displayCards(filteredCards);
             }
 
             searchBar.addEventListener('input', filterCards);
-            seriesFilter.addEventListener('change', filterCards);
 
-            // Fetch card data from external files
-            const cardFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json'];
-            window.cards = [];
+            function openModal(src) {
+                modal.style.display = "block";
+                modalImg.src = src;
+            }
 
-            Promise.all(cardFiles.map(file => fetch(file).then(response => response.json())))
-                .then(dataArrays => {
-                    dataArrays.forEach(data => window.cards.push(...data));
+            function closeModal() {
+                modal.style.display = "none";
+            }
+
+            closeBtn.addEventListener('click', closeModal);
+
+            window.addEventListener('click', function(event) {
+                if (event.target === modal) {
+                    closeModal();
+                }
+            });
+
+            // Fetch card data from external file
+            fetch('cards.json')
+                .then(response => response.json())
+                .then(data => {
+                    window.cards = data; // Make data accessible globally
                     displayCards(cards); // Display all cards initially
                 })
                 .catch(error => console.error('Error loading card data:', error));
