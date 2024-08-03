@@ -2,7 +2,7 @@
     {
         "cardNumber": "hSD001-001",
         "name": "Tokino Sora",
-        "Rarity" : "OSR"
+        "rarity": "OSR",
         "lives": 5,
         "color": "White",
         "oshiSkill": {
@@ -18,9 +18,9 @@
         "image": "images/hSD01-001.jpg"
     },
     {
-        "cardNumber": "hSD001-002",
+        "cardNumber": "hSD01-002",
         "name": "Azki",
-        "Rarity" : "OSR"
+        "rarity": "OSR",
         "lives": 6,
         "color": "Green",
         "oshiSkill": {
@@ -36,43 +36,54 @@
         "image": "images/hSD01-002.jpg"
     },
     {
-        "cardNumber": "hSD001-003",
+        "cardNumber": "hSD01-003",
         "name": "Tokino Sora",
         "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "White",
         "skills": [
-            { "name": "ぬんぬん", "cost": "1 Colorless", "dmg": 30 },
+            { "name": "ぬんぬん", "dmg": 30 }
         ],
         "image": "images/hSD01-003.jpg"
     },
     {
-        "cardNumber": "hSD001-005",
+        "cardNumber": "hSD01-005",
         "name": "Tokino Sora",
         "rarity": "U",
         "bloomLevel": "1st",
         "hp": 150,
         "color": "White",
         "skills": [
-            { "name": "ぬんぬんしよう", "cost": "1 White", "dmg": 30 },
-            { "name": "あなたの心は･･･くもりのち晴れ!", "cost": "1 White, 1 Colorless", "dmg": 50 }
+            { "name": "ぬんぬんしよう", "dmg": 30 },
+            { "name": "あなたの心は･･･くもりのち晴れ!", "dmg": 50 }
         ],
         "image": "images/hSD01-005.jpg"
     },
-	{
-        "cardNumber": "hSD001-006",
+    {
+        "cardNumber": "hSD01-006",
         "name": "Tokino Sora",
         "rarity": "RR",
-        "bloomLevel": "1st", "Buzz",
+        "bloomLevel": "1st",
+        "buzz": true,
         "hp": 240,
         "color": "White",
         "skills": [
-            { "name": "ドリームライブ", "cost": "1 White, 1 Colorless", "dmg": 30 },
-            { "name": "シンパシー ンパシー", "cost": "1 White, 1 Colorless", "dmg": "60+", "description" : "When you have the Holomen 'AZKI' on your stage, this art gains +50."},
+            { "name": "ドリームライブ", "dmg": 30 },
+            { "name": "シンパシー ンパシー", "dmg": "60+", "description": "When you have the Holomen 'AZKI' on your stage, this art gains +50." }
         ],
         "image": "images/hSD01-006.jpg"
+    },
+    {
+        "cardNumber": "hSD01-008",
+        "name": "Azki",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 70,
+        "color": "Green",
+        "skills": [
+            { "name": "がんばれてえらい!", "dmg": 20 }
+        ],
+        "image": "images/hSD01-008.jpg"
     }
-	
-	
 ]
