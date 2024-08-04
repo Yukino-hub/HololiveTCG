@@ -9,30 +9,23 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
         }
         header {
-            background: #fff;
+            background: #f4f4f4;
             padding: 20px;
             text-align: center;
             border-bottom: 2px solid #ddd;
-        }
-        header h1 {
-            margin: 0;
-            color: #333;
         }
         header a {
             color: #007bff;
             text-decoration: none;
             margin: 0 15px;
-            font-weight: bold;
         }
         header a:hover {
             text-decoration: underline;
         }
         .container {
             padding: 20px;
-            max-width: 100%; /* Full width of the screen */
             margin: auto;
         }
         .search-container {
@@ -40,43 +33,39 @@
             margin-bottom: 20px;
         }
         #searchBar {
-            width: 100%;
-            max-width: 500px;
+            width: 50%;
             padding: 10px;
             font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
         }
         #seriesFilter {
             margin-top: 20px;
             padding: 10px;
             font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
         }
         #cardList {
-            display: grid;
-            grid-template-columns: repeat(8, 1fr); /* 8 columns for larger screens */
-            gap: 10px; /* Adjust gap between cards as needed */
-            padding: 0 20px; /* Add horizontal padding to prevent cards from touching edges */
-            box-sizing: border-box; /* Ensure padding is included in width calculations */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
         .card {
             border: 1px solid #ddd;
             padding: 10px;
+            margin: 10px;
             border-radius: 5px;
             box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-            background: #fff;
-            transition: transform 0.2s;
-            width: 100%; /* Ensure cards fill their grid cell */
-            box-sizing: border-box; /* Include padding and border in element's total width */
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
         }
         .card img {
             max-width: 100%;
             height: auto; /* Maintain aspect ratio */
         }
-        .card:hover {
-            transform: scale(1.05);
+        .card p {
+            margin: 0;
+            padding: 5px 0;
+            font-weight: bold;
         }
         .modal {
             display: none;
@@ -88,7 +77,6 @@
             background: rgba(0, 0, 0, 0.5);
             justify-content: center;
             align-items: center;
-            z-index: 1000;
         }
         .modal-content {
             background: #fff;
@@ -98,9 +86,8 @@
             width: 90%;
             display: flex;
             flex-direction: row;
-            align-items: flex-start;
+            align-items: center;
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            position: relative;
         }
         .modal-content img {
             max-width: 200px;
@@ -116,6 +103,7 @@
         }
         .modal-content h3 {
             margin: 0 0 10px 0;
+            font-size: 24px;
         }
         .modal-content strong {
             font-weight: bold;
@@ -130,33 +118,18 @@
         .hidden {
             display: none;
         }
-        @media (max-width: 1200px) {
-            #cardList {
-                grid-template-columns: repeat(6, 1fr); /* 6 columns for medium screens */
-            }
-        }
-        @media (max-width: 900px) {
-            #cardList {
-                grid-template-columns: repeat(4, 1fr); /* 4 columns for small screens */
-            }
-        }
-        @media (max-width: 600px) {
-            #cardList {
-                grid-template-columns: repeat(2, 1fr); /* 2 columns for extra small screens */
-            }
-        }
     </style>
 </head>
 <body>
     <header>
         <h1>Hololive TCG - Card Index</h1>
-        <p><a href="index.html" aria-label="Go to card list">Card List</a> | <a href="rules.html" aria-label="View game rules">View Game Rules</a></p>
+        <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a></p>
     </header>
     <div class="container">
         <div class="search-container">
-            <input type="text" id="searchBar" placeholder="Search by Card Number..." aria-label="Search by Card Number">
+            <input type="text" id="searchBar" placeholder="Search by Card Number...">
             <br><br>
-            <select id="seriesFilter" aria-label="Select Series">
+            <select id="seriesFilter">
                 <option value="">Select Series</option>
                 <option value="hSD01">hSD01</option>
                 <option value="hBP01">hBP01</option>
@@ -164,34 +137,36 @@
                 <option value="hPR">hPR</option>
             </select>
         </div>
-        <div id="cardList" role="list">
+        <div id="cardList">
             <!-- Cards will be displayed here -->
         </div>
     </div>
 
-    <div id="modal" class="modal" role="dialog" aria-labelledby="modalCardName" aria-hidden="true" onclick="closeModal(event)">
+    <div id="modal" class="modal" onclick="closeModal(event)">
         <div class="modal-content" onclick="event.stopPropagation()">
-            <span class="modal-close" onclick="closeModal()" aria-label="Close modal">&times;</span>
-            <img id="modalImage" src="" alt="Card image">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <img id="modalImage" src="" alt="">
             <div id="modalText">
                 <h3 id="modalCardName"></h3>
-                <p id="modalCardNumberContainer" class="hidden"><strong>Card Number:</strong> <span id="modalCardNumber"></span></p>
-                <p id="modalRarityContainer" class="hidden"><strong>Rarity:</strong> <span id="modalRarity"></span></p>
-                <p id="modalBloomLevelContainer" class="hidden"><strong>Bloom Level:</strong> <span id="modalBloomLevel"></span></p>
-                <p id="modalHPContainer" class="hidden"><strong>HP:</strong> <span id="modalHP"></span></p>
-                <p id="modalColorContainer" class="hidden"><strong>Color:</strong> <span id="modalColor"></span></p>
-                <p id="modalLivesContainer" class="hidden"><strong>Lives:</strong> <span id="modalLives"></span></p>
-                <p id="modalAbilityContainer" class="hidden"><strong>Ability:</strong> <span id="modalAbility"></span></p>
-                <p id="modalBuzzContainer" class="hidden"><strong>Buzz:</strong> <span id="modalBuzz"></span></p>
-                <p id="modalTypeContainer" class="hidden"><strong>Type:</strong> <span id="modalType"></span></p>
-                <p id="modalCollabEffectContainer" class="hidden"><strong>Collab Effect:</strong> <span id="modalCollabEffect"></span></p>
-                <p id="modalExtraEffectContainer" class="hidden"><strong>Extra Effect:</strong> <span id="modalExtraEffect"></span></p>
+                <p id="modalCardNumberContainer"><strong>Card Number:</strong> <span id="modalCardNumber"></span></p>
+                <p id="modalRarityContainer"><strong>Rarity:</strong> <span id="modalRarity"></span></p>
+                <p id="modalBloomLevelContainer"><strong>Bloom Level:</strong> <span id="modalBloomLevel"></span></p>
+                <p id="modalHPContainer"><strong>HP:</strong> <span id="modalHP"></span></p>
+                <p id="modalColorContainer"><strong>Color:</strong> <span id="modalColor"></span></p>
+                <p id="modalLivesContainer"><strong>Lives:</strong> <span id="modalLives"></span></p>
+                <p id="modalAbilityContainer"><strong>Ability:</strong> <span id="modalAbility"></span></p>
+                <p id="modalBuzzContainer"><strong>Buzz:</strong> <span id="modalBuzz"></span></p>
+                <p id="modalTypeContainer"><strong>Type:</strong> <span id="modalType"></span></p>
+                <p id="modalCollabEffectContainer"><strong>Collab Effect:</strong> <span id="modalCollabEffect"></span></p>
+                <p id="modalExtraEffectContainer"><strong>Extra Effect:</strong> <span id="modalExtraEffect"></span></p>
                 <div id="modalOshiSkill" class="hidden">
                     <p><strong>Oshi Skill Name:</strong> <span id="modalOshiSkillName"></span></p>
+                    <p><strong>Power Cost:</strong> <span id="modalOshiSkillPower"></span></p>
                     <p><strong>Description:</strong> <span id="modalOshiSkillDescription"></span></p>
                 </div>
                 <div id="modalSpOshiSkill" class="hidden">
                     <p><strong>SP Oshi Skill Name:</strong> <span id="modalSpOshiSkillName"></span></p>
+                    <p><strong>Power Cost:</strong> <span id="modalSpOshiSkillPower"></span></p>
                     <p><strong>Description:</strong> <span id="modalSpOshiSkillDescription"></span></p>
                 </div>
                 <div id="modalSkills" class="skills hidden">
@@ -203,54 +178,160 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const cards = [];
-            const cardList = document.getElementById('cardList');
             const searchBar = document.getElementById('searchBar');
             const seriesFilter = document.getElementById('seriesFilter');
+            const cardList = document.getElementById('cardList');
             const modal = document.getElementById('modal');
             const modalImage = document.getElementById('modalImage');
-            const modalText = document.getElementById('modalText');
+
+            const modalCardName = document.getElementById('modalCardName');
+            const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
+            const modalRarityContainer = document.getElementById('modalRarityContainer');
+            const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
+            const modalHPContainer = document.getElementById('modalHPContainer');
+            const modalColorContainer = document.getElementById('modalColorContainer');
+            const modalLivesContainer = document.getElementById('modalLivesContainer');
+            const modalAbilityContainer = document.getElementById('modalAbilityContainer');
+            const modalBuzzContainer = document.getElementById('modalBuzzContainer');
+            const modalTypeContainer = document.getElementById('modalTypeContainer');
+            const modalCollabEffectContainer = document.getElementById('modalCollabEffectContainer');
+            const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
+
+            const modalCardNumber = document.getElementById('modalCardNumber');
+            const modalRarity = document.getElementById('modalRarity');
+            const modalBloomLevel = document.getElementById('modalBloomLevel');
+            const modalHP = document.getElementById('modalHP');
+            const modalColor = document.getElementById('modalColor');
+            const modalLives = document.getElementById('modalLives');
+            const modalAbility = document.getElementById('modalAbility');
+            const modalBuzz = document.getElementById('modalBuzz');
+            const modalType = document.getElementById('modalType');
+            const modalCollabEffect = document.getElementById('modalCollabEffect');
+            const modalExtraEffect = document.getElementById('modalExtraEffect');
+
+            const modalOshiSkill = document.getElementById('modalOshiSkill');
+            const modalOshiSkillName = document.getElementById('modalOshiSkillName');
+            const modalOshiSkillPower = document.getElementById('modalOshiSkillPower');
+            const modalOshiSkillDescription = document.getElementById('modalOshiSkillDescription');
+
+            const modalSpOshiSkill = document.getElementById('modalSpOshiSkill');
+            const modalSpOshiSkillName = document.getElementById('modalSpOshiSkillName');
+            const modalSpOshiSkillPower = document.getElementById('modalSpOshiSkillPower');
+            const modalSpOshiSkillDescription = document.getElementById('modalSpOshiSkillDescription');
+
+            const modalSkills = document.getElementById('modalSkills');
+
+            let cards = [];
+
+            // Load card data from JSON files
+            const seriesFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json'];
+
+            seriesFiles.forEach(file => {
+                fetch(file)
+                    .then(response => response.json())
+                    .then(data => {
+                        cards = cards.concat(data);
+                        displayCards(cards);
+                    });
+            });
 
             function displayCards(cards) {
                 cardList.innerHTML = '';
                 cards.forEach(card => {
                     const cardElement = document.createElement('div');
-                    cardElement.className = 'card';
+                    cardElement.classList.add('card');
                     cardElement.innerHTML = `
-                        <img src="${card.image || 'default.jpg'}" alt="${card.name} image">
-                        <p><strong>${card.cardNumber}</strong></p>
+                        <img src="${card.image}" alt="${card.name}">
                         <p>${card.name}</p>
                     `;
-                    cardElement.onclick = () => openModal(card);
+                    cardElement.addEventListener('click', () => openModal(card));
                     cardList.appendChild(cardElement);
                 });
             }
 
-            function filterCards() {
+            searchBar.addEventListener('input', function() {
                 const searchText = searchBar.value.toLowerCase();
-                const selectedSeries = seriesFilter.value;
-
-                const filteredCards = cards.filter(card => {
-                    const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
-                    const matchesSeries = selectedSeries === '' || card.cardNumber.startsWith(selectedSeries);
-                    return matchesSearch && matchesSeries;
-                });
-
+                const filteredCards = cards.filter(card => card.cardNumber.toLowerCase().includes(searchText));
                 displayCards(filteredCards);
-            }
+            });
+
+            seriesFilter.addEventListener('change', function() {
+                const selectedSeries = seriesFilter.value;
+                const filteredCards = selectedSeries ? cards.filter(card => card.cardNumber.startsWith(selectedSeries)) : cards;
+                displayCards(filteredCards);
+            });
 
             window.openModal = function(card) {
-                modalImage.src = card.image || '';
-                // Set other modal content...
+                modalImage.src = card.image;
+                modalCardName.textContent = card.name || '';
+                modalCardNumber.textContent = card.cardNumber || '';
+                modalRarity.textContent = card.rarity || '';
+                modalBloomLevel.textContent = card.bloomLevel || '';
+                modalHP.textContent = card.hp || '';
+                modalColor.textContent = card.color || '';
+                modalLives.textContent = card.lives || '';
+                modalAbility.textContent = card.ability || '';
+                modalBuzz.textContent = card.buzz || '';
+                modalType.textContent = card.type || '';
+                modalCollabEffect.textContent = card.collabEffect || '';
+                modalExtraEffect.textContent = card.extraEffect || '';
+
+                // Toggle visibility based on content
+                toggleVisibility(modalCardNumberContainer, card.cardNumber);
+                toggleVisibility(modalRarityContainer, card.rarity);
+                toggleVisibility(modalBloomLevelContainer, card.bloomLevel);
+                toggleVisibility(modalHPContainer, card.hp);
+                toggleVisibility(modalColorContainer, card.color);
+                toggleVisibility(modalLivesContainer, card.lives);
+                toggleVisibility(modalAbilityContainer, card.ability);
+                toggleVisibility(modalBuzzContainer, card.buzz);
+                toggleVisibility(modalTypeContainer, card.type);
+                toggleVisibility(modalCollabEffectContainer, card.collabEffect);
+                toggleVisibility(modalExtraEffectContainer, card.extraEffect);
+
+                // Oshi Skill
+                if (card.oshiSkill) {
+                    modalOshiSkill.classList.remove('hidden');
+                    modalOshiSkillName.textContent = card.oshiSkill.name || '';
+                    modalOshiSkillPower.textContent = card.oshiSkill.power || '';
+                    modalOshiSkillDescription.textContent = card.oshiSkill.description || '';
+                } else {
+                    modalOshiSkill.classList.add('hidden');
+                }
+
+                // SP Oshi Skill
+                if (card.spOshiSkill) {
+                    modalSpOshiSkill.classList.remove('hidden');
+                    modalSpOshiSkillName.textContent = card.spOshiSkill.name || '';
+                    modalSpOshiSkillPower.textContent = card.spOshiSkill.power || '';
+                    modalSpOshiSkillDescription.textContent = card.spOshiSkill.description || '';
+                } else {
+                    modalSpOshiSkill.classList.add('hidden');
+                }
+
+                // Skills
+                if (card.skills && card.skills.length > 0) {
+                    modalSkills.innerHTML = '<h3>Skills</h3>';
+                    card.skills.forEach(skill => {
+                        const skillElement = document.createElement('div');
+                        skillElement.innerHTML = `
+                            <p style="margin-top: 10px;"><strong>Skill Name:</strong> ${skill.name}</p>
+                            <p><strong>DMG:</strong> ${skill.dmg || ''}</p>
+                            ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
+                        `;
+                        modalSkills.appendChild(skillElement);
+                    });
+                    modalSkills.classList.remove('hidden');
+                } else {
+                    modalSkills.classList.add('hidden');
+                }
 
                 modal.style.display = 'flex';
-                modal.setAttribute('aria-hidden', 'false');
             };
 
             window.closeModal = function(event) {
                 if (event) event.stopPropagation();
                 modal.style.display = 'none';
-                modal.setAttribute('aria-hidden', 'true');
             };
 
             function toggleVisibility(element, value) {
@@ -260,25 +341,6 @@
                     element.classList.remove('hidden');
                 }
             }
-
-            searchBar.addEventListener('input', filterCards);
-            seriesFilter.addEventListener('change', filterCards);
-
-            // Fetch card data from external files
-            const cardFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json'];
-            window.cards = [];
-
-            Promise.all(cardFiles.map(file => 
-                fetch(file).then(response => {
-                    if (!response.ok) throw new Error(`Network response was not ok for ${file}`);
-                    return response.json();
-                })
-            ))
-            .then(dataArrays => {
-                dataArrays.forEach(data => window.cards.push(...data));
-                displayCards(cards); // Display all cards initially
-            })
-            .catch(error => console.error('Error loading card data:', error));
         });
     </script>
 </body>
