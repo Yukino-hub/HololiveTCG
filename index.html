@@ -62,6 +62,11 @@
             max-width: 100%;
             height: auto; /* Maintain aspect ratio */
         }
+        .card p {
+            margin: 0;
+            padding: 5px 0;
+            font-weight: bold;
+        }
         .modal {
             display: none;
             position: fixed;
@@ -98,10 +103,7 @@
         }
         .modal-content h3 {
             margin: 0 0 10px 0;
-        }
-        /* Add margin to the modalSkills container */
-        #modalSkills {
-        margin-top: 10px; /* Adjust this value as needed */
+            font-size: 24px;
         }
         .modal-content strong {
             font-weight: bold;
@@ -159,10 +161,12 @@
                 <p id="modalExtraEffectContainer"><strong>Extra Effect:</strong> <span id="modalExtraEffect"></span></p>
                 <div id="modalOshiSkill" class="hidden">
                     <p><strong>Oshi Skill Name:</strong> <span id="modalOshiSkillName"></span></p>
+                    <p><strong>Power Cost:</strong> <span id="modalOshiSkillPower"></span></p>
                     <p><strong>Description:</strong> <span id="modalOshiSkillDescription"></span></p>
                 </div>
                 <div id="modalSpOshiSkill" class="hidden">
                     <p><strong>SP Oshi Skill Name:</strong> <span id="modalSpOshiSkillName"></span></p>
+                    <p><strong>Power Cost:</strong> <span id="modalSpOshiSkillPower"></span></p>
                     <p><strong>Description:</strong> <span id="modalSpOshiSkillDescription"></span></p>
                 </div>
                 <div id="modalSkills" class="skills hidden">
@@ -207,41 +211,55 @@
 
             const modalOshiSkill = document.getElementById('modalOshiSkill');
             const modalOshiSkillName = document.getElementById('modalOshiSkillName');
+            const modalOshiSkillPower = document.getElementById('modalOshiSkillPower');
             const modalOshiSkillDescription = document.getElementById('modalOshiSkillDescription');
 
             const modalSpOshiSkill = document.getElementById('modalSpOshiSkill');
             const modalSpOshiSkillName = document.getElementById('modalSpOshiSkillName');
+            const modalSpOshiSkillPower = document.getElementById('modalSpOshiSkillPower');
             const modalSpOshiSkillDescription = document.getElementById('modalSpOshiSkillDescription');
 
             const modalSkills = document.getElementById('modalSkills');
+
+            let cards = [];
+
+            // Load card data from JSON files
+            const seriesFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json'];
+
+            seriesFiles.forEach(file => {
+                fetch(file)
+                    .then(response => response.json())
+                    .then(data => {
+                        cards = cards.concat(data);
+                        displayCards(cards);
+                    });
+            });
 
             function displayCards(cards) {
                 cardList.innerHTML = '';
                 cards.forEach(card => {
                     const cardElement = document.createElement('div');
-                    cardElement.className = 'card';
+                    cardElement.classList.add('card');
                     cardElement.innerHTML = `
                         <img src="${card.image}" alt="${card.name}">
-                        <p><strong>${card.cardNumber}</strong></p>
-                        <p><strong>${card.name}</strong></p>
+                        <p>${card.name}</p>
                     `;
-                    cardElement.onclick = () => openModal(card);
+                    cardElement.addEventListener('click', () => openModal(card));
                     cardList.appendChild(cardElement);
                 });
             }
 
-            function filterCards() {
+            searchBar.addEventListener('input', function() {
                 const searchText = searchBar.value.toLowerCase();
-                const selectedSeries = seriesFilter.value;
-
-                const filteredCards = cards.filter(card => {
-                    const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
-                    const matchesSeries = selectedSeries === '' || card.cardNumber.startsWith(selectedSeries);
-                    return matchesSearch && matchesSeries;
-                });
-
+                const filteredCards = cards.filter(card => card.cardNumber.toLowerCase().includes(searchText));
                 displayCards(filteredCards);
-            }
+            });
+
+            seriesFilter.addEventListener('change', function() {
+                const selectedSeries = seriesFilter.value;
+                const filteredCards = selectedSeries ? cards.filter(card => card.cardNumber.startsWith(selectedSeries)) : cards;
+                displayCards(filteredCards);
+            });
 
             window.openModal = function(card) {
                 modalImage.src = card.image;
@@ -275,6 +293,7 @@
                 if (card.oshiSkill) {
                     modalOshiSkill.classList.remove('hidden');
                     modalOshiSkillName.textContent = card.oshiSkill.name || '';
+                    modalOshiSkillPower.textContent = card.oshiSkill.power || '';
                     modalOshiSkillDescription.textContent = card.oshiSkill.description || '';
                 } else {
                     modalOshiSkill.classList.add('hidden');
@@ -284,6 +303,7 @@
                 if (card.spOshiSkill) {
                     modalSpOshiSkill.classList.remove('hidden');
                     modalSpOshiSkillName.textContent = card.spOshiSkill.name || '';
+                    modalSpOshiSkillPower.textContent = card.spOshiSkill.power || '';
                     modalSpOshiSkillDescription.textContent = card.spOshiSkill.description || '';
                 } else {
                     modalSpOshiSkill.classList.add('hidden');
@@ -295,7 +315,7 @@
                     card.skills.forEach(skill => {
                         const skillElement = document.createElement('div');
                         skillElement.innerHTML = `
-                            <p><strong>Skill Name:</strong> ${skill.name}</p>
+                            <p style="margin-top: 10px;"><strong>Skill Name:</strong> ${skill.name}</p>
                             <p><strong>DMG:</strong> ${skill.dmg || ''}</p>
                             ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
                         `;
@@ -321,20 +341,6 @@
                     element.classList.remove('hidden');
                 }
             }
-
-            searchBar.addEventListener('input', filterCards);
-            seriesFilter.addEventListener('change', filterCards);
-
-            // Fetch card data from external files
-            const cardFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json'];
-            window.cards = [];
-
-            Promise.all(cardFiles.map(file => fetch(file).then(response => response.json())))
-                .then(dataArrays => {
-                    dataArrays.forEach(data => window.cards.push(...data));
-                    displayCards(cards); // Display all cards initially
-                })
-                .catch(error => console.error('Error loading card data:', error));
         });
     </script>
 </body>
