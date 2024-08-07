@@ -244,6 +244,7 @@
                     cardElement.innerHTML = `
                         <img src="${card.image}" alt="${card.name}">
                         <p>${card.name}</p>
+                        <p>${card.cardNumber}</p>
                     `;
                     cardElement.addEventListener('click', () => openModal(card));
                     cardList.appendChild(cardElement);
