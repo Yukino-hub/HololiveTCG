@@ -245,6 +245,12 @@
         "color": "Colorless",
         "bloomLevel": "Spot",
         "collabEffect": "Collab Effect SoAzKo: When collaborating with 'Tokino Sora,' draw one card from your deck. When collaborating with 'AZKI,' send the top card of your cheer deck to your center Holomen",
+        "skills": [
+            {
+                "name": "ピュアピュアピュア~",
+                "dmg": 10
+            }
+        ],
         "extraEffect": "This Holomen cannot be Bloom",
         "image": "images/hSD01-015.jpg"
     },
