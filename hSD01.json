@@ -191,8 +191,7 @@
                 "description": "You can roll a die once: If the result is odd, this art gains +50. If the result is 1, this art gains an additional +50."
             }
         ],
-        "extraEffect": "This Holomen is also treated as 'Tokino Sora' and 'AZKI'",
-        "image": "images/hSD01-013.jpg"
+        "image": "images/hSD01-011.jpg"
     },
    {
         "cardNumber": "hSD01-012",
