@@ -1,6 +1,5 @@
 [
-
-         {
+    {
         "cardNumber": "hBP01-004",
         "name": "Usada Pekora",
         "rarity": "OSR",
@@ -14,11 +13,10 @@
         "spOshiSkill": {
             "name": "幸運兎  (\"Lucky Rabbit\")",
             "power": 3,
-            "description": "[Once pere game] During this turn, treat all your dice rolls as 6"
+            "description": "[Once per game] During this turn, treat all your dice rolls as 6"
         },
         "image": "images/hBP01-004.jpg"
     },
-    
     {
         "cardNumber": "hBP01-007",
         "name": "Hoshimachi Suisei",
@@ -37,8 +35,7 @@
         },
         "image": "images/hBP01-007.jpg"
     },
-
-       {
+    {
         "cardNumber": "hBP01-041",
         "name": "Usada Pekora",
         "rarity": "U",
@@ -51,7 +48,8 @@
                 "name": "見逃しちゃだめべこだよ!",
                 "dmg": 30
             }
-        ]
+        ],
+        "image": "images/hBP01-041.jpg"
     },
     {
         "cardNumber": "hBP01-042",
@@ -70,34 +68,32 @@
                 "dmg": "50+",
                 "description": "You can roll a die once: For each number rolled, this art gains +10."
             }
-        ]
+        ],
+        "image": "images/hBP01-042.jpg"
     },
-
     {
-    "cardNumber": "hBP01-096",
-    "name": "Usada Pekora",
-    "rarity": "C",
-    "bloomLevel": "Spot",
-    "hp": 80,
-    "color": "Colorless",
-    "collabEffect": "それは「冒険」: You can roll a die once: If the result is even, reveal one Buzz Holomen from your deck and add it to your hand. Then, shuffle your deck.",
-    "skills": [
-        {
-            "name": "ぺこら~扉の向こう側へ~",
-            "dmg": 10
-        }
-            ],
-    "extraEffect": "This Holomen cannot be Bloom"
+        "cardNumber": "hBP01-096",
+        "name": "Usada Pekora",
+        "rarity": "C",
+        "bloomLevel": "Spot",
+        "hp": 80,
+        "color": "Colorless",
+        "collabEffect": "それは「冒険」: You can roll a die once: If the result is even, reveal one Buzz Holomen from your deck and add it to your hand. Then, shuffle your deck.",
+        "skills": [
+            {
+                "name": "ぺこら~扉の向こう側へ~",
+                "dmg": 10
+            }
+        ],
+        "extraEffect": "This Holomen cannot be Bloom",
+        "image": "images/hBP01-096.jpg"
     },
-       {
+    {
         "cardNumber": "hBP01-123",
         "name": "野うさぎ同盟 (Nousagi Alliance)",
         "type": "Support",
         "rarity": "C",
-        "ability": "When the Holomen with this fan attached rolls a die as part of an ability, you may archive this fan: Reroll the die once. This fan can only be attached to your 'Usada Pekora,' and any number of them can be attached to one Holomen."
+        "ability": "When the Holomen with this fan attached rolls a die as part of an ability, you may archive this fan: Reroll the die once. This fan can only be attached to your 'Usada Pekora,' and any number of them can be attached to one Holomen.",
+        "image": "images/hBP01-123.jpg"
     }
-     
-
-
-    
 ]
