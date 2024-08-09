@@ -158,7 +158,7 @@
     },
     
     {
-        "cardNumber": "hSD-010",
+        "cardNumber": "hSD01-010",
         "name": "Azki",
         "rarity": "C",
         "bloomLevel": "1st",
@@ -173,7 +173,7 @@
         "image": "images/hSD01-010.jpg"
     },
      {
-        "cardNumber": "hSD-011",
+        "cardNumber": "hSD01-011",
         "name": "Azki",
         "rarity": "RR",
         "bloomLevel": "2nd",
@@ -195,7 +195,7 @@
         "image": "images/hSD01-013.jpg"
     },
    {
-        "cardNumber": "hSD-012",
+        "cardNumber": "hSD01-012",
         "name": "Airani Iofifteen",
         "rarity": "C",
         "bloomLevel": "Debut",
@@ -212,7 +212,7 @@
     },
     
     {
-        "cardNumber": "hSD-013",
+        "cardNumber": "hSD01-013",
         "name": "SorAz",
         "rarity": "R",
         "bloomLevel": "1st",
