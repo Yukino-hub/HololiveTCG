@@ -88,7 +88,7 @@
             flex-direction: row;
             align-items: center;
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            overflow-y: auto; /* Ensure the modal is scrollable */
+            overflow:  hidden; /* Ensure content does not overflow out of the modal */
         }
         .modal-content img {
             max-width: 200px;
@@ -120,17 +120,20 @@
             display: none;
         }
 
-        /* Add media query for mobile devices */
-    @media (max-width: 768px) {
-    .modal-content {
-        flex-direction: column; /* Change the layout to column on mobile */
-        align-items: flex-start; /* Align items to the start */
-    }
+        /* Media Query for Mobile Devices */
+        @media (max-width: 768px) {
+        .modal-content {
+            flex-direction: column; /* Stack image on top and text below on mobile */
+            align-items: flex-start; /* Align items to the start */
+            max-height: 80vh; /* Set a maximum height for the modal */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
 
-    .modal-content img {
-        margin: 0 0 20px 0; /* Adjust the margin to be below the image */
-        max-width: 100%; /* Ensure the image takes up the full width on mobile */
-    }
+        .modal-content img {
+            margin: 0 0 20px 0; /* Margin below the image */
+            max-width: 100%; /* Ensure image takes full width */
+        }
+}
 }
     </style>
 </head>
