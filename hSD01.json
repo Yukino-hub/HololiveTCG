@@ -182,12 +182,12 @@
         "skills": [
             {
                 "name": "SorAZ グラビティ",
-                "dmg": 50,
+                "dmg": 60,
                 "description": "You may roll a die once: If the result is odd, send the top card of your cheer deck to this Holomen. If the result is even, draw one card from your deck."
             },
             {
                 "name": "デスティニーソング",
-                "dmg": 100,
+                "dmg": "100+",
                 "description": "You can roll a die once: If the result is odd, this art gains +50. If the result is 1, this art gains an additional +50."
             }
         ],
@@ -205,7 +205,7 @@
         "skills": [
             {
                 "name": "お絵かきたのしー!",
-                "dmg": 50,
+                "dmg": 20,
             }
         ],
         "image": "images/hSD01-012.jpg"
@@ -216,7 +216,7 @@
         "name": "SorAz",
         "rarity": "R",
         "bloomLevel": "1st",
-        "hp": 160,
+        "hp": 130,
         "color": "White & Green",
         "skills": [
             {
