@@ -159,7 +159,10 @@
                 <p id="modalBuzzContainer"><strong>Buzz:</strong> <span id="modalBuzz"></span></p>
                 <p id="modalTypeContainer"><strong>Type:</strong> <span id="modalType"></span></p>
                 <p id="modalCollabEffectContainer"><strong>Collab Effect:</strong> <span id="modalCollabEffect"></span></p>
+                <p id="modalBloomEffectContainer"><strong>Bloom Effect:</strong> <span id="modalBloomEffect"></span></p>
+                <p id="modalGiftEffectContainer"><strong>Gift:</strong> <span id="modalGiftEffect"></span></p>
                 <p id="modalExtraEffectContainer"><strong>Extra Effect:</strong> <span id="modalExtraEffect"></span></p>
+                
                 <div id="modalOshiSkill" class="hidden">
                     <p><strong>Oshi Skill Name:</strong> <span id="modalOshiSkillName"></span></p>
                     <p><strong>Power Cost:</strong> <span id="modalOshiSkillPower"></span></p>
@@ -196,6 +199,8 @@
             const modalBuzzContainer = document.getElementById('modalBuzzContainer');
             const modalTypeContainer = document.getElementById('modalTypeContainer');
             const modalCollabEffectContainer = document.getElementById('modalCollabEffectContainer');
+            const modalBloomEffectContainer = document.getElementById('modalBloomEffectContainer');
+            const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
             const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
 
             const modalCardNumber = document.getElementById('modalCardNumber');
@@ -276,6 +281,8 @@
                 modalBuzz.textContent = card.buzz || '';
                 modalType.textContent = card.type || '';
                 modalCollabEffect.textContent = card.collabEffect || '';
+                modalCollabEffect.textContent = card.bloomEffect || '';
+                modalCollabEffect.textContent = card.giftEffect || '';
                 modalExtraEffect.textContent = card.extraEffect || '';
 
                 // Toggle visibility based on content
@@ -289,6 +296,8 @@
                 toggleVisibility(modalBuzzContainer, card.buzz);
                 toggleVisibility(modalTypeContainer, card.type);
                 toggleVisibility(modalCollabEffectContainer, card.collabEffect);
+                toggleVisibility(modalCollabEffectContainer, card.bloomEffect);
+                toggleVisibility(modalCollabEffectContainer, card.giftEffect);
                 toggleVisibility(modalExtraEffectContainer, card.extraEffect);
 
                 // Oshi Skill
