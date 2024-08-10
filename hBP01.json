@@ -108,6 +108,23 @@
         "image": "images/hBP01-042.jpg"
     },
      {
+        "cardNumber": "hBP01-043",
+        "name": "Usada Pekora",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Green",
+        "bloomeffect" : "ラプリンセスドレス: Restore 50 HP to this Holomen."
+        "skills": [
+            {
+                "name": "全人類兎化計画",
+                "dmg": "60+",
+                "description": "Roll a die three times, for each total of 1 on the rolled dice, this art +10."
+            }
+        ],
+        "image": "images/hBP01-043.jpg"
+    },
+     {
         "cardNumber": "hBP01-056",
         "name": "Takane Lui",
         "rarity": "P",
@@ -157,6 +174,23 @@
         ],
         "extraEffect": "This Holomen cannot be Bloom",
         "image": "images/hBP01-096.jpg"
+    },
+     {
+        "cardNumber": "hBP01-097",
+        "name": "Shiranui Flare",
+        "rarity": "R",
+        "bloomLevel": "Spot",
+        "hp": 80,
+        "color": "Colorless",
+        "collabEffect": "それは「愛と絆の物語」: Swap your center Holomen with one of your back Holomen that is not resting.",
+        "skills": [
+            {
+                "name": "フレア~扉の向こう側へ~",
+                "dmg": "20"
+            }
+        ],
+        "extraEffect": "This Holomen cannot be Bloom",
+        "image": "images/hBP01-097.jpg"
     },
     {
         "cardNumber": "hBP01-098",
