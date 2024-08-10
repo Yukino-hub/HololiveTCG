@@ -51,13 +51,7 @@
 		margin: 0; /* Remove default margin */
 		
         }
-	#bloomLevelContainer {
-	    display: flex;
-	    align-items: center;
-	}
-	#bloomLevelContainer select {
-	    margin-left: 10px; /* Adds space to the left of the dropdown */
-	}
+	
         #seriesFilter {
             margin-top: 20px;
             padding: 10px;
@@ -73,6 +67,12 @@
 	        padding: 10px;
 	        font-size: 16px;
 	}
+	#bloomLevelFilter {
+		margin-top: 20px;
+	        padding: 10px;
+	        font-size: 16px;
+	}
+	
         #cardList {
             display: flex;
             flex-wrap: wrap;
@@ -149,9 +149,6 @@
         }
         .hidden {
             display: none;
-        }
-	#bloomLevelContainer {
-            display: none; /* Initially hide the advanced filter and bloom level dropdowns */
         }
 
          /* Media Query for Mobile Devices */
@@ -336,17 +333,6 @@
                 });
             }
 
-            searchBar.addEventListener('input', function() {
-                filterCards();
-            });
-
-            seriesFilter.addEventListener('change', function() {
-                filterCards();
-            });
-
-            rarityFilter.addEventListener('change', function() {
-                filterCards();
-            });
 
             function filterCards() {
                 const searchText = searchBar.value.toLowerCase();
