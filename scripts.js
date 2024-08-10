@@ -1,4 +1,6 @@
  document.addEventListener('DOMContentLoaded', function() {
+            const contentContainer = document.getElementById('contentContainer');
+            const loadingIndicator = document.getElementById('loadingIndicator');
             const searchBar = document.getElementById('searchBar');
             const seriesFilter = document.getElementById('seriesFilter');
             const rarityFilter = document.getElementById('rarityFilter');
