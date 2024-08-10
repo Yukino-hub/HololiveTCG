@@ -188,3 +188,12 @@ header a:hover {
 html {
     scroll-behavior: smooth;
 }
+/* Lazy Loading Styles */
+img.lazy-load {
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Smooth transition for fading in images */
+}
+
+img.lazy-load[src] {
+    opacity: 1; /* Fully visible when the src is set */
+}
