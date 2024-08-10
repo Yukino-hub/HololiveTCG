@@ -82,15 +82,16 @@
             background: #fff;
             border-radius: 5px;
             padding: 20px;
-            max-width: 800px;
+            max-width: 1000px;
             width: 90%;
             display: flex;
             flex-direction: row;
             align-items: center;
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            overflow:  hidden; /* Ensure content does not overflow out of the modal */
         }
         .modal-content img {
-            max-width: 200px;
+            max-width: 300px;
             height: auto;
             margin-right: 20px;
         }
@@ -117,6 +118,20 @@
         }
         .hidden {
             display: none;
+        }
+
+         /* Media Query for Mobile Devices */
+        @media (max-width: 768px) {
+        .modal-content {
+            flex-direction: column; /* Stack image on top and text below on mobile */
+            align-items: flex-start; /* Align items to the start */
+            max-height: 80vh; /* Set a maximum height for the modal */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+
+        .modal-content img {
+            margin: 0 0 20px 0; /* Margin below the image */
+            max-width: 100%; /* Ensure image takes full width */
         }
     </style>
 </head>
