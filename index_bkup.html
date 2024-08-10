@@ -37,7 +37,23 @@
             padding: 10px;
             font-size: 16px;
         }
+        .dropdown-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Space between the dropdowns */
+            margin-bottom: 20px; /* Space below the dropdowns */
+        }
+
+        .dropdown-container select {
+            padding: 10px;
+            font-size: 16px;
+        }
         #seriesFilter {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+         #rarityFilter {
             margin-top: 20px;
             padding: 10px;
             font-size: 16px;
@@ -120,7 +136,7 @@
             display: none;
         }
 
-        /* Media Query for Mobile Devices */
+         /* Media Query for Mobile Devices */
         @media (max-width: 768px) {
         .modal-content {
             flex-direction: column; /* Stack image on top and text below on mobile */
@@ -133,8 +149,6 @@
             margin: 0 0 20px 0; /* Margin below the image */
             max-width: 100%; /* Ensure image takes full width */
         }
-}
-}
     </style>
 </head>
 <body>
@@ -146,15 +160,26 @@
         <div class="search-container">
             <input type="text" id="searchBar" placeholder="Search by Card Number...">
             <br><br>
-            <select id="seriesFilter">
-                <option value="">Select Series</option>
-                <option value="hSD01">hSD01</option>
-                <option value="hBP01">hBP01</option>
-                <option value="hYS01">hYS01</option>
-                <option value="hPR">hPR</option>
-                <option value="hY01">hY01</option>
-            </select>
-        </div>
+            <div class="dropdown-container">
+                <select id="seriesFilter">
+                    <option value="">Select Series</option>
+                    <option value="hSD01">hSD01</option>
+                    <option value="hBP01">hBP01</option>
+                    <option value="hYS01">hYS01</option>
+                    <option value="hPR">hPR</option>
+                    <option value="hY01">hY01</option>
+                </select>
+                <select id="rarityFilter">
+                    <option value="">Select Rarity</option>
+                    <option value="C">Common</option>
+                    <option value="U">Uncommon</option>
+                    <option value="R">Rare</option>
+                    <option value="RR">Double Rare</option>
+                    <option value="OSR">Oshi Super Rare</option>
+                    <option value="P">Promo</option>
+                </select>
+            </div>
+
         <div id="cardList">
             <!-- Cards will be displayed here -->
         </div>
@@ -172,9 +197,9 @@
                 <p id="modalHPContainer"><strong>HP:</strong> <span id="modalHP"></span></p>
                 <p id="modalColorContainer"><strong>Color:</strong> <span id="modalColor"></span></p>
                 <p id="modalLivesContainer"><strong>Lives:</strong> <span id="modalLives"></span></p>
-                <p id="modalAbilityContainer"><strong>Ability:</strong> <span id="modalAbility"></span></p>
                 <p id="modalBuzzContainer"><strong>Buzz:</strong> <span id="modalBuzz"></span></p>
                 <p id="modalTypeContainer"><strong>Type:</strong> <span id="modalType"></span></p>
+                <p id="modalAbilityContainer"><strong>Ability:</strong> <span id="modalAbility"></span></p>
                 <p id="modalCollabEffectContainer"><strong>Collab Effect:</strong> <span id="modalCollabEffect"></span></p>
                 <p id="modalBloomEffectContainer"><strong>Bloom Effect:</strong> <span id="modalBloomEffect"></span></p>
                 <p id="modalGiftEffectContainer"><strong>Gift:</strong> <span id="modalGiftEffect"></span></p>
@@ -201,6 +226,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             const searchBar = document.getElementById('searchBar');
             const seriesFilter = document.getElementById('seriesFilter');
+            const rarityFilter = document.getElementById('rarityFilter');
             const cardList = document.getElementById('cardList');
             const modal = document.getElementById('modal');
             const modalImage = document.getElementById('modalImage');
@@ -212,9 +238,9 @@
             const modalHPContainer = document.getElementById('modalHPContainer');
             const modalColorContainer = document.getElementById('modalColorContainer');
             const modalLivesContainer = document.getElementById('modalLivesContainer');
-            const modalAbilityContainer = document.getElementById('modalAbilityContainer');
             const modalBuzzContainer = document.getElementById('modalBuzzContainer');
             const modalTypeContainer = document.getElementById('modalTypeContainer');
+             const modalAbilityContainer = document.getElementById('modalAbilityContainer');
             const modalCollabEffectContainer = document.getElementById('modalCollabEffectContainer');
             const modalBloomEffectContainer = document.getElementById('modalBloomEffectContainer');
             const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
@@ -226,9 +252,9 @@
             const modalHP = document.getElementById('modalHP');
             const modalColor = document.getElementById('modalColor');
             const modalLives = document.getElementById('modalLives');
-            const modalAbility = document.getElementById('modalAbility');
             const modalBuzz = document.getElementById('modalBuzz');
             const modalType = document.getElementById('modalType');
+            const modalAbility = document.getElementById('modalAbility');
             const modalCollabEffect = document.getElementById('modalCollabEffect');
             const modalExtraEffect = document.getElementById('modalExtraEffect');
 
@@ -274,16 +300,31 @@
             }
 
             searchBar.addEventListener('input', function() {
-                const searchText = searchBar.value.toLowerCase();
-                const filteredCards = cards.filter(card => card.cardNumber.toLowerCase().includes(searchText));
-                displayCards(filteredCards);
+                filterCards();
             });
 
             seriesFilter.addEventListener('change', function() {
-                const selectedSeries = seriesFilter.value;
-                const filteredCards = selectedSeries ? cards.filter(card => card.cardNumber.startsWith(selectedSeries)) : cards;
-                displayCards(filteredCards);
+                filterCards();
             });
+
+            rarityFilter.addEventListener('change', function() {
+                filterCards();
+            });
+
+            function filterCards() {
+                const searchText = searchBar.value.toLowerCase();
+                const selectedSeries = seriesFilter.value;
+                const selectedRarity = rarityFilter.value;
+
+                const filteredCards = cards.filter(card => {
+                    const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
+                    const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
+                    const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
+                    return matchesSearch && matchesSeries && matchesRarity;
+                    });
+                displayCards(filteredCards);
+                }
+
 
             window.openModal = function(card) {
                 modalImage.src = card.image;
@@ -294,9 +335,9 @@
                 modalHP.textContent = card.hp || '';
                 modalColor.textContent = card.color || '';
                 modalLives.textContent = card.lives || '';
-                modalAbility.textContent = card.ability || '';
                 modalBuzz.textContent = card.buzz || '';
                 modalType.textContent = card.type || '';
+                modalAbility.textContent = card.ability || '';
                 modalCollabEffect.textContent = card.collabEffect || '';
                 modalBloomEffect.textContent = card.bloomEffect || '';
                 modalGiftEffect.textContent = card.giftEffect || '';
@@ -309,9 +350,9 @@
                 toggleVisibility(modalHPContainer, card.hp);
                 toggleVisibility(modalColorContainer, card.color);
                 toggleVisibility(modalLivesContainer, card.lives);
-                toggleVisibility(modalAbilityContainer, card.ability);
                 toggleVisibility(modalBuzzContainer, card.buzz);
                 toggleVisibility(modalTypeContainer, card.type);
+                toggleVisibility(modalAbilityContainer, card.ability);
                 toggleVisibility(modalCollabEffectContainer, card.collabEffect);
                 toggleVisibility(modalBloomEffectContainer, card.bloomEffect);
                 toggleVisibility(modalGiftEffectContainer, card.giftEffect);
