@@ -35,6 +35,42 @@
         },
         "image": "images/hBP01-007.jpg"
     },
+
+     {
+        "cardNumber": "hBP01-009",
+        "name": "Ayame Kanata",
+        "rarity": "P",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "color": "White",
+        "skills": [
+            {
+                "name": "こんかなた〜",
+                "dmg": "40",
+                "description" : "This Art cannot target the opponent's Center Holomen."
+            }
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
+        "image": "images/hBP01-009.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-038",
+        "name": "Usada Pekora",
+        "rarity": "P",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "color": "Green",
+        "skills": [
+            {
+                "name": "こんぺこー!",
+                "dmg": "20+",
+                "description" : "Roll a die once: If the result is even, this art gains +20"
+            }
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
+        "image": "images/hBP01-038.jpg"
+    },
     {
         "cardNumber": "hBP01-041",
         "name": "Usada Pekora",
@@ -71,6 +107,40 @@
         ],
         "image": "images/hBP01-042.jpg"
     },
+     {
+        "cardNumber": "hBP01-056",
+        "name": "Takane Lui",
+        "rarity": "P",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "Red",
+        "skills": [
+            {
+                "name": "皆さん、待っ鷹ね?",
+                "dmg": "30"
+            }
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
+        "image": "images/hBP01-056.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-082",
+        "name": "Kobo Kanaeru",
+        "rarity": "P",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "Blue",
+        "skills": [
+            {
+                "name": "ぼこぼこぼこぼ",
+                "dmg": "30"
+            }
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
+        "image": "images/hBP01-082.jpg"
+    },
+    
     {
         "cardNumber": "hBP01-096",
         "name": "Usada Pekora",
