@@ -58,7 +58,7 @@
         "bloomLevel": "Debut",
         "hp": 150,
         "color": "White",
-        "collabEffect": "Collab Effect レッツダンス!: For the duration of this turn, your center Holomen's art gains +20.",
+        "collabEffect": "レッツダンス!: For the duration of this turn, your center Holomen's art gains +20.",
         "skills": [
             {
                 "name": "オンステージ!",
@@ -100,11 +100,12 @@
                 "dmg": 50
             },
             {
-                "name": "シンパシー ンパシー",
+                "name": "SorAZ シンパシー",
                 "dmg": "60+",
                 "description": "When you have the Holomen 'AZKI' on your stage, this art gains +50."
             }
         ],
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
         "image": "images/hSD01-006.jpg"
     },
 
@@ -115,7 +116,7 @@
         "bloomLevel": "Debut",
         "hp": 50,
         "color": "White",
-        "collabEffect": "Collab Effect HOPE!: Look at your Holopower. Reveal one card from among them and add it to your hand. Then, choose one card from your hand and turn it into Holopower.",  
+        "collabEffect": "HOPE!: Look at your Holopower. Reveal one card from among them and add it to your hand. Then, choose one card from your hand and turn it into Holopower.",  
         "skills": [
             {
                 "name": "希望の化身",
@@ -147,7 +148,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Green",
-        "collabEffect": "Collab Effect 広がる地図: You can roll a die once: If the result is 4 or lower, send the top card of your cheer deck to your back Holomen. If the result is 1, you may also move this Holomen to the back position.", 
+        "collabEffect": "広がる地図: You can roll a die once: If the result is 4 or lower, send the top card of your cheer deck to your back Holomen. If the result is 1, you may also move this Holomen to the back position.", 
         "skills": [
             {
                 "name": "ほいでほいで",
@@ -183,7 +184,7 @@
             {
                 "name": "SorAZ グラビティ",
                 "dmg": 60,
-                "description": "You may roll a die once: If the result is odd, send the top card of your cheer deck to this Holomen. If the result is even, draw one card from your deck."
+                "description": "When the Holomen 'Tokino Sora' is on your stage, send the top card of your cheer deck to one of your Holomen."
             },
             {
                 "name": "デスティニーソング",
@@ -200,7 +201,7 @@
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Green",
-        "collabEffect": "Collab Effect 一緒にお絵かき!: You may send one White or Green cheer card from your archive to your center Holomen.", 
+        "collabEffect": "一緒にお絵かき!: You may send one White or Green cheer card from your archive to your center Holomen.", 
         "skills": [
             {
                 "name": "お絵かきたのしー!",
@@ -234,6 +235,12 @@
         "hp": 150,
         "color": "Colorless",
         "bloomLevel": "Spot",
+        "skills": [
+            {
+                "name": "へい",
+                "dmg": 30
+            }
+        ],
         "extraEffect": "This Holomen cannot be Bloom",
         "image": "images/hSD01-014.jpg"
     },
@@ -244,7 +251,7 @@
         "hp": 50,
         "color": "Colorless",
         "bloomLevel": "Spot",
-        "collabEffect": "Collab Effect SoAzKo: When collaborating with 'Tokino Sora,' draw one card from your deck. When collaborating with 'AZKI,' send the top card of your cheer deck to your center Holomen",
+        "collabEffect": "SoAzKo: When collaborating with 'Tokino Sora,' draw one card from your deck. When collaborating with 'AZKI,' send the top card of your cheer deck to your center Holomen",
         "skills": [
             {
                 "name": "ピュアピュアピュア~",
