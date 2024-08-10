@@ -110,7 +110,7 @@ function filterCards() {
     rarityFilter.addEventListener('change', filterCards);
    advancedFilter.addEventListener('change', function() {
     const value = this.value;
-    bloomLevelContainer.style.display = value === 'Oshi Holomen' ? 'block' : 'none';
+    bloomLevelContainer.style.display = value === 'holomen' ? 'block' : 'none';
     filterCards();
 });
     bloomLevelFilter.addEventListener('change', filterCards);
