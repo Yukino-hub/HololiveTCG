@@ -6,161 +6,152 @@
     <title>Hololive TCG - Card Index</title>
     <style>
         body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #ddd;
+        }
+        header a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+            margin: auto;
+        }
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #searchBar {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        .dropdown-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Space between the dropdowns */
+            margin-bottom: 20px; /* Space below the dropdowns */
+        }
 
-header {
-    background: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-    border-bottom: 2px solid #ddd;
-}
+        .dropdown-container select {
+            padding: 10px;
+            font-size: 16px;
+        }
+        #seriesFilter {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+         #rarityFilter {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #cardList {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto; /* Maintain aspect ratio */
+        }
+        .card p {
+            margin: 0;
+            padding: 5px 0;
+            font-weight: bold;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            max-width: 1000px;
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            overflow:  hidden; /* Ensure content does not overflow out of the modal */
+        }
+        .modal-content img {
+            max-width: 300px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .modal-content div {
+            font-family: Arial, sans-serif;
+        }
+        .modal-content p {
+            margin: 0;
+            padding: 5px 0;
+        }
+        .modal-content h3 {
+            margin: 0 0 10px 0;
+            font-size: 24px;
+        }
+        .modal-content strong {
+            font-weight: bold;
+        }
+        .modal-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .hidden {
+            display: none;
+        }
+	#bloomLevelContainer {
+            display: none; /* Initially hide the advanced filter and bloom level dropdowns */
+        }
 
-header a {
-    color: #007bff;
-    text-decoration: none;
-    margin: 0 15px;
-}
+         /* Media Query for Mobile Devices */
+        @media (max-width: 768px) {
+        .modal-content {
+            flex-direction: column; /* Stack image on top and text below on mobile */
+            align-items: flex-start; /* Align items to the start */
+            max-height: 80vh; /* Set a maximum height for the modal */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
 
-header a:hover {
-    text-decoration: underline;
-}
-
-.container {
-    padding: 20px;
-    margin: auto;
-}
-
-.search-container {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#searchBar {
-    width: 50%;
-    padding: 10px;
-    font-size: 16px;
-}
-
-.dropdown-container {
-    display: flex;
-    flex-direction: column; /* Stack dropdowns vertically */
-    align-items: center; /* Center align */
-    gap: 10px; /* Space between dropdowns */
-    margin-bottom: 20px; /* Space below the dropdowns */
-}
-
-.dropdown-container select {
-    padding: 10px;
-    font-size: 16px;
-}
-
-#cardList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-    max-width: 200px;
-    display: inline-block;
-    vertical-align: top;
-    cursor: pointer;
-}
-
-.card img {
-    max-width: 100%;
-    height: auto; /* Maintain aspect ratio */
-}
-
-.card p {
-    margin: 0;
-    padding: 5px 0;
-    font-weight: bold;
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    justify-content: center;
-    align-items: center;
-}
-
-.modal-content {
-    background: #fff;
-    border-radius: 5px;
-    padding: 20px;
-    max-width: 1000px;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    overflow: hidden; /* Ensure content does not overflow out of the modal */
-}
-
-.modal-content img {
-    max-width: 300px;
-    height: auto;
-    margin-right: 20px;
-}
-
-.modal-content div {
-    font-family: Arial, sans-serif;
-}
-
-.modal-content p {
-    margin: 0;
-    padding: 5px 0;
-}
-
-.modal-content h3 {
-    margin: 0 0 10px 0;
-    font-size: 24px;
-}
-
-.modal-content strong {
-    font-weight: bold;
-}
-
-.modal-close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-.hidden {
-    display: none;
-}
-
-/* Media Query for Mobile Devices */
-@media (max-width: 768px) {
-    .modal-content {
-        flex-direction: column; /* Stack image on top and text below on mobile */
-        align-items: flex-start; /* Align items to the start */
-        max-height: 80vh; /* Set a maximum height for the modal */
-        overflow-y: auto; /* Enable vertical scrolling */
-    }
-
-    .modal-content img {
-        margin: 0 0 20px 0; /* Margin below the image */
-        max-width: 100%; /* Ensure image takes full width */
-    }
-}
+        .modal-content img {
+            margin: 0 0 20px 0; /* Margin below the image */
+            max-width: 100%; /* Ensure image takes full width */
+        }
     </style>
 </head>
 <body>
@@ -190,30 +181,23 @@ header a:hover {
                     <option value="OSR">Oshi Super Rare</option>
                     <option value="P">Promo</option>
                 </select>
-				
-				<br><br>
-				
-				<!-- New Advanced Filter -->
-				<select id="advancedFilter">
-					<option value="">Select Advanced Filter</option>
-					<option value="type">By Type</option>
-				</select>
-				<div id="advancedFilterOptions" class="hidden">
-					<select id="typeFilter">
-						<option value="">Select Type</option>
-						<option value="holomen">Holomen</option>
-						<option value="oshi">Oshi Holomen</option>
-						<option value="support">Support</option>
-					</select>
-					<div id="bloomLevelContainer" class="hidden">
-						<select id="bloomLevelFilter">
-							<option value="">Select Bloom Level</option>
-							<option value="1st">1st</option>
-							<option value="2nd">2nd</option>
-							<option value="debut">Debut</option>
-						</select>
-					</div>
-				</div>
+		 <!-- New Advanced Filter Dropdown -->
+                <select id="advancedFilter">
+                    <option value="">Advanced Filter</option>
+                    <option value="holomen">Holomen</option>
+                    <option value="oshiholomen">Oshi Holomen</option>
+                    <option value="support">Support Card</option>
+                </select>
+                <!-- New Bloom Level Dropdown -->
+                <div id="bloomLevelContainer">
+                    <select id="bloomLevelFilter">
+                        <option value="">Select Bloom Level</option>
+                        <option value="debut">Debut</option>
+                        <option value="1st">1st</option>
+                        <option value="2nd">2nd</option>
+                    </select>
+                </div>
+            </div>
 
         <div id="cardList">
             <!-- Cards will be displayed here -->
@@ -262,10 +246,9 @@ header a:hover {
             const searchBar = document.getElementById('searchBar');
             const seriesFilter = document.getElementById('seriesFilter');
             const rarityFilter = document.getElementById('rarityFilter');
-			const advancedFilter = document.getElementById('advancedFilter');
-			const typeFilter = document.getElementById('typeFilter');
-			const bloomLevelContainer = document.getElementById('bloomLevelContainer');
-			const bloomLevelFilter = document.getElementById('bloomLevelFilter');
+		const advancedFilter = document.getElementById('advancedFilter');
+            const bloomLevelFilter = document.getElementById('bloomLevelFilter');
+            const bloomLevelContainer = document.getElementById('bloomLevelContainer');
             const cardList = document.getElementById('cardList');
             const modal = document.getElementById('modal');
             const modalImage = document.getElementById('modalImage');
@@ -279,7 +262,7 @@ header a:hover {
             const modalLivesContainer = document.getElementById('modalLivesContainer');
             const modalBuzzContainer = document.getElementById('modalBuzzContainer');
             const modalTypeContainer = document.getElementById('modalTypeContainer');
-            const modalAbilityContainer = document.getElementById('modalAbilityContainer');
+             const modalAbilityContainer = document.getElementById('modalAbilityContainer');
             const modalCollabEffectContainer = document.getElementById('modalCollabEffectContainer');
             const modalBloomEffectContainer = document.getElementById('modalBloomEffectContainer');
             const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
@@ -324,54 +307,60 @@ header a:hover {
             });
 
             function displayCards(cards) {
-				cardList.innerHTML = '';
-				cards.forEach(card => {
-				const cardElement = document.createElement('div');
-				cardElement.classList.add('card');
-				cardElement.innerHTML = `
-					<img src="${card.image}" alt="${card.name}">
-					<p>${card.name}</p>
-					<p>${card.cardNumber}</p>
-				`;
-				cardElement.addEventListener('click', () => openModal(card));
-				cardList.appendChild(cardElement);
-				});
-			}
+                cardList.innerHTML = '';
+                cards.forEach(card => {
+                    const cardElement = document.createElement('div');
+                    cardElement.classList.add('card');
+                    cardElement.innerHTML = `
+                        <img src="${card.image}" alt="${card.name}">
+                        <p>${card.name}</p>
+                        <p>${card.cardNumber}</p>
+                    `;
+                    cardElement.addEventListener('click', () => openModal(card));
+                    cardList.appendChild(cardElement);
+                });
+            }
 
-    function filterCards() {
-        const searchText = searchBar.value.toLowerCase();
-        const selectedSeries = seriesFilter.value;
-        const selectedRarity = rarityFilter.value;
-        const advancedFilterValue = advancedFilter.value;
-        const selectedType = typeFilter.value;
-        const selectedBloomLevel = bloomLevelFilter.value;
+            searchBar.addEventListener('input', function() {
+                filterCards();
+            });
 
-        const filteredCards = cards.filter(card => {
-            const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
-            const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-            const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
-            const matchesType = advancedFilterValue === 'type' ? (selectedType ? card.type === selectedType : true) : true;
-            const matchesBloomLevel = selectedBloomLevel ? card.bloomLevel === selectedBloomLevel : true;
-            return matchesSearch && matchesSeries && matchesRarity && matchesType && matchesBloomLevel;
-        });
-        displayCards(filteredCards);
-    }
+            seriesFilter.addEventListener('change', function() {
+                filterCards();
+            });
 
-    searchBar.addEventListener('input', filterCards);
-    seriesFilter.addEventListener('change', filterCards);
-    rarityFilter.addEventListener('change', filterCards);
-    advancedFilter.addEventListener('change', function() {
-        const value = this.value;
-        document.getElementById('advancedFilterOptions').classList.toggle('hidden', value === '');
-        filterCards();
-    });
-    typeFilter.addEventListener('change', filterCards);
-    bloomLevelFilter.addEventListener('change', filterCards);
+            rarityFilter.addEventListener('change', function() {
+                filterCards();
+            });
 
-    // Bloom Level dropdown visibility
-    typeFilter.addEventListener('change', function() {
-        bloomLevelContainer.classList.toggle('hidden', this.value !== 'holomen');
-    });
+            function filterCards() {
+                const searchText = searchBar.value.toLowerCase();
+                const selectedSeries = seriesFilter.value;
+                const selectedRarity = rarityFilter.value;
+                const selectedAdvancedFilter = advancedFilter.value;
+                const selectedBloomLevel = bloomLevelFilter.value;
+
+                const filteredCards = cards.filter(card => {
+                    const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
+                    const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
+                    const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
+                    const matchesAdvancedFilter = selectedAdvancedFilter ? card.type === selectedAdvancedFilter : true;
+                    const matchesBloomLevel = selectedBloomLevel ? card.bloomLevel === selectedBloomLevel : true;
+                    return matchesSearch && matchesSeries && matchesRarity && matchesAdvancedFilter && matchesBloomLevel;
+                });
+                displayCards(filteredCards);
+            }
+
+            searchBar.addEventListener('input', filterCards);
+            seriesFilter.addEventListener('change', filterCards);
+            rarityFilter.addEventListener('change', filterCards);
+            advancedFilter.addEventListener('change', function() {
+                const value = this.value;
+                bloomLevelContainer.style.display = value === 'holomen' ? 'block' : 'none';
+                filterCards();
+            });
+            bloomLevelFilter.addEventListener('change', filterCards);
+
 
 
             window.openModal = function(card) {
