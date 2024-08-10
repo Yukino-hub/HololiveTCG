@@ -90,9 +90,11 @@ function filterCards() {
         const matchesBloomLevel = selectedBloomLevel ? card.bloomLevel === selectedBloomLevel : true;
 
         let matchesRarityOrType = true;
-        if (selectedAdvancedFilter === 'Oshi Holomen') {
+        if (selectedAdvancedFilter === 'holomen') {
             matchesRarityOrType = card.bloomLevel === selectedBloomLevel;
-        } else if (selectedAdvancedFilter === 'Support') {
+        } else if (selectedAdvancedFilter === 'oshi holomen') {
+            matchesRarityOrType = card.rarity === 'OSR';
+        } else if (selectedAdvancedFilter === 'support') {
             matchesRarityOrType = card.type === 'Support';
         } else {
             matchesRarityOrType = selectedRarity ? card.rarity === selectedRarity : true;
