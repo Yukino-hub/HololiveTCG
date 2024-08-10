@@ -149,8 +149,6 @@
             margin: 0 0 20px 0; /* Margin below the image */
             max-width: 100%; /* Ensure image takes full width */
         }
-    }
-
     </style>
 </head>
 <body>
@@ -159,88 +157,51 @@
         <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a></p>
     </header>
     <div class="container">
-        <div class="container">
-            <div class="search-container">
-                <input type="text" id="searchBar" placeholder="Search by Card Number...">
-                <br><br>
-                <div class="dropdown-container">
-                    <select id="seriesFilter">
-                        <option value="">Select Series</option>
-                        <option value="hSD01">hSD01</option>
-                        <option value="hBP01">hBP01</option>
-                        <option value="hYS01">hYS01</option>
-                        <option value="hPR">hPR</option>
-                        <option value="hY01">hY01</option>
-                    </select>
-                    <select id="rarityFilter">
-                        <option value="">Select Rarity</option>
-                        <option value="common">Common</option>
-                        <option value="rare">Rare</option>
-                        <option value="super-rare">Super Rare</option>
-                    </select>
-                    <select id="advancedFilter">
-                        <option value="">Advanced Filter</option>
-                        <option value="holomen">Holomen</option>
-                        <option value="oshiholomen">Oshiholomen</option>
-                        <option value="support">Support</option>
-                    </select>
-                </div>
-                <div id="holomenFilters" class="hidden">
-                    <select id="bloomLevelFilter">
-                        <option value="">Select Bloom Level</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                    </select>
-                    <br><br>
-                    <select id="debutFilter">
-                        <option value="">Select Debut</option>
-                        <option value="1st">1st</option>
-                        <option value="2nd">2nd</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                const searchBar = document.getElementById('searchBar');
-                const seriesFilter = document.getElementById('seriesFilter');
-                const advancedFilter = document.getElementById('advancedFilter');
-                const holomenFilters = document.getElementById('holomenFilters');
-                const bloomLevelFilter = document.getElementById('bloomLevelFilter');
-                const debutFilter = document.getElementById('debutFilter');
-            
-                advancedFilter.addEventListener('change', function() {
-                    const selectedValue = advancedFilter.value;
-                    if (selectedValue === 'holomen') {
-                        holomenFilters.classList.remove('hidden');
-                    } else {
-                        holomenFilters.classList.add('hidden');
-                    }
-                });
-            
-                // Existing code...
-                const rarityFilter = document.getElementById('rarityFilter');
-                const cardList = document.getElementById('cardList');
-                const modal = document.getElementById('modal');
-                const modalImage = document.getElementById('modalImage');
-            
-                const modalCardName = document.getElementById('modalCardName');
-                const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
-                const modalRarityContainer = document.getElementById('modalRarityContainer');
-                const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
-                const modalHPContainer = document.getElementById('modalHPContainer');
-                const modalColorContainer = document.getElementById('modalColorContainer');
-                const modalLivesContainer = document.getElementById('modalLivesContainer');
-                const modalBuzzContainer = document.getElementById('modalBuzzContainer');
-                const modalTypeContainer = document.getElementById('modalTypeContainer');
-                const modalAbilityContainer = document.getElementById('modalAbilityContainer');
-                const modalCollabEffectContainer = document.getElementById('modalCollabEffectContainer');
-                const modalBloomEffectContainer = document.getElementById('modalBloomEffectContainer');
-                const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
-                const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
-            });
-        </script>
+        <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Search by Card Number...">
+            <br><br>
+            <div class="dropdown-container">
+                <select id="seriesFilter">
+                    <option value="">Select Series</option>
+                    <option value="hSD01">hSD01</option>
+                    <option value="hBP01">hBP01</option>
+                    <option value="hYS01">hYS01</option>
+                    <option value="hPR">hPR</option>
+                    <option value="hY01">hY01</option>
+                </select>
+                <select id="rarityFilter">
+                    <option value="">Select Rarity</option>
+                    <option value="C">Common</option>
+                    <option value="U">Uncommon</option>
+                    <option value="R">Rare</option>
+                    <option value="RR">Double Rare</option>
+                    <option value="OSR">Oshi Super Rare</option>
+                    <option value="P">Promo</option>
+                </select>
+				
+				<br><br>
+				
+				<!-- New Advanced Filter -->
+				<select id="advancedFilter">
+					<option value="">Select Advanced Filter</option>
+					<option value="type">By Type</option>
+				</select>
+				<div id="advancedFilterOptions" class="hidden">
+					<select id="typeFilter">
+						<option value="">Select Type</option>
+						<option value="holomen">Holomen</option>
+						<option value="oshi">Oshi Holomen</option>
+						<option value="support">Support</option>
+					</select>
+					<div id="bloomLevelContainer" class="hidden">
+						<select id="bloomLevelFilter">
+							<option value="">Select Bloom Level</option>
+							<option value="1st">1st</option>
+							<option value="2nd">2nd</option>
+							<option value="debut">Debut</option>
+						</select>
+					</div>
+				</div>
 
         <div id="cardList">
             <!-- Cards will be displayed here -->
@@ -289,6 +250,10 @@
             const searchBar = document.getElementById('searchBar');
             const seriesFilter = document.getElementById('seriesFilter');
             const rarityFilter = document.getElementById('rarityFilter');
+			const advancedFilter = document.getElementById('advancedFilter');
+			const typeFilter = document.getElementById('typeFilter');
+			const bloomLevelContainer = document.getElementById('bloomLevelContainer');
+			const bloomLevelFilter = document.getElementById('bloomLevelFilter');
             const cardList = document.getElementById('cardList');
             const modal = document.getElementById('modal');
             const modalImage = document.getElementById('modalImage');
@@ -302,7 +267,7 @@
             const modalLivesContainer = document.getElementById('modalLivesContainer');
             const modalBuzzContainer = document.getElementById('modalBuzzContainer');
             const modalTypeContainer = document.getElementById('modalTypeContainer');
-             const modalAbilityContainer = document.getElementById('modalAbilityContainer');
+            const modalAbilityContainer = document.getElementById('modalAbilityContainer');
             const modalCollabEffectContainer = document.getElementById('modalCollabEffectContainer');
             const modalBloomEffectContainer = document.getElementById('modalBloomEffectContainer');
             const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
@@ -347,45 +312,54 @@
             });
 
             function displayCards(cards) {
-                cardList.innerHTML = '';
-                cards.forEach(card => {
-                    const cardElement = document.createElement('div');
-                    cardElement.classList.add('card');
-                    cardElement.innerHTML = `
-                        <img src="${card.image}" alt="${card.name}">
-                        <p>${card.name}</p>
-                        <p>${card.cardNumber}</p>
-                    `;
-                    cardElement.addEventListener('click', () => openModal(card));
-                    cardList.appendChild(cardElement);
-                });
-            }
+				cardList.innerHTML = '';
+				cards.forEach(card => {
+				const cardElement = document.createElement('div');
+				cardElement.classList.add('card');
+				cardElement.innerHTML = `
+					<img src="${card.image}" alt="${card.name}">
+					<p>${card.name}</p>
+					<p>${card.cardNumber}</p>
+				`;
+				cardElement.addEventListener('click', () => openModal(card));
+				cardList.appendChild(cardElement);
+				});
+			}
 
-            searchBar.addEventListener('input', function() {
-                filterCards();
-            });
+    function filterCards() {
+        const searchText = searchBar.value.toLowerCase();
+        const selectedSeries = seriesFilter.value;
+        const selectedRarity = rarityFilter.value;
+        const advancedFilterValue = advancedFilter.value;
+        const selectedType = typeFilter.value;
+        const selectedBloomLevel = bloomLevelFilter.value;
 
-            seriesFilter.addEventListener('change', function() {
-                filterCards();
-            });
+        const filteredCards = cards.filter(card => {
+            const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
+            const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
+            const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
+            const matchesType = advancedFilterValue === 'type' ? (selectedType ? card.type === selectedType : true) : true;
+            const matchesBloomLevel = selectedBloomLevel ? card.bloomLevel === selectedBloomLevel : true;
+            return matchesSearch && matchesSeries && matchesRarity && matchesType && matchesBloomLevel;
+        });
+        displayCards(filteredCards);
+    }
 
-            rarityFilter.addEventListener('change', function() {
-                filterCards();
-            });
+    searchBar.addEventListener('input', filterCards);
+    seriesFilter.addEventListener('change', filterCards);
+    rarityFilter.addEventListener('change', filterCards);
+    advancedFilter.addEventListener('change', function() {
+        const value = this.value;
+        document.getElementById('advancedFilterOptions').classList.toggle('hidden', value === '');
+        filterCards();
+    });
+    typeFilter.addEventListener('change', filterCards);
+    bloomLevelFilter.addEventListener('change', filterCards);
 
-            function filterCards() {
-                const searchText = searchBar.value.toLowerCase();
-                const selectedSeries = seriesFilter.value;
-                const selectedRarity = rarityFilter.value;
-
-                const filteredCards = cards.filter(card => {
-                    const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
-                    const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-                    const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
-                    return matchesSearch && matchesSeries && matchesRarity;
-                    });
-                displayCards(filteredCards);
-                }
+    // Bloom Level dropdown visibility
+    typeFilter.addEventListener('change', function() {
+        bloomLevelContainer.classList.toggle('hidden', this.value !== 'holomen');
+    });
 
 
             window.openModal = function(card) {
