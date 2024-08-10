@@ -2,6 +2,7 @@
             const searchBar = document.getElementById('searchBar');
             const seriesFilter = document.getElementById('seriesFilter');
             const rarityFilter = document.getElementById('rarityFilter');
+            const bloomTypeFilter = document.getElementById('bloomTypeFilter');
             const cardList = document.getElementById('cardList');
             const modal = document.getElementById('modal');
             const modalImage = document.getElementById('modalImage');
@@ -86,16 +87,21 @@
                 filterCards();
             });
 
+           bloomTypeFilter.addEventListener('change', function() {
+               filterCards();
+           });
+
             function filterCards() {
                 const searchText = searchBar.value.toLowerCase();
                 const selectedSeries = seriesFilter.value;
                 const selectedRarity = rarityFilter.value;
 
                 const filteredCards = cards.filter(card => {
-                    const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
-                    const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-                    const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
-                    return matchesSearch && matchesSeries && matchesRarity;
+                   const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
+                   const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
+                   const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
+                   const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
+                   return matchesSearch && matchesSeries && matchesRarity && matchesBloomType;
                     });
                 displayCards(filteredCards);
                 }
