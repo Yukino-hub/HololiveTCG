@@ -54,19 +54,29 @@ document.addEventListener('DOMContentLoaded', function() {
     let isLoading = false;
     let currentPage = 1;
     const pageSize = 20; // Number of cards per page
-
     const seriesFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json', 'hY01.json'];
+    let loadedFiles = new Set(); // Keep track of loaded files
 
     function loadCards() {
         if (isLoading) return;
         isLoading = true;
         loadingIndicator.style.display = 'block';
 
-        const file = seriesFiles[(currentPage - 1) % seriesFiles.length]; // Cycle through files
+        // Check if we have more files to load
+        const fileIndex = (currentPage - 1) % seriesFiles.length;
+        const file = seriesFiles[fileIndex];
+
+        if (loadedFiles.has(file)) {
+            isLoading = false;
+            loadingIndicator.style.display = 'none';
+            return;
+        }
+
         fetch(file)
             .then(response => response.json())
             .then(data => {
                 cards = cards.concat(data);
+                loadedFiles.add(file);
                 filteredCards = cards.slice(0, currentPage * pageSize); // Slice cards to display
                 displayCards(filteredCards);
                 isLoading = false;
