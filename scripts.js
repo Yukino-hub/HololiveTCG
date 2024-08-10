@@ -115,6 +115,9 @@ document.addEventListener('DOMContentLoaded', function() {
     advancedFilter.addEventListener('change', function() {
         const value = this.value;
         bloomLevelContainer.style.display = value === 'holomen' ? 'block' : 'none';
+        if (value === 'oshiholomen' || value === 'support') {
+        bloomLevelFilter.value = 'All'; 
+    }
         filterCards();
     });
     bloomLevelFilter.addEventListener('change', filterCards);
