@@ -49,49 +49,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const modalSkills = document.getElementById('modalSkills');
 
-    let cards = [];
-    let filteredCards = [];
-    let isLoading = false;
-    let currentPage = 1;
-    const pageSize = 20; // Number of cards per page
-    const initialLoadCount = 100; // Total cards to preload initially
+    let allCardData = [];
+    let filteredCardData = [];
     const seriesFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json', 'hY01.json'];
-    let loadedFiles = new Set(); // Keep track of loaded files
 
-    function loadCards() {
-        if (isLoading) return;
-        isLoading = true;
+    function loadCardData() {
         loadingIndicator.style.display = 'block';
-         // Calculate total cards needed based on initial preload
-        const totalCardsNeeded = initialLoadCount;
-    
-        // Determine the index of the file to load
-        const filesToLoad = seriesFiles.length;
-        const fileIndex = Math.floor((cards.length / totalCardsNeeded) % filesToLoad);
-        const file = seriesFiles[fileIndex];
-        if (loadedFiles.has(file) && cards.length >= totalCardsNeeded) {
-        isLoading = false;
-        loadingIndicator.style.display = 'none';
-        return;
-        }
-        
-        fetch(file)
-            .then(response => response.json())
-            .then(data => {
-                cards = cards.concat(data);
-                loadedFiles.add(file);
-                 // Ensure we only slice up to the required number of cards
-                filteredCards = cards.slice(0, totalCardsNeeded);
-                displayCards(filteredCards.slice(0, currentPage * pageSize));
-                displayCards(filteredCards);
-                isLoading = false;
+
+        // Combine all JSON data from the seriesFiles
+        Promise.all(seriesFiles.map(file => fetch(file).then(response => response.json())))
+            .then(results => {
+                allCardData = results.flat(); // Flatten the array of arrays
+                filteredCardData = allCardData; // No initial load count restriction
+                displayCards(filteredCardData); // Display all cards at once
                 loadingIndicator.style.display = 'none';
             })
             .catch(error => {
-            console.error('Failed to load cards:', error);
-            isLoading = false;
-            loadingIndicator.style.display = 'none';
-        });
+                console.error('Failed to load card data:', error);
+                loadingIndicator.style.display = 'none';
+            });
     }
 
     function displayCards(cardsToShow) {
@@ -100,12 +76,40 @@ document.addEventListener('DOMContentLoaded', function() {
             const cardElement = document.createElement('div');
             cardElement.classList.add('card');
             cardElement.innerHTML = `
-                <img src="${card.image}" alt="${card.name}">
+                <img data-src="${card.image}" alt="${card.name}" class="lazy-load">
                 <p>${card.name}</p>
                 <p>${card.cardNumber}</p>
             `;
             cardElement.addEventListener('click', () => openModal(card));
             contentContainer.appendChild(cardElement);
+        });
+
+        // Initialize lazy loading for images
+        initializeLazyLoading();
+    }
+
+    function initializeLazyLoading() {
+        const lazyImages = document.querySelectorAll('.lazy-load');
+
+        const lazyLoad = (image) => {
+            const src = image.getAttribute('data-src');
+            if (src) {
+                image.src = src;
+                image.onload = () => image.classList.remove('lazy-load');
+            }
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    lazyLoad(entry.target);
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+
+        lazyImages.forEach(image => {
+            observer.observe(image);
         });
     }
 
@@ -115,14 +119,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const selectedRarity = rarityFilter.value;
         const selectedBloomType = bloomTypeFilter.value;
 
-        filteredCards = cards.filter(card => {
+        filteredCardData = allCardData.filter(card => {
             const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
             const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
             const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
             const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
             return matchesSearch && matchesSeries && matchesRarity && matchesBloomType;
         });
-        displayCards(filteredCards.slice(0, currentPage * pageSize));
+
+        displayCards(filteredCardData); // Update display based on filtered results
     }
 
     function openModal(card) {
@@ -210,22 +215,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    // Event Listeners
     searchBar.addEventListener('input', filterCards);
     seriesFilter.addEventListener('change', filterCards);
     rarityFilter.addEventListener('change', filterCards);
     bloomTypeFilter.addEventListener('change', filterCards);
 
-    window.openModal = openModal;
-    window.closeModal = closeModal;
-
-    // Load the initial set of cards
-    loadCards();
-
-    // Handle infinite scrolling
-    window.addEventListener('scroll', () => {
-        if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 500 && !isLoading) {
-            currentPage++;
-            loadCards();
+    // Close modal
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
         }
     });
+
+    // Initial load
+    loadCardData();
 });
