@@ -37,6 +37,17 @@
             padding: 10px;
             font-size: 16px;
         }
+        .dropdown-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Space between the dropdowns */
+            margin-bottom: 20px; /* Space below the dropdowns */
+        }
+
+        .dropdown-container select {
+            padding: 10px;
+            font-size: 16px;
+        }
         #seriesFilter {
             margin-top: 20px;
             padding: 10px;
@@ -144,25 +155,26 @@
         <div class="search-container">
             <input type="text" id="searchBar" placeholder="Search by Card Number...">
             <br><br>
-            <select id="seriesFilter">
-                <option value="">Select Series</option>
-                <option value="hSD01">hSD01</option>
-                <option value="hBP01">hBP01</option>
-                <option value="hYS01">hYS01</option>
-                <option value="hPR">hPR</option>
-                <option value="hY01">hY01</option>
-            </select>
-            <br><br>
-            <select id="rarityFilter">
-                <option value="">Select Rarity</option>
-                <option value="C">Common</option>
-                <option value="U">Uncommon</option>
-                <option value="R">Rare</option>
-                <option value="RR">Double Rare</option>
-                <option value="OSR">Oshi Super Rare</option>
-                <option value="P">Promo</option>
-            </select>
-        </div>
+            <div class="dropdown-container">
+                <select id="seriesFilter">
+                    <option value="">Select Series</option>
+                    <option value="hSD01">hSD01</option>
+                    <option value="hBP01">hBP01</option>
+                    <option value="hYS01">hYS01</option>
+                    <option value="hPR">hPR</option>
+                    <option value="hY01">hY01</option>
+                </select>
+                <select id="rarityFilter">
+                    <option value="">Select Rarity</option>
+                    <option value="C">Common</option>
+                    <option value="U">Uncommon</option>
+                    <option value="R">Rare</option>
+                    <option value="RR">Double Rare</option>
+                    <option value="OSR">Oshi Super Rare</option>
+                    <option value="P">Promo</option>
+                </select>
+            </div>
+
         <div id="cardList">
             <!-- Cards will be displayed here -->
         </div>
