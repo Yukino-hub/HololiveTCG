@@ -77,52 +77,46 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-function filterCards() {
-    const searchText = searchBar.value.toLowerCase();
-    const selectedSeries = seriesFilter.value;
-    const selectedRarity = rarityFilter.value;
-    const selectedAdvancedFilter = advancedFilter.value;
-    const selectedBloomLevel = bloomLevelFilter.value;
-function filterCards() {
-    const searchText = searchBar.value.toLowerCase();
-    const selectedSeries = seriesFilter.value;
-    const selectedRarity = rarityFilter.value;
-    const selectedAdvancedFilter = advancedFilter.value;
-    const selectedBloomLevel = bloomLevelFilter.value;
+    function filterCards() {
+        const searchText = searchBar.value.toLowerCase();
+        const selectedSeries = seriesFilter.value;
+        const selectedRarity = rarityFilter.value;
+        const selectedAdvancedFilter = advancedFilter.value;
+        const selectedBloomLevel = bloomLevelFilter.value;
 
-    const filteredCards = cards.filter(card => {
-        const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
-        const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
+        const filteredCards = cards.filter(card => {
+            const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
+            const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
 
-        // Check if the bloom level filter is in the default state (e.g., an empty string or "All")
-        const isBloomLevelDefault = !selectedBloomLevel || selectedBloomLevel === 'All';
+            // Check if the bloom level filter is in the default state (e.g., an empty string or "All")
+            const isBloomLevelDefault = !selectedBloomLevel || selectedBloomLevel === 'All';
+            const matchesBloomLevel = isBloomLevelDefault || card.bloomLevel === selectedBloomLevel;
 
-        const matchesBloomLevel = isBloomLevelDefault || card.bloomLevel === selectedBloomLevel;
+            let matchesRarityOrType = true;
+            if (selectedAdvancedFilter === 'holomen') {
+                matchesRarityOrType = card.bloomLevel === selectedBloomLevel;
+            } else if (selectedAdvancedFilter === 'oshi holomen') {
+                matchesRarityOrType = card.rarity === 'OSR';
+            } else if (selectedAdvancedFilter === 'support') {
+                matchesRarityOrType = card.type === 'Support';
+            } else {
+                matchesRarityOrType = selectedRarity ? card.rarity === selectedRarity : true;
+            }
 
-        let matchesRarityOrType = true;
-        if (selectedAdvancedFilter === 'holomen') {
-            matchesRarityOrType = card.bloomLevel === selectedBloomLevel;
-        } else if (selectedAdvancedFilter === 'oshi holomen') {
-            matchesRarityOrType = card.rarity === 'OSR';
-        } else if (selectedAdvancedFilter === 'support') {
-            matchesRarityOrType = card.type === 'Support';
-        } else {
-            matchesRarityOrType = selectedRarity ? card.rarity === selectedRarity : true;
-        }
+            return matchesSearch && matchesSeries && matchesRarityOrType && matchesBloomLevel;
+        });
 
-        return matchesSearch && matchesSeries && matchesRarityOrType && matchesBloomLevel;
-    });
+        displayCards(filteredCards);
+    }
 
-    displayCards(filteredCards);
-}
     searchBar.addEventListener('input', filterCards);
     seriesFilter.addEventListener('change', filterCards);
     rarityFilter.addEventListener('change', filterCards);
-   advancedFilter.addEventListener('change', function() {
-    const value = this.value;
-    bloomLevelContainer.style.display = value === 'holomen' ? 'block' : 'none';
-    filterCards();
-});
+    advancedFilter.addEventListener('change', function() {
+        const value = this.value;
+        bloomLevelContainer.style.display = value === 'holomen' ? 'block' : 'none';
+        filterCards();
+    });
     bloomLevelFilter.addEventListener('change', filterCards);
 
     window.openModal = function(card) {
