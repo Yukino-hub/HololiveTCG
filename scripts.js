@@ -83,11 +83,21 @@ function filterCards() {
     const selectedRarity = rarityFilter.value;
     const selectedAdvancedFilter = advancedFilter.value;
     const selectedBloomLevel = bloomLevelFilter.value;
+function filterCards() {
+    const searchText = searchBar.value.toLowerCase();
+    const selectedSeries = seriesFilter.value;
+    const selectedRarity = rarityFilter.value;
+    const selectedAdvancedFilter = advancedFilter.value;
+    const selectedBloomLevel = bloomLevelFilter.value;
 
     const filteredCards = cards.filter(card => {
         const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
         const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-        const matchesBloomLevel = selectedBloomLevel ? card.bloomLevel === selectedBloomLevel : true;
+
+        // Check if the bloom level filter is in the default state (e.g., an empty string or "All")
+        const isBloomLevelDefault = !selectedBloomLevel || selectedBloomLevel === 'All';
+
+        const matchesBloomLevel = isBloomLevelDefault || card.bloomLevel === selectedBloomLevel;
 
         let matchesRarityOrType = true;
         if (selectedAdvancedFilter === 'holomen') {
