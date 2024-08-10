@@ -46,7 +46,7 @@
         "oshiSkill": {
             "name": "レッドバトン (\"Red Baton\")",
             "power": 2,
-            "description": "[Once per turn] During this turn, your green collaboration Holomen's arts gain +20."
+            "description": "[Once per turn] During this turn, your red collaboration Holomen's arts gain +20."
         },
         "spOshiSkill": {
             "name": "さあ!もう一度! (\"Now! Once more!\")",
@@ -65,7 +65,7 @@
         "oshiSkill": {
             "name": "ブルーバトン (\"Blue Baton\")",
             "power": 2,
-            "description": "[Once per turn] During this turn, your green collaboration Holomen's arts gain +20."
+            "description": "[Once per turn] During this turn, your blue collaboration Holomen's arts gain +20."
         },
         "spOshiSkill": {
             "name": "バックショット (\"Back Shot\")",
