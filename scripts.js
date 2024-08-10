@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let isLoading = false;
     let currentPage = 1;
     const pageSize = 20; // Number of cards per page
+    const initialLoadCount = 100; // Total cards to preload initially
     const seriesFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json', 'hY01.json'];
     let loadedFiles = new Set(); // Keep track of loaded files
 
@@ -61,15 +62,17 @@ document.addEventListener('DOMContentLoaded', function() {
         if (isLoading) return;
         isLoading = true;
         loadingIndicator.style.display = 'block';
-
-        // Check if we have more files to load
-        const fileIndex = (currentPage - 1) % seriesFiles.length;
+         // Calculate total cards needed based on initial preload
+        const totalCardsNeeded = initialLoadCount;
+    
+        // Determine the index of the file to load
+        const filesToLoad = seriesFiles.length;
+        const fileIndex = Math.floor((cards.length / totalCardsNeeded) % filesToLoad);
         const file = seriesFiles[fileIndex];
-
-        if (loadedFiles.has(file)) {
-            isLoading = false;
-            loadingIndicator.style.display = 'none';
-            return;
+        if (loadedFiles.has(file) && cards.length >= totalCardsNeeded) {
+        isLoading = false;
+        loadingIndicator.style.display = 'none';
+        return;
         }
         
         fetch(file)
@@ -77,7 +80,9 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(data => {
                 cards = cards.concat(data);
                 loadedFiles.add(file);
-                filteredCards = cards.slice(0, currentPage * pageSize); // Slice cards to display
+                 // Ensure we only slice up to the required number of cards
+                filteredCards = cards.slice(0, totalCardsNeeded);
+                displayCards(filteredCards.slice(0, currentPage * pageSize));
                 displayCards(filteredCards);
                 isLoading = false;
                 loadingIndicator.style.display = 'none';
