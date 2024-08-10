@@ -152,6 +152,16 @@
                 <option value="hPR">hPR</option>
                 <option value="hY01">hY01</option>
             </select>
+            <br><br>
+            <select id="rarityFilter">
+                <option value="">Select Rarity</option>
+                <option value="C">Common</option>
+                <option value="U">Uncommon</option>
+                <option value="R">Rare</option>
+                <option value="RR">Double Rare</option>
+                <option value="OSR">Oshi Super Rare</option>
+                <option value="P">Promo</option>
+            </select>
         </div>
         <div id="cardList">
             <!-- Cards will be displayed here -->
@@ -199,6 +209,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             const searchBar = document.getElementById('searchBar');
             const seriesFilter = document.getElementById('seriesFilter');
+            const rarityFilter = document.getElementById('rarityFilter');
             const cardList = document.getElementById('cardList');
             const modal = document.getElementById('modal');
             const modalImage = document.getElementById('modalImage');
@@ -272,16 +283,31 @@
             }
 
             searchBar.addEventListener('input', function() {
-                const searchText = searchBar.value.toLowerCase();
-                const filteredCards = cards.filter(card => card.cardNumber.toLowerCase().includes(searchText));
-                displayCards(filteredCards);
+                filterCards();
             });
 
             seriesFilter.addEventListener('change', function() {
-                const selectedSeries = seriesFilter.value;
-                const filteredCards = selectedSeries ? cards.filter(card => card.cardNumber.startsWith(selectedSeries)) : cards;
-                displayCards(filteredCards);
+                filterCards();
             });
+
+            rarityFilter.addEventListener('change', function() {
+                filterCards();
+            });
+
+            function filterCards() {
+                const searchText = searchBar.value.toLowerCase();
+                const selectedSeries = seriesFilter.value;
+                const selectedRarity = rarityFilter.value;
+
+                const filteredCards = cards.filter(card => {
+                    const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
+                    const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
+                    const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
+                    return matchesSearch && matchesSeries && matchesRarity;
+                    });
+                displayCards(filteredCards);
+                }
+
 
             window.openModal = function(card) {
                 modalImage.src = card.image;
