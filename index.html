@@ -55,7 +55,7 @@
     <div id="modal" class="modal" onclick="closeModal(event)">
         <div class="modal-content" onclick="event.stopPropagation()">
             <span class="modal-close" onclick="closeModal()">&times;</span>
-            <img id="modalImage" src="" alt="">
+            <img id="modalImage" data-src="" alt="" class="lazy" loading="lazy">
             <div id="modalText">
                 <h3 id="modalCardName"></h3>
                 <p id="modalCardNumberContainer"><strong>Card Number:</strong> <span id="modalCardNumber"></span></p>
