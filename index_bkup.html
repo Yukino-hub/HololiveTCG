@@ -344,9 +344,8 @@
                     const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
                     const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
                     const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
-                    const matchesAdvancedFilter = selectedAdvancedFilter ? card.type === selectedAdvancedFilter : true;
                     const matchesBloomLevel = selectedBloomLevel ? card.bloomLevel === selectedBloomLevel : true;
-                    return matchesSearch && matchesSeries && matchesRarity && matchesAdvancedFilter && matchesBloomLevel;
+                    return matchesSearch && matchesSeries && matchesRarity && matchesBloomLevel;
                 });
                 displayCards(filteredCards);
             }
