@@ -9,6 +9,12 @@
         "color": "Colorless",
         "bloomLevel": "Spot",
         "collabEffect": "Collab Effect 誰かの芽吹きになれたら: You can roll a die once: If it lands on 1, 3, or 5, reveal one  red or blue cheer card from your cheer deck and send it to your back Holomen. Then shuffle your cheer deck",
+        "skills": [
+            {
+                "name": "flower rhapsody",
+                "dmg": "10"
+            }
+        ],
         "extraEffect": "This Holomen cannot be Bloom",
         "image": "images/hPR-001.jpg"
     }
