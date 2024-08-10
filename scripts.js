@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const contentContainer = document.getElementById('cardList');
+    const contentContainer = document.getElementById('contentContainer');
     const loadingIndicator = document.getElementById('loadingIndicator');
     const searchBar = document.getElementById('searchBar');
     const seriesFilter = document.getElementById('seriesFilter');
@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const modal = document.getElementById('modal');
     const modalImage = document.getElementById('modalImage');
 
-    // Modal elements
     const modalCardName = document.getElementById('modalCardName');
     const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
     const modalRarityContainer = document.getElementById('modalRarityContainer');
@@ -34,6 +33,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalType = document.getElementById('modalType');
     const modalAbility = document.getElementById('modalAbility');
     const modalCollabEffect = document.getElementById('modalCollabEffect');
+    const modalBloomEffect = document.getElementById('modalBloomEffect');
+    const modalGiftEffect = document.getElementById('modalGiftEffect');
     const modalExtraEffect = document.getElementById('modalExtraEffect');
 
     const modalOshiSkill = document.getElementById('modalOshiSkill');
@@ -49,37 +50,46 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalSkills = document.getElementById('modalSkills');
 
     let cards = [];
+    let isLoading = false;
+    let currentPage = 1;
+    const pageSize = 20; // Number of cards per page
 
     // Load card data from JSON files
     const seriesFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json', 'hY01.json'];
 
-    seriesFiles.forEach(file => {
+    function loadCards() {
+        if (isLoading) return;
+        isLoading = true;
+        loadingIndicator.style.display = 'block';
+
+        const file = seriesFiles[currentPage % seriesFiles.length]; // Simple file cycling
         fetch(file)
             .then(response => response.json())
             .then(data => {
                 cards = cards.concat(data);
-                displayCards(cards);
+                displayCards(cards.slice(0, currentPage * pageSize));
+                isLoading = false;
+                loadingIndicator.style.display = 'none';
             })
-            .catch(error => console.error('Error fetching data:', error));
-    });
-
-    function displayCards(cards) {
-        if (contentContainer) {
-            contentContainer.innerHTML = '';
-            cards.forEach(card => {
-                const cardElement = document.createElement('div');
-                cardElement.classList.add('card');
-                cardElement.innerHTML = `
-                    <img src="${card.image}" alt="${card.name}">
-                    <p>${card.name}</p>
-                    <p>${card.cardNumber}</p>
-                `;
-                cardElement.addEventListener('click', () => openModal(card));
-                contentContainer.appendChild(cardElement);
+            .catch(() => {
+                isLoading = false;
+                loadingIndicator.style.display = 'none';
             });
-        } else {
-            console.error('contentContainer not found');
-        }
+    }
+
+    function displayCards(cardsToShow) {
+        contentContainer.innerHTML = '';
+        cardsToShow.forEach(card => {
+            const cardElement = document.createElement('div');
+            cardElement.classList.add('card');
+            cardElement.innerHTML = `
+                <img src="${card.image}" alt="${card.name}">
+                <p>${card.name}</p>
+                <p>${card.cardNumber}</p>
+            `;
+            cardElement.addEventListener('click', () => openModal(card));
+            contentContainer.appendChild(cardElement);
+        });
     }
 
     function filterCards() {
@@ -95,6 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
             return matchesSearch && matchesSeries && matchesRarity && matchesBloomType;
         });
+
         displayCards(filteredCards);
     }
 
@@ -103,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
     rarityFilter.addEventListener('change', filterCards);
     bloomTypeFilter.addEventListener('change', filterCards);
 
-    window.openModal = function(card) {
+    function openModal(card) {
         modalImage.src = card.image;
         modalCardName.textContent = card.name || '';
         modalCardNumber.textContent = card.cardNumber || '';
@@ -173,12 +184,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         modal.style.display = 'flex';
-    };
+    }
 
-    window.closeModal = function(event) {
+    function closeModal(event) {
         if (event) event.stopPropagation();
         modal.style.display = 'none';
-    };
+    }
 
     function toggleVisibility(element, value) {
         if (!value || value === 'N/A') {
@@ -187,4 +198,7 @@ document.addEventListener('DOMContentLoaded', function() {
             element.classList.remove('hidden');
         }
     }
+
+    // Initial load
+    loadCards();
 });
