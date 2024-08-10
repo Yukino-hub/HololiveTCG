@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
             loadingIndicator.style.display = 'none';
             return;
         }
-
+        console.log(`Loading file: ${file}`); // Debug line to check the file being loaded
         fetch(file)
             .then(response => response.json())
             .then(data => {
@@ -82,10 +82,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 isLoading = false;
                 loadingIndicator.style.display = 'none';
             })
-            .catch(() => {
-                isLoading = false;
-                loadingIndicator.style.display = 'none';
-            });
+            .catch(error => {
+            console.error('Failed to load cards:', error);
+            isLoading = false;
+            loadingIndicator.style.display = 'none';
+        });
     }
 
     function displayCards(cardsToShow) {
@@ -116,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
             return matchesSearch && matchesSeries && matchesRarity && matchesBloomType;
         });
-
+        console.log('Filtered cards:', filteredCards); 
         displayCards(filteredCards.slice(0, currentPage * pageSize));
     }
 
