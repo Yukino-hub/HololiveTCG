@@ -57,7 +57,44 @@
             margin-top: 20px;
             padding: 10px;
             font-size: 16px;
+document.addEventListener('DOMContentLoaded', function() {
+    const searchBar = document.getElementById('searchBar');
+    const seriesFilter = document.getElementById('seriesFilter');
+    const advancedFilter = document.getElementById('advancedFilter');
+    const holomenFilters = document.getElementById('holomenFilters');
+    const bloomLevelFilter = document.getElementById('bloomLevelFilter');
+    const debutFilter = document.getElementById('debutFilter');
+
+    advancedFilter.addEventListener('change', function() {
+        const selectedValue = advancedFilter.value;
+        if (selectedValue === 'holomen') {
+            holomenFilters.classList.remove('hidden');
+        } else {
+            holomenFilters.classList.add('hidden');
         }
+    });
+
+    // Existing code...
+    const rarityFilter = document.getElementById('rarityFilter');
+    const cardList = document.getElementById('cardList');
+    const modal = document.getElementById('modal');
+    const modalImage = document.getElementById('modalImage');
+
+    const modalCardName = document.getElementById('modalCardName');
+    const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
+    const modalRarityContainer = document.getElementById('modalRarityContainer');
+    const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
+    const modalHPContainer = document.getElementById('modalHPContainer');
+    const modalColorContainer = document.getElementById('modalColorContainer');
+    const modalLivesContainer = document.getElementById('modalLivesContainer');
+    const modalBuzzContainer = document.getElementById('modalBuzzContainer');
+    const modalTypeContainer = document.getElementById('modalTypeContainer');
+    const modalAbilityContainer = document.getElementById('modalAbilityContainer');
+    const modalCollabEffectContainer = document.getElementById('modalCollabEffectContainer');
+    const modalBloomEffectContainer = document.getElementById('modalBloomEffectContainer');
+    const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
+    const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
+});        }
         #cardList {
             display: flex;
             flex-wrap: wrap;
