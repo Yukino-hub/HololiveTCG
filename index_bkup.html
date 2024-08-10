@@ -173,49 +173,49 @@
         <p><a href="index.html">Card List</a> | <a href="rules.html">View Game Rules</a></p>
     </header>
     <div class="container">
-        <div class="search-container">
-            <input type="text" id="searchBar" placeholder="Search by Card Number...">
-            <br><br>
-            <div class="dropdown-container">
-                <select id="seriesFilter">
-                    <option value="">Select Series</option>
-                    <option value="hSD01">hSD01</option>
-                    <option value="hBP01">hBP01</option>
-                    <option value="hYS01">hYS01</option>
-                    <option value="hPR">hPR</option>
-                    <option value="hY01">hY01</option>
+    <div class="search-container">
+        <input type="text" id="searchBar" placeholder="Search by Card Number...">
+        <br><br>
+        <div class="dropdown-container">
+            <select id="seriesFilter">
+                <option value="">Select Series</option>
+                <option value="hSD01">hSD01</option>
+                <option value="hBP01">hBP01</option>
+                <option value="hYS01">hYS01</option>
+                <option value="hPR">hPR</option>
+                <option value="hY01">hY01</option>
+            </select>
+            <select id="rarityFilter">
+                <option value="">Select Rarity</option>
+                <option value="C">Common</option>
+                <option value="U">Uncommon</option>
+                <option value="R">Rare</option>
+                <option value="RR">Double Rare</option>
+                <option value="OSR">Oshi Super Rare</option>
+                <option value="P">Promo</option>
+            </select>
+            <!-- New Advanced Filter Dropdown -->
+            <select id="advancedFilter">
+                <option value="">Advanced Filter</option>
+                <option value="holomen">Holomen</option>
+                <option value="oshiholomen">Oshi Holomen</option>
+                <option value="support">Support Card</option>
+            </select>
+            <!-- New Bloom Level Dropdown -->
+            <div id="bloomLevelContainer">
+                <select id="bloomLevelFilter">
+                    <option value="">Select Bloom Level</option>
+                    <option value="debut">Debut</option>
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
                 </select>
-                <select id="rarityFilter">
-                    <option value="">Select Rarity</option>
-                    <option value="C">Common</option>
-                    <option value="U">Uncommon</option>
-                    <option value="R">Rare</option>
-                    <option value="RR">Double Rare</option>
-                    <option value="OSR">Oshi Super Rare</option>
-                    <option value="P">Promo</option>
-                </select>
-		 <!-- New Advanced Filter Dropdown -->
-                <select id="advancedFilter">
-                    <option value="">Advanced Filter</option>
-                    <option value="holomen">Holomen</option>
-                    <option value="oshiholomen">Oshi Holomen</option>
-                    <option value="support">Support Card</option>
-                </select>
-                <!-- New Bloom Level Dropdown -->
-                <div id="bloomLevelContainer">
-                    <select id="bloomLevelFilter">
-                        <option value="">Select Bloom Level</option>
-                        <option value="Debut">Debut</option>
-                        <option value="1st">1st</option>
-                        <option value="2nd">2nd</option>
-                    </select>
-                </div>
             </div>
-
-        <div id="cardList">
-            <!-- Cards will be displayed here -->
         </div>
     </div>
+    <div id="cardList">
+        <!-- Cards will be displayed here -->
+    </div>
+</div>
 
     <div id="modal" class="modal" onclick="closeModal(event)">
         <div class="modal-content" onclick="event.stopPropagation()">
