@@ -50,11 +50,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalSkills = document.getElementById('modalSkills');
 
     let cards = [];
+    let filteredCards = [];
     let isLoading = false;
     let currentPage = 1;
     const pageSize = 20; // Number of cards per page
 
-    // Load card data from JSON files
     const seriesFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json', 'hY01.json'];
 
     function loadCards() {
@@ -62,12 +62,13 @@ document.addEventListener('DOMContentLoaded', function() {
         isLoading = true;
         loadingIndicator.style.display = 'block';
 
-        const file = seriesFiles[currentPage % seriesFiles.length]; // Simple file cycling
+        const file = seriesFiles[(currentPage - 1) % seriesFiles.length]; // Cycle through files
         fetch(file)
             .then(response => response.json())
             .then(data => {
                 cards = cards.concat(data);
-                displayCards(cards.slice(0, currentPage * pageSize));
+                filteredCards = cards.slice(0, currentPage * pageSize); // Slice cards to display
+                displayCards(filteredCards);
                 isLoading = false;
                 loadingIndicator.style.display = 'none';
             })
@@ -98,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const selectedRarity = rarityFilter.value;
         const selectedBloomType = bloomTypeFilter.value;
 
-        const filteredCards = cards.filter(card => {
+        filteredCards = cards.filter(card => {
             const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
             const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
             const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
@@ -106,13 +107,8 @@ document.addEventListener('DOMContentLoaded', function() {
             return matchesSearch && matchesSeries && matchesRarity && matchesBloomType;
         });
 
-        displayCards(filteredCards);
+        displayCards(filteredCards.slice(0, currentPage * pageSize));
     }
-
-    searchBar.addEventListener('input', filterCards);
-    seriesFilter.addEventListener('change', filterCards);
-    rarityFilter.addEventListener('change', filterCards);
-    bloomTypeFilter.addEventListener('change', filterCards);
 
     function openModal(card) {
         modalImage.src = card.image;
@@ -199,6 +195,22 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Initial load
+    searchBar.addEventListener('input', filterCards);
+    seriesFilter.addEventListener('change', filterCards);
+    rarityFilter.addEventListener('change', filterCards);
+    bloomTypeFilter.addEventListener('change', filterCards);
+
+    window.openModal = openModal;
+    window.closeModal = closeModal;
+
+    // Load the initial set of cards
     loadCards();
+
+    // Handle infinite scrolling
+    window.addEventListener('scroll', () => {
+        if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 500 && !isLoading) {
+            currentPage++;
+            loadCards();
+        }
+    });
 });
