@@ -77,23 +77,31 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    function filterCards() {
-        const searchText = searchBar.value.toLowerCase();
-        const selectedSeries = seriesFilter.value;
-        const selectedRarity = rarityFilter.value;
-        const selectedAdvancedFilter = advancedFilter.value;
-        const selectedBloomLevel = bloomLevelFilter.value;
+function filterCards() {
+    const searchText = searchBar.value.toLowerCase();
+    const selectedSeries = seriesFilter.value;
+    const selectedRarity = rarityFilter.value;
+    const selectedAdvancedFilter = advancedFilter.value;
+    const selectedBloomLevel = bloomLevelFilter.value;
 
-        const filteredCards = cards.filter(card => {
-            const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
-            const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-            const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
-            const matchesBloomLevel = selectedBloomLevel ? card.bloomLevel === selectedBloomLevel : true;
-            return matchesSearch && matchesSeries && matchesRarity && matchesBloomLevel;
-        });
-        displayCards(filteredCards);
-    }
+    const filteredCards = cards.filter(card => {
+        const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
+        const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
+        const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
+        const matchesBloomLevel = selectedBloomLevel ? card.bloomLevel === selectedBloomLevel : true;
 
+        let matchesAdvancedFilter = true;
+        if (selectedAdvancedFilter === 'Oshi Holomen') {
+            matchesAdvancedFilter = card.rarity === 'OSR';
+        } else if (selectedAdvancedFilter === 'Support') {
+            matchesAdvancedFilter = card.type === 'Support';
+        }
+
+        return matchesSearch && matchesSeries && matchesRarity && matchesBloomLevel && matchesAdvancedFilter;
+    });
+
+    displayCards(filteredCards);
+}
     searchBar.addEventListener('input', filterCards);
     seriesFilter.addEventListener('change', filterCards);
     rarityFilter.addEventListener('change', filterCards);
