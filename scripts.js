@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             let matchesRarityOrType = true;
             if (selectedAdvancedFilter === 'holomen') {
-                matchesRarityOrType = card.bloomLevel === selectedBloomLevel;
+                matchesRarityOrType = isBloomLevelDefault || card.bloomLevel === selectedBloomLevel;
             } else if (selectedAdvancedFilter === 'oshi holomen') {
                 matchesRarityOrType = card.rarity === 'OSR';
             } else if (selectedAdvancedFilter === 'support') {
