@@ -76,8 +76,11 @@ header a:hover {
     display: inline-block;
     vertical-align: top;
     cursor: pointer;
+    transition: transform 0.2s; /* Smooth scaling effect */
 }
-
+.card:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+}
 .card img {
     max-width: 100%;
     height: auto; /* Maintain aspect ratio */
@@ -151,6 +154,15 @@ header a:hover {
     display: none;
 }
 
+/* Loading Indicator Styles */
+#loadingIndicator {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #555;
+    display: none; /* Initially hidden */
+}
+
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
     .modal-content {
@@ -164,4 +176,15 @@ header a:hover {
         margin: 0 0 20px 0; /* Margin below the image */
         max-width: 100%; /* Ensure image takes full width */
     }
+     #cardList {
+        flex-direction: column; /* Stack cards vertically on small screens */
+        align-items: center; /* Center cards */
+    }
+
+    .card {
+        max-width: 90%; /* Increase card width on small screens */
+    }
+}
+html {
+    scroll-behavior: smooth;
 }
