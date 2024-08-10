@@ -95,6 +95,8 @@
                 const searchText = searchBar.value.toLowerCase();
                 const selectedSeries = seriesFilter.value;
                 const selectedRarity = rarityFilter.value;
+                const selectedBloomType = bloomTypeFilter.value;
+
 
                 const filteredCards = cards.filter(card => {
                    const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
