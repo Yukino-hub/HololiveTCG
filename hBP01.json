@@ -114,7 +114,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Green",
-        "bloomeffect" : "ラプリンセスドレス: Restore 50 HP to this Holomen."
+        "bloomeffect" : "ラプリンセスドレス: Restore 50 HP to this Holomen.",
         "skills": [
             {
                 "name": "全人類兎化計画",
