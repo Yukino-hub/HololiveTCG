@@ -87,17 +87,18 @@ function filterCards() {
     const filteredCards = cards.filter(card => {
         const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
         const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-        const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
         const matchesBloomLevel = selectedBloomLevel ? card.bloomLevel === selectedBloomLevel : true;
 
-        let matchesAdvancedFilter = true;
+        let matchesRarityOrType = true;
         if (selectedAdvancedFilter === 'Oshi Holomen') {
-            matchesAdvancedFilter = card.rarity === 'OSR';
+            matchesRarityOrType = card.bloomLevel === selectedBloomLevel;
         } else if (selectedAdvancedFilter === 'Support') {
-            matchesAdvancedFilter = card.type === 'Support';
+            matchesRarityOrType = card.type === 'Support';
+        } else {
+            matchesRarityOrType = selectedRarity ? card.rarity === selectedRarity : true;
         }
 
-        return matchesSearch && matchesSeries && matchesRarity && matchesBloomLevel && matchesAdvancedFilter;
+        return matchesSearch && matchesSeries && matchesRarityOrType && matchesBloomLevel;
     });
 
     displayCards(filteredCards);
@@ -105,11 +106,11 @@ function filterCards() {
     searchBar.addEventListener('input', filterCards);
     seriesFilter.addEventListener('change', filterCards);
     rarityFilter.addEventListener('change', filterCards);
-    advancedFilter.addEventListener('change', function() {
-        const value = this.value;
-        bloomLevelContainer.style.display = value === 'holomen' ? 'block' : 'none';
-        filterCards();
-    });
+   advancedFilter.addEventListener('change', function() {
+    const value = this.value;
+    bloomLevelContainer.style.display = value === 'Oshi Holomen' ? 'block' : 'none';
+    filterCards();
+});
     bloomLevelFilter.addEventListener('change', filterCards);
 
     window.openModal = function(card) {
