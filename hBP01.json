@@ -50,7 +50,7 @@
                 "description" : "This Art cannot target the opponent's Center Holomen."
             }
         ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
         "image": "images/hBP01-009.jpg"
     },
 
@@ -68,7 +68,7 @@
                 "description" : "Roll a die once: If the result is even, this art gains +20"
             }
         ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
         "image": "images/hBP01-038.jpg"
     },
     {
@@ -120,7 +120,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
         "image": "images/hBP01-056.jpg"
     },
 
@@ -137,7 +137,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
         "image": "images/hBP01-082.jpg"
     },
     
