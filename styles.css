@@ -33,23 +33,25 @@ header a:hover {
 }
 
 #searchBar {
-    width: 50%;
+    width: 100%; /* Full width on small screens */
     padding: 10px;
     font-size: 16px;
+    box-sizing: border-box; /* Include padding and border in the width */
 }
-
 .dropdown-container {
     display: flex;
     justify-content: center;
     gap: 20px; /* Space between the dropdowns */
     margin-bottom: 20px; /* Space below the dropdowns */
     align-items: center; /* Ensure dropdowns are aligned center vertically */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
 }
 
 .dropdown-container select {
     padding: 10px;
     font-size: 16px;
-    margin: 0; /* Remove default margin */
+    box-sizing: border-box; /* Include padding and border in width */
+    flex: 1 1 auto; /* Allow dropdowns to grow and shrink as needed */
 }
 
 #seriesFilter,
@@ -183,6 +185,18 @@ header a:hover {
 
     .card {
         max-width: 90%; /* Increase card width on small screens */
+    }
+    #searchBar {
+        font-size: 14px; /* Slightly smaller font size on small screens */
+    }
+    .dropdown-container {
+        flex-direction: column; /* Stack dropdowns vertically on small screens */
+        align-items: stretch; /* Ensure dropdowns take full width */
+    }
+
+    .dropdown-container select {
+        width: 100%; /* Full width for each dropdown on small screens */
+        margin-bottom: 10px; /* Space between dropdowns */
     }
 }
 html {
