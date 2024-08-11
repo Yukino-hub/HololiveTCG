@@ -209,6 +209,23 @@
         "extraEffect": "This Holomen cannot be Bloom",
         "image": "images/hBP01-098.jpg"
     },
+     {
+        "cardNumber": "hBP01-099",
+        "name": "Houshou Marine",
+        "rarity": "R",
+        "bloomLevel": "Spot",
+        "hp": 90,
+        "color": "Colorless",
+        "collabEffect": "それは「エジンバラ城」: Roll a die once. If the result is odd, swap the opponent's center Holomen with one of their back Holomen.",
+        "skills": [
+            {
+                "name": "マリン~扉の向こう側へ~",
+                "dmg": 10
+            }
+        ],
+        "extraEffect": "This Holomen cannot be Bloom",
+        "image": "images/hBP01-098.jpg"
+    },
     {
         "cardNumber": "hBP01-123",
         "name": "野うさぎ同盟 (Nousagi Alliance)",
