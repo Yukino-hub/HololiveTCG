@@ -33,11 +33,11 @@ header a:hover {
 }
 
 #searchBar {
-    width: 50%;
+    width: 100%; /* Full width on small screens */
     padding: 10px;
     font-size: 16px;
+    box-sizing: border-box; /* Include padding and border in the width */
 }
-
 .dropdown-container {
     display: flex;
     justify-content: center;
@@ -183,6 +183,9 @@ header a:hover {
 
     .card {
         max-width: 90%; /* Increase card width on small screens */
+    }
+    #searchBar {
+        font-size: 14px; /* Slightly smaller font size on small screens */
     }
 }
 html {
