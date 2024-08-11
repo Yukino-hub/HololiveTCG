@@ -227,6 +227,14 @@
         "image": "images/hBP01-099.jpg"
     },
     {
+        "cardNumber": "hBP01-109",
+        "name": "月と兎の物語 (Story of the Moon and the Rabbit)",
+        "type": "Support",
+        "rarity": "U",
+        "ability": "You can only use this card if your hand, excluding this card, has 6 or fewer cards. Look at the top 4 cards of your deck. From those, reveal any number of [Usada Pekora] and [Moona Hoshinova] cards, and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order.",
+        "image": "images/hBP01-109.jpg"
+    },
+    {
         "cardNumber": "hBP01-123",
         "name": "野うさぎ同盟 (Nousagi Alliance)",
         "type": "Support",
