@@ -102,7 +102,7 @@
             {
                 "name": "きtらあああ",
                 "dmg": "50+",
-                "description": "You can roll a die once: For each number rolled, this art gains +10."
+                "description": "For each unit of the sum obtained from rolling three dice, this art/ability gains +10."
             }
         ],
         "image": "images/hBP01-042.jpg"
