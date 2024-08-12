@@ -141,6 +141,43 @@
         "image": "images/hBP01-056.jpg"
     },
 
+     {
+        "cardNumber": "hBP01-057",
+        "name": "Takane Lui",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 60,
+        "color": "Red",
+        "collabEffect": "アポイント: Deal 10 special damage to one of your opponent's Collab Holomen.",
+        "skills": [
+            {
+                "name": "漆黒の翼で誘おう",
+                "dmg": "20",
+                "description": "Deal 10 special damage to one of your opponent's Collab Holomen."
+            }
+        ],
+        "image": "images/hBP01-057.jpg"
+    },
+     {
+        "cardNumber": "hBP01-059",
+        "name": "Takane Lui",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 130,
+        "color": "Red",
+        "skills": [
+            {
+                "name": "パーティーへようこそ",
+                "dmg": 30
+            },
+            {
+                "name": "Lui's Party",
+                "dmg": 50,
+                "description" : "You may archive 1 card from your hand: Reveal 1 non-Buzz 1st Holomen from your deck and add it to your hand. Then shuffle your deck"
+            }
+        ],
+        "image": "images/hBP01-059.jpg"
+    },
     {
         "cardNumber": "hBP01-082",
         "name": "Kobo Kanaeru",
