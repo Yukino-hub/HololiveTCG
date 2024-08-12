@@ -173,7 +173,7 @@
             {
                 "name": "Lui's Party",
                 "dmg": 50,
-                "description" : "You may archive 1 card from your hand: Reveal 1 non-Buzz 1st Holomen from your deck and add it to your hand. Then shuffle your deck"
+                "description" : "You may archive 1 card from your hand: Reveal 1 non-Buzz '1st' Holomen from your deck and add it to your hand. Then shuffle your deck"
             }
         ],
         "image": "images/hBP01-059.jpg"
