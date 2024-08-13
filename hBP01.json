@@ -179,6 +179,40 @@
         "image": "images/hBP01-059.jpg"
     },
     {
+        "cardNumber": "hBP01-060",
+        "name": "Takane Lui",
+        "rarity": "U",
+        "bloomLevel": "2nd",
+        "hp": 100,
+        "color": "Red",
+        "bloomeffect" : "本当にみんなのおかげ!!: When this Holomen Blooms from Debut, you may archive 1 card from your hand: Draw 2 cards from your deck.",
+        "skills": [
+            {
+                "name": "しっかりついてきてよね!!",
+                "dmg": "40"
+            }
+        ],
+        "image": "images/hBP01-061.jpg"
+    },
+    {
+        "cardNumber": "hBP01-061",
+        "name": "Takane Lui",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 190,
+        "color": "Red",
+        "bloomeffect" : "組織の司令塔: You may return 1 to 2 HooX cards from your archive to your hand.",
+        "skills": [
+            {
+                "name": "ホークレイヴ",
+                "dmg": "60",
+                "description": "You can archive 1 to 5 cards from your hand. Deal 20 special damage to either the opponent's Center Holomen or Collaboration Holomen for each card archived."
+            }
+        ],
+        "image": "images/hBP01-061.jpg"
+    },
+    
+    {
         "cardNumber": "hBP01-082",
         "name": "Kobo Kanaeru",
         "rarity": "P",
