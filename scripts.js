@@ -6,8 +6,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const rarityFilter = document.getElementById('rarityFilter');
     const bloomTypeFilter = document.getElementById('bloomTypeFilter');
     const modal = document.getElementById('modal');
-    const modalImage = document.getElementById('modalImage');
+    const modalCloseIcon = document.getElementById('modalCloseIcon');
 
+      function closeModal(event) {
+        if (event) event.stopPropagation();
+        modal.style.display = 'none';
+    }
+
+    // Ensure the close icon works
+    if (modalCloseIcon) {
+        modalCloseIcon.addEventListener('click', closeModal);
+    }
+    const modalImage = document.getElementById('modalImage');
     const modalCardName = document.getElementById('modalCardName');
     const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
     const modalRarityContainer = document.getElementById('modalRarityContainer');
