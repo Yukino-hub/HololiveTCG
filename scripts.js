@@ -72,6 +72,12 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
 
+    function scrollToTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+
+
     function displayCards(cardsToShow) {
         contentContainer.innerHTML = '';
         cardsToShow.forEach(card => {
@@ -200,12 +206,11 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             modalSkills.classList.add('hidden');
         }
-     // Scroll to top when modal opens
-    modal.scrollTop = 0;
+     // Scroll to the top
+    scrollToTop();
 
-    // Open the modal
+    // Display the modal
     modal.style.display = 'flex';
-    }
 
     function closeModal(event) {
         if (event) event.stopPropagation();
