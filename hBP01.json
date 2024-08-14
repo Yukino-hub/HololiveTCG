@@ -300,12 +300,21 @@
 
     {
         "cardNumber": "hBP01-106",
-        "name": "ペンライト Penlight)",
+        "name": "ペンライト (Penlight)",
         "type": "Support",
         "rarity": "U",
         "ability": "You can only use this card if you archive 1 of your Holo Power cards.Reveal 1 Cheer card from your Cheer Deck that matches the color of one of your Holomen and send it to that Holomen. Then shuffle your Cheer Deck.",
         "image": "images/hBP01-106.jpg"
     },
+    {
+        "cardNumber": "hBP01-108",
+        "name": "じゃあ敵だね",
+        "type": "Support",
+        "rarity": "U",
+        "ability": "Switch your opponent's Center Holomen with one of their Back Holomen.",
+        "image": "images/hBP01-108.jpg"
+    },
+    
     {
         "cardNumber": "hBP01-109",
         "name": "月と兎の物語 (Story of the Moon and the Rabbit)",
@@ -313,6 +322,14 @@
         "rarity": "U",
         "ability": "You can only use this card if your hand, excluding this card, has 6 or fewer cards. Look at the top 4 cards of your deck. From those, reveal any number of [Usada Pekora] and [Moona Hoshinova] cards, and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order.",
         "image": "images/hBP01-109.jpg"
+    },
+      {
+        "cardNumber": "hBP01-110",
+        "name": "Whack with a Blunt Object!",
+        "type": "Support",
+        "rarity": "U",
+        "ability": "Roll a die: If the result is 3 or less, archive 1 of the opponent's Holomen's Cheers. If your Oshi Holomen is [Nanashi Mumei], you may change the ability [Once per game] Archive 2 of the opponent's Center Holomen's Cheers."
+        "image": "images/hBP01-110.jpg"
     },
 
 
