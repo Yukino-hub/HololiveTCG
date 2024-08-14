@@ -178,7 +178,6 @@ header a:hover {
         max-height: 100vh;
         overflow-y: auto;
     }
-}
     .modal-content img {
         margin: 0 0 20px 0; /* Margin below the image */
         max-width: 100%; /* Ensure image takes full width */
