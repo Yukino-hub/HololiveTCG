@@ -312,5 +312,14 @@
         "rarity": "C",
         "ability": "When the Holomen with this fan attached rolls a die as part of an ability, you may archive this fan: Reroll the die once. This fan can only be attached to your 'Usada Pekora,' and any number of them can be attached to one Holomen.",
         "image": "images/hBP01-123.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-124",
+        "name": "開拓者 (pioneer)",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "During your opponent's turn, when the Holomen attached to this fan is knocked down, you may transfer 1 cheer card from the Holomen attached to this fan to another one of your Holomen. This fan can only be attached to your [AZKI] and can be attached in any number.",
+        "image": "images/hBP01-124.jpg"
     }
 ]
