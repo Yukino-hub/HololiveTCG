@@ -200,8 +200,11 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             modalSkills.classList.add('hidden');
         }
+     // Scroll to top when modal opens
+    modal.scrollTop = 0;
 
-        modal.style.display = 'flex';
+    // Open the modal
+    modal.style.display = 'flex';
     }
 
     function closeModal(event) {

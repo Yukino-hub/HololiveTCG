@@ -18,6 +18,24 @@
         "image": "images/hBP01-004.jpg"
     },
     {
+        "cardNumber": "hBP01-005",
+        "name": "Takane Lui",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "Red",
+        "oshiSkill": {
+            "name": "女幹部の采配"
+            "power": "X",
+            "description": "[Once per turn] When you archive a card from your hand using the ability of your red Holomen, you can activate this: For each card you would archive from your hand, you may instead archive one of your Holo Powers."
+        },
+        "spOshiSkill": {
+            "name": "ホークアイ  (\"Hawkeye\")",
+            "power": 2,
+            "description": "[Once per game] During your opponent's next turn, their Center Holomen and Collab Holomen cannot baton touch, move, or switch positions."
+        },
+        "image": "images/hBP01-005.jpg"
+    },
+    {
         "cardNumber": "hBP01-007",
         "name": "Hoshimachi Suisei",
         "rarity": "OSR",
@@ -328,7 +346,7 @@
         "name": "Whack with a Blunt Object!",
         "type": "Support",
         "rarity": "U",
-        "ability": "Roll a die: If the result is 3 or less, archive 1 of the opponent's Holomen's Cheers. If your Oshi Holomen is [Nanashi Mumei], you may change the ability [Once per game] Archive 2 of the opponent's Center Holomen's Cheers."
+        "ability": "Roll a die: If the result is 3 or less, archive 1 of the opponent's Holomen's Cheers. If your Oshi Holomen is [Nanashi Mumei], you may change the ability [Once per game] Archive 2 of the opponent's Center Holomen's Cheers.", 
         "image": "images/hBP01-110.jpg"
     },
 
@@ -338,7 +356,7 @@
         "name": "星街すいせいのマイク (Suisei's Mic)",
         "type": "Support",
         "rarity": "U",
-        "ability": "This tool provides the attached Holomen with +10 Arts.If attached to a [Hoshimachi Suisei] of 1st or higher, add the following ability: When the Holomen with this tool causes an opponent's Holomen to be knocked out, send 1 card from the top of your Cheer Deck to this Holomen.A tool can only be attached to one Holomen at a time.",
+        "ability": "This tool provides the attached Holomen with +10 Arts.If attached to a [Hoshimachi Suisei] of 1st or higher, add the following ability: When the Holomen with this tool causes an opponent's Holomen to be knocked out, send 1 card from the top of your Cheer Deck to this Holomen. Each Holomen can have only one tool attached.",
         "image": "images/hBP01-115.jpg"
     },
 
@@ -347,9 +365,19 @@
         "name": "あん肝 (Ankimo)",
         "type": "Support",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to [Tokino Sora], add the following ability: When the Holomen attached to this mascot uses an arts ability, this mascot is also treated as a cheer card.A mascot can only be attached to one Holomen at a time.",
+        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to [Tokino Sora], add the following ability: When the Holomen attached to this mascot uses an arts ability, this mascot is also treated as a cheer card. Each Holomen can have only one mascot attached.",
         "image": "images/hBP01-118.jpg"
     },
+
+     {
+        "cardNumber": "hBP01-120",
+        "name": "がんも (Ganmo)",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "This mascot grants the Holomen it is attached to +10 Arts.◆ if attached to <Takane Lui>: When the Holomen with this mascot uses an Arts in the Center Position, draw 1 card from your deck.Each Holomen can have only one mascot attached.",
+        "image": "images/hBP01-120.jpg"
+    },
+
 
     {
         "cardNumber": "hBP01-123",
