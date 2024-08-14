@@ -297,6 +297,15 @@
         "extraEffect": "This Holomen cannot be Bloom",
         "image": "images/hBP01-099.jpg"
     },
+
+    {
+        "cardNumber": "hBP01-106",
+        "name": "ペンライト Penlight)",
+        "type": "Support",
+        "rarity": "U",
+        "ability": "You can only use this card if you archive 1 of your Holo Power cards.Reveal 1 Cheer card from your Cheer Deck that matches the color of one of your Holomen and send it to that Holomen. Then shuffle your Cheer Deck.",
+        "image": "images/hBP01-106.jpg"
+    },
     {
         "cardNumber": "hBP01-109",
         "name": "月と兎の物語 (Story of the Moon and the Rabbit)",
@@ -305,6 +314,26 @@
         "ability": "You can only use this card if your hand, excluding this card, has 6 or fewer cards. Look at the top 4 cards of your deck. From those, reveal any number of [Usada Pekora] and [Moona Hoshinova] cards, and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order.",
         "image": "images/hBP01-109.jpg"
     },
+
+
+    {
+        "cardNumber": "hBP01-115",
+        "name": "星街すいせいのマイク (Suisei's Mic)",
+        "type": "Support",
+        "rarity": "U",
+        "ability": "This tool provides the attached Holomen with +10 Arts.If attached to a [Hoshimachi Suisei] of 1st or higher, add the following ability: When the Holomen with this tool causes an opponent's Holomen to be knocked out, send 1 card from the top of your Cheer Deck to this Holomen.A tool can only be attached to one Holomen at a time.",
+        "image": "images/hBP01-115.jpg"
+    },
+
+      {
+        "cardNumber": "hBP01-118",
+        "name": "あん肝 (Ankimo)",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to [Tokino Sora], add the following ability: When the Holomen attached to this mascot uses an arts ability, this mascot is also treated as a cheer card.A mascot can only be attached to one Holomen at a time.",
+        "image": "images/hBP01-118.jpg"
+    },
+
     {
         "cardNumber": "hBP01-123",
         "name": "野うさぎ同盟 (Nousagi Alliance)",
@@ -312,5 +341,14 @@
         "rarity": "C",
         "ability": "When the Holomen with this fan attached rolls a die as part of an ability, you may archive this fan: Reroll the die once. This fan can only be attached to your 'Usada Pekora,' and any number of them can be attached to one Holomen.",
         "image": "images/hBP01-123.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-124",
+        "name": "開拓者 (pioneer)",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "During your opponent's turn, when the Holomen attached to this fan is knocked down, you may transfer 1 cheer card from the Holomen attached to this fan to another one of your Holomen. This fan can only be attached to your [AZKI] and can be attached in any number.",
+        "image": "images/hBP01-124.jpg"
     }
 ]

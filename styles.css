@@ -150,7 +150,10 @@ header a:hover {
     right: 10px;
     font-size: 24px;
     cursor: pointer;
+    z-index: 1001; /* Ensure it's above other content */
 }
+
+
 
 .hidden {
     display: none;
