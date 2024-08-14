@@ -24,7 +24,7 @@
         "lives": 5,
         "color": "Red",
         "oshiSkill": {
-            "name": "女幹部の采配"
+            "name": "女幹部の采配",
             "power": "X",
             "description": "[Once per turn] When you archive a card from your hand using the ability of your red Holomen, you can activate this: For each card you would archive from your hand, you may instead archive one of your Holo Powers."
         },
