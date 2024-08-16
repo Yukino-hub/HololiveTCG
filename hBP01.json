@@ -355,12 +355,12 @@
     },
 
     {
-        "cardNumber": "hBP01-106",
+        "cardNumber": "hBP01-105",
         "name": "ペンライト (Penlight)",
         "type": "Support",
         "rarity": "U",
         "ability": "You can only use this card if you archive 1 of your Holo Power cards.Reveal 1 Cheer card from your Cheer Deck that matches the color of one of your Holomen and send it to that Holomen. Then shuffle your Cheer Deck.",
-        "image": "images/hBP01-106.jpg"
+        "image": "images/hBP01-105.jpg"
     },
     {
         "cardNumber": "hBP01-108",
