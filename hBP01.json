@@ -229,7 +229,25 @@
         ],
         "image": "images/hBP01-061.jpg"
     },
-    
+
+
+      {
+        "cardNumber": "hBP01-070",
+        "name": "Omaru Polka",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 110,
+        "color": "Red",
+        "bloomeffect" : "宴の始まりだ!: Reveal one Fan card from your deck, add it to your hand, then shuffle your deck.",
+        "skills": [
+            {
+                "name": "共依存",
+                "dmg": "70",
+                "description": "This Arts cannot be used unless this Holomen has a 'Zain' (member) attached."
+            }
+        ],
+        "image": "images/hBP01-070.jpg"
+    },
     {
         "cardNumber": "hBP01-082",
         "name": "Kobo Kanaeru",
