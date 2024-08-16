@@ -66,32 +66,35 @@ header a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 10px; /* Space between cards */
 }
 
 .card {
+    width: 200px; /* Fixed width */
+    height: 300px; /* Fixed height */
     border: 1px solid #ddd;
     padding: 10px;
-    margin: 10px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-    max-width: 200px;
-    display: inline-block;
-    vertical-align: top;
-    cursor: pointer;
-    transition: transform 0.2s; /* Smooth scaling effect */
+    overflow: hidden; /* Ensure content does not overflow */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box; /* Include padding and border in the width/height */
 }
 .card:hover {
     transform: scale(1.02); /* Slight zoom effect on hover */
 }
 .card img {
-    max-width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* Full width image */
+    height: 150px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensure image covers the area without stretching */
 }
 
 .card p {
     margin: 0;
     padding: 5px 0;
     font-weight: bold;
+    text-align: center; /* Center text */
 }
 
 /* Modal Styles */
