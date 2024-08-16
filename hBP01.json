@@ -191,7 +191,7 @@
             {
                 "name": "Lui's Party",
                 "dmg": 50,
-                "description" : "You may archive 1 card from your hand: Reveal 1 non-Buzz '1st' Holomen from your deck and add it to your hand. Then shuffle your deck"
+                "description" : "You may archive 1 card from your hand: Reveal 1 non-Buzz 1st Holomen from your deck and add it to your hand. Then shuffle your deck"
             }
         ],
         "image": "images/hBP01-059.jpg"
@@ -243,10 +243,30 @@
             {
                 "name": "共依存",
                 "dmg": "70",
-                "description": "This Arts cannot be used unless this Holomen has a 'Zain' (member) attached."
+                "description": "This Arts cannot be used unless this Holomen has a <Zain> attached."
             }
         ],
         "image": "images/hBP01-070.jpg"
+    },
+
+     {
+        "cardNumber": "hBP01-071",
+        "name": "Omaru Polka",
+        "rarity": "RR",
+        "bloomLevel": "1st",
+        "buzz": true,
+        "hp": 240,
+        "color": "Red",
+        "bloomeffect" : "ポルカイリュージョン!: You may return 1 <Zain> card from your Archive to your hand..",
+        "skills": [
+            {
+                "name": "ポルカサーカス",
+                "dmg": "60+",
+                "description": "This Arts gains +20 for each Fan attached to all of your Holomen."
+            }
+        ],
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "image": "images/hBP01-071.jpg"
     },
     {
         "cardNumber": "hBP01-082",
@@ -356,7 +376,7 @@
         "name": "月と兎の物語 (Story of the Moon and the Rabbit)",
         "type": "Support",
         "rarity": "U",
-        "ability": "You can only use this card if your hand, excluding this card, has 6 or fewer cards. Look at the top 4 cards of your deck. From those, reveal any number of [Usada Pekora] and [Moona Hoshinova] cards, and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order.",
+        "ability": "You can only use this card if your hand, excluding this card, has 6 or fewer cards. Look at the top 4 cards of your deck. From those, reveal any number of <Usada Pekora> and <Moona Hoshinova> cards, and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order.",
         "image": "images/hBP01-109.jpg"
     },
       {
@@ -364,7 +384,7 @@
         "name": "Whack with a Blunt Object!",
         "type": "Support",
         "rarity": "U",
-        "ability": "Roll a die: If the result is 3 or less, archive 1 of the opponent's Holomen's Cheers. If your Oshi Holomen is [Nanashi Mumei], you may change the ability [Once per game] Archive 2 of the opponent's Center Holomen's Cheers.", 
+        "ability": "Roll a die: If the result is 3 or less, archive 1 of the opponent's Holomen's Cheers. If your Oshi Holomen is <Nanashi Mumei>, you may change the ability [Once per game] Archive 2 of the opponent's Center Holomen's Cheers.", 
         "image": "images/hBP01-110.jpg"
     },
 
@@ -374,7 +394,7 @@
         "name": "星街すいせいのマイク (Suisei's Mic)",
         "type": "Support",
         "rarity": "U",
-        "ability": "This tool provides the attached Holomen with +10 Arts.If attached to a [Hoshimachi Suisei] of 1st or higher, add the following ability: When the Holomen with this tool causes an opponent's Holomen to be knocked out, send 1 card from the top of your Cheer Deck to this Holomen. Each Holomen can have only one tool attached.",
+        "ability": "This tool provides the attached Holomen with +10 Arts.If attached to a <Hoshimachi Suisei> of 1st or higher, add the following ability: When the Holomen with this tool causes an opponent's Holomen to be knocked out, send 1 card from the top of your Cheer Deck to this Holomen. Each Holomen can have only one tool attached.",
         "image": "images/hBP01-115.jpg"
     },
 
@@ -392,7 +412,7 @@
         "name": "がんも (Ganmo)",
         "type": "Support",
         "rarity": "C",
-        "ability": "This mascot grants the Holomen it is attached to +10 Arts.◆ if attached to <Takane Lui>: When the Holomen with this mascot uses an Arts in the Center Position, draw 1 card from your deck.Each Holomen can have only one mascot attached.",
+        "ability": "This mascot grants the Holomen it is attached to +10 Arts. If attached to <Takane Lui>: When the Holomen with this mascot uses an Arts in the Center Position, draw 1 card from your deck. Each Holomen can have only one mascot attached.",
         "image": "images/hBP01-120.jpg"
     },
 
@@ -402,7 +422,7 @@
         "name": "野うさぎ同盟 (Nousagi Alliance)",
         "type": "Support",
         "rarity": "C",
-        "ability": "When the Holomen with this fan attached rolls a die as part of an ability, you may archive this fan: Reroll the die once. This fan can only be attached to your 'Usada Pekora,' and any number of them can be attached to one Holomen.",
+        "ability": "When the Holomen with this fan attached rolls a die as part of an ability, you may archive this fan: Reroll the die once. This fan can only be attached to own <Usada Pekora> and any number of them can be attached to one Holomen.",
         "image": "images/hBP01-123.jpg"
     },
 
@@ -411,7 +431,16 @@
         "name": "開拓者 (pioneer)",
         "type": "Support",
         "rarity": "C",
-        "ability": "During your opponent's turn, when the Holomen attached to this fan is knocked down, you may transfer 1 cheer card from the Holomen attached to this fan to another one of your Holomen. This fan can only be attached to your [AZKI] and can be attached in any number.",
+        "ability": "During your opponent's turn, when the Holomen attached to this fan is knocked down, you may transfer 1 cheer card from the Holomen attached to this fan to another one of your Holomen. This fan can only be attached to own <AZKI> and any number of them can be attached to one Holomen.",
         "image": "images/hBP01-124.jpg"
+    },
+
+     {
+        "cardNumber": "hBP01-126",
+        "name": "座員 (Zain)",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "When the Holomen with this Fan uses Arts, this Fan is also treated as an Red Cheer.The Holomen with this Fan takes +10 damage. This Fan can only be attached to own <Omaru Polka> and any number of them can be attached to one Holomen.",
+        "image": "images/hBP01-126.jpg"
     }
 ]
