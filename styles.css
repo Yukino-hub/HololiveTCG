@@ -177,12 +177,16 @@ header a:hover {
         border-radius: 0;
         max-height: 100vh;
         overflow-y: auto;
+        display: flex;
+        flex-direction: column; /* Stack content vertically on mobile */
     }
+    
     .modal-content img {
         margin: 0 0 20px 0; /* Margin below the image */
         max-width: 100%; /* Ensure image takes full width */
     }
-     #cardList {
+
+    #cardList {
         flex-direction: column; /* Stack cards vertically on small screens */
         align-items: center; /* Center cards */
     }
@@ -190,10 +194,13 @@ header a:hover {
     .card {
         max-width: 90%; /* Increase card width on small screens */
     }
+
     #searchBar {
         font-size: 14px; /* Slightly smaller font size on small screens */
     }
+
     .dropdown-container {
+        display: flex;
         flex-direction: column; /* Stack dropdowns vertically on small screens */
         align-items: stretch; /* Ensure dropdowns take full width */
     }

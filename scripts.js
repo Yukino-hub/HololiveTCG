@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const modal = document.getElementById('modal');
     const modalCloseIcon = document.getElementById('modalCloseIcon');
 
-    
     const modalImage = document.getElementById('modalImage');
     const modalCardName = document.getElementById('modalCardName');
     const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
@@ -70,6 +69,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error('Failed to load card data:', error);
                 loadingIndicator.style.display = 'none';
             });
+    }
+
+    function scrollToTop() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
     }
 
     function displayCards(cardsToShow) {
@@ -200,11 +204,12 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             modalSkills.classList.add('hidden');
         }
-     // Scroll to top when modal opens
-    modal.scrollTop = 0;
 
-    // Open the modal
-    modal.style.display = 'flex';
+        // Scroll to the top
+        scrollToTop();
+
+        // Display the modal
+        modal.style.display = 'flex';
     }
 
     function closeModal(event) {
