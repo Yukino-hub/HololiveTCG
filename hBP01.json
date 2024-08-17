@@ -6,14 +6,14 @@
         "lives": 6,
         "color": "Green",
         "oshiSkill": {
-            "name": "野兎たち~  (\"Wild Rabbits\")",
+            "name": "野兎たち~  (\"Nousagis~\")",
             "power": 2,
             "description": "[Once per turn] Usable during your opponent's turn when one of your Holomen is knocked down: Reassign all green cheers from your one of your downed Holomen to your other Holomen."
         },
         "spOshiSkill": {
             "name": "幸運兎  (\"Lucky Rabbit\")",
             "power": 3,
-            "description": "[Once per game] During this turn, treat all your dice rolls as 6"
+            "description": "[Once per game] During this turn, treat all as if they had rolled 6"
         },
         "image": "images/hBP01-004.jpg"
     },
@@ -24,7 +24,7 @@
         "lives": 5,
         "color": "Red",
         "oshiSkill": {
-            "name": "女幹部の采配",
+            "name": "女幹部の采配 (\"Executive's Order\")",
             "power": "X",
             "description": "[Once per turn] When you archive a card from your hand using the ability of your red Holomen, you can activate this: For each card you would archive from your hand, you may instead archive one of your Holo Powers."
         },
@@ -70,6 +70,41 @@
         ],
         "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
         "image": "images/hBP01-009.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-033",
+        "name": "Aki Rosenthal",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 50,
+        "color": "Green",
+        "collabEffect": "ヒーリングランウェイ: You may roll a die once. If the result is an odd number, one of your green Holomen recovers 20 HP.",
+        "skills": [
+            {
+                "name": "アフターパーティ",
+                "dmg": "20"
+            }
+        ],
+        "image": "images/hBP01-033.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-035",
+        "name": "Aki Rosenthal",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 120,
+        "color": "Green",
+        "bloomEffect": "ブレーメンの音楽祭: You may attach one Tool from your Archive to your Holomen..",
+        "skills": [
+            {
+                "name": "アキロゼ幻想曲",
+                "dmg": "40",
+                "description" : "When this Holomen has a Tool attached, send the top card from your Yell Deck to your Holomen."
+            }
+        ],
+        "image": "images/hBP01-035.jpg"
     },
 
     {
