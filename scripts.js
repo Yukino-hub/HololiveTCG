@@ -71,10 +71,6 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
 
-    function scrollToTop() {
-        document.body.scrollTop = 0; // For Safari
-        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
-    }
 
     function displayCards(cardsToShow) {
         contentContainer.innerHTML = '';
@@ -205,8 +201,11 @@ document.addEventListener('DOMContentLoaded', function() {
             modalSkills.classList.add('hidden');
         }
 
-        // Scroll to the top
-        scrollToTop();
+         // Scroll the modal content container to the top
+        const modalContent = document.querySelector('#modal .modal-content');
+        if (modalContent) {
+            modalContent.scrollTop = 0;
+        }
 
         // Display the modal
         modal.style.display = 'flex';
