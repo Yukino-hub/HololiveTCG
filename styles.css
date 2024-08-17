@@ -183,7 +183,10 @@ header a:hover {
     
     .modal-content img {
         margin: 0 0 20px 0; /* Margin below the image */
-        max-width: 100%; /* Ensure image takes full width */
+        max-width: 90%; /* Ensure image takes full width */
+        height: auto; /* Maintain aspect ratio */
+        max-height: 60vh; /* Limit image height to 60% of viewport height */
+        object-fit: contain; /* Ensure the image fits within its container */
     }
 
     #cardList {
