@@ -65,7 +65,7 @@
             {
                 "name": "こんかなた〜",
                 "dmg": "40",
-                "description" : "This Art cannot target the opponent's Center Holomen."
+                "description" : "This Art can only target the opponent's Center Holomen."
             }
         ],
         "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
