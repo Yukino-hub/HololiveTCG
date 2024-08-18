@@ -6,14 +6,14 @@
         "lives": 6,
         "color": "Green",
         "oshiSkill": {
-            "name": "野兎たち~  (\"Wild Rabbits\")",
+            "name": "野兎たち~  (\"Nousagis~\")",
             "power": 2,
             "description": "[Once per turn] Usable during your opponent's turn when one of your Holomen is knocked down: Reassign all green cheers from your one of your downed Holomen to your other Holomen."
         },
         "spOshiSkill": {
             "name": "幸運兎  (\"Lucky Rabbit\")",
             "power": 3,
-            "description": "[Once per game] During this turn, treat all your dice rolls as 6"
+            "description": "[Once per game] During this turn, treat all as if they had rolled 6"
         },
         "image": "images/hBP01-004.jpg"
     },
@@ -24,7 +24,7 @@
         "lives": 5,
         "color": "Red",
         "oshiSkill": {
-            "name": "女幹部の采配",
+            "name": "女幹部の采配 (\"Executive's Order\")",
             "power": "X",
             "description": "[Once per turn] When you archive a card from your hand using the ability of your red Holomen, you can activate this: For each card you would archive from your hand, you may instead archive one of your Holo Powers."
         },
@@ -65,11 +65,46 @@
             {
                 "name": "こんかなた〜",
                 "dmg": "40",
-                "description" : "This Art cannot target the opponent's Center Holomen."
+                "description" : "This Art can only target the opponent's Center Holomen."
             }
         ],
         "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
         "image": "images/hBP01-009.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-033",
+        "name": "Aki Rosenthal",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 50,
+        "color": "Green",
+        "collabEffect": "ヒーリングランウェイ: You may roll a die once. If the result is an odd number, one of your green Holomen recovers 20 HP.",
+        "skills": [
+            {
+                "name": "アフターパーティ",
+                "dmg": "20"
+            }
+        ],
+        "image": "images/hBP01-033.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-035",
+        "name": "Aki Rosenthal",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 120,
+        "color": "Green",
+        "bloomEffect": "ブレーメンの音楽祭: You may attach one Tool from your Archive to your Holomen..",
+        "skills": [
+            {
+                "name": "アキロゼ幻想曲",
+                "dmg": "40",
+                "description" : "When this Holomen has a Tool attached, send the top card from your Yell Deck to your Holomen."
+            }
+        ],
+        "image": "images/hBP01-035.jpg"
     },
 
     {
@@ -381,13 +416,12 @@
     },
       {
         "cardNumber": "hBP01-110",
-        "name": "Whack with a Blunt Object!",
+        "name": "鈍器でぶっ叩くわよ!",
         "type": "Support",
         "rarity": "U",
         "ability": "Roll a die: If the result is 3 or less, archive 1 of the opponent's Holomen's Cheers. If your Oshi Holomen is <Nanashi Mumei>, you may change the ability [Once per game] Archive 2 of the opponent's Center Holomen's Cheers.", 
         "image": "images/hBP01-110.jpg"
     },
-
 
     {
         "cardNumber": "hBP01-115",
@@ -398,13 +432,23 @@
         "image": "images/hBP01-115.jpg"
     },
 
-      {
+    
+     {
         "cardNumber": "hBP01-118",
         "name": "あん肝 (Ankimo)",
         "type": "Support",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to [Tokino Sora], add the following ability: When the Holomen attached to this mascot uses an arts ability, this mascot is also treated as a cheer card. Each Holomen can have only one mascot attached.",
+        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Tokino Sora>, add the following ability: When the Holomen attached to this mascot uses an arts ability, this mascot is also treated as a cheer card. Each Holomen can have only one mascot attached.",
         "image": "images/hBP01-118.jpg"
+    },
+
+      {
+        "cardNumber": "hBP01-119",
+        "name": "ジョブズ (Jobs)",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Aki Rosenthal>, add the following ability: When the Hololive member with this mascot uses an art, restore 10 HP to one of your Hololive members. Each Holomen can have only one mascot attached.",
+        "image": "images/hBP0119.jpg"
     },
 
      {
@@ -416,6 +460,14 @@
         "image": "images/hBP01-120.jpg"
     },
 
+      {
+        "cardNumber": "hBP01-122",
+        "name": "ロゼ隊 (Rose Corps)",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "During the opponent's turn, when the Hololive member with this fan attached is knocked down, send the top card from your cheer deck to own <Aki Rosenthal>' This fan can only be attached to your <Aki Rosenthal> and any number of them can be attached to one Holomen.",
+        "image": "images/hBP01-122.jpg"
+    },
 
     {
         "cardNumber": "hBP01-123",
@@ -425,6 +477,8 @@
         "ability": "When the Holomen with this fan attached rolls a die as part of an ability, you may archive this fan: Reroll the die once. This fan can only be attached to own <Usada Pekora> and any number of them can be attached to one Holomen.",
         "image": "images/hBP01-123.jpg"
     },
+
+  
 
     {
         "cardNumber": "hBP01-124",
