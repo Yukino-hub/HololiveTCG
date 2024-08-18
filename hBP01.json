@@ -416,13 +416,12 @@
     },
       {
         "cardNumber": "hBP01-110",
-        "name": "Whack with a Blunt Object!",
+        "name": "鈍器でぶっ叩くわよ!",
         "type": "Support",
         "rarity": "U",
         "ability": "Roll a die: If the result is 3 or less, archive 1 of the opponent's Holomen's Cheers. If your Oshi Holomen is <Nanashi Mumei>, you may change the ability [Once per game] Archive 2 of the opponent's Center Holomen's Cheers.", 
         "image": "images/hBP01-110.jpg"
     },
-
 
     {
         "cardNumber": "hBP01-115",
@@ -433,13 +432,23 @@
         "image": "images/hBP01-115.jpg"
     },
 
-      {
+    
+     {
         "cardNumber": "hBP01-118",
         "name": "あん肝 (Ankimo)",
         "type": "Support",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to [Tokino Sora], add the following ability: When the Holomen attached to this mascot uses an arts ability, this mascot is also treated as a cheer card. Each Holomen can have only one mascot attached.",
-        "image": "images/hBP01-118.jpg"
+        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Tokino Sora>, add the following ability: When the Holomen attached to this mascot uses an arts ability, this mascot is also treated as a cheer card. Each Holomen can have only one mascot attached.",
+        "image": "images/hBP0118.jpg"
+    },
+
+      {
+        "cardNumber": "hBP01-119",
+        "name": "ジョブズ (Jobs)",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Aki Rosenthal>, add the following ability: When the Hololive member with this mascot uses an art, restore 10 HP to one of your Hololive members. Each Holomen can have only one mascot attached.",
+        "image": "images/hBP0119.jpg"
     },
 
      {
@@ -451,6 +460,14 @@
         "image": "images/hBP01-120.jpg"
     },
 
+      {
+        "cardNumber": "hBP01-122",
+        "name": "ロゼ隊 (Rose Corps)",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "During the opponent's turn, when the Hololive member with this fan attached is knocked down, send the top card from your cheer deck to own <Aki Rosenthal>' This fan can only be attached to your <Aki Rosenthal> and any number of them can be attached to one Holomen.",
+        "image": "images/hBP01-122.jpg"
+    },
 
     {
         "cardNumber": "hBP01-123",
@@ -460,6 +477,8 @@
         "ability": "When the Holomen with this fan attached rolls a die as part of an ability, you may archive this fan: Reroll the die once. This fan can only be attached to own <Usada Pekora> and any number of them can be attached to one Holomen.",
         "image": "images/hBP01-123.jpg"
     },
+
+  
 
     {
         "cardNumber": "hBP01-124",
