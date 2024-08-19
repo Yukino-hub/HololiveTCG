@@ -101,12 +101,47 @@
             {
                 "name": "アキロゼ幻想曲",
                 "dmg": "40",
-                "description" : "When this Holomen has a Tool attached, send the top card from your Yell Deck to your Holomen."
+                "description" : "When this Holomen has a Tool attached, send the top card from your Yell Deck to any of your holomen"
             }
         ],
         "image": "images/hBP01-035.jpg"
     },
 
+    {
+        "cardNumber": "hBP01-036",
+        "name": "Aki Rosenthal",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 100,
+        "color": "Green",
+        "collabEffect": "ロゼ隊のみんな応援しててね!: Restore 20 HP to any of your holomen",
+        "skills": [
+            {
+                "name": "今日もがんばローゼ!",
+                "dmg": "30"
+            }
+        ],
+        "image": "images/hBP01-036.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-037",
+        "name": "Aki Rosenthal",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 190,
+        "color": "Green",
+        "bloomeffect" : "ゴシックドール: Send top card from cheer deck to own holomen, Then, if this Hololive member has a tool attached, restore 40 HP to this holomen.",
+        "skills": [
+            {
+                "name": "秘密の合鍵",
+                "dmg": "70+",
+                "description": "If this Holomen has a tool attached, this Art +50."
+            }
+        ],
+        "image": "images/hBP01-037.jpg"
+    },
+    
     {
         "cardNumber": "hBP01-038",
         "name": "Usada Pekora",
