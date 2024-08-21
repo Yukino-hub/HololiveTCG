@@ -230,6 +230,43 @@
         ],
         "image": "images/hBP01-043.jpg"
     },
+
+     {
+        "cardNumber": "hBP01-046",
+        "name": "AZKi",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 100,
+        "color": "Green",
+        "bloomeffect" : "開拓者のみんながいたから: You may choose 1 to 3 Cheer on your stage, move them between any holomen.",
+        "skills": [
+            {
+                "name": "こんな素敵な世界に来れました!",
+                "dmg": "30",
+                "description": "Roll a die three times, for each total of 1 on the rolled dice, this art +10."
+            }
+        ],
+        "image": "images/hBP01-046.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-047",
+        "name": "AZKi",
+        "bloomLevel": "2st",
+        "hp": 220,
+        "color": "Green",
+        "bloomeffect" : "いのちの軌跡: Restore 40 HP to this holomen. Then roll a dice, if the result is odd, you may send 1-3 Green cheers from your archive to this holomen",
+        "skills": [
+            {
+                "name": "新たな地図!",
+                "dmg": "120",
+            }
+        ],
+        "images": [ 
+            { "src": "images/hBP01-047.jpg", "rarity": "RR" },
+            { "src": "images/hBP01-047-UR.jpg", "rarity": "UR" }
+        ],
+    },
      {
         "cardNumber": "hBP01-056",
         "name": "Takane Lui",
