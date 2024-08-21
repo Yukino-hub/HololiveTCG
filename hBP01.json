@@ -72,6 +72,24 @@
         "image": "images/hBP01-009.jpg"
     },
 
+     {
+        "cardNumber": "hBP01-023",
+        "name": "Tokino Sora",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "color": "White",
+        "collabEffect": "私たちは前に向かって･･!: Draw 2 cards from your deck.",
+        "skills": [
+            {
+                "name": "止まらねえぞ",
+                "dmg": "80",
+                "description" : "Roll a dice. If the result is odd, repeat this Art targeting the same holomen. (This Art may repeat until that holomen is downed)."
+            }
+        ],
+        "image": "images/hBP01-023.jpg"
+    },
+
     {
         "cardNumber": "hBP01-033",
         "name": "Aki Rosenthal",
