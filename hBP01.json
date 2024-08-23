@@ -1,4 +1,24 @@
 [
+
+
+    {
+        "cardNumber": "hBP01-003",
+        "name": "Aki Rosenthal",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "Green",
+        "oshiSkill": {
+            "name": "サバイバルパワ-~  (\"Surival Power\")",
+            "power": 2,
+            "description": "[Once per turn] Reveal 1 <Stone Axe> from your deck and attach it to any of your green holomens. Then Shuffle your deck."
+        },
+        "spOshiSkill": {
+            "name": "大地の唄  (\"Song of the Earth\")",
+            "power": 2,
+            "description": "[Once per game] if your Center holomen is green, restore all their HP"
+        },
+        "image": "images/hBP01-003.jpg"
+    },
     {
         "cardNumber": "hBP01-004",
         "name": "Usada Pekora",
@@ -35,9 +55,46 @@
         },
         "image": "images/hBP01-005.jpg"
     },
+
     {
         "cardNumber": "hBP01-007",
         "name": "Hoshimachi Suisei",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "Blue",
+        "oshiSkill": {
+            "name": "ほうき星  (\"Comet\")",
+            "power": 2,
+            "description": "[Once per turn] When this Oshimen or your blue Holomen deal damage to opp backline's Holomen, you may use this to deal 50 special damage to one of opp backline's holomen"
+        },
+        "spOshiSkill": {
+            "name": "シューティングスター  (\"Shooting Star\")",
+            "power": 2,
+            "description": "[Once per game] When your blue holomen deal damage to opp's center holomen or collab holomen, you may use this to deal same amount of special damage to one of opp backline holomen"
+        },
+        "image": "images/hBP01-007.jpg"
+    },
+    {
+        "cardNumber": "hBP01-008",
+        "name": "Kobo Kanaeru",
+        "rarity": "OSR",
+        "lives": 6,
+        "color": "Blue",
+        "oshiSkill": {
+            "name": "レイン・シャーマニズム  (\"Rain Shamen\")",
+            "power": 2,
+            "description": "[Once per turn] Can only be used when you archive your cheer using one of your blue holomen ability : deal 20 dmg to any of your opp's holomens"
+        },
+        "spOshiSkill": {
+            "name": "雨乞い (\"Praying for rain\")",
+            "power": 2,
+            "description": "[Once per game] Send 1-5 cheers from your archive between your Holomens with #ID"
+        },
+        "image": "images/hBP01-008.jpg"
+    },
+      {
+        "cardNumber": "hBP01-008",
+        "name": "Kobo Kanaeru",
         "rarity": "OSR",
         "lives": 6,
         "color": "Blue",
@@ -53,6 +110,7 @@
         },
         "image": "images/hBP01-007.jpg"
     },
+    
 
      {
         "cardNumber": "hBP01-009",
@@ -254,6 +312,7 @@
         "name": "AZKi",
         "bloomLevel": "2nd",
         "hp": 220,
+        "rarity": "RR",
         "color": "Green",
         "bloomeffect": "いのちの軌跡: Restore 40 HP to this holomen. Then roll a dice, if the result is odd, you may send 1-3 Green cheers from your archive to this holomen",
         "skills": [
@@ -262,11 +321,83 @@
                 "dmg": "120"
             }
         ],
-        "images": [
-            { "src": "images/hBP01-047.jpg", "rarity": "RR" },
-            { "src": "images/hBP01-047-UR.jpg", "rarity": "UR" }
-        ]
+        "image": "images/hBP01-047.jpg"
     },
+      {
+        "cardNumber": "hBP01-048",
+        "name": "Kazama Iroha",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "color": "Green",
+        "skills": [
+            {
+                "name": "皆殿、風真いろはでござる-",
+                "dmg": "20"
+            }
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
+        "image": "images/hBP01-048.jpg"
+    },
+
+      {
+        "cardNumber": "hBP01-050",
+        "name": "Kazama Iroha",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "Green",
+        "giftEffect": "用心棒: [Collab Position only], Your opponent's holomems' Arts can only target your Collab holomem (except special damage)..",
+        "skills": [
+            {
+                "name": "元気を全力でお届けします!",
+                "dmg": "20",
+                "description": "Send the top card of your Cheer Deck to one of your holomems with #SecretSocietyholoX that is not named <Kazama Iroha>."
+            }
+        ],
+        "image": "images/hBP01-050.jpg"
+    },
+
+      {
+        "cardNumber": "hBP01-051",
+        "name": "Kazama Iroha",
+        "rarity": "RR",
+        "bloomLevel": "1st",
+        "buzz": true,
+        "hp": 250,
+        "color": "Green",
+        "skills": [
+            {
+                "name": "エールを束ねて",
+                "dmg": "50+",
+                "description": "[Collab Position only], For each Cheer attached to this holomem, this Art gains +20 power (up to a maximum of 5 Cheers)."
+            },
+            {
+                "name": "風華の輝き",
+                "dmg": 70
+            }
+        ],
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "image": "images/hBP01-051.jpg"
+    },
+    
+    {
+        "cardNumber": "hBP01-056",
+        "name": "Takane Lui",
+        "rarity": "P",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "Red",
+        "skills": [
+            {
+                "name": "皆さん、待っ鷹ね?",
+                "dmg": "30"
+            }
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
+        "image": "images/hBP01-056.jpg"
+    },
+    
     
      {
         "cardNumber": "hBP01-056",
