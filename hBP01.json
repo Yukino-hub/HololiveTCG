@@ -645,6 +645,15 @@
         "image": "images/hBP01-110.jpg"
     },
 
+      {
+        "cardNumber": "hBP01-114",
+        "name": "Stone Axe",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "The holomem with this Tool attached gains +20 power to their Arts. When the holomem with this Tool attached uses an Art, that holomem receives 10 special damage. If this is attached to a 1st Bloom or later <Aki Rosenthal>, it gains the following effect: (once per turn) when this holomem has their HP restored, draw 1 card from your Deck. Each Holomen can have only one tool attached.",
+        "image": "images/hBP01-114.jpg"
+    },
+
     {
         "cardNumber": "hBP01-115",
         "name": "星街すいせいのマイク (Suisei's Mic)",
