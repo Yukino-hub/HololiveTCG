@@ -1,6 +1,4 @@
 [
-
-
     {
         "cardNumber": "hBP01-003",
         "name": "Aki Rosenthal",
@@ -92,9 +90,6 @@
         },
         "image": "images/hBP01-008.jpg"
     },
-    
-    
-
      {
         "cardNumber": "hBP01-009",
         "name": "Ayame Kanata",
@@ -111,6 +106,23 @@
         ],
         "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
         "image": "images/hBP01-009.jpg"
+    },
+
+     {
+        "cardNumber": "hBP01-016",
+        "name": "Nanashi Mumei",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 60,
+        "color": "White",
+        "collabeffect" : "白いキャンバス: If your Center holomem contains #Promise, draw 1 card from your Deck.",
+        "skills": [
+            {
+                "name": "リラックスタイム",
+                "dmg": "10",
+            }
+        ],
+        "image": "images/hBP01-016.jpg"
     },
 
      {
@@ -577,6 +589,24 @@
         "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
         "image": "images/hBP01-082.jpg"
     },
+
+       {
+        "cardNumber": "hBP01-092",
+        "name": "Ouro Kronii",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 70,
+        "color": "Blue",
+        "skills": [
+            {
+                "name": "クロにちは~",
+                "dmg": "10",
+                "description" : "You may move 1 Cheer from this holomem to one of your other holomems contains #Promise." 
+            }
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
+        "image": "images/hBP01-092.jpg"
+    },
     
     {
         "cardNumber": "hBP01-096",
@@ -645,6 +675,15 @@
         ],
         "extraEffect": "This Holomen cannot be Bloom",
         "image": "images/hBP01-099.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-104",
+        "name": "ふつうのパソコン (Ordinary PC)",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "Reveal a Debut Holomen from your deck and put it on the stage. Then, shuffle the deck.",
+        "image": "images/hBP01-104.jpg"
     },
 
     {
