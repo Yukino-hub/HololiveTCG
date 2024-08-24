@@ -525,6 +525,41 @@
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
         "image": "images/hBP01-071.jpg"
     },
+
+     {
+        "cardNumber": "hBP01-074",
+        "name": "Hakos Baelz",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 90,
+        "color": "Red",
+        "bloomeffect" : "ネズミアイドルがいよいよ登場!: When Bloom from a Debut holomem, you may put one [Debut holomen] or [1st holomem] from your Archive into your hand. If that return card contains #EN, deal 20 special damage to your opponent's Collab holomem.",
+        "skills": [
+            {
+                "name": "楽しい時間の始まりだ!",
+                "dmg": "30"
+            }
+        ],
+        "image": "images/hBP01-074.jpg"
+    },
+
+      {
+        "cardNumber": "hBP01-075",
+        "name": "Hakos Baelz",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 180,
+        "color": "Red",
+        "collabeffect" : "カオスシャッフル: Each player return all cards in their hand to the bottom of their Deck in any order. Then, for each card put into the deck, they draw 1 card from their Deck.",
+        "skills": [
+            {
+                "name": "Disorder!",
+                "dmg": "100"
+            }
+        ],
+        "image": "images/hBP01-075.jpg"
+    },
+    
     {
         "cardNumber": "hBP01-082",
         "name": "Kobo Kanaeru",
