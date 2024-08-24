@@ -115,7 +115,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "White",
-        "collabeffect" : "白いキャンバス: If your Center holomem contains #Promise, draw 1 card from your Deck."
+        "collabeffect" : "白いキャンバス: If your Center holomem contains #Promise, draw 1 card from your Deck.",
         "skills": [
             {
                 "name": "リラックスタイム",
