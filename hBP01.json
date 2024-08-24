@@ -527,6 +527,24 @@
     },
 
      {
+        "cardNumber": "hBP01-072",
+        "name": "Hakos Baelz",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "Red",
+         "skills": [
+            {
+                "name": "WAZZUP!!",
+                "dmg": "20",
+                "description" : "If this holomem has Red Cheer attached to it, you may roll a dice. If the result is odd, deal 20 special damage to your opponent's Collab holomem"
+            }
+        ],
+         "extraEffect": "This Holomen can be included in your deck in any number of copies",
+        "image": "images/hBP01-072.jpg"
+    },
+
+     {
         "cardNumber": "hBP01-074",
         "name": "Hakos Baelz",
         "rarity": "U",
