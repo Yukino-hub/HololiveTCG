@@ -114,6 +114,23 @@
     },
 
      {
+        "cardNumber": "hBP01-016",
+        "name": "Nanashi Mumei",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 60,
+        "color": "White",
+        "collabeffect" : "白いキャンバス: If your Center holomem contains #Promise, draw 1 card from your Deck."
+        "skills": [
+            {
+                "name": "リラックスタイム",
+                "dmg": "10",
+            }
+        ],
+        "image": "images/hBP01-016.jpg"
+    },
+
+     {
         "cardNumber": "hBP01-023",
         "name": "Tokino Sora",
         "rarity": "RR",
