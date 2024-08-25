@@ -607,6 +607,42 @@
         "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
         "image": "images/hBP01-092.jpg"
     },
+
+      {
+        "cardNumber": "hBP01-094",
+        "name": "Ouro Kronii",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 120,
+        "color": "Blue",
+        "bloomeffect" : "クロにちは!: Reveal 1 Cheer from your Cheer Deck of the same color as one of your holomems with #Promise, and send that Cheer to any of your holomems with #Promise. Then shuffle your Cheer Deck.",
+        "skills": [
+            {
+                "name": "忘れられないfesにしよう!!",
+                "dmg": "40"
+            }
+        ],
+        "image": "images/hBP01-094.jpg"
+    },
+
+          {
+        "cardNumber": "hBP01-095",
+        "name": "Ouro Kronii",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Blue",
+        "collabeffect" : "巻き戻し: Return 1 of your opponent's Back Holomems to the Debut Holomem state (after removing all damage counters, leave only a Debut Holomem card and all attached Cheer cards, and return all other attached cards to opp hand).",
+        "skills": [
+            {
+                "name": "早送り",
+                "dmg": "60",
+                "description" : "You may Bloom one of your Debut back holomems that you played this turn into a 1st holomem from your hand."
+            }
+        ],
+        "image": "images/hBP01-095.jpg"
+    },
+    
     
     {
         "cardNumber": "hBP01-096",
