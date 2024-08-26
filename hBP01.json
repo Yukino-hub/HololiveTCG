@@ -302,26 +302,29 @@
         "image": "images/hBP01-046.jpg"
     },
 
-    {
-        "cardNumber": "hBP01-047",
-        "name": "AZKi",
-        "bloomLevel": "2nd",
-        "hp": 220,
-        "rarity": "RR",
-        "color": "Green",
-        "bloomEffect": "いのちの軌跡: Restore 40 HP to this holomen. Then roll a dice, if the result is odd, you may send 1-3 Green cheers from your archive to this holomen",
-        "skills": [
-            {
-                "name": "新たな地図!",
-                "dmg": "120"
-            }
-        ],
-        "image": "images/hBP01-047.jpg",
-        "hasAlternativeArt": true,
-        "alternativeArts": [
-            "images/hBP01-047-UR.jpg"
-        ]
-    },
+        {
+          "cardNumber": "hBP01-047",
+          "name": "AZKi",
+          "bloomLevel": "2nd",
+          "hp": 220,
+          "rarity": "RR",
+          "color": "Green",
+          "bloomEffect": "いのちの軌跡: Restore 40 HP to this holomen. Then roll a dice, if the result is odd, you may send 1-3 Green cheers from your archive to this holomen",
+          "skills": [
+              {
+                  "name": "新たな地図!",
+                  "dmg": "120"
+              }
+          ],
+          "image": "images/hBP01-047.jpg",
+          "hasAlternativeArt": true,
+          "alternativeArts": [
+              {
+                  "url": "images/hBP01-047-UR.jpg",
+                  "rarity": "UR"
+              }
+          ]
+      },
       {
         "cardNumber": "hBP01-048",
         "name": "Kazama Iroha",
