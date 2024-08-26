@@ -316,7 +316,8 @@
                 "dmg": "120"
             }
         ],
-        "image": "images/hBP01-047.jpg"
+        "image": "images/hBP01-047.jpg",
+        "hasAlternativeArt": true
     },
       {
         "cardNumber": "hBP01-048",
