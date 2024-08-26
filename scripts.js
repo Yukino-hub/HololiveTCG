@@ -154,11 +154,11 @@ document.addEventListener('DOMContentLoaded', function() {
         primaryImage.classList.add('lazy');
         modalImageContainer.appendChild(primaryImage);
 
-        // Check for alternative art and load additional images
-        if (card.hasAlternativeArt && card.alternativeArts) {
-            card.alternativeArts.forEach(altImage => {
+        // Load alternative art images if they exist
+        if (card.hasAlternativeArt && card.alternativeArts && card.alternativeArts.length > 0) {
+            card.alternativeArts.forEach(artUrl => {
                 const altImageElement = document.createElement('img');
-                altImageElement.src = altImage;
+                altImageElement.src = artUrl;
                 altImageElement.alt = `${card.name} - Alternative Art`;
                 altImageElement.classList.add('lazy');
                 modalImageContainer.appendChild(altImageElement);
