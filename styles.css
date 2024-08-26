@@ -111,8 +111,8 @@ header a:hover {
     background: #fff;
     border-radius: 8px; /* Slightly larger border-radius for smoother edges */
     padding: 20px;
-    max-width: 800px; /* Slightly reduced max-width for better fitting on smaller screens */
-    width: 90%;
+    max-width: 1100x; 
+    width: 95%;
     display: flex;
     flex-direction: column; /* Change to column to stack content vertically */
     align-items: flex-start; /* Align content to the start for a more natural flow */
@@ -121,10 +121,9 @@ header a:hover {
 }
 
 .modal-content img {
-    max-width: 100%; /* Ensures images are responsive */
+    max-width: 400px; /* Increase max width */
     height: auto;
-    margin-bottom: 20px; /* Adds spacing between the image and text content */
-    border-radius: 5px; /* Adds subtle rounding to images */
+    margin-right: 20px;
 }
 
 .modal-content div {
