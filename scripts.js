@@ -72,24 +72,34 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 
-    function displayCards(cardsToShow) {
-        contentContainer.innerHTML = '';
-        cardsToShow.forEach(card => {
-            const cardElement = document.createElement('div');
-            cardElement.classList.add('card');
-            cardElement.innerHTML = `
-                <img data-src="${card.image}" alt="${card.name}" class="lazy-load">
-                <p>${card.name}</p>
-                <p>${card.cardNumber}</p>
-            `;
-            cardElement.addEventListener('click', () => openModal(card));
-            contentContainer.appendChild(cardElement);
-        });
+   function displayCards(cardsToShow) {
+    contentContainer.innerHTML = '';
+    cardsToShow.forEach(card => {
+        const cardElement = document.createElement('div');
+        cardElement.classList.add('card');
+        
+        // Base HTML structure
+        cardElement.innerHTML = `
+            <img data-src="${card.image}" alt="${card.name}" class="lazy-load">
+            <p>${card.name}</p>
+            <p>Card Number: ${card.cardNumber}</p>
+        `;
+        
+        // Conditionally add the alternative art text with a color-coded "Yes"
+        if (card.hasAlternativeArt) {
+            cardElement.innerHTML += `
+                <p>Alternative Art: 
+                    <span class="colored-yes">Yes</span>
+                </p>`;
+        }
 
-        // Initialize lazy loading for images
-        initializeLazyLoading();
-    }
+        cardElement.addEventListener('click', () => openModal(card));
+        contentContainer.appendChild(cardElement);
+    });
 
+    // Initialize lazy loading for images
+    initializeLazyLoading();
+}
     function initializeLazyLoading() {
         const lazyImages = document.querySelectorAll('.lazy-load');
 
