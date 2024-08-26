@@ -158,7 +158,18 @@ header a:hover {
     z-index: 1001; /* Ensure it's above other content */
 }
 
+.image-scroll {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px; /* Optional: spacing between images */
+    max-width: 100%; /* Ensure it fits within the modal */
+}
 
+.image-scroll img {
+    max-height: 200px; /* Adjust based on your design */
+    object-fit: contain;
+}
 
 .hidden {
     display: none;
