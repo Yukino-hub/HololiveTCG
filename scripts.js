@@ -143,7 +143,30 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function openModal(card) {
-        modalImage.src = card.image;
+        const modalImageContainer = document.getElementById('modalImageContainer');
+        // Clear any previous images
+        modalImageContainer.innerHTML = '';
+
+        // Load the primary image
+        const primaryImage = document.createElement('img');
+        primaryImage.src = card.image;
+        primaryImage.alt = card.name;
+        primaryImage.classList.add('lazy');
+        modalImageContainer.appendChild(primaryImage);
+
+        // Check for alternative art and load additional images
+        if (card.hasAlternativeArt && card.alternativeArts) {
+            card.alternativeArts.forEach(altImage => {
+                const altImageElement = document.createElement('img');
+                altImageElement.src = altImage;
+                altImageElement.alt = `${card.name} - Alternative Art`;
+                altImageElement.classList.add('lazy');
+                modalImageContainer.appendChild(altImageElement);
+            });
+        }
+
+        
+        // Set the other modal data
         modalCardName.textContent = card.name || '';
         modalCardNumber.textContent = card.cardNumber || '';
         modalRarity.textContent = card.rarity || '';
