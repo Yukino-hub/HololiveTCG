@@ -202,7 +202,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Green",
-        "bloomeffect" : "ゴシックドール: Send top card from cheer deck to own holomen, Then, if this Hololive member has a tool attached, restore 40 HP to this holomen.",
+        "bloomEffect" : "ゴシックドール: Send top card from cheer deck to own holomen, Then, if this Hololive member has a tool attached, restore 40 HP to this holomen.",
         "skills": [
             {
                 "name": "秘密の合鍵",
@@ -273,7 +273,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Green",
-        "bloomeffect" : "ラプリンセスドレス: Restore 50 HP to this Holomen.",
+        "bloomEffect" : "ラプリンセスドレス: Restore 50 HP to this Holomen.",
         "skills": [
             {
                 "name": "全人類兎化計画",
@@ -291,7 +291,7 @@
         "bloomLevel": "1st",
         "hp": 100,
         "color": "Green",
-        "bloomeffect": "開拓者のみんながいたから: You may choose 1 to 3 Cheer on your stage, move them between any holomen.",
+        "bloomEffect": "開拓者のみんながいたから: You may choose 1 to 3 Cheer on your stage, move them between any holomen.",
         "skills": [
             {
                 "name": "こんな素敵な世界に来れました!",
@@ -302,22 +302,29 @@
         "image": "images/hBP01-046.jpg"
     },
 
-    {
-        "cardNumber": "hBP01-047",
-        "name": "AZKi",
-        "bloomLevel": "2nd",
-        "hp": 220,
-        "rarity": "RR",
-        "color": "Green",
-        "bloomeffect": "いのちの軌跡: Restore 40 HP to this holomen. Then roll a dice, if the result is odd, you may send 1-3 Green cheers from your archive to this holomen",
-        "skills": [
-            {
-                "name": "新たな地図!",
-                "dmg": "120"
-            }
-        ],
-        "image": "images/hBP01-047.jpg"
-    },
+        {
+          "cardNumber": "hBP01-047",
+          "name": "AZKi",
+          "bloomLevel": "2nd",
+          "hp": 220,
+          "rarity": "RR",
+          "color": "Green",
+          "bloomEffect": "いのちの軌跡: Restore 40 HP to this holomen. Then roll a dice, if the result is odd, you may send 1-3 Green cheers from your archive to this holomen",
+          "skills": [
+              {
+                  "name": "新たな地図!",
+                  "dmg": "120"
+              }
+          ],
+          "image": "images/hBP01-047.jpg",
+          "hasAlternativeArt": true,
+          "alternativeArts": [
+              {
+                  "url": "images/hBP01-047-UR.jpg",
+                  "rarity": "UR"
+              }
+          ]
+      },
       {
         "cardNumber": "hBP01-048",
         "name": "Kazama Iroha",
@@ -455,7 +462,7 @@
         "bloomLevel": "2nd",
         "hp": 100,
         "color": "Red",
-        "bloomeffect" : "本当にみんなのおかげ!!: When this Holomen Blooms from Debut, you may archive 1 card from your hand: Draw 2 cards from your deck.",
+        "bloomEffect" : "本当にみんなのおかげ!!: When this Holomen Blooms from Debut, you may archive 1 card from your hand: Draw 2 cards from your deck.",
         "skills": [
             {
                 "name": "しっかりついてきてよね!!",
@@ -471,7 +478,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Red",
-        "bloomeffect" : "組織の司令塔: You may return 1 to 2 HooX cards from your archive to your hand.",
+        "bloomEffect" : "組織の司令塔: You may return 1 to 2 HooX cards from your archive to your hand.",
         "skills": [
             {
                 "name": "ホークレイヴ",
@@ -490,7 +497,7 @@
         "bloomLevel": "1st",
         "hp": 110,
         "color": "Red",
-        "bloomeffect" : "宴の始まりだ!: Reveal one Fan card from your deck, add it to your hand, then shuffle your deck.",
+        "bloomEffect" : "宴の始まりだ!: Reveal one Fan card from your deck, add it to your hand, then shuffle your deck.",
         "skills": [
             {
                 "name": "共依存",
@@ -509,7 +516,7 @@
         "buzz": true,
         "hp": 240,
         "color": "Red",
-        "bloomeffect" : "ポルカイリュージョン!: You may return 1 <Zain> card from your Archive to your hand..",
+        "bloomEffect" : "ポルカイリュージョン!: You may return 1 <Zain> card from your Archive to your hand..",
         "skills": [
             {
                 "name": "ポルカサーカス",
@@ -546,7 +553,7 @@
         "bloomLevel": "1st",
         "hp": 90,
         "color": "Red",
-        "bloomeffect" : "ネズミアイドルがいよいよ登場!: When Bloom from a Debut holomem, you may put one [Debut holomen] or [1st holomem] from your Archive into your hand. If that return card contains #EN, deal 20 special damage to your opponent's Collab holomem.",
+        "bloomEffect" : "ネズミアイドルがいよいよ登場!: When Bloom from a Debut holomem, you may put one [Debut holomen] or [1st holomem] from your Archive into your hand. If that return card contains #EN, deal 20 special damage to your opponent's Collab holomem.",
         "skills": [
             {
                 "name": "楽しい時間の始まりだ!",
@@ -615,7 +622,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Blue",
-        "bloomeffect" : "クロにちは!: Reveal 1 Cheer from your Cheer Deck of the same color as one of your holomems with #Promise, and send that Cheer to any of your holomems with #Promise. Then shuffle your Cheer Deck.",
+        "bloomEffect" : "クロにちは!: Reveal 1 Cheer from your Cheer Deck of the same color as one of your holomems with #Promise, and send that Cheer to any of your holomems with #Promise. Then shuffle your Cheer Deck.",
         "skills": [
             {
                 "name": "忘れられないfesにしよう!!",

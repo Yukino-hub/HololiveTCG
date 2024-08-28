@@ -72,24 +72,34 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 
-    function displayCards(cardsToShow) {
-        contentContainer.innerHTML = '';
-        cardsToShow.forEach(card => {
-            const cardElement = document.createElement('div');
-            cardElement.classList.add('card');
-            cardElement.innerHTML = `
-                <img data-src="${card.image}" alt="${card.name}" class="lazy-load">
-                <p>${card.name}</p>
-                <p>${card.cardNumber}</p>
-            `;
-            cardElement.addEventListener('click', () => openModal(card));
-            contentContainer.appendChild(cardElement);
-        });
+   function displayCards(cardsToShow) {
+    contentContainer.innerHTML = '';
+    cardsToShow.forEach(card => {
+        const cardElement = document.createElement('div');
+        cardElement.classList.add('card');
+        
+        // Base HTML structure
+        cardElement.innerHTML = `
+            <img data-src="${card.image}" alt="${card.name}" class="lazy-load">
+            <p>${card.name}</p>
+            <p>Card Number: ${card.cardNumber}</p>
+        `;
+        
+        // Conditionally add the alternative art text with a color-coded "Yes"
+        if (card.hasAlternativeArt) {
+            cardElement.innerHTML += `
+                <p>Alternative Art: 
+                    <span class="colored-yes">Yes</span>
+                </p>`;
+        }
 
-        // Initialize lazy loading for images
-        initializeLazyLoading();
-    }
+        cardElement.addEventListener('click', () => openModal(card));
+        contentContainer.appendChild(cardElement);
+    });
 
+    // Initialize lazy loading for images
+    initializeLazyLoading();
+}
     function initializeLazyLoading() {
         const lazyImages = document.querySelectorAll('.lazy-load');
 
@@ -133,7 +143,30 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function openModal(card) {
-        modalImage.src = card.image;
+        const modalImageContainer = document.getElementById('modalImageContainer');
+        // Clear any previous images
+        modalImageContainer.innerHTML = '';
+
+        // Load the primary image
+        const primaryImage = document.createElement('img');
+        primaryImage.src = card.image;
+        primaryImage.alt = card.name;
+        primaryImage.classList.add('lazy');
+        modalImageContainer.appendChild(primaryImage);
+
+        // Load alternative art images if they exist
+        //if (card.hasAlternativeArt && card.alternativeArts && card.alternativeArts.length > 0) {
+         //    card.alternativeArts.forEach(artUrl => {
+          //       const altImageElement = document.createElement('img');
+          //       altImageElement.src = artUrl;
+         //       altImageElement.alt = `${card.name} - Alternative Art`;
+          //       altImageElement.classList.add('lazy');
+          //       modalImageContainer.appendChild(altImageElement);
+          //   });
+        // }
+
+        
+        // Set the other modal data
         modalCardName.textContent = card.name || '';
         modalCardNumber.textContent = card.cardNumber || '';
         modalRarity.textContent = card.rarity || '';
