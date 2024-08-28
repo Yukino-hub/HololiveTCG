@@ -1,5 +1,23 @@
 [
     {
+        "cardNumber": "hBP01-002",
+        "name": "Nanashi Mumei",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "White",
+        "oshiSkill": {
+            "name": "文明の守護者  (\"Guardian of Civilization\")",
+            "power": 2,
+            "description": "[Once per turn] Can be used during your opponent's turn when one of your holomems with #Promise receives damage: reduce that damage by 50."
+        },
+        "spOshiSkill": {
+            "name": "アメイジング・ドローイング  (\"Amazing Drawing\")",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Event card from your Deck and put it into your hand. Then shuffle your Deck"
+        },
+        "image": "images/hBP01-002.jpg"
+    },
+    {
         "cardNumber": "hBP01-003",
         "name": "Aki Rosenthal",
         "rarity": "OSR",
@@ -93,7 +111,7 @@
      {
         "cardNumber": "hBP01-009",
         "name": "Ayame Kanata",
-        "rarity": "P",
+        "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "White",
@@ -108,6 +126,23 @@
         "image": "images/hBP01-009.jpg"
     },
 
+      {
+        "cardNumber": "hBP01-010",
+        "name": "Ayame Kanata",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 60,
+        "color": "White",
+        "collabEffect" : "お出かけ天使 : For this turn, increase your center Holomen's Arts by +10. If your center Holomen has #4thGen, further increase your center Holomen's Arts by +20."
+        "skills": [
+            {
+                "name": "行ってきまーす",
+                "dmg": "20"
+            }
+        ],
+        "image": "images/hBP01-010.jpg"
+    },
+
      {
         "cardNumber": "hBP01-016",
         "name": "Nanashi Mumei",
@@ -115,7 +150,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "White",
-        "collabeffect" : "白いキャンバス: If your Center holomem contains #Promise, draw 1 card from your Deck.",
+        "collabEffect" : "白いキャンバス: If your Center holomem contains #Promise, draw 1 card from your Deck.",
         "skills": [
             {
                 "name": "リラックスタイム",
@@ -123,6 +158,41 @@
             }
         ],
         "image": "images/hBP01-016.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-019",
+        "name": "Nanashi Mumei",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 100,
+        "color": "White",
+        "bloomEffect" : "みんなと歌って踊りたい! : When this Blooms from a Debut holomem, reveal a Debut or 1st holomem (excluding Buzz holomem) with #Promise from your Deck and add it into your hand. Then shuffle your deck.",
+        "skills": [
+            {
+                "name": "いつも応援してくれてありがとう!",
+                "dmg": "30"
+            }
+        ],
+        "image": "images/hBP01-019.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-020",
+        "name": "Nanashi Mumei",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 190,
+        "color": "White",
+        "collabEffect" : "あの日の約束 : Reveal 1 holomem with #Promise from your Deck and put it into your hand. Then shuffle your deck..",
+        "skills": [
+            {
+                "name": "みんな一緒に",
+                "dmg": "70",
+                "description" : "During this turn, for each of your Back holomems, your Center and Collab holomems' Arts gain +10 Power."
+            }
+        ],
+        "image": "images/hBP01-020.jpg"
     },
 
      {
