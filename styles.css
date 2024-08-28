@@ -94,6 +94,11 @@ header a:hover {
     font-weight: bold;
 }
 
+.colored-yes {
+    color: #ff6347;
+    font-weight: bold;
+}
+
 /* Modal Styles */
 .modal {
     display: none;
