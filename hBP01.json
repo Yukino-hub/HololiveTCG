@@ -133,7 +133,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "White",
-        "collabEffect" : "お出かけ天使 : For this turn, increase your center Holomen's Arts by +10. If your center Holomen has #4thGen, further increase your center Holomen's Arts by +20."
+        "collabEffect" : "お出かけ天使 : For this turn, increase your center Holomen's Arts by +10. If your center Holomen has #4thGen, further increase your center Holomen's Arts by +20.",
         "skills": [
             {
                 "name": "行ってきまーす",
