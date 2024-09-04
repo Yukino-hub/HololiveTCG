@@ -602,23 +602,6 @@
     },
     
     
-    {
-        "cardNumber": "hBP01-056",
-        "name": "Takane Lui",
-        "rarity": "P",
-        "bloomLevel": "Debut",
-        "hp": 100,
-        "color": "Red",
-        "skills": [
-            {
-                "name": "皆さん、待っ鷹ね?",
-                "dmg": "30"
-            }
-        ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
-        "image": "images/hBP01-056.jpg"
-    },
-    
     
      {
         "cardNumber": "hBP01-056",
