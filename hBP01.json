@@ -1,4 +1,23 @@
 [
+
+     {
+        "cardNumber": "hBP01-001",
+        "name": "Amane Kanata",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "White",
+        "oshiSkill": {
+            "name": "ぎゅっきゅっ  (\"Squeeze Squeeze\")",
+            "power": 3,
+            "description": "[Once per turn]Reduce the remaining HP of your opponent's Center holomem to 50."
+        },
+        "spOshiSkill": {
+            "name": "握りつぶしちゃうと  (\"I'll Crush you\")",
+            "power": 2,
+            "description": "[Once per game] During this turn, give one of your holomems' Arts +50 power. If it's a White holomem, their Arts gain an additional +50 power."
+        },
+        "image": "images/hBP01-001.jpg"
+    },
     {
         "cardNumber": "hBP01-002",
         "name": "Nanashi Mumei",
@@ -143,6 +162,60 @@
         "image": "images/hBP01-010.jpg"
     },
 
+    {
+        "cardNumber": "hBP01-012",
+        "name": "Ayame Kanata",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 120,
+        "color": "White",
+        "bloomEffect" : "アイドルかなたそを : Roll a dice. If the result is 3 or less, reveal 1 Mascot from your Deck and attach it to any of your holomems. Then shuffle your Deck.",
+        "skills": [
+            {
+                "name": "い~っぱい応援して!",
+                "dmg": "40"
+            }
+        ],
+        "image": "images/hBP01-012.jpg"
+    },
+     {
+        "cardNumber": "hBP01-013",
+        "name": "Ayame Kanata",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 100,
+        "color": "White",
+        "bloomEffect" : "天使のお仕事 : Deal 30 special damage to your opponent's Center holomem. (holomems Downed with this effect do not reduce LIFE).",
+        "skills": [
+            {
+                "name": "エンジェルステージ",
+                "dmg": "50"
+            }
+        ],
+        "image": "images/hBP01-013.jpg"
+    },
+
+     {
+        "cardNumber": "hBP01-014",
+        "name": "Ayame Kanata",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "White",
+        "collabEffect" : "堕ちた天使 : Deal 50 damage to your opponent's Center holomem.",
+        "skills": [
+            {
+                "name": "+漆黒の翼+",
+                "dmg": "100",
+                "description" : "When you down an opponent's Holomen with this Arts, if the damage dealt exceeds the remaining HP by 50 or more, reduce the opponent's Life by 1."
+            }
+        ],
+        "image": "images/hBP01-014.jpg"
+    },
+    
+
+    
+
      {
         "cardNumber": "hBP01-016",
         "name": "Nanashi Mumei",
@@ -212,6 +285,46 @@
         ],
         "image": "images/hBP01-023.jpg"
     },
+
+      {
+        "cardNumber": "hBP01-026",
+        "name": "Vestia Zeta",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 110,
+        "color": "White",
+        "collabEffect": "新たな運命: When this Blooms from a Debut holomem, reveal a Debut or 1st Bloom holomem (excluding Buzz holomem) with #IDGen3 from your Deck and put it into your hand. Then shuffle your deck.",
+        "skills": [
+            {
+                "name": "ステージみんな「私のもの」",
+                "dmg": "30"
+            }
+        ],
+        "image": "images/hBP01-026.jpg"
+    },
+
+    
+
+    {
+        "cardNumber": "hBP01-027",
+        "name": "Vestia Zeta",
+        "rarity": "RR",
+        "bloomLevel": "1st",
+        "hp": 200,
+        "buzz": true,
+        "color": "White",
+        "giftEffect": "V.7: [Once per turn] [Collab position only] When any of your holomems takes damage from the opponent, you may roll a dice. If the result is odd, do not take the damage.",
+        "skills": [
+            {
+                "name": "アクセスコード: ID",
+                "dmg": "70+",
+                "description" : "If you Center holomem has #ID, this Art gains +50 power."
+            }
+        ],
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "image": "images/hBP01-027.jpg"
+    },
+
 
     {
         "cardNumber": "hBP01-033",
@@ -419,7 +532,7 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Green",
-        "giftEffect": "用心棒: [Collab Position only], Your opponent's holomems' Arts can only target your Collab holomem (except special damage)..",
+        "giftEffect": "用心棒: [Collab Position only], Your opponent's holomems' Arts can only target your Collab holomem (except special damage).",
         "skills": [
             {
                 "name": "元気を全力でお届けします!",
@@ -452,6 +565,42 @@
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
         "image": "images/hBP01-051.jpg"
     },
+
+    {
+        "cardNumber": "hBP01-054",
+        "name": "Airani Iofifteen",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 120,
+        "color": "Green",
+        "bloomEffect": "緑の光が広がる海: Send the top card of your Cheer Deck to one of your holomems with #ID that is not named Airani Iofifteen.",
+        "skills": [
+            {
+                "name": "楽しみにしてるよ!!",
+                "dmg": "30"
+            }
+        ],
+        "image": "images/hBP01-054.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-055",
+        "name": "Airani Iofifteen",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 180,
+        "color": "Green",
+        "collabEffect": "AREA 15: You may send a Cheer from your Archive to each of 1-3 of your holomems with #ID.",
+        "skills": [
+            {
+                "name": "リレーションスカイ",
+                "dmg": "100",
+                "description" : "If there are any holomems with #ID on your Stage that are not named Airani Iofifteen, this art gains +50 power."
+            }
+        ],
+        "image": "images/hBP01-055.jpg"
+    },
+    
     
     {
         "cardNumber": "hBP01-056",
@@ -667,6 +816,47 @@
         "image": "images/hBP01-082.jpg"
     },
 
+     {
+        "cardNumber": "hBP01-090",
+        "name": "Moona Hoshinova",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 110,
+        "color": "Blue",
+        "bloomeffect" : "ラピスラズリ: Reveal a Green Cheer or Blue Cheer from your Cheer Deck and send it to any of your holomems. Then shuffle your Cheer Deck..",
+        "skills": [
+            {
+                "name": "楽しみにしてて!!",
+                "dmg": "20"
+            }
+        ],
+        "image": "images/hBP01-090.jpg"
+    },
+
+
+    {
+        "cardNumber": "hBP01-091",
+        "name": "Moona Hoshinova",
+        "rarity": "RR",
+        "bloomLevel": "1st",
+        "buzz": true,
+        "hp": 240,
+        "color": "Blue",
+        "skills": [
+            {
+                "name": "月は夜に。",
+                "dmg": "50"
+            },
+            {
+                "name": "ムーンナイトディーパ",
+                "dmg": 80,
+                "description" : "You may archive a Green Cheer or Blue Cheer from this holomem for the following effect: Deal 30 special damage to one of your opponent's Back holomems."
+            }
+        ],
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "image": "images/hBP01-071.jpg"
+    },
+
        {
         "cardNumber": "hBP01-092",
         "name": "Ouro Kronii",
@@ -851,6 +1041,23 @@
         "image": "images/hBP01-115.jpg"
     },
 
+     {
+        "cardNumber": "hBP01-116",
+        "name": " うぱお (Upao)",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "This mascot provides the attached Holomen with +10 Arts.If attached to a <Amane Kanata>, add the following ability:  (Once per turn) During your opponent's turn, when the holomem with this mascot attached takes damage, deal 20 special damage to your opponent's Center holomem. Each holomen can only have one mascot attached.",
+        "image": "images/hBP01-116.jpg"
+    },
+
+    {
+        "cardNumber": "hBP01-117",
+        "name": " フレンド (Friend)",
+        "type": "Support",
+        "rarity": "C",
+        "ability": "This mascot provides the attached Holomen with +10 Arts.If attached to a <Nanashi Mumei>, add the following ability:  ring your opponent's turn, when the holomem with this Mascot attached takes damage, you may Archive this mascot to reduce that damage by 30. Each holomen can only have one mascot attached.",
+        "image": "images/hBP01-116.jpg"
+    },
     
      {
         "cardNumber": "hBP01-118",
@@ -863,11 +1070,11 @@
 
       {
         "cardNumber": "hBP01-119",
-        "name": "ジョブズ (Jobs)",
+        "name": "ジョブズ (Jobz)",
         "type": "Support",
         "rarity": "C",
         "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Aki Rosenthal>, add the following ability: When the Hololive member with this mascot uses an art, restore 10 HP to one of your Hololive members. Each Holomen can have only one mascot attached.",
-        "image": "images/hBP0119.jpg"
+        "image": "images/hBP01-0119.jpg"
     },
 
      {
