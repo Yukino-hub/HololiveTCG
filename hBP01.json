@@ -825,7 +825,7 @@ When your Center holomem has #ID, you may roll a dice. If the result is 3 or mor
         "rarity": "U",
         "bloomLevel": "1st",
         "hp": 110,
-        "color": "Blue"
+        "color": "Blue", 
         "bloomEffect" : "バーチャルマーケティング:You may Archive one Cheer from any of your holomems with #ID for the following effect: deal 10 special damage to all of your opponent's Back holomems. (holomems Downed with this effect do not reduce Life)", 
         "skills": [
             {
@@ -843,7 +843,7 @@ When your Center holomem has #ID, you may roll a dice. If the result is 3 or mor
         "bloomLevel": "1st",
         "hp": 110,
         "color": "Blue",
-        "bloomeffect" : "ラピスラズリ: Reveal a Green Cheer or Blue Cheer from your Cheer Deck and send it to any of your holomems. Then shuffle your Cheer Deck..",
+        "bloomeffect" : "ラピスラズリ: Reveal a Green Cheer or Blue Cheer from your Cheer Deck and send it to any of your holomems. Then shuffle your Cheer Deck.",
         "skills": [
             {
                 "name": "楽しみにしてて!!",
