@@ -799,6 +799,43 @@
         "image": "images/hBP01-082.jpg"
     },
 
+
+{
+        "cardNumber": "hBP01-083",
+        "name": "Kobo Kanaeru",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 70,
+        "color": "Blue", 
+        "collabEffect" : "ほを海に連れて! :
+When your Center holomem has #ID, you may roll a dice. If the result is 3 or more, send the top card of your Cheer Deck to any of your holomems.",
+        "skills": [
+            {
+                "name": "波だ~! 泳げ~!" ,
+                "dmg": "10"
+            }
+        ],
+        "image": "images/hBP01-083.jpg"
+    },
+
+
+{
+        "cardNumber": "hBP01-086",
+        "name": "Kobo Kanaeru",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 110,
+        "color": "Blue"
+        "bloomEffect" : "バーチャルマーケティング:You may Archive one Cheer from any of your holomems with #ID for the following effect: deal 10 special damage to all of your opponent's Back holomems. (holomems Downed with this effect do not reduce Life)", 
+        "skills": [
+            {
+                "name": "OnAeru",
+                "dmg": "40"
+            }
+        ],
+        "image": "images/hBP01-086.jpg"
+    },
+
      {
         "cardNumber": "hBP01-090",
         "name": "Moona Hoshinova",
