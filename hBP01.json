@@ -835,6 +835,27 @@
         "image": "images/hBP01-086.jpg"
     },
 
+{
+        "cardNumber": "hBP01-087",
+        "name": "Kobo Kanaeru",
+        "rarity": "U",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Blue", 
+        "skills": [
+            {
+                "name": "雨のマントラ",
+                "dmg": "40", 
+                "description": "You may Archive one Cheer from this holomem for the following effect: deal 20 special damage to all of your opponent's Back holomems. (holomems Downed with this effect do not reduce LIFE)", 
+            }, 
+            {
+                "name": "波のマントラ", 
+                "dmg" : 40,
+                "description" : "You may Archive two Cheers from this holomem for the following effect: deal special damage to your opponent's Center holomem equal to the total amount of damage currently on their Back holomems." 
+        ],
+        "image": "images/hBP01-087.jpg"
+    },
+
      {
         "cardNumber": "hBP01-090",
         "name": "Moona Hoshinova",
