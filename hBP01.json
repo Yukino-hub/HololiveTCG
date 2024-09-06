@@ -807,8 +807,7 @@
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Blue", 
-        "collabEffect" : "ほを海に連れて! :
-When your Center holomem has #ID, you may roll a dice. If the result is 3 or more, send the top card of your Cheer Deck to any of your holomems.",
+        "collabEffect" : "ほを海に連れて!:When your Center holomem has Id, you may roll a dice. If the result is 3 or more, send the top card of your Cheer Deck to any of your holomems.",
         "skills": [
             {
                 "name": "波だ~! 泳げ~!" ,
