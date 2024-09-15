@@ -91,6 +91,25 @@
         "image": "images/hBP01-005.jpg"
     },
 
+     {
+        "cardNumber": "hBP01-006",
+        "name": "Takanashi Kiara",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "Red",
+        "oshiSkill": {
+            "name": "フェニックステール (\"Phoenix Tail\")",
+            "power": "2",
+            "description": "[Once per turn] Return 1 holomem from your Archive to your hand."
+        },
+        "spOshiSkill": {
+            "name": "Rise from the ashes",
+            "power": 2,
+            "description": "[Once per game] Can be used during your opponent's turn when any of your Red holomems is Downed: lose 1 less LIFE than you normally would. Then choose a holomem that was Downed and put that holomem, and all holomems stacked under it, into your hand."
+        },
+        "image": "images/hBP01-006.jpg"
+    },
+
     {
         "cardNumber": "hBP01-007",
         "name": "Hoshimachi Suisei",
