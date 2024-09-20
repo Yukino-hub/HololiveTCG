@@ -380,7 +380,7 @@
         "bloomLevel": "1st",
         "hp": 110,
         "color": "White",
-		"bloomEffect" : "楽しむ準備はできてる！？ : Draw 1 from your deck"
+	"bloomEffect" : "楽しむ準備はできてる！？ : Draw 1 from your deck",
         "skills": [
             {
                 "name": "みんな～こんそめ～",
