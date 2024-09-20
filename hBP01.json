@@ -312,7 +312,7 @@
         "skills": [
             {
                 "name": "思い出の欠片",
-                "dmg": "20+"
+                "dmg": "20+",
                  "description" : "You may reveal one card from the top of your deck. If that card contains #Promise, this Art + 20. Then put that card into your hand.
             }
         ],
