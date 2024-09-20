@@ -181,6 +181,21 @@
         "image": "images/hBP01-010.jpg"
     },
 
+  {
+        "cardNumber": "hBP01-011",
+        "name": "Ayame Kanata",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "White",
+        "skills": [
+            {
+                "name": "塩対応かなたそ",
+                "dmg": "20"
+            }
+        ],
+        "image": "images/hBP01-011.jpg"
+    },
     {
         "cardNumber": "hBP01-012",
         "name": "Ayame Kanata",
