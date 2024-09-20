@@ -246,7 +246,22 @@
         ],
         "image": "images/hBP01-014.jpg"
     },
-    
+       {
+        "cardNumber": "hBP01-015",
+        "name": "Nanashi Mumei",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "color": "White",
+        "skills": [
+            {
+                "name": "Oh, Hi",
+                "dmg": "10+",
+               "description" : "If you have used a support card this turn this Art gains +20"
+            }
+        ],
+        "image": "images/hBP01-015.jpg"
+    },
 
     
 
@@ -265,6 +280,43 @@
             }
         ],
         "image": "images/hBP01-016.jpg"
+    },
+
+      {
+        "cardNumber": "hBP01-017",
+        "name": "Nanashi Mumei",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 130,
+        "color": "White",
+        "skills": [
+            {
+                "name": "一緒にお出かけ",
+                "dmg": "20"
+            },
+          {
+               "name": "コーヒーブレイク",
+                "dmg": "60"
+          }
+        ],
+        "image": "images/hBP01-017.jpg"
+    },
+
+      {
+        "cardNumber": "hBP01-018",
+        "name": "Nanashi Mumei",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 120,
+        "color": "White",
+        "skills": [
+            {
+                "name": "思い出の欠片",
+                "dmg": "20+"
+                 "description" : "You may reveal one card from the top of your deck. If that card contains #Promise, this Art + 20. Then put that card into your hand.
+            }
+        ],
+        "image": "images/hBP01-018.jpg"
     },
 
     {
