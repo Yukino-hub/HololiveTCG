@@ -1,6 +1,6 @@
 [
 
-     {
+    {
         "cardNumber": "hBP01-001",
         "name": "Amane Kanata",
         "rarity": "OSR",
@@ -146,7 +146,7 @@
         },
         "image": "images/hBP01-008.jpg"
     },
-     {
+    {
         "cardNumber": "hBP01-009",
         "name": "Ayame Kanata",
         "rarity": "C",
@@ -181,7 +181,7 @@
         "image": "images/hBP01-010.jpg"
     },
 
-  {
+	{
         "cardNumber": "hBP01-011",
         "name": "Ayame Kanata",
         "rarity": "C",
@@ -212,7 +212,7 @@
         ],
         "image": "images/hBP01-012.jpg"
     },
-     {
+    {
         "cardNumber": "hBP01-013",
         "name": "Ayame Kanata",
         "rarity": "R",
@@ -229,7 +229,7 @@
         "image": "images/hBP01-013.jpg"
     },
 
-     {
+    {
         "cardNumber": "hBP01-014",
         "name": "Ayame Kanata",
         "rarity": "RR",
@@ -246,7 +246,7 @@
         ],
         "image": "images/hBP01-014.jpg"
     },
-       {
+    {
         "cardNumber": "hBP01-015",
         "name": "Nanashi Mumei",
         "rarity": "C",
@@ -265,7 +265,7 @@
 
     
 
-     {
+	{
         "cardNumber": "hBP01-016",
         "name": "Nanashi Mumei",
         "rarity": "C",
@@ -282,7 +282,7 @@
         "image": "images/hBP01-016.jpg"
     },
 
-      {
+    {
         "cardNumber": "hBP01-017",
         "name": "Nanashi Mumei",
         "rarity": "C",
@@ -302,7 +302,7 @@
         "image": "images/hBP01-017.jpg"
     },
 
-      {
+    {
         "cardNumber": "hBP01-018",
         "name": "Nanashi Mumei",
         "rarity": "C",
@@ -354,7 +354,7 @@
         "image": "images/hBP01-020.jpg"
     },
 
-         {
+    {
         "cardNumber": "hBP01-021",
         "name": "Tokino Sora",
         "rarity": "C",
@@ -368,13 +368,31 @@
             }
         ],
 		"extraEffect" : "This Holomen can be included in your deck in any number of copies.",
-        "image": "images/hBP01-020.jpg"
+        "image": "images/hBP01-021.jpg"
           
     },
-
+	
+	
+	{
+        "cardNumber": "hBP01-022",
+        "name": "Tokino Sora",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 110,
+        "color": "White",
+		"bloomEffect" : "楽しむ準備はできてる！？ : Draw 1 from your deck"
+        "skills": [
+            {
+                "name": "みんな～こんそめ～",
+                "dmg": "30"
+            }
+        ],
+        "image": "images/hBP01-022.jpg"
+          
+    },
      
 
-     {
+    {
         "cardNumber": "hBP01-023",
         "name": "Tokino Sora",
         "rarity": "RR",
@@ -391,8 +409,47 @@
         ],
         "image": "images/hBP01-023.jpg"
     },
+	
+	{
+        "cardNumber": "hBP01-024",
+        "name": "Vestia Zeta",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "White",
+        "skills": [
+            {
+                "name": "ミッションスタート",
+                "dmg": "30"
+            }
+        ],
+		"extraEffect" : "This Holomen can be included in your deck in any number of copies.",
+        "image": "images/hBP01-024.jpg"
+		
+	},
+	
+	{
+        "cardNumber": "hBP01-025",
+        "name": "Vestia Zeta",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "White",
+        "skills": [
+            {
+                "name": "温泉は飲まないでね！",
+                "dmg": "40"
+            },
+			{
+                "name": 温泉でくつろぐ一日を",
+                "dmg": "60"
+            },
+        ],
+        "image": "images/hBP01-024.jpg"
+		
+	},
 
-      {
+    {
         "cardNumber": "hBP01-026",
         "name": "Vestia Zeta",
         "rarity": "U",
@@ -408,7 +465,8 @@
         ],
         "image": "images/hBP01-026.jpg"
     },
-
+	
+	
     
 
     {
@@ -430,7 +488,41 @@
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
         "image": "images/hBP01-027.jpg"
     },
+	
+	{
+        "cardNumber": "hBP01-028",
+        "name": "IRyS",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "White",
+        "skills": [
+            {
+                "name": "ハイRyS！",
+                "dmg": "30"
+            }
+        ],
+		"extraEffect" : "This Holomen can be included in your deck in any number of copies.",
+        "image": "images/hBP01-028.jpg"
+		
+	},
 
+		{
+        "cardNumber": "hBP01-029",
+        "name": "IRyS",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "White",
+        "skills": [
+            {
+                "name": "清楚なネフィリムです！",
+                "dmg": "50"
+            }
+        ],
+        "image": "images/hBP01-029.jpg"
+		
+	},
 
     {
         "cardNumber": "hBP01-033",
@@ -970,7 +1062,7 @@
         "bloomLevel": "1st",
         "hp": 110,
         "color": "Blue",
-        "bloomeffect" : "ラピスラズリ: Reveal a Green Cheer or Blue Cheer from your Cheer Deck and send it to any of your holomems. Then shuffle your Cheer Deck.",
+        "bloomEffect" : "ラピスラズリ: Reveal a Green Cheer or Blue Cheer from your Cheer Deck and send it to any of your holomems. Then shuffle your Cheer Deck.",
         "skills": [
             {
                 "name": "楽しみにしてて!!",
