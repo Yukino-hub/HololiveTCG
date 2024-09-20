@@ -354,6 +354,26 @@
         "image": "images/hBP01-020.jpg"
     },
 
+         {
+        "cardNumber": "hBP01-021",
+        "name": "Tokino Sora",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "White",
+        "skills": [
+            {
+                "name": "みんな～こんそめ～",
+                "dmg": "30"
+            }
+        ],
+		"extraEffect" : "This Holomen can be included in your deck in any number of copies.",
+        "image": "images/hBP01-020.jpg"
+          
+    },
+
+     
+
      {
         "cardNumber": "hBP01-023",
         "name": "Tokino Sora",
