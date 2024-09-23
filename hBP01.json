@@ -658,14 +658,8 @@
                   "name": "新たな地図!",
                   "dmg": "120"
               }
-          ]
+          ],
           "hasAlternativeArt": true,
-          "alternativeArts": [
-              {
-                  "url": "images/hBP01-047-UR.jpg",
-                  "rarity": "UR"
-              }
-          ]
       },
       {
         "cardNumber": "hBP01-048",
