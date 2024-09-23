@@ -16,7 +16,7 @@
             "power": 2,
             "description": "[Once per game] During this turn, give one of your holomems' Arts +50 power. If it's a White holomem, their Arts gain an additional +50 power."
         },
-        "image": "images/hBP01-001.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-001_OSR.png"
     },
     {
         "cardNumber": "hBP01-002",
