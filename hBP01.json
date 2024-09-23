@@ -15,8 +15,7 @@
             "name": "握りつぶしちゃうと  (\"I'll Crush you\")",
             "power": 2,
             "description": "[Once per game] During this turn, give one of your holomems' Arts +50 power. If it's a White holomem, their Arts gain an additional +50 power."
-        },
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-001_OSR.png"
+        }
     },
     {
         "cardNumber": "hBP01-002",
@@ -33,8 +32,7 @@
             "name": "アメイジング・ドローイング  (\"Amazing Drawing\")",
             "power": 2,
             "description": "[Once per game] Reveal 1 Event card from your Deck and put it into your hand. Then shuffle your Deck"
-        },
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-002_OSR.png"
+        }
     },
     {
         "cardNumber": "hBP01-003",
@@ -51,8 +49,7 @@
             "name": "大地の唄  (\"Song of the Earth\")",
             "power": 2,
             "description": "[Once per game] if your Center holomen is green, restore all their HP"
-        },
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-003_OSR.png"
+        }
     },
     {
         "cardNumber": "hBP01-004",
@@ -69,8 +66,7 @@
             "name": "幸運兎  (\"Lucky Rabbit\")",
             "power": 3,
             "description": "[Once per game] During this turn, treat all as if they had rolled 6"
-        },
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-004_OSR.png"
+        }
     },
     {
         "cardNumber": "hBP01-005",
@@ -87,8 +83,7 @@
             "name": "ホークアイ  (\"Hawkeye\")",
             "power": 2,
             "description": "[Once per game] During your opponent's next turn, their Center Holomen and Collab Holomen cannot baton touch, move, or switch positions."
-        },
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-005_OSR.png"
+        }
     },
 
      {
@@ -106,8 +101,7 @@
             "name": "Rise from the ashes",
             "power": 2,
             "description": "[Once per game] Can be used during your opponent's turn when any of your Red holomems is Downed: lose 1 less LIFE than you normally would. Then choose a holomem that was Downed and put that holomem, and all holomems stacked under it, into your hand."
-        },
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-006_OSR.png"
+        }
     },
 
     {
@@ -125,8 +119,7 @@
             "name": "シューティングスター  (\"Shooting Star\")",
             "power": 2,
             "description": "[Once per game] When your blue holomen deal damage to opp's center holomen or collab holomen, you may use this to deal same amount of special damage to one of opp backline holomen"
-        },
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-007_OSR.png"
+        }
     },
     {
         "cardNumber": "hBP01-008",
@@ -143,8 +136,7 @@
             "name": "雨乞い (\"Praying for rain\")",
             "power": 2,
             "description": "[Once per game] Send 1-5 cheers from your archive between your Holomens with #ID"
-        },
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-008_OSR.png"
+        }
     },
     {
         "cardNumber": "hBP01-009",
@@ -160,8 +152,7 @@
                 "description" : "This Art can only target the opponent's Center Holomen."
             }
         ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-009_C.png"
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
 
       {
@@ -177,8 +168,7 @@
                 "name": "行ってきまーす",
                 "dmg": "20"
             }
-        ],
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-010_U.png"
+        ]
     },
 
 	{
@@ -193,8 +183,7 @@
                 "name": "塩対応かなたそ",
                 "dmg": "20"
             }
-        ],
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-011_C.png"
+        ]
     },
     {
         "cardNumber": "hBP01-012",
@@ -209,8 +198,7 @@
                 "name": "い~っぱい応援して!",
                 "dmg": "40"
             }
-        ],
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-012_U.png"
+        ]
     },
     {
         "cardNumber": "hBP01-013",
@@ -225,8 +213,7 @@
                 "name": "エンジェルステージ",
                 "dmg": "50"
             }
-        ],
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-013_R.png"
+        ]
     },
 
     {
@@ -243,8 +230,7 @@
                 "dmg": "100",
                 "description" : "When you down an opponent's Holomen with this Arts, if the damage dealt exceeds the remaining HP by 50 or more, reduce the opponent's Life by 1."
             }
-        ],
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-014_RR.png"
+        ]
     },
     {
         "cardNumber": "hBP01-015",
@@ -259,8 +245,7 @@
                 "dmg": "10+",
                "description" : "If you have used a support card this turn this Art gains +20"
             }
-        ],
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-015_C.png"
+        ]
     },
 
     
@@ -278,8 +263,7 @@
                 "name": "リラックスタイム",
                 "dmg": "10"
             }
-        ],
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-016_C.png"
+        ]
     },
 
     {
