@@ -49,6 +49,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalSpOshiSkillDescription = document.getElementById('modalSpOshiSkillDescription');
 
     const modalSkills = document.getElementById('modalSkills');
+    const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardlist/";
+
+    function getImageUrl(set, cardNumber, rarity) {
+        return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
+    }
 
     let allCardData = [];
     let filteredCardData = [];
@@ -58,34 +63,40 @@ document.addEventListener('DOMContentLoaded', function() {
         loadingIndicator.style.display = 'block';
 
         // Combine all JSON data from the seriesFiles
-        Promise.all(seriesFiles.map(file => fetch(file).then(response => response.json())))
-            .then(results => {
-                allCardData = results.flat(); // Flatten the array of arrays
-                filteredCardData = allCardData; // No initial load count restriction
-                displayCards(filteredCardData); // Display all cards at once
-                loadingIndicator.style.display = 'none';
-            })
-            .catch(error => {
-                console.error('Failed to load card data:', error);
-                loadingIndicator.style.display = 'none';
+     Promise.all(seriesFiles.map(file => {
+            const setName = file.split('.')[0];  // Extract set name from file (e.g., 'hBP01' from 'hBP01.json')
+            return fetch(file).then(response => response.json().then(data => ({ setName, data })));
+        }))
+        .then(results => {
+            allCardData = results.flatMap(result => {
+                return result.data.map(card => ({ ...card, setName: result.setName })); // Add setName to each card
             });
+            filteredCardData = allCardData; // Load all cards initially
+            displayCards(filteredCardData);
+            loadingIndicator.style.display = 'none';
+        })
+        .catch(error => {
+            console.error('Failed to load card data:', error);
+            loadingIndicator.style.display = 'none';
+        });
     }
 
 
-   function displayCards(cardsToShow) {
+function displayCards(cardsToShow) {
     contentContainer.innerHTML = '';
     cardsToShow.forEach(card => {
         const cardElement = document.createElement('div');
         cardElement.classList.add('card');
         
-        // Base HTML structure
+        // Generate the image URL dynamically
+        const imageUrl = getImageUrl(card.setName, card.cardNumber, card.rarity);
+
         cardElement.innerHTML = `
-            <img data-src="${card.image}" alt="${card.name}" class="lazy-load">
+            <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
             <p>${card.name}</p>
             <p>Card Number: ${card.cardNumber}</p>
         `;
         
-        // Conditionally add the alternative art text with a color-coded "Yes"
         if (card.hasAlternativeArt) {
             cardElement.innerHTML += `
                 <p>Alternative Art: 
@@ -97,7 +108,6 @@ document.addEventListener('DOMContentLoaded', function() {
         contentContainer.appendChild(cardElement);
     });
 
-    // Initialize lazy loading for images
     initializeLazyLoading();
 }
     function initializeLazyLoading() {
@@ -144,27 +154,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function openModal(card) {
         const modalImageContainer = document.getElementById('modalImageContainer');
-        // Clear any previous images
         modalImageContainer.innerHTML = '';
-
-        // Load the primary image
+    
+        // Generate the image URL for the modal
+        const imageUrl = getImageUrl(card.setName, card.cardNumber, card.rarity);
+    
         const primaryImage = document.createElement('img');
-        primaryImage.src = card.image;
+        primaryImage.src = imageUrl;
         primaryImage.alt = card.name;
-        primaryImage.classList.add('lazy');
         modalImageContainer.appendChild(primaryImage);
-
-        // Load alternative art images if they exist
-        //if (card.hasAlternativeArt && card.alternativeArts && card.alternativeArts.length > 0) {
-         //    card.alternativeArts.forEach(artUrl => {
-          //       const altImageElement = document.createElement('img');
-          //       altImageElement.src = artUrl;
-         //       altImageElement.alt = `${card.name} - Alternative Art`;
-          //       altImageElement.classList.add('lazy');
-          //       modalImageContainer.appendChild(altImageElement);
-          //   });
-        // }
-
         
         // Set the other modal data
         modalCardName.textContent = card.name || '';
