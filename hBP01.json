@@ -34,7 +34,7 @@
             "power": 2,
             "description": "[Once per game] Reveal 1 Event card from your Deck and put it into your hand. Then shuffle your Deck"
         },
-        "image": "images/hBP01-002.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-002_OSR.png"
     },
     {
         "cardNumber": "hBP01-003",
@@ -52,7 +52,7 @@
             "power": 2,
             "description": "[Once per game] if your Center holomen is green, restore all their HP"
         },
-        "image": "images/hBP01-003.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-003_OSR.png"
     },
     {
         "cardNumber": "hBP01-004",
@@ -70,7 +70,7 @@
             "power": 3,
             "description": "[Once per game] During this turn, treat all as if they had rolled 6"
         },
-        "image": "images/hBP01-004.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-004_OSR.png"
     },
     {
         "cardNumber": "hBP01-005",
@@ -88,7 +88,7 @@
             "power": 2,
             "description": "[Once per game] During your opponent's next turn, their Center Holomen and Collab Holomen cannot baton touch, move, or switch positions."
         },
-        "image": "images/hBP01-005.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-005_OSR.png"
     },
 
      {
@@ -107,7 +107,7 @@
             "power": 2,
             "description": "[Once per game] Can be used during your opponent's turn when any of your Red holomems is Downed: lose 1 less LIFE than you normally would. Then choose a holomem that was Downed and put that holomem, and all holomems stacked under it, into your hand."
         },
-        "image": "images/hBP01-006.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-006_OSR.png"
     },
 
     {
@@ -126,7 +126,7 @@
             "power": 2,
             "description": "[Once per game] When your blue holomen deal damage to opp's center holomen or collab holomen, you may use this to deal same amount of special damage to one of opp backline holomen"
         },
-        "image": "images/hBP01-007.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-007_OSR.png"
     },
     {
         "cardNumber": "hBP01-008",
@@ -144,7 +144,7 @@
             "power": 2,
             "description": "[Once per game] Send 1-5 cheers from your archive between your Holomens with #ID"
         },
-        "image": "images/hBP01-008.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-008_OSR.png"
     },
     {
         "cardNumber": "hBP01-009",
@@ -161,7 +161,7 @@
             }
         ],
         "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
-        "image": "images/hBP01-009.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-009_C.png"
     },
 
       {
@@ -178,7 +178,7 @@
                 "dmg": "20"
             }
         ],
-        "image": "images/hBP01-010.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-010_U.png"
     },
 
 	{
@@ -194,7 +194,7 @@
                 "dmg": "20"
             }
         ],
-        "image": "images/hBP01-011.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-011_C.png"
     },
     {
         "cardNumber": "hBP01-012",
@@ -210,7 +210,7 @@
                 "dmg": "40"
             }
         ],
-        "image": "images/hBP01-012.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-012_U.png"
     },
     {
         "cardNumber": "hBP01-013",
@@ -226,7 +226,7 @@
                 "dmg": "50"
             }
         ],
-        "image": "images/hBP01-013.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-013_R.png"
     },
 
     {
@@ -244,7 +244,7 @@
                 "description" : "When you down an opponent's Holomen with this Arts, if the damage dealt exceeds the remaining HP by 50 or more, reduce the opponent's Life by 1."
             }
         ],
-        "image": "images/hBP01-014.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-014_RR.png"
     },
     {
         "cardNumber": "hBP01-015",
@@ -260,7 +260,7 @@
                "description" : "If you have used a support card this turn this Art gains +20"
             }
         ],
-        "image": "images/hBP01-015.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-015_C.png"
     },
 
     
@@ -279,7 +279,7 @@
                 "dmg": "10"
             }
         ],
-        "image": "images/hBP01-016.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-016_C.png"
     },
 
     {
@@ -299,7 +299,7 @@
                 "dmg": "60"
           }
         ],
-        "image": "images/hBP01-017.jpg"
+        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-017_C.png"
     },
 
     {
