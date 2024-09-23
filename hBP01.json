@@ -282,8 +282,7 @@
                "name": "コーヒーブレイク",
                 "dmg": "60"
           }
-        ],
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-017_C.png"
+        ]
     },
 
     {
@@ -299,8 +298,7 @@
                 "dmg": "20+",
                  "description" : "You may reveal one card from the top of your deck. If that card contains #Promise, this Art + 20. Then put that card into your hand."
             }
-        ],
-        "image": "images/hBP01-018.jpg"
+        ]
     },
 
     {
@@ -316,8 +314,7 @@
                 "name": "いつも応援してくれてありがとう!",
                 "dmg": "30"
             }
-        ],
-        "image": "images/hBP01-019.jpg"
+        ]
     },
 
     {
@@ -334,8 +331,7 @@
                 "dmg": "70",
                 "description" : "During this turn, for each of your Back holomems, your Center and Collab holomems' Arts gain +10 Power."
             }
-        ],
-        "image": "images/hBP01-020.jpg"
+        ]
     },
 
     {
@@ -351,8 +347,7 @@
                 "dmg": "30"
             }
         ],
-		"extraEffect" : "This Holomen can be included in your deck in any number of copies.",
-        "image": "images/hBP01-021.jpg"
+		"extraEffect" : "This Holomen can be included in your deck in any number of copies."
           
     },
 	
@@ -370,8 +365,7 @@
                 "name": "みんな～こんそめ～",
                 "dmg": "30"
             }
-        ],
-        "image": "images/hBP01-022.jpg"
+        ]
           
     },
      
@@ -390,8 +384,7 @@
                 "dmg": "80",
                 "description" : "Roll a dice. If the result is odd, repeat this Art targeting the same holomen. (This Art may repeat until that holomen is downed)."
             }
-        ],
-        "image": "images/hBP01-023.jpg"
+        ]
     },
 	
 	{
@@ -407,8 +400,7 @@
                 "dmg": "30"
             }
         ],
-		"extraEffect" : "This Holomen can be included in your deck in any number of copies.",
-        "image": "images/hBP01-024.jpg"
+		"extraEffect" : "This Holomen can be included in your deck in any number of copies."
 		
 	},
 	
@@ -428,8 +420,7 @@
                 "name": "温泉でくつろぐ一日を",
                 "dmg": "60"
             }
-        ],
-        "image": "images/hBP01-025.jpg"
+        ]
 		
 	},
 
@@ -446,8 +437,7 @@
                 "name": "ステージみんな「私のもの」",
                 "dmg": "30"
             }
-        ],
-        "image": "images/hBP01-026.jpg"
+        ]
     },
 	
 	
@@ -469,8 +459,7 @@
                 "description" : "If you Center holomem has #ID, this Art gains +50 power."
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "image": "images/hBP01-027.jpg"
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
     },
 	
 	{
@@ -486,8 +475,7 @@
                 "dmg": "30"
             }
         ],
-		"extraEffect" : "This Holomen can be included in your deck in any number of copies.",
-        "image": "images/hBP01-028.jpg"
+		"extraEffect" : "This Holomen can be included in your deck in any number of copies."
 		
 	},
 
@@ -503,8 +491,7 @@
                 "name": "清楚なネフィリムです！",
                 "dmg": "50"
             }
-        ],
-        "image": "images/hBP01-029.jpg"
+        ]
 		
 	},
 
@@ -521,8 +508,7 @@
                 "name": "アフターパーティ",
                 "dmg": "20"
             }
-        ],
-        "image": "images/hBP01-033.jpg"
+        ]
     },
 
     {
@@ -539,8 +525,7 @@
                 "dmg": "40",
                 "description" : "When this Holomen has a Tool attached, send the top card from your Yell Deck to any of your holomen"
             }
-        ],
-        "image": "images/hBP01-035.jpg"
+        ]
     },
 
     {
@@ -556,8 +541,7 @@
                 "name": "今日もがんばローゼ!",
                 "dmg": "30"
             }
-        ],
-        "image": "images/hBP01-036.jpg"
+        ]
     },
 
     {
@@ -574,8 +558,7 @@
                 "dmg": "70+",
                 "description": "If this Holomen has a tool attached, this Art +50."
             }
-        ],
-        "image": "images/hBP01-037.jpg"
+        ]
     },
     
     {
@@ -592,8 +575,7 @@
                 "description" : "Roll a die once: If the result is even, this art gains +20"
             }
         ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
-        "image": "images/hBP01-038.jpg"
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
     {
         "cardNumber": "hBP01-041",
@@ -608,8 +590,7 @@
                 "name": "見逃しちゃだめべこだよ!",
                 "dmg": 30
             }
-        ],
-        "image": "images/hBP01-041.jpg"
+        ]
     },
     {
         "cardNumber": "hBP01-042",
@@ -628,8 +609,7 @@
                 "dmg": "50+",
                 "description": "For each unit of the sum obtained from rolling three dice, this art gains +10."
             }
-        ],
-        "image": "images/hBP01-042.jpg"
+        ]
     },
      {
         "cardNumber": "hBP01-043",
@@ -645,8 +625,7 @@
                 "dmg": "60+",
                 "description": "Roll a die three times, for each total of 1 on the rolled dice, this art +10."
             }
-        ],
-        "image": "images/hBP01-043.jpg"
+        ]
     },
 
      {
@@ -663,8 +642,7 @@
                 "dmg": "30",
                 "description": "Roll a die three times, for each total of 1 on the rolled dice, this art +10."
             }
-        ],
-        "image": "images/hBP01-046.jpg"
+        ]
     },
 
         {
@@ -680,8 +658,7 @@
                   "name": "新たな地図!",
                   "dmg": "120"
               }
-          ],
-          "image": "images/hBP01-047.jpg",
+          ]
           "hasAlternativeArt": true,
           "alternativeArts": [
               {
@@ -703,8 +680,7 @@
                 "dmg": "20"
             }
         ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
-        "image": "images/hBP01-048.jpg"
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
 
       {
@@ -721,8 +697,7 @@
                 "dmg": "20",
                 "description": "Send the top card of your Cheer Deck to one of your holomems with #SecretSocietyholoX that is not named <Kazama Iroha>."
             }
-        ],
-        "image": "images/hBP01-050.jpg"
+        ]
     },
 
       {
@@ -744,8 +719,7 @@
                 "dmg": 70
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "image": "images/hBP01-051.jpg"
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
     },
 
     {
@@ -761,8 +735,7 @@
                 "name": "楽しみにしてるよ!!",
                 "dmg": "30"
             }
-        ],
-        "image": "images/hBP01-054.jpg"
+        ]
     },
 
     {
@@ -779,8 +752,7 @@
                 "dmg": "100",
                 "description" : "If there are any holomems with #ID on your Stage that are not named Airani Iofifteen, this art gains +50 power."
             }
-        ],
-        "image": "images/hBP01-055.jpg"
+        ]
     },
     
     
@@ -798,8 +770,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
-        "image": "images/hBP01-056.jpg"
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
 
      {
@@ -816,8 +787,7 @@
                 "dmg": "20",
                 "description": "Deal 10 special damage to one of your opponent's Collab Holomen."
             }
-        ],
-        "image": "images/hBP01-057.jpg"
+        ]
     },
      {
         "cardNumber": "hBP01-059",
@@ -836,8 +806,7 @@
                 "dmg": 50,
                 "description" : "You may archive 1 card from your hand: Reveal 1 non-Buzz 1st Holomen from your deck and add it to your hand. Then shuffle your deck"
             }
-        ],
-        "image": "images/hBP01-059.jpg"
+        ]
     },
     {
         "cardNumber": "hBP01-060",
@@ -852,8 +821,7 @@
                 "name": "しっかりついてきてよね!!",
                 "dmg": "40"
             }
-        ],
-        "image": "images/hBP01-060.jpg"
+        ]
     },
     {
         "cardNumber": "hBP01-061",
@@ -869,8 +837,7 @@
                 "dmg": "60",
                 "description": "You can archive 1 to 5 cards from your hand. Deal 20 special damage to either the opponent's Center Holomen or Collaboration Holomen for each card archived."
             }
-        ],
-        "image": "images/hBP01-061.jpg"
+        ]
     },
 
 
@@ -888,8 +855,7 @@
                 "dmg": "70",
                 "description": "This Arts cannot be used unless this Holomen has a <Zain> attached."
             }
-        ],
-        "image": "images/hBP01-070.jpg"
+        ]
     },
 
      {
@@ -908,8 +874,7 @@
                 "description": "This Arts gains +20 for each Fan attached to all of your Holomen."
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "image": "images/hBP01-071.jpg"
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
     },
 
      {
@@ -926,8 +891,7 @@
                 "description" : "If this holomem has Red Cheer attached to it, you may roll a dice. If the result is odd, deal 20 special damage to your opponent's Collab holomem"
             }
         ],
-         "extraEffect": "This Holomen can be included in your deck in any number of copies",
-        "image": "images/hBP01-072.jpg"
+         "extraEffect": "This Holomen can be included in your deck in any number of copies"
     },
 
      {
@@ -943,8 +907,7 @@
                 "name": "楽しい時間の始まりだ!",
                 "dmg": "30"
             }
-        ],
-        "image": "images/hBP01-074.jpg"
+        ]
     },
 
       {
@@ -960,8 +923,7 @@
                 "name": "Disorder!",
                 "dmg": "100"
             }
-        ],
-        "image": "images/hBP01-075.jpg"
+        ]
     },
     
     {
@@ -977,8 +939,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
-        "image": "images/hBP01-082.jpg"
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
 
 
@@ -995,8 +956,7 @@
                 "name": "波だ~! 泳げ~!" ,
                 "dmg": "10"
             }
-        ],
-        "image": "images/hBP01-083.jpg"
+        ]
     },
 
 
@@ -1013,8 +973,7 @@
                 "name": "OnAeru",
                 "dmg": "40"
             }
-        ],
-        "image": "images/hBP01-086.jpg"
+        ]
     },
 
 {
@@ -1035,8 +994,7 @@
                 "dmg" : 40,
                 "description" : "You may Archive two Cheers from this holomem for the following effect: deal special damage to your opponent's Center holomem equal to the total amount of damage currently on their Back holomems." 
 } 
-        ],
-        "image": "images/hBP01-087.jpg"
+        ]
     },
 
      {
@@ -1052,8 +1010,7 @@
                 "name": "楽しみにしてて!!",
                 "dmg": "20"
             }
-        ],
-        "image": "images/hBP01-090.jpg"
+        ]
     },
 
 
@@ -1076,8 +1033,7 @@
                 "description" : "You may archive a Green Cheer or Blue Cheer from this holomem for the following effect: Deal 30 special damage to one of your opponent's Back holomems."
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "image": "images/hBP01-071.jpg"
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
     },
 
        {
@@ -1094,8 +1050,7 @@
                 "description" : "You may move 1 Cheer from this holomem to one of your other holomems contains #Promise." 
             }
         ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies.",
-        "image": "images/hBP01-092.jpg"
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
 
       {
@@ -1111,8 +1066,7 @@
                 "name": "忘れられないfesにしよう!!",
                 "dmg": "40"
             }
-        ],
-        "image": "images/hBP01-094.jpg"
+        ]
     },
 
           {
@@ -1129,8 +1083,7 @@
                 "dmg": "60",
                 "description" : "You may Bloom one of your Debut back holomems that you played this turn into a 1st holomem from your hand."
             }
-        ],
-        "image": "images/hBP01-095.jpg"
+        ]
     },
     
     
@@ -1148,8 +1101,7 @@
                 "dmg": 10
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom",
-        "image": "images/hBP01-096.jpg"
+        "extraEffect": "This Holomen cannot be Bloom"
     },
      {
         "cardNumber": "hBP01-097",
@@ -1165,8 +1117,7 @@
                 "dmg": "20"
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom",
-        "image": "images/hBP01-097.jpg"
+        "extraEffect": "This Holomen cannot be Bloom"
     },
     {
         "cardNumber": "hBP01-098",
@@ -1182,8 +1133,7 @@
                 "dmg": 20
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom",
-        "image": "images/hBP01-098.jpg"
+        "extraEffect": "This Holomen cannot be Bloom"
     },
      {
         "cardNumber": "hBP01-099",
@@ -1199,8 +1149,7 @@
                 "dmg": 10
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom",
-        "image": "images/hBP01-099.jpg"
+        "extraEffect": "This Holomen cannot be Bloom"
     },
 
     {
@@ -1208,8 +1157,7 @@
         "name": "ふつうのパソコン (Ordinary PC)",
         "type": "Support",
         "rarity": "C",
-        "ability": "Reveal a Debut Holomen from your deck and put it on the stage. Then, shuffle the deck.",
-        "image": "images/hBP01-104.jpg"
+        "ability": "Reveal a Debut Holomen from your deck and put it on the stage. Then, shuffle the deck."
     },
 
     {
@@ -1217,16 +1165,14 @@
         "name": "ペンライト (Penlight)",
         "type": "Support",
         "rarity": "U",
-        "ability": "You can only use this card if you archive 1 of your Holo Power cards.Reveal 1 Cheer card from your Cheer Deck that matches the color of one of your Holomen and send it to that Holomen. Then shuffle your Cheer Deck.",
-        "image": "images/hBP01-105.jpg"
+        "ability": "You can only use this card if you archive 1 of your Holo Power cards.Reveal 1 Cheer card from your Cheer Deck that matches the color of one of your Holomen and send it to that Holomen. Then shuffle your Cheer Deck."
     },
     {
         "cardNumber": "hBP01-108",
         "name": "じゃあ敵だね",
         "type": "Support",
         "rarity": "U",
-        "ability": "Switch your opponent's Center Holomen with one of their Back Holomen.",
-        "image": "images/hBP01-108.jpg"
+        "ability": "Switch your opponent's Center Holomen with one of their Back Holomen."
     },
     
     {
@@ -1234,16 +1180,14 @@
         "name": "月と兎の物語 (Story of the Moon and the Rabbit)",
         "type": "Support",
         "rarity": "U",
-        "ability": "You can only use this card if your hand, excluding this card, has 6 or fewer cards. Look at the top 4 cards of your deck. From those, reveal any number of <Usada Pekora> and <Moona Hoshinova> cards, and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order.",
-        "image": "images/hBP01-109.jpg"
+        "ability": "You can only use this card if your hand, excluding this card, has 6 or fewer cards. Look at the top 4 cards of your deck. From those, reveal any number of <Usada Pekora> and <Moona Hoshinova> cards, and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order."
     },
       {
         "cardNumber": "hBP01-110",
         "name": "鈍器でぶっ叩くわよ!",
         "type": "Support",
         "rarity": "U",
-        "ability": "Roll a die: If the result is 3 or less, archive 1 of the opponent's Holomen's Cheers. If your Oshi Holomen is <Nanashi Mumei>, you may change the ability [Once per game] Archive 2 of the opponent's Center Holomen's Cheers.", 
-        "image": "images/hBP01-110.jpg"
+        "ability": "Roll a die: If the result is 3 or less, archive 1 of the opponent's Holomen's Cheers. If your Oshi Holomen is <Nanashi Mumei>, you may change the ability [Once per game] Archive 2 of the opponent's Center Holomen's Cheers."
     },
 
       {
@@ -1251,8 +1195,7 @@
         "name": "Stone Axe",
         "type": "Support",
         "rarity": "C",
-        "ability": "The holomem with this Tool attached gains +20 power to their Arts. When the holomem with this Tool attached uses an Art, that holomem receives 10 special damage. If this is attached to a 1st Bloom or later <Aki Rosenthal>, it gains the following effect: (once per turn) when this holomem has their HP restored, draw 1 card from your Deck. Each Holomen can have only one tool attached.",
-        "image": "images/hBP01-114.jpg"
+        "ability": "The holomem with this Tool attached gains +20 power to their Arts. When the holomem with this Tool attached uses an Art, that holomem receives 10 special damage. If this is attached to a 1st Bloom or later <Aki Rosenthal>, it gains the following effect: (once per turn) when this holomem has their HP restored, draw 1 card from your Deck. Each Holomen can have only one tool attached."
     },
 
     {
@@ -1260,8 +1203,7 @@
         "name": "星街すいせいのマイク (Suisei's Mic)",
         "type": "Support",
         "rarity": "U",
-        "ability": "This tool provides the attached Holomen with +10 Arts.If attached to a <Hoshimachi Suisei> of 1st or higher, add the following ability: When the Holomen with this tool causes an opponent's Holomen to be knocked out, send 1 card from the top of your Cheer Deck to this Holomen. Each Holomen can have only one tool attached.",
-        "image": "images/hBP01-115.jpg"
+        "ability": "This tool provides the attached Holomen with +10 Arts.If attached to a <Hoshimachi Suisei> of 1st or higher, add the following ability: When the Holomen with this tool causes an opponent's Holomen to be knocked out, send 1 card from the top of your Cheer Deck to this Holomen. Each Holomen can have only one tool attached."
     },
 
      {
@@ -1269,8 +1211,7 @@
         "name": " うぱお (Upao)",
         "type": "Support",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 Arts.If attached to a <Amane Kanata>, add the following ability:  (Once per turn) During your opponent's turn, when the holomem with this mascot attached takes damage, deal 20 special damage to your opponent's Center holomem. Each holomen can only have one mascot attached.",
-        "image": "images/hBP01-116.jpg"
+        "ability": "This mascot provides the attached Holomen with +10 Arts.If attached to a <Amane Kanata>, add the following ability:  (Once per turn) During your opponent's turn, when the holomem with this mascot attached takes damage, deal 20 special damage to your opponent's Center holomem. Each holomen can only have one mascot attached."
     },
 
     {
@@ -1278,8 +1219,7 @@
         "name": " フレンド (Friend)",
         "type": "Support",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 Arts.If attached to a <Nanashi Mumei>, add the following ability:  ring your opponent's turn, when the holomem with this Mascot attached takes damage, you may Archive this mascot to reduce that damage by 30. Each holomen can only have one mascot attached.",
-        "image": "images/hBP01-117.jpg"
+        "ability": "This mascot provides the attached Holomen with +10 Arts.If attached to a <Nanashi Mumei>, add the following ability:  ring your opponent's turn, when the holomem with this Mascot attached takes damage, you may Archive this mascot to reduce that damage by 30. Each holomen can only have one mascot attached."
     },
     
      {
@@ -1287,8 +1227,7 @@
         "name": "あん肝 (Ankimo)",
         "type": "Support",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Tokino Sora>, add the following ability: When the Holomen attached to this mascot uses an arts ability, this mascot is also treated as a cheer card. Each Holomen can have only one mascot attached.",
-        "image": "images/hBP01-118.jpg"
+        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Tokino Sora>, add the following ability: When the Holomen attached to this mascot uses an arts ability, this mascot is also treated as a cheer card. Each Holomen can have only one mascot attached.
     },
 
       {
@@ -1296,8 +1235,7 @@
         "name": "ジョブズ (Jobz)",
         "type": "Support",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Aki Rosenthal>, add the following ability: When the Hololive member with this mascot uses an art, restore 10 HP to one of your Hololive members. Each Holomen can have only one mascot attached.",
-        "image": "images/hBP01-119.jpg"
+        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Aki Rosenthal>, add the following ability: When the Hololive member with this mascot uses an art, restore 10 HP to one of your Hololive members. Each Holomen can have only one mascot attached."
     },
 
      {
@@ -1305,8 +1243,7 @@
         "name": "がんも (Ganmo)",
         "type": "Support",
         "rarity": "C",
-        "ability": "This mascot grants the Holomen it is attached to +10 Arts. If attached to <Takane Lui>: When the Holomen with this mascot uses an Arts in the Center Position, draw 1 card from your deck. Each Holomen can have only one mascot attached.",
-        "image": "images/hBP01-120.jpg"
+        "ability": "This mascot grants the Holomen it is attached to +10 Arts. If attached to <Takane Lui>: When the Holomen with this mascot uses an Arts in the Center Position, draw 1 card from your deck. Each Holomen can have only one mascot attached."
     },
 
       {
@@ -1314,8 +1251,7 @@
         "name": "ロゼ隊 (Rose Corps)",
         "type": "Support",
         "rarity": "C",
-        "ability": "During the opponent's turn, when the Hololive member with this fan attached is knocked down, send the top card from your cheer deck to own <Aki Rosenthal>' This fan can only be attached to your <Aki Rosenthal> and any number of them can be attached to one Holomen.",
-        "image": "images/hBP01-122.jpg"
+        "ability": "During the opponent's turn, when the Hololive member with this fan attached is knocked down, send the top card from your cheer deck to own <Aki Rosenthal>' This fan can only be attached to your <Aki Rosenthal> and any number of them can be attached to one Holomen."
     },
 
     {
@@ -1323,8 +1259,7 @@
         "name": "野うさぎ同盟 (Nousagi Alliance)",
         "type": "Support",
         "rarity": "C",
-        "ability": "When the Holomen with this fan attached rolls a die as part of an ability, you may archive this fan: Reroll the die once. This fan can only be attached to own <Usada Pekora> and any number of them can be attached to one Holomen.",
-        "image": "images/hBP01-123.jpg"
+        "ability": "When the Holomen with this fan attached rolls a die as part of an ability, you may archive this fan: Reroll the die once. This fan can only be attached to own <Usada Pekora> and any number of them can be attached to one Holomen."
     },
 
   
@@ -1334,8 +1269,7 @@
         "name": "開拓者 (pioneer)",
         "type": "Support",
         "rarity": "C",
-        "ability": "During your opponent's turn, when the Holomen attached to this fan is knocked down, you may transfer 1 cheer card from the Holomen attached to this fan to another one of your Holomen. This fan can only be attached to own <AZKI> and any number of them can be attached to one Holomen.",
-        "image": "images/hBP01-124.jpg"
+        "ability": "During your opponent's turn, when the Holomen attached to this fan is knocked down, you may transfer 1 cheer card from the Holomen attached to this fan to another one of your Holomen. This fan can only be attached to own <AZKI> and any number of them can be attached to one Holomen."
     },
 
      {
@@ -1343,7 +1277,6 @@
         "name": "座員 (Zain)",
         "type": "Support",
         "rarity": "C",
-        "ability": "When the Holomen with this Fan uses Arts, this Fan is also treated as an Red Cheer.The Holomen with this Fan takes +10 damage. This Fan can only be attached to own <Omaru Polka> and any number of them can be attached to one Holomen.",
-        "image": "images/hBP01-126.jpg"
+        "ability": "When the Holomen with this Fan uses Arts, this Fan is also treated as an Red Cheer.The Holomen with this Fan takes +10 damage. This Fan can only be attached to own <Omaru Polka> and any number of them can be attached to one Holomen."
     }
 ]
