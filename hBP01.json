@@ -611,22 +611,22 @@
             }
         ]
     },
-     {
-        "cardNumber": "hBP01-043",
-        "name": "Usada Pekora",
-        "rarity": "RR",
-        "bloomLevel": "2nd",
-        "hp": 200,
-        "color": "Green",
-        "bloomEffect" : "ラプリンセスドレス: Restore 50 HP to this Holomen.",
-        "skills": [
-            {
-                "name": "全人類兎化計画",
-                "dmg": "60+",
-                "description": "Roll a die three times, for each total of 1 on the rolled dice, this art +10."
-            }
-        ]
-    },
+    {
+    "cardNumber": "hBP01-043",
+    "name": "Usada Pekora",
+    "rarity": "RR",
+    "bloomLevel": "2nd",
+    "hp": 200,
+    "color": "Green",
+    "bloomEffect": "ラプリンセスドレス: Restore 50 HP to this Holomen.",
+    "skills": [
+        {
+            "name": "全人類兎化計画",
+            "dmg": "60+",
+            "description": "Roll a die three times, for each total of 1 on the rolled dice, this art +10."
+        }
+    ]
+	},
 
      {
         "cardNumber": "hBP01-046",
