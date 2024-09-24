@@ -253,7 +253,7 @@
 	{
         "cardNumber": "hBP01-016",
         "name": "Nanashi Mumei",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "White",
@@ -348,7 +348,7 @@
 	{
         "cardNumber": "hBP01-022",
         "name": "Tokino Sora",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "1st",
         "hp": 110,
         "color": "White",
@@ -610,7 +610,7 @@
     {
         "cardNumber": "hBP01-038",
         "name": "Usada Pekora",
-        "rarity": "P",
+        "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "Green",
@@ -624,9 +624,26 @@
         "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
 	{
-        "cardNumber": "hBP01-040",
+        "cardNumber": "hBP01-039",
         "name": "Usada Pekora",
         "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 60,
+        "color": "Green",
+		"collabEffect" : "ギャラクシーアイドル　: If your oshi holomem is <Usada Pekora>, roll a dice. If the result is even, send the top card of your Cheer Deck to any of your holomems."
+        "skills": [
+            {
+                "name": "こんぺこー!",
+                "dmg": "20+",
+                "description" : "Roll a die once: If the result is even, this art gains +20"
+            }
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
+    },
+	{
+        "cardNumber": "hBP01-040",
+        "name": "Usada Pekora",
+        "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Green",
@@ -885,7 +902,7 @@
     {
         "cardNumber": "hBP01-056",
         "name": "Takane Lui",
-        "rarity": "P",
+        "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Red",
@@ -1001,7 +1018,7 @@
 	{
         "cardNumber": "hBP01-063",
         "name": "Takanashi Kiara",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Red",
@@ -1030,7 +1047,7 @@
 	{
         "cardNumber": "hBP01-065",
         "name": "Takanashi Kiara",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "1st",
         "hp": 110,
         "color": "Red",
@@ -1045,7 +1062,7 @@
 	{
         "cardNumber": "hBP01-066",
         "name": "Takanashi Kiara",
-        "rarity": "C",
+        "rarity": "R",
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Red",
@@ -1230,7 +1247,7 @@
 	{
         "cardNumber": "hBP01-077",
         "name": "Hoshimachi Suisei",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Blue",
@@ -1278,7 +1295,7 @@
 	{
         "cardNumber": "hBP01-080",
         "name": "Hoshimachi Suisei",
-        "rarity": "U",
+        "rarity": "R",
         "bloomLevel": "1st",
         "hp": 110,
         "color": "Blue",
@@ -1309,7 +1326,7 @@
     {
         "cardNumber": "hBP01-082",
         "name": "Kobo Kanaeru",
-        "rarity": "P",
+        "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Blue",
@@ -1387,7 +1404,7 @@
 	{
         "cardNumber": "hBP01-087",
         "name": "Kobo Kanaeru",
-        "rarity": "U",
+        "rarity": "R",
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Blue", 
@@ -1507,7 +1524,7 @@
     {
         "cardNumber": "hBP01-094",
         "name": "Ouro Kronii",
-        "rarity": "R",
+        "rarity": "U",
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Blue",
