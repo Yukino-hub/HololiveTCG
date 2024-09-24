@@ -630,7 +630,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Green",
-		"collabEffect" : "ギャラクシーアイドル　: If your oshi holomem is <Usada Pekora>, roll a dice. If the result is even, send the top card of your Cheer Deck to any of your holomems."
+	"collabEffect" : "ギャラクシーアイドル　: If your oshi holomem is <Usada Pekora>, roll a dice. If the result is even, send the top card of your Cheer Deck to any of your holomems.",
         "skills": [
             {
                 "name": "こんぺこー!",
@@ -640,7 +640,7 @@
         ],
         "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
-	{
+{
         "cardNumber": "hBP01-040",
         "name": "Usada Pekora",
         "rarity": "C",
