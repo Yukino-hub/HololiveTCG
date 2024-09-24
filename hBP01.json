@@ -1301,7 +1301,7 @@
 		"skills": [
             {
                 "name": "輝く彗星",
-                "dmg": "60+"
+                "dmg": "60+",
 				"description" : "You may Archive 2 Blue Cheers from this holomem for the following effect: for each holomem stacked under this one, this Art gains +60 power (This Art may target your opponent's Back holomems)."
             }
         ]
