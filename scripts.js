@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalImage = document.getElementById('modalImage');
     const modalCardName = document.getElementById('modalCardName');
     const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
-    const modalCardTagContainer = document.getElementByID('modalCardTagContainer');
+    const modalCardTagContainer = document.getElementById'modalCardTagContainer');
     const modalRarityContainer = document.getElementById('modalRarityContainer');
     const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
     const modalHPContainer = document.getElementById('modalHPContainer');
