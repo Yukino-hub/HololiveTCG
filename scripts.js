@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let allCardData = [];
     let filteredCardData = [];
-    const seriesFiles = ['hSD01.json', 'hBP01.json', 'hYS01.json', 'hPR.json', 'hY01.json'];
+    const seriesFiles = ['hSD01.json', 'hBP01.json', 'hPR.json', 'hY01.json'];
 
     function loadCardData() {
         loadingIndicator.style.display = 'block';
