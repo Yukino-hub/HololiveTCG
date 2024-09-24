@@ -1034,7 +1034,7 @@
         "bloomLevel": "1st",
         "hp": 110,
         "color": "Red",
-		"bloomEffect" : "Look at the top three cards of your Deck. Reveal one that is a holomem and put it into your hand. Then Archive the remaining cards."
+		"bloomEffect" : "Look at the top three cards of your Deck. Reveal one that is a holomem and put it into your hand. Then Archive the remaining cards.",
 		"skills": [
             {
                 "name": "盛り上げたいとおもいます！",
@@ -1141,7 +1141,7 @@
         "buzz": true,
         "hp": 240,
         "color": "Red",
-        "bloomEffect" : "ポルカイリュージョン!: You may return 1 <Zain> card from your Archive to your hand..",
+        "bloomEffect" : "ポルカイリュージョン!: You may return 1 <Zain> card from your Archive to your hand.",
         "skills": [
             {
                 "name": "ポルカサーカス",
@@ -1361,10 +1361,10 @@
             {
                 "name": "perayaan",
                 "dmg": "40"
-            },
-			
-                "name": "レインドロップス",
-                "dmg": "50"
+            }
+			{
+				"name": "レインドロップス",
+                "dmg": "50",
 				"description" : "Deal 10 special damage to 3 of your opponent's Back holomems. (holomems Downed with this effect do not reduce LIFE)"
             }
         ]
