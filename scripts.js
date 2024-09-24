@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalImage = document.getElementById('modalImage');
     const modalCardName = document.getElementById('modalCardName');
     const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
+    const modalCardTagContainer = document.getElementByID('modalCardTagContainer');
     const modalRarityContainer = document.getElementById('modalRarityContainer');
     const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
     const modalHPContainer = document.getElementById('modalHPContainer');
@@ -184,6 +185,7 @@ function displayCards(cardsToShow) {
 
         // Toggle visibility based on content
         toggleVisibility(modalCardNumberContainer, card.cardNumber);
+        toggleVisibility(modalCardTagContainer, card.tag);
         toggleVisibility(modalRarityContainer, card.rarity);
         toggleVisibility(modalBloomLevelContainer, card.bloomLevel);
         toggleVisibility(modalHPContainer, card.hp);
