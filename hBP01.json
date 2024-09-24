@@ -1005,7 +1005,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Red",
-		"collabEffect" : "If your Center holomem has #Bird, you may Archive 1 card from your hand for the following effect: reveal 1 Mascot from your deck and put it into your hand. Then shuffle your deck."
+	"collabEffect" : "If your Center holomem has #Bird, you may Archive 1 card from your hand for the following effect: reveal 1 Mascot from your deck and put it into your hand. Then shuffle your deck.",
         "skills": [
             {
                 "name": "もふもふタイム",
