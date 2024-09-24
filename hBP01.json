@@ -150,6 +150,7 @@
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "White",
+	"tag" : "#JP #4thGen #Song"
         "skills": [
             {
                 "name": "こんかなた〜",
