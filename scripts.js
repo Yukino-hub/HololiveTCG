@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
 
     const modalCardNumber = document.getElementById('modalCardNumber');
+    const modalTag = document.getElementById('modalTags');
     const modalRarity = document.getElementById('modalRarity');
     const modalBloomLevel = document.getElementById('modalBloomLevel');
     const modalHP = document.getElementById('modalHP');
@@ -167,6 +168,7 @@ function displayCards(cardsToShow) {
         // Set the other modal data
         modalCardName.textContent = card.name || '';
         modalCardNumber.textContent = card.cardNumber || '';
+        modalTag.textContent = card.tag || '';
         modalRarity.textContent = card.rarity || '';
         modalBloomLevel.textContent = card.bloomLevel || '';
         modalHP.textContent = card.hp || '';
