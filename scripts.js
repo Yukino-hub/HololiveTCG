@@ -292,17 +292,16 @@ function displayCards(cardsToShow) {
         }
     }
 
-    // Add the event listener for the alternative art checkbox here
-   altArtCheckbox.addEventListener('change', () => {
-    // Re-display cards based on current filters and checkbox state
-    displayCards(filteredCardData);
+// Add the event listener for the alternative art checkbox here
+altArtCheckbox.addEventListener('change', () => {
+    filterCards(); // Call filterCards to reapply all filters
 });
 
-    // Event listeners for other filters
-    searchBar.addEventListener('input', filterCards);
-    seriesFilter.addEventListener('change', filterCards);
-    rarityFilter.addEventListener('change', filterCards);
-    bloomTypeFilter.addEventListener('change', filterCards);
+// Event listeners for other filters
+searchBar.addEventListener('input', filterCards);
+seriesFilter.addEventListener('change', filterCards);
+rarityFilter.addEventListener('change', filterCards);
+bloomTypeFilter.addEventListener('change', filterCards);
 
 
     // Close modal
