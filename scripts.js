@@ -172,7 +172,7 @@ function displayCards(cardsToShow) {
         const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
 
         // Adjust the alt art matching condition
-        const matchesAltArt = showAltArt ? card.hasAlternativeArt : true;
+        const matchesAltArt = showAltArt ? card.hasAlternativeArt === true : true;
 
         return matchesSearch && matchesSeries && matchesRarity && matchesBloomType && matchesAltArt;
     });
