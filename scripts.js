@@ -137,7 +137,7 @@ function displayCards(cardsToShow) {
         });
     }
 
-      function filterCards() {
+    function filterCards() {
         const searchText = searchBar.value.toLowerCase(); // Get search input
         const selectedSeries = seriesFilter.value;        // Get selected series
         const selectedRarity = rarityFilter.value;        // Get selected rarity
@@ -145,10 +145,14 @@ function displayCards(cardsToShow) {
     
         // Filter the cards based on search text (for both card number and name) and other criteria
         filteredCardData = allCardData.filter(card => {
-            // Use searchText instead of searchQuery
-            const matchesSearch = card.name.toLowerCase().includes(searchText) || 
-                                  card.cardNumber.toLowerCase().includes(searchText) || 
-                                  card.tag.toLowerCase().includes(searchText); 
+            // Check if name, cardNumber, and tag exist before calling toLowerCase()
+            const cardName = card.name ? card.name.toLowerCase() : '';
+            const cardNumber = card.cardNumber ? card.cardNumber.toLowerCase() : '';
+            const cardTag = card.tag ? card.tag.toLowerCase() : '';
+    
+            const matchesSearch = cardName.includes(searchText) || 
+                                  cardNumber.includes(searchText) || 
+                                  cardTag.includes(searchText); 
     
             const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
             const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
