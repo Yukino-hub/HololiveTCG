@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalImage = document.getElementById('modalImage');
     const modalCardName = document.getElementById('modalCardName');
     const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
-    const modalCardTagsContainer = document.getElementById('modalCardTags'); 
+    const modalCardTagsContainer = document.getElementById('modalCardTagsContainer'); 
     const modalRarityContainer = document.getElementById('modalRarityContainer');
     const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
     const modalHPContainer = document.getElementById('modalHPContainer');
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
 
     const modalCardNumber = document.getElementById('modalCardNumber');
-    const modalCardTags = document.getElementById('modalTags');
+    const modalCardTags = document.getElementById('modalCardTags');
     const modalRarity = document.getElementById('modalRarity');
     const modalBloomLevel = document.getElementById('modalBloomLevel');
     const modalHP = document.getElementById('modalHP');
