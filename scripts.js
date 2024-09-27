@@ -60,20 +60,20 @@ document.addEventListener('DOMContentLoaded', function() {
     let filteredCardData = [];
     const seriesFiles = ['hSD01.json', 'hBP01.json', 'hPR.json', 'hY01.json'];
 
-    function getImageUrl(set, cardNumber, rarity, isAltArt) {
-        if (isAltArt) {
-            // Logic for alternative art URL
-            const altRarityMap = {
-                OSR: 'OUR', // Example mapping
-                RR: 'UR',
-                // Add more mappings as necessary
-            };
-            const altRarity = altRarityMap[rarity] || rarity; // Default to original rarity if not found
-            return `${baseUrl}${set}/${cardNumber}_${altRarity}.png`; 
-        }
-        // Default URL for standard art
-        return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
+   function getImageUrl(set, cardNumber, rarity, isAltArt, hasAlternativeArt) {
+    if (isAltArt && hasAlternativeArt) {
+        // Logic for alternative art URL
+        const altRarityMap = {
+            OSR: 'OUR', // Example mapping
+            RR: 'UR',
+            // Add more mappings as necessary
+        };
+        const altRarity = altRarityMap[rarity] || rarity; // Default to original rarity if not found
+        return `${baseUrl}${set}/${cardNumber}_${altRarity}.png`; 
     }
+    // Default URL for standard art
+    return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
+}
 
     
 
