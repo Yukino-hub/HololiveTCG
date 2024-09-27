@@ -60,8 +60,9 @@ document.addEventListener('DOMContentLoaded', function() {
     let filteredCardData = [];
     const seriesFiles = ['hSD01.json', 'hBP01.json', 'hPR.json', 'hY01.json'];
 
-   function getImageUrl(set, cardNumber, rarity, isAltArt, hasAlternativeArt) {
-    if (isAltArt && hasAlternativeArt) {
+   function getImageUrl(set, cardNumber, rarity, hasAlternativeArt) {
+    // Check if the checkbox is checked and if the card has alternative art
+    if (altArtCheckbox.checked && hasAlternativeArt) {
         // Logic for alternative art URL
         const altRarityMap = {
             OSR: 'OUR', // Example mapping
@@ -74,7 +75,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Default URL for standard art
     return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
 }
-
     
 
 
@@ -102,14 +102,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-function displayCards(cardsToShow, showAltArt) {
+function displayCards(cardsToShow) {
     contentContainer.innerHTML = '';
     cardsToShow.forEach(card => {
         const cardElement = document.createElement('div');
         cardElement.classList.add('card');
 
-        // Generate the image URL dynamically based on the showAltArt parameter
-        const imageUrl = getImageUrl(card.setName, card.cardNumber, card.rarity, showAltArt);
+        // Generate the image URL dynamically
+        const imageUrl = getImageUrl(card.setName, card.cardNumber, card.rarity, card.hasAlternativeArt);
 
         cardElement.innerHTML = `
             <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
@@ -291,10 +291,10 @@ function displayCards(cardsToShow, showAltArt) {
     }
 
     // Add the event listener for the alternative art checkbox here
-    altArtCheckbox.addEventListener('change', () => {
-        // Call displayCards with the current filtered data and the checkbox state
-        displayCards(filteredCardData, altArtCheckbox.checked); 
-    });
+   altArtCheckbox.addEventListener('change', () => {
+    // Re-display cards based on current filters and checkbox state
+    displayCards(filteredCardData);
+});
 
     // Event listeners for other filters
     searchBar.addEventListener('input', filterCards);
