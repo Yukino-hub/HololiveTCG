@@ -231,7 +231,7 @@
             {
                 "name": "+漆黒の翼+",
                 "dmg": "100",
-                "description" : "When you down an opponent's Holomen with this Arts, if the damage dealt exceeds the remaining HP by 50 or more, reduce the opponent's Life by 1."
+                "description" : "When you down an opponent's Holomen with this Arts, if the damage dealt exceeds the remaining HP by 50 or more, reduce the opponent's Life by additional 1."
             }
         ],
 		"hasAlternativeArt": true
@@ -485,7 +485,7 @@
         "bloomLevel": "1st",
         "hp": 110,
         "color": "White",
-		"bloomEffect" : "ステージを希望で包もう！　: During this turn, the Arts of your Center and Collab holomems with #Promise gain +30 power.",
+		"bloomEffect" : "ステージを希望で包もう！: During this turn, the Arts of your Center and Collab holomems with #Promise gain +30 power.",
         "skills": [
             {
                 "name": "一生懸命歌うから見ててね!",
@@ -501,7 +501,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "White",
-		"collabEffect" : "希望の庭園　: Look at your holo power cards, reveal one, and put it into your hand. Then put the top card of your deck into your holo power.",
+		"collabEffect" : "希望の庭園: Look at your holo power cards, reveal one, and put it into your hand. Then put the top card of your deck into your holo power.",
         "skills": [
             {
                 "name": "約束の力",
@@ -638,8 +638,7 @@
                 "dmg": "20+",
                 "description" : "Roll a die once: If the result is even, this art gains +20"
             }
-        ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
+        ]
     },
 {
         "cardNumber": "hBP01-040",
@@ -991,7 +990,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Red",
-        "bloomEffect" : "組織の司令塔: You may return 1 to 2 HooX cards from your archive to your hand.",
+        "bloomEffect" : "組織の司令塔: You may return 1 to 2 #HoloX cards from your archive to your hand.",
         "skills": [
             {
                 "name": "ホークレイヴ",
@@ -1795,7 +1794,7 @@
         "name": "Katori",
         "type": "Support",
         "rarity": "C",
-        "ability": "This mascot grants the Holomen it is attached to +10 Arts. If attached to <Takanashi Kiara>, add the following ability: When the Bloom level of the holomem that this Mascot is attached to increases, draw 1 card from your Deck. Each Holomen can have only one mascot attached."
+        "ability": "Whenever the holomem with this Mascot attached takes damage while in the Center or Collab position, it takes -10 damage.If this is attached to Takanashi Kiara, it gains the following effect: when the Bloom level of the holomem that this Mascot is attached to increases, draw 1 card from your Deck. Each Holomen can have only one mascot attached."
     },
     {
         "cardNumber": "hBP01-122",
