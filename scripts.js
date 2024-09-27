@@ -155,7 +155,7 @@ function displayCards(cardsToShow, showAltArt) {
         });
     }
 
-    function filterCards() {
+  function filterCards() {
     const searchText = searchBar.value.toLowerCase();
     const selectedSeries = seriesFilter.value;
     const selectedRarity = rarityFilter.value;
@@ -171,13 +171,14 @@ function displayCards(cardsToShow, showAltArt) {
         const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
         const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
 
-        // Add this conditional for alternative arts
-        const matchesAltArt = showAltArt ? card.hasAlternativeArt : true; 
+        // Adjust the alt art matching condition
+        const matchesAltArt = showAltArt ? card.hasAlternativeArt : true;
 
         return matchesSearch && matchesSeries && matchesRarity && matchesBloomType && matchesAltArt;
     });
 
-    displayCards(filteredCardData, showAltArt); // Pass the checkbox state to displayCards
+    // Call displayCards with the current filtered data and the checkbox state
+    displayCards(filteredCardData, showAltArt);
 }
     function openModal(card) {
         const modalImageContainer = document.getElementById('modalImageContainer');
