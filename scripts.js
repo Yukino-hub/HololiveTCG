@@ -188,7 +188,7 @@ function displayCards(cardsToShow) {
 
         // Toggle visibility based on content
         toggleVisibility(modalCardNumberContainer, card.cardNumber);
-        toggleVisibility(modalCardTagsContainer, card.Tag);
+        toggleVisibility(modalCardTagsContainer, card.tag);
         toggleVisibility(modalRarityContainer, card.rarity);
         toggleVisibility(modalBloomLevelContainer, card.bloomLevel);
         toggleVisibility(modalHPContainer, card.hp);
