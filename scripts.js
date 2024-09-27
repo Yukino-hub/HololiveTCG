@@ -172,7 +172,7 @@ function displayCards(cardsToShow) {
         // Set the other modal data
         modalCardName.textContent = card.name || '';
         modalCardNumber.textContent = card.cardNumber || '';
-        modalCards.textContent = card.tag || '';
+        modalCardsTags.textContent = card.tag || '';
         modalRarity.textContent = card.rarity || '';
         modalBloomLevel.textContent = card.bloomLevel || '';
         modalHP.textContent = card.hp || '';
