@@ -156,26 +156,29 @@ function displayCards(cardsToShow, showAltArt) {
     }
 
     function filterCards() {
-        const searchText = searchBar.value.toLowerCase();
-        const selectedSeries = seriesFilter.value;
-        const selectedRarity = rarityFilter.value;
-        const selectedBloomType = bloomTypeFilter.value;
-        const showAltArt = altArtCheckbox.checked; // Get the checkbox state
+    const searchText = searchBar.value.toLowerCase();
+    const selectedSeries = seriesFilter.value;
+    const selectedRarity = rarityFilter.value;
+    const selectedBloomType = bloomTypeFilter.value;
+    const showAltArt = altArtCheckbox.checked; // Get the checkbox state
 
-        // Filter the cards based on various criteria
-        filteredCardData = allCardData.filter(card => {
-            const matchesSearch = card.name.toLowerCase().includes(searchText) || 
-                                  card.cardNumber.toLowerCase().includes(searchText) || 
-                                  card.tag.toLowerCase().includes(searchText);
-            const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-            const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
-            const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
-            
-            return matchesSearch && matchesSeries && matchesRarity && matchesBloomType;
-        });
+    // Filter the cards based on various criteria
+    filteredCardData = allCardData.filter(card => {
+        const matchesSearch = card.name.toLowerCase().includes(searchText) || 
+                              card.cardNumber.toLowerCase().includes(searchText) || 
+                              (card.tag && card.tag.toLowerCase().includes(searchText)); // Handle potential undefined tag
+        const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
+        const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
+        const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
 
-        displayCards(filteredCardData, showAltArt); // Pass the checkbox state to displayCards
-    }
+        // Add this conditional for alternative arts
+        const matchesAltArt = showAltArt ? card.hasAlternativeArt : true; 
+
+        return matchesSearch && matchesSeries && matchesRarity && matchesBloomType && matchesAltArt;
+    });
+
+    displayCards(filteredCardData, showAltArt); // Pass the checkbox state to displayCards
+}
     function openModal(card) {
         const modalImageContainer = document.getElementById('modalImageContainer');
         modalImageContainer.innerHTML = '';
