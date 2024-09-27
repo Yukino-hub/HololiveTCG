@@ -136,22 +136,25 @@ function displayCards(cardsToShow) {
     }
 
     function filterCards() {
-        const searchText = searchBar.value.toLowerCase();
-        const selectedSeries = seriesFilter.value;
-        const selectedRarity = rarityFilter.value;
-        const selectedBloomType = bloomTypeFilter.value;
+        const searchText = searchBar.value.toLowerCase(); // Get search input
+        const selectedSeries = seriesFilter.value;        // Get selected series
+        const selectedRarity = rarityFilter.value;        // Get selected rarity
+        const selectedBloomType = bloomTypeFilter.value;  // Get selected bloom type
 
+
+        // Filter the cards based on search text (for both card number and name) and other criteria
         filteredCardData = allCardData.filter(card => {
-            const matchesSearch = card.cardNumber.toLowerCase().includes(searchText);
-            const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-            const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
-            const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
-            return matchesSearch && matchesSeries && matchesRarity && matchesBloomType;
+        const matchesSearch = card.cardNumber.toLowerCase().includes(searchText) || 
+                              card.name.toLowerCase().includes(searchText); // Search by card number or name
+        const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
+        const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
+        const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
+        
+        return matchesSearch && matchesSeries && matchesRarity && matchesBloomType;
         });
 
-        displayCards(filteredCardData); // Update display based on filtered results
+    displayCards(filteredCardData); // Update display based on filtered results
     }
-
     function openModal(card) {
         const modalImageContainer = document.getElementById('modalImageContainer');
         modalImageContainer.innerHTML = '';
