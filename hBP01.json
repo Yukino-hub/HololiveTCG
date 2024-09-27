@@ -167,6 +167,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "White",
+	"tag" : "#JP #4thGen #Song",
         "collabEffect" : "お出かけ天使 : For this turn, increase your center Holomen's Arts by +10. If your center Holomen has #4thGen, further increase your center Holomen's Arts by +20.",
         "skills": [
             {
@@ -182,6 +183,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "White",
+	"tag" : "#JP #4thGen #Song",
         "skills": [
             {
                 "name": "塩対応かなたそ",
@@ -196,6 +198,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "White",
+	"tag" : "#JP #4thGen #Song",
         "bloomEffect" : "アイドルかなたそを : Roll a dice. If the result is 3 or less, reveal 1 Mascot from your Deck and attach it to any of your holomems. Then shuffle your Deck.",
         "skills": [
             {
@@ -211,6 +214,7 @@
         "bloomLevel": "1st",
         "hp": 100,
         "color": "White",
+	"tag" : "#JP #4thGen #Song",
         "bloomEffect" : "天使のお仕事 : Deal 30 special damage to your opponent's Center holomem. (holomems Downed with this effect do not reduce LIFE).",
         "skills": [
             {
@@ -226,6 +230,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "White",
+	"tag" : "#JP #4thGen #Song",
         "collabEffect" : "堕ちた天使 : Deal 50 damage to your opponent's Center holomem.",
         "skills": [
             {
@@ -243,6 +248,7 @@
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "White",
+	"tag" : "#EN #Promise #Bird #Art",
         "skills": [
             {
                 "name": "Oh, Hi",
@@ -258,6 +264,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "White",
+	"tag" : "#EN #Promise #Bird #Art",
         "collabEffect" : "白いキャンバス: If your Center holomem contains #Promise, draw 1 card from your Deck.",
         "skills": [
             {
@@ -273,6 +280,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "White",
+	"tag" : "#EN #Promise #Bird #Art",
         "skills": [
             {
                 "name": "一緒にお出かけ",
@@ -291,6 +299,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "White",
+	"tag" : "#EN #Promise #Bird #Art",
         "skills": [
             {
                 "name": "思い出の欠片",
@@ -306,6 +315,7 @@
         "bloomLevel": "1st",
         "hp": 100,
         "color": "White",
+	"tag" : "#EN #Promise #Bird #Art",
         "bloomEffect" : "みんなと歌って踊りたい! : When this Blooms from a Debut holomem, reveal a Debut or 1st holomem (excluding Buzz holomem) with #Promise from your Deck and add it into your hand. Then shuffle your deck.",
         "skills": [
             {
@@ -321,6 +331,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "White",
+	"tag" : "#EN #Promise #Bird #Art",
         "collabEffect" : "あの日の約束 : Reveal 1 holomem with #Promise from your Deck and put it into your hand. Then shuffle your deck..",
         "skills": [
             {
@@ -337,6 +348,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "White",
+	"tag" : "#JP #Gen0 #Song",
         "skills": [
             {
                 "name": "みんな～こんそめ～",
@@ -353,6 +365,7 @@
         "bloomLevel": "1st",
         "hp": 110,
         "color": "White",
+	"tag" : "#JP #Gen0 #Song",
 	"bloomEffect" : "楽しむ準備はできてる！？ : Draw 1 from your deck",
         "skills": [
             {
@@ -369,6 +382,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "White",
+	"tag" : "#JP #Gen0 #Song",
         "collabEffect": "私たちは前に向かって･･!: Draw 2 cards from your deck.",
         "skills": [
             {
@@ -386,6 +400,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "White",
+	"tag" : "#ID #IDGen3",
         "skills": [
             {
                 "name": "ミッションスタート",
@@ -402,6 +417,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "White",
+	"tag" : "#ID #IDGen3",
         "skills": [
             {
                 "name": "温泉は飲まないでね！",
@@ -421,6 +437,7 @@
         "bloomLevel": "1st",
         "hp": 110,
         "color": "White",
+	"tag" : "#ID #IDGen3",
         "collabEffect": "新たな運命: When this Blooms from a Debut holomem, reveal a Debut or 1st Bloom holomem (excluding Buzz holomem) with #IDGen3 from your Deck and put it into your hand. Then shuffle your deck.",
         "skills": [
             {
@@ -437,6 +454,7 @@
         "hp": 200,
         "buzz": true,
         "color": "White",
+	"tag" : "#ID #IDGen3",
         "giftEffect": "V.7: [Once per turn] [Collab position only] When any of your holomems takes damage from the opponent, you may roll a dice. If the result is odd, do not take the damage.",
         "skills": [
             {
@@ -454,6 +472,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "White",
+	"tag" : "#EN #Promise #Song",
         "skills": [
             {
                 "name": "ハイRyS！",
@@ -470,6 +489,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "White",
+	"tag" : "#EN #Promise #Song",
         "skills": [
             {
                 "name": "清楚なネフィリムです！",
@@ -485,6 +505,7 @@
         "bloomLevel": "1st",
         "hp": 110,
         "color": "White",
+	"tag" : "#EN #Promise #Song",
 		"bloomEffect" : "ステージを希望で包もう！: During this turn, the Arts of your Center and Collab holomems with #Promise gain +30 power.",
         "skills": [
             {
@@ -501,6 +522,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "White",
+	"tag" : "#EN #Promise #Song",
 		"collabEffect" : "希望の庭園: Look at your holo power cards, reveal one, and put it into your hand. Then put the top card of your deck into your holo power.",
         "skills": [
             {
