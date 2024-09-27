@@ -1145,10 +1145,10 @@
             {
                 "name": "共依存",
                 "dmg": "70",
-                "description": "This Arts cannot be used unless this Holomen has a <Zain> attached."
+                "description": "This Arts cannot be used unless this Holomen has a Zain attached."
             }
         ]
-    },
+    },z`
 
      {
         "cardNumber": "hBP01-071",
@@ -1220,7 +1220,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "Red",
-        "collabeffect" : "カオスシャッフル: Each player return all cards in their hand to the bottom of their Deck in any order. Then, for each card put into the deck, they draw 1 card from their Deck.",
+        "collabEffect" : "カオスシャッフル: Each player return all cards in their hand to the bottom of their Deck in any order. Then, for each card put into the deck, they draw 1 card from their Deck.",
         "skills": [
             {
                 "name": "Disorder!",
@@ -1239,7 +1239,7 @@
             {
                 "name": "スターの原石",
                 "dmg": "20",
-				"description" : "Deal 10 special damage to one of your opponent's Back holomems. (holomems Downed with this effect do not reduce LIFE)"
+				"description" : "Deal 10 special damage to one of your opponent's Back holomems. (Holomems Downed with this effect do not reduce LIFE)"
             }
         ],
         "extraEffect" : "This Holomen can be included in your deck in any number of copies."
@@ -1251,7 +1251,7 @@
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Blue",
-		"collabEffect" : "煌きのワードローブ　: If your oshi holomem is Hoshimachi Suisei, you may Archive 1 Blue Cheer from this holomem for the following effect: draw 2 cards from your Deck",
+		"collabEffect" : "煌きのワードローブ　: If your oshi holomem is <Hoshimachi Suisei>, you may Archive 1 Blue Cheer from this holomem for the following effect: draw 2 cards from your Deck",
         "skills": [
             {
                 "name": "新しい衣装",
@@ -1345,7 +1345,7 @@
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Blue", 
-        "collabEffect" : "ほを海に連れて!:When your Center holomem has Id, you may roll a dice. If the result is 3 or more, send the top card of your Cheer Deck to any of your holomems.",
+        "collabEffect" : "ほを海に連れて!:When your Center holomem has #ID, you may roll a dice. If the result is 3 or more, send the top card of your Cheer Deck to any of your holomems.",
         "skills": [
             {
                 "name": "波だ~! 泳げ~!" ,
@@ -1591,7 +1591,7 @@
         "bloomLevel": "Spot",
         "hp": 90,
         "color": "Colorless",
-        "collabEffect": "それは「俺」: You can send one cheer from your archive to one of your Holomen.",
+        "collabEffect": "それは「俺」: You can send one cheer from your Archive to one of your Holomen.",
         "skills": [
             {
                 "name": "ノエル~扉の向こう側へ~",
@@ -1685,7 +1685,7 @@
         "type": "Support",
         "rarity": "U",
 		"limited" : "Yes",
-        "ability": "Switch your Center holomem with one of your Back holomems who is not Resting."
+        "ability": "Switch your Center holomem with one of your Back holomems who is not resting."
     },
 	{
         "cardNumber": "hBP01-107",
@@ -1696,7 +1696,7 @@
     },
     {
         "cardNumber": "hBP01-108",
-        "name": "じゃあ敵だね",
+        "name": "じゃあ敵だね (So, you're the enemy)",
         "type": "Support",
         "rarity": "U",
 		"limited" : "Yes",
@@ -1712,7 +1712,7 @@
     },
     {
         "cardNumber": "hBP01-110",
-        "name": "鈍器でぶっ叩くわよ!",
+        "name": "鈍器でぶっ叩くわよ! (Club 'em into nothingness!)",
         "type": "Support",
         "rarity": "U",
 		"limited" : "Yes",
@@ -1794,7 +1794,7 @@
         "name": "Katori",
         "type": "Support",
         "rarity": "C",
-        "ability": "Whenever the holomem with this Mascot attached takes damage while in the Center or Collab position, it takes -10 damage.If this is attached to Takanashi Kiara, it gains the following effect: when the Bloom level of the holomem that this Mascot is attached to increases, draw 1 card from your Deck. Each Holomen can have only one mascot attached."
+        "ability": "Whenever the holomem with this Mascot attached takes damage while in the Center or Collab position, it takes -10 damage.If this is attached to <Takanashi Kiara>, it gains the following effect: when the Bloom level of the holomem that this Mascot is attached to increases, draw 1 card from your Deck. Each Holomen can have only one mascot attached."
     },
     {
         "cardNumber": "hBP01-122",
