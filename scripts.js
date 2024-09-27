@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalImage = document.getElementById('modalImage');
     const modalCardName = document.getElementById('modalCardName');
     const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
+    const modalCardTagsContainer = document.getElementById('modalCardTags'); 
     const modalRarityContainer = document.getElementById('modalRarityContainer');
     const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
     const modalHPContainer = document.getElementById('modalHPContainer');
@@ -25,6 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
 
     const modalCardNumber = document.getElementById('modalCardNumber');
+    const modalCardTags = document.getElementById('modalTags');
     const modalRarity = document.getElementById('modalRarity');
     const modalBloomLevel = document.getElementById('modalBloomLevel');
     const modalHP = document.getElementById('modalHP');
@@ -170,6 +172,7 @@ function displayCards(cardsToShow) {
         // Set the other modal data
         modalCardName.textContent = card.name || '';
         modalCardNumber.textContent = card.cardNumber || '';
+        modalCardTags.textContent = card.Tag || '';
         modalRarity.textContent = card.rarity || '';
         modalBloomLevel.textContent = card.bloomLevel || '';
         modalHP.textContent = card.hp || '';
@@ -185,6 +188,7 @@ function displayCards(cardsToShow) {
 
         // Toggle visibility based on content
         toggleVisibility(modalCardNumberContainer, card.cardNumber);
+        toggleVisibility(modalCardTagsContainer, card.Tag);
         toggleVisibility(modalRarityContainer, card.rarity);
         toggleVisibility(modalBloomLevelContainer, card.bloomLevel);
         toggleVisibility(modalHPContainer, card.hp);
