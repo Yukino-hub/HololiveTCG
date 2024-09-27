@@ -137,26 +137,29 @@ function displayCards(cardsToShow) {
         });
     }
 
-    function filterCards() {
+      function filterCards() {
         const searchText = searchBar.value.toLowerCase(); // Get search input
         const selectedSeries = seriesFilter.value;        // Get selected series
         const selectedRarity = rarityFilter.value;        // Get selected rarity
         const selectedBloomType = bloomTypeFilter.value;  // Get selected bloom type
-
-
+    
         // Filter the cards based on search text (for both card number and name) and other criteria
-         filteredCardData = allCardData.filter(card => {
-            const matchesSearch = card.name.toLowerCase().includes(searchQuery) || 
-                                  card.cardNumber.toLowerCase().includes(searchQuery) || 
-                                  card.tag.toLowerCase().includes(searchQuery); 
-        const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-        const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
-        const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
-        
-        return matchesSearch && matchesSeries && matchesRarity && matchesBloomType;
+        filteredCardData = allCardData.filter(card => {
+            // Use searchText instead of searchQuery
+            const matchesSearch = card.name.toLowerCase().includes(searchText) || 
+                                  card.cardNumber.toLowerCase().includes(searchText) || 
+                                  card.tag.toLowerCase().includes(searchText); 
+    
+            const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
+            const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
+            const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
+    
+            // Return true only if all conditions match
+            return matchesSearch && matchesSeries && matchesRarity && matchesBloomType;
         });
-
-    displayCards(filteredCardData); // Update display based on filtered results
+    
+        // Display the filtered cards
+        displayCards(filteredCardData);
     }
     function openModal(card) {
         const modalImageContainer = document.getElementById('modalImageContainer');
