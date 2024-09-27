@@ -161,6 +161,8 @@ function displayCards(cardsToShow) {
     const selectedRarity = rarityFilter.value;
     const selectedBloomType = bloomTypeFilter.value;
     const showAltArt = altArtCheckbox.checked; // Get the checkbox state
+    console.log("Checkbox state:", showAltArt);
+    console.log("Filtered Card Data:", filteredCardData);
 
     // Filter the cards based on various criteria
     filteredCardData = allCardData.filter(card => {
@@ -171,8 +173,8 @@ function displayCards(cardsToShow) {
         const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
         const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
 
-        // Adjust the alt art matching condition
-        const matchesAltArt = showAltArt ? card.hasAlternativeArt === true : true;
+       // Adjust the alt art matching condition
+        const matchesAltArt = showAltArt ? (card.hasAlternativeArt === true) : true;
 
         return matchesSearch && matchesSeries && matchesRarity && matchesBloomType && matchesAltArt;
     });
