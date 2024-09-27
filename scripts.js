@@ -145,9 +145,10 @@ function displayCards(cardsToShow) {
 
 
         // Filter the cards based on search text (for both card number and name) and other criteria
-        filteredCardData = allCardData.filter(card => {
-        const matchesSearch = card.cardNumber.toLowerCase().includes(searchText) || 
-                              card.name.toLowerCase().includes(searchText); // Search by card number or name
+         filteredCardData = allCardData.filter(card => {
+            const matchesSearch = card.name.toLowerCase().includes(searchQuery) || 
+                                  card.cardNumber.toLowerCase().includes(searchQuery) || 
+                                  card.tag.toLowerCase().includes(searchQuery); 
         const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
         const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
         const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
