@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const modalSkills = document.getElementById('modalSkills');
     const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardlist/";
-
+    
    
     let allCardData = [];
     let filteredCardData = [];
@@ -75,9 +75,13 @@ document.addEventListener('DOMContentLoaded', function() {
         return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
     }
 
+    
+
 
     function loadCardData() {
         loadingIndicator.style.display = 'block';
+
+          
 
         // Combine all JSON data from the seriesFiles
      Promise.all(seriesFiles.map(file => {
@@ -97,7 +101,6 @@ document.addEventListener('DOMContentLoaded', function() {
             loadingIndicator.style.display = 'none';
         });
     }
-
 
 function displayCards(cardsToShow, showAltArt) {
     contentContainer.innerHTML = '';
@@ -283,11 +286,18 @@ function displayCards(cardsToShow, showAltArt) {
         }
     }
 
-    // Event Listeners
+    // Add the event listener for the alternative art checkbox here
+    altArtCheckbox.addEventListener('change', () => {
+        // Call displayCards with the current filtered data and the checkbox state
+        displayCards(filteredCardData, altArtCheckbox.checked); 
+    });
+
+    // Event listeners for other filters
     searchBar.addEventListener('input', filterCards);
     seriesFilter.addEventListener('change', filterCards);
     rarityFilter.addEventListener('change', filterCards);
     bloomTypeFilter.addEventListener('change', filterCards);
+
 
     // Close modal
     modal.addEventListener('click', (event) => {
