@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const seriesFilter = document.getElementById('seriesFilter');
     const rarityFilter = document.getElementById('rarityFilter');
     const bloomTypeFilter = document.getElementById('bloomTypeFilter');
+    const altArtCheckbox = document.getElementById('altArtCheckbox'); // New checkbox element
+
     const modal = document.getElementById('modal');
     const modalCloseIcon = document.getElementById('modalCloseIcon');
 
@@ -52,17 +54,34 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const modalSkills = document.getElementById('modalSkills');
     const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardlist/";
-
-    function getImageUrl(set, cardNumber, rarity) {
-        return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
-    }
-
+    
+   
     let allCardData = [];
     let filteredCardData = [];
     const seriesFiles = ['hSD01.json', 'hBP01.json', 'hPR.json', 'hY01.json'];
 
+   function getImageUrl(set, cardNumber, rarity, hasAlternativeArt) {
+    // Check if the checkbox is checked and if the card has alternative art
+    if (altArtCheckbox.checked && hasAlternativeArt) {
+        // Logic for alternative art URL
+        const altRarityMap = {
+            OSR: 'OUR', // Example mapping
+            RR: 'UR',
+            // Add more mappings as necessary
+        };
+        const altRarity = altRarityMap[rarity] || rarity; // Default to original rarity if not found
+        return `${baseUrl}${set}/${cardNumber}_${altRarity}.png`; 
+    }
+    // Default URL for standard art
+    return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
+}
+    
+
+
     function loadCardData() {
         loadingIndicator.style.display = 'block';
+
+          
 
         // Combine all JSON data from the seriesFiles
      Promise.all(seriesFiles.map(file => {
@@ -83,15 +102,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-
 function displayCards(cardsToShow) {
     contentContainer.innerHTML = '';
     cardsToShow.forEach(card => {
         const cardElement = document.createElement('div');
         cardElement.classList.add('card');
-        
+
         // Generate the image URL dynamically
-        const imageUrl = getImageUrl(card.setName, card.cardNumber, card.rarity);
+        const imageUrl = getImageUrl(card.setName, card.cardNumber, card.rarity, card.hasAlternativeArt);
 
         cardElement.innerHTML = `
             <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
@@ -137,34 +155,33 @@ function displayCards(cardsToShow) {
         });
     }
 
-    function filterCards() {
-        const searchText = searchBar.value.toLowerCase(); // Get search input
-        const selectedSeries = seriesFilter.value;        // Get selected series
-        const selectedRarity = rarityFilter.value;        // Get selected rarity
-        const selectedBloomType = bloomTypeFilter.value;  // Get selected bloom type
-    
-        // Filter the cards based on search text (for both card number and name) and other criteria
-        filteredCardData = allCardData.filter(card => {
-            // Check if name, cardNumber, and tag exist before calling toLowerCase()
-            const cardName = card.name ? card.name.toLowerCase() : '';
-            const cardNumber = card.cardNumber ? card.cardNumber.toLowerCase() : '';
-            const cardTag = card.tag ? card.tag.toLowerCase() : '';
-    
-            const matchesSearch = cardName.includes(searchText) || 
-                                  cardNumber.includes(searchText) || 
-                                  cardTag.includes(searchText); 
-    
-            const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-            const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
-            const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
-    
-            // Return true only if all conditions match
-            return matchesSearch && matchesSeries && matchesRarity && matchesBloomType;
-        });
-    
-        // Display the filtered cards
-        displayCards(filteredCardData);
-    }
+  function filterCards() {
+    const searchText = searchBar.value.toLowerCase();
+    const selectedSeries = seriesFilter.value;
+    const selectedRarity = rarityFilter.value;
+    const selectedBloomType = bloomTypeFilter.value;
+    const showAltArt = altArtCheckbox.checked; // Get the checkbox state
+    console.log("Checkbox state:", showAltArt);
+    console.log("Filtered Card Data:", filteredCardData);
+
+    // Filter the cards based on various criteria
+    filteredCardData = allCardData.filter(card => {
+        const matchesSearch = card.name.toLowerCase().includes(searchText) || 
+                              card.cardNumber.toLowerCase().includes(searchText) || 
+                              (card.tag && card.tag.toLowerCase().includes(searchText)); // Handle potential undefined tag
+        const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
+        const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
+        const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
+
+       // Adjust the alt art matching condition
+        const matchesAltArt = showAltArt ? (card.hasAlternativeArt === true) : true;
+
+        return matchesSearch && matchesSeries && matchesRarity && matchesBloomType && matchesAltArt;
+    });
+
+    // Call displayCards with the current filtered data and the checkbox state
+    displayCards(filteredCardData, showAltArt);
+}
     function openModal(card) {
         const modalImageContainer = document.getElementById('modalImageContainer');
         modalImageContainer.innerHTML = '';
@@ -275,11 +292,17 @@ function displayCards(cardsToShow) {
         }
     }
 
-    // Event Listeners
-    searchBar.addEventListener('input', filterCards);
-    seriesFilter.addEventListener('change', filterCards);
-    rarityFilter.addEventListener('change', filterCards);
-    bloomTypeFilter.addEventListener('change', filterCards);
+// Add the event listener for the alternative art checkbox here
+altArtCheckbox.addEventListener('change', () => {
+    filterCards(); // Call filterCards to reapply all filters
+});
+
+// Event listeners for other filters
+searchBar.addEventListener('input', filterCards);
+seriesFilter.addEventListener('change', filterCards);
+rarityFilter.addEventListener('change', filterCards);
+bloomTypeFilter.addEventListener('change', filterCards);
+
 
     // Close modal
     modal.addEventListener('click', (event) => {
