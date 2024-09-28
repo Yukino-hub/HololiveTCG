@@ -13,7 +13,7 @@
         "spOshiSkill": {
             "name": "握りつぶしちゃうと  (\"I'll Crush you\")",
             "power": 2,
-            "description": "[Once per game] During this turn, give one of your holomems' Arts +50 power. If it's a White holomem, their Arts gain an additional +50 power."
+            "description": "[Once per game] During this turn, give one of your holomems' Arts +50. If it's a White holomem, their Arts gain an additional +50."
         },
         "hasAlternativeArt": true
     },
@@ -30,7 +30,7 @@
         },
         "spOshiSkill": {
             "name": "アメイジング・ドローイング  (\"Amazing Drawing\")",
-            "power": 2,
+            "": 2,
             "description": "[Once per game] Reveal 1 Event card from your Deck and put it into your hand. Then shuffle your Deck"
         },
         "hasAlternativeArt": true
@@ -42,13 +42,13 @@
         "lives": 5,
         "color": "Green",
         "oshiSkill": {
-            "name": "サバイバルパワ-~  (\"Surival Power\")",
-            "power": 2,
+            "name": "サバイバルパワ-~  (\"Surival \")",
+            "": 2,
             "description": "[Once per turn] Reveal 1 <Stone Axe> from your deck and attach it to any of your green holomens. Then Shuffle your deck."
         },
         "spOshiSkill": {
             "name": "大地の唄  (\"Song of the Earth\")",
-            "power": 2,
+            "": 2,
             "description": "[Once per game] if your Center holomen is green, restore all their HP"
         },
         "hasAlternativeArt": true
@@ -61,12 +61,12 @@
         "color": "Green",
         "oshiSkill": {
             "name": "野兎たち~  (\"Nousagis~\")",
-            "power": 2,
+            "": 2,
             "description": "[Once per turn] Usable during your opponent's turn when one of your Holomen is knocked down: Reassign all green cheers from your one of your downed Holomen to your other Holomen."
         },
         "spOshiSkill": {
             "name": "幸運兎  (\"Lucky Rabbit\")",
-            "power": 3,
+            "": 3,
             "description": "[Once per game] During this turn, treat all as if they had rolled 6"
         },
         "hasAlternativeArt": true
@@ -79,12 +79,12 @@
         "color": "Red",
         "oshiSkill": {
             "name": "女幹部の采配 (\"Executive's Order\")",
-            "power": "X",
-            "description": "[Once per turn] When you archive a card from your hand using the ability of your red Holomen, you can activate this: For each card you would archive from your hand, you may instead archive one of your Holo Powers."
+            "": "X",
+            "description": "[Once per turn] When you archive a card from your hand using the ability of your red Holomen, you can activate this: For each card you would archive from your hand, you may instead archive one of your Holo s."
         },
         "spOshiSkill": {
             "name": "ホークアイ  (\"Hawkeye\")",
-            "power": 2,
+            "": 2,
             "description": "[Once per game] During your opponent's next turn, their Center Holomen and Collab Holomen cannot baton touch, move, or switch positions."
         },
         "hasAlternativeArt": true
@@ -97,12 +97,12 @@
         "color": "Red",
         "oshiSkill": {
             "name": "フェニックステール (\"Phoenix Tail\")",
-            "power": "2",
+            "": "2",
             "description": "[Once per turn] Return 1 holomem from your Archive to your hand."
         },
         "spOshiSkill": {
             "name": "Rise from the ashes",
-            "power": 2,
+            "": 2,
             "description": "[Once per game] Can be used during your opponent's turn when any of your Red holomems is Downed: lose 1 less LIFE than you normally would. Then choose a holomem that was Downed and put that holomem, and all holomems stacked under it, into your hand."
         },
         "hasAlternativeArt": true
@@ -332,12 +332,12 @@
         "hp": 190,
         "color": "White",
         "tag": "#EN #Promise #Bird #Art",
-        "collabEffect": "あの日の約束 : Reveal 1 holomem with #Promise from your Deck and put it into your hand. Then shuffle your deck..",
+        "collabEffect": "あの日の約束 : Reveal 1 holomem with #Promise from your Deck and put it into your hand. Then shuffle your deck.",
         "skills": [
             {
                 "name": "みんな一緒に",
                 "dmg": "70",
-                "description": "During this turn, for each of your Back holomems, your Center and Collab holomems' Arts gain +10 Power."
+                "description": "During this turn, for each of your Back holomems, your Center and Collab holomems' Arts gain +10."
             }
         ]
     },
@@ -456,7 +456,7 @@
             {
                 "name": "アクセスコード: ID",
                 "dmg": "70+",
-                "description": "If you Center holomem has #ID, this Art gains +50 power."
+                "description": "If you Center holomem has #ID, this Art gains +50."
             }
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
@@ -502,7 +502,7 @@
         "hp": 110,
         "color": "White",
         "tag": "#EN #Promise #Song",
-        "bloomEffect": "ステージを希望で包もう！: During this turn, the Arts of your Center and Collab holomems with #Promise gain +30 power.",
+        "bloomEffect": "ステージを希望で包もう！: During this turn, the Arts of your Center and Collab holomems with #Promise gain +30.",
         "skills": [
             {
                 "name": "一生懸命歌うから見ててね!",
@@ -523,7 +523,7 @@
             {
                 "name": "約束の力",
                 "dmg": "50",
-                "description": "For each of your holomems with #Promise, this Art gains +20 Power."
+                "description": "For each of your holomems with #Promise, this Art gains +20."
             }
         ]
     },
@@ -864,7 +864,7 @@
             {
                 "name": "エールを束ねて",
                 "dmg": "50+",
-                "description": "[Collab Position only], For each Cheer attached to this holomem, this Art gains +20 power (up to a maximum of 5 Cheers)."
+                "description": "[Collab Position only], For each Cheer attached to this holomem, this Art gains +20 (up to a maximum of 5 Cheers)."
             },
             {
                 "name": "風華の輝き",
@@ -934,7 +934,7 @@
             {
                 "name": "リレーションスカイ",
                 "dmg": "100",
-                "description": "If there are any holomems with #ID on your Stage that are not named Airani Iofifteen, this art gains +50 power."
+                "description": "If there are any holomems with #ID on your Stage that are not named Airani Iofifteen, this art gains +50."
             }
         ]
     },
@@ -1143,7 +1143,7 @@
             {
                 "name": "マジェスティック・フェニックス",
                 "dmg": "80+",
-                "description": "For each holomem in your Archive, this Art gains +10 power. After using this Art, shuffle 6 holomems from your Archive into your Deck."
+                "description": "For each holomem in your Archive, this Art gains +10. After using this Art, shuffle 6 holomems from your Archive into your Deck."
             }
         ],
         "hasAlternativeArt": true
@@ -1381,7 +1381,7 @@
             {
                 "name": "輝く彗星",
                 "dmg": "60+",
-                "description": "You may Archive 2 Blue Cheers from this holomem for the following effect: for each holomem stacked under this one, this Art gains +60 power (This Art may target your opponent's Back holomems)."
+                "description": "You may Archive 2 Blue Cheers from this holomem for the following effect: for each holomem stacked under this one, this Art gains +60 (This Art may target your opponent's Back holomems)."
             }
         ],
         "hasAlternativeArt": true
@@ -1760,7 +1760,7 @@
         "type": "Support",
         "rarity": "U",
         "limited": "Yes",
-        "ability": "You can only use this card if you archive 1 of your Holo Power cards.Reveal 1 Cheer card from your Cheer Deck that matches the color of one of your Holomen and send it to that Holomen. Then shuffle your Cheer Deck."
+        "ability": "You can only use this card if you archive 1 of your Holopower cards.Reveal 1 Cheer card from your Cheer Deck that matches the color of one of your Holomen and send it to that Holomen. Then shuffle your Cheer Deck."
     },
     {
         "cardNumber": "hBP01-106",
@@ -1828,7 +1828,7 @@
         "name": "Stone Axe",
         "type": "Support",
         "rarity": "C",
-        "ability": "The holomem with this Tool attached gains +20 power to their Arts. When the holomem with this Tool attached uses an Art, that holomem receives 10 special damage. If this is attached to a 1st Bloom or later <Aki Rosenthal>, it gains the following effect: (once per turn) when this holomem has their HP restored, draw 1 card from your Deck. Each Holomen can have only one tool attached."
+        "ability": "The holomem with this Tool attached gains +20 to their Arts. When the holomem with this Tool attached uses an Art, that holomem receives 10 special damage. If this is attached to a 1st Bloom or later <Aki Rosenthal>, it gains the following effect: (once per turn) when this holomem has their HP restored, draw 1 card from your Deck. Each Holomen can have only one tool attached."
     },
     {
         "cardNumber": "hBP01-115",
