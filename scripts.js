@@ -253,7 +253,7 @@ function displayCards(cardsToShow) {
             card.skills.forEach(skill => {
                 const skillElement = document.createElement('div');
                 skillElement.innerHTML = `
-                    <p style="margin-top: 10px;"><strong>Skill Name:</strong> ${skill.name}</p>
+                    <p class="modal-skill"><strong>Skill Name:</strong> ${skill.name}</p>
                     <p><strong>DMG:</strong> ${skill.dmg || ''}</p>
                     ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
                 `;
