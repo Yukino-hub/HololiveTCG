@@ -158,8 +158,8 @@ header a:hover {
     z-index: 1001; /* Ensure it's above other content */
 }
 
-.modal-skill {
-    margin-top: 5px;
+.skills h3 {
+    margin-top: 10px;
 }
 
 .hidden {
