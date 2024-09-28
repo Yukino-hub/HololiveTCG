@@ -459,8 +459,10 @@
                 "description": "If you Center holomem has #ID, this Art gains +50 power."
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "hasAlternativeArt": true
     },
+    
     {
         "cardNumber": "hBP01-028",
         "name": "IRyS",
@@ -727,7 +729,8 @@
                 "dmg": "60+",
                 "description": "Roll a die three times, for each total of 1 on the rolled dice, this art +10."
             }
-        ]
+        ],
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP01-044",
@@ -868,7 +871,8 @@
                 "dmg": 70
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP01-052",
@@ -1141,7 +1145,8 @@
                 "dmg": "80+",
                 "description": "For each holomem in your Archive, this Art gains +10 power. After using this Art, shuffle 6 holomems from your Archive into your Deck."
             }
-        ]
+        ],
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP01-068",
@@ -1212,7 +1217,8 @@
                 "description": "This Arts gains +20 for each Fan attached to all of your Holomen."
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP01-072",
@@ -1377,7 +1383,8 @@
                 "dmg": "60+",
                 "description": "You may Archive 2 Blue Cheers from this holomem for the following effect: for each holomem stacked under this one, this Art gains +60 power (This Art may target your opponent's Back holomems)."
             }
-        ]
+        ],
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP01-082",
@@ -1550,7 +1557,8 @@
                 "description": "You may archive a Green Cheer or Blue Cheer from this holomem for the following effect: Deal 30 special damage to one of your opponent's Back holomems."
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP01-092",

@@ -158,7 +158,9 @@ header a:hover {
     z-index: 1001; /* Ensure it's above other content */
 }
 
-
+.skills h3 {
+    margin-top: 5px;
+}
 
 .hidden {
     display: none;
