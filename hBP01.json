@@ -8,7 +8,7 @@
         "oshiSkill": {
             "name": "ぎゅっきゅっ  (\"Squeeze Squeeze\")",
             "power": 3,
-            "description": "[Once per turn]Reduce the remaining HP of your opponent's Center holomem to 50."
+            "description": "[Once per turn] Reduce the remaining HP of your opponent's Center holomem to 50."
         },
         "spOshiSkill": {
             "name": "握りつぶしちゃうと  (\"I'll Crush you\")",
@@ -80,7 +80,7 @@
         "oshiSkill": {
             "name": "女幹部の采配 (\"Executive's Order\")",
             "power": "X",
-            "description": "[Once per turn] When you archive a card from your hand using the ability of your red Holomen, you can activate this: For each card you would archive from your hand, you may instead archive one of your Holo Powers."
+            "description": "[Once per turn] When you archive a card from your hand using the ability of your red Holomen, you can activate this: For each card you would archive from your hand, you may instead archive one of your HoloPowers."
         },
         "spOshiSkill": {
             "name": "ホークアイ  (\"Hawkeye\")",
@@ -121,7 +121,7 @@
         "spOshiSkill": {
             "name": "シューティングスター  (\"Shooting Star\")",
             "power": 2,
-            "description": "[Once per game] When your blue holomen deal damage to opp's center holomen or collab holomen, you may use this to deal same amount of special damage to one of opp backline holomen"
+            "description": "[Once per game] You may use this When your blue holomen deal damage to opp's center holomen or collab holomen: deal an equal amount of special damage to one of your opponent's Back holomems."
         },
         "hasAlternativeArt": true
     },
@@ -134,7 +134,7 @@
         "oshiSkill": {
             "name": "レイン・シャーマニズム  (\"Rain Shamen\")",
             "power": 2,
-            "description": "[Once per turn] Can only be used when you archive your cheer using one of your blue holomen ability : deal 20 dmg to any of your opp's holomens"
+            "description": "[Once per turn] You may use this when you archive your cheer using one of your blue holomen ability : deal 20 dmg to any of your opp's holomens"
         },
         "spOshiSkill": {
             "name": "雨乞い (\"Praying for rain\")",
