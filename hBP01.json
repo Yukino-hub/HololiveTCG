@@ -116,7 +116,7 @@
         "oshiSkill": {
             "name": "ほうき星  (\"Comet\")",
             "power": 2,
-            "description": "[Once per turn] When this Oshimen or your blue Holomen deal damage to opp backline's Holomen, you may use this to deal 50 special damage to one of opp backline's holomen"
+            "description": "[Once per turn] You can use this when your Oshi Holomen or your blue Holomen deals damage to an 'opponent's Back' Holomen: Deal 50 special damage to one of 'that opponent's Back' Holomen."
         },
         "spOshiSkill": {
             "name": "シューティングスター  (\"Shooting Star\")",
