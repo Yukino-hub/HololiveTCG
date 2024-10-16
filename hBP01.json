@@ -885,7 +885,7 @@
         "skills": [
             {
                 "name": "スラマッパギ!",
-                "dmg": "10"
+                "dmg": "10",
                 "description" : "You may move 1 Cheer from any of your holomems to one of your holomems with #ID."
             }
         ],
