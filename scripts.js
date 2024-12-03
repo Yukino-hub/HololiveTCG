@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Hide the loading indicator if there's an error
     loadingIndicator.style.display = 'none';
 });
-
+    }
 function displayCards(cardsToShow) {
     contentContainer.innerHTML = '';
     cardsToShow.forEach(card => {
