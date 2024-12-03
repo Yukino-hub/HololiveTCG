@@ -59,10 +59,10 @@ document.addEventListener('DOMContentLoaded', function() {
     let allCardData = [];
     let filteredCardData = [];
     const seriesFiles = [
-    'hPR.json',  // Fixed
-    'hY01.json', // Fixed
     ...Array.from({ length: 99 }, (_, i) => `hSD${(i + 1).toString().padStart(2, '0')}.json`), // Dynamic for hSD01.json to hSD99.json
-    ...Array.from({ length: 99 }, (_, i) => `hBP${(i + 1).toString().padStart(2, '0')}.json`)  // Dynamic for hBP01.json to hBP99.json
+    ...Array.from({ length: 99 }, (_, i) => `hBP${(i + 1).toString().padStart(2, '0')}.json`), // Dynamic for hBP01.json to hBP99.json
+    'hPR.json',  // Fixed
+    'hY01.json' // Fixed
     ];
 
    function getImageUrl(set, cardNumber, rarity, hasAlternativeArt) {
@@ -94,13 +94,13 @@ document.addEventListener('DOMContentLoaded', function() {
     return fetch(file)  // Fetch the file
         .then(response => {
             if (!response.ok) {  // Check if the response is successful (200-299)
-                throw new Error(`File not found: ${file}`);
+                //throw new Error(`File not found: ${file}`);
             }
             return response.json();  // Parse the response as JSON
         })
         .then(data => ({ setName, data }))  // Attach the setName to the data
         .catch(error => {
-            console.warn(error.message);  // Log a warning if the file is not found
+            //console.warn(error.message);  // Log a warning if the file is not found
             return { setName, data: [] };  // Return empty data if file is missing
         });
 }))
