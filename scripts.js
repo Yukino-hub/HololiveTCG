@@ -58,7 +58,12 @@ document.addEventListener('DOMContentLoaded', function() {
    
     let allCardData = [];
     let filteredCardData = [];
-    const seriesFiles = ['hSD01.json', 'hBP01.json', 'hBP02.json', 'hPR.json', 'hY01.json'];
+    const seriesFiles = [
+    'hPR.json',  // Fixed
+    'hY01.json', // Fixed
+    ...Array.from({ length: 99 }, (_, i) => `hSD${(i + 1).toString().padStart(2, '0')}.json`), // Dynamic for hSD01.json to hSD99.json
+    ...Array.from({ length: 99 }, (_, i) => `hBP${(i + 1).toString().padStart(2, '0')}.json`)  // Dynamic for hBP01.json to hBP99.json
+    ];
 
    function getImageUrl(set, cardNumber, rarity, hasAlternativeArt) {
     // Check if the checkbox is checked and if the card has alternative art
@@ -84,23 +89,43 @@ document.addEventListener('DOMContentLoaded', function() {
           
 
         // Combine all JSON data from the seriesFiles
-     Promise.all(seriesFiles.map(file => {
-            const setName = file.split('.')[0];  // Extract set name from file (e.g., 'hBP01' from 'hBP01.json')
-            return fetch(file).then(response => response.json().then(data => ({ setName, data })));
-        }))
-        .then(results => {
-            allCardData = results.flatMap(result => {
-                return result.data.map(card => ({ ...card, setName: result.setName })); // Add setName to each card
-            });
-            filteredCardData = allCardData; // Load all cards initially
-            displayCards(filteredCardData);
-            loadingIndicator.style.display = 'none';
+    Promise.all(seriesFiles.map(file => {
+    const setName = file.split('.')[0];  // Extract set name from file (e.g., 'hSD01' from 'hSD01.json')
+    return fetch(file)  // Fetch the file
+        .then(response => {
+            if (!response.ok) {  // Check if the response is successful (200-299)
+                throw new Error(`File not found: ${file}`);
+            }
+            return response.json();  // Parse the response as JSON
         })
+        .then(data => ({ setName, data }))  // Attach the setName to the data
         .catch(error => {
-            console.error('Failed to load card data:', error);
-            loadingIndicator.style.display = 'none';
+            console.warn(error.message);  // Log a warning if the file is not found
+            return { setName, data: [] };  // Return empty data if file is missing
         });
-    }
+}))
+.then(results => {
+    // Combine the results into one array of cards, adding the set name to each card
+    allCardData = results.flatMap(result => {
+        return result.data.map(card => ({ ...card, setName: result.setName }));
+    });
+    
+    // Initially show all card data
+    filteredCardData = allCardData;
+    
+    // Display the cards (assuming displayCards is a function you defined)
+    displayCards(filteredCardData);
+    
+    // Hide the loading indicator
+    loadingIndicator.style.display = 'none';
+})
+.catch(error => {
+    // Handle any errors that occur during fetch
+    console.error('Failed to load card data:', error);
+    
+    // Hide the loading indicator if there's an error
+    loadingIndicator.style.display = 'none';
+});
 
 function displayCards(cardsToShow) {
     contentContainer.innerHTML = '';
