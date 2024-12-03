@@ -90,13 +90,13 @@ document.addEventListener('DOMContentLoaded', function() {
             return fetch(file)  // Fetch the file
                 .then(response => {
                     if (!response.ok) {  // Check if the response is successful (200-299)
-                        throw new Error(`File not found: ${file}`);
+                        //throw new Error(`File not found: ${file}`);
                     }
                     return response.json();  // Parse the response as JSON
                 })
                 .then(data => ({ setName, data }))  // Attach the setName to the data
                 .catch(error => {
-                    console.warn(error.message);  // Log a warning if the file is not found
+                    //console.warn(error.message);  // Log a warning if the file is not found
                     return { setName, data: [] };  // Return empty data if file is missing
                 });
         }))
