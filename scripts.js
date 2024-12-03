@@ -54,107 +54,105 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const modalSkills = document.getElementById('modalSkills');
     const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardlist/";
-    
-   
+
     let allCardData = [];
     let filteredCardData = [];
+
     const seriesFiles = [
-    'hPR.json',  // Fixed
-    'hY01.json', // Fixed
-    ...Array.from({ length: 99 }, (_, i) => `hSD${(i + 1).toString().padStart(2, '0')}.json`), // Dynamic for hSD01.json to hSD99.json
-    ...Array.from({ length: 99 }, (_, i) => `hBP${(i + 1).toString().padStart(2, '0')}.json`)  // Dynamic for hBP01.json to hBP99.json
+        'hPR.json',  // Fixed
+        'hY01.json', // Fixed
+        ...Array.from({ length: 99 }, (_, i) => `hSD${(i + 1).toString().padStart(2, '0')}.json`), // Dynamic for hSD01.json to hSD99.json
+        ...Array.from({ length: 99 }, (_, i) => `hBP${(i + 1).toString().padStart(2, '0')}.json`)  // Dynamic for hBP01.json to hBP99.json
     ];
 
-   function getImageUrl(set, cardNumber, rarity, hasAlternativeArt) {
-    // Check if the checkbox is checked and if the card has alternative art
-    if (altArtCheckbox.checked && hasAlternativeArt) {
-        // Logic for alternative art URL
-        const altRarityMap = {
-            OSR: 'OUR', // Example mapping
-            RR: 'UR',
-            // Add more mappings as necessary
-        };
-        const altRarity = altRarityMap[rarity] || rarity; // Default to original rarity if not found
-        return `${baseUrl}${set}/${cardNumber}_${altRarity}.png`; 
+    function getImageUrl(set, cardNumber, rarity, hasAlternativeArt) {
+        // Check if the checkbox is checked and if the card has alternative art
+        if (altArtCheckbox.checked && hasAlternativeArt) {
+            // Logic for alternative art URL
+            const altRarityMap = {
+                OSR: 'OUR', // Example mapping
+                RR: 'UR',
+                // Add more mappings as necessary
+            };
+            const altRarity = altRarityMap[rarity] || rarity; // Default to original rarity if not found
+            return `${baseUrl}${set}/${cardNumber}_${altRarity}.png`; 
+        }
+        // Default URL for standard art
+        return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
     }
-    // Default URL for standard art
-    return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
-}
-    
-
 
     function loadCardData() {
         loadingIndicator.style.display = 'block';
 
-          
-
         // Combine all JSON data from the seriesFiles
-    Promise.all(seriesFiles.map(file => {
-    const setName = file.split('.')[0];  // Extract set name from file (e.g., 'hSD01' from 'hSD01.json')
-    return fetch(file)  // Fetch the file
-        .then(response => {
-            if (!response.ok) {  // Check if the response is successful (200-299)
-                throw new Error(`File not found: ${file}`);
-            }
-            return response.json();  // Parse the response as JSON
+        Promise.all(seriesFiles.map(file => {
+            const setName = file.split('.')[0];  // Extract set name from file (e.g., 'hSD01' from 'hSD01.json')
+            return fetch(file)  // Fetch the file
+                .then(response => {
+                    if (!response.ok) {  // Check if the response is successful (200-299)
+                        throw new Error(`File not found: ${file}`);
+                    }
+                    return response.json();  // Parse the response as JSON
+                })
+                .then(data => ({ setName, data }))  // Attach the setName to the data
+                .catch(error => {
+                    console.warn(error.message);  // Log a warning if the file is not found
+                    return { setName, data: [] };  // Return empty data if file is missing
+                });
+        }))
+        .then(results => {
+            // Combine the results into one array of cards, adding the set name to each card
+            allCardData = results.flatMap(result => {
+                return result.data.map(card => ({ ...card, setName: result.setName }));
+            });
+
+            // Initially show all card data
+            filteredCardData = allCardData;
+
+            // Display the cards (assuming displayCards is a function you defined)
+            displayCards(filteredCardData);
+
+            // Hide the loading indicator
+            loadingIndicator.style.display = 'none';
         })
-        .then(data => ({ setName, data }))  // Attach the setName to the data
         .catch(error => {
-            console.warn(error.message);  // Log a warning if the file is not found
-            return { setName, data: [] };  // Return empty data if file is missing
+            // Handle any errors that occur during fetch
+            console.error('Failed to load card data:', error);
+
+            // Hide the loading indicator if there's an error
+            loadingIndicator.style.display = 'none';
         });
-}))
-.then(results => {
-    // Combine the results into one array of cards, adding the set name to each card
-    allCardData = results.flatMap(result => {
-        return result.data.map(card => ({ ...card, setName: result.setName }));
-    });
-    
-    // Initially show all card data
-    filteredCardData = allCardData;
-    
-    // Display the cards (assuming displayCards is a function you defined)
-    displayCards(filteredCardData);
-    
-    // Hide the loading indicator
-    loadingIndicator.style.display = 'none';
-})
-.catch(error => {
-    // Handle any errors that occur during fetch
-    console.error('Failed to load card data:', error);
-    
-    // Hide the loading indicator if there's an error
-    loadingIndicator.style.display = 'none';
-});
+    }
 
-function displayCards(cardsToShow) {
-    contentContainer.innerHTML = '';
-    cardsToShow.forEach(card => {
-        const cardElement = document.createElement('div');
-        cardElement.classList.add('card');
+    function displayCards(cardsToShow) {
+        contentContainer.innerHTML = '';
+        cardsToShow.forEach(card => {
+            const cardElement = document.createElement('div');
+            cardElement.classList.add('card');
 
-        // Generate the image URL dynamically
-        const imageUrl = getImageUrl(card.setName, card.cardNumber, card.rarity, card.hasAlternativeArt);
+            // Generate the image URL dynamically
+            const imageUrl = getImageUrl(card.setName, card.cardNumber, card.rarity, card.hasAlternativeArt);
 
-        cardElement.innerHTML = `
-            <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
-            <p>${card.name}</p>
-            <p>Card Number: ${card.cardNumber}</p>
-        `;
-        
-        if (card.hasAlternativeArt) {
-            cardElement.innerHTML += `
-                <p>Alternative Art: 
-                    <span class="colored-yes">Yes</span>
-                </p>`;
-        }
+            cardElement.innerHTML = `
+                <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
+                <p>${card.name}</p>
+                <p>Card Number: ${card.cardNumber}</p>
+            `;
+            
+            if (card.hasAlternativeArt) {
+                cardElement.innerHTML += `
+                    <p>Alternative Art: 
+                        <span class="colored-yes">Yes</span>
+                    </p>`;
+            }
 
-        cardElement.addEventListener('click', () => openModal(card));
-        contentContainer.appendChild(cardElement);
-    });
+            cardElement.addEventListener('click', () => openModal(card));
+            contentContainer.appendChild(cardElement);
+        });
 
-    initializeLazyLoading();
-}
+        initializeLazyLoading();
+    }
+
     function initializeLazyLoading() {
         const lazyImages = document.querySelectorAll('.lazy-load');
 
@@ -180,162 +178,34 @@ function displayCards(cardsToShow) {
         });
     }
 
-  function filterCards() {
-    const searchText = searchBar.value.toLowerCase();
-    const selectedSeries = seriesFilter.value;
-    const selectedRarity = rarityFilter.value;
-    const selectedBloomType = bloomTypeFilter.value;
-    const showAltArt = altArtCheckbox.checked; // Get the checkbox state
-    console.log("Checkbox state:", showAltArt);
-    console.log("Filtered Card Data:", filteredCardData);
+    function filterCards() {
+        const searchText = searchBar.value.toLowerCase();
+        const selectedSeries = seriesFilter.value;
+        const selectedRarity = rarityFilter.value;
+        const selectedBloomType = bloomTypeFilter.value;
+        const showAltArt = altArtCheckbox.checked; // Get the checkbox state
 
-    // Filter the cards based on various criteria
-    filteredCardData = allCardData.filter(card => {
-        const matchesSearch = card.name.toLowerCase().includes(searchText) || 
-                              card.cardNumber.toLowerCase().includes(searchText) || 
-                              (card.tag && card.tag.toLowerCase().includes(searchText)); // Handle potential undefined tag
-        const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-        const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
-        const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
+        // Filter the cards based on various criteria
+        filteredCardData = allCardData.filter(card => {
+            const matchesSearch = card.name.toLowerCase().includes(searchText) || 
+                                  card.cardNumber.toLowerCase().includes(searchText);
+            const matchesSeries = selectedSeries === 'all' || card.setName === selectedSeries;
+            const matchesRarity = selectedRarity === 'all' || card.rarity === selectedRarity;
+            const matchesBloomType = selectedBloomType === 'all' || card.bloomType === selectedBloomType;
+            const matchesAltArt = !showAltArt || card.hasAlternativeArt;
 
-       // Adjust the alt art matching condition
-        const matchesAltArt = showAltArt ? (card.hasAlternativeArt === true) : true;
+            return matchesSearch && matchesSeries && matchesRarity && matchesBloomType && matchesAltArt;
+        });
 
-        return matchesSearch && matchesSeries && matchesRarity && matchesBloomType && matchesAltArt;
-    });
-
-    // Call displayCards with the current filtered data and the checkbox state
-    displayCards(filteredCardData, showAltArt);
-}
-    function openModal(card) {
-        const modalImageContainer = document.getElementById('modalImageContainer');
-        modalImageContainer.innerHTML = '';
-    
-        // Generate the image URL for the modal
-        const imageUrl = getImageUrl(card.setName, card.cardNumber, card.rarity);
-    
-        const primaryImage = document.createElement('img');
-        primaryImage.src = imageUrl;
-        primaryImage.alt = card.name;
-        modalImageContainer.appendChild(primaryImage);
-        
-        // Set the other modal data
-        modalCardName.textContent = card.name || '';
-        modalCardNumber.textContent = card.cardNumber || '';
-        modalCardTags.textContent = card.tag || '';
-        modalRarity.textContent = card.rarity || '';
-        modalBloomLevel.textContent = card.bloomLevel || '';
-        modalHP.textContent = card.hp || '';
-        modalColor.textContent = card.color || '';
-        modalLives.textContent = card.lives || '';
-        modalBuzz.textContent = card.buzz || '';
-        modalType.textContent = card.type || '';
-        modalAbility.textContent = card.ability || '';
-        modalCollabEffect.textContent = card.collabEffect || '';
-        modalBloomEffect.textContent = card.bloomEffect || '';
-        modalGiftEffect.textContent = card.giftEffect || '';
-        modalExtraEffect.textContent = card.extraEffect || '';
-
-        // Toggle visibility based on content
-        toggleVisibility(modalCardNumberContainer, card.cardNumber);
-        toggleVisibility(modalCardTagsContainer, card.tag);
-        toggleVisibility(modalRarityContainer, card.rarity);
-        toggleVisibility(modalBloomLevelContainer, card.bloomLevel);
-        toggleVisibility(modalHPContainer, card.hp);
-        toggleVisibility(modalColorContainer, card.color);
-        toggleVisibility(modalLivesContainer, card.lives);
-        toggleVisibility(modalBuzzContainer, card.buzz);
-        toggleVisibility(modalTypeContainer, card.type);
-        toggleVisibility(modalAbilityContainer, card.ability);
-        toggleVisibility(modalCollabEffectContainer, card.collabEffect);
-        toggleVisibility(modalBloomEffectContainer, card.bloomEffect);
-        toggleVisibility(modalGiftEffectContainer, card.giftEffect);
-        toggleVisibility(modalExtraEffectContainer, card.extraEffect);
-
-        // Oshi Skill
-        if (card.oshiSkill) {
-            modalOshiSkill.classList.remove('hidden');
-            modalOshiSkillName.textContent = card.oshiSkill.name || '';
-            modalOshiSkillPower.textContent = card.oshiSkill.power || '';
-            modalOshiSkillDescription.textContent = card.oshiSkill.description || '';
-        } else {
-            modalOshiSkill.classList.add('hidden');
-        }
-
-        // SP Oshi Skill
-        if (card.spOshiSkill) {
-            modalSpOshiSkill.classList.remove('hidden');
-            modalSpOshiSkillName.textContent = card.spOshiSkill.name || '';
-            modalSpOshiSkillPower.textContent = card.spOshiSkill.power || '';
-            modalSpOshiSkillDescription.textContent = card.spOshiSkill.description || '';
-        } else {
-            modalSpOshiSkill.classList.add('hidden');
-        }
-
-        // Skills
-        if (card.skills && card.skills.length > 0) {
-            modalSkills.innerHTML = '<h3>Skills</h3>';
-            card.skills.forEach(skill => {
-                const skillElement = document.createElement('div');
-                skillElement.innerHTML = `
-                    <p class="modal-skill"><strong>Skill Name:</strong> ${skill.name}</p>
-                    <p><strong>DMG:</strong> ${skill.dmg || ''}</p>
-                    ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
-                `;
-                modalSkills.appendChild(skillElement);
-            });
-            modalSkills.classList.remove('hidden');
-        } else {
-            modalSkills.classList.add('hidden');
-        }
-
-         // Scroll the modal content container to the top
-        const modalContent = document.querySelector('#modal .modal-content');
-        if (modalContent) {
-            modalContent.scrollTop = 0;
-        }
-
-        // Display the modal
-        modal.style.display = 'flex';
+        displayCards(filteredCardData);
     }
 
-    function closeModal(event) {
-        if (event) event.stopPropagation();
-        modal.style.display = 'none';
-    }
+    // Event listeners for search bar and filters
+    searchBar.addEventListener('input', filterCards);
+    seriesFilter.addEventListener('change', filterCards);
+    rarityFilter.addEventListener('change', filterCards);
+    bloomTypeFilter.addEventListener('change', filterCards);
+    altArtCheckbox.addEventListener('change', filterCards);
 
-    // Ensure the close icon works
-    if (modalCloseIcon) {
-        modalCloseIcon.addEventListener('click', closeModal);
-    }
-
-    function toggleVisibility(element, value) {
-        if (!value || value === 'N/A') {
-            element.classList.add('hidden');
-        } else {
-            element.classList.remove('hidden');
-        }
-    }
-
-// Add the event listener for the alternative art checkbox here
-altArtCheckbox.addEventListener('change', () => {
-    filterCards(); // Call filterCards to reapply all filters
-});
-
-// Event listeners for other filters
-searchBar.addEventListener('input', filterCards);
-seriesFilter.addEventListener('change', filterCards);
-rarityFilter.addEventListener('change', filterCards);
-bloomTypeFilter.addEventListener('change', filterCards);
-
-
-    // Close modal
-    modal.addEventListener('click', (event) => {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-        }
-    });
-
-    // Initial load
     loadCardData();
 });
