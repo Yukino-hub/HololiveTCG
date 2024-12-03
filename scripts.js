@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
    
     let allCardData = [];
     let filteredCardData = [];
-    const seriesFiles = ['hSD01.json', 'hBP01.json', 'hPR.json', 'hY01.json'];
+    const seriesFiles = ['hSD01.json', 'hBP01.json', 'hBP02.json', 'hPR.json', 'hY01.json'];
 
    function getImageUrl(set, cardNumber, rarity, hasAlternativeArt) {
     // Check if the checkbox is checked and if the card has alternative art
