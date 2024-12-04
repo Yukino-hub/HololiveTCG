@@ -456,24 +456,24 @@
     
     {
         "cardNumber": "hBP02-028",
-        "name": "",
+        "name": "Houshou Marine",
         "rarity": "C",
-        "bloomLevel": "",
-        "hp": 120,
-        "color": "White",
-        "tag": "",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "Red",
+        "tag": "#JP #Gen3 #Art #Sea",
         "skills": [
             {
-                "name": "",
-                "dmg": "",
-                "description": "."
+                "name": "宝鐘海賊団船長の宝鐘マリンですぅー!",
+                "dmg": "30"
             }
-        ]
+        ],
+        "extraEffect" :"This Holomen can be included in your deck in any number of copies"
     },
     {
         "cardNumber": "hBP02-029",
-        "name": "IRyS",
-        "rarity": "C",
+        "name": "Houshou Marine",
+        "rarity": "U",
         "bloomLevel": "1st",
         "hp": 160,
         "color": "White",

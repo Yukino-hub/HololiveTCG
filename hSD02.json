@@ -1,0 +1,229 @@
+[
+    {
+        "cardNumber": "hSD02-001",
+        "name": "Nakiri Ayame",
+        "rarity": "OC",
+        "lives": 5,
+        "color": "Red",
+        "oshiSkill": {
+            "name": "(\"Red Mic\")",
+            "power": 2,
+            "description": "[Once per turn] If your Center holomem is Red, their Arts gain +20 power until the end of this turn."
+        },
+        "spOshiSkill": {
+            "name": " (\"Come on! Again!\")",
+            "power": 2,
+            "description": "[Once per game] Put 1 Red holomem from your Archive to your hand."
+        }
+    },
+    {
+        "cardNumber": "hSD02-002",
+        "name": "Nakiri Ayame",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "color": "Red",
+        "tag": "#JP #Gen2 #Shooter",
+        "skills": [
+            {
+                "name": "Konnakiri~",
+                "dmg": 30
+            }
+        ],
+        "extraEffect" : "You may put any number of copies of this holomem in your Deck."
+    },
+
+
+    {
+        "cardNumber": "hSD02-003",
+        "name": "Nakiri Ayame",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 70,
+        "color": "Red",
+        "tag": "#JP #Gen2 #Shooter",
+        "collabEffect" : "Karma : Deal 10 special damage to your opponent's Collab holomem.",
+        "skills": [
+            {
+                "name": "Shiranui",
+                "dmg": 30
+            }
+        ]
+    },
+
+ 
+    {
+        "cardNumber": "hSD02-004",
+        "name": "Nakiri Ayame",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 60,
+        "color": "Red",
+        "tag": "#JP #Gen2 #Shooter",
+        "collabEffect" : "Ayame's first anniversary : If this holomem has a Poyoyo attached, your Center holomem's Arts gain +20 power this turn.",
+        "skills": [
+            {
+                "name": "Delicious dangos",
+                "dmg": 30
+            }
+        ]
+    },
+
+
+    {
+        "cardNumber": "hSD02-005",
+        "name": "Nakiri Ayame",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "Red",
+        "tag": "#JP #Gen2 #Shooter",
+        "skills": [
+            {
+                "name": "Sleepy yo~",
+                "dmg": 20
+            },
+            {
+                "name": "Otsunakiri",
+                "dmg": 60
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD02-006",
+        "name": "Nakiri Ayame",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "Red",
+        "tag": "#JP #Gen2 #Shooter",
+        "bloomEffect" : "You may Archive 1 card from your hand for the following effect: deal 20 special damage to your opponent's Center or Collab holomem.",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 30
+            }
+    },
+
+      {
+        "cardNumber": "hSD02-007",
+        "name": "Nakiri Ayame",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 120,
+        "color": "Red",
+        "tag": "#JP #Gen2 #Shooter",
+        "bloomEffect": "When this Blooms from a Debut holomem, look at the top 2 cards of your deck, reveal 1 and put it into your hand and Archive the other..",  
+        "skills": [
+            {
+                "name": "",
+                "dmg": 30
+            }
+        ]
+    },
+    
+    {
+        "cardNumber": "hSD02-008",
+        "name": "Nakiri Ayame",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "buzz" : "true",
+        "hp": 230,
+        "color": "Red",
+        "tag": "#JP #Gen2 #Shooter",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 60
+            },
+            {
+                "name": "",
+                "dmg": 50,
+                "description": "You may Archive one card from your hand for the following effect: deal 50 special damage to your opponent's Center or Collab holomem."
+            }
+        ],
+        "extraEffect" : "When this holomem is Downed, lose 2 LIFE."
+    },
+  {
+        "cardNumber": "hSD02-009",
+        "name": "Nakiri Ayame",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 180,
+        "color": "Red",
+        "tag": "#JP #Gen2 #Shooter",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 60
+            },
+            {
+                "name": "",
+                "dmg": 40,
+                "description": "You may Archive 1-3 cards from your hand for the following effect: deal 40 special damage for each card Archived to your opponent's Center holomem."
+            }
+        ]
+    },
+    
+    {
+        "cardNumber": "hSD02-010",
+        "name": "Shirakami Fubuki",
+        "rarity": "U",
+        "bloomLevel": "Spot",
+        "hp": 80,
+        "color": "Colorless",
+        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
+        "collabEffect" : "You may return 1 Mascot from your Archive to your hand."
+        "skills": [
+            {
+                "name": "",
+                "dmg": 20
+            }
+        ],
+        "extraEffect" : "This Holomen cannot be Bloom"
+    },
+
+
+    {
+        "cardNumber": "hSD02-011",
+        "name": "Ookami Mio",
+        "rarity": "U",
+        "bloomLevel": "Spot",
+        "hp": 50,
+        "color": "Colorless",
+        "tag": "#JP #Gamers #AnimalEars #Cooking",
+        "collabEffect" : "You may Archive 1 holomem from your hand for the following effect: send the top card of your Cheer Deck to one of your Debut holomems.",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 10
+            }
+        ],
+        "extraEffect" : "This Holomen cannot be Bloom"
+    },
+    {
+        "cardNumber": "hSD02-012",
+        "name": "Irohanihohetto AyaFubuMi",
+        "rarity": "U",
+        "type": "Support (Event)",
+        "limited": true,
+        "ability": "You can only use this card if you have 6 or fewer cards in your hand, excluding this one. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <Shirakami Fubuki>, <Ookami Mio>, or <Nakiri Ayame> and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
+    },
+
+
+    {
+        "cardNumber": "hSD02-013",
+        "name": "Asura & Rakshasa",
+        "rarity": "C",
+        "type": "Support (Tool)",
+        "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later <Nakiri Ayame>, it gains the following effect: the Arts of the holomem with this Tool attached gain an additional +10 power. You may only attach 1 Tool to a holomem."
+    },
+    {
+        "cardNumber": "hSD02-014",
+        "name": "Poyoyo",
+        "rarity": "C",
+        "type": "Support (Mascot)",
+        "limited": true,
+        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to <Nakiri Ayame>, it gains the following effect: when the holomem that this Mascot is attached to Blooms, draw 1 card from your Deck. You may only attach 1 Mascot to a holomem."
+    }
+]
