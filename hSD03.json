@@ -30,10 +30,8 @@
                 "dmg": 30
             }
         ],
-        "extraEffect" : "You may put any number of copies of this holomem in your Deck."
+        "extraEffect": "You may put any number of copies of this holomem in your Deck."
     },
-
-
     {
         "cardNumber": "hSD03-003",
         "name": "Nekomata Okayu",
@@ -42,7 +40,7 @@
         "hp": 70,
         "color": "Blue",
         "tag": "#JP #Gamers #AnimalEars",
-        "collabEffect" : "If your Center holomem has #Gamers, deal 10 special damage to your opponent's Center holomem and one of their Back holomems. holomems Downed with this effect do not reduce LIFE.",
+        "collabEffect": "If your Center holomem has #Gamers, deal 10 special damage to your opponent's Center holomem and one of their Back holomems. holomems Downed with this effect do not reduce LIFE.",
         "skills": [
             {
                 "name": "",
@@ -50,8 +48,6 @@
             }
         ]
     },
-
- 
     {
         "cardNumber": "hSD03-004",
         "name": "Nekomata Okayu",
@@ -60,7 +56,7 @@
         "hp": 80,
         "color": "Blue",
         "tag": "#JP #Gamers #AnimalEars",
-        "collabEffect" : "You may reveal one card from the top of your deck. If that card is a Debut or Spot holomem, send the top card of your Cheer Deck to this holomem. Then put that card on the bottom of your deck.",
+        "collabEffect": "You may reveal one card from the top of your deck. If that card is a Debut or Spot holomem, send the top card of your Cheer Deck to this holomem. Then put that card on the bottom of your deck.",
         "skills": [
             {
                 "name": "",
@@ -68,8 +64,6 @@
             }
         ]
     },
-
-
     {
         "cardNumber": "hSD03-005",
         "name": "Nekomata Okayu",
@@ -103,13 +97,13 @@
                 "dmg": 30
             },
             {
-                "name" : "",
-                "dmg" : 40,
+                "name": "",
+                "dmg": 40,
                 "description": "You may Archive 1 Blue Cheer from this holomem for the following effect: deal 10 special damage to your opponent's Center holomem and one of their Back holomems."
             }
+        ]
     },
-
-      {
+    {
         "cardNumber": "hSD03-007",
         "name": "Nekomata Okayu",
         "rarity": "U",
@@ -117,7 +111,7 @@
         "hp": 120,
         "color": "Blue",
         "tag": "#JP #Gamers #AnimalEars",
-        "bloomEffect": "Send a Cheer from your Archive to one of your holomems with #Gamers.",  
+        "bloomEffect": "Send a Cheer from your Archive to one of your holomems with #Gamers.",
         "skills": [
             {
                 "name": "",
@@ -125,26 +119,25 @@
             }
         ]
     },
-    
     {
         "cardNumber": "hSD03-008",
         "name": "Nekomata Okayu",
         "rarity": "R",
         "bloomLevel": "1st",
-        "buzz" : "true",
+        "buzz": "true",
         "hp": 240,
         "color": "Blue",
         "tag": "#JP #Gamers #AnimalEars",
-        "giftEffect" : "(Center position only) Your Takane Lui, Ookami Mio, Shirakami Fubuki, La+ Darknesss, and Inugami Korone's Arts gain +20 power.",
+        "giftEffect": "(Center position only) Your Takane Lui, Ookami Mio, Shirakami Fubuki, La+ Darknesss, and Inugami Korone's Arts gain +20 power.",
         "skills": [
             {
                 "name": "",
                 "dmg": 60
             }
         ],
-        "extraEffect" : "When this holomem is Downed, lose 2 LIFE."
+        "extraEffect": "When this holomem is Downed, lose 2 LIFE."
     },
-  {
+    {
         "cardNumber": "hSD03-009",
         "name": "Nekomata Okayu",
         "rarity": "RR",
@@ -164,7 +157,6 @@
             }
         ]
     },
-    
     {
         "cardNumber": "hSD03-010",
         "name": "Inugami Korone",
@@ -173,17 +165,15 @@
         "hp": 70,
         "color": "Colorless",
         "tag": "JP #Gamers #AnimalEars",
-        "collabEffect" : "If your Center holomem is Nekomata Okayu, reveal 1 Fan or Mascot from your Deck and put it into your hand. Then shuffle your Deck.",
+        "collabEffect": "If your Center holomem is Nekomata Okayu, reveal 1 Fan or Mascot from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
                 "name": "",
                 "dmg": 30
             }
         ],
-        "extraEffect" : "This Holomen cannot be Bloom"
+        "extraEffect": "This Holomen cannot be Bloom"
     },
-
-
     {
         "cardNumber": "hSD03-011",
         "name": "La+ Darknesss",
@@ -198,12 +188,12 @@
                 "dmg": 10
             },
             {
-                "name" : "",
-                "dmg" :20,
-                "description" : "If you have 2 or less cards in your hand, draw from your Deck until you have 3 cards in your hand."
+                "name": "",
+                "dmg": 20,
+                "description": "If you have 2 or less cards in your hand, draw from your Deck until you have 3 cards in your hand."
             }
         ],
-        "extraEffect" : "This Holomen cannot be Bloom"
+        "extraEffect": "This Holomen cannot be Bloom"
     },
     {
         "cardNumber": "hSD03-012",
@@ -213,8 +203,6 @@
         "limited": true,
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <Nekomata Okayu>, <Takane Lui>, <Ookami Mio>, <Shirakami Fubuki>, <La+ Darknesss?, or <Inugami Korone? and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
     },
-
-
     {
         "cardNumber": "hSD03-013",
         "name": "Okanyan",
