@@ -1,14 +1,14 @@
 [
     {
-        "cardNumber": "hSD03-001",
-        "name": "Nekomata Okayu",
+        "cardNumber": "hSD04-001",
+        "name": "hYuzuki Choco",
         "rarity": "OC",
         "lives": 5,
-        "color": "Blue",
+        "color": "Purple",
         "oshiSkill": {
-            "name": "(\"Blue Mic\")",
+            "name": "(\"Purple Mic\")",
             "power": 2,
-            "description": "[Once per turn] If your Center holomem is Blue, their Arts gain +20 power until the end of this turn."
+            "description": "[Once per turn] If your Center holomem is Purple, their Arts gain +20 power until the end of this turn."
         },
         "spOshiSkill": {
             "name": " (\"Back Shot!\")",
@@ -17,13 +17,13 @@
         }
     },
     {
-        "cardNumber": "hSD03-002",
-        "name": "Nekomata Okayu",
+        "cardNumber": "hSD04-002",
+        "name": "hYuzuki Choco",
         "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 100,
-        "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "color": "Purple",
+        "tag": "#JP #Gen2 #Cooking",
         "skills": [
             {
                 "name": "",
@@ -35,13 +35,13 @@
 
 
     {
-        "cardNumber": "hSD03-003",
-        "name": "Nekomata Okayu",
+        "cardNumber": "hSD04-003",
+        "name": "hYuzuki Choco",
         "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 70,
-        "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "color": "Purple",
+        "tag": "#JP #Gen2 #Cooking",
         "collabEffect" : "If your Center holomem has #Gamers, deal 10 special damage to your opponent's Center holomem and one of their Back holomems. holomems Downed with this effect do not reduce LIFE.",
         "skills": [
             {
@@ -53,13 +53,13 @@
 
  
     {
-        "cardNumber": "hSD03-004",
-        "name": "Nekomata Okayu",
+        "cardNumber": "hSD04-004",
+        "name": "hYuzuki Choco",
         "rarity": "U",
         "bloomLevel": "Debut",
         "hp": 80,
-        "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "color": "Purple",
+        "tag": "#JP #Gen2 #Cooking",
         "collabEffect" : "You may reveal one card from the top of your deck. If that card is a Debut or Spot holomem, send the top card of your Cheer Deck to this holomem. Then put that card on the bottom of your deck.",
         "skills": [
             {
@@ -71,13 +71,13 @@
 
 
     {
-        "cardNumber": "hSD03-005",
-        "name": "Nekomata Okayu",
+        "cardNumber": "hSD04-005",
+        "name": "hYuzuki Choco",
         "rarity": "C",
         "bloomLevel": "1st",
         "hp": 170,
-        "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "color": "Purple",
+        "tag": "#JP #Gen2 #Cooking",
         "skills": [
             {
                 "name": "",
@@ -90,13 +90,13 @@
         ]
     },
     {
-        "cardNumber": "hSD03-006",
-        "name": "Nekomata Okayu",
+        "cardNumber": "hSD04-006",
+        "name": "hYuzuki Choco",
         "rarity": "C",
         "bloomLevel": "1st",
         "hp": 140,
-        "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "color": "Purple",
+        "tag": "#JP #Gen2 #Cooking",
         "skills": [
             {
                 "name": "",
@@ -105,18 +105,18 @@
             {
                 "name" : "",
                 "dmg" : 40,
-                "description": "You may Archive 1 Blue Cheer from this holomem for the following effect: deal 10 special damage to your opponent's Center holomem and one of their Back holomems."
+                "description": "You may Archive 1 Purple Cheer from this holomem for the following effect: deal 10 special damage to your opponent's Center holomem and one of their Back holomems."
             }
     },
 
       {
-        "cardNumber": "hSD03-007",
-        "name": "Nekomata Okayu",
+        "cardNumber": "hSD04-007",
+        "name": "hYuzuki Choco",
         "rarity": "U",
         "bloomLevel": "1st",
         "hp": 120,
-        "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "color": "Purple",
+        "tag": "#JP #Gen2 #Cooking",
         "bloomEffect": "Send a Cheer from your Archive to one of your holomems with #Gamers.",  
         "skills": [
             {
@@ -127,14 +127,14 @@
     },
     
     {
-        "cardNumber": "hSD03-008",
-        "name": "Nekomata Okayu",
+        "cardNumber": "hSD04-008",
+        "name": "hYuzuki Choco",
         "rarity": "R",
         "bloomLevel": "1st",
         "buzz" : "true",
         "hp": 240,
-        "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "color": "Purple",
+        "tag": "#JP #Gen2 #Cooking",
         "giftEffect" : "(Center position only) Your Takane Lui, Ookami Mio, Shirakami Fubuki, La+ Darknesss, and Inugami Korone's Arts gain +20 power.",
         "skills": [
             {
@@ -145,13 +145,13 @@
         "extraEffect" : "When this holomem is Downed, lose 2 LIFE."
     },
   {
-        "cardNumber": "hSD03-009",
-        "name": "Nekomata Okayu",
+        "cardNumber": "hSD04-009",
+        "name": "hYuzuki Choco",
         "rarity": "RR",
         "bloomLevel": "2nd",
         "hp": 180,
-        "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "color": "Purple",
+        "tag": "#JP #Gen2 #Cooking",
         "skills": [
             {
                 "name": "",
@@ -160,20 +160,20 @@
             {
                 "name": "",
                 "dmg": 100,
-                "description": "You may Archive 2 Blue Cheers from this holomem for the following effect: deal 30 special damage to your opponent's Center holomem and one of their Back holomems."
+                "description": "You may Archive 2 Purple Cheers from this holomem for the following effect: deal 30 special damage to your opponent's Center holomem and one of their Back holomems."
             }
         ]
     },
     
     {
-        "cardNumber": "hSD03-010",
+        "cardNumber": "hSD04-010",
         "name": "Inugami Korone",
         "rarity": "U",
         "bloomLevel": "Spot",
         "hp": 70,
         "color": "Colorless",
         "tag": "JP #Gamers #AnimalEars",
-        "collabEffect" : "If your Center holomem is Nekomata Okayu, reveal 1 Fan or Mascot from your Deck and put it into your hand. Then shuffle your Deck.",
+        "collabEffect" : "If your Center holomem is hYuzuki Choco, reveal 1 Fan or Mascot from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
                 "name": "",
@@ -185,7 +185,7 @@
 
 
     {
-        "cardNumber": "hSD03-011",
+        "cardNumber": "hSD04-011",
         "name": "La+ Darknesss",
         "rarity": "U",
         "bloomLevel": "Spot",
@@ -206,27 +206,27 @@
         "extraEffect" : "This Holomen cannot be Bloom"
     },
     {
-        "cardNumber": "hSD03-012",
+        "cardNumber": "hSD04-012",
         "name": "Dorobo Construction",
         "rarity": "U",
         "type": "Support (Event)",
         "limited": true,
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <Nekomata Okayu>, <Takane Lui>, <Ookami Mio>, <Shirakami Fubuki>, <La+ Darknesss?, or <Inugami Korone? and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <hYuzuki Choco>, <Takane Lui>, <Ookami Mio>, <Shirakami Fubuki>, <La+ Darknesss?, or <Inugami Korone? and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
     },
 
 
     {
-        "cardNumber": "hSD03-013",
+        "cardNumber": "hSD04-013",
         "name": "Okanyan",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "Whenever the holomem with this Mascot attached takes damage while in the Center or Collab position, it takes -10 damage.If this Mascot is attached to Nekomata Okayu, it gains the following effect: when the holomem with this Mascot attached Archives Cheer as part of their Ability or Arts, you may Archive this Mascot instead of one Blue Cheer.You may only attach 1 Mascot to a holomem."
+        "ability": "Whenever the holomem with this Mascot attached takes damage while in the Center or Collab position, it takes -10 damage.If this Mascot is attached to hYuzuki Choco, it gains the following effect: when the holomem with this Mascot attached Archives Cheer as part of their Ability or Arts, you may Archive this Mascot instead of one Purple Cheer.You may only attach 1 Mascot to a holomem."
     },
     {
-        "cardNumber": "hSD03-014",
+        "cardNumber": "hSD04-014",
         "name": "Onigirya",
         "rarity": "C",
         "type": "Support (Fan)",
-        "ability": "The holomem with this Fan attached has +10 HP. This Fan may only be attached to your <Nekomata Okayu>, and you may attach any number of this Fan to one holomem."
+        "ability": "The holomem with this Fan attached has +10 HP. This Fan may only be attached to your <hYuzuki Choco>, and you may attach any number of this Fan to one holomem."
     }
 ]
