@@ -1,7 +1,7 @@
 [
     {
         "cardNumber": "hSD04-001",
-        "name": "hYuzuki Choco",
+        "name": "Yuzuki Choco",
         "rarity": "OC",
         "lives": 5,
         "color": "Purple",
@@ -11,14 +11,14 @@
             "description": "[Once per turn] If your Center holomem is Purple, their Arts gain +20 power until the end of this turn."
         },
         "spOshiSkill": {
-            "name": " (\"Back Shot!\")",
+            "name": " (\"Card Change\")",
             "power": 2,
-            "description": "[Once per game] Can be used when one of your holomems deals damage to one of your opponent's Back holomems: deal 50 special damage to that Back holomem."
+            "description": "[Once per game] Draw 2 cards from your Deck, then Archive 1 card from your hand.."
         }
     },
     {
         "cardNumber": "hSD04-002",
-        "name": "hYuzuki Choco",
+        "name": "Yuzuki Choco",
         "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 100,
@@ -30,37 +30,33 @@
                 "dmg": 30
             }
         ],
-        "extraEffect" : "You may put any number of copies of this holomem in your Deck."
+        "extraEffect": "You may put any number of copies of this holomem in your Deck."
     },
-
-
     {
         "cardNumber": "hSD04-003",
-        "name": "hYuzuki Choco",
+        "name": "Yuzuki Choco",
         "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Purple",
         "tag": "#JP #Gen2 #Cooking",
-        "collabEffect" : "If your Center holomem has #Gamers, deal 10 special damage to your opponent's Center holomem and one of their Back holomems. holomems Downed with this effect do not reduce LIFE.",
+        "collabEffect": "If your Oshi holomem is Purple, draw 1 card from your Deck.",
         "skills": [
             {
                 "name": "",
-                "dmg": 10
+                "dmg": 30
             }
         ]
     },
-
- 
     {
         "cardNumber": "hSD04-004",
-        "name": "hYuzuki Choco",
+        "name": "Yuzuki Choco",
         "rarity": "U",
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Purple",
         "tag": "#JP #Gen2 #Cooking",
-        "collabEffect" : "You may reveal one card from the top of your deck. If that card is a Debut or Spot holomem, send the top card of your Cheer Deck to this holomem. Then put that card on the bottom of your deck.",
+        "collabEffect": "You may Archive 1 card from your hand for the following effect: reveal an Event with #Food from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
                 "name": "",
@@ -68,11 +64,9 @@
             }
         ]
     },
-
-
     {
         "cardNumber": "hSD04-005",
-        "name": "hYuzuki Choco",
+        "name": "Yuzuki Choco",
         "rarity": "C",
         "bloomLevel": "1st",
         "hp": 170,
@@ -81,152 +75,142 @@
         "skills": [
             {
                 "name": "",
-                "dmg": 30
+                "dmg": 20
             },
             {
                 "name": "",
-                "dmg": 50
+                "dmg": 40
             }
         ]
     },
     {
         "cardNumber": "hSD04-006",
-        "name": "hYuzuki Choco",
+        "name": "Yuzuki Choco",
         "rarity": "C",
         "bloomLevel": "1st",
-        "hp": 140,
+        "hp": 130,
         "color": "Purple",
         "tag": "#JP #Gen2 #Cooking",
         "skills": [
             {
                 "name": "",
                 "dmg": 30
-            },
-            {
-                "name" : "",
-                "dmg" : 40,
-                "description": "You may Archive 1 Purple Cheer from this holomem for the following effect: deal 10 special damage to your opponent's Center holomem and one of their Back holomems."
             }
+        ]
     },
-
-      {
+    {
         "cardNumber": "hSD04-007",
-        "name": "hYuzuki Choco",
+        "name": "Yuzuki Choco",
         "rarity": "U",
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Purple",
         "tag": "#JP #Gen2 #Cooking",
-        "bloomEffect": "Send a Cheer from your Archive to one of your holomems with #Gamers.",  
+        "bloomEffect": "You may return a non-LIMITED Event card from your Archive to your hand.",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 30,
+                "description": "Restore 20HP to one of your Back holomems."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD04-008",
+        "name": "Yuzuki Choco",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "buzz": "true",
+        "hp": 230,
+        "color": "Purple",
+        "tag": "#JP #Gen2 #Cooking",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 40
+            },
+            {
+                "name": "",
+                "dmg": "60+",
+                "description": "You may return one Event with #Food from your Archive to your hand: if you do, this Art gains +20 power."
+            }
+        ],
+        "extraEffect": "When this holomem is Downed, lose 2 LIFE."
+    },
+    {
+        "cardNumber": "hSD04-009",
+        "name": "Yuzuki Choco",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 190,
+        "color": "Purple",
+        "tag": "#JP #Gen2 #Cooking",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 50
+            },
+            {
+                "name": "",
+                "dmg": 60,
+                "description": "For each Event card you've played during this turn, this Art gains +40 power."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD04-010",
+        "name": "Oozora Subaru",
+        "rarity": "U",
+        "bloomLevel": "Spot",
+        "hp": 60,
+        "color": "Colorless",
+        "tag": "#JP #Gen2",
+        "collabEffect": "If your Center holomem is Yuzuki Choco, you may send one Cheer from your Archive to any of your holomems.",
         "skills": [
             {
                 "name": "",
                 "dmg": 20
             }
-        ]
-    },
-    
-    {
-        "cardNumber": "hSD04-008",
-        "name": "hYuzuki Choco",
-        "rarity": "R",
-        "bloomLevel": "1st",
-        "buzz" : "true",
-        "hp": 240,
-        "color": "Purple",
-        "tag": "#JP #Gen2 #Cooking",
-        "giftEffect" : "(Center position only) Your Takane Lui, Ookami Mio, Shirakami Fubuki, La+ Darknesss, and Inugami Korone's Arts gain +20 power.",
-        "skills": [
-            {
-                "name": "",
-                "dmg": 60
-            }
         ],
-        "extraEffect" : "When this holomem is Downed, lose 2 LIFE."
+        "extraEffect": "This Holomen cannot be Bloom"
     },
-  {
-        "cardNumber": "hSD04-009",
-        "name": "hYuzuki Choco",
-        "rarity": "RR",
-        "bloomLevel": "2nd",
-        "hp": 180,
-        "color": "Purple",
-        "tag": "#JP #Gen2 #Cooking",
-        "skills": [
-            {
-                "name": "",
-                "dmg": 60
-            },
-            {
-                "name": "",
-                "dmg": 100,
-                "description": "You may Archive 2 Purple Cheers from this holomem for the following effect: deal 30 special damage to your opponent's Center holomem and one of their Back holomems."
-            }
-        ]
-    },
-    
-    {
-        "cardNumber": "hSD04-010",
-        "name": "Inugami Korone",
-        "rarity": "U",
-        "bloomLevel": "Spot",
-        "hp": 70,
-        "color": "Colorless",
-        "tag": "JP #Gamers #AnimalEars",
-        "collabEffect" : "If your Center holomem is hYuzuki Choco, reveal 1 Fan or Mascot from your Deck and put it into your hand. Then shuffle your Deck.",
-        "skills": [
-            {
-                "name": "",
-                "dmg": 30
-            }
-        ],
-        "extraEffect" : "This Holomen cannot be Bloom"
-    },
-
-
     {
         "cardNumber": "hSD04-011",
-        "name": "La+ Darknesss",
+        "name": "Himemori Luna",
         "rarity": "U",
         "bloomLevel": "Spot",
         "hp": 60,
         "color": "Colorless",
-        "tag": "JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #Gen4",
+        "collabEffect": " Look at your holo power cards, reveal one, and put it into your hand. Then put a card from your hand into your holo power.",
         "skills": [
             {
                 "name": "",
                 "dmg": 10
-            },
-            {
-                "name" : "",
-                "dmg" :20,
-                "description" : "If you have 2 or less cards in your hand, draw from your Deck until you have 3 cards in your hand."
             }
         ],
-        "extraEffect" : "This Holomen cannot be Bloom"
+        "extraEffect": "This Holomen cannot be Bloom"
     },
     {
         "cardNumber": "hSD04-012",
-        "name": "Dorobo Construction",
+        "name": "SubaChocoLuna",
         "rarity": "U",
         "type": "Support (Event)",
         "limited": true,
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <hYuzuki Choco>, <Takane Lui>, <Ookami Mio>, <Shirakami Fubuki>, <La+ Darknesss?, or <Inugami Korone? and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <Oozora Subaru>, <Yuzuki Choco> or  <Himemori Luna> and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
     },
-
-
     {
         "cardNumber": "hSD04-013",
-        "name": "Okanyan",
+        "name": "Choco's Omurice",
         "rarity": "C",
-        "type": "Support (Mascot)",
-        "ability": "Whenever the holomem with this Mascot attached takes damage while in the Center or Collab position, it takes -10 damage.If this Mascot is attached to hYuzuki Choco, it gains the following effect: when the holomem with this Mascot attached Archives Cheer as part of their Ability or Arts, you may Archive this Mascot instead of one Purple Cheer.You may only attach 1 Mascot to a holomem."
+        "type": "Support (Event)",
+        "ability": "Choose one of your holomems. That holomem recovers 20 HP. If there is a holomem with #Cooking on your Stage, the chosen holomem's Arts gain +20 power until the end of this turn."
     },
     {
         "cardNumber": "hSD04-014",
-        "name": "Onigirya",
+        "name": "Chocolat",
         "rarity": "C",
-        "type": "Support (Fan)",
-        "ability": "The holomem with this Fan attached has +10 HP. This Fan may only be attached to your <hYuzuki Choco>, and you may attach any number of this Fan to one holomem."
+        "type": "Support (Mascot)",
+        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to <Yuzuki Choco>, it gains the following effect: when the holomem that this Mascot is attached to Blooms, restore 20 HP to that holomem.You may only attach 1 Mascot to a holomem."
     }
 ]
