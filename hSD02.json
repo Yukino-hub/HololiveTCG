@@ -223,7 +223,6 @@
         "name": "Poyoyo",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "limited": true,
         "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to <Nakiri Ayame>, it gains the following effect: when the holomem that this Mascot is attached to Blooms, draw 1 card from your Deck. You may only attach 1 Mascot to a holomem."
     }
 ]
