@@ -948,7 +948,7 @@
         "cardNumber": "hBP02-056",
         "name": "Mori Calliope",
         "rarity": "C",
-        "bloomLevel": "Debut",
+        "bloomLevel": "1st",
         "hp": 110,
         "color": "Purple",
         "tag": "#EN #Myth #Song",
@@ -963,7 +963,7 @@
         "cardNumber": "hBP02-057",
         "name": "Mori Calliope",
         "rarity": "C",
-        "bloomLevel": "Debut",
+        "bloomLevel": "1st",
         "hp": 130,
         "color": "Purple",
         "tag": "#EN #Myth #Song",
@@ -979,7 +979,7 @@
         "cardNumber": "hBP02-058",
         "name": "Mori Calliope",
         "rarity": "R",
-        "bloomLevel": "Debut",
+        "bloomLevel": "1st",
         "hp": 140,
         "color": "Purple",
         "tag": "#EN #Myth #Song",
@@ -991,6 +991,307 @@
                 "description": "If this holomem has a Tool or a Mascot attached, this Art gains +30 power."
             }
         ]
+    },
+    {
+        "cardNumber": "hBP02-059",
+        "name": "Mori Calliope",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Purple",
+        "tag": "#EN #Myth #Song",
+        "bloomEffect": "Soul Voice: Reveal any card from your Deck and Archive it. Then shuffle your Deck.",
+        "skills": [
+            {
+                "name": "Featuring Myth",
+                "dmg": "80+",
+                "description": "If you have 4 or more holomems with #Myth in your Archive, this Art gains +40 power. If you have 8 or more, this Art gains another +40 power."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP02-060",
+        "name": "Yuzuki Choco",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 240,
+        "color": "Purple",
+        "tag": "#JP #Gen2 #Cooking",
+        "bloomEffect": "誘惑の視線　: You may restore 50 HP to one of your Back holomems. Deal 10 special damage to your opponent's Center holomem for each 10 HP restored by this.",
+        "skills": [
+            {
+                "name": "隠しきれない魅力",
+                "dmg": "80+"
+            }
+        ],
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "hasAlternativeArt": true
+    },
+    {
+        "cardNumber": "hBP02-061",
+        "name": "Ninomae Ina'nis",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 140,
+        "color": "Purple",
+        "tag": "#EN #Myth #Art #Sea",
+        "skills": [
+            {
+                "name": "WAH!",
+                "dmg": "10"
+            }
+        ],
+        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+    },
+    {
+        "cardNumber": "hBP02-062",
+        "name": "Ninomae Ina'nis",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 180,
+        "color": "Purple",
+        "tag": "#EN #Myth #Art #Sea",
+        "skills": [
+            {
+                "name": "君とタコグラム",
+                "dmg": "60"
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP02-063",
+        "name": "Ninomae Ina'nis",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "Purple",
+        "tag": "#EN #Myth #Art #Sea",
+        "bloomEffect": "みんな「WAH」の準備はいいかー！Restore 20 HP to one of your holomems with #Myth.",
+        "skills": [
+            {
+                "name": "楽しんでいこう！！！",
+                "dmg": "30"
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP02-064",
+        "name": "Ninomae Ina'nis",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 250,
+        "buzz": "true",
+        "color": "Purple",
+        "tag": "#EN #Myth #Art #Sea",
+        "skills": [
+            {
+                "name": "アルカイックスマイル",
+                "dmg": "60+",
+                "description": "If there are 5 or more holomems with #Myth in your Archive, you may move 1 Cheer from this holomem to one of your other holomems. If there are 10 or more, this Art gains +50 power."
+            }
+        ],
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "hasAlternativeArt": true
+    },
+    {
+        "cardNumber": "hBP02-065",
+        "name": "Nerissa Ravencroft",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "color": "Purple",
+        "tag": " #EN #Advent #Song #Bird",
+        "skills": [
+            {
+                "name": "Hiya darlings!",
+                "dmg": "30"
+            }
+        ],
+        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+    },
+    {
+        "cardNumber": "hBP02-066",
+        "name": "Nerissa Ravencroft",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "Purple",
+        "tag": " #EN #Advent #Song #Bird",
+        "skills": [
+            {
+                "name": "良い響きですね",
+                "dmg": "30"
+            },
+            {
+                "name": "アイドルソングというものは",
+                "dmg": "60"
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP02-067",
+        "name": "Nerissa Ravencroft",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 120,
+        "color": "Purple",
+        "tag": " #EN #Advent #Song #Bird",
+        "bloomEffect": "ネリッサとお茶会　Look at the top three cards of your Deck. Reveal one that is a holomem with #Song and put it into your hand. Then put the remaining cards on the bottom of your Deck in any order",
+        "skills": [
+            {
+                "name": "コーヒーよりも紅茶です",
+                "dmg": "20"
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP02-068",
+        "name": "Nerissa Ravencroft",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "color": "Purple",
+        "tag": " #EN #Advent #Song #Bird",
+        "collabEffect": "音の魔人　　Look at the top three cards of your Deck. Reveal one that is a holomem with #Song and put it into your hand. Then put the remaining cards on the bottom of your Deck in any order",
+        "skills": [
+            {
+                "name": "歌に宿りし愛情",
+                "dmg": "80"
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP01-069",
+        "name": "Magical Girl Miko",
+        "rarity": "R",
+        "bloomLevel": "Spot",
+        "hp": 60,
+        "color": "Colorless",
+        "tag": "#HoloWitch #Gen0 #Magic",
+        "collabEffect": "みんなの願いを咲かせる祈り！: You may roll a dice. If the result is odd, reveal a Red Cheer or Blue Cheer from your Cheer Deck and send it to one of your Back holomems. Then shuffle your Cheer Deck",
+        "skills": [
+            {
+                "name": "『巫女』の『ホロ』！",
+                "dmg": 20
+            }
+        ],
+        "extraEffect": "This Holomen cannot be Bloom"
+    },
+    {
+        "cardNumber": "hBP01-070",
+        "name": "Magical Girl Kanata",
+        "rarity": "R",
+        "bloomLevel": "Spot",
+        "hp": 60,
+        "color": "Colorless",
+        "tag": "#HoloWitch #Gen4 #Magic",
+        "collabEffect": "この手を差し伸べ、つかんで握る！: You may roll a dice. If the result is odd, reveal a White Cheer or Green Cheer from your Cheer Deck and send it to one of your Back holomems. Then shuffle your Cheer Deck",
+        "skills": [
+            {
+                "name": "『天使』の『ホロ』！",
+                "dmg": 20
+            }
+        ],
+        "extraEffect": "This Holomen cannot be Bloom"
+    },
+    {
+        "cardNumber": "hBP01-071",
+        "name": "Magical Girl Luna",
+        "rarity": "R",
+        "bloomLevel": "Spot",
+        "hp": 60,
+        "color": "Colorless",
+        "tag": "#HoloWitch #Gen4 #Magic",
+        "collabEffect": "甘～い幸せ、おすそわけ！　: You may roll a dice. If the result is odd, reveal a Purple Cheer or White Cheer from your Cheer Deck and send it to one of your Back holomems. Then shuffle your Cheer Deck",
+        "skills": [
+            {
+                "name": "『姫』の『ホロ』！",
+                "dmg": 20
+            }
+        ],
+        "extraEffect": "This Holomen cannot be Bloom"
+    },
+    {
+        "cardNumber": "hBP01-072",
+        "name": "Magical Girl Shion",
+        "rarity": "R",
+        "bloomLevel": "Spot",
+        "hp": 60,
+        "color": "Colorless",
+        "tag": "#HoloWitch #Gen2 #Magic",
+        "collabEffect": "眠れる神秘を我が物に！: You may roll a dice. If the result is even, reveal an Event card from your Deck and put it into your hand. Then shuffle your Deck.",
+        "skills": [
+            {
+                "name": "『魔女』の『ホロ』！",
+                "dmg": 20
+            }
+        ],
+        "extraEffect": "This Holomen cannot be Bloom"
+    },
+    {
+        "cardNumber": "hBP01-073",
+        "name": "Magical Girl Marine",
+        "rarity": "R",
+        "bloomLevel": "Spot",
+        "hp": 60,
+        "color": "Colorless",
+        "tag": "#HoloWitch #Gen3 #Magic",
+        "collabEffect": "きらめくお宝、ロックオン！: You may roll a dice. If the result is even, reveal a Fan card from your Deck and put it into your hand. Then shuffle your Deck.",
+        "skills": [
+            {
+                "name": "『海賊』の『ホロ』！",
+                "dmg": 20
+            }
+        ],
+        "extraEffect": "This Holomen cannot be Bloom"
+    },
+    {
+        "cardNumber": "hBP01-074",
+        "name": "Magical Girl Chloe",
+        "rarity": "R",
+        "bloomLevel": "Spot",
+        "hp": 60,
+        "color": "Colorless",
+        "tag": "#HoloWitch #SecretSocietyholoX #Magic",
+        "collabEffect": "荒波をゆく奔放の牙！！: You may roll a dice. If the result is even, reveal a Tool card from your Deck and put it into your hand. Then shuffle your Deck.",
+        "skills": [
+            {
+                "name": "『シャチ』の『ホロ』！",
+                "dmg": 20
+            }
+        ],
+        "extraEffect": "This Holomen cannot be Bloom"
+    },
+    {
+        "cardNumber": "hBP02-075",
+        "name": "アイドルサインペン (Idol Felt Pen)",
+        "type": "Support (Item)",
+        "rarity": "U",
+        "limited": "Yes",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Art and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.."
+    },
+    {
+        "cardNumber": "hBP02-076",
+        "name": "カスタムパソコン (Custom PC)",
+        "type": "Support (Item)",
+        "rarity": "C",
+        "ability": "Reveal 1 Debut holomem from your hand and put it on the bottom of your Deck. Reveal a 1st Bloom holomem (excluding Buzz holomem) from your Deck which has the same name as the Debut holomem and put it into your hand. Then shuffle your Deck"
+    },
+    {
+        "cardNumber": "hBP02-077",
+        "name": "レトロパソコン (Retro PC)",
+        "type": "Support (Item)",
+        "rarity": "C",
+        "limited": "Yes",
+        "ability": "This card can only be played if you have 3 or less LIFE. Return 1 holomem from your Archive to your hand."
+    },
+    {
+        "cardNumber": "hBP02-078",
+        "name": " かなた建設 (Kanata Construction)",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "limited": "Yes",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <Amane Kanata>, <AZKi>, or <Sakamata Chloe> and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.."
     },
     {
         "cardNumber": "hBP02-096",
