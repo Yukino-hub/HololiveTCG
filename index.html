@@ -12,41 +12,66 @@
         <p><a href="index.html">Card List</a> | <a href="quickguide.html">quickguide</a></p>
     </header>
     <div class="container">
-        <div class="search-container">
-            <input type="text" id="searchBar" placeholder="Search by Card Name/Numbers/Tags ...">
-            <br><br>
-            <div class="dropdown-container">
-                <select id="seriesFilter">
-                    <option value="">Select Series</option>
+    <div class="search-container">
+        <!-- Search Bar -->
+        <input type="text" id="searchBar" placeholder="Search by Card Name/Numbers/Tags ..." aria-label="Search">
+        <br><br>
+        
+        <!-- Dropdown Filters -->
+        <div class="dropdown-container">
+            <!-- Series Filter -->
+            <label for="seriesFilter">Series:</label>
+            <select id="seriesFilter">
+                <option value="">Select Series</option>
+                <!-- Starter Sets -->
+                <optgroup label="Starter Sets">
                     <option value="hSD01">hSD01</option>
+                    <option value="hSD02">hSD02</option>
+                    <option value="hSD03">hSD03</option>
+                    <option value="hSD04">hSD04</option>
+                </optgroup>
+                <!-- Boosters -->
+                <optgroup label="Boosters">
                     <option value="hBP01">hBP01</option>
+                    <option value="hBP02">hBP02</option>
                     <option value="hYS01">hYS01</option>
+                </optgroup>
+                <!-- Others -->
+                <optgroup label="Others">
                     <option value="hPR">hPR</option>
                     <option value="hY01">hY01</option>
-                </select>
-                <select id="rarityFilter">
-                    <option value="">Select Rarity</option>
-                    <option value="C">Common</option>
-                    <option value="U">Uncommon</option>
-                    <option value="R">Rare</option>
-                    <option value="RR">Double Rare</option>
-                    <option value="OSR">Oshi Super Rare</option>
-                    <option value="P">Promo</option>
-                </select>
-                <select id="bloomTypeFilter">
-                    <option value="">Select Bloom Level or Type</option>
-                    <option value="Debut">Debut</option>
-                    <option value="1st">1st</option>
-                    <option value="2nd">2nd</option>
-                    <option value="Spot">Spot</option>
-                    <option value="Support">Support</option>
-                </select>
-            </div>
-    <!-- New checkbox for alternative arts -->
-    <div>
-        <input type="checkbox" id="altArtCheckbox">
-        <label for="altArtCheckbox">Show Alternative Arts</label>
-    </div>
+                </optgroup>
+            </select>
+            
+            <!-- Rarity Filter -->
+            <label for="rarityFilter">Rarity:</label>
+            <select id="rarityFilter">
+                <option value="">Select Rarity</option>
+                <option value="C">Common</option>
+                <option value="U">Uncommon</option>
+                <option value="R">Rare</option>
+                <option value="RR">Double Rare</option>
+                <option value="OSR">Oshi Super Rare</option>
+                <option value="P">Promo</option>
+            </select>
+            
+            <!-- Bloom Type Filter -->
+            <label for="bloomTypeFilter">Bloom Type:</label>
+            <select id="bloomTypeFilter">
+                <option value="">Select Bloom Level or Type</option>
+                <option value="Debut">Debut</option>
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="Spot">Spot</option>
+                <option value="Support">Support</option>
+            </select>
+        </div>
+        
+        <!-- Checkbox for Alternative Arts -->
+        <div>
+            <input type="checkbox" id="altArtCheckbox">
+            <label for="altArtCheckbox">Show Alternative Arts</label>
+        </div>
         <!-- Content container for dynamically loaded cards -->
         <div id="contentContainer">
             <!-- Cards will be dynamically loaded here -->
