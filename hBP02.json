@@ -1275,7 +1275,7 @@
         "name": "カスタムパソコン (Custom PC)",
         "type": "Support (Item)",
         "rarity": "C",
-        "ability": "Reveal 1 Debut holomem from your hand and put it on the bottom of your Deck. Reveal a 1st Bloom holomem (excluding Buzz holomem) from your Deck which has the same name as the Debut holomem and put it into your hand. Then shuffle your Deck"
+        "ability": "Reveal 1 Debut holomem from your hand and put it on the bottom of your Deck. Reveal a 1st Bloom holomem (excluding Buzz holomem) from your Deck which has the same name as the Debut holomem and put it into your hand. Then shuffle your Deck."
     },
     {
         "cardNumber": "hBP02-077",
@@ -1287,11 +1287,142 @@
     },
     {
         "cardNumber": "hBP02-078",
-        "name": " かなた建設 (Kanata Construction)",
+        "name": "かなた建設 (Kanata Construction)",
         "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <Amane Kanata>, <AZKi>, or <Sakamata Chloe> and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.."
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <Amane Kanata>, <AZKi>, or <Sakamata Chloe> and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
+    },
+    {
+        "cardNumber": "hBP02-079",
+        "name": "爆発の魔法 (Explosion Magic)",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "tag": "#Magic",
+        "ability": "Deal 20 special damage to your opponent's Center or Collab holomem. holomems Downed with this effect do not reduce LIFE. You may only play one Event with #Magic per turn."
+    },
+    {
+        "cardNumber": "hBP02-080",
+        "name": "秘密結社holoX (Secret Society holoX)",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "limited": "Yes",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #SecretSocietyholoX and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
+    },
+    {
+        "cardNumber": "hBP02-081",
+        "name": "ホロライブインドネシア2期生 (hololive ID 2nd Generation)",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "limited": "Yes",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #IDGen2 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
+    },
+    {
+        "cardNumber": "hBP02-082",
+        "name": "ホロライブゲーマーズ (hololive GAMERS)",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "limited": "Yes",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck.Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Gamers and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
+    },
+    {
+        "cardNumber": "hBP02-083",
+        "name": "魔法のタンス (Magic Closet)",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "tag": "Magic",
+        "ability": "To play this card, you must Archive one holo power. Send one Purple Cheer from your Archive to one of your holomems named Murasaki Shion. You may only play one Event with #Magic per turn."
+    },
+    {
+        "cardNumber": "hBP02-084",
+        "name": "みっころね24 (Mikkorone24)",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "limited": "Yes",
+        "ability": "Draw 2 cards, then roll a dice. If the result is 3, 5, or 6, reveal a Debut holomem from your deck and put into your hand, then shuffle your deck. If the result is 2 or 4, draw a card.."
+    },
+    {
+        "cardNumber": "hBP02-085",
+        "name": "HOLOLIVE FANTASY",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "limited": "Yes",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Gen3 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
+    },
+    {
+        "cardNumber": "hBP02-086",
+        "name": "ホロスパークリング (Holo Sparkling Wine)",
+        "type": "Support (Tool)",
+        "rarity": "C",
+        "ability": "The Arts of the holomem with this Tool attached gain +20 power.If the holomem with this Tool attached does not have #Alcohol, whenever the holomem with this Tool attached is about to take damage, add +10 to that damage. You may only attach 1 Tool to a holomem."
+    },
+    {
+        "cardNumber": "hBP02-087",
+        "name": "紫咲シオンの魔法のステッキ (Murasaki Shion's Magic Stick)",
+        "type": "Support (Tool)",
+        "rarity": "C",
+        "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later Murasaki Shion, it gains the following effect: if the holomem with this Tool attached is your Center holomem, your Oshi Skill 「ねえ゛え゛え゛え゛え゛え゛え゛」 becomes (Twice per turn) instead of (Once per turn). You may only attach 1 Tool to a holomem."
+    },
+    {
+        "cardNumber": "hBP02-088",
+        "name": "森カリオペの鎌 (Mori Calliope's Scythe)",
+        "type": "Support (Tool)",
+        "rarity": "U",
+        "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later <Mori Calliope>, it gains the following effect: when you attach this Tool to a holomem from your hand, Archive 1 card from the top of your deck. You may only attach 1 Tool to a holomem."
+    },
+    {
+        "cardNumber": "hBP02-089",
+        "name": "おるやんけ (Oruyanke)",
+        "type": "Support (Mascot)",
+        "rarity": "C",
+        "tag": "#ShirakamiCharacter",
+        "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect: when the holomem with this Mascot attached collabs, draw a card. You may only attach 1 Mascot to a holomem."
+    },
+    {
+        "cardNumber": "hBP02-090",
+        "name": "ネジマキツネ (Nejimakitsune)",
+        "type": "Support (Mascot)",
+        "rarity": "C",
+        "tag": "#ShirakamiCharacter",
+        "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect:  it gains the following effect: when the holomem with this Mascot attached is Downed, move 1 Cheer from that holomem to another of your holomems. You may only attach 1 Mascot to a holomem."
+    },
+    {
+        "cardNumber": "hBP02-091",
+        "name": "フブチュン (Fubuchun)",
+        "type": "Support (Mascot)",
+        "rarity": "C",
+        "tag": "#ShirakamiCharacter",
+        "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect:  it gains the following effect: when the holomem with this Mascot attached Collabs, you may return one Mascot from your Archive to your hand. You may only attach 1 Mascot to a holomem."
+    },
+    {
+        "cardNumber": "hBP02-092",
+        "name": "フブラ (Fubuzilla)",
+        "type": "Support (Mascot)",
+        "rarity": "U",
+        "tag": "#ShirakamiCharacter",
+        "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect: (Once per turn) during your Main Step, you may Archive any 2 Cheers from your holomems for the following effect: the Arts of the holomem with this Mascot attached gain +50 power until the end of this turn. You may only attach 1 Mascot to a holomem."
+    },
+    {
+        "cardNumber": "hBP02-093",
+        "name": "ミテイル (Miteiru)",
+        "type": "Support (Mascot)",
+        "rarity": "C",
+        "tag": "#ShirakamiCharacter",
+        "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect: (Back position only) the holomem with this mascot attached does not take any damage. You may only attach 1 Mascot to a holomem."
+    },
+    {
+        "cardNumber": "hBP02-094",
+        "name": "Tatang",
+        "type": "Support (Mascot)",
+        "rarity": "C",
+        "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Pavolia Reine>, it gains the following effect: the holomem with this Mascot attached has +30 HP. You may only attach 1 Mascot to a holomem."
+    },
+    {
+        "cardNumber": "hBP02-095",
+        "name": "ドクロくん (Dokuro-kun)",
+        "type": "Support (Mascot)",
+        "rarity": "C",
+        "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Houshou Marine>, it gains the following effect: (Center position only) when the holomem that this Mascot is attached to Blooms, draw 1 card from your Deck. You may only attach 1 Mascot to a holomem."
     },
     {
         "cardNumber": "hBP02-096",
