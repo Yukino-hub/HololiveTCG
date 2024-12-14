@@ -503,7 +503,7 @@
     {
         "cardNumber": "hBP02-030",
         "name": "Houshou Marine",
-        "rarity": "U",
+        "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 160,
         "color": "Red",
@@ -611,7 +611,7 @@
     {
         "cardNumber": "hBP02-036",
         "name": "Sakamata Chloe",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Blue",
@@ -658,7 +658,7 @@
     {
         "cardNumber": "hBP02-039",
         "name": "Sakamata Chloe",
-        "rarity": "C",
+        "rarity": "R",
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Blue",
@@ -729,7 +729,7 @@
     {
         "cardNumber": "hBP02-043",
         "name": "Murasaki Shion",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "Debut",
         "hp": 50,
         "color": "Purple",
@@ -795,7 +795,7 @@
         ]
     },
     {
-        "cardNumber": "hBP02-046",
+        "cardNumber": "hBP02-047",
         "name": "Murasaki Shion",
         "rarity": "RR",
         "bloomLevel": "2nd",
@@ -962,7 +962,7 @@
     {
         "cardNumber": "hBP02-057",
         "name": "Mori Calliope",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Purple",
@@ -1077,7 +1077,7 @@
     {
         "cardNumber": "hBP02-064",
         "name": "Ninomae Ina'nis",
-        "rarity": "R",
+        "rarity": "RR",
         "bloomLevel": "1st",
         "hp": 250,
         "buzz": "true",
