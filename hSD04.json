@@ -155,7 +155,8 @@
                 "dmg": 60,
                 "description": "For each Event card you've played during this turn, this Art gains +40 power."
             }
-        ]
+        ],
+        "imageSet": "hBP02"
     },
     {
         "cardNumber": "hSD04-010",
