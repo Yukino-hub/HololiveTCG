@@ -67,20 +67,23 @@ document.addEventListener('DOMContentLoaded', function() {
         'hY01.json'
     ];
 
-    function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned) {
+    function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned,   imageSet) {
+
+         const directory = imageSet || set; // if imageSet is given, use it; otherwise fall back to set
+
         // Handle signed cards (SEC rarity)
         if (signedCheckbox.checked && hasSigned) {
-            return `${baseUrl}${set}/${cardNumber}_SEC.png`;
+            return `${baseUrl}${directory}/${cardNumber}_SEC.png`;
         }
 
         // Handle full art cards (SR rarity)
         if (fullArtCheckbox.checked && hasFullArt) {
-            return `${baseUrl}${set}/${cardNumber}_SR.png`;
+            return `${baseUrl}${directory}/${cardNumber}_SR.png`;
         }
 
         // Handle foil cards (S rarity)
         if (foilCheckbox.checked && hasFoils) {
-            return `${baseUrl}${set}/${cardNumber}_S.png`;
+            return `${baseUrl}${directory}/${cardNumber}_S.png`;
         }
 
         // Handle alternative art cards if the checkbox is checked
@@ -90,11 +93,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 RR: 'UR', 
             };
             const altRarity = altRarityMap[rarity] || rarity;
-            return `${baseUrl}${set}/${cardNumber}_${altRarity}.png`;
+            return `${baseUrl}${directory}/${cardNumber}_${altRarity}.png`;
         }
 
         // Default URL for standard art
-        return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
+        return `${baseUrl}${directory}/${cardNumber}_${rarity}.png`;
     }
 
     function loadCardData() {
