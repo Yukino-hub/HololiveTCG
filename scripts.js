@@ -65,22 +65,35 @@ document.addEventListener('DOMContentLoaded', function() {
     'hY01.json' // Fixed
     ];
 
-   function getImageUrl(set, cardNumber, rarity, hasAlternativeArt) {
-    // Check if the checkbox is checked and if the card has alternative art
+  function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned) {
+    // Handle signed cards (SEC rarity)
+    if (hasSigned) {
+        return `${baseUrl}${set}/${cardNumber}_SEC.png`;
+    }
+
+    // Handle full art cards (SR rarity)
+    if (hasFullArt) {
+        return `${baseUrl}${set}/${cardNumber}_SR.png`;
+    }
+
+    // Handle foil cards (S rarity)
+    if (hasFoils) {
+        return `${baseUrl}${set}/${cardNumber}_S.png`;
+    }
+
+    // Handle alternative art cards if the checkbox is checked
     if (altArtCheckbox.checked && hasAlternativeArt) {
-        // Logic for alternative art URL
         const altRarityMap = {
             OSR: 'OUR', // Example mapping
-            RR: 'UR',
-            // Add more mappings as necessary
+            RR: 'UR', 
         };
         const altRarity = altRarityMap[rarity] || rarity; // Default to original rarity if not found
-        return `${baseUrl}${set}/${cardNumber}_${altRarity}.png`; 
+        return `${baseUrl}${set}/${cardNumber}_${altRarity}.png`;
     }
+
     // Default URL for standard art
     return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
 }
-    
 
 
     function loadCardData() {
@@ -128,28 +141,33 @@ document.addEventListener('DOMContentLoaded', function() {
 });
     }
 function displayCards(cardsToShow) {
-    contentContainer.innerHTML = '';
+   contentContainer.innerHTML = ''; // Clear previous cards
+
     cardsToShow.forEach(card => {
         const cardElement = document.createElement('div');
         cardElement.classList.add('card');
 
-        // Generate the image URL dynamically
+        // Generate the base image URL dynamically
         const imageUrl = getImageUrl(card.setName, card.cardNumber, card.rarity, card.hasAlternativeArt);
 
+        // Create the card HTML
         cardElement.innerHTML = `
             <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
-            <p>${card.name}</p>
+            <p><strong>${card.name}</strong></p>
             <p>Card Number: ${card.cardNumber}</p>
+            <p>Rarity: ${card.rarity}</p>
+            <div class="special-attributes">
+                ${card.hasAlternativeArt ? `<span class="badge alt-art">Alt Art</span>` : ''}
+                ${card.hasFoils ? `<span class="badge foils">Foils</span>` : ''}
+                ${card.hasFullArt ? `<span class="badge full-art">Full Art</span>` : ''}
+                ${card.hasSigned ? `<span class="badge signed">Signed</span>` : ''}
+            </div>
         `;
-        
-        if (card.hasAlternativeArt) {
-            cardElement.innerHTML += `
-                <p>Alternative Art: 
-                    <span class="colored-yes">Yes</span>
-                </p>`;
-        }
 
+        // Add click event listener to open modal
         cardElement.addEventListener('click', () => openModal(card));
+
+        // Append the card element to the container
         contentContainer.appendChild(cardElement);
     });
 
