@@ -175,7 +175,7 @@
                 "dmg": "60"
             }
         ],
-        "hasFullArt": true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-011",
@@ -192,7 +192,7 @@
                 "dmg": "40"
             }
         ],
-        "hasFullArt": true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-012",
@@ -264,7 +264,8 @@
                 "name": "おつまっする~",
                 "dmg": "60"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-016",
@@ -281,7 +282,7 @@
                 "dmg": "30"
             }
         ],
-        "hasFullArt": true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-017",
@@ -338,7 +339,7 @@
                 "dmg": "20"
             }
         ],
-        "hasFullArt": true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-020",
@@ -354,7 +355,7 @@
                 "dmg": "50"
             }
         ],
-        "hasFullArt": true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-021",
@@ -372,7 +373,7 @@
                 "description": "You may send 1 Cheer from your Archive to any of your holomems."
             }
         ],
-        "hasFullArt": true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-022",
@@ -389,7 +390,8 @@
                 "dmg": "40+",
                 "description": "If there are at least two colors of Cheer on your Stage, this Art gains +20 power."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-023",
@@ -477,7 +479,8 @@
             }
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-028",
@@ -560,7 +563,8 @@
                 "name": "ヨーソロー",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-033",
@@ -578,7 +582,8 @@
                 "description": "For each holomem stacked under this one, this Art gains +20 power."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-034",
@@ -601,7 +606,8 @@
             }
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-035",
@@ -681,7 +687,8 @@
                 "dmg": "20+",
                 "description": "You may reveal the top 3 cards of your deck. For each holomem revealed, this Art gains +20 power. Then Archive the revealed cards."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-040",
@@ -699,7 +706,8 @@
                 "description": "You may reveal the top 3 cards of your deck. For each holomem revealed, this Art gains +20 power. Then Archive the revealed cards."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-041",
@@ -719,7 +727,8 @@
             }
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-042",
@@ -803,7 +812,8 @@
                 "dmg": "30",
                 "description": "You may roll a dice: if the result is 5 or more, move 1 Cheer from one of your opponent's holomems to another."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-047",
@@ -821,7 +831,8 @@
                 "description": "For each Cheer attached to your opponent's Center holomem, deal 20 special damage to your opponent's Center and Collab holomem."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-048",
@@ -904,7 +915,8 @@
                 "name": "推しを見て叫びまくるぞ！！",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-053",
@@ -922,7 +934,8 @@
                 "description": "If there are at least 2 2nd Bloom holomems with #IDGen2 on your Stage, this Art gains +40 power."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-054",
@@ -1003,7 +1016,8 @@
                 "dmg": "30+",
                 "description": "If this holomem has a Tool or a Mascot attached, this Art gains +30 power."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-059",
@@ -1021,7 +1035,8 @@
                 "description": "If you have 4 or more holomems with #Myth in your Archive, this Art gains +40 power. If you have 8 or more, this Art gains another +40 power."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-060",
@@ -1038,7 +1053,8 @@
                 "dmg": "80+"
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-061",
@@ -1104,7 +1120,8 @@
             }
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-065",
@@ -1172,6 +1189,7 @@
                 "dmg": "80"
             }
         ],
+        "hasFullArt": true,
         "hasFullArt": true
     },
     {
