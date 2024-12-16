@@ -67,17 +67,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned) {
     // Handle signed cards (SEC rarity)
-    if (hasSigned) {
+    if (signedCheckbox.checked && hasSigned) {
         return `${baseUrl}${set}/${cardNumber}_SEC.png`;
     }
 
     // Handle full art cards (SR rarity)
-    if (hasFullArt) {
+    if (fullartCheckbox.checked && hasFullArt) {
         return `${baseUrl}${set}/${cardNumber}_SR.png`;
     }
 
     // Handle foil cards (S rarity)
-    if (hasFoils) {
+    if (foilCheckbox.checked && hasFoils) {
         return `${baseUrl}${set}/${cardNumber}_S.png`;
     }
 
@@ -148,7 +148,15 @@ function displayCards(cardsToShow) {
         cardElement.classList.add('card');
 
         // Generate the base image URL dynamically
-        const imageUrl = getImageUrl(card.setName, card.cardNumber, card.rarity, card.hasAlternativeArt);
+        const imageUrl = getImageUrl(
+    card.setName,
+    card.cardNumber,
+    card.rarity,
+    card.hasAlternativeArt,
+    card.hasFoils,
+    card.hasFullArt,
+    card.hasSigned
+    );
 
         // Create the card HTML
         cardElement.innerHTML = `
