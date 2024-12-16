@@ -69,17 +69,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned, imageSet) {
 
-         const directory = imageSet || set; // if imageSet is given, use it; otherwise fall back to set
-
+         const directory =  set; // Defaults to set
+        
         // Handle signed cards (SEC rarity)
         if (signedCheckbox.checked && hasSigned) {
             return `${baseUrl}${directory}/${cardNumber}_SEC.png`;
         }
 
         // Handle full art cards (SR rarity)
-        if (fullArtCheckbox.checked && hasFullArt) {
-            return `${baseUrl}${directory}/${cardNumber}_SR.png`;
-        }
+       if (fullArtCheckbox.checked && hasFullArt) {
+        const fullArtDirectory = imageSet || set; // use imageSet if provided, otherwise set
+        return `${baseUrl}${fullArtDirectory}/${cardNumber}_SR.png`;
+    }
 
         // Handle foil cards (S rarity)
         if (foilCheckbox.checked && hasFoils) {
