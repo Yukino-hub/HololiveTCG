@@ -160,9 +160,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 <p>Card Number: ${card.cardNumber}</p>
                 <p>Rarity: ${card.rarity}</p>
                 <div class="special-attributes">
-                    ${card.hasAlternativeArt ? `<span class="badge alt-art">Alt Art</span>` : ''}
                     ${card.hasFoils ? `<span class="badge foils">Foils</span>` : ''}
                     ${card.hasFullArt ? `<span class="badge full-art">Full Art</span>` : ''}
+                    ${card.hasAlternativeArt ? `<span class="badge alt-art">Alt Art</span>` : ''}
                     ${card.hasSigned ? `<span class="badge signed">Signed</span>` : ''}
                 </div>
             `;
