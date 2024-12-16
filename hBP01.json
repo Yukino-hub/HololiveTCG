@@ -105,7 +105,8 @@
             "power": 2,
             "description": "[Once per game] Can be used during your opponent's turn when any of your Red holomems is Downed: lose 1 less LIFE than you normally would. Then choose a holomem that was Downed and put that holomem, and all holomems stacked under it, into your hand."
         },
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasSigned" : true
     },
     {
         "cardNumber": "hBP01-007",
@@ -123,7 +124,8 @@
             "power": 2,
             "description": "[Once per game] You may use this When your blue holomen deal damage to opp's center holomen or collab holomen: deal an equal amount of special damage to one of your opponent's Back holomems."
         },
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasSigned" : true
     },
     {
         "cardNumber": "hBP01-008",
