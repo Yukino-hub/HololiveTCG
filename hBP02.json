@@ -15,8 +15,7 @@
             "power": 2,
             "description": "[Once per game] When one of your White Holomen downs an opponent’s Holomen, for every 2 Mascots attached to all of your Holomen, roll a die. If at least one odd number is rolled, your opponent loses 1 Life."
         },
-        "hasAlternativeArt": true,
-        "hasSigned" : true
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP02-002",
