@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'hY01.json'
     ];
 
-    function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned,   imageSet) {
+    function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned, imageSet) {
 
          const directory = imageSet || set; // if imageSet is given, use it; otherwise fall back to set
 
@@ -150,6 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 card.hasFoils,
                 card.hasFullArt,
                 card.hasSigned
+                card.imageSet
             );
 
             cardElement.innerHTML = `
