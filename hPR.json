@@ -15,8 +15,14 @@
                 "dmg": "10"
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom",
-        "image": "images/hPR-001.jpg"
+        "extraEffect": "This Holomen cannot be Bloom"
+    },
+
+    {
+        "cardNumber": "hBD24-001",
+        "name": "パヴォリア・レイネ",
+        "rarity": "P",
+        "hp": 50
     }
 
 
