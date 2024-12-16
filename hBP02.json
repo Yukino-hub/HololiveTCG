@@ -224,7 +224,8 @@
                 "dmg": "80+",
                 "description": "For each Mascot attached to your holomems, this Art gains +20 power."
             }
-        ]
+        ],
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP02-014",
@@ -809,7 +810,8 @@
                 "dmg": "80",
                 "description": "For each Cheer attached to your opponent's Center holomem, deal 20 special damage to your opponent's Center and Collab holomem."
             }
-        ]
+        ],
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP02-048",
@@ -1024,8 +1026,7 @@
                 "dmg": "80+"
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
     },
     {
         "cardNumber": "hBP02-061",
