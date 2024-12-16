@@ -175,7 +175,7 @@
                 "dmg": "60"
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-011",
@@ -192,7 +192,7 @@
                 "dmg": "40"
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-012",
@@ -210,7 +210,7 @@
                 "description": "The Arts of all of your holomems with a Mascot attached gain +20 power until the end of this turn."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-013",
@@ -229,7 +229,7 @@
             }
         ],
         "hasAlternativeArt": true,
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-014",
@@ -281,7 +281,7 @@
                 "dmg": "30"
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-017",
@@ -305,7 +305,7 @@
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
         "hasAlternativeArt": true,
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-018",
@@ -338,7 +338,7 @@
                 "dmg": "20"
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-020",
@@ -354,7 +354,7 @@
                 "dmg": "50"
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-021",
@@ -372,7 +372,7 @@
                 "description": "You may send 1 Cheer from your Archive to any of your holomems."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-022",
@@ -408,7 +408,7 @@
             }
         ],
         "hasAlternativeArt": true,
-        "hasFullArt" : yes
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-024",
@@ -1172,7 +1172,7 @@
                 "dmg": "80"
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-069",
@@ -1190,7 +1190,7 @@
             }
         ],
         "extraEffect": "This Holomen cannot be Bloom",
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-070",
@@ -1208,7 +1208,7 @@
             }
         ],
         "extraEffect": "This Holomen cannot be Bloom",
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-071",
@@ -1226,7 +1226,7 @@
             }
         ],
         "extraEffect": "This Holomen cannot be Bloom",
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-072",
@@ -1244,7 +1244,7 @@
             }
         ],
         "extraEffect": "This Holomen cannot be Bloom",
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-073",
@@ -1262,7 +1262,7 @@
             }
         ],
         "extraEffect": "This Holomen cannot be Bloom",
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-074",
@@ -1280,7 +1280,7 @@
             }
         ],
         "extraEffect": "This Holomen cannot be Bloom",
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-075",
@@ -1289,7 +1289,7 @@
         "rarity": "U",
         "limited": "Yes",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Art and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-076",
@@ -1297,7 +1297,7 @@
         "type": "Support (Item)",
         "rarity": "C",
         "ability": "Reveal 1 Debut holomem from your hand and put it on the bottom of your Deck. Reveal a 1st Bloom holomem (excluding Buzz holomem) from your Deck which has the same name as the Debut holomem and put it into your hand. Then shuffle your Deck.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-077",
@@ -1306,7 +1306,7 @@
         "rarity": "C",
         "limited": "Yes",
         "ability": "This card can only be played if you have 3 or less LIFE. Return 1 holomem from your Archive to your hand.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-078",
@@ -1315,7 +1315,7 @@
         "rarity": "U",
         "limited": "Yes",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <Amane Kanata>, <AZKi>, or <Sakamata Chloe> and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-079",
@@ -1324,7 +1324,7 @@
         "rarity": "U",
         "tag": "#Magic",
         "ability": "Deal 20 special damage to your opponent's Center or Collab holomem. holomems Downed with this effect do not reduce LIFE. You may only play one Event with #Magic per turn.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-080",
@@ -1333,7 +1333,7 @@
         "rarity": "U",
         "limited": "Yes",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #SecretSocietyholoX and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-081",
@@ -1342,7 +1342,7 @@
         "rarity": "U",
         "limited": "Yes",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #IDGen2 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-082",
@@ -1351,7 +1351,7 @@
         "rarity": "U",
         "limited": "Yes",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck.Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Gamers and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-083",
@@ -1360,7 +1360,7 @@
         "rarity": "U",
         "tag": "Magic",
         "ability": "To play this card, you must Archive one holo power. Send one Purple Cheer from your Archive to one of your holomems named Murasaki Shion. You may only play one Event with #Magic per turn.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-084",
@@ -1369,7 +1369,7 @@
         "rarity": "U",
         "limited": "Yes",
         "ability": "Draw 2 cards, then roll a dice. If the result is 3, 5, or 6, reveal a Debut holomem from your deck and put into your hand, then shuffle your deck. If the result is 2 or 4, draw a card.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-085",
@@ -1378,7 +1378,7 @@
         "rarity": "U",
         "limited": "Yes",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Gen3 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-086",
@@ -1386,7 +1386,7 @@
         "type": "Support (Tool)",
         "rarity": "C",
         "ability": "The Arts of the holomem with this Tool attached gain +20 power.If the holomem with this Tool attached does not have #Alcohol, whenever the holomem with this Tool attached is about to take damage, add +10 to that damage. You may only attach 1 Tool to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-087",
@@ -1394,7 +1394,7 @@
         "type": "Support (Tool)",
         "rarity": "C",
         "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later Murasaki Shion, it gains the following effect: if the holomem with this Tool attached is your Center holomem, your Oshi Skill 「ねえ゛え゛え゛え゛え゛え゛え゛」 becomes (Twice per turn) instead of (Once per turn). You may only attach 1 Tool to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-088",
@@ -1402,7 +1402,7 @@
         "type": "Support (Tool)",
         "rarity": "U",
         "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later <Mori Calliope>, it gains the following effect: when you attach this Tool to a holomem from your hand, Archive 1 card from the top of your deck. You may only attach 1 Tool to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-089",
@@ -1411,7 +1411,7 @@
         "rarity": "C",
         "tag": "#ShirakamiCharacter",
         "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect: when the holomem with this Mascot attached collabs, draw a card. You may only attach 1 Mascot to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-090",
@@ -1420,7 +1420,7 @@
         "rarity": "C",
         "tag": "#ShirakamiCharacter",
         "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect:  it gains the following effect: when the holomem with this Mascot attached is Downed, move 1 Cheer from that holomem to another of your holomems. You may only attach 1 Mascot to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-091",
@@ -1429,7 +1429,7 @@
         "rarity": "C",
         "tag": "#ShirakamiCharacter",
         "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect:  it gains the following effect: when the holomem with this Mascot attached Collabs, you may return one Mascot from your Archive to your hand. You may only attach 1 Mascot to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-092",
@@ -1438,7 +1438,7 @@
         "rarity": "U",
         "tag": "#ShirakamiCharacter",
         "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect: (Once per turn) during your Main Step, you may Archive any 2 Cheers from your holomems for the following effect: the Arts of the holomem with this Mascot attached gain +50 power until the end of this turn. You may only attach 1 Mascot to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-093",
@@ -1447,7 +1447,7 @@
         "rarity": "C",
         "tag": "#ShirakamiCharacter",
         "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect: (Back position only) the holomem with this mascot attached does not take any damage. You may only attach 1 Mascot to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-094",
@@ -1455,7 +1455,7 @@
         "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Pavolia Reine>, it gains the following effect: the holomem with this Mascot attached has +30 HP. You may only attach 1 Mascot to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-095",
@@ -1463,7 +1463,7 @@
         "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Houshou Marine>, it gains the following effect: (Center position only) when the holomem that this Mascot is attached to Blooms, draw 1 card from your Deck. You may only attach 1 Mascot to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-096",
@@ -1471,7 +1471,7 @@
         "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Sakamata Chloe>, it gains the following effect: when the holomem with this Mascot attached Downs one of your opponent's holomems, send a Cheer from your Archive to one of your holomems with #SecretSocietyholoX. You may only attach 1 Mascot to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-097",
@@ -1479,7 +1479,7 @@
         "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Kureiji Ollie>, it gains the following effect: when the holomem that this Mascot is attached to Blooms, draw 1 card from your Deck then Archive 1 card from your hand. You may only attach 1 Mascot to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-098",
@@ -1487,7 +1487,7 @@
         "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to <Mori Calliope>, it gains the following effect: the Cheer requirements of all Arts of the holomem this is attached to become Colorless. You may only attach 1 Mascot to a holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-099",
@@ -1495,7 +1495,7 @@
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "The holomem with this Fan attached has +10 HP. This Fan may only be attached to your <Shirakami Fubuki>, and you may attach any number of this Fan to one holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-100",
@@ -1503,7 +1503,7 @@
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "Whenever the holomem with this Fan attached takes damage, it takes -10 damage. This Fan may only be attached to your <Shirogane Noel>, and you may attach any number of this Fan to one holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-101",
@@ -1511,7 +1511,7 @@
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": " During your opponent's turn, when the holomem with this Fan attached is Downed, draw a card. This Fan may only be attached to your <Ookami Mio>, and you may attach any number of this Fan to one holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP02-102",
@@ -1519,7 +1519,6 @@
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "The Arts of the holomem with this Fan attached gain +10 power. When the holomem with this Fan attached takes damage, Archive this Fan. This Fan may only be attached to your <Murasaki Shion>, and you may attach any number of this Fan to one holomem.",
-        "hasFoils" : true
+        "hasFoils": true
     }
 ]
-
