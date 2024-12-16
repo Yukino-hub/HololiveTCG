@@ -175,7 +175,7 @@
                 "dmg": "60"
             }
         ],
-        "hasFullArt" : yes
+        "hasFullArt" : true
     },
     {
         "cardNumber": "hBP02-011",
@@ -192,7 +192,7 @@
                 "dmg": "40"
             }
         ],
-        "hasFullArt" : yes
+        "hasFullArt" : true
     },
     {
         "cardNumber": "hBP02-012",
@@ -210,7 +210,7 @@
                 "description": "The Arts of all of your holomems with a Mascot attached gain +20 power until the end of this turn."
             }
         ],
-        "hasFullArt" : yes
+        "hasFullArt" : true
     },
     {
         "cardNumber": "hBP02-013",
@@ -229,7 +229,7 @@
             }
         ],
         "hasAlternativeArt": true,
-        "hasFullArt" : yes
+        "hasFullArt" : true
     },
     {
         "cardNumber": "hBP02-014",
@@ -281,7 +281,7 @@
                 "dmg": "30"
             }
         ],
-        "hasFullArt" : yes
+        "hasFullArt" : true
     },
     {
         "cardNumber": "hBP02-017",
@@ -305,7 +305,7 @@
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
         "hasAlternativeArt": true,
-        "hasFullArt" : yes
+        "hasFullArt" : true
     },
     {
         "cardNumber": "hBP02-018",
@@ -338,7 +338,7 @@
                 "dmg": "20"
             }
         ],
-        "hasFullArt" : yes
+        "hasFullArt" : true
     },
     {
         "cardNumber": "hBP02-020",
@@ -354,7 +354,7 @@
                 "dmg": "50"
             }
         ],
-        "hasFullArt" : yes
+        "hasFullArt" : true
     },
     {
         "cardNumber": "hBP02-021",
@@ -372,7 +372,7 @@
                 "description": "You may send 1 Cheer from your Archive to any of your holomems."
             }
         ],
-        "hasFullArt" : yes
+        "hasFullArt" : true
     },
     {
         "cardNumber": "hBP02-022",
