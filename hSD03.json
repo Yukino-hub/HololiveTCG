@@ -155,7 +155,8 @@
                 "dmg": 100,
                 "description": "You may Archive 2 Blue Cheers from this holomem for the following effect: deal 30 special damage to your opponent's Center holomem and one of their Back holomems."
             }
-        ]
+        ],
+        "imageSet": "hBP02"
     },
     {
         "cardNumber": "hSD03-010",
