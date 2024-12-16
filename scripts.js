@@ -97,6 +97,13 @@ document.addEventListener('DOMContentLoaded', function() {
             return `${baseUrl}${directory}/${cardNumber}_${altRarity}.png`;
         }
 
+         // New condition for SY rarity if imageSet is provided
+        if (rarity === 'SY' && imageSet) {
+            // If you'd like to use imageSet directory specifically for SY rarity:
+            return `${baseUrl}${imageSet}/${cardNumber}_SY.png`;
+        }
+
+
         // Default URL for standard art
         return `${baseUrl}${directory}/${cardNumber}_${rarity}.png`;
     }
