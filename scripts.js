@@ -64,7 +64,8 @@ document.addEventListener('DOMContentLoaded', function() {
         ...Array.from({ length: 4 }, (_, i) => `hSD${(i + 1).toString().padStart(2, '0')}.json`),
         ...Array.from({ length: 2 }, (_, i) => `hBP${(i + 1).toString().padStart(2, '0')}.json`),
         'hPR.json',
-        'hY01.json'
+        'hY01.json'.
+        'hY.json'
     ];
 
     function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned, imageSet) {
