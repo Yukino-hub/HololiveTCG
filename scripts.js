@@ -54,7 +54,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const modalSkills = document.getElementById('modalSkills');
     const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardlist/";
-    
+    const fullArtCheckbox = document.getElementById('fullArtCheckbox');
+    const foilCheckbox = document.getElementById('foilCheckbox');
+    const signedCheckbox = document.getElementById('signedCheckbox');
    
     let allCardData = [];
     let filteredCardData = [];
@@ -65,14 +67,14 @@ document.addEventListener('DOMContentLoaded', function() {
     'hY01.json' // Fixed
     ];
 
-  function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned) {
+ function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned) {
     // Handle signed cards (SEC rarity)
     if (signedCheckbox.checked && hasSigned) {
         return `${baseUrl}${set}/${cardNumber}_SEC.png`;
     }
 
     // Handle full art cards (SR rarity)
-    if (fullartCheckbox.checked && hasFullArt) {
+    if (fullArtCheckbox.checked && hasFullArt) {
         return `${baseUrl}${set}/${cardNumber}_SR.png`;
     }
 
@@ -84,10 +86,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Handle alternative art cards if the checkbox is checked
     if (altArtCheckbox.checked && hasAlternativeArt) {
         const altRarityMap = {
-            OSR: 'OUR', // Example mapping
+            OSR: 'OUR',
             RR: 'UR', 
         };
-        const altRarity = altRarityMap[rarity] || rarity; // Default to original rarity if not found
+        const altRarity = altRarityMap[rarity] || rarity;
         return `${baseUrl}${set}/${cardNumber}_${altRarity}.png`;
     }
 
