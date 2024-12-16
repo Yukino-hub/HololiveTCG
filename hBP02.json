@@ -174,7 +174,8 @@
                 "name": "Thank You Friends♥",
                 "dmg": "60"
             }
-        ]
+        ],
+        "hasFullArt" : yes
     },
     {
         "cardNumber": "hBP02-011",
@@ -190,7 +191,8 @@
                 "name": "ダメですよっ！",
                 "dmg": "40"
             }
-        ]
+        ],
+        "hasFullArt" : yes
     },
     {
         "cardNumber": "hBP02-012",
@@ -207,7 +209,8 @@
                 "dmg": "50+",
                 "description": "The Arts of all of your holomems with a Mascot attached gain +20 power until the end of this turn."
             }
-        ]
+        ],
+        "hasFullArt" : yes
     },
     {
         "cardNumber": "hBP02-013",
@@ -225,7 +228,8 @@
                 "description": "For each Mascot attached to your holomems, this Art gains +20 power."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt" : yes
     },
     {
         "cardNumber": "hBP02-014",
@@ -276,7 +280,8 @@
                 "name": "目に焼き付けるんだゾ♡",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFullArt" : yes
     },
     {
         "cardNumber": "hBP02-017",
@@ -299,7 +304,8 @@
             }
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt" : yes
     },
     {
         "cardNumber": "hBP02-018",
@@ -331,7 +337,8 @@
                 "name": "Very Easy",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFullArt" : yes
     },
     {
         "cardNumber": "hBP02-020",
@@ -346,7 +353,8 @@
                 "name": "Royal Halu Sleepover",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFullArt" : yes
     },
     {
         "cardNumber": "hBP02-021",
@@ -363,7 +371,8 @@
                 "dmg": "20",
                 "description": "You may send 1 Cheer from your Archive to any of your holomems."
             }
-        ]
+        ],
+        "hasFullArt" : yes
     },
     {
         "cardNumber": "hBP02-022",
@@ -398,7 +407,8 @@
                 "description": "For each color of Cheer on your Stage, this Art gains +20 power."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt" : yes
     },
     {
         "cardNumber": "hBP02-024",
