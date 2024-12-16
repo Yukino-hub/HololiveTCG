@@ -156,7 +156,8 @@
                 "description": "You may Archive 1-3 cards from your hand for the following effect: deal 40 special damage for each card Archived to your opponent's Center holomem."
             }
         ],
-        "imageSet": "hBP02"
+        "imageSet": "hBP02",
+        "hasFullArt": yes
     },
     {
         "cardNumber": "hSD02-010",
