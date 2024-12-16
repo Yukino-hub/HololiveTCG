@@ -166,10 +166,26 @@ header a:hover {
     display: none;
 }
 
+/* Badge Styles */
 .badge {
     font-weight: bold;
 }
 
+.badge.foils {
+    color: #888888; /* Least important */
+}
+
+.badge.full-art {
+    color: #007bff; 
+}
+
+.badge.alt-art {
+    color: #9b59b6; 
+}
+
+.badge.signed { 
+    color: #e74c3c; /* Most important */
+}
 /* Loading Indicator Styles */
 #loadingIndicator {
     text-align: center;
