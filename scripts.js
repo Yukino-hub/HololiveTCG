@@ -5,7 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const seriesFilter = document.getElementById('seriesFilter');
     const rarityFilter = document.getElementById('rarityFilter');
     const bloomTypeFilter = document.getElementById('bloomTypeFilter');
-    const altArtCheckbox = document.getElementById('altArtCheckbox'); // New checkbox element
+    const altArtCheckbox = document.getElementById('altArtCheckbox');
+    const fullArtCheckbox = document.getElementById('fullArtCheckbox');
+    const foilCheckbox = document.getElementById('foilCheckbox');
+    const signedCheckbox = document.getElementById('signedCheckbox');
 
     const modal = document.getElementById('modal');
     const modalCloseIcon = document.getElementById('modalCloseIcon');
@@ -54,135 +57,118 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const modalSkills = document.getElementById('modalSkills');
     const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardlist/";
-    const fullArtCheckbox = document.getElementById('fullArtCheckbox');
-    const foilCheckbox = document.getElementById('foilCheckbox');
-    const signedCheckbox = document.getElementById('signedCheckbox');
    
     let allCardData = [];
     let filteredCardData = [];
     const seriesFiles = [
-    ...Array.from({ length: 4 }, (_, i) => `hSD${(i + 1).toString().padStart(2, '0')}.json`), // Dynamic for hSD01.json to hSD99.json
-    ...Array.from({ length: 2 }, (_, i) => `hBP${(i + 1).toString().padStart(2, '0')}.json`), // Dynamic for hBP01.json to hBP99.json
-    'hPR.json',  // Fixed
-    'hY01.json' // Fixed
+        ...Array.from({ length: 4 }, (_, i) => `hSD${(i + 1).toString().padStart(2, '0')}.json`),
+        ...Array.from({ length: 2 }, (_, i) => `hBP${(i + 1).toString().padStart(2, '0')}.json`),
+        'hPR.json',
+        'hY01.json'
     ];
 
- function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned) {
-    // Handle signed cards (SEC rarity)
-    if (signedCheckbox.checked && hasSigned) {
-        return `${baseUrl}${set}/${cardNumber}_SEC.png`;
+    function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned) {
+        // Handle signed cards (SEC rarity)
+        if (signedCheckbox.checked && hasSigned) {
+            return `${baseUrl}${set}/${cardNumber}_SEC.png`;
+        }
+
+        // Handle full art cards (SR rarity)
+        if (fullArtCheckbox.checked && hasFullArt) {
+            return `${baseUrl}${set}/${cardNumber}_SR.png`;
+        }
+
+        // Handle foil cards (S rarity)
+        if (foilCheckbox.checked && hasFoils) {
+            return `${baseUrl}${set}/${cardNumber}_S.png`;
+        }
+
+        // Handle alternative art cards if the checkbox is checked
+        if (altArtCheckbox.checked && hasAlternativeArt) {
+            const altRarityMap = {
+                OSR: 'OUR',
+                RR: 'UR', 
+            };
+            const altRarity = altRarityMap[rarity] || rarity;
+            return `${baseUrl}${set}/${cardNumber}_${altRarity}.png`;
+        }
+
+        // Default URL for standard art
+        return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
     }
-
-    // Handle full art cards (SR rarity)
-    if (fullArtCheckbox.checked && hasFullArt) {
-        return `${baseUrl}${set}/${cardNumber}_SR.png`;
-    }
-
-    // Handle foil cards (S rarity)
-    if (foilCheckbox.checked && hasFoils) {
-        return `${baseUrl}${set}/${cardNumber}_S.png`;
-    }
-
-    // Handle alternative art cards if the checkbox is checked
-    if (altArtCheckbox.checked && hasAlternativeArt) {
-        const altRarityMap = {
-            OSR: 'OUR',
-            RR: 'UR', 
-        };
-        const altRarity = altRarityMap[rarity] || rarity;
-        return `${baseUrl}${set}/${cardNumber}_${altRarity}.png`;
-    }
-
-    // Default URL for standard art
-    return `${baseUrl}${set}/${cardNumber}_${rarity}.png`;
-}
-
 
     function loadCardData() {
         loadingIndicator.style.display = 'block';
 
-          
-
-        // Combine all JSON data from the seriesFiles
-    Promise.all(seriesFiles.map(file => {
-    const setName = file.split('.')[0];  // Extract set name from file (e.g., 'hSD01' from 'hSD01.json')
-    return fetch(file)  // Fetch the file
-        .then(response => {
-            if (!response.ok) {  // Check if the response is successful (200-299)
-                //throw new Error(`File not found: ${file}`);
-            }
-            return response.json();  // Parse the response as JSON
+        Promise.all(seriesFiles.map(file => {
+            const setName = file.split('.')[0];
+            return fetch(file)
+                .then(response => {
+                    if (!response.ok) {
+                        // If file not found or error, continue with empty data
+                    }
+                    return response.json();
+                })
+                .then(data => ({ setName, data }))
+                .catch(error => {
+                    return { setName, data: [] };
+                });
+        }))
+        .then(results => {
+            allCardData = results.flatMap(result => {
+                return result.data.map(card => ({ ...card, setName: result.setName }));
+            });
+            
+            // Initially show all card data
+            filteredCardData = allCardData;
+            
+            displayCards(filteredCardData);
+            
+            loadingIndicator.style.display = 'none';
         })
-        .then(data => ({ setName, data }))  // Attach the setName to the data
         .catch(error => {
-            //console.warn(error.message);  // Log a warning if the file is not found
-            return { setName, data: [] };  // Return empty data if file is missing
+            console.error('Failed to load card data:', error);
+            loadingIndicator.style.display = 'none';
         });
-}))
-.then(results => {
-    // Combine the results into one array of cards, adding the set name to each card
-    allCardData = results.flatMap(result => {
-        return result.data.map(card => ({ ...card, setName: result.setName }));
-    });
-    
-    // Initially show all card data
-    filteredCardData = allCardData;
-    
-    // Display the cards (assuming displayCards is a function you defined)
-    displayCards(filteredCardData);
-    
-    // Hide the loading indicator
-    loadingIndicator.style.display = 'none';
-})
-.catch(error => {
-    // Handle any errors that occur during fetch
-    console.error('Failed to load card data:', error);
-    
-    // Hide the loading indicator if there's an error
-    loadingIndicator.style.display = 'none';
-});
     }
-function displayCards(cardsToShow) {
-   contentContainer.innerHTML = ''; // Clear previous cards
 
-    cardsToShow.forEach(card => {
-        const cardElement = document.createElement('div');
-        cardElement.classList.add('card');
+    function displayCards(cardsToShow) {
+        contentContainer.innerHTML = ''; // Clear previous cards
 
-        // Generate the base image URL dynamically
-        const imageUrl = getImageUrl(
-    card.setName,
-    card.cardNumber,
-    card.rarity,
-    card.hasAlternativeArt,
-    card.hasFoils,
-    card.hasFullArt,
-    card.hasSigned
-    );
+        cardsToShow.forEach(card => {
+            const cardElement = document.createElement('div');
+            cardElement.classList.add('card');
 
-        // Create the card HTML
-        cardElement.innerHTML = `
-            <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
-            <p><strong>${card.name}</strong></p>
-            <p>Card Number: ${card.cardNumber}</p>
-            <p>Rarity: ${card.rarity}</p>
-            <div class="special-attributes">
-                ${card.hasAlternativeArt ? `<span class="badge alt-art">Alt Art</span>` : ''}
-                ${card.hasFoils ? `<span class="badge foils">Foils</span>` : ''}
-                ${card.hasFullArt ? `<span class="badge full-art">Full Art</span>` : ''}
-                ${card.hasSigned ? `<span class="badge signed">Signed</span>` : ''}
-            </div>
-        `;
+            const imageUrl = getImageUrl(
+                card.setName,
+                card.cardNumber,
+                card.rarity,
+                card.hasAlternativeArt,
+                card.hasFoils,
+                card.hasFullArt,
+                card.hasSigned
+            );
 
-        // Add click event listener to open modal
-        cardElement.addEventListener('click', () => openModal(card));
+            cardElement.innerHTML = `
+                <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
+                <p><strong>${card.name}</strong></p>
+                <p>Card Number: ${card.cardNumber}</p>
+                <p>Rarity: ${card.rarity}</p>
+                <div class="special-attributes">
+                    ${card.hasAlternativeArt ? `<span class="badge alt-art">Alt Art</span>` : ''}
+                    ${card.hasFoils ? `<span class="badge foils">Foils</span>` : ''}
+                    ${card.hasFullArt ? `<span class="badge full-art">Full Art</span>` : ''}
+                    ${card.hasSigned ? `<span class="badge signed">Signed</span>` : ''}
+                </div>
+            `;
 
-        // Append the card element to the container
-        contentContainer.appendChild(cardElement);
-    });
+            cardElement.addEventListener('click', () => openModal(card));
+            contentContainer.appendChild(cardElement);
+        });
 
-    initializeLazyLoading();
-}
+        initializeLazyLoading();
+    }
+
     function initializeLazyLoading() {
         const lazyImages = document.querySelectorAll('.lazy-load');
 
@@ -208,39 +194,59 @@ function displayCards(cardsToShow) {
         });
     }
 
-  function filterCards() {
-    const searchText = searchBar.value.toLowerCase();
-    const selectedSeries = seriesFilter.value;
-    const selectedRarity = rarityFilter.value;
-    const selectedBloomType = bloomTypeFilter.value;
-    const showAltArt = altArtCheckbox.checked; // Get the checkbox state
-    console.log("Checkbox state:", showAltArt);
-    console.log("Filtered Card Data:", filteredCardData);
+    function filterCards() {
+        const searchText = searchBar.value.toLowerCase();
+        const selectedSeries = seriesFilter.value;
+        const selectedRarity = rarityFilter.value;
+        const selectedBloomType = bloomTypeFilter.value;
+        const showAltArt = altArtCheckbox.checked;
+        const showFullArt = fullArtCheckbox.checked;
+        const showFoil = foilCheckbox.checked;
+        const showSigned = signedCheckbox.checked;
+          
+        filteredCardData = allCardData.filter(card => {
+            const matchesSearch = card.name.toLowerCase().includes(searchText) || 
+                                  card.cardNumber.toLowerCase().includes(searchText) || 
+                                  (card.tag && card.tag.toLowerCase().includes(searchText));
 
-    // Filter the cards based on various criteria
-    filteredCardData = allCardData.filter(card => {
-        const matchesSearch = card.name.toLowerCase().includes(searchText) || 
-                              card.cardNumber.toLowerCase().includes(searchText) || 
-                              (card.tag && card.tag.toLowerCase().includes(searchText)); // Handle potential undefined tag
-        const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-        const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
-        const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
+            const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
+            const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
+            const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
 
-       // Adjust the alt art matching condition
-        const matchesAltArt = showAltArt ? (card.hasAlternativeArt === true) : true;
+            // If a checkbox is checked, card must have that property
+            const matchesAltArt = showAltArt ? card.hasAlternativeArt === true : true;
+            const matchesFullArt = showFullArt ? card.hasFullArt === true : true;
+            const matchesFoilCard = showFoil ? card.hasFoils === true : true;
+            const matchesSignedCard = showSigned ? card.hasSigned === true : true;
 
-        return matchesSearch && matchesSeries && matchesRarity && matchesBloomType && matchesAltArt;
-    });
+            return matchesSearch &&
+                   matchesSeries &&
+                   matchesRarity &&
+                   matchesBloomType &&
+                   matchesAltArt &&
+                   matchesFullArt &&
+                   matchesFoilCard &&
+                   matchesSignedCard;
+        });
 
-    // Call displayCards with the current filtered data and the checkbox state
-    displayCards(filteredCardData, showAltArt);
-}
+        displayCards(filteredCardData);
+    }
+
     function openModal(card) {
         const modalImageContainer = document.getElementById('modalImageContainer');
         modalImageContainer.innerHTML = '';
     
         // Generate the image URL for the modal
-        const imageUrl = getImageUrl(card.setName, card.cardNumber, card.rarity);
+        // Note: Pass all required card properties to get the correct image variant
+        const imageUrl = getImageUrl(
+            card.setName,
+            card.cardNumber,
+            card.rarity,
+            card.hasAlternativeArt,
+            card.hasFoils,
+            card.hasFullArt,
+            card.hasSigned
+        );
     
         const primaryImage = document.createElement('img');
         primaryImage.src = imageUrl;
@@ -317,7 +323,7 @@ function displayCards(cardsToShow) {
             modalSkills.classList.add('hidden');
         }
 
-         // Scroll the modal content container to the top
+        // Scroll the modal content container to the top
         const modalContent = document.querySelector('#modal .modal-content');
         if (modalContent) {
             modalContent.scrollTop = 0;
@@ -332,7 +338,6 @@ function displayCards(cardsToShow) {
         modal.style.display = 'none';
     }
 
-    // Ensure the close icon works
     if (modalCloseIcon) {
         modalCloseIcon.addEventListener('click', closeModal);
     }
@@ -345,25 +350,21 @@ function displayCards(cardsToShow) {
         }
     }
 
-// Add the event listener for the alternative art checkbox here
-altArtCheckbox.addEventListener('change', () => {
-    filterCards(); // Call filterCards to reapply all filters
-});
+    altArtCheckbox.addEventListener('change', filterCards);
+    signedCheckbox.addEventListener('change', filterCards);
+    foilCheckbox.addEventListener('change', filterCards);
+    fullArtCheckbox.addEventListener('change', filterCards);
 
-// Event listeners for other filters
-searchBar.addEventListener('input', filterCards);
-seriesFilter.addEventListener('change', filterCards);
-rarityFilter.addEventListener('change', filterCards);
-bloomTypeFilter.addEventListener('change', filterCards);
+    searchBar.addEventListener('input', filterCards);
+    seriesFilter.addEventListener('change', filterCards);
+    rarityFilter.addEventListener('change', filterCards);
+    bloomTypeFilter.addEventListener('change', filterCards);
 
-
-    // Close modal
     modal.addEventListener('click', (event) => {
         if (event.target === modal) {
             modal.style.display = 'none';
         }
     });
 
-    // Initial load
     loadCardData();
 });
