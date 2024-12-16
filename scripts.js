@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 card.hasAlternativeArt,
                 card.hasFoils,
                 card.hasFullArt,
-                card.hasSigned
+                card.hasSigned,
                 card.imageSet
             );
 
