@@ -166,6 +166,10 @@ header a:hover {
     display: none;
 }
 
+.badge {
+    font-weight: bold;
+}
+
 /* Loading Indicator Styles */
 #loadingIndicator {
     text-align: center;
