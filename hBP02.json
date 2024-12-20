@@ -231,7 +231,8 @@
                 "description": "For each Mascot attached to your holomems, this Art gains +20 power."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-014",
@@ -307,7 +308,8 @@
             }
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-018",
@@ -410,7 +412,8 @@
                 "description": "For each color of Cheer on your Stage, this Art gains +20 power."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-024",
@@ -481,7 +484,8 @@
             }
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-028",
@@ -585,7 +589,8 @@
                 "description": "For each holomem stacked under this one, this Art gains +20 power."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-034",
@@ -608,7 +613,8 @@
             }
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-035",
@@ -710,7 +716,8 @@
                 "description": "You may reveal the top 3 cards of your deck. For each holomem revealed, this Art gains +20 power. Then Archive the revealed cards."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-041",
@@ -730,7 +737,8 @@
             }
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-042",
@@ -835,7 +843,8 @@
                 "description": "For each Cheer attached to your opponent's Center holomem, deal 20 special damage to your opponent's Center and Collab holomem."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-048",
@@ -940,7 +949,8 @@
                 "description": "If there are at least 2 2nd Bloom holomems with #IDGen2 on your Stage, this Art gains +40 power."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-054",
@@ -1043,7 +1053,8 @@
                 "description": "If you have 4 or more holomems with #Myth in your Archive, this Art gains +40 power. If you have 8 or more, this Art gains another +40 power."
             }
         ],
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-060",
@@ -1129,7 +1140,8 @@
             }
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP02-065",
