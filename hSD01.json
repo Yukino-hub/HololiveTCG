@@ -263,7 +263,7 @@
         "cardNumber": "hSD01-016",
         "name": "Harusaki Nodoka",
         "rarity": "C",
-        "type": "Support",
+        "type": "Support (Staff)",
         "limited": true,
         "ability": "Draw 3 cards from your Deck"
     },
@@ -271,7 +271,7 @@
         "cardNumber": "hSD01-017",
         "name": "Manechan",
         "rarity": "C",
-        "type": "Support",
+        "type": "Support (Staff)",
         "limited": true,
         "ability": "You can only use this card if you have at least one other card in your hand besides this one. Return all cards in your hand to your deck and shuffle. Then, draw 5 cards from your deck."
     },
@@ -279,14 +279,14 @@
         "cardNumber": "hSD01-018",
         "name": "SubComputer",
         "rarity": "C",
-        "type": "Support",
+        "type": "Support (Item)",
         "ability": "Look at the top 5 cards of your deck. Reveal one LIMITED support card from among them and add it to your hand. Then return the remaining cards to the bottom of your deck in any order."
     },
     {
         "cardNumber": "hSD01-019",
         "name": "SuperComputer",
         "rarity": "C",
-        "type": "Support",
+        "type": "Support (Item)",
         "limited": true,
         "ability": "You can only use this card if you archive one of your cheers. Reveal one [1st Holomen or 2nd Holomen] card, excluding Buzz, from your deck and add it to your hand. Then shuffle your deck."
     },
@@ -294,14 +294,14 @@
         "cardNumber": "hSD01-020",
         "name": "ホロリスの輪",
         "rarity": "C",
-        "type": "Support",
+        "type": "Support (Event)",
         "ability": "Roll a die once: If the result is 3 or higher, send one cheer card from your archive to your Holomen"
     },
     {
         "cardNumber": "hSD01-021",
         "name": "First Gravity",
         "rarity": "C",
-        "type": "Support",
+        "type": "Support (Event)",
         "limited" : true,
         "ability": "You can only use this card if you have 6 or fewer cards in your hand, excluding this one. Look at the top 4 cards of your deck. Reveal any number of 'Tokino Sora' and 'AZKI' cards from among them and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order."
     }
