@@ -1737,7 +1737,7 @@
     {
         "cardNumber": "hBP01-102",
         "name": "アイドルマイク(Idol Mic)",
-        "type": "Support",
+        "type": "Support (Item)",
         "rarity": "U",
         "limited": "Yes",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of holomems that contains #Song and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
@@ -1745,7 +1745,7 @@
     {
         "cardNumber": "hBP01-103",
         "name": "ゲーミングパソコン(Gaming PC)",
-        "type": "Support",
+        "type": "Support (Item)",
         "rarity": "U",
         "limited": "Yes",
         "ability": "To play this card, you must Archive one holopower. Reveal a Debut or 1st Bloom holomem from your deck (excluding Buzz holomem) that is the same color as your oshi holomem, and put it into your hand. Then shuffle your deck."
@@ -1753,14 +1753,14 @@
     {
         "cardNumber": "hBP01-104",
         "name": "ふつうのパソコン (Ordinary PC)",
-        "type": "Support",
+        "type": "Support (Item)",
         "rarity": "C",
         "ability": "Reveal a Debut Holomen from your deck and put it on the stage. Then, shuffle the deck."
     },
     {
         "cardNumber": "hBP01-105",
         "name": "ペンライト (Penlight)",
-        "type": "Support",
+        "type": "Support (Item)",
         "rarity": "U",
         "limited": "Yes",
         "ability": "You can only use this card if you archive 1 of your Holo Power cards.Reveal 1 Cheer card from your Cheer Deck that matches the color of one of your Holomen and send it to that Holomen. Then shuffle your Cheer Deck."
@@ -1768,7 +1768,7 @@
     {
         "cardNumber": "hBP01-106",
         "name": "あとは任せた！(I'll leave it to you!)",
-        "type": "Support",
+        "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
         "ability": "Switch your Center holomem with one of your Back holomems who is not resting."
@@ -1776,14 +1776,14 @@
     {
         "cardNumber": "hBP01-107",
         "name": "アンコール(Encore)",
-        "type": "Support",
+        "type": "Support (Event)",
         "rarity": "C",
         "ability": "Shuffle 1-3 Cheers from your Archive into your Cheer Deck.."
     },
     {
         "cardNumber": "hBP01-108",
         "name": "じゃあ敵だね (So, you're the enemy)",
-        "type": "Support",
+        "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
         "ability": "Switch your opponent's Center Holomen with one of their Back Holomen."
@@ -1791,7 +1791,7 @@
     {
         "cardNumber": "hBP01-109",
         "name": "月と兎の物語 (Story of the Moon and the Rabbit)",
-        "type": "Support",
+        "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
         "ability": "You can only use this card if your hand, excluding this card, has 6 or fewer cards. Look at the top 4 cards of your deck. From those, reveal any number of <Usada Pekora> and <Moona Hoshinova> cards, and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order."
@@ -1799,7 +1799,7 @@
     {
         "cardNumber": "hBP01-110",
         "name": "鈍器でぶっ叩くわよ! (Club 'em into nothingness!)",
-        "type": "Support",
+        "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
         "ability": "Roll a die: If the result is 3 or less, archive 1 of the opponent's Holomen's Cheers. If your Oshi Holomen is <Nanashi Mumei>, you may change the ability [Once per game] Archive 2 of the opponent's Center Holomen's Cheers."
@@ -1807,7 +1807,7 @@
     {
         "cardNumber": "hBP01-111",
         "name": "ホロライブインドネシア3期生 (hololive ID 3rd Generation)",
-        "type": "Support",
+        "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.Look at the top four cards of your Deck. Reveal any number of them that are holomems with #IDGen3 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
@@ -1815,105 +1815,105 @@
     {
         "cardNumber": "hBP01-112",
         "name": "わくわくいたずらタイム(Exciting Prank Time)",
-        "type": "Support",
+        "type": "Support (Event)",
         "rarity": "U",
         "ability": "Roll a dice. If the result is 4 or more, deal 20 special damage to one of your opponent's Back holomems. (holomems Downed with this effect do not reduce LIFE)"
     },
     {
         "cardNumber": "hBP01-113",
         "name": "Promise",
-        "type": "Support",
+        "type": "Support (Event)",
         "rarity": "U",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Promise and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
     },
     {
         "cardNumber": "hBP01-114",
         "name": "Stone Axe",
-        "type": "Support",
+        "type": "Support (Tool)",
         "rarity": "C",
         "ability": "The holomem with this Tool attached gains +20 power to their Arts. When the holomem with this Tool attached uses an Art, that holomem receives 10 special damage. If this is attached to a 1st Bloom or later <Aki Rosenthal>, it gains the following effect: (once per turn) when this holomem has their HP restored, draw 1 card from your Deck. Each Holomen can have only one tool attached."
     },
     {
         "cardNumber": "hBP01-115",
         "name": "星街すいせいのマイク (Suisei's Mic)",
-        "type": "Support",
+        "type": "Support (Tool)",
         "rarity": "U",
         "ability": "This tool provides the attached Holomen with +10 Arts.If attached to a <Hoshimachi Suisei> of 1st or higher, add the following ability: When the Holomen with this tool causes an opponent's Holomen to be knocked out, send 1 card from the top of your Cheer Deck to this Holomen. Each Holomen can have only one tool attached."
     },
     {
         "cardNumber": "hBP01-116",
         "name": " うぱお (Upao)",
-        "type": "Support",
+        "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "This mascot provides the attached Holomen with +10 Arts.If attached to a <Amane Kanata>, add the following ability:  (Once per turn) During your opponent's turn, when the holomem with this mascot attached takes damage, deal 20 special damage to your opponent's Center holomem. Each holomen can only have one mascot attached."
     },
     {
         "cardNumber": "hBP01-117",
         "name": " フレンド (Friend)",
-        "type": "Support",
+        "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "This mascot provides the attached Holomen with +10 Arts.If attached to a <Nanashi Mumei>, add the following ability:  ring your opponent's turn, when the holomem with this Mascot attached takes damage, you may Archive this mascot to reduce that damage by 30. Each holomen can only have one mascot attached."
     },
     {
         "cardNumber": "hBP01-118",
         "name": "あん肝 (Ankimo)",
-        "type": "Support",
+        "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Tokino Sora>, add the following ability: When the Holomen attached to this mascot uses an arts ability, this mascot is also treated as a cheer card. Each Holomen can have only one mascot attached."
     },
     {
         "cardNumber": "hBP01-119",
         "name": "ジョブズ (Jobz)",
-        "type": "Support",
+        "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Aki Rosenthal>, add the following ability: When the Hololive member with this mascot uses an art, restore 10 HP to one of your Hololive members. Each Holomen can have only one mascot attached."
     },
     {
         "cardNumber": "hBP01-120",
         "name": "がんも (Ganmo)",
-        "type": "Support",
+        "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "This mascot grants the Holomen it is attached to +10 Arts. If attached to <Takane Lui>, add the following ability: When the Holomen with this mascot uses an Arts in the Center Position, draw 1 card from your deck. Each Holomen can have only one mascot attached."
     },
     {
         "cardNumber": "hBP01-121",
         "name": "Katori",
-        "type": "Support",
+        "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "Whenever the holomem with this Mascot attached takes damage while in the Center or Collab position, it takes -10 damage.If this is attached to <Takanashi Kiara>, it gains the following effect: when the Bloom level of the holomem that this Mascot is attached to increases, draw 1 card from your Deck. Each Holomen can have only one mascot attached."
     },
     {
         "cardNumber": "hBP01-122",
         "name": "ロゼ隊 (Rose Corps)",
-        "type": "Support",
+        "type": "Support (Fan)",
         "rarity": "C",
         "ability": "During the opponent's turn, when the Hololive member with this fan attached is knocked down, send the top card from your cheer deck to own <Aki Rosenthal>' This fan can only be attached to your <Aki Rosenthal> and any number of them can be attached to one Holomen."
     },
     {
         "cardNumber": "hBP01-123",
         "name": "野うさぎ同盟 (Nousagi Alliance)",
-        "type": "Support",
+        "type": "Support (Fan)",
         "rarity": "C",
         "ability": "When the Holomen with this fan attached rolls a die as part of an ability, you may archive this fan: Reroll the die once. This fan can only be attached to own <Usada Pekora> and any number of them can be attached to one Holomen."
     },
     {
         "cardNumber": "hBP01-124",
         "name": "開拓者 (pioneer)",
-        "type": "Support",
+        "type": "Support (Fan)",
         "rarity": "C",
         "ability": "During your opponent's turn, when the Holomen attached to this fan is knocked down, you may transfer 1 cheer card from the Holomen attached to this fan to another one of your Holomen. This fan can only be attached to own <AZKi> and any number of them can be attached to one Holomen."
     },
     {
         "cardNumber": "hBP01-125",
         "name": "KFP",
-        "type": "Support",
+        "type": "Support (Fan)",
         "rarity": "C",
         "ability": "When you attach this Fan from your hand to a holomem, you may Archive 1 card from your hand for the following effect: draw 1 card from your Deck. This fan can only be attached to own <Takanashi Kiara> and any number of them can be attached to one Holomen."
     },
     {
         "cardNumber": "hBP01-126",
         "name": "座員 (Zain)",
-        "type": "Support",
+        "type": "Support (Fan)",
         "rarity": "C",
         "ability": "When the Holomen with this Fan uses Arts, this Fan is also treated as an Red Cheer.The Holomen with this Fan takes +10 damage. This Fan can only be attached to own <Omaru Polka> and any number of them can be attached to one Holomen."
     }
