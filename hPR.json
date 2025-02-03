@@ -1,6 +1,4 @@
 [
-
-
     {
         "cardNumber": "hPR-001",
         "name": "Sakura Miko",
@@ -16,19 +14,17 @@
             }
         ],
         "extraEffect": "This Holomen cannot be Bloom",
-        "source" : "Sakura Miko first album 'flower rhapsody' limited edition"
+        "source": "Sakura Miko first album 'flower rhapsody' limited edition"
     },
-
-     {
+    {
         "cardNumber": "hPR-002",
         "name": "ReGLOSS",
         "type": "Support (Event)",
         "rarity": "P",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #ReGLOSS and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "limited": "Yes",
-        "source" : "ReGLOSS first album 'ReGLOSS' CD bonus" 
+        "source": "ReGLOSS first album 'ReGLOSS' CD bonus"
     },
-
     {
         "cardNumber": "hBD24-001",
         "name": "パヴォリア・レイネ",
@@ -45,9 +41,6 @@
             "power": 2,
             "description": "[Once per game] Reveal 1 Green holomem from your deck and put it into your hand. Then shuffle your deck."
         },
-        "source" : "Pavolia Reine 2024 birthday merch full set bonus" 
-    },
-
-
-
+        "source": "Pavolia Reine 2024 birthday merch full set bonus"
+    }
 ]
