@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const fullArtCheckbox = document.getElementById('fullArtCheckbox');
     const foilCheckbox = document.getElementById('foilCheckbox');
     const signedCheckbox = document.getElementById('signedCheckbox');
+    const grandprixCheckbox = document.getElementById('grandprixCheckbox');
 
     const modal = document.getElementById('modal');
     const modalCloseIcon = document.getElementById('modalCloseIcon');
@@ -89,6 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (foilCheckbox.checked && hasFoils) {
             return `${baseUrl}${directory}/${cardNumber}_S.png`;
         }
+        
 
         // Handle alternative art cards if the checkbox is checked
         if (altArtCheckbox.checked && hasAlternativeArt) {
@@ -98,6 +100,12 @@ document.addEventListener('DOMContentLoaded', function() {
             };
             const altRarity = altRarityMap[rarity] || rarity;
             return `${baseUrl}${directory}/${cardNumber}_${altRarity}.png`;
+        }
+
+           // Handle Grandprix art cards if the checkbox is checked
+        if (grandprixCheckbox.checked && gasGrandprix) {
+            const GrandprixDir = "hPR" || set; // use GrandprixDir if provided, otherwise set
+        return `${baseUrl}${GrandprixDir}/${cardNumber}_P.png`;
         }
 
          // New condition for SY rarity if imageSet is provided
@@ -218,7 +226,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const showFullArt = fullArtCheckbox.checked;
         const showFoil = foilCheckbox.checked;
         const showSigned = signedCheckbox.checked;
-          
+        const showGrandprix = grandprixCheckbox.checked;
+ 
         filteredCardData = allCardData.filter(card => {
             const matchesSearch = card.name.toLowerCase().includes(searchText) || 
                                   card.cardNumber.toLowerCase().includes(searchText) || 
@@ -233,6 +242,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const matchesFullArt = showFullArt ? card.hasFullArt === true : true;
             const matchesFoilCard = showFoil ? card.hasFoils === true : true;
             const matchesSignedCard = showSigned ? card.hasSigned === true : true;
+            const matchesGrandprix = showGrandprix? card.hasGrandprix === 'yes': true;
 
             return matchesSearch &&
                    matchesSeries &&
@@ -241,7 +251,8 @@ document.addEventListener('DOMContentLoaded', function() {
                    matchesAltArt &&
                    matchesFullArt &&
                    matchesFoilCard &&
-                   matchesSignedCard;
+                   matchesSignedCard && 
+                   matchesGrandprix;
         });
 
         displayCards(filteredCardData);
@@ -371,6 +382,7 @@ document.addEventListener('DOMContentLoaded', function() {
     signedCheckbox.addEventListener('change', filterCards);
     foilCheckbox.addEventListener('change', filterCards);
     fullArtCheckbox.addEventListener('change', filterCards);
+    grandprixCheckbox.addEventListener('change', filterCards);
 
     searchBar.addEventListener('input', filterCards);
     seriesFilter.addEventListener('change', filterCards);
