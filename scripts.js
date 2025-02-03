@@ -274,6 +274,7 @@ document.addEventListener('DOMContentLoaded', function() {
             card.hasFoils,
             card.hasFullArt,
             card.hasSigned,
+            card.imageSet,
             card.hasGrandPrix
         );
     
