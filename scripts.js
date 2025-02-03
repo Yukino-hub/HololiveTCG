@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'hY.json'
     ];
 
-    function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned, imageSet) {
+    function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned, imageSet, hasGrandPrix) {
 
          const directory =  set; // Defaults to set
         
