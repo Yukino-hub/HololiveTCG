@@ -169,7 +169,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 card.hasFoils,
                 card.hasFullArt,
                 card.hasSigned,
-                card.imageSet
+                card.imageSet,
+                card.hasGrandPrix
             );
 
             cardElement.innerHTML = `
@@ -182,6 +183,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     ${card.hasFullArt ? `<span class="badge full-art">Full Art</span>` : ''}
                     ${card.hasAlternativeArt ? `<span class="badge alt-art">Alt Art</span>` : ''}
                     ${card.hasSigned ? `<span class="badge signed">Signed</span>` : ''}
+                    ${card.hasGrandPrix ? `<span class="badge GrandPrix">GrandPrix</span>` : ''}
                 </div>
             `;
 
@@ -242,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const matchesFullArt = showFullArt ? card.hasFullArt === true : true;
             const matchesFoilCard = showFoil ? card.hasFoils === true : true;
             const matchesSignedCard = showSigned ? card.hasSigned === true : true;
-            const matchesGrandprix = showGrandprix? card.hasGrandprix === 'yes': true;
+            const matchesGrandPrix = showGrandprix? card.hasGrandPrix === true : true;
 
             return matchesSearch &&
                    matchesSeries &&
@@ -252,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
                    matchesFullArt &&
                    matchesFoilCard &&
                    matchesSignedCard && 
-                   matchesGrandprix;
+                   matchesGrandPrix;
         });
 
         displayCards(filteredCardData);
@@ -271,7 +273,8 @@ document.addEventListener('DOMContentLoaded', function() {
             card.hasAlternativeArt,
             card.hasFoils,
             card.hasFullArt,
-            card.hasSigned
+            card.hasSigned,
+            card.hasGrandPrix
         );
     
         const primaryImage = document.createElement('img');
