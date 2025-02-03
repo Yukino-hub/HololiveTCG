@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function() {
         modalBloomEffect.textContent = card.bloomEffect || '';
         modalGiftEffect.textContent = card.giftEffect || '';
         modalExtraEffect.textContent = card.extraEffect || '';
-        modalSources.textContent = card.source || '';
+        .textContent = card.source || '';
 
         // Toggle visibility based on content
         toggleVisibility(modalCardNumberContainer, card.cardNumber);
@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
         toggleVisibility(modalBloomEffectContainer, card.bloomEffect);
         toggleVisibility(modalGiftEffectContainer, card.giftEffect);
         toggleVisibility(modalExtraEffectContainer, card.extraEffect);
-        toggleVisibility(modalSourcesContainer, card.extraEffect);
+        toggleVisibility(modalSourcesContainer, card.source);
         
         // Oshi Skill
         if (card.oshiSkill) {
