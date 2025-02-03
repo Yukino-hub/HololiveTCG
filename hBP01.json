@@ -69,7 +69,8 @@
             "power": 3,
             "description": "[Once per game] During this turn, treat all as if they had rolled 6"
         },
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasGrandPrix" : true
     },
     {
         "cardNumber": "hBP01-005",
