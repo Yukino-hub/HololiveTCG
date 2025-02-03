@@ -845,7 +845,8 @@
         ],
         "hasAlternativeArt": true,
         "hasFullArt": true,
-        "hasGrandPrix" : true
+        "hasGrandPrix" : true,
+        "source" : "Top 8 WGP2025"
     },
     {
         "cardNumber": "hBP02-048",
