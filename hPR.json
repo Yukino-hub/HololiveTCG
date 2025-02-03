@@ -26,15 +26,6 @@
         "source": "ReGLOSS first album 'ReGLOSS' CD bonus",
         "image" : "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hPR-002.png"
     },
-     {
-        "cardNumber": "hPR-002",
-        "name": "ReGLOSS",
-        "type": "Support (Event)",
-        "rarity": "P",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #ReGLOSS and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
-        "limited": "Yes",
-        "source": "ReGLOSS first album 'ReGLOSS' CD bonus"
-    },
     {
         "cardNumber": "hBD24-001",
         "name": "Pavolia Reine",
