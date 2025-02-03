@@ -844,7 +844,8 @@
             }
         ],
         "hasAlternativeArt": true,
-        "hasFullArt": true
+        "hasFullArt": true,
+        "hasGrandPrix" : true
     },
     {
         "cardNumber": "hBP02-048",
