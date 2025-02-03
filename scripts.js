@@ -29,7 +29,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalBloomEffectContainer = document.getElementById('modalBloomEffectContainer');
     const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
     const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
-
+    const modalSourcesContainer = document.getElementById('modalSourcesContainer');
+    
     const modalCardNumber = document.getElementById('modalCardNumber');
     const modalCardTags = document.getElementById('modalCardTags');
     const modalRarity = document.getElementById('modalRarity');
@@ -44,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalBloomEffect = document.getElementById('modalBloomEffect');
     const modalGiftEffect = document.getElementById('modalGiftEffect');
     const modalExtraEffect = document.getElementById('modalExtraEffect');
+    const modalSources = document.getElementById('modalSources');
 
     const modalOshiSkill = document.getElementById('modalOshiSkill');
     const modalOshiSkillName = document.getElementById('modalOshiSkillName');
@@ -282,6 +284,7 @@ document.addEventListener('DOMContentLoaded', function() {
         modalBloomEffect.textContent = card.bloomEffect || '';
         modalGiftEffect.textContent = card.giftEffect || '';
         modalExtraEffect.textContent = card.extraEffect || '';
+        modalSources.textContent = card.source || '';
 
         // Toggle visibility based on content
         toggleVisibility(modalCardNumberContainer, card.cardNumber);
@@ -298,7 +301,8 @@ document.addEventListener('DOMContentLoaded', function() {
         toggleVisibility(modalBloomEffectContainer, card.bloomEffect);
         toggleVisibility(modalGiftEffectContainer, card.giftEffect);
         toggleVisibility(modalExtraEffectContainer, card.extraEffect);
-
+        toggleVisibility(modalSourcesContainer, card.extraEffect);
+        
         // Oshi Skill
         if (card.oshiSkill) {
             modalOshiSkill.classList.remove('hidden');
