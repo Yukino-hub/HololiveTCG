@@ -23,11 +23,21 @@
         "rarity": "P",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #ReGLOSS and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "limited": "Yes",
+        "source": "ReGLOSS first album 'ReGLOSS' CD bonus",
+        "image" : "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hPR-002.png"
+    },
+     {
+        "cardNumber": "hPR-002",
+        "name": "ReGLOSS",
+        "type": "Support (Event)",
+        "rarity": "P",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #ReGLOSS and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
+        "limited": "Yes",
         "source": "ReGLOSS first album 'ReGLOSS' CD bonus"
     },
     {
         "cardNumber": "hBD24-001",
-        "name": "パヴォリア・レイネ",
+        "name": "Pavolia Reine",
         "rarity": "P",
         "lives": 5,
         "color": "Green",
@@ -45,7 +55,7 @@
     },
      {
         "cardNumber": "hBD24-002",
-        "name": "獅白ぼたん",
+        "name": "Shishiro Botan",
         "rarity": "P",
         "lives": 5,
         "color": "White",
@@ -63,7 +73,7 @@
     },
     {
         "cardNumber": "hBD24-003",
-        "name": "戌神ころね",
+        "name": "Inugami Korone",
         "rarity": "P",
         "lives": 5,
         "color": "White",
@@ -81,7 +91,7 @@
     },
      {
         "cardNumber": "hBD24-004",
-        "name": "白上フブキ",
+        "name": "Shirakami Fubuki",
         "rarity": "P",
         "lives": 5,
         "color": "White",
@@ -99,7 +109,7 @@
     },
     {
         "cardNumber": "hBD24-005",
-        "name": "姫森ルーナ",
+        "name": "Himemori Luna",
         "rarity": "P",
         "lives": 5,
         "color": "White",
@@ -117,7 +127,7 @@
     },
     {
         "cardNumber": "hBD24-006",
-        "name": "クレイジー・オリー",
+        "name": "Kureiji Ollie",
         "rarity": "P",
         "lives": 5,
         "color": "Purple",
@@ -135,7 +145,7 @@
     },
      {
         "cardNumber": "hBD24-007",
-        "name": "ジジ・ムリン",
+        "name": "Gigi Murin",
         "rarity": "P",
         "lives": 5,
         "color": "Yellow",
@@ -153,45 +163,7 @@
     },
         {
         "cardNumber": "hBD24-008",
-        "name": "ベスティア・ゼータ",
-        "rarity": "P",
-        "lives": 5,
-        "color": "White",
-        "oshiSkill": {
-            "name": "White Enhance",
-            "power": 2,
-            "description": "[Once per turn] One of your Yellow holomems' Arts gains +20 power until the end of this turn.."
-        },
-        "spOshiSkill": {
-            "name": "Birthday Gift ～White～",
-            "power": 2,
-            "description": "[Once per game] Reveal 1 White holomem from your deck and put it into your hand. Then shuffle your deck."
-        },
-        "source": "Vestia Zeta 2024 birthday merch full set bonus"
-    },
-
-     {
-        "cardNumber": "hBD24-008",
-        "name": "ベスティア・ゼータ",
-        "rarity": "P",
-        "lives": 5,
-        "color": "White",
-        "oshiSkill": {
-            "name": "White Enhance",
-            "power": 2,
-            "description": "[Once per turn] One of your Yellow holomems' Arts gains +20 power until the end of this turn.."
-        },
-        "spOshiSkill": {
-            "name": "Birthday Gift ～White～",
-            "power": 2,
-            "description": "[Once per game] Reveal 1 White holomem from your deck and put it into your hand. Then shuffle your deck."
-        },
-        "source": "Vestia Zeta 2024 birthday merch full set bonus"
-    },
-    
-     {
-        "cardNumber": "hBD24-008",
-        "name": "ベスティア・ゼータ",
+        "name": "Vestia Zeta",
         "rarity": "P",
         "lives": 5,
         "color": "White",
@@ -209,7 +181,7 @@
     },
     {
         "cardNumber": "hBD24-009",
-        "name": "セシリア・イマーグリーン",
+        "name": "Cecilia Immergreen",
         "rarity": "P",
         "lives": 5,
         "color": "Green",
@@ -227,7 +199,7 @@
     },
       {
         "cardNumber": "hBD24-010",
-        "name": "雪花ラミィ",
+        "name": "Yukihana Lamy",
         "rarity": "P",
         "lives": 5,
         "color": "Blue",
@@ -242,5 +214,203 @@
             "description": "[Once per game] Reveal 1 Blue holomem from your deck and put it into your hand. Then shuffle your deck."
         },
         "source": "Yukihana Lamy 2024 birthday merch full set bonus"
+    },
+      {
+        "cardNumber": "hBD24-011",
+        "name": "Nerissa Ravencroft",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Purple",
+        "oshiSkill": {
+            "name": "Purple Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Purple holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ～Purple～",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Purple holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Nerissa Ravencroft 2024 birthday merch full set bonuss"
+    },
+        {
+        "cardNumber": "hBD24-012",
+        "name": "Shirogane Noel",
+        "rarity": "P",
+        "lives": 5,
+        "color": "White",
+        "oshiSkill": {
+            "name": "White Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your White holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ～White～",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 White holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Shirogane Noel 2024 birthday merch full set bonus"
+    },
+    {
+        "cardNumber": "hBD24-013",
+        "name": "Murasaki Shion",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Purple",
+        "oshiSkill": {
+            "name": "Purple Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Purple holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ～Purple～",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Purple holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Murasaki Shion 2024 birthday merch full set bonuss"
+    },
+    {
+        "cardNumber": "hBD24-014",
+        "name": "Kobo Kanaeru",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Blue",
+        "oshiSkill": {
+            "name": "Blue Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Blue holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ～Blue～",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Blue holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Kobo Kanaeru 2024 birthday merch full set bonuss"
+    },
+     {
+        "cardNumber": "hBD24-015",
+        "name": "Nakiri Ayame",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Red",
+        "oshiSkill": {
+            "name": "Red Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Red holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Red~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Red holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Nakiri Ayame 2024 birthday merch full set bonus"
+    },
+     {
+        "cardNumber": "hBD24-016",
+        "name": "Sakamata Chloe",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Blue",
+        "oshiSkill": {
+            "name": "Blue Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Blue holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Anniversary Gift ~Blue~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Blue holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Sakamata Chloe 3rd anniversary merch full set bonus"
+    },
+    {
+        "cardNumber": "hBD24-017",
+        "name": "Usada Pekora",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Green",
+        "oshiSkill": {
+            "name": "Green Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Green holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ～Green～",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Green holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Usada Pekora 2025 birthday merch full set bonus"
+    },
+        {
+        "cardNumber": "hBD24-018",
+        "name": "Ayunda Risu",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Yellow",
+        "oshiSkill": {
+            "name": "Yellow Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Yellow holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ～Yellow～",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Yellow holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Ayunda Risu 2024 birthday merch full set bonus"
+    },
+           {
+        "cardNumber": "hBD24-019",
+        "name": "Omaru Polka",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Red",
+        "oshiSkill": {
+            "name": "Red Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Red holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Red~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Red holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Omaru Polka 2024 birthday merch full set bonus"
+    },
+   {
+        "cardNumber": "hBD24-020",
+        "name": "Fuwawa Abyssgard",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Blue",
+        "oshiSkill": {
+            "name": "Blue Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Blue holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Blue~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Blue holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Fuwawa Abyssgard 2025 birthday merch full set bonus"
+    },
+      {
+        "cardNumber": "hBD24-021",
+        "name": "Mococo Abyssgard",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Red",
+        "oshiSkill": {
+            "name": "Red Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Red holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Red~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Red holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Mococo Abyssgard 2025 birthday merch full set bonus"
     }
 ]
