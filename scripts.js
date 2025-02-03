@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function() {
         modalBloomEffect.textContent = card.bloomEffect || '';
         modalGiftEffect.textContent = card.giftEffect || '';
         modalExtraEffect.textContent = card.extraEffect || '';
-        .textContent = card.source || '';
+        modalSources.textContent = card.source || '';
 
         // Toggle visibility based on content
         toggleVisibility(modalCardNumberContainer, card.cardNumber);
