@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
            // Handle Grandprix art cards if the checkbox is checked
         if (grandprixCheckbox.checked && hasGrandPrix) {
-            const GrandprixDir = "hPR" || set; // use GrandprixDir if provided, otherwise set
+        const GrandprixDir = "hPR" || set; // use GrandprixDir if provided, otherwise set
         return `${baseUrl}${GrandprixDir}/${cardNumber}_P.png`;
         }
 
