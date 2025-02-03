@@ -70,7 +70,8 @@
             "description": "[Once per game] During this turn, treat all as if they had rolled 6"
         },
         "hasAlternativeArt": true,
-        "hasGrandPrix" : true
+        "hasGrandPrix" : true,
+        "source": "Top 4 WGP2025"
     },
     {
         "cardNumber": "hBP01-005",
