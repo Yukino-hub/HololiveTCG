@@ -129,21 +129,23 @@
         "hasAlternativeArt": true,
         "hasSigned" : true
     },
-    {
+      {
         "cardNumber": "hBP03-008",
         "name": "",
-        "rarity": "U",
-        "bloomLevel": "Debut",
-        "hp": 100,
-        "color": "White",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
-        "skills": [
-            {
-                "name": "こんこんきーつね！",
-                "dmg": "30"
-            }
-        ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "Purple",
+        "oshiSkill": {
+            "name": "サンプリング (\"Sampling\")",
+            "power": 2,
+            "description": "[Once per turn] Archive 2 cards from your hand, and return 2 holomems with #EN from your Archive to your hand."
+        },
+        "spOshiSkill": {
+            "name": "死神ラップ  (\"Shinigami Rap\")",
+            "power": 2,
+            "description": "[Once per game] If your center Holomen is <Mori Calliope>, you can use this ability: For the duration of this turn, your <Mori Calliope> can use the same Arts twice, once after using it."
+        },
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP03-009",
