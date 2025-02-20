@@ -31,31 +31,37 @@
     },
        {
         "cardNumber": "hY01-004",
-        "name": "White Cheer (FBK)",
+        "name": "White Cheer (Luna)",
         "rarity": "SY",
         "imageSet": "hBP03"
     },
     {
         "cardNumber": "hY02-003",
-        "name": "Green Cheer (Mio)",
+        "name": "Green Cheer (Iroha)",
         "rarity": "SY",
         "imageSet": "hBP03"
     },
     {
         "cardNumber": "hY03-003",
-        "name": "Red Cheer (Marine)",
+        "name": "Red Cheer (Miko)",
         "rarity": "SY",
         "imageSet": "hBP03"
     },
     {
         "cardNumber": "hY04-003",
-        "name": "Blue Cheer (Chloe)",
+        "name": "Blue Cheer (Sui)",
         "rarity": "SY",
         "imageSet": "hBP03"
     },
     {
         "cardNumber": "hY05-003",
-        "name": "Purple Cheer (Shion)",
+        "name": "Purple Cheer (Towa)",
+        "rarity": "SY",
+        "imageSet": "hBP03"
+    },
+     {
+        "cardNumber": "hY06-002",
+        "name": "Yellow Cheer (Watame)",
         "rarity": "SY",
         "imageSet": "hBP03"
     }
