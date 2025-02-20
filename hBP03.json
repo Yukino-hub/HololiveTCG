@@ -186,7 +186,7 @@
     {
         "cardNumber": "hBP03-011",
         "name": "",
-        "rarity": "R",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 120,
         "color": "White",
@@ -202,8 +202,8 @@
     },
     {
         "cardNumber": "hBP03-012",
-        "name": "Shirakami Fubuki",
-        "rarity": "R",
+        "name": "",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 100,
         "color": "White",
@@ -777,8 +777,8 @@
     },
     {
         "cardNumber": "hBP03-044",
-        "name": "Murasaki Shion",
-        "rarity": "C",
+        "name": "",
+        "rarity": "R",
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Purple",
@@ -793,7 +793,8 @@
                 "dmg": "60"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-045",
@@ -1372,25 +1373,25 @@
     },
     {
         "cardNumber": "hBP03-080",
-        "name": "秘密結社holoX (Secret Society holoX)",
+        "name": "",
         "type": "Support (Event)",
-        "rarity": "U",
+        "rarity": "R",
         "limited": "Yes",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #SecretSocietyholoX and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
     {
-        "cardNumber": "hBP03-081",
+        "name": "",
         "name": "ホロライブインドネシア2期生 (hololive ID 2nd Generation)",
         "type": "Support (Event)",
-        "rarity": "U",
+        "rarity": "C",
         "limited": "Yes",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #IDGen2 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-082",
-        "name": "ホロライブゲーマーズ (hololive GAMERS)",
+        "name": "",
         "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
@@ -1399,26 +1400,25 @@
     },
     {
         "cardNumber": "hBP03-083",
-        "name": "魔法のタンス (Magic Closet)",
+        "name": "",
         "type": "Support (Event)",
-        "rarity": "U",
+        "rarity": "C",
         "tag": "Magic",
         "ability": "To play this card, you must Archive one holo power. Send one Purple Cheer from your Archive to one of your holomems named Murasaki Shion. You may only play one Event with #Magic per turn.",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-084",
-        "name": "みっころね24 (Mikkorone24)",
+       "name": "",
         "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
         "ability": "Draw 2 cards, then roll a dice. If the result is 3, 5, or 6, reveal a Debut holomem from your deck and put into your hand, then shuffle your deck. If the result is 2 or 4, draw a card.",
         "hasFoils": true,
-        "hasSigned" : true
     },
     {
         "cardNumber": "hBP03-085",
-        "name": "HOLOLIVE FANTASY",
+        "name": "",
         "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
@@ -1427,7 +1427,7 @@
     },
     {
         "cardNumber": "hBP03-086",
-        "name": "ホロスパークリング (Holo Sparkling Wine)",
+        "name": "",
         "type": "Support (Tool)",
         "rarity": "C",
         "ability": "The Arts of the holomem with this Tool attached gain +20 power.If the holomem with this Tool attached does not have #Alcohol, whenever the holomem with this Tool attached is about to take damage, add +10 to that damage. You may only attach 1 Tool to a holomem.",
@@ -1435,7 +1435,7 @@
     },
     {
         "cardNumber": "hBP03-087",
-        "name": "紫咲シオンの魔法のステッキ (Murasaki Shion's Magic Stick)",
+        "name": "",
         "type": "Support (Tool)",
         "rarity": "C",
         "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later Murasaki Shion, it gains the following effect: if the holomem with this Tool attached is your Center holomem, your Oshi Skill 「ねえ゛え゛え゛え゛え゛え゛え゛」 becomes (Twice per turn) instead of (Once per turn). You may only attach 1 Tool to a holomem.",
@@ -1443,7 +1443,7 @@
     },
     {
         "cardNumber": "hBP03-088",
-        "name": "森カリオペの鎌 (Mori Calliope's Scythe)",
+        "name": "",
         "type": "Support (Tool)",
         "rarity": "U",
         "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later <Mori Calliope>, it gains the following effect: when you attach this Tool to a holomem from your hand, Archive 1 card from the top of your deck. You may only attach 1 Tool to a holomem.",
@@ -1451,7 +1451,7 @@
     },
     {
         "cardNumber": "hBP03-089",
-        "name": "おるやんけ (Oruyanke)",
+        "name": "",
         "type": "Support (Mascot)",
         "rarity": "U",
         "tag": "#ShirakamiCharacter",
@@ -1460,7 +1460,7 @@
     },
     {
         "cardNumber": "hBP03-090",
-        "name": "ネジマキツネ (Nejimakitsune)",
+        "name": "",
         "type": "Support (Mascot)",
         "rarity": "U",
         "tag": "#ShirakamiCharacter",
@@ -1469,7 +1469,7 @@
     },
     {
         "cardNumber": "hBP03-091",
-        "name": "フブチュン (Fubuchun)",
+        "name": "",
         "type": "Support (Mascot)",
         "rarity": "U",
         "tag": "#ShirakamiCharacter",
@@ -1478,7 +1478,7 @@
     },
     {
         "cardNumber": "hBP03-092",
-        "name": "フブラ (Fubuzilla)",
+        "name": "",
         "type": "Support (Mascot)",
         "rarity": "U",
         "tag": "#ShirakamiCharacter",
@@ -1487,7 +1487,7 @@
     },
     {
         "cardNumber": "hBP03-093",
-        "name": "ミテイル (Miteiru)",
+        "name": "",
         "type": "Support (Mascot)",
         "rarity": "U",
         "tag": "#ShirakamiCharacter",
@@ -1496,7 +1496,7 @@
     },
     {
         "cardNumber": "hBP03-094",
-        "name": "Tatang",
+        "name": "",
         "type": "Support (Mascot)",
         "rarity": "U",
         "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Pavolia Reine>, it gains the following effect: the holomem with this Mascot attached has +30 HP. You may only attach 1 Mascot to a holomem.",
@@ -1504,7 +1504,7 @@
     },
     {
         "cardNumber": "hBP03-095",
-        "name": "ドクロくん (Dokuro-kun)",
+        "name": "",
         "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Houshou Marine>, it gains the following effect: (Center position only) when the holomem that this Mascot is attached to Blooms, draw 1 card from your Deck. You may only attach 1 Mascot to a holomem.",
@@ -1512,7 +1512,7 @@
     },
     {
         "cardNumber": "hBP03-096",
-        "name": "イヌ(Inu)",
+        "name": "",
         "type": "Support (Mascot)",
         "rarity": "U",
         "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Sakamata Chloe>, it gains the following effect: when the holomem with this Mascot attached Downs one of your opponent's holomems, send a Cheer from your Archive to one of your holomems with #SecretSocietyholoX. You may only attach 1 Mascot to a holomem.",
@@ -1520,7 +1520,7 @@
     },
     {
         "cardNumber": "hBP03-097",
-        "name": "UDIN",
+        "name": "",
         "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Kureiji Ollie>, it gains the following effect: when the holomem that this Mascot is attached to Blooms, draw 1 card from your Deck then Archive 1 card from your hand. You may only attach 1 Mascot to a holomem.",
@@ -1528,7 +1528,7 @@
     },
     {
         "cardNumber": "hBP03-098",
-        "name": "Death-sensei",
+        "name": "",
         "type": "Support (Mascot)",
         "rarity": "U",
         "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to <Mori Calliope>, it gains the following effect: the Cheer requirements of all Arts of the holomem this is attached to become Colorless. You may only attach 1 Mascot to a holomem.",
@@ -1536,7 +1536,7 @@
     },
     {
         "cardNumber": "hBP03-099",
-        "name": "すこん部 (Sukonbu)",
+        "name": "",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "The holomem with this Fan attached has +10 HP. This Fan may only be attached to your <Shirakami Fubuki>, and you may attach any number of this Fan to one holomem.",
@@ -1544,7 +1544,7 @@
     },
     {
         "cardNumber": "hBP03-100",
-        "name": "白銀聖騎士団 (Shirogane Dan'in)",
+        "name": "",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "Whenever the holomem with this Fan attached takes damage, it takes -10 damage. This Fan may only be attached to your <Shirogane Noel>, and you may attach any number of this Fan to one holomem.",
@@ -1552,7 +1552,7 @@
     },
     {
         "cardNumber": "hBP03-101",
-        "name": "ミオファ(Miofa)",
+        "name": "",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": " During your opponent's turn, when the holomem with this Fan attached is Downed, draw a card. This Fan may only be attached to your <Ookami Mio>, and you may attach any number of this Fan to one holomem.",
@@ -1560,7 +1560,7 @@
     },
     {
         "cardNumber": "hBP03-102",
-        "name": "塩っこ(Shiokko)",
+        "name": "",
         "type": "Support (Fan)",
         "rarity": "U",
         "ability": "The Arts of the holomem with this Fan attached gain +10 power. When the holomem with this Fan attached takes damage, Archive this Fan. This Fan may only be attached to your <Murasaki Shion>, and you may attach any number of this Fan to one holomem.",
@@ -1586,12 +1586,68 @@
         "cardNumber": "hBP03-105",
         "name": "",
         "type": "Support (Fan)",
-        "rarity": "C",
+        "rarity": "R",
         "ability": "",
         "hasFoils": true
     },
      {
         "cardNumber": "hBP03-106",
+        "name": "",
+        "type": "Support (Fan)",
+        "rarity": "C",
+        "ability": "",
+        "hasFoils": true
+    },
+     {
+        "cardNumber": "hBP03-107",
+        "name": "",
+        "type": "Support (Fan)",
+        "rarity": "C",
+        "ability": "",
+        "hasFoils": true
+    },
+    {
+        "cardNumber": "hBP03-108",
+        "name": "",
+        "type": "Support (Fan)",
+        "rarity": "C",
+        "ability": "",
+        "hasFoils": true
+    },
+     {
+        "cardNumber": "hBP03-109",
+        "name": "",
+        "type": "Support (Fan)",
+        "rarity": "C",
+        "ability": "",
+        "hasFoils": true
+    },
+    {
+        "cardNumber": "hBP03-110",
+        "name": "",
+        "type": "Support (Fan)",
+        "rarity": "C",
+        "ability": "",
+        "hasFoils": true
+    },
+    {
+        "cardNumber": "hBP03-111",
+        "name": "",
+        "type": "Support (Fan)",
+        "rarity": "C",
+        "ability": "",
+        "hasFoils": true
+    },
+    {
+        "cardNumber": "hBP03-112",
+        "name": "",
+        "type": "Support (Fan)",
+        "rarity": "U",
+        "ability": "",
+        "hasFoils": true
+    },
+    {
+        "cardNumber": "hBP03-113",
         "name": "",
         "type": "Support (Fan)",
         "rarity": "C",
