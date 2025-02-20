@@ -80,7 +80,7 @@
         ]
     },
     {
-        "cardNumber": "hSD06-00006",
+        "cardNumber": "hSD06-006",
         "name": "Kazama Iroha",
         "rarity": "R",
         "bloomLevel": "1st",
@@ -98,7 +98,7 @@
         "extraEffect": "When this holomem is Downed, lose 2 LIFE."
     },
     {
-        "cardNumber": "hSD06-009",
+        "cardNumber": "hSD06-007",
         "name": "Kazama Iroha",
         "rarity": "RR",
         "bloomLevel": "2nd",
@@ -166,7 +166,7 @@
         ]
     },
     {
-        "cardNumber": "hSD05-011",
+        "cardNumber": "hSD06-011",
         "name": "Chakimaru",
         "rarity": "C",
         "type": "Support (Tool)",
