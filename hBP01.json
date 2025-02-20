@@ -1833,90 +1833,90 @@
         "name": "Stone Axe",
         "type": "Support (Tool)",
         "rarity": "C",
-        "ability": "The holomem with this Tool attached gains +20 power to their Arts. When the holomem with this Tool attached uses an Art, that holomem receives 10 special damage. If this is attached to a 1st Bloom or later <Aki Rosenthal>, it gains the following effect: (once per turn) when this holomem has their HP restored, draw 1 card from your Deck. Each Holomen can have only one tool attached."
+        "ability": "The Arts of the holomem with this Tool attached gain +20 power. When the holomem with this Tool attached uses an Art, that holomem receives 10 special damage. If this is attached to a 1st Bloom or later <Aki Rosenthal>, it gains the following effect: (once per turn) when this holomem has their HP restored, draw 1 card from your Deck. You may only attach 1 Tool to a holomem."
     },
     {
         "cardNumber": "hBP01-115",
         "name": "星街すいせいのマイク (Suisei's Mic)",
         "type": "Support (Tool)",
         "rarity": "U",
-        "ability": "This tool provides the attached Holomen with +10 to their Arts.If attached to a <Hoshimachi Suisei> of 1st or higher, add the following ability: When the Holomen with this tool causes an opponent's Holomen to be knocked out, send 1 card from the top of your Cheer Deck to this Holomen. Each Holomen can have only one tool attached."
+        "ability": "The Arts of the holomem with this Tool attached gain +10 power. If attached to a <Hoshimachi Suisei> of 1st or higher, add the following ability: When the Holomen with this tool causes an opponent's Holomen to be knocked out, send 1 card from the top of your Cheer Deck to this Holomen. You may only attach 1 Tool to a holomem."
     },
     {
         "cardNumber": "hBP01-116",
         "name": " うぱお (Upao)",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 to their Arts.If attached to a <Amane Kanata>, add the following ability:  (Once per turn) During your opponent's turn, when the holomem with this mascot attached takes damage, deal 20 special damage to your opponent's Center holomem. Each holomen can only have one mascot attached."
+        "ability": "The Arts of the holomem with this Mascot attached gain +10 power.If attached to a <Amane Kanata>, add the following ability:  (Once per turn) During your opponent's turn, when the holomem with this mascot attached takes damage, deal 20 special damage to your opponent's Center holomem. You may only attach 1 Mascot to a holomem."
     },
     {
         "cardNumber": "hBP01-117",
         "name": " フレンド (Friend)",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 to their Arts.If attached to a <Nanashi Mumei>, add the following ability:  ring your opponent's turn, when the holomem with this Mascot attached takes damage, you may Archive this mascot to reduce that damage by 30. Each holomen can only have one mascot attached."
+        "ability": "The Arts of the holomem with this Mascot attached gain +10 power.If attached to a <Nanashi Mumei>, add the following ability:  ring your opponent's turn, when the holomem with this Mascot attached takes damage, you may Archive this mascot to reduce that damage by 30. You may only attach 1 Mascot to a holomem."
     },
     {
         "cardNumber": "hBP01-118",
         "name": "あん肝 (Ankimo)",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Tokino Sora>, add the following ability: When the Holomen attached to this mascot uses an arts ability, this mascot is also treated as a cheer card. Each Holomen can have only one mascot attached."
+        "ability": "The holomem with this Mascot attached has +10 HP.. If attached to <Tokino Sora>, add the following ability: When the Holomen attached to this mascot uses an arts ability, this mascot is also treated as a cheer card. You may only attach 1 Mascot to a holomem."
     },
     {
         "cardNumber": "hBP01-119",
         "name": "ジョブズ (Jobz)",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 HP. If attached to <Aki Rosenthal>, add the following ability: When the Hololive member with this mascot uses an art, restore 10 HP to one of your Hololive members. Each Holomen can have only one mascot attached."
+        "ability": "The holomem with this Mascot attached has +10 HP.. If attached to <Aki Rosenthal>, add the following ability: When the Hololive member with this mascot uses an art, restore 10 HP to one of your Hololive members. You may only attach 1 Mascot to a holomem."
     },
     {
         "cardNumber": "hBP01-120",
         "name": "がんも (Ganmo)",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "This mascot grants the Holomen it is attached to +10 to their Arts. If attached to <Takane Lui>, add the following ability: When the Holomen with this mascot uses an Arts in the Center Position, draw 1 card from your deck. Each Holomen can have only one mascot attached."
+        "ability": "The Arts of the holomem with this Mascot attached gain +10 power. If attached to <Takane Lui>, add the following ability: When the Holomen with this mascot uses an Arts in the Center Position, draw 1 card from your deck. You may only attach 1 Mascot to a holomem."
     },
     {
         "cardNumber": "hBP01-121",
         "name": "Katori",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "Whenever the holomem with this Mascot attached takes damage while in the Center or Collab position, it takes -10 damage.If this is attached to <Takanashi Kiara>, it gains the following effect: when the Bloom level of the holomem that this Mascot is attached to increases, draw 1 card from your Deck. Each Holomen can have only one mascot attached."
+        "ability": "Whenever the holomem with this Mascot attached takes damage while in the Center or Collab position, it takes -10 damage.If this is attached to <Takanashi Kiara>, it gains the following effect: when the Bloom level of the holomem that this Mascot is attached to increases, draw 1 card from your Deck. You may only attach 1 Mascot to a holomem."
     },
     {
         "cardNumber": "hBP01-122",
         "name": "ロゼ隊 (Rose Corps)",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "During the opponent's turn, when the Hololive member with this fan attached is knocked down, send the top card from your cheer deck to own <Aki Rosenthal>' This fan can only be attached to your <Aki Rosenthal> and any number of them can be attached to one Holomen."
+        "ability": "During the opponent's turn, when the Hololive member with this fan attached is Downed, send the top card from your cheer deck to own <Aki Rosenthal>' This fan can only be attached to your <Aki Rosenthal>, and you may attach any number of this Fan to one holomem."
     },
     {
         "cardNumber": "hBP01-123",
         "name": "野うさぎ同盟 (Nousagi Alliance)",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "When the Holomen with this fan attached rolls a die as part of an ability, you may archive this fan: Reroll the die once. This fan can only be attached to own <Usada Pekora> and any number of them can be attached to one Holomen."
+        "ability": "When you roll dice as part of the Abilities or Arts of the holomem with this Fan attached, you may Archive this Fan for the following effect: re-roll the dice once. This Fan may only be attached to your <Usada Pekora>, and you may attach any number of this Fan to one holomem."
     },
     {
         "cardNumber": "hBP01-124",
         "name": "開拓者 (pioneer)",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "During your opponent's turn, when the Holomen attached to this fan is knocked down, you may transfer 1 cheer card from the Holomen attached to this fan to another one of your Holomen. This fan can only be attached to own <AZKi> and any number of them can be attached to one Holomen."
+        "ability": "During your opponent's turn, when the Holomen attached to this fan is knocked down, you may transfer 1 cheer card from the Holomen attached to this fan to another one of your Holomen. This fan can only be attached to your <AZKi, and you may attach any number of this Fan to one holomem.."
     },
     {
         "cardNumber": "hBP01-125",
         "name": "KFP",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "When you attach this Fan from your hand to a holomem, you may Archive 1 card from your hand for the following effect: draw 1 card from your Deck. This fan can only be attached to own <Takanashi Kiara> and any number of them can be attached to one Holomen."
+        "ability": "When you attach this Fan from your hand to a holomem, you may Archive 1 card from your hand for the following effect: draw 1 card from your Deck. This Fan may only be attached to your <Takanashi Kiara>, and you may attach any number of this Fan to one holomem.."
     },
     {
         "cardNumber": "hBP01-126",
         "name": "座員 (Zain)",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "When the Holomen with this Fan uses Arts, this Fan is also treated as an Red Cheer.The Holomen with this Fan takes +10 damage. This Fan can only be attached to own <Omaru Polka> and any number of them can be attached to one Holomen."
+        "ability": "When the holomem with this Fan attached uses an Art, this Fan is treated as 1 Red Cheer. Whenever the holomem with this Fan attached is about to take damage, add +10 to that damage. This Fan may only be attached to your <Omaru Polka>, and you may attach any number of this Fan to one holomem."
     }
 ]

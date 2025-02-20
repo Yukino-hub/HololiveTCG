@@ -40,7 +40,7 @@
         "hp": 60,
         "color": "White",
         "tag":  "#DEV_IS #ReGLOSS #Baby",
-        "collabEffect": "During this turn, your center Holomem with #ReGLOSS gains +10 Arts.",
+        "collabEffect": "こんちくわ: During this turn, your center Holomem with #ReGLOSS gains +10 Arts.",
         "skills": [
             {
                 "name": "お洒落番長",
@@ -194,7 +194,7 @@
         "hp": 70,
         "color": "Blue",
         "tag": "#DEV_IS #ReGLOSS #Art",
-        "collabEffect" : "ドーンッ！: Deal 10 special damage to your opponent's Center holomem or one of their Back holomems."
+        "collabEffect" : "ドーンッ！: Deal 10 special damage to your opponent's Center holomem or one of their Back holomems.",
         "skills": [
             {
                 "name": "世界一かわいいよ",
@@ -210,7 +210,7 @@
         "hp": 90,
         "color": "Yellow",
         "tag": "#DEV_IS #ReGLOSS #Song",
-        "collabEffect" :"クレッシェンドな日々　:You may move 1 Cheer on your Stage to one of your holomems other than this holomem."
+        "collabEffect" :"クレッシェンドな日々　:You may move 1 Cheer on your Stage to one of your holomems other than this holomem.",
         "skills": [
             {
                 "name": "任せておきなさい！",
