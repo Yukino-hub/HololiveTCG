@@ -215,7 +215,8 @@
                 "dmg": "50+",
                 "description": "The Arts of all of your holomems with a Mascot attached gain +20 power until the end of this turn."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-013",
@@ -287,8 +288,7 @@
                 "name": "目に焼き付けるんだゾ♡",
                 "dmg": "30"
             }
-        ],
-        "hasFoils": true
+        ]
     },
     {
         "cardNumber": "hBP03-017",
@@ -309,7 +309,8 @@
                 "dmg": "60+",
                 "description": "(Collab position only) For each other Holomen on your stage with the #Gen3 tag, this Arts gets +20. However, the number of Holomen counted is limited to 4.."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-018",
