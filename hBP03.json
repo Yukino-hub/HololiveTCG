@@ -215,8 +215,7 @@
                 "dmg": "50+",
                 "description": "The Arts of all of your holomems with a Mascot attached gain +20 power until the end of this turn."
             }
-        ],
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-013",
@@ -310,10 +309,7 @@
                 "dmg": "60+",
                 "description": "(Collab position only) For each other Holomen on your stage with the #Gen3 tag, this Arts gets +20. However, the number of Holomen counted is limited to 4.."
             }
-        ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true,
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-018",
@@ -489,7 +485,6 @@
             }
         ],
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true,
         "hasFullArt": true
     },
     {
@@ -595,7 +590,6 @@
                 "description": "For each holomem stacked under this one, this Art gains +20 power."
             }
         ],
-        "hasAlternativeArt": true,
         "hasFullArt": true
     },
     {
@@ -721,9 +715,7 @@
                 "dmg": "100+",
                 "description": "You may reveal the top 3 cards of your deck. For each holomem revealed, this Art gains +20 power. Then Archive the revealed cards."
             }
-        ],
-        "hasAlternativeArt": true,
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-041",
@@ -741,10 +733,8 @@
                 "dmg": "50",
                 "description": "You may archive 1 Blue Cheer from this holomem for the following effect: deal 20 special damage to your opponent's Center holomem and one of their Back holomems."
             }
-        ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true,
-        "hasFullArt": true
+        ]
+        
     },
     {
         "cardNumber": "hBP03-042",
@@ -851,11 +841,7 @@
                 "dmg": "80",
                 "description": "For each Cheer attached to your opponent's Center holomem, deal 20 special damage to your opponent's Center and Collab holomem."
             }
-        ],
-        "hasAlternativeArt": true,
-        "hasFullArt": true,
-        "hasGrandPrix" : true,
-        "source" : "Top 8 WGP2025"
+        ]
     },
     {
         "cardNumber": "hBP03-048",
