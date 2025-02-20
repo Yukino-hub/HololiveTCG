@@ -483,9 +483,7 @@
                 "dmg": "60+",
                 "description": "You may Archive the top card of your Deck. If it's a holomem, this Art gains +20 power. If it's a Support card, this Art gains +50 power."
             }
-        ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-028",
@@ -589,8 +587,7 @@
                 "dmg": "80+",
                 "description": "For each holomem stacked under this one, this Art gains +20 power."
             }
-        ],
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-034",
@@ -894,7 +891,6 @@
                 "dmg": "20"
             }
         ],
-         "hasAlternativeArt": true,
         "hasFullArt": true
     },
     {
@@ -946,9 +942,7 @@
                 "dmg": "100+",
                 "description": "If there are at least 2 2nd Bloom holomems with #IDGen2 on your Stage, this Art gains +40 power."
             }
-        ],
-        "hasAlternativeArt": true,
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-054",
@@ -1051,9 +1045,7 @@
                 "dmg": "80+",
                 "description": "If you have 4 or more holomems with #Myth in your Archive, this Art gains +40 power. If you have 8 or more, this Art gains another +40 power."
             }
-        ],
-        "hasAlternativeArt": true,
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-060",
@@ -1137,10 +1129,7 @@
                 "dmg": "60+",
                 "description": "If there are 5 or more holomems with #Myth in your Archive, you may move 1 Cheer from this holomem to one of your other holomems. If there are 10 or more, this Art gains +50 power."
             }
-        ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
-        "hasAlternativeArt": true,
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-065",
