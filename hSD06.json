@@ -1,0 +1,182 @@
+[
+    {
+        "cardNumber": "hSD06-001",
+        "name": "Kazama Iroha",
+        "rarity": "OC",
+        "lives": 5,
+        "color": "Green",
+        "oshiSkill": {
+            "name": "グリーンマイク (\"Green Mic\")",
+            "power": 2,
+            "description": "[Once per turn] If your Center holomem is Green, their Arts gain +20 power until the end of this turn."
+        },
+        "spOshiSkill": {
+            "name": "みんな頑張ろー！ (\"Let's do our best everyone!\")",
+            "power": 1,
+            "description": "[Once per game] Restore 20 HP to all of your Green holomems."
+        }
+    },
+    {
+        "cardNumber": "hSD06-002",
+        "name": "Kazama Iroha",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "Green",
+        "tag":  "#JP #SecretSocietyholoX",
+        "collabEffect": "のっと！ﾆﾝﾆﾝ！！ Restore 10HP to one of your holomems.",
+        "skills": [
+            {
+                "name": "いえす！ｼﾞｬｷﾝｼﾞｬｷﾝ！！",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD06-003",
+        "name": "Kazama Iroha",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "Green",
+        "tag":  "#JP #SecretSocietyholoX",
+        "skills": [
+            {
+                "name": "一刀両断叩き斬る",
+                "dmg": "30+",
+                "description": "If your Center holomem is damaged, this Art gains +10 power."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD06-004",
+        "name": "Kazama Iroha",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Green",
+        "tag":  "#JP #SecretSocietyholoX",
+        "skills": [
+            {
+                "name": "照れ屋な用心棒",
+                "dmg": 60
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD06-005",
+        "name": "Kazama Iroha",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 120,
+        "color": "Green",
+        "tag":  "#JP #SecretSocietyholoX",
+        "bloomEffect" : "かざまとおでかけ : Send the top card of your Cheer Deck to your Holomem with #SecretSocietyholoX"
+        "skills": [
+            {
+                "name": "かざまといっしょ！",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD06-00006",
+        "name": "Kazama Iroha",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "buzz": "true",
+        "hp": 220,
+        "color": "Green",
+        "tag":  "#JP #SecretSocietyholoX",
+        "bloomEffect" :"サムライ少女　: Reveal 1 <Chakimaru> or <Pokobe> from your deck and put it into your hand. Then shuffle your deck."
+        "skills": [
+            {
+                "name": "刀の錆になるでござる！",
+                "dmg": 50
+            }
+        ],
+        "extraEffect": "When this holomem is Downed, lose 2 LIFE."
+    },
+    {
+        "cardNumber": "hSD06-009",
+        "name": "Kazama Iroha",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 180,
+        "color": "Green",
+        "tag":  "#JP #SecretSocietyholoX",
+        "bloomEffect": "元気をお届け : Restore 30 HP to one of your holomems with #SecretSocietyholoX.",
+        "skills": [
+            {
+                "name": "天才では？",
+                "dmg": "70+",
+                "description": "If there are at least 5 Cheers on your stage, this Art gains +50 power."
+            }
+        ],
+        "imageSet": "hBP03",
+        "hasFullArt": true
+    },
+    {
+        "cardNumber": "hSD06-008",
+        "name": "Hakui Koyori",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "White",
+        "tag": "#JP #SecretSocietyholoX #AnimalEars",
+        "collabEffect" : "ずのー！　: If your Center holomem has #SecretSocietyholoX and you have 5 or fewer cards in your hand, draw 1 card from your Deck.",
+        "skills": [
+            {
+                "name": "どやぁ",
+                "dmg": 10
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD06-009",
+        "name": "Takane Lui",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "Red",
+        "tag": "#JP #SecretSocietyholoX #Bird #Alcohol",
+        "skills": [
+            {
+                "name": "頼れる女幹部",
+                "dmg": 20,
+                "description" : "You may return 1 Debut holomem with #SecretSocietyholoX from your Archive to your hand."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD06-010",
+        "name": "La+ Darknesss",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 60,
+        "color": "Purple",
+        "tag": "#JP #SecretSocietyholoX #Shooter",
+        "collabEffect" : "ドーンッ！: Deal 10 special damage to your opponent's Center holomem or one of their Back holomems."
+        "skills": [
+            {
+                "name": "世界一かわいいよ",
+                "dmg": 20,
+                "description" : "[Collab position only] If you have used your SP Oshi Skill during this turn's Main Step, this Art gains +50 power."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD05-011",
+        "name": "Chakimaru",
+        "rarity": "C",
+        "type": "Support (Tool)",
+        "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later <Kazama Iroha>, it gains the following effect: (Once per turn) During your opponent's turn, when the holomem with this Tool attached takes damage, deal 20 special damage to your opponent's Center holomem. Holomems Downed with this effect do not reduce LIFE."
+    }
+    {
+        "cardNumber": "hSD06-012",
+        "name": "Pokobe",
+        "rarity": "C",
+        "type": "Support (Mascot)",
+        "ability": "The holomem with this Mascot attached has +10 HP. If this is attached to <Kazama Iroha>, it gains the following effect: The holomem with this Mascot attached has +20 HP. You may only attach 1 Mascot to a holomem."
+    }
+]

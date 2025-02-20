@@ -1,0 +1,228 @@
+[
+    {
+        "cardNumber": "hSD05-001",
+        "name": "Todoroki Hajime",
+        "rarity": "OC",
+        "lives": 5,
+        "color": "White",
+        "oshiSkill": {
+            "name": "ホワイトマイク (\"White Mic\")",
+            "power": 2,
+            "description": "[Once per turn] If your Center holomem is White, their Arts gain +20 power until the end of this turn."
+        },
+        "spOshiSkill": {
+            "name": "クイックガード (\"Quick Guard\")",
+            "power": 1,
+            "description": "[Once per game] Can be used during your opponent's turn when one of your White holomems is about to take damage: reduce that damage by 20."
+        }
+    },
+    {
+        "cardNumber": "hSD05-002",
+        "name": "Todoroki Hajime",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "White",
+        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "skills": [
+            {
+                "name": "ぶんぶんぶーん！",
+                "dmg": 30
+            }
+        ],
+        "extraEffect": "You may put any number of copies of this holomem in your Deck."
+    },
+    {
+        "cardNumber": "hSD05-003",
+        "name": "Todoroki Hajime",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 60,
+        "color": "White",
+        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "collabEffect": "During this turn, your center Holomem with #ReGLOSS gains +10 Arts.",
+        "skills": [
+            {
+                "name": "お洒落番長",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD05-004",
+        "name": "Todoroki Hajime",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "color": "White",
+        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "skills": [
+            {
+                "name": "ReGLOSSの番長",
+                "dmg": 40
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD05-005",
+        "name": "Todoroki Hajime",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "White",
+        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "skills": [
+            {
+                "name": "夜路紫駆！",
+                "dmg": 40
+            },
+            {
+                "name": "うぃー！",
+                "dmg": 60
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD05-006",
+        "name": "Todoroki Hajime",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 100,
+        "color": "White",
+        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "skills": [
+            {
+                "name": "足取り軽め、轟はじめ",
+                "dmg": 30
+            },
+            {
+                "name": "ありあとりゃあすっ",
+                "dmg": "50+",
+                "description": "If you have 3 or more Holomems with different card names with #ReGLOSS on your stage, this arts gains +20."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD05-007",
+        "name": "Todoroki Hajime",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 120,
+        "color": "White",
+        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "bloomEffect": "宇宙一の番長を目指すなんでも屋 : Draw 1 card from your Deck.",
+        "skills": [
+            {
+                "name": "度胸、愛嬌、最強",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD05-008",
+        "name": "Todoroki Hajime",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "buzz": "true",
+        "hp": 230,
+        "color": "White",
+        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "skills": [
+            {
+                "name": "……なんか、番長っぽくなってきたかも！",
+                "dmg": 50,
+                "description": "During this turn, the arts of one Debut Holomem with #ReGLOSS on your stage gains +40."
+            }
+        ],
+        "extraEffect": "When this holomem is Downed, lose 2 LIFE."
+    },
+    {
+        "cardNumber": "hSD05-009",
+        "name": "Todoroki Hajime",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 190,
+        "color": "White",
+        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "bloomEffect": "ダンスでこの世界に彩を！ : Reveal 1 Debut Holomem or 1st Holomem card with #ReGLOSS from your deck and add it to your hand. Then, shuffle your deck.",
+        "skills": [
+            {
+                "name": "滅紫の雷",
+                "dmg": "80+",
+                "description": "If you have a Holomem with #ReGLOSS other than <Todoroki Hajime> on your Stage, this arts gains +30."
+            }
+        ],
+        "imageSet": "hBP03",
+        "hasFullArt": true
+    },
+    {
+        "cardNumber": "hSD05-010",
+        "name": "Juufuutei Raden",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "Green",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
+        "skills": [
+            {
+                "name": "ちょいと一席",
+                "dmg": 20, 
+                "description": "You may send 1 Cheer from your Archive to your Holomem with #ReGLOSS."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD05-011",
+        "name": "Ichijou Ririka",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 70,
+        "color": "Red",
+        "tag": "#DEV_IS #ReGLOSS #Cooking",
+        "skills": [
+            {
+                "name": "任せておきなさい！",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD05-012",
+        "name": "Hiodoshi Ao",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 70,
+        "color": "Blue",
+        "tag": "#DEV_IS #ReGLOSS #Art",
+        "collabEffect" : "ドーンッ！: Deal 10 special damage to your opponent's Center holomem or one of their Back holomems."
+        "skills": [
+            {
+                "name": "世界一かわいいよ",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD05-013",
+        "name": "Otonose Kanade",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "color": "Yellow",
+        "tag": "#DEV_IS #ReGLOSS #Song",
+        "collabEffect" :"クレッシェンドな日々　:You may move 1 Cheer on your Stage to one of your holomems other than this holomem."
+        "skills": [
+            {
+                "name": "任せておきなさい！",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD05-014",
+        "name": "Banpen",
+        "rarity": "C",
+        "type": "Support (Mascot)",
+        "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to <Todoroki Hajime>, it gains the following effect: The holomem with this Mascot attached has +20 HP. You may only attach 1 Mascot to a holomem."
+    }
+]

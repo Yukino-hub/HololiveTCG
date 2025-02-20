@@ -1840,21 +1840,21 @@
         "name": "星街すいせいのマイク (Suisei's Mic)",
         "type": "Support (Tool)",
         "rarity": "U",
-        "ability": "This tool provides the attached Holomen with +10 Arts.If attached to a <Hoshimachi Suisei> of 1st or higher, add the following ability: When the Holomen with this tool causes an opponent's Holomen to be knocked out, send 1 card from the top of your Cheer Deck to this Holomen. Each Holomen can have only one tool attached."
+        "ability": "This tool provides the attached Holomen with +10 to their Arts.If attached to a <Hoshimachi Suisei> of 1st or higher, add the following ability: When the Holomen with this tool causes an opponent's Holomen to be knocked out, send 1 card from the top of your Cheer Deck to this Holomen. Each Holomen can have only one tool attached."
     },
     {
         "cardNumber": "hBP01-116",
         "name": " うぱお (Upao)",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 Arts.If attached to a <Amane Kanata>, add the following ability:  (Once per turn) During your opponent's turn, when the holomem with this mascot attached takes damage, deal 20 special damage to your opponent's Center holomem. Each holomen can only have one mascot attached."
+        "ability": "This mascot provides the attached Holomen with +10 to their Arts.If attached to a <Amane Kanata>, add the following ability:  (Once per turn) During your opponent's turn, when the holomem with this mascot attached takes damage, deal 20 special damage to your opponent's Center holomem. Each holomen can only have one mascot attached."
     },
     {
         "cardNumber": "hBP01-117",
         "name": " フレンド (Friend)",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "This mascot provides the attached Holomen with +10 Arts.If attached to a <Nanashi Mumei>, add the following ability:  ring your opponent's turn, when the holomem with this Mascot attached takes damage, you may Archive this mascot to reduce that damage by 30. Each holomen can only have one mascot attached."
+        "ability": "This mascot provides the attached Holomen with +10 to their Arts.If attached to a <Nanashi Mumei>, add the following ability:  ring your opponent's turn, when the holomem with this Mascot attached takes damage, you may Archive this mascot to reduce that damage by 30. Each holomen can only have one mascot attached."
     },
     {
         "cardNumber": "hBP01-118",
@@ -1875,7 +1875,7 @@
         "name": "がんも (Ganmo)",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "This mascot grants the Holomen it is attached to +10 Arts. If attached to <Takane Lui>, add the following ability: When the Holomen with this mascot uses an Arts in the Center Position, draw 1 card from your deck. Each Holomen can have only one mascot attached."
+        "ability": "This mascot grants the Holomen it is attached to +10 to their Arts. If attached to <Takane Lui>, add the following ability: When the Holomen with this mascot uses an Arts in the Center Position, draw 1 card from your deck. Each Holomen can have only one mascot attached."
     },
     {
         "cardNumber": "hBP01-121",

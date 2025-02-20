@@ -1,0 +1,244 @@
+[
+    {
+        "cardNumber": "hSD07-001",
+        "name": "Shiranui Flare",
+        "rarity": "OC",
+        "lives": 5,
+        "color": "Yellow",
+        "oshiSkill": {
+            "name": "イエローマイク (\"Yellow Mic\")",
+            "power": 2,
+            "description": "[Once per turn] If your Center holomem is Yellow, their Arts gain +20 power until the end of this turn."
+        },
+        "spOshiSkill": {
+            "name": "後は引き受けた！ (\"I'll take care of the rest!\")",
+            "power": 2,
+            "description": "[Once per game] ) Switch your Center holomem with one of your Back holomems who is not Resting. Then restore 30 HP to the holomem that moved to the Back Position."
+        }
+    },
+    {
+        "cardNumber": "hSD07-002",
+        "name": "Shiranui Flare",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 110,
+        "color": "Yellow",
+        "tag":  "#JP #Gen3 #HalfElf",
+        "skills": [
+            {
+                "name": "こんぬいー！",
+                "dmg": 20
+            },
+            {
+                "name": "不知火フレアだよ！",
+                "dmg": 60
+            }
+        ],
+        "extraEffect": "You may put any number of copies of this holomem in your Deck."
+    },
+    {
+        "cardNumber": "hSD07-003",
+        "name": "Shiranui Flare",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 60,
+        "color": "Yellow",
+        "tag":  "#JP #Gen3 #HalfElf",
+        "collabEffect": "大切な仲間たちと: If there are 5 or fewer holomems on your Stage, you may reveal a Debut <Omaru Polka>, <Sakura Miko>, <Hoshimachi Suisei>, or <Shirogane Noel> from your Deck and put it onto your Stage. Then shuffle your deck.",
+        "skills": [
+            {
+                "name": "キミといっしょにお出かけ",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD07-004",
+        "name": "Shiranui Flare",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "Yellow",
+        "tag":  "#JP #Gen3 #HalfElf",
+        "skills": [
+            {
+                "name": "ワンダフルライフ",
+                "dmg": "30+",
+                "description" : "If you have fewer cards in hand than your opponent, this Art gains +10 power."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD07-005",
+        "name": "Shiranui Flare",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "color": "Yellow",
+        "tag":  "#JP #Gen3 #HalfElf",
+        "skills": [
+            {
+                "name": "私からキミへ",
+                "dmg": 30
+            },
+            {
+                "name": "キミとティータイム",
+                "dmg": 50
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD07-006",
+        "name": "Shiranui Flare",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 120,
+        "color": "Yellow",
+        "tag":  "#JP #Gen3 #HalfElf",
+        "bloomEffect" : "エルフレンドのさえずり: Reveal 1 <Elfriend> from your deck and put it into your hand. Then shuffle your deck.",
+        "skills": [
+            {
+                "name": "キミを1番好きなのはわたしぃ～♡",
+                "dmg": "30+",
+                "description": "If you have 3 or less LIFE, this Art gains +30 power."
+            },
+            {
+                "name": "ありあとりゃあすっ",
+                "dmg": "50+",
+                "description": "If you have 3 or more Holomems with different card names with #ReGLOSS on your stage, this arts gains +20."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD07-007",
+        "name": "Shiranui Flare",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "Yellow",
+        "tag":  "#JP #Gen3 #HalfElf",
+        "bloomEffect": "また一つ成長した私を　 : [Back position only] If your collab holomem has 70 of less HP remaining, you may Switch this holomem with your Collab holomem.",
+        "skills": [
+            {
+                "name": "キミに見てほしいな！",
+                "dmg": 40
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD07-008",
+        "name": "Shiranui Flare",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "buzz": "true",
+        "hp": 250,
+        "color": "Yellow",
+        "tag":  "#JP #Gen3 #HalfElf",
+        "skills": [
+            {
+                "name": "エルフレパーティー",
+                "dmg": 50,
+                "description": "You may attach 1 Elfriend from your Archive to this holomem."
+            }
+        ],
+        "extraEffect": "When this holomem is Downed, lose 2 LIFE."
+    },
+    {
+        "cardNumber": "hSD07-009",
+        "name": "Shiranui Flare",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 190,
+        "color": "Yellow",
+        "tag":  "#JP #Gen3 #HalfElf",
+        "giftEffect": "疲れ知らず : [Center position only] Whenever this holomem takes damage, it takes -10 damage.",
+        "skills": [
+            {
+                "name": "情熱ステージ",
+                "dmg": "70+",
+                "description": "If you have 3 or less LIFE, this Art gains +70 power."
+            }
+        ],
+        "imageSet": "hBP03",
+        "hasFullArt": true
+    },
+    {
+        "cardNumber": "hSD07-010",
+        "name": "Shirogane Noel",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 70,
+        "color": "White",
+        "tag": "#JP #Gen3 #Alcohol",
+        "collabEffect" : "大物の確証: Your Center holomem's Arts gain +10 power until the end of this turn.",
+        "skills": [
+            {
+                "name": "いっぱい建築したいです",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD07-011",
+        "name": "Sakura Miko",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 60,
+        "color": "Red",
+        "tag": "#JP #Gen0 #Baby",
+        "collabEffect" : "バーニン♪ バーニン♪: Deal 10 special damage to your opponent's Center holomem.",
+        "skills": [
+            {
+                "name": "魔王軍は無くなりました",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD07-012",
+        "name": "Omaru Polka",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 50,
+        "color": "Red",
+        "tag": "#JP #Gen5 #AnimalEars",
+        "collabEffect" : "僕らに水を: If your Center holomem is Shiranui Flare and you have fewer cards in hand than your opponent, draw 1 card from your Deck.",
+        "skills": [
+            {
+                "name": "骨を埋める覚悟　",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD07-013",
+        "name": "Hoshimachi Suisei",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 70,
+        "color": "Yellow",
+        "tag": "#DEV_IS #ReGLOSS #Song",
+        "collabEffect" :"飯が底をつきそう……:If your Center holomem is Shiranui Flare, you may send 1 Cheer from your Archive to any of your holomems other than this one.",
+        "skills": [
+            {
+                "name": "任せて雇ってください‼",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD07-014",
+        "name": "Shiranui Constructions",
+        "rarity": "U",
+        "type": "Support (Event)",
+        "limited": true,
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <Shiranui Flare>, <Omaru Polka>, <Sakura Miko>, <Hoshimachi Suisei>, or <Shirogane Noel> and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
+    },
+    {
+        "cardNumber": "hSD07-015",
+        "name": "Elfriend",
+        "rarity": "C",
+        "type": "Support (Fan)",
+        "ability": "The holomem with this Fan attached has +10 HP. This Fan may only be attached to your Shiranui Flare, and you may attach any number of this Fan to one holomem."
+    }
+]
