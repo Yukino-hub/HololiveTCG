@@ -1,7 +1,7 @@
 [
     {
         "cardNumber": "hBP03-001",
-        "name": "Shirakami Fubuki",
+        "name": "",
         "rarity": "OSR",
         "lives": 5,
         "color": "White",
@@ -19,7 +19,7 @@
     },
     {
         "cardNumber": "hBP03-002",
-        "name": "Pavolia Reine",
+        "name": "",
         "rarity": "OSR",
         "lives": 5,
         "color": "Green",
@@ -33,11 +33,12 @@
             "power": 2,
             "description": "(Once per game) The Arts of each of your holomems with #IDGen2 gain +20 power for each color of Cheer attached to that holomem, until the end of this turn."
         },
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasSigned" : true
     },
     {
         "cardNumber": "hBP03-003",
-        "name": "Houshou Marine",
+        "name": "",
         "rarity": "OSR",
         "lives": 5,
         "color": "Red",
@@ -56,7 +57,7 @@
     },
     {
         "cardNumber": "hBP03-004",
-        "name": "Sakamata Chloe",
+        "name": "",
         "rarity": "OSR",
         "lives": 6,
         "color": "Blue",
@@ -70,12 +71,11 @@
             "power": 3,
             "description": "[Once per game] Count the cards in your hand. Return all cards in your hand and all Holomen from your Archive to your deck, then shuffle it. For each card returned from your hand to the deck, draw one card."
         },
-        "hasAlternativeArt": true,
-        "hasSigned" : true
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP03-005",
-        "name": "Murasaki Shion",
+        "name": "",
         "rarity": "OSR",
         "lives": 5,
         "color": "Purple",
@@ -89,11 +89,12 @@
             "power": 2,
             "description": "[Once per game] When your purple Center Holomen uses an Art, you may activate this effect: Deal 50 special damage to your opponent's Center Holomen for each Cheer attached to it."
         },
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasSigned" : true
     },
     {
         "cardNumber": "hBP03-006",
-        "name": "Kureiji Ollie",
+        "name": "",
         "rarity": "OSR",
         "lives": 5,
         "color": "Purple",
@@ -111,7 +112,7 @@
     },
     {
         "cardNumber": "hBP03-007",
-        "name": "Mori Calliope",
+        "name": "",
         "rarity": "OSR",
         "lives": 5,
         "color": "Purple",
@@ -125,12 +126,13 @@
             "power": 2,
             "description": "[Once per game] If your center Holomen is <Mori Calliope>, you can use this ability: For the duration of this turn, your <Mori Calliope> can use the same Arts twice, once after using it."
         },
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasSigned" : true
     },
     {
         "cardNumber": "hBP03-008",
-        "name": "Shirakami Fubuki",
-        "rarity": "C",
+        "name": "",
+        "rarity": "U",
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "White",
@@ -145,8 +147,8 @@
     },
     {
         "cardNumber": "hBP03-009",
-        "name": "Shirakami Fubuki",
-        "rarity": "U",
+       "name": "",
+        "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "White",
@@ -161,8 +163,8 @@
     },
     {
         "cardNumber": "hBP03-010",
-        "name": "Shirakami Fubuki",
-        "rarity": "C",
+        "name": "",
+        "rarity": "U",
         "bloomLevel": "1ST",
         "hp": 150,
         "color": "White",
@@ -181,8 +183,8 @@
     },
     {
         "cardNumber": "hBP03-011",
-        "name": "Shirakami Fubuki",
-        "rarity": "U",
+        "name": "",
+        "rarity": "R",
         "bloomLevel": "1st",
         "hp": 120,
         "color": "White",
