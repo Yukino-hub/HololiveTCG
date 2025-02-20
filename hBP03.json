@@ -1,7 +1,7 @@
 [
     {
         "cardNumber": "hBP03-001",
-        "name": "",
+        "name": "sample",
         "rarity": "OSR",
         "lives": 5,
         "color": "White",
@@ -19,7 +19,7 @@
     },
     {
         "cardNumber": "hBP03-002",
-        "name": "",
+        "name": "sample",
         "rarity": "OSR",
         "lives": 5,
         "color": "Green",
@@ -38,7 +38,7 @@
     },
     {
         "cardNumber": "hBP03-003",
-        "name": "",
+        "name": "sample",
         "rarity": "OSR",
         "lives": 5,
         "color": "Red",
@@ -57,7 +57,7 @@
     },
     {
         "cardNumber": "hBP03-004",
-        "name": "",
+        "name": "sample",
         "rarity": "OSR",
         "lives": 6,
         "color": "Blue",
@@ -75,7 +75,7 @@
     },
     {
         "cardNumber": "hBP03-005",
-        "name": "",
+        "name": "sample",
         "rarity": "OSR",
         "lives": 5,
         "color": "Purple",
@@ -94,7 +94,7 @@
     },
     {
         "cardNumber": "hBP03-006",
-        "name": "",
+        "name": "sample",
         "rarity": "OSR",
         "lives": 5,
         "color": "Purple",
@@ -112,7 +112,7 @@
     },
     {
         "cardNumber": "hBP03-007",
-        "name": "",
+        "name": "sample",
         "rarity": "OSR",
         "lives": 5,
         "color": "Purple",
@@ -131,7 +131,7 @@
     },
       {
         "cardNumber": "hBP03-008",
-        "name": "",
+        "name": "sample",
         "rarity": "OSR",
         "lives": 5,
         "color": "Purple",
@@ -149,7 +149,7 @@
     },
     {
         "cardNumber": "hBP03-009",
-       "name": "",
+       "name": "sample",
         "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 80,
@@ -165,7 +165,7 @@
     },
     {
         "cardNumber": "hBP03-010",
-        "name": "",
+        "name": "sample",
         "rarity": "U",
         "bloomLevel": "1ST",
         "hp": 150,
@@ -185,7 +185,7 @@
     },
     {
         "cardNumber": "hBP03-011",
-        "name": "",
+        "name": "sample",
         "rarity": "C",
         "bloomLevel": "1st",
         "hp": 120,
@@ -202,7 +202,7 @@
     },
     {
         "cardNumber": "hBP03-012",
-        "name": "",
+        "name": "sample",
         "rarity": "C",
         "bloomLevel": "1st",
         "hp": 100,
@@ -275,7 +275,7 @@
     },
     {
         "cardNumber": "hBP03-016",
-        "name": "",
+        "name": "sample",
         "rarity": "U",
         "bloomLevel": "1st",
         "hp": 130,
@@ -777,7 +777,7 @@
     },
     {
         "cardNumber": "hBP03-044",
-        "name": "",
+        "name": "sample",
         "rarity": "R",
         "bloomLevel": "1st",
         "hp": 170,
@@ -1373,7 +1373,7 @@
     },
     {
         "cardNumber": "hBP03-080",
-        "name": "",
+        "name": "sample",
         "type": "Support (Event)",
         "rarity": "R",
         "limited": "Yes",
@@ -1381,7 +1381,7 @@
         "hasFoils": true
     },
     {
-        "name": "",
+        "name": "sample",
         "name": "ホロライブインドネシア2期生 (hololive ID 2nd Generation)",
         "type": "Support (Event)",
         "rarity": "C",
@@ -1391,7 +1391,7 @@
     },
     {
         "cardNumber": "hBP03-082",
-        "name": "",
+        "name": "sample",
         "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
@@ -1400,7 +1400,7 @@
     },
     {
         "cardNumber": "hBP03-083",
-        "name": "",
+        "name": "sample",
         "type": "Support (Event)",
         "rarity": "C",
         "tag": "Magic",
@@ -1409,7 +1409,7 @@
     },
     {
         "cardNumber": "hBP03-084",
-       "name": "",
+       "name": "sample",
         "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
@@ -1418,7 +1418,7 @@
     },
     {
         "cardNumber": "hBP03-085",
-        "name": "",
+        "name": "sample",
         "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
@@ -1427,7 +1427,7 @@
     },
     {
         "cardNumber": "hBP03-086",
-        "name": "",
+        "name": "sample",
         "type": "Support (Tool)",
         "rarity": "C",
         "ability": "The Arts of the holomem with this Tool attached gain +20 power.If the holomem with this Tool attached does not have #Alcohol, whenever the holomem with this Tool attached is about to take damage, add +10 to that damage. You may only attach 1 Tool to a holomem.",
@@ -1435,7 +1435,7 @@
     },
     {
         "cardNumber": "hBP03-087",
-        "name": "",
+        "name": "sample",
         "type": "Support (Tool)",
         "rarity": "C",
         "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later Murasaki Shion, it gains the following effect: if the holomem with this Tool attached is your Center holomem, your Oshi Skill 「ねえ゛え゛え゛え゛え゛え゛え゛」 becomes (Twice per turn) instead of (Once per turn). You may only attach 1 Tool to a holomem.",
@@ -1443,7 +1443,7 @@
     },
     {
         "cardNumber": "hBP03-088",
-        "name": "",
+        "name": "sample",
         "type": "Support (Tool)",
         "rarity": "U",
         "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later <Mori Calliope>, it gains the following effect: when you attach this Tool to a holomem from your hand, Archive 1 card from the top of your deck. You may only attach 1 Tool to a holomem.",
@@ -1451,7 +1451,7 @@
     },
     {
         "cardNumber": "hBP03-089",
-        "name": "",
+        "name": "sample",
         "type": "Support (Mascot)",
         "rarity": "U",
         "tag": "#ShirakamiCharacter",
@@ -1460,7 +1460,7 @@
     },
     {
         "cardNumber": "hBP03-090",
-        "name": "",
+        "name": "sample",
         "type": "Support (Mascot)",
         "rarity": "U",
         "tag": "#ShirakamiCharacter",
@@ -1469,7 +1469,7 @@
     },
     {
         "cardNumber": "hBP03-091",
-        "name": "",
+        "name": "sample",
         "type": "Support (Mascot)",
         "rarity": "U",
         "tag": "#ShirakamiCharacter",
@@ -1478,7 +1478,7 @@
     },
     {
         "cardNumber": "hBP03-092",
-        "name": "",
+        "name": "sample",
         "type": "Support (Mascot)",
         "rarity": "U",
         "tag": "#ShirakamiCharacter",
@@ -1487,7 +1487,7 @@
     },
     {
         "cardNumber": "hBP03-093",
-        "name": "",
+        "name": "sample",
         "type": "Support (Mascot)",
         "rarity": "U",
         "tag": "#ShirakamiCharacter",
@@ -1496,7 +1496,7 @@
     },
     {
         "cardNumber": "hBP03-094",
-        "name": "",
+        "name": "sample",
         "type": "Support (Mascot)",
         "rarity": "U",
         "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Pavolia Reine>, it gains the following effect: the holomem with this Mascot attached has +30 HP. You may only attach 1 Mascot to a holomem.",
@@ -1504,7 +1504,7 @@
     },
     {
         "cardNumber": "hBP03-095",
-        "name": "",
+        "name": "sample",
         "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Houshou Marine>, it gains the following effect: (Center position only) when the holomem that this Mascot is attached to Blooms, draw 1 card from your Deck. You may only attach 1 Mascot to a holomem.",
@@ -1512,7 +1512,7 @@
     },
     {
         "cardNumber": "hBP03-096",
-        "name": "",
+        "name": "sample",
         "type": "Support (Mascot)",
         "rarity": "U",
         "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Sakamata Chloe>, it gains the following effect: when the holomem with this Mascot attached Downs one of your opponent's holomems, send a Cheer from your Archive to one of your holomems with #SecretSocietyholoX. You may only attach 1 Mascot to a holomem.",
@@ -1520,7 +1520,7 @@
     },
     {
         "cardNumber": "hBP03-097",
-        "name": "",
+        "name": "sample",
         "type": "Support (Mascot)",
         "rarity": "C",
         "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Kureiji Ollie>, it gains the following effect: when the holomem that this Mascot is attached to Blooms, draw 1 card from your Deck then Archive 1 card from your hand. You may only attach 1 Mascot to a holomem.",
@@ -1528,7 +1528,7 @@
     },
     {
         "cardNumber": "hBP03-098",
-        "name": "",
+        "name": "sample",
         "type": "Support (Mascot)",
         "rarity": "U",
         "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to <Mori Calliope>, it gains the following effect: the Cheer requirements of all Arts of the holomem this is attached to become Colorless. You may only attach 1 Mascot to a holomem.",
@@ -1536,7 +1536,7 @@
     },
     {
         "cardNumber": "hBP03-099",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "The holomem with this Fan attached has +10 HP. This Fan may only be attached to your <Shirakami Fubuki>, and you may attach any number of this Fan to one holomem.",
@@ -1544,7 +1544,7 @@
     },
     {
         "cardNumber": "hBP03-100",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "Whenever the holomem with this Fan attached takes damage, it takes -10 damage. This Fan may only be attached to your <Shirogane Noel>, and you may attach any number of this Fan to one holomem.",
@@ -1552,7 +1552,7 @@
     },
     {
         "cardNumber": "hBP03-101",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": " During your opponent's turn, when the holomem with this Fan attached is Downed, draw a card. This Fan may only be attached to your <Ookami Mio>, and you may attach any number of this Fan to one holomem.",
@@ -1560,7 +1560,7 @@
     },
     {
         "cardNumber": "hBP03-102",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "U",
         "ability": "The Arts of the holomem with this Fan attached gain +10 power. When the holomem with this Fan attached takes damage, Archive this Fan. This Fan may only be attached to your <Murasaki Shion>, and you may attach any number of this Fan to one holomem.",
@@ -1568,7 +1568,7 @@
     },
      {
         "cardNumber": "hBP03-103",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "",
@@ -1576,7 +1576,7 @@
     },
      {
         "cardNumber": "hBP03-104",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "",
@@ -1584,7 +1584,7 @@
     },
      {
         "cardNumber": "hBP03-105",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "R",
         "ability": "",
@@ -1592,7 +1592,7 @@
     },
      {
         "cardNumber": "hBP03-106",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "",
@@ -1600,7 +1600,7 @@
     },
      {
         "cardNumber": "hBP03-107",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "",
@@ -1608,7 +1608,7 @@
     },
     {
         "cardNumber": "hBP03-108",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "",
@@ -1616,7 +1616,7 @@
     },
      {
         "cardNumber": "hBP03-109",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "",
@@ -1624,7 +1624,7 @@
     },
     {
         "cardNumber": "hBP03-110",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "",
@@ -1632,7 +1632,7 @@
     },
     {
         "cardNumber": "hBP03-111",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "",
@@ -1640,7 +1640,7 @@
     },
     {
         "cardNumber": "hBP03-112",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "U",
         "ability": "",
@@ -1648,7 +1648,7 @@
     },
     {
         "cardNumber": "hBP03-113",
-        "name": "",
+        "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
         "ability": "",
