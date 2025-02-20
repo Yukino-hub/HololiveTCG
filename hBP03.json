@@ -256,7 +256,7 @@
     {
         "cardNumber": "hBP03-015",
         "name": "Shirogane Noel",
-        "rarity": "C",
+        "rarity": "R",
         "bloomLevel": "1st",
         "hp": 180,
         "color": "White",
@@ -276,7 +276,7 @@
     {
         "cardNumber": "hBP03-016",
         "name": "sample",
-        "rarity": "U",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 130,
         "color": "White",
@@ -293,7 +293,7 @@
     {
         "cardNumber": "hBP03-017",
         "name": "Shirogane Noel",
-        "rarity": "RR",
+        "rarity": "U",
         "bloomLevel": "1st",
         "hp": 260,
         "color": "White",
@@ -350,7 +350,7 @@
     {
         "cardNumber": "hBP03-020",
         "name": "Pavolia Reine",
-        "rarity": "C",
+        "rarity": "R",
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Green",
@@ -366,7 +366,7 @@
     {
         "cardNumber": "hBP03-021",
         "name": "Pavolia Reine",
-        "rarity": "U",
+        "rarity": "RR",
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Green",
@@ -402,7 +402,7 @@
     {
         "cardNumber": "hBP03-023",
         "name": "Pavolia Reine",
-        "rarity": "RR",
+        "rarity": "R",
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Green",
@@ -421,7 +421,7 @@
     {
         "cardNumber": "hBP03-024",
         "name": "Ookami Mio",
-        "rarity": "C",
+        "rarity": "RR",
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "Green",
@@ -433,6 +433,8 @@
             }
         ],
         "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-025",
@@ -474,7 +476,7 @@
     {
         "cardNumber": "hBP03-027",
         "name": "Ookami Mio",
-        "rarity": "RR",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 240,
         "color": "Green",
@@ -493,7 +495,7 @@
     {
         "cardNumber": "hBP03-028",
         "name": "Houshou Marine",
-        "rarity": "C",
+        "rarity": "R",
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Red",
@@ -509,7 +511,7 @@
     {
         "cardNumber": "hBP03-029",
         "name": "Houshou Marine",
-        "rarity": "U",
+        "rarity": "R",
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Red",
@@ -525,7 +527,7 @@
     {
         "cardNumber": "hBP03-030",
         "name": "Houshou Marine",
-        "rarity": "C",
+        "rarity": "RR",
         "bloomLevel": "Debut",
         "hp": 160,
         "color": "Red",
@@ -1546,7 +1548,7 @@
         "cardNumber": "hBP03-100",
         "name": "sample",
         "type": "Support (Fan)",
-        "rarity": "R",
+        "rarity": "C",
         "ability": "Whenever the holomem with this Fan attached takes damage, it takes -10 damage. This Fan may only be attached to your <Shirogane Noel>, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     },
@@ -1586,7 +1588,7 @@
         "cardNumber": "hBP03-105",
         "name": "sample",
         "type": "Support (Fan)",
-        "rarity": "C",
+        "rarity": "U",
         "ability": "",
         "hasFoils": true
     },
@@ -1626,7 +1628,7 @@
         "cardNumber": "hBP03-110",
         "name": "sample",
         "type": "Support (Fan)",
-        "rarity": "C",
+        "rarity": "U",
         "ability": "",
         "hasFoils": true
     },
@@ -1635,6 +1637,14 @@
         "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
+        "ability": "",
+        "hasFoils": true
+    },
+    {
+        "cardNumber": "hBP03-112",
+        "name": "sample",
+        "type": "Support (Fan)",
+        "rarity": "U",
         "ability": "",
         "hasFoils": true
     }
