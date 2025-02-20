@@ -1,93 +1,93 @@
 [
     {
         "cardNumber": "hBP03-001",,,
-        "name": "sample",
+        "name": "Himemori Luna",
         "rarity": "OSR",
         "lives": 5,
         "color": "White",
         "oshiSkill": {
-            "name": "マスコット創造  (\"Mascot Creation\")",
+            "name": "",
             "power": 2,
-            "description": "[Once per turn] You may reveal one Mascot from your deck, add it to your hand, and then shuffle your deck."
+            "description": "[Once per turn] Reveal 1 Item with "PC" in its name from your Deck and put it into your hand. Then shuffle your deck."
         },
         "spOshiSkill": {
-            "name": "フブキングダム  (\"Fubukingdom\")",
+            "name": "",
             "power": 2,
-            "description": "[Once per game] When one of your White Holomen downs an opponent’s Holomen, for every 2 Mascots attached to all of your Holomen, roll a die. If at least one odd number is rolled, your opponent loses 1 Life."
+            "description": "[Once per game] May only be used if your Center holomem is Himemori Luna: Reveal 1-4 Luknights from your deck and attach them to your holomems in any way you like. Then shuffle your deck."
         },
         "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP03-002",
-        "name": "sample",
+        "name": "Shishiro Botan",
         "rarity": "OSR",
         "lives": 5,
         "color": "Green",
         "oshiSkill": {
-            "name": "HALU",
+            "name": "poi",
             "power": 2,
-            "description": "(Once per turn) Archive a Green Cheer from one of your holomems, then reveal a Cheer from your Cheer Deck and send it to any of your holomems. Then shuffle your Cheer Deck."
+            "description": "(Once per turn). Return 1 Cheer from archive to your own back <Shishiro Botan>"
         },
         "spOshiSkill": {
-            "name": "極彩色の宴 (\"A Colorful Feast\")",
+            "name": "",
             "power": 2,
-            "description": "(Once per game) The Arts of each of your holomems with #IDGen2 gain +20 power for each color of Cheer attached to that holomem, until the end of this turn."
+            "description": "(Once per game) You may use this when your center Holomen is Green : Deal 100 Special Damage Opponent's Center Holomen other then Debut."
         },
         "hasAlternativeArt": true,
         "hasSigned" : true
     },
     {
         "cardNumber": "hBP03-003",
-        "name": "sample",
+        "name": "Sakura Miko",
         "rarity": "OSR",
         "lives": 5,
         "color": "Red",
         "oshiSkill": {
-            "name": "Ahoy",
-            "power": 3,
-            "description": "[Once per turn] Bloom one of your #3rdGen Holomen that Bloomed this turn again by using a Holomen from your hand."
+            "name": "",
+            "power": 2,
+            "description": "[Once per turn] You may roll a dice. If the result is 1, 2, 4, or 6, return a 35P from your Archive to your hand. If the result is 3 or 5, return 2 35Ps from your Archive to your hand."
         },
         "spOshiSkill": {
-            "name": "出航~!  (\"Shukkou~!\")",
+            "name": "",
             "power": 2,
-            "description": "[Once per game] Deal 50 special damage to either the opposing Center Holomen or Collaboration Holomen for each Holomen stacked under your Center Holomen, Houshou Marine."
+            "description": "[Once per game] Can be used if your Center holomem is Red: Choose any number of cards from your hand and place them on the bottom of your Deck in any order. Then draw from your Deck until you have 5 cards in your hand."
         },
         "hasAlternativeArt": true,
         "hasSigned" : true
     },
     {
         "cardNumber": "hBP03-004",
-        "name": "sample",
+        "name": "FUWAMOCO",
         "rarity": "OSR",
-        "lives": 6,
+        "lives": 5,
         "color": "Blue",
         "oshiSkill": {
-            "name": "ぽえぽえぽえ～  (\"poepoepoe~\")",
-            "power": 1,
-            "description": "[Once per turn] If your center Holomen is Sakamata Chloe, you may use this ability: Look at the top three cards of your deck. You may either archive all of them or place them back on top of your deck in any order."
+            "name": "",
+            "power": 3,
+            "description": "[Once per turn] ."
         },
         "spOshiSkill": {
-            "name": "人生リセットボタン  (\"Life Reset Button\")",
-            "power": 3,
-            "description": "[Once per game] Count the cards in your hand. Return all cards in your hand and all Holomen from your Archive to your deck, then shuffle it. For each card returned from your hand to the deck, draw one card."
+            "name": "BAU BAU!",
+            "power": 2,
+            "description": ""
         },
         "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP03-005",
-        "name": "sample",
+        "name": "Tokoyami Towa",
         "rarity": "OSR",
         "lives": 5,
         "color": "Purple",
         "oshiSkill": {
-            "name": "ねえ”え”え”え”え”え”(\"Neeeeeee\")",
-            "power": 1,
-            "description": "[Once per turn] When you roll a die due to the ability of Murasaki Shion, you may reroll the die once.."
+            "name": "",
+            "power": 2,
+            "description": "[Once per turn] The Arts of your Center and Collab holomems with #Song gain +20 power until the end of the turn."
         },
         "spOshiSkill": {
-            "name": "シオンのすごい魔法  (\"Shion's Amazing Magic\")",
+            "name": "",
             "power": 2,
-            "description": "[Once per game] When your purple Center Holomen uses an Art, you may activate this effect: Deal 50 special damage to your opponent's Center Holomen for each Cheer attached to it."
+            "description": "[Once per game]  Can be used during your opponent's turn when your Tokoyami Towa is Downed: return 2 Cheers from your opponent's Center holomem and 2 Cheers from their Collab holomem to the bottom of their Cheer Deck in any order."
         },
         "hasAlternativeArt": true,
         "hasSigned" : true
@@ -96,54 +96,54 @@
         "cardNumber": "hBP03-006",
         "name": "sample",
         "rarity": "OSR",
-        "lives": 5,
-        "color": "Purple",
+        "lives": 6,
+        "color": "Yellow",
         "oshiSkill": {
-            "name": "ゾンビ戦術 (\"Zombie Tactics\")",
+            "name": "",
             "power": "2",
-            "description": "(Once per turn) Bloom one of your holomems with #IDGen2 using a holomem from your Archive."
+            "description": "(Once per turn) Active one rested <korone>"
         },
         "spOshiSkill": {
-            "name": "蘇るオリー (\"Ollie resurrection\")",
+            "name": "",
             "power": 2,
-            "description": "(Once per game) Draw 4 cards, then Archive 2 cards from your hand. Then, you may Bloom one of your holomems using a holomem from your Archive."
+            "description": "(Once per turn) You may use this when your Yellow holomen is down : Transfer 1 Cheer from that Holomem to another of your Holomems, and return 1 card from among the overlapping Holomems, including the downed Holomem, to your hand.", "
         },
         "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP03-007",
-        "name": "sample",
+        "name": "Tsunomaki Watame",
         "rarity": "OSR",
         "lives": 5,
-        "color": "Purple",
+        "color": "Yellow",
         "oshiSkill": {
-            "name": "サンプリング (\"Sampling\")",
+            "name": ",
             "power": 2,
-            "description": "[Once per turn] Archive 2 cards from your hand, and return 2 holomems with #EN from your Archive to your hand."
+            "description": "[Once per turn] Reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck."
         },
         "spOshiSkill": {
-            "name": "死神ラップ  (\"Shinigami Rap\")",
+            "name": "",
             "power": 2,
-            "description": "[Once per game] If your center Holomen is <Mori Calliope>, you can use this ability: For the duration of this turn, your <Mori Calliope> can use the same Arts twice, once after using it."
+            "description": "[Once per game] Send the top 2 cards of your Cheer Deck to one of your Tsunomaki Watames."
         },
         "hasAlternativeArt": true,
         "hasSigned" : true
     },
       {
         "cardNumber": "hBP03-008",
-        "name": "sample",
+        "name": "",
         "rarity": "OSR",
         "lives": 5,
-        "color": "Purple",
+        "color": "Yellow",
         "oshiSkill": {
-            "name": "サンプリング (\"Sampling\")",
+            "name": "",
             "power": 2,
-            "description": "[Once per turn] Archive 2 cards from your hand, and return 2 holomems with #EN from your Archive to your hand."
+            "description": ""
         },
         "spOshiSkill": {
-            "name": "死神ラップ  (\"Shinigami Rap\")",
+            "name": "",
             "power": 2,
-            "description": "[Once per game] If your center Holomen is <Mori Calliope>, you can use this ability: For the duration of this turn, your <Mori Calliope> can use the same Arts twice, once after using it."
+            "description": ""
         },
         "hasAlternativeArt": true
     },
