@@ -234,7 +234,6 @@
                 "description": "For each Mascot attached to your holomems, this Art gains +20 power."
             }
         ],
-        "hasAlternativeArt": true,
         "hasFullArt": true
     },
     {
@@ -251,7 +250,8 @@
                 "dmg": "20"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-015",
@@ -271,7 +271,8 @@
                 "dmg": "60"
             }
         ],
-        "hasFoils": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-016",
@@ -379,7 +380,8 @@
                 "description": "You may send 1 Cheer from your Archive to any of your holomems."
             }
         ],
-        "hasFoils": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-022",
@@ -415,7 +417,6 @@
                 "description": "For each color of Cheer on your Stage, this Art gains +20 power."
             }
         ],
-        "hasAlternativeArt": true,
         "hasFullArt": true
     },
     {
@@ -564,7 +565,7 @@
     {
         "cardNumber": "hBP03-032",
         "name": "Houshou Marine",
-        "rarity": "U",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Red",
@@ -581,7 +582,7 @@
     {
         "cardNumber": "hBP03-033",
         "name": "Houshou Marine",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Red",
@@ -836,7 +837,7 @@
     {
         "cardNumber": "hBP03-047",
         "name": "Murasaki Shion",
-        "rarity": "U",
+        "rarity": "C",
         "bloomLevel": "2nd",
         "hp": 130,
         "color": "Purple",
@@ -890,7 +891,7 @@
     {
         "cardNumber": "hBP03-050",
         "name": "Kureiji Ollie",
-        "rarity": "C",
+        "rarity": "R",
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Purple",
@@ -905,12 +906,14 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true.
+         "hasAlternativeArt": true,
+        "hasFullArt": true,
     },
     {
         "cardNumber": "hBP03-051",
         "name": "Kureiji Ollie",
-        "rarity": "U",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Purple",
@@ -927,7 +930,7 @@
     {
         "cardNumber": "hBP03-052",
         "name": "Kureiji Ollie",
-        "rarity": "R",
+        "rarity": "U",
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Purple",
@@ -944,7 +947,7 @@
     {
         "cardNumber": "hBP03-053",
         "name": "Kureiji Ollie",
-        "rarity": "RR",
+        "rarity": "C",
         "bloomLevel": "2nd",
         "hp": 120,
         "color": "Purple",
@@ -963,7 +966,7 @@
     {
         "cardNumber": "hBP03-054",
         "name": "Mori Calliope",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "Purple",
@@ -980,7 +983,7 @@
     {
         "cardNumber": "hBP03-055",
         "name": "Mori Calliope",
-        "rarity": "U",
+        "rarity": "R",
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Purple",
@@ -997,7 +1000,7 @@
     {
         "cardNumber": "hBP03-056",
         "name": "Mori Calliope",
-        "rarity": "C",
+        "rarity": "RR",
         "bloomLevel": "1st",
         "hp": 110,
         "color": "Purple",
@@ -1013,7 +1016,7 @@
     {
         "cardNumber": "hBP03-057",
         "name": "Mori Calliope",
-        "rarity": "U",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Purple",
@@ -1030,7 +1033,7 @@
     {
         "cardNumber": "hBP03-058",
         "name": "Mori Calliope",
-        "rarity": "U",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Purple",
@@ -1048,7 +1051,7 @@
     {
         "cardNumber": "hBP03-059",
         "name": "Mori Calliope",
-        "rarity": "R",
+        "rarity": "U",
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Purple",
@@ -1134,7 +1137,7 @@
     {
         "cardNumber": "hBP03-064",
         "name": "Ninomae Ina'nis",
-        "rarity": "R",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 250,
         "buzz": "true",
@@ -1190,7 +1193,7 @@
     {
         "cardNumber": "hBP03-067",
         "name": "Nerissa Ravencroft",
-        "rarity": "U",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Purple",
@@ -1207,7 +1210,7 @@
     {
         "cardNumber": "hBP03-068",
         "name": "Nerissa Ravencroft",
-        "rarity": "R",
+        "rarity": "U",
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "Purple",
@@ -1224,7 +1227,7 @@
     {
         "cardNumber": "hBP03-069",
         "name": "Magical Girl Miko",
-        "rarity": "R",
+        "rarity": "C",
         "bloomLevel": "Spot",
         "hp": 60,
         "color": "Colorless",
@@ -1242,7 +1245,7 @@
     {
         "cardNumber": "hBP03-070",
         "name": "Magical Girl Kanata",
-        "rarity": "R",
+        "rarity": "C",
         "bloomLevel": "Spot",
         "hp": 60,
         "color": "Colorless",
@@ -1296,7 +1299,7 @@
     {
         "cardNumber": "hBP03-073",
         "name": "Magical Girl Marine",
-        "rarity": "R",
+        "rarity": "RR",
         "bloomLevel": "Spot",
         "hp": 60,
         "color": "Colorless",
@@ -1308,8 +1311,8 @@
                 "dmg": 20
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom",
-        "hasFullArt": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true,
     },
     {
         "cardNumber": "hBP03-074",
