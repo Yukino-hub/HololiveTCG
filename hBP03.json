@@ -667,7 +667,7 @@
     {
         "cardNumber": "hBP03-038",
         "name": "Sakamata Chloe",
-        "rarity": "U",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 110,
         "color": "Blue",
@@ -702,7 +702,7 @@
     {
         "cardNumber": "hBP03-040",
         "name": "Sakamata Chloe",
-        "rarity": "RR",
+        "rarity": "C",
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Blue",
@@ -721,7 +721,7 @@
     {
         "cardNumber": "hBP03-041",
         "name": "Nekomata Okayu",
-        "rarity": "RR",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 230,
         "buzz": true,
@@ -742,7 +742,7 @@
     {
         "cardNumber": "hBP03-042",
         "name": "Murasaki Shion",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "Debut",
         "hp": 130,
         "color": "Purple",
@@ -758,7 +758,7 @@
     {
         "cardNumber": "hBP03-043",
         "name": "Murasaki Shion",
-        "rarity": "U",
+        "rarity": "RR",
         "bloomLevel": "Debut",
         "hp": 50,
         "color": "Purple",
