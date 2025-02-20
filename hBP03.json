@@ -358,7 +358,7 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-021",
@@ -515,7 +515,8 @@
                 "name": "マリン“船長”だろぉぉん！？",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-030",
@@ -569,8 +570,7 @@
                 "name": "ヨーソロー",
                 "dmg": "50"
             }
-        ],
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-033",
@@ -627,7 +627,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-036",
@@ -644,7 +644,7 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-037",
@@ -820,8 +820,7 @@
                 "dmg": "30",
                 "description": "You may roll a dice: if the result is 5 or more, move 1 Cheer from one of your opponent's holomems to another."
             }
-        ],
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-047",
@@ -871,7 +870,7 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-050",
@@ -924,8 +923,7 @@
                 "name": "推しを見て叫びまくるぞ！！",
                 "dmg": "20"
             }
-        ],
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-053",
@@ -976,7 +974,7 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-056",
@@ -1027,8 +1025,7 @@
                 "dmg": "30+",
                 "description": "If this holomem has a Tool or a Mascot attached, this Art gains +30 power."
             }
-        ],
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-059",
@@ -1145,7 +1142,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-066",
@@ -1199,8 +1196,7 @@
                 "name": "歌に宿りし愛情",
                 "dmg": "80"
             }
-        ],
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-069",
@@ -1216,9 +1212,7 @@
                 "name": "『巫女』の『ホロ』！",
                 "dmg": 20
             }
-        ],
-        "extraEffect": "This Holomen cannot be Bloom",
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-070",
@@ -1234,9 +1228,7 @@
                 "name": "『天使』の『ホロ』！",
                 "dmg": 20
             }
-        ],
-        "extraEffect": "This Holomen cannot be Bloom",
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-071",
@@ -1304,9 +1296,7 @@
                 "name": "『シャチ』の『ホロ』！",
                 "dmg": 20
             }
-        ],
-        "extraEffect": "This Holomen cannot be Bloom",
-        "hasFullArt": true
+        ]
     },
     {
         "cardNumber": "hBP03-075",
@@ -1332,7 +1322,7 @@
         "rarity": "R",
         "limited": "Yes",
         "ability": "This card can only be played if you have 3 or less LIFE. Return 1 holomem from your Archive to your hand.",
-        "hasFoils": true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-078",
@@ -1351,7 +1341,6 @@
         "rarity": "RR",
         "tag": "#Magic",
         "ability": "Deal 20 special damage to your opponent's Center or Collab holomem. holomems Downed with this effect do not reduce LIFE. You may only play one Event with #Magic per turn.",
-        "hasFoils": true,
          "hasAlternativeArt": true,
         "hasFullArt": true
     },
