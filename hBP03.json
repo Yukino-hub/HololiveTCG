@@ -450,8 +450,7 @@
                 "name": "おつみぉーん",
                 "dmg": "50"
             }
-        ],
-        "hasFoils": true
+        ]
     },
     {
         "cardNumber": "hBP03-026",
@@ -484,7 +483,8 @@
                 "dmg": "60+",
                 "description": "You may Archive the top card of your Deck. If it's a holomem, this Art gains +20 power. If it's a Support card, this Art gains +50 power."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-028",
@@ -500,7 +500,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies"
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-029",
@@ -554,8 +554,7 @@
                 "name": "いっしょに出航しましょう！（健全)",
                 "dmg": "30"
             }
-        ],
-        "hasFoils": true
+        ]
     },
     {
         "cardNumber": "hBP03-032",
@@ -571,7 +570,8 @@
                 "name": "ヨーソロー",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-033",
@@ -588,7 +588,8 @@
                 "dmg": "80+",
                 "description": "For each holomem stacked under this one, this Art gains +20 power."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-034",
@@ -610,7 +611,6 @@
                 "description": "If this holomem has a Tool or Mascot attached, deal 30 special damage to your opponent's Center or Collab holomem."
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
         "hasAlternativeArt": true,
         "hasFullArt": true
     },
@@ -660,8 +660,7 @@
                 "name": "ふたりじめビーチ",
                 "dmg": "60"
             }
-        ],
-        "hasFoils": true
+        ]
     },
     {
         "cardNumber": "hBP03-038",
@@ -731,7 +730,8 @@
                 "dmg": "50",
                 "description": "You may archive 1 Blue Cheer from this holomem for the following effect: deal 20 special damage to your opponent's Center holomem and one of their Back holomems."
             }
-        ]
+        ],
+        "hasFoils": true
         
     },
     {
@@ -748,7 +748,7 @@
                 "dmg": "20"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-043",
@@ -786,7 +786,6 @@
                 "dmg": "60"
             }
         ],
-        "hasFoils": true,
         "hasFullArt": true
     },
     {
@@ -838,7 +837,8 @@
                 "dmg": "80",
                 "description": "For each Cheer attached to your opponent's Center holomem, deal 20 special damage to your opponent's Center and Collab holomem."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-048",
@@ -854,7 +854,7 @@
                 "dmg": "20"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-049",
@@ -907,8 +907,7 @@
                 "name": "推しを見て叫びまくるぞ！！",
                 "dmg": "20"
             }
-        ],
-        "hasFoils": true
+        ]
     },
     {
         "cardNumber": "hBP03-052",
@@ -924,7 +923,8 @@
                 "name": "推しを見て叫びまくるぞ！！",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-053",
@@ -941,7 +941,8 @@
                 "dmg": "100+",
                 "description": "If there are at least 2 2nd Bloom holomems with #IDGen2 on your Stage, this Art gains +40 power."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-054",
@@ -958,7 +959,7 @@
                 "description": "If there are any holomems in your Archive, this Art gains +10 power."
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-055",
@@ -1008,8 +1009,7 @@
                 "name": "一緒にブチアガろうぜ！",
                 "dmg": "50"
             }
-        ],
-        "hasFoils": true
+        ]
     },
     {
         "cardNumber": "hBP03-058",
@@ -1026,7 +1026,8 @@
                 "dmg": "30+",
                 "description": "If this holomem has a Tool or a Mascot attached, this Art gains +30 power."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-059",
@@ -1043,7 +1044,8 @@
                 "dmg": "80+",
                 "description": "If you have 4 or more holomems with #Myth in your Archive, this Art gains +40 power. If you have 8 or more, this Art gains another +40 power."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-060",
@@ -1059,8 +1061,7 @@
                 "name": "隠しきれない魅力",
                 "dmg": "80+"
             }
-        ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        ]
         "hasFullArt": true
     },
     {
@@ -1076,8 +1077,7 @@
                 "name": "WAH!",
                 "dmg": "10"
             }
-        ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        ]
     },
     {
         "cardNumber": "hBP03-062",
@@ -1127,7 +1127,8 @@
                 "dmg": "60+",
                 "description": "If there are 5 or more holomems with #Myth in your Archive, you may move 1 Cheer from this holomem to one of your other holomems. If there are 10 or more, this Art gains +50 power."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-065",
@@ -1180,8 +1181,7 @@
                 "name": "コーヒーよりも紅茶です",
                 "dmg": "20"
             }
-        ],
-        "hasFoils": true
+        ]
     },
     {
         "cardNumber": "hBP03-068",
@@ -1197,7 +1197,8 @@
                 "name": "歌に宿りし愛情",
                 "dmg": "80"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-069",
@@ -1213,7 +1214,8 @@
                 "name": "『巫女』の『ホロ』！",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-070",
@@ -1229,7 +1231,8 @@
                 "name": "『天使』の『ホロ』！",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-071",
@@ -1246,7 +1249,6 @@
                 "dmg": 20
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom",
         "hasFullArt": true
     },
     {
@@ -1297,7 +1299,8 @@
                 "name": "『シャチ』の『ホロ』！",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-075",
@@ -1342,7 +1345,7 @@
         "rarity": "RR",
         "tag": "#Magic",
         "ability": "Deal 20 special damage to your opponent's Center or Collab holomem. holomems Downed with this effect do not reduce LIFE. You may only play one Event with #Magic per turn.",
-         "hasAlternativeArt": true,
+        "hasAlternativeArt": true,
         "hasFullArt": true
     },
     {
@@ -1351,8 +1354,7 @@
         "type": "Support (Event)",
         "rarity": "C",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #SecretSocietyholoX and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
-        "hasFoils": true
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #SecretSocietyholoX and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
     },
     {
         "cardNumber": "hBP03-081",
@@ -1378,8 +1380,7 @@
         "type": "Support (Event)",
         "rarity": "R",
         "tag": "Magic",
-        "ability": "To play this card, you must Archive one holo power. Send one Purple Cheer from your Archive to one of your holomems named Murasaki Shion. You may only play one Event with #Magic per turn.",
-        "hasFoils": true,
+        "ability": "To play this card, you must Archive one holo power. Send one Purple Cheer from your Archive to one of your holomems named Murasaki Shion. You may only play one Event with #Magic per turn."
         "hasFullArt": true
     },
     {
