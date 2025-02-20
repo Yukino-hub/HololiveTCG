@@ -203,7 +203,7 @@
     {
         "cardNumber": "hBP03-012",
         "name": "sample",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "1st",
         "hp": 100,
         "color": "White",
@@ -221,7 +221,7 @@
     {
         "cardNumber": "hBP03-013",
         "name": "Shirakami Fubuki",
-        "rarity": "RR",
+        "rarity": "R",
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "White",
@@ -240,7 +240,7 @@
     {
         "cardNumber": "hBP03-014",
         "name": "Shirogane Noel",
-        "rarity": "C",
+        "rarity": "RR",
         "bloomLevel": "Debut",
         "hp": 130,
         "color": "White",
