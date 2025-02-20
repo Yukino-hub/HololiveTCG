@@ -256,7 +256,7 @@
     {
         "cardNumber": "hBP03-015",
         "name": "Shirogane Noel",
-        "rarity": "R",
+        "rarity": "RR",
         "bloomLevel": "1st",
         "hp": 180,
         "color": "White",
@@ -494,7 +494,7 @@
     {
         "cardNumber": "hBP03-028",
         "name": "Houshou Marine",
-        "rarity": "R",
+        "rarity": "U",
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Red",
@@ -541,12 +541,13 @@
                 "dmg": "60"
             }
         ],
-        "hasFoils": true
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-031",
         "name": "Houshou Marine",
-        "rarity": "U",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Red",
@@ -563,7 +564,7 @@
     {
         "cardNumber": "hBP03-032",
         "name": "Houshou Marine",
-        "rarity": "R",
+        "rarity": "U",
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Red",
@@ -580,7 +581,7 @@
     {
         "cardNumber": "hBP03-033",
         "name": "Houshou Marine",
-        "rarity": "RR",
+        "rarity": "C",
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Red",
@@ -623,7 +624,7 @@
     {
         "cardNumber": "hBP03-035",
         "name": "Sakamata Chloe",
-        "rarity": "C",
+        "rarity": "R",
         "bloomLevel": "Debut",
         "hp": 110,
         "color": "Blue",
@@ -639,7 +640,7 @@
     {
         "cardNumber": "hBP03-036",
         "name": "Sakamata Chloe",
-        "rarity": "U",
+        "rarity": "R",
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Blue",
@@ -800,7 +801,7 @@
     {
         "cardNumber": "hBP03-045",
         "name": "Murasaki Shion",
-        "rarity": "U",
+        "rarity": "R",
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Purple",
@@ -812,12 +813,12 @@
                 "dmg": "40"
             }
         ],
-        "hasFoils": true
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-046",
         "name": "Murasaki Shion",
-        "rarity": "R",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Purple",
@@ -835,7 +836,7 @@
     {
         "cardNumber": "hBP03-047",
         "name": "Murasaki Shion",
-        "rarity": "RR",
+        "rarity": "U",
         "bloomLevel": "2nd",
         "hp": 130,
         "color": "Purple",
@@ -856,7 +857,7 @@
     {
         "cardNumber": "hBP03-048",
         "name": "Kureiji Ollie",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "Debut",
         "hp": 120,
         "color": "Purple",
@@ -872,7 +873,7 @@
     {
         "cardNumber": "hBP03-049",
         "name": "Kureiji Ollie",
-        "rarity": "U",
+        "rarity": "R",
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Purple",
@@ -1029,7 +1030,7 @@
     {
         "cardNumber": "hBP03-058",
         "name": "Mori Calliope",
-        "rarity": "R",
+        "rarity": "U",
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Purple",
@@ -1047,7 +1048,7 @@
     {
         "cardNumber": "hBP03-059",
         "name": "Mori Calliope",
-        "rarity": "RR",
+        "rarity": "R",
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Purple",
@@ -1100,7 +1101,7 @@
     {
         "cardNumber": "hBP03-062",
         "name": "Ninomae Ina'nis",
-        "rarity": "C",
+        "rarity": "U",
         "bloomLevel": "1st",
         "hp": 180,
         "color": "Purple",
@@ -1116,7 +1117,7 @@
     {
         "cardNumber": "hBP03-063",
         "name": "Ninomae Ina'nis",
-        "rarity": "U",
+        "rarity": "C",
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Purple",
@@ -1133,7 +1134,7 @@
     {
         "cardNumber": "hBP03-064",
         "name": "Ninomae Ina'nis",
-        "rarity": "RR",
+        "rarity": "R",
         "bloomLevel": "1st",
         "hp": 250,
         "buzz": "true",
@@ -1153,7 +1154,7 @@
     {
         "cardNumber": "hBP03-065",
         "name": "Nerissa Ravencroft",
-        "rarity": "C",
+        "rarity": "R",
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "Purple",
@@ -1169,7 +1170,7 @@
     {
         "cardNumber": "hBP03-066",
         "name": "Nerissa Ravencroft",
-        "rarity": "C",
+        "rarity": "RR",
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Purple",
