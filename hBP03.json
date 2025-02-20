@@ -1402,7 +1402,7 @@
         "cardNumber": "hBP03-083",
         "name": "sample",
         "type": "Support (Event)",
-        "rarity": "C",
+        "rarity": "R",
         "tag": "Magic",
         "ability": "To play this card, you must Archive one holo power. Send one Purple Cheer from your Archive to one of your holomems named Murasaki Shion. You may only play one Event with #Magic per turn.",
         "hasFoils": true
@@ -1546,7 +1546,7 @@
         "cardNumber": "hBP03-100",
         "name": "sample",
         "type": "Support (Fan)",
-        "rarity": "C",
+        "rarity": "R",
         "ability": "Whenever the holomem with this Fan attached takes damage, it takes -10 damage. This Fan may only be attached to your <Shirogane Noel>, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     },
@@ -1586,7 +1586,7 @@
         "cardNumber": "hBP03-105",
         "name": "sample",
         "type": "Support (Fan)",
-        "rarity": "R",
+        "rarity": "C",
         "ability": "",
         "hasFoils": true
     },
@@ -1602,7 +1602,7 @@
         "cardNumber": "hBP03-107",
         "name": "sample",
         "type": "Support (Fan)",
-        "rarity": "C",
+        "rarity": "U",
         "ability": "",
         "hasFoils": true
     },
