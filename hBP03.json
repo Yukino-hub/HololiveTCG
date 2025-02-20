@@ -1637,21 +1637,5 @@
         "rarity": "C",
         "ability": "",
         "hasFoils": true
-    },
-    {
-        "cardNumber": "hBP03-112",
-        "name": "sample",
-        "type": "Support (Fan)",
-        "rarity": "U",
-        "ability": "",
-        "hasFoils": true
-    },
-    {
-        "cardNumber": "hBP03-113",
-        "name": "sample",
-        "type": "Support (Fan)",
-        "rarity": "C",
-        "ability": "",
-        "hasFoils": true
     }
 ]
