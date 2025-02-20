@@ -8,7 +8,7 @@
         "oshiSkill": {
             "name": "",
             "power": 2,
-            "description": "[Once per turn] Reveal 1 Item with "PC" in its name from your Deck and put it into your hand. Then shuffle your deck."
+            "description": "[Once per turn] Reveal 1 Item with [PC] in its name from your Deck and put it into your hand. Then shuffle your deck."
         },
         "spOshiSkill": {
             "name": "",
