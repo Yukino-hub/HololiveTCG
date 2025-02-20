@@ -1,6 +1,6 @@
 [
     {
-        "cardNumber": "hBP03-001",,,
+        "cardNumber": "hBP03-001",
         "name": "Himemori Luna",
         "rarity": "OSR",
         "lives": 5,
@@ -34,7 +34,7 @@
             "description": "(Once per game) You may use this when your center Holomen is Green : Deal 100 Special Damage Opponent's Center Holomen other then Debut."
         },
         "hasAlternativeArt": true,
-        "hasSigned" : true
+        "hasSigned": true
     },
     {
         "cardNumber": "hBP03-003",
@@ -53,7 +53,7 @@
             "description": "[Once per game] Can be used if your Center holomem is Red: Choose any number of cards from your hand and place them on the bottom of your Deck in any order. Then draw from your Deck until you have 5 cards in your hand."
         },
         "hasAlternativeArt": true,
-        "hasSigned" : true
+        "hasSigned": true
     },
     {
         "cardNumber": "hBP03-004",
@@ -90,7 +90,7 @@
             "description": "[Once per game]  Can be used during your opponent's turn when your Tokoyami Towa is Downed: return 2 Cheers from your opponent's Center holomem and 2 Cheers from their Collab holomem to the bottom of their Cheer Deck in any order."
         },
         "hasAlternativeArt": true,
-        "hasSigned" : true
+        "hasSigned": true
     },
     {
         "cardNumber": "hBP03-006",
@@ -106,7 +106,7 @@
         "spOshiSkill": {
             "name": "",
             "power": 2,
-            "description": "(Once per turn) You may use this when your Yellow holomen is down : Transfer 1 Cheer from that Holomem to another of your Holomems, and return 1 card from among the overlapping Holomems, including the downed Holomem, to your hand.", "
+            "description": "(Once per turn) You may use this when your Yellow holomen is down : Transfer 1 Cheer from that Holomem to another of your Holomems, and return 1 card from among the overlapping Holomems, including the downed Holomem, to your hand."
         },
         "hasAlternativeArt": true
     },
@@ -117,7 +117,7 @@
         "lives": 5,
         "color": "Yellow",
         "oshiSkill": {
-            "name": ",
+            "name": "",
             "power": 2,
             "description": "[Once per turn] Reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck."
         },
@@ -127,9 +127,9 @@
             "description": "[Once per game] Send the top 2 cards of your Cheer Deck to one of your Tsunomaki Watames."
         },
         "hasAlternativeArt": true,
-        "hasSigned" : true
+        "hasSigned": true
     },
-      {
+    {
         "cardNumber": "hBP03-008",
         "name": "",
         "rarity": "OSR",
@@ -149,7 +149,7 @@
     },
     {
         "cardNumber": "hBP03-009",
-       "name": "sample",
+        "name": "sample",
         "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 80,
@@ -732,7 +732,6 @@
             }
         ],
         "hasFoils": true
-        
     },
     {
         "cardNumber": "hBP03-042",
@@ -765,7 +764,7 @@
                 "dmg": "30"
             }
         ],
-         "hasAlternativeArt": true,
+        "hasAlternativeArt": true,
         "hasFullArt": true
     },
     {
@@ -875,7 +874,7 @@
     },
     {
         "cardNumber": "hBP03-050",
-       "name": "sample",
+        "name": "sample",
         "rarity": "R",
         "bloomLevel": "1st",
         "hp": 160,
@@ -1061,7 +1060,7 @@
                 "name": "隠しきれない魅力",
                 "dmg": "80+"
             }
-        ]
+        ],
         "hasFullArt": true
     },
     {
@@ -1266,7 +1265,7 @@
                 "dmg": 20
             }
         ],
-         "hasAlternativeArt": true,
+        "hasAlternativeArt": true,
         "hasFullArt": true
     },
     {
@@ -1335,7 +1334,7 @@
         "rarity": "RR",
         "limited": "Yes",
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <Amane Kanata>, <AZKi>, or <Sakamata Chloe> and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
-         "hasAlternativeArt": true,
+        "hasAlternativeArt": true,
         "hasFullArt": true
     },
     {
@@ -1380,12 +1379,12 @@
         "type": "Support (Event)",
         "rarity": "R",
         "tag": "Magic",
-        "ability": "To play this card, you must Archive one holo power. Send one Purple Cheer from your Archive to one of your holomems named Murasaki Shion. You may only play one Event with #Magic per turn."
+        "ability": "To play this card, you must Archive one holo power. Send one Purple Cheer from your Archive to one of your holomems named Murasaki Shion. You may only play one Event with #Magic per turn.",
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-084",
-       "name": "sample",
+        "name": "sample",
         "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
@@ -1542,7 +1541,7 @@
         "ability": "The Arts of the holomem with this Fan attached gain +10 power. When the holomem with this Fan attached takes damage, Archive this Fan. This Fan may only be attached to your <Murasaki Shion>, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     },
-     {
+    {
         "cardNumber": "hBP03-103",
         "name": "sample",
         "type": "Support (Fan)",
@@ -1550,7 +1549,7 @@
         "ability": "",
         "hasFoils": true
     },
-     {
+    {
         "cardNumber": "hBP03-104",
         "name": "sample",
         "type": "Support (Fan)",
@@ -1558,7 +1557,7 @@
         "ability": "",
         "hasFoils": true
     },
-     {
+    {
         "cardNumber": "hBP03-105",
         "name": "sample",
         "type": "Support (Fan)",
@@ -1566,7 +1565,7 @@
         "ability": "",
         "hasFoils": true
     },
-     {
+    {
         "cardNumber": "hBP03-106",
         "name": "sample",
         "type": "Support (Fan)",
@@ -1574,7 +1573,7 @@
         "ability": "",
         "hasFoils": true
     },
-     {
+    {
         "cardNumber": "hBP03-107",
         "name": "sample",
         "type": "Support (Fan)",
@@ -1590,7 +1589,7 @@
         "ability": "",
         "hasFoils": true
     },
-     {
+    {
         "cardNumber": "hBP03-109",
         "name": "sample",
         "type": "Support (Fan)",
