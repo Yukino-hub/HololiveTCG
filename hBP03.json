@@ -1414,7 +1414,7 @@
         "rarity": "U",
         "limited": "Yes",
         "ability": "Draw 2 cards, then roll a dice. If the result is 3, 5, or 6, reveal a Debut holomem from your deck and put into your hand, then shuffle your deck. If the result is 2 or 4, draw a card.",
-        "hasFoils": true,
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-085",
