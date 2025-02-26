@@ -346,7 +346,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 skillElement.innerHTML = `
                     <p class="modal-skill"><strong>Skill Name:</strong> ${skill.name}</p>
                     <p><strong>DMG:</strong> ${skill.dmg || ''}</p>
-                    ${skill.description ? `<p><strong>Description:</strong> ${skill.description}</p>` : ''}
+                    ${skill.description ? `<p><strong>Arts Effect:</strong> ${skill.description}</p>` : ''}
                 `;
                 modalSkills.appendChild(skillElement);
             });
