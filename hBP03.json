@@ -1135,7 +1135,7 @@
         "hp": 100,
         "color": "Yellow",
         "tag": "#JP #Gamers #AnimalEars",
-        "collabEffect" : "You may Archive 1 Cheer from this holomem for the following effect: reveal a Debut holomem with #Gamers from your Deck and put it into your hand. Then shuffle your Deck."
+        "collabEffect": "You may Archive 1 Cheer from this holomem for the following effect: reveal a Debut holomem with #Gamers from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
                 "name": "",
@@ -1175,8 +1175,8 @@
                 "description": "This Art gains +10 power for each Life you have less than your starting Life."
             },
             {
-                 "name": "",
-                "dmg": "70",
+                "name": "",
+                "dmg": "70"
             }
         ],
         "hasFoils": true
@@ -1189,7 +1189,7 @@
         "hp": 150,
         "color": "Yellow",
         "tag": "#JP #Gamers #AnimalEars",
-        "giftEffect" : "[Collab Position only] During your opponent's Main Step, if your Center holomem is <Inugami Korone>, that holome's HP cannot be changed or reduced by your opponent's abilities or effects."
+        "giftEffect": "[Collab Position only] During your opponent's Main Step, if your Center holomem is <Inugami Korone>, that holome's HP cannot be changed or reduced by your opponent's abilities or effects.",
         "skills": [
             {
                 "name": "",
@@ -1205,14 +1205,14 @@
         "rarity": "RR",
         "bloomLevel": "2nd",
         "hp": 210,
-          "color": "Yellow",
+        "color": "Yellow",
         "tag": "#JP #Gamers #AnimalEars",
-        "giftEffect" : "When this holomem is Downed, send the top card of your Cheer Deck to one of your holomems named Inugami Korone."
+        "giftEffect": "When this holomem is Downed, send the top card of your Cheer Deck to one of your holomems named Inugami Korone.",
         "skills": [
             {
                 "name": "良い響きですね",
                 "dmg": "120+",
-                "description" : "If the target of this Art is an opposing 2nd Bloom holomem, you may Archive a 1st Bloom holomem stacked under this one for the following effect: this Art gains +50 power.	"
+                "description": "If the target of this Art is an opposing 2nd Bloom holomem, you may Archive a 1st Bloom holomem stacked under this one for the following effect: this Art gains +50 power."
             }
         ],
         "hasAlternativeArt": true,
@@ -1470,12 +1470,12 @@
                 "name": "",
                 "dmg": 20
             },
-             {
+            {
                 "name": "",
                 "dmg": 50
             }
         ],
-        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "This Holomen can be included in your deck in any number of copies."
     },
     {
         "cardNumber": "hBP03-081",
@@ -1501,7 +1501,7 @@
         "hp": 150,
         "color": "Yellow",
         "tag": "#DEV_IS #ReGLOSS #Song",
-        "bloomEffect" : "You may move any 1-2 Cheers on your Stage to this holomem."
+        "bloomEffect": "You may move any 1-2 Cheers on your Stage to this holomem.",
         "skills": [
             {
                 "name": "",
@@ -1555,7 +1555,6 @@
         "ability": "Reveal 1-2 Debut holomems with the Extra text <<You may put any number of copies of this holomem in your Deck>> from your Deck and put them on your Stage. Then shuffle your Deck.",
         "hasFoils": true
     },
-  
     {
         "cardNumber": "hBP03-087",
         "name": "Call and Response",
@@ -1564,7 +1563,7 @@
         "ability": "Move 1 Cheer from one of your holomems to another.",
         "hasFoils": true
     },
-      {
+    {
         "cardNumber": "hBP03-088",
         "name": "Call-In",
         "type": "Support (Tool)",
@@ -1578,7 +1577,7 @@
         "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
-        "ability": "Reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck.	",
+        "ability": "Reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck.",
         "hasFoils": true
     },
     {
@@ -1649,8 +1648,7 @@
         "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later Otonose Kanade, it gains the following effect: when the holomem with this Tool attached Downs one of your opponent's holomems, draw 1 card from your Deck. You may only attach 1 Tool to a holomem.",
         "hasFoils": true
     },
-
-     {
+    {
         "cardNumber": "hBP03-098",
         "name": "Kintoki",
         "type": "Support (Mascot)",
@@ -1666,7 +1664,6 @@
         "ability": "The Arts of the holomem with this Mascot attached gain +10 power. If this is attached to Sakura Miko, it gains the following effect: when the holomem with this Mascot attached collabs, if your Center holomem is Sakura Miko that holomem's Arts gain +10 power until the end of this turn. You may only attach 1 Mascot to a holomem.",
         "hasFoils": true
     },
-   
     {
         "cardNumber": "hBP03-100",
         "name": "Pero",
