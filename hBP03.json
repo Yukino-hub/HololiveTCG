@@ -64,12 +64,12 @@
         "oshiSkill": {
             "name": "",
             "power": 3,
-            "description": "[Once per turn] ."
+            "description": "[Once per turn] Send the top card of your Cheer Deck to one of your 1st Bloom holomems named Mococo Abyssgard.."
         },
         "spOshiSkill": {
             "name": "BAU BAU!",
             "power": 2,
-            "description": ""
+            "description": "[Once per game] Choose one of your holomems with #Advent. That holomem's Arts may target your opponent's Back holomems until the end of this turn."
         },
         "hasAlternativeArt": true
     },
@@ -101,12 +101,12 @@
         "oshiSkill": {
             "name": "",
             "power": "2",
-            "description": "(Once per turn) Active one rested <korone>"
+            "description": "(Once per turn) Unrest one of your Resting holomems named [Inugami Korone]."
         },
         "spOshiSkill": {
             "name": "",
             "power": 2,
-            "description": "(Once per turn) You may use this when your Yellow holomen is down : Transfer 1 Cheer from that Holomem to another of your Holomems, and return 1 card from among the overlapping Holomems, including the downed Holomem, to your hand."
+            "description": "(Once per turn) You may use this when your Yellow holomen is down : Can be used when one of your Yellow holomems is Downed: move one of that holomem's Cheers to one of your other holomems, then return one of that holomem's stacked holomems (including the top holomem) to your hand."
         },
         "hasAlternativeArt": true
     },
@@ -213,7 +213,8 @@
         "skills": [
             {
                 "name": "力をかしてくださいね",
-                "dmg": "40"            }
+                "dmg": "40"            
+            }
         ],
         "hasFoils": true
     },
@@ -256,20 +257,18 @@
     },
     {
         "cardNumber": "hBP03-015",
-        "name": "sample",
+        "name": "Todoroki Hajime",
         "rarity": "RR",
         "bloomLevel": "1st",
-        "hp": 180,
+        "hp": 190,
         "color": "White",
-        "tag": "#JP #Gen3 #Alcohol",
+        "tag": "#DEV_IS #ReGLOSS #Baby",
+        "giftEffect" : "[Center Position only] If your Collab holomem has #ReGLOSS, whenever they take damage they take -20 damage."
         "skills": [
             {
                 "name": "おはまっする〜!",
-                "dmg": "30"
-            },
-            {
-                "name": "おつまっする~",
-                "dmg": "60"
+                "dmg": "110",
+                "description" : "If you have 4 or more Back holomems with #ReGLOSS, this Art gains +40 power."
             }
         ],
         "hasAlternativeArt": true,
@@ -383,39 +382,42 @@
     },
     {
         "cardNumber": "hBP03-022",
-        "name": "sample",
+        "name": "Aki Rosenthal",
         "rarity": "R",
         "bloomLevel": "1st",
-        "hp": 130,
+        "hp": 250,
         "color": "Green",
         "tag": "#ID #IDGen2 #Bird #Art",
-        "bloomEffect": "What Are You Waiting For?　 Reveal a <Tatang> from your Deck and put it into your hand. Then shuffle your Deck.",
+        "buzz": true,
+        "giftEffect" : "[Center or Collab Position only] Can be used at the start of your opponent's Performance Step: until the end of this turn, your LIFE cannot be directly reduced by your opponent's abilities."
         "skills": [
             {
-                "name": "Spicy Night",
-                "dmg": "40+",
-                "description": "If there are at least two colors of Cheer on your Stage, this Art gains +20 power."
+                "name": "",
+                "dmg": "50",
+                "description": "If your oshi holomem is [Aki Rosenthal], all of your holomems with a Tool equipped recover 10 HP."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "extraEffect" :"When this Holomen is downed, your life is reduced by 2"
     },
     {
         "cardNumber": "hBP03-023",
-        "name": "sample",
+        "name": "Usada Pekora",
         "rarity": "R",
-        "bloomLevel": "2nd",
-        "hp": 190,
+        "bloomLevel": "1st",
+        "hp": 230,
         "color": "Green",
-        "tag": "#ID #IDGen2 #Bird #Art",
-        "bloomEffect": "Kanjeng : Reveal a Cheer from your Cheer Deck and send it to one of your holomems. Then shuffle your Cheer Deck.",
+        "tag": "#JP #Gen3 #AnimalEars",
+        "collabEffect": "You may roll a dice. If the result is even, reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
                 "name": "孔雀の舞",
-                "dmg": "100+",
-                "description": "For each color of Cheer on your Stage, this Art gains +20 power."
+                "dmg": "80+",
+                "description": "If you have rolled a dice at least once during this turn as part of any Usada Pekora's ability, this Art gains +40 power."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "extraEffect" :"When this Holomen is downed, your life is reduced by 2"
     },
     {
         "cardNumber": "hBP03-024",
