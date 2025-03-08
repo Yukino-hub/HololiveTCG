@@ -387,7 +387,7 @@
         "bloomLevel": "1st",
         "hp": 250,
         "color": "Green",
-        "tag": "#ID #IDGen2 #Bird #Art",
+        "tag": "#JP #Gen1 #HalfElf #Alcohol",
         "buzz": true,
         "giftEffect" : "[Center or Collab Position only] Can be used at the start of your opponent's Performance Step: until the end of this turn, your LIFE cannot be directly reduced by your opponent's abilities."
         "skills": [
@@ -408,6 +408,7 @@
         "hp": 230,
         "color": "Green",
         "tag": "#JP #Gen3 #AnimalEars",
+         "buzz": true,
         "collabEffect": "You may roll a dice. If the result is even, reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
@@ -421,16 +422,18 @@
     },
     {
         "cardNumber": "hBP03-024",
-        "name": "sample",
+        "name": "Kazama Iroha",
         "rarity": "RR",
-        "bloomLevel": "Debut",
-        "hp": 90,
+        "bloomLevel": "2nd",
+        "hp": 200,
         "color": "Green",
-        "tag": "#JP #Gamers #AnimalEars #Cooking",
+        "tag": "#JP #SecretSocietyholoX",
+        "bloomEffect" : "You may choose up to 1 of your holomems named Kazama Iroha and up to 1 named Hoshimachi Suisei. Send 1 Cheer from your Archive to each chosen holomem.",
         "skills": [
             {
-                "name": "うちうち、うちだよ～大神ミオだよ～",
-                "dmg": "10"
+                "name": "",
+                "dmg": "100+",
+                "description" : "If this holomem has at least 2 non-Green Cheers attached, this Art gains +50 power."
             }
         ],
         "hasAlternativeArt": true,
