@@ -441,22 +441,19 @@
     },
     {
         "cardNumber": "hBP03-025",
-        "name": "sample",
+        "name": "Sakura Miko",
         "rarity": "C",
-        "bloomLevel": "1st",
-        "hp": 160,
-        "color": "Green",
-        "tag": "#JP #Gamers #AnimalEars #Cooking",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "Red",
+        "tag": "#JP #Gen0 #Baby",
         "skills": [
             {
-                "name": "おはみぉーん",
+                "name": "=",
                 "dmg": "30"
-            },
-            {
-                "name": "おつみぉーん",
-                "dmg": "50"
             }
-        ]
+        ],
+         "extraEffect" :"This Holomen can be included in your deck in any number of copies."
     },
     {
         "cardNumber": "hBP03-026",
