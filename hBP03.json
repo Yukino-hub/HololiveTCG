@@ -1112,13 +1112,13 @@
         "name": "Inugami Korone",
         "rarity": "C",
         "bloomLevel": "Debut",
-        "hp": 120,
+        "hp": 100,
         "color": "Yellow",
-        "tag": "#EN #Myth #Art #Sea",
+        "tag": "#JP #Gamers #AnimalEars",
         "skills": [
             {
-                "name": "WAH!",
-                "dmg": "10"
+                "name": "",
+                "dmg": "20"
             },
             {
                 "name": "",
@@ -1129,32 +1129,32 @@
     },
     {
         "cardNumber": "hBP03-062",
-        "name": "sample",
+        "name": "Inugami Korone",
         "rarity": "U",
         "bloomLevel": "1st",
-        "hp": 180,
-        "color": "Purple",
-        "tag": "#EN #Myth #Art #Sea",
+        "hp": 100,
+        "color": "Yellow",
+        "tag": "#JP #Gamers #AnimalEars",
+        "collabEffect" : "You may Archive 1 Cheer from this holomem for the following effect: reveal a Debut holomem with #Gamers from your Deck and put it into your hand. Then shuffle your Deck."
         "skills": [
             {
-                "name": "君とタコグラム",
-                "dmg": "60"
+                "name": "",
+                "dmg": "30"
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-063",
-        "name": "sample",
+        "name": "Inugami Korone",
         "rarity": "C",
         "bloomLevel": "1st",
-        "hp": 140,
-        "color": "Purple",
-        "tag": "#EN #Myth #Art #Sea",
-        "bloomEffect": "みんな「WAH」の準備はいいかー！Restore 20 HP to one of your holomems with #Myth.",
+        "hp": 200,
+        "color": "Yellow",
+        "tag": "#JP #Gamers #AnimalEars",
         "skills": [
             {
-                "name": "楽しんでいこう！！！",
+                "name": "",
                 "dmg": "30"
             }
         ],
@@ -1162,54 +1162,57 @@
     },
     {
         "cardNumber": "hBP03-064",
-        "name": "sample",
+        "name": "Inugami Korone",
         "rarity": "U",
         "bloomLevel": "1st",
-        "hp": 250,
-        "buzz": "true",
-        "color": "Purple",
-        "tag": "#EN #Myth #Art #Sea",
+        "hp": 160,
+        "color": "Yellow",
+        "tag": "#JP #Gamers #AnimalEars",
         "skills": [
             {
                 "name": "アルカイックスマイル",
-                "dmg": "60+",
-                "description": "If there are 5 or more holomems with #Myth in your Archive, you may move 1 Cheer from this holomem to one of your other holomems. If there are 10 or more, this Art gains +50 power."
+                "dmg": "40+",
+                "description": "This Art gains +10 power for each Life you have less than your starting Life."
+            },
+            {
+                 "name": "",
+                "dmg": "70",
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-065",
-        "name": "sample",
+        "name": "Inugami Korone",
         "rarity": "R",
-        "bloomLevel": "Debut",
-        "hp": 90,
-        "color": "Purple",
-        "tag": " #EN #Advent #Song #Bird",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "Yellow",
+        "tag": "#JP #Gamers #AnimalEars",
+        "giftEffect" : "[Collab Position only] During your opponent's Main Step, if your Center holomem is <Inugami Korone>, that holome's HP cannot be changed or reduced by your opponent's abilities or effects."
         "skills": [
             {
-                "name": "Hiya darlings!",
-                "dmg": "30"
+                "name": "",
+                "dmg": "30",
+                "description": "Send the top card of your Cheer Deck to one of your holomems with #Gamers."
             }
         ],
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-066",
-        "name": "sample",
+        "name": "Inugami Korone",
         "rarity": "RR",
-        "bloomLevel": "1st",
-        "hp": 150,
-        "color": "Purple",
-        "tag": " #EN #Advent #Song #Bird",
+        "bloomLevel": "2nd",
+        "hp": 210,
+          "color": "Yellow",
+        "tag": "#JP #Gamers #AnimalEars",
+        "giftEffect" : "When this holomem is Downed, send the top card of your Cheer Deck to one of your holomems named Inugami Korone."
         "skills": [
             {
                 "name": "良い響きですね",
-                "dmg": "30"
-            },
-            {
-                "name": "アイドルソングというものは",
-                "dmg": "60"
+                "dmg": "120+",
+                "description" : "If the target of this Art is an opposing 2nd Bloom holomem, you may Archive a 1st Bloom holomem stacked under this one for the following effect: this Art gains +50 power.	"
             }
         ],
         "hasAlternativeArt": true,
@@ -1421,6 +1424,7 @@
         "name": "Ayunda Risu",
         "rarity": "RR",
         "bloomLevel": "2ND",
+        "hp": 190,
         "color": "Yellow",
         "tag": "#ID #IDGen1 #AnimalEars #Song",
         "bloomEffect": "You may move 1 Cheer attached to one of your holomems with #IDGen1, to any of your holomems.",
@@ -1436,34 +1440,55 @@
     },
     {
         "cardNumber": "hBP03-079",
-        "name": "sample",
-        "type": "Support (Event)",
+        "name": "Shiranui Flare",
         "rarity": "RR",
-        "tag": "#Magic",
-        "ability": "Deal 20 special damage to your opponent's Center or Collab holomem. holomems Downed with this effect do not reduce LIFE. You may only play one Event with #Magic per turn.",
+        "bloomLevel": "1st",
+        "hp": 240,
+        "color": "Yellow",
+        "tag": "#JP #Gen3 #HalfElf",
+        "bloomEffect": "Reveal 1 Yellow Cheer from your Cheer Deck and send it to this holomem. Then shuffle your Cheer Deck.",
+        "skills": [
+            {
+                "name": "",
+                "dmg": "50+",
+                "description": "If this holomem has at least 3 Cheers attached, this Art gains +30 power."
+            }
+        ],
         "hasAlternativeArt": true,
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-080",
-        "name": "sample",
-        "type": "Support (Event)",
+        "name": "Otonose Kanade",
         "rarity": "C",
-        "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #SecretSocietyholoX and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order."
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "Yellow",
+        "tag": "#DEV_IS #ReGLOSS #Song",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 20
+            },
+             {
+                "name": "",
+                "dmg": 50
+            }
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
     {
         "cardNumber": "hBP03-081",
         "name": "Otonose Kanade",
         "rarity": "C",
         "bloomLevel": "1ST",
+        "hp": 180,
         "color": "Yellow",
         "tag": "#DEV_IS #ReGLOSS #Song",
-        "giftEffect": "At the end of your opponent's Performance Step, if you lost any LIFE during that Performance Step, you may send 1 Cheer from your Archive to this holomem.",
         "skills": [
             {
                 "name": "",
-                "dmg": 120
+                "dmg": 30
             }
         ],
         "hasFoils": true
@@ -1473,14 +1498,14 @@
         "name": "Otonose Kanade",
         "rarity": "U",
         "bloomLevel": "1ST",
-        "hp": 250,
+        "hp": 150,
         "color": "Yellow",
         "tag": "#DEV_IS #ReGLOSS #Song",
-        "giftEffect": "At the end of your opponent's Performance Step, if you lost any LIFE during that Performance Step, you may send 1 Cheer from your Archive to this holomem.",
+        "bloomEffect" : "You may move any 1-2 Cheers on your Stage to this holomem."
         "skills": [
             {
                 "name": "",
-                "dmg": 120
+                "dmg": 60
             }
         ],
         "hasFoils": true
@@ -1515,11 +1540,11 @@
     },
     {
         "cardNumber": "hBP03-085",
-        "name": "sample",
+        "name": "Super PC",
         "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
-        "ability": "",
+        "ability": "Look at the top four cards of your deck. Reveal up to 1 Debut holomem and up to 1 1st Bloom holomem from among them and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
     {
@@ -1530,28 +1555,30 @@
         "ability": "Reveal 1-2 Debut holomems with the Extra text <<You may put any number of copies of this holomem in your Deck>> from your Deck and put them on your Stage. Then shuffle your Deck.",
         "hasFoils": true
     },
+  
     {
         "cardNumber": "hBP03-087",
-        "name": "sample",
+        "name": "Call and Response",
         "type": "Support (Tool)",
         "rarity": "C",
-        "ability": "",
+        "ability": "Move 1 Cheer from one of your holomems to another.",
         "hasFoils": true
     },
-    {
+      {
         "cardNumber": "hBP03-088",
-        "name": "sample",
+        "name": "Call-In",
         "type": "Support (Tool)",
         "rarity": "U",
-        "ability": "This card can only be played if you have less LIFE than your opponent. If your opponent has no Collab holomem, they choose one of their Back holomems and move it to the Collab Position (this is not treated as Collabing action)",
+        "ability": "This card can only be played if you have less LIFE than your opponent. If your opponent has no Collab holomem, they choose one of their Back holomems and move it to the Collab Position (this is not treated as Collabing).",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-089",
-        "name": "sample",
+        "name": "Fan Meeting",
         "type": "Support (Event)",
         "rarity": "U",
-        "ability": "",
+        "limited": "Yes",
+        "ability": "Reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck.	",
         "hasFoils": true
     },
     {
@@ -1573,10 +1600,11 @@
     },
     {
         "cardNumber": "hBP03-092",
-        "name": "sample",
+        "name": "hololive 0th Generation",
         "type": "Support (Event)",
         "rarity": "U",
-        "ability": "",
+        "limited": "Yes",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Gen0 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
     {
@@ -1599,10 +1627,10 @@
     },
     {
         "cardNumber": "hBP03-095",
-        "name": "sample",
-        "type": "Support (Mascot)",
+        "name": "holocap",
+        "type": "Support (Tool)",
         "rarity": "C",
-        "ability": "",
+        "ability": "If this is attached to a Debut or Spot holomem, it gains the following effects:  The holomem with this Tool attached has +30 HP. The holomem with this Tool attached does not take special damage from your opponent. You may only attach 1 Tool to a holomem.",
         "hasFoils": true
     },
     {
@@ -1615,28 +1643,30 @@
     },
     {
         "cardNumber": "hBP03-097",
-        "name": "sample",
+        "name": "Recorder",
         "type": "Support (Tool)",
         "rarity": "C",
-        "ability": "",
+        "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later Otonose Kanade, it gains the following effect: when the holomem with this Tool attached Downs one of your opponent's holomems, draw 1 card from your Deck. You may only attach 1 Tool to a holomem.",
         "hasFoils": true
     },
-    {
+
+     {
         "cardNumber": "hBP03-098",
-        "name": "sample",
+        "name": "Kintoki",
         "type": "Support (Mascot)",
         "rarity": "U",
-        "ability": "",
+        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to Sakura Miko, it gains the following effect: when the holomem with this Mascot attached collabs, draw 1 card from your Deck. You may only attach 1 Mascot to a holomem..",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-099",
-        "name": "sample",
-        "type": "Support (Fan)",
-        "rarity": "C",
-        "ability": "",
+        "name": "Maguchi",
+        "type": "Support (Mascot)",
+        "rarity": "U",
+        "ability": "The Arts of the holomem with this Mascot attached gain +10 power. If this is attached to Sakura Miko, it gains the following effect: when the holomem with this Mascot attached collabs, if your Center holomem is Sakura Miko that holomem's Arts gain +10 power until the end of this turn. You may only attach 1 Mascot to a holomem.",
         "hasFoils": true
     },
+   
     {
         "cardNumber": "hBP03-100",
         "name": "Pero",
@@ -1719,18 +1749,18 @@
     },
     {
         "cardNumber": "hBP03-110",
-        "name": "sample",
+        "name": "Pero",
         "type": "Support (Fan)",
         "rarity": "U",
-        "ability": "",
+        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to Fuwawa Abyssgard or Mococo Abyssgard, it gains the following effect: the Cheer requirements of all Arts of the holomem this is attached to become Colorless. You may only attach 1 Mascot to a holomem.",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-111",
-        "name": "sample",
+        "name": "Bibi",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "",
+        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to Tokoyami Towa, it gains the following effect: special damage done by this holomem to a single opposing holomem is increased by +10. You may only attach 1 Mascot to a holomem.",
         "hasFoils": true
     },
     {
