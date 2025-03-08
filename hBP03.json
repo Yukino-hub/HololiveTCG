@@ -457,87 +457,94 @@
     },
     {
         "cardNumber": "hBP03-026",
-        "name": "sample",
+        "name": "Sakura Miko",
         "rarity": "U",
-        "bloomLevel": "1st",
-        "hp": 120,
-        "color": "Green",
-        "tag": "#JP #Gamers #AnimalEars #Cooking",
-        "bloomEffect": "アイドルとして成長した姿 : Reveal 1 Cheer from your Cheer Deck of the same color as one of your holomems with #Gamers, and send that Cheer to any of your holomems. Then shuffle your Cheer Deck.",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "Red",
+        "tag": "#JP #Gen0 #Baby",
+        "collabEffect": "You may roll a dice. If the result is 2, 4, or 6, deal 10 special damage to your opponent's Center holomem. If the result is 3 or 5, draw 1 card from your Deck and deal 10 special damage to your opponent's Center holomem.",
         "skills": [
             {
-                "name": "今年も見守っててね！",
-                "dmg": "20"
+                "name": "",
+                "dmg": "30"
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-027",
-        "name": "sample",
+        "name": "Sakura Miko",
         "rarity": "C",
         "bloomLevel": "1st",
-        "hp": 240,
-        "color": "Green",
-        "tag": "#JP #Gamers #AnimalEars #Cooking",
+        "hp": 150,
+        "color": "Red",
+        "tag": "#JP #Gen0 #Baby",
         "skills": [
             {
-                "name": "タロットの導き",
-                "dmg": "60+",
-                "description": "You may Archive the top card of your Deck. If it's a holomem, this Art gains +20 power. If it's a Support card, this Art gains +50 power."
+                "name": "=",
+                "dmg": "40"
+            },
+            {
+                "name": "=",
+                "dmg": "60"
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-028",
-        "name": "sample",
+        "name": "Sakura Miko",
         "rarity": "U",
-        "bloomLevel": "Debut",
-        "hp": 100,
+        "bloomLevel": "1st",
+        "hp": 130,
         "color": "Red",
-        "tag": "#JP #Gen3 #Art #Sea",
+        "tag": "#JP #Gen0 #Baby",
         "skills": [
             {
-                "name": "宝鐘海賊団船長の宝鐘マリンですぅー!",
+                "name": "!",
                 "dmg": "30"
+            },
+            {
+                "name": "!",
+                "dmg": "50",
+                "description" : "You may roll a dice. If the result is 2, 4, or 6, deal 20 special damage to your opponent's Center holomem. If the result is 3 or 5, deal 20 special damage to your opponent's Center and Collab holomem"
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-029",
-        "name": "sample",
+        "name": "Sakura Miko",
         "rarity": "R",
-        "bloomLevel": "Debut",
-        "hp": 70,
+        "bloomLevel": "1st",
+        "hp": 130,
         "color": "Red",
-        "tag": "#JP #Gen3 #Art #Sea #Alcohol",
-        "collabEffect": "マリンと宅飲み: Deal 20 special damage to your opponent's Collab holomem.",
+        "tag": "#JP #Gen0 #Baby",
+        "bloomEffect": "Reveal 1 35P from your Deck and put it into your hand. Then shuffle your deck.",
         "skills": [
             {
-                "name": "マリン“船長”だろぉぉん！？",
-                "dmg": "30"
+                "name": "",
+                "dmg": "30",
+                "descirption": "If this holomem has any 35Ps attached, this Art gains +30 power."
             }
         ],
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-030",
-        "name": "sample",
+        "name": "Sakura Miko",
         "rarity": "RR",
-        "bloomLevel": "Debut",
-        "hp": 160,
+        "bloomLevel": "2nd",
+        "hp": 200,
         "color": "Red",
-        "tag": "#JP #Gen3 #Art #Sea",
+        "tag": "#JP #Gen0 #Baby",
+        "giftEffect" : "[Center Position only] (Once per turn) During your main step, if this holomem has any 35P attached, you may roll a dice. If the result is 3 or 5, this holomem's Arts gain +50 power until the end of the turn."
         "skills": [
             {
-                "name": "船長、何されちゃうのかな？",
-                "dmg": "40"
-            },
-            {
-                "name": "もう、どスケベ♥",
-                "dmg": "60"
+                "name": "",
+                "dmg": "120+",
+                "description" : "For each 35P attached to this holomem, this Art gains +20 power."
             }
         ],
         "hasAlternativeArt": true,
