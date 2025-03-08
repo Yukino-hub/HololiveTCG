@@ -1,6 +1,6 @@
 [
     {
-        "cardNumber": "hBP03-001",,,
+        "cardNumber": "hBP03-001",
         "name": "Himemori Luna",
         "rarity": "OSR",
         "lives": 5,
@@ -106,7 +106,7 @@
         "spOshiSkill": {
             "name": "",
             "power": 2,
-            "description": "(Once per turn) You may use this when your Yellow holomen is down : Transfer 1 Cheer from that Holomem to another of your Holomems, and return 1 card from among the overlapping Holomems, including the downed Holomem, to your hand.", "
+            "description": "(Once per turn) You may use this when your Yellow holomen is down : Transfer 1 Cheer from that Holomem to another of your Holomems, and return 1 card from among the overlapping Holomems, including the downed Holomem, to your hand."
         },
         "hasAlternativeArt": true
     },
@@ -117,7 +117,7 @@
         "lives": 5,
         "color": "Yellow",
         "oshiSkill": {
-            "name": ",
+            "name": "",
             "power": 2,
             "description": "[Once per turn] Reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck."
         },
@@ -131,123 +131,124 @@
     },
       {
         "cardNumber": "hBP03-008",
-        "name": "",
+        "name": "Ayunda Risu",
         "rarity": "OSR",
         "lives": 5,
         "color": "Yellow",
         "oshiSkill": {
             "name": "",
             "power": 2,
-            "description": ""
+            "description": "[Once per turn] Can be used when one of your holomems with #IDGen1 is Downed: draw a card."
         },
         "spOshiSkill": {
             "name": "",
             "power": 2,
-            "description": ""
+            "description": "[Once per game] The Arts of all of your holomems named Ayunda Risu gain +50 power until the end of this turn."
         },
         "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP03-009",
-       "name": "sample",
+        "name": "Himemori Luna",
         "rarity": "C",
         "bloomLevel": "Debut",
-        "hp": 80,
+        "hp": 90,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
-        "giftEffect": "おはこんきーつね！:　(Collab position only) The Arts of all of your holomems with a Mascot attached gain +10 power.",
+        "tag": "#JP #Gen4 #Baby",
         "skills": [
             {
-                "name": "Otsu-kon-deshita",
-                "dmg": "20"
+                "name": "",
+                "dmg": "10", 
+                "description" : "If there are no <Luknight> attached to any holomems on your Stage, reveal a <Luknight> from your deck and attach it to any of your holomems. Then shuffle your deck."
             }
-        ]
+        ],
+        "extraEffect" :"This Holomen can be included in your deck in any number of copies."
     },
     {
         "cardNumber": "hBP03-010",
-        "name": "sample",
+        "name": "Himemori Luna",
         "rarity": "U",
         "bloomLevel": "1ST",
-        "hp": 150,
+        "hp": 80,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
+        "tag": "#JP #Gen4 #Baby",
+        "collabEffect" : "If your Center holomem is <Himemori Luna>, draw 1 card from your Deck.",
         "skills": [
             {
-                "name": "キンモクセイの花フブキ",
-                "dmg": "40"
-            },
-            {
-                "name": "Thank You Friends♥",
-                "dmg": "60"
+                "name": "",
+                "dmg": "20"
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-011",
-        "name": "sample",
+        "name": "Himemori Luna",
         "rarity": "C",
         "bloomLevel": "1st",
-        "hp": 120,
+        "hp": 150,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
-        "bloomEffect": "白上から目をそらしちゃ　: Reveal a card with #ShirakamiCharacter from your deck and put it into your hand. Then shuffle your deck.",
+        "tag": "#JP #Gen4 #Baby",
         "skills": [
             {
-                "name": "ダメですよっ！",
+                "name": "",
                 "dmg": "40"
+            },
+            {
+                "name": "",
+                "dmg": "60"
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-012",
-        "name": "sample",
+        "name": "Himemori Luna",
         "rarity": "U",
         "bloomLevel": "1st",
-        "hp": 100,
+        "hp": 120,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
-        "bloomEffect": "ちょっと動かしますね : Move 1 Mascot from one of your holomems to another.",
+        "tag": "#JP #Gen4 #Baby",
+        "bloomEffect": "The Arts of one of your holomems with a Fan attached gain +20 power until the end of this turn.",
         "skills": [
             {
                 "name": "力をかしてくださいね",
-                "dmg": "50+",
-                "description": "The Arts of all of your holomems with a Mascot attached gain +20 power until the end of this turn."
-            }
+                "dmg": "40"            }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-013",
-        "name": "sample",
+        "name": "Himemori Luna",
         "rarity": "R",
-        "bloomLevel": "2nd",
-        "hp": 180,
+        "bloomLevel": "1ST",
+        "hp": 110,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
-        "giftEffect": "みんなと一緒! This holomem may have two Mascots with different names attached.",
+        "tag": "#JP #Gen4 #Baby",
+        "giftEffect": "[Collab position only] If your Center holomem is <Himemori Luna> and has a Fan attached, their Arts have +20 power.",
         "skills": [
             {
-                "name": "マスコットたちの舞宴",
-                "dmg": "80+",
-                "description": "For each Mascot attached to your holomems, this Art gains +20 power."
+                "name": "",
+                "dmg": "20",
+                "description": "You may attach 1 <Luknight> from your Archive to one of your holomems named <Himemori Luna>."
             }
         ],
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-014",
-        "name": "sample",
+        "name": "Himemori Luna",
         "rarity": "RR",
-        "bloomLevel": "Debut",
-        "hp": 130,
+        "bloomLevel": "2ND",
+        "hp": 180,
         "color": "White",
-        "tag": "#JP #Gen3 #Alcohol",
+        "tag": "#JP #Gen4 #Baby",
+        "bloomEffect" : "If your Oshi holomem is <Himemori Luna>, you may attach 1 <Luknight> from your Archive to one of your holomems named <Himemori Luna>.",
         "skills": [
             {
-                "name": "こんまっする〜!",
-                "dmg": "20"
+                "name": "",
+                "dmg": "100+",
+                "description" : "If this holomem has any Luknights attached, this Art gains +50 power."
             }
         ],
         "hasAlternativeArt": true,
@@ -276,86 +277,86 @@
     },
     {
         "cardNumber": "hBP03-016",
-        "name": "sample",
-        "rarity": "C",
-        "bloomLevel": "1st",
-        "hp": 130,
-        "color": "White",
-        "tag": "#JP #Gen3 #Alcohol",
-        "bloomEffect": "ノエちゃんの勇姿……: When this Blooms from a Debut holomem, reveal a Debut, 1st Bloom, or Spot holomem with #Gen3 from your Deck and put it into your hand. Then shuffle your deck.",
-        "skills": [
-            {
-                "name": "目に焼き付けるんだゾ♡",
-                "dmg": "30"
-            }
-        ]
-    },
-    {
-        "cardNumber": "hBP03-017",
-        "name": "sample",
-        "rarity": "U",
-        "bloomLevel": "1st",
-        "hp": 260,
-        "color": "White",
-        "tag": "#JP #Gen3 #Alcohol",
-        "buzz": true,
-        "skills": [
-            {
-                "name": "ゆるふわ脳筋女騎士",
-                "dmg": "50"
-            },
-            {
-                "name": "3期生ぱわー",
-                "dmg": "60+",
-                "description": "(Collab position only) For each other Holomen on your stage with the #Gen3 tag, this Arts gets +20. However, the number of Holomen counted is limited to 4.."
-            }
-        ],
-        "hasFoils": true
-    },
-    {
-        "cardNumber": "hBP03-018",
-        "name": "sample",
+        "name": "Shishiro Botan",
         "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Green",
-        "tag": "#ID #IDGen2 #Bird #Art",
+        "tag": "#JP #Gen5 #AnimalEars #Shooter",
         "skills": [
             {
-                "name": "ペルハティアン！",
+                "name": "",
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect" :"This Holomen can be included in your deck in any number of copies."
     },
     {
-        "cardNumber": "hBP03-019",
-        "name": "sample",
+        "cardNumber": "hBP03-017",
+        "name": "Shishiro Botan",
         "rarity": "U",
         "bloomLevel": "Debut",
-        "hp": 60,
+        "hp": 100,
         "color": "Green",
-        "tag": "#ID #IDGen2 #Bird #Art",
-        "collabEffect": "友達をHALUにさせる方法 : You may send 1 Cheer from your Archive to any of your holomems.",
+        "tag": "#JP #Gen5 #AnimalEars #Shooter",
+        "collabEffect": "If your Oshi holomem is Shishiro Botan, you may Archive the top card of your Cheer Deck for the following effect: restore 10 HP to any of your holomems.",
         "skills": [
             {
-                "name": "Very Easy",
+                "name": "",
                 "dmg": "20"
             }
         ],
         "hasFoils": true
     },
     {
-        "cardNumber": "hBP03-020",
-        "name": "sample",
-        "rarity": "R",
-        "bloomLevel": "1st",
-        "hp": 160,
+        "cardNumber": "hBP03-018",
+        "name": "Shishiro Botan",
+        "rarity": "C",
+        "bloomLevel": "1ST",
+        "hp": 100,
         "color": "Green",
-        "tag": "#ID #IDGen2 #Bird #Art",
+        "tag": "#JP #Gen5 #AnimalEars #Shooter",
         "skills": [
             {
-                "name": "Royal Halu Sleepover",
+                "name": "",
+                "dmg": "40"
+            },
+            {
+                "name": "",
+                "dmg": "60"
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP03-019",
+        "name": "Shishiro Botan",
+        "rarity": "U",
+        "bloomLevel": "1ST",
+        "hp": 130,
+        "color": "Green",
+        "tag": "#JP #Gen5 #AnimalEars #Shooter",
+        "bloomEffect" :"You may Archive 1 Cheer from one of your Back holomems for the following effect: deal 30 special damage to your opponent's Center or Collab holomem. You may only use the Bloom Effect [Singing is fun] once per turn.",
+        "skills": [
+            {
+                "name": "",
+                "dmg": "30",
+                "description" : "You may reveal 1 Tsunomaki Watame from your hand and put it on the bottom of your deck. If you do, this holomem restores 20 HP."
+            }
+        ],
+        "hasFoils": true
+    },
+    {
+        "cardNumber": "hBP03-020",
+        "name": "Shishiro Botan",
+        "rarity": "R",
+        "bloomLevel": "1ST",
+        "hp": 110,
+        "color": "Green",
+        "tag": "#JP #Gen5 #AnimalEars #Shooter",
+        "bloomEffect" :"Send the top card of your Cheer Deck to one of your Back holomems named Shishiro Botan.",
+        "skills": [
+            {
+                "name": "",
                 "dmg": "50"
             }
         ],
@@ -363,18 +364,18 @@
     },
     {
         "cardNumber": "hBP03-021",
-        "name": "sample",
+        "name": "Shishiro Botan",
         "rarity": "RR",
-        "bloomLevel": "1st",
-        "hp": 120,
+        "bloomLevel": "2ND",
+        "hp": 190,
         "color": "Green",
-        "tag": "#ID #IDGen2 #Bird #Art",
-        "bloomEffect": "心を込めて歌って、踊ります。 For each color of Cheer on your Stage, restore 10 HP to one of your holomems.",
+        "tag": "#JP #Gen5 #AnimalEars #Shooter",
+        "bloomEffect" :"You may choose 1-2 of your Back holomems with #Shooter. Send 1 Cheer from your Archive to each of them.",
         "skills": [
             {
-                "name": "だから見ててね！大好き！",
-                "dmg": "20",
-                "description": "You may send 1 Cheer from your Archive to any of your holomems."
+                "name": "",
+                "dmg": "110",
+                "description" : "If your Oshi holomem is Shishiro Botan, you may Archive 1 Cheer from one of your Back holomems for the following effect: deal 40 special damage to your opponent's Center or Collab holomem."
             }
         ],
         "hasAlternativeArt": true,
@@ -542,75 +543,71 @@
     },
     {
         "cardNumber": "hBP03-031",
-        "name": "sample",
+        "name": "Akai Haato",
         "rarity": "C",
-        "bloomLevel": "1st",
-        "hp": 130,
+        "bloomLevel": "Debut",
+        "hp": 100,
         "color": "Red",
-        "tag": "#JP #Gen3 #Art #Sea",
-        "bloomEffect": "キミたちの声が船長の支えです！ Deal 20 special damage to your opponent's Collab holomem.",
+        "tag": "#JP #Gen1 #Cooking",
         "skills": [
             {
-                "name": "いっしょに出航しましょう！（健全)",
+                "name": "",
                 "dmg": "30"
             }
-        ]
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
     {
         "cardNumber": "hBP03-032",
-        "name": "sample",
+        "name": "Akai Haato",
         "rarity": "C",
         "bloomLevel": "1st",
-        "hp": 130,
+        "hp": 170,
         "color": "Red",
-        "tag": "#JP #Gen3 #Art #Sea",
-        "bloomEffect": "宝鐘の海賊団　: Reveal a card named Houshou Marine from your deck and put it into your hand. Then shuffle your deck. You may only use the Bloom Effect 「宝鐘の海賊団」 once per turn.",
+        "tag": "#JP #Gen1 #Cooking",
         "skills": [
             {
-                "name": "ヨーソロー",
-                "dmg": "50"
+                "name": "",
+                "dmg": "60"
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-033",
-        "name": "sample",
+        "name": "Akai Haato",
         "rarity": "U",
-        "bloomLevel": "2nd",
-        "hp": 200,
+        "bloomLevel": "1st",
+        "hp": 120,
         "color": "Red",
-        "tag": "#JP #Gen3 #Art #Sea",
-        "bloomEffect": "ゴシッククィーン: You may return 1 holomem from your Archive to your hand. Then, if this card has 3 or more holomems stacked under it, deal 50 special damage to your opponent's Center or Collab holomem.",
+        "tag": "#JP #Gen1 #Cooking",
+        "bloomEffect" :"Deal 10 special damage to your opponent's Center holomem. If that holomem has a Tool attached, deal 30 special damage instead.",
         "skills": [
             {
-                "name": "キミたち～？　船長、かわいい？",
-                "dmg": "80+",
-                "description": "For each holomem stacked under this one, this Art gains +20 power."
+                "name": "",
+                "dmg": "40"
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-034",
-        "name": "sample",
+        "name": "Akai Haato",
         "rarity": "RR",
         "bloomLevel": "1st",
-        "hp": 250,
+        "hp": 240,
         "color": "Red",
-        "buzz": "true",
-        "tag": "#JP #Gen2 #Shooter",
+        "tag": "#JP #Gen1 #Cooking",
+        "buzz": true,
+        "bloomEffect" :"You may return a 1st or 2nd Bloom holomem (excluding Buzz holomems) with #Gen1 from your Archive to your hand.",
         "skills": [
             {
-                "name": "余は草",
-                "dmg": "50"
-            },
-            {
-                "name": "オーガニックショット",
-                "dmg": "80",
-                "description": "If this holomem has a Tool or Mascot attached, deal 30 special damage to your opponent's Center or Collab holomem."
+                "name": "",
+                "dmg": "40+",
+                "description" : "You may roll a dice: if the result is odd, deal 20 special damage to your opponent's Center and Collab holomems. If the result is even, this Art gains +40 power."
             }
         ],
+        "extraEffect" :"When this Holomen is downed, your life is reduced by 2",
         "hasAlternativeArt": true,
         "hasFullArt": true
     },
@@ -649,31 +646,33 @@
     },
     {
         "cardNumber": "hBP03-037",
-        "name": "sample",
+        "name": "Mococo Abyssgard",
         "rarity": "C",
-        "bloomLevel": "1st",
-        "hp": 160,
-        "color": "Blue",
-        "tag": "#JP #SecretSocietyholoX #Sea",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "Red",
+        "tag": "#EN #Advent #AnimalEars",
         "skills": [
             {
-                "name": "ふたりじめビーチ",
-                "dmg": "60"
+                "name": "",
+                "dmg": "20",
+                "description" : "If there is a Fuwawa Abyssgard in your Center position, this Art can be used with no Cheer requirement."
             }
-        ]
+        ],
+        "extraEffect" :"This Holomen can be included in your deck in any number of copies."
     },
     {
         "cardNumber": "hBP03-038",
-        "name": "sample",
+        "name": "Mococo Abyssgard",
         "rarity": "C",
-        "bloomLevel": "1st",
-        "hp": 110,
-        "color": "Blue",
-        "tag": "#JP #SecretSocietyholoX #Sea",
-        "bloomEffect": "君の心をばっくばっくばく～んしちゃうぞ♡: Look at the top 3 cards of your Cheer Deck. Reveal 1 Cheer from among them and send it to any of your holomems. Then put the remaining cards on the bottom of your Deck in any order.",
+        "bloomLevel": "1ST",
+        "hp": 130,
+        "color": "Red",
+        "tag": "#EN #Advent #AnimalEars",
+        "bloomEffect" : "When this Blooms from a Debut holomem, you may reveal a 1st Bloom Fuwawa Abyssgard from your deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
-                "name": "(ここ喜ぶ所です）",
+                "name": "",
                 "dmg": "30"
             }
         ],
@@ -681,54 +680,56 @@
     },
     {
         "cardNumber": "hBP03-039",
-        "name": "sample",
+        "name": "Mococo Abyssgard",
         "rarity": "R",
-        "bloomLevel": "1st",
-        "hp": 130,
-        "color": "Blue",
-        "tag": "#JP #SecretSocietyholoX #Sea",
-        "giftEffect": "ぷいぷいぷい～: (Once per turn) When you reveal cards with this holomem's Art 「ホロックスロット」, you may put 1 of them that is a Support card into your hand instead of Archiving it.",
+        "bloomLevel": "1ST",
+        "hp": 240,
+        "color": "Red",
+        "buzz": true,
+        "tag": "#EN #Advent #AnimalEars",
+        "giftEffect" : "During your Reset Step, if your Center holomem is Fuwawa Abyssgard, this holomem will not be Rested when moving from the Collab position to the Back position.",
         "skills": [
             {
-                "name": "ホロックスロット",
-                "dmg": "20+",
-                "description": "You may reveal the top 3 cards of your deck. For each holomem revealed, this Art gains +20 power. Then Archive the revealed cards."
+                "name": "",
+                "dmg": "50+",
+                "description" : "[Collab Position only] If your Center holomem is Fuwawa Abyssgard, this Art gains +30 power."
             }
         ],
+        "extraEffect" : "When this Holomen is downed, your life is reduced by 2",
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-040",
-        "name": "sample",
+        "name": "Fuwawa Abyssgard",
         "rarity": "C",
-        "bloomLevel": "2nd",
-        "hp": 190,
+        "bloomLevel": "Debut",
+        "hp": 100,
         "color": "Blue",
-        "tag": "#JP #SecretSocietyholoX #Sea",
-        "giftEffect": "最高に激アツ～　(Once per turn) When you reveal cards with this holomem's Art 「ホロックスロット」, if the three revealed cards are all holomems with the same Bloom level, your opponent loses 1 LIFE.",
+        "tag": "#EN #Advent #AnimalEars",
         "skills": [
             {
-                "name": "ホロックスロット",
-                "dmg": "100+",
-                "description": "You may reveal the top 3 cards of your deck. For each holomem revealed, this Art gains +20 power. Then Archive the revealed cards."
+                "name": "",
+                "dmg": "30"           
             }
-        ]
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
     {
         "cardNumber": "hBP03-041",
-        "name": "sample",
+        "name": "Fuwawa Abyssgard",
         "rarity": "C",
-        "bloomLevel": "1st",
-        "hp": 230,
-        "buzz": true,
+        "bloomLevel": "1ST",
+        "hp": 160,
         "color": "Blue",
-        "tag": " #JP #Gamers #AnimalEars #Song",
-        "giftEffect": "毒の愛　:(Center position only) All holomems named Nekomata Okayu on your stage deal +20 damage when they deal special damage to your opponent's Center holomem.",
+        "tag": "#EN #Advent #AnimalEars",
         "skills": [
             {
-                "name": "ぽいずん猫",
-                "dmg": "50",
-                "description": "You may archive 1 Blue Cheer from this holomem for the following effect: deal 20 special damage to your opponent's Center holomem and one of their Back holomems."
+                "name": "",
+                "dmg": "40"           
+            },
+            {
+                "name": "",
+                "dmg": "60"           
             }
         ],
         "hasFoils": true
@@ -736,33 +737,38 @@
     },
     {
         "cardNumber": "hBP03-042",
-        "name": "sample",
+        "name": "Fuwawa Abyssgard",
         "rarity": "U",
-        "bloomLevel": "Debut",
-        "hp": 130,
-        "color": "Purple",
-        "tag": " #JP #Gen2",
+        "bloomLevel": "1ST",
+        "hp": 160,
+        "color": "Blue",
+        "tag": "#EN #Advent #AnimalEars",
+        "bloomEffect" : "If there is a Mococo Abyssgard on your stage, you may deal 20 damage to your opponent's Center holomem or one of their Back holomems. holomems Downed with this effect do not reduce LIFE.",
         "skills": [
             {
-                "name": "どうも～",
-                "dmg": "20"
+                "name": "",
+                "dmg": "50"           
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-043",
-        "name": "sample",
+        "name": "Fuwawa Abyssgard",
         "rarity": "RR",
-        "bloomLevel": "Debut",
-        "hp": 50,
-        "color": "Purple",
-        "tag": " #JP #Gen2",
-        "collabEffect": "魔法見せてあげる　: You may roll a dice: If the result is 4 or more, reveal a card with #Magic from your deck and put it into your hand. Then shuffle your deck.",
+        "bloomLevel": "2ND",
+        "hp": 190,
+        "color": "Blue",
+        "tag": "#EN #Advent #AnimalEars",
         "skills": [
             {
-                "name": "一緒に行こう",
-                "dmg": "30"
+                "name": "",
+                "dmg": "60"           
+            },
+            {
+                "name": "",
+                "dmg": "100",
+                "description" : "[Center Position only] If your Oshi holomem is FUWAMOCO, you may move one of this holomem's Cheers to one of your holomems named Mococo Abyssgard. If you do, deal 50 special damage do your opponent's Center holomem."           
             }
         ],
          "hasAlternativeArt": true,
@@ -858,138 +864,155 @@
     },
     {
         "cardNumber": "hBP03-049",
-        "name": "sample",
+        "name": "Hiodoshi Ao",
         "rarity": "R",
-        "bloomLevel": "Debut",
-        "hp": 60,
-        "color": "Purple",
-        "tag": "#ID #IDGen2 #Languages",
-        "collabEffect": "オリーがいつも見てるよ　: Draw a card from your deck, then Archive 1 card from your hand.",
+        "bloomLevel": "1ST",
+        "hp": 230,
+        "color": "Blue",
+        "tag": "#DEV_IS #ReGLOSS #Art",
+        "buzz" : "true",
+        "bloomEffect" : "Reveal 1 Cheer from your Cheer Deck of the same color as your Center holomem with #ReGLOSS, and send that Cheer to any of your holomems with #ReGLOSS. Then shuffle your Cheer Deck.",
         "skills": [
             {
-                "name": "おつクレイジー！",
-                "dmg": "20"
+                "name": "",
+                "dmg": "50",
+                "description" : "Deal 10 special damage to your opponent's Center holomem or one of their Back holomems for each of your differently-named Back holomems with #ReGLOSS."
             }
         ],
+        "extraEffect" :"When this Holomen is downed, your life is reduced by 2",
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-050",
-       "name": "sample",
+        "name": "FUWAMOCO",
         "rarity": "R",
         "bloomLevel": "1st",
-        "hp": 160,
-        "color": "Purple",
-        "tag": "#ID #IDGen2 #Languages",
+        "hp": 150,
+        "color": "Blue",
+        "tag": "#EN #Advent #AnimalEars",
         "skills": [
             {
-                "name": "君を大好きな後輩",
-                "dmg": "20"
+                "name": "",
+                "dmg": "40",
+                "description" : "Reveal 1 Red Cheer or Blue Cheer from your Cheer Deck, and send it to one of your holomems with #Advent. Then shuffle your Cheer Deck."
             },
             {
-                "name": "きゃ～！先輩ごめ～ん！",
-                "dmg": "20"
+                "name": "",
+                "dmg": "60"
             }
         ],
+        "extraEffect" : "This holomem is also treated as both <Fuwawa Abyssgard> and <Mococo Abyssgard>.",
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-051",
-        "name": "sample",
+        "name": "Tokoyami Towa",
         "rarity": "C",
-        "bloomLevel": "1st",
-        "hp": 130,
+        "bloomLevel": "Debut",
+        "hp": 110,
         "color": "Purple",
-        "tag": "#ID #IDGen2 #Languages",
-        "bloomEffect": "限界化！！: You may Bloom one of your Debut holomems with #IDGen2 using a holomem from your Archive. You may only use the Bloom Effect 「限界化！！」 once per turn.",
+        "tag": "#JP #Gen4 #Song #Shooter",
         "skills": [
             {
-                "name": "推しを見て叫びまくるぞ！！",
-                "dmg": "20"
+                "name": "",
+                "dmg": "30"
             }
         ]
     },
     {
         "cardNumber": "hBP03-052",
-        "name": "sample",
+        "name": "Tokoyami Towa",
         "rarity": "U",
-        "bloomLevel": "1st",
-        "hp": 120,
+        "bloomLevel": "Debut",
+        "hp": 80,
         "color": "Purple",
-        "tag": "#ID #IDGen2 #Languages",
-        "bloomEffect": "真実一路: Draw a card from your deck.",
+        "tag": "#JP #Gen4 #Song #Shooter",
         "skills": [
             {
-                "name": "推しを見て叫びまくるぞ！！",
-                "dmg": "20"
+                "name": "",
+                "dmg": "20",
+                "description" : "Deal 10 special damage to your opponent's Center holomem. Then if your Oshi is Tokoyami Towa, you may Archive a Tool attached to your opponent's Center or Collab holomem."
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-053",
-        "name": "sample",
+        "name": "Tokoyami Towa",
         "rarity": "C",
-        "bloomLevel": "2nd",
-        "hp": 120,
+        "bloomLevel": "1ST",
+        "hp": 170,
         "color": "Purple",
-        "tag": "#ID #IDGen2 #Languages",
-        "bloomEffect": "蘇りしゾンビ　: You may Archive 2 cards from your hand for the following effect: this holomem's Arts gain +40 power until the end of this turn.",
+        "tag": "#JP #Gen4 #Song #Shooter",
         "skills": [
             {
-                "name": "計算された戦術",
-                "dmg": "100+",
-                "description": "If there are at least 2 2nd Bloom holomems with #IDGen2 on your Stage, this Art gains +40 power."
+                "name": "",
+                "dmg": "30"
+            },
+            {
+                "name": "",
+                "dmg": "60"
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-054",
-        "name": "sample",
+        "name": "Tokoyami Towa",
         "rarity": "U",
-        "bloomLevel": "Debut",
-        "hp": 90,
+        "bloomLevel": "1ST",
+        "hp": 140,
         "color": "Purple",
-        "tag": "#EN #Myth #Song",
+        "tag": "#JP #Gen4 #Song #Shooter",
+        "collabEffect" :"Deal 20 special damage to your Opponent's Center or Collab holomem.",
         "skills": [
             {
-                "name": "グリム・リーパーの第一弟子",
-                "dmg": "30+",
-                "description": "If there are any holomems in your Archive, this Art gains +10 power."
+                "name": "",
+                "dmg": "30",
+                "description" : "You may Archive 4 Purple Cheers from this holomem for the following effect: return 1 Cheer from your opponent's Stage to the bottom of their Cheer Deck."
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-055",
-        "name": "sample",
+        "name": "Tokoyami Towa",
         "rarity": "R",
-        "bloomLevel": "Debut",
-        "hp": 80,
+        "bloomLevel": "1ST",
+        "hp": 130,
         "color": "Purple",
-        "tag": "#EN #Myth #Song",
-        "collabEffect": "ショータイム　: You may Archive 1 holomem from your hand for the following effect: the Arts of one of your holomems with #Myth gain +20 until the end of this turn.",
+        "tag": "#JP #Gen4 #Song #Shooter",
         "skills": [
             {
-                "name": "マイステージ",
-                "dmg": "20"
+                "name": "",
+                "dmg": "40"
+            },
+            {
+                "name": "",
+                "dmg": "50",
+                "description" : "If you have any Back holomems with #Song, deal 20 special damage to your opponent's Collab holomem."
             }
         ],
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-056",
-        "name": "sample",
+        "name": "Tokoyami Towa",
         "rarity": "RR",
-        "bloomLevel": "1st",
-        "hp": 110,
+        "bloomLevel": "2ND",
+        "hp": 190,
         "color": "Purple",
-        "tag": "#EN #Myth #Song",
+        "tag": "#JP #Gen4 #Song #Shooter",
         "skills": [
             {
-                "name": "Cash-Money",
-                "dmg": "50"
+                "name": "",
+                "dmg": "30",
+                "description" : "Deal 30 special damage to your opponent's Center or Collab holomem."
+            },
+            {
+                "name": "",
+                "dmg": "80",
+                "description" : "Deal 20 special damage for each of your Back holomems with #Song to your opponent's Center or Collab holomem. The maximum number of holomems counted for this effect is 4."
             }
         ],
         "hasAlternativeArt": true,
@@ -1061,7 +1084,7 @@
                 "name": "隠しきれない魅力",
                 "dmg": "80+"
             }
-        ]
+        ],
         "hasFullArt": true
     },
     {
@@ -1169,173 +1192,224 @@
     },
     {
         "cardNumber": "hBP03-067",
-        "name": "sample",
+        "name": "Tsunomaki Watame",
         "rarity": "C",
-        "bloomLevel": "1st",
-        "hp": 120,
-        "color": "Purple",
-        "tag": " #EN #Advent #Song #Bird",
-        "bloomEffect": "ネリッサとお茶会　Look at the top three cards of your Deck. Reveal one that is a holomem with #Song and put it into your hand. Then put the remaining cards on the bottom of your Deck in any order",
+        "bloomLevel": "Debut",
+        "hp": 110,
+        "color": "Yellow",
+        "tag": "#JP #Gen4 #AnimalEars #Song",
         "skills": [
             {
-                "name": "コーヒーよりも紅茶です",
-                "dmg": "20"
+                "name": "",
+                "dmg": "30"
             }
-        ]
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
     {
         "cardNumber": "hBP03-068",
-        "name": "sample",
+        "name": "Tsunomaki Watame",
         "rarity": "U",
-        "bloomLevel": "2nd",
-        "hp": 210,
-        "color": "Purple",
-        "tag": " #EN #Advent #Song #Bird",
-        "collabEffect": "音の魔人　　Look at the top three cards of your Deck. Reveal one that is a holomem with #Song and put it into your hand. Then put the remaining cards on the bottom of your Deck in any order",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "color": "Yellow",
+        "tag": "#JP #Gen4 #AnimalEars #Song",
         "skills": [
             {
-                "name": "歌に宿りし愛情",
-                "dmg": "80"
+                "name": "",
+                "dmg": "20",
+                "description" : "If there is a Watamate attached to any of your holomems, you may send 1 Cheer from your Archive to one of your Yellow holomems."
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-069",
-        "name": "sample",
+        "name": "Tsunomaki Watame",
         "rarity": "C",
-        "bloomLevel": "Spot",
-        "hp": 60,
-        "color": "Colorless",
-        "tag": "#HoloWitch #Gen0 #Magic",
-        "collabEffect": "みんなの願いを咲かせる祈り！: You may roll a dice. If the result is odd, reveal a Red Cheer or Blue Cheer from your Cheer Deck and send it to one of your Back holomems. Then shuffle your Cheer Deck",
+        "bloomLevel": "1ST",
+        "hp": 190,
+        "color": "Yellow",
+        "tag": "#JP #Gen4 #AnimalEars #Song",
         "skills": [
             {
-                "name": "『巫女』の『ホロ』！",
-                "dmg": 20
+                "name": "",
+                "dmg": "30"
+            },
+            {
+                "name": "",
+                "dmg": "90"
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-070",
-        "name": "sample",
+        "name": "Tsunomaki Watame",
         "rarity": "U",
-        "bloomLevel": "Spot",
-        "hp": 60,
-        "color": "Colorless",
-        "tag": "#HoloWitch #Gen4 #Magic",
-        "collabEffect": "この手を差し伸べ、つかんで握る！: You may roll a dice. If the result is odd, reveal a White Cheer or Green Cheer from your Cheer Deck and send it to one of your Back holomems. Then shuffle your Cheer Deck",
+        "bloomLevel": "1ST",
+        "hp": 130,
+        "color": "Yellow",
+        "tag": "#JP #Gen4 #AnimalEars #Song",
+        "bloomEffect" : "If there are 5 or fewer holomems on your Stage, you may reveal a Debut <Tsunomaki Watame> from your Deck and put it onto your Stage. Then shuffle your deck.",
         "skills": [
             {
-                "name": "『天使』の『ホロ』！",
-                "dmg": 20
+                "name": "",
+                "dmg": "30",
+                "description" : "Send the top card of your Cheer Deck to one of your Back holomems named <Tsunomaki Watame>."
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-071",
-        "name": "sample",
+        "name": "Tsunomaki Watame",
         "rarity": "R",
-        "bloomLevel": "Spot",
-        "hp": 60,
-        "color": "Colorless",
-        "tag": "#HoloWitch #Gen4 #Magic",
-        "collabEffect": "甘～い幸せ、おすそわけ！　: You may roll a dice. If the result is odd, reveal a Purple Cheer or White Cheer from your Cheer Deck and send it to one of your Back holomems. Then shuffle your Cheer Deck",
+        "bloomLevel": "1ST",
+        "hp": 160,
+        "color": "Yellow",
+        "tag": "#JP #Gen4 #AnimalEars #Song",
+        "bloomEffect" : "You may return a Watamate from your Archive to your hand.",
         "skills": [
             {
-                "name": "『姫』の『ホロ』！",
-                "dmg": 20
+                "name": "",
+                "dmg": "50",
+                "description" : "You may play Rock Paper Scissors with your opponent until a winner is decided: if you win, this Art gains +30 damage vs Red."
             }
         ],
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-072",
-        "name": "sample",
+       "name": "Tsunomaki Watame",
         "rarity": "RR",
-        "bloomLevel": "Spot",
-        "hp": 60,
-        "color": "Colorless",
-        "tag": "#HoloWitch #Gen2 #Magic",
-        "collabEffect": "眠れる神秘を我が物に！: You may roll a dice. If the result is even, reveal an Event card from your Deck and put it into your hand. Then shuffle your Deck.",
+        "bloomLevel": "2ND",
+        "hp": 200,
+        "color": "Yellow",
+        "tag": "#JP #Gen4 #AnimalEars #Song",
+        "giftEffect" : "When this holomem is Downed, you may move 1 Cheer from this holomem to one of your holomems named <Tsunomaki Watame>.",
         "skills": [
             {
-                "name": "『魔女』の『ホロ』！",
-                "dmg": 20
+                "name": "",
+                "dmg": "80+",
+                "description" : "[Center position only] If this holomem has 6 or more Cheers attached, your Center and Collab holomems' Arts gain +100 power until the end of this turn."
             }
-        ],
-         "hasAlternativeArt": true,
+        ], 
+        "hasAlternativeArt": true,
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-073",
-        "name": "sample",
+        "name": "Ayunda Risu",
         "rarity": "C",
-        "bloomLevel": "Spot",
-        "hp": 60,
-        "color": "Colorless",
-        "tag": "#HoloWitch #Gen3 #Magic",
-        "collabEffect": "きらめくお宝、ロックオン！: You may roll a dice. If the result is even, reveal a Fan card from your Deck and put it into your hand. Then shuffle your Deck.",
+        "bloomLevel": "Debut",
+        "hp": 110,
+        "color": "Yellow",
+        "tag":  "#ID #IDGen1 #AnimalEars #Song",
         "skills": [
             {
-                "name": "『海賊』の『ホロ』！",
-                "dmg": 20
+                "name": "",
+                "dmg": "20"
+
+            },
+            {
+                "name": "",
+                "dmg": "60",
+                "description" :"You may move 1 Cheer from this holomem to one of your holomems named Inugami Korone."
+
             }
-        ]
+        ],
+        "extraEffect" : "This Holomen can be included in your deck in any number of copies."
     },
     {
         "cardNumber": "hBP03-074",
-        "name": "sample",
+        "name": "Ayunda Risu",
         "rarity": "U",
-        "bloomLevel": "Spot",
-        "hp": 60,
-        "color": "Colorless",
-        "tag": "#HoloWitch #SecretSocietyholoX #Magic",
-        "collabEffect": "荒波をゆく奔放の牙！！: You may roll a dice. If the result is even, reveal a Tool card from your Deck and put it into your hand. Then shuffle your Deck.",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "Yellow",
+        "tag":  "#ID #IDGen1 #AnimalEars #Song",
         "skills": [
             {
-                "name": "『シャチ』の『ホロ』！",
-                "dmg": 20
+                "name": "",
+                "dmg": "20+",
+                "description" :"If there is an <Airani Iofifteen> on your Stage, this Art gains +10 power.If there is a <Moona Hoshinova> on your Stage, this Art gains +10 power."
+
             }
         ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-075",
-        "name": "sample",
-        "type": "Support (Item)",
+        "name": "Ayunda Risu",
         "rarity": "C",
-        "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Art and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
+        "bloomLevel": "1ST",
+        "hp": 170,
+        "color": "Yellow",
+        "tag":  "#ID #IDGen1 #AnimalEars #Song",
+        "bloomEffect"  : "Reveal a Green Cheer or Yellow Cheer from your Cheer Deck and send it to any of your holomems. Then shuffle your Cheer Deck.",
+        "skills": [
+            {
+                "name": "",
+                "dmg": "30"
+            },
+            {
+                "name": "",
+                "dmg": "70"
+            }
+        ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-076",
-        "name": "sample",
-        "type": "Support (Item)",
+        "name": "Ayunda Risu",
         "rarity": "U",
-        "ability": "Reveal 1 Debut holomem from your hand and put it on the bottom of your Deck. Reveal a 1st Bloom holomem (excluding Buzz holomem) from your Deck which has the same name as the Debut holomem and put it into your hand. Then shuffle your Deck.",
+        "bloomLevel": "1ST",
+        "hp": 150,
+        "color": "Yellow",
+        "tag":  "#ID #IDGen1 #AnimalEars #Song",
+        "bloomEffect"  : "Reveal a Green Cheer or Yellow Cheer from your Cheer Deck and send it to any of your holomems. Then shuffle your Cheer Deck.",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 20
+            }
+        ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-077",
-        "name": "sample",
-        "type": "Support (Item)",
+        "name": "Ayunda Risu",
         "rarity": "R",
-        "limited": "Yes",
-        "ability": "This card can only be played if you have 3 or less LIFE. Return 1 holomem from your Archive to your hand.",
+        "bloomLevel": "1ST",
+        "hp": 250,
+        "color": "Yellow",
+        "tag":  "#ID #IDGen1 #AnimalEars #Song",
+        "bloomEffect"  : "If there are 5 or fewer holomems on your Stage, you may reveal a Debut holomem with #IDGen1 from your Deck and put it onto your Stage. Then shuffle your deck.",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 40
+            }
+        ],
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-078",
-        "name": "sample",
-        "type": "Support (Event)",
+        "name": "Ayunda Risu",
         "rarity": "RR",
-        "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems named <Amane Kanata>, <AZKi>, or <Sakamata Chloe> and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
-         "hasAlternativeArt": true,
+        "bloomLevel": "2ND",
+        "color": "Yellow",
+        "tag":  "#ID #IDGen1 #AnimalEars #Song",
+        "bloomEffect"  : "You may move 1 Cheer attached to one of your holomems with #IDGen1, to any of your holomems.",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 50,
+                "description" : "If this holomem has any Green Cheers attached, this Art gains +50 power. If this holomem has any Blue Cheers attached, this Art gains +50 power."
+            }
+        ],
+        "hasAlternativeArt": true,
         "hasFullArt": true
     },
     {
@@ -1358,38 +1432,63 @@
     },
     {
         "cardNumber": "hBP03-081",
-        "name": "sample",
-        "type": "Support (Event)",
+        "name": "Otonose Kanade",
         "rarity": "C",
-        "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #IDGen2 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
+        "bloomLevel": "1ST",
+        "color": "Yellow",
+        "tag":  "#DEV_IS #ReGLOSS #Song",
+        "giftEffect": "At the end of your opponent's Performance Step, if you lost any LIFE during that Performance Step, you may send 1 Cheer from your Archive to this holomem.",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 120
+            }
+        ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-082",
-        "name": "sample",
-        "type": "Support (Event)",
+        "name": "Otonose Kanade",
         "rarity": "U",
-        "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck.Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Gamers and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
+        "bloomLevel": "1ST",
+        "hp": 250,
+        "color": "Yellow",
+        "tag":  "#DEV_IS #ReGLOSS #Song",
+        "giftEffect": "At the end of your opponent's Performance Step, if you lost any LIFE during that Performance Step, you may send 1 Cheer from your Archive to this holomem.",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 120
+            }
+        ],
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-083",
-        "name": "sample",
-        "type": "Support (Event)",
+        "name": "Otonose Kanade",
         "rarity": "R",
-        "tag": "Magic",
-        "ability": "To play this card, you must Archive one holo power. Send one Purple Cheer from your Archive to one of your holomems named Murasaki Shion. You may only play one Event with #Magic per turn."
+        "bloomLevel": "1ST",
+        "hp": 250,
+        "buzz": true,
+        "color": "Yellow",
+        "tag":  "#DEV_IS #ReGLOSS #Song",
+        "giftEffect": "At the end of your opponent's Performance Step, if you lost any LIFE during that Performance Step, you may send 1 Cheer from your Archive to this holomem.",
+        "skills": [
+            {
+                "name": "",
+                "dmg": 120
+            }
+        ],
+        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
         "hasFullArt": true
     },
     {
         "cardNumber": "hBP03-084",
-       "name": "sample",
-        "type": "Support (Event)",
+        "name": "Gorgeous PC",
+        "type": "Support (Item)",
         "rarity": "U",
         "limited": "Yes",
-        "ability": "Draw 2 cards, then roll a dice. If the result is 3, 5, or 6, reveal a Debut holomem from your deck and put into your hand, then shuffle your deck. If the result is 2 or 4, draw a card.",
+        "ability": "To play this card, you must Archive one holo power. Reveal a 1st Bloom holomem that is the same color as your Oshi holomem from your Deck and put it into your hand. Then shuffle your Deck.",
         "hasFoils": true
     },
     {
@@ -1398,15 +1497,15 @@
         "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Gen3 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
+        "ability": "",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-086",
-        "name": "sample",
-        "type": "Support (Tool)",
+        "name": "Dual Monitor PC",
+        "type": "Support (Item)",
         "rarity": "C",
-        "ability": "The Arts of the holomem with this Tool attached gain +20 power.If the holomem with this Tool attached does not have #Alcohol, whenever the holomem with this Tool attached is about to take damage, add +10 to that damage. You may only attach 1 Tool to a holomem.",
+        "ability": "Reveal 1-2 Debut holomems with the Extra text <<You may put any number of copies of this holomem in your Deck>> from your Deck and put them on your Stage. Then shuffle your Deck.",
         "hasFoils": true
     },
     {
@@ -1414,7 +1513,7 @@
         "name": "sample",
         "type": "Support (Tool)",
         "rarity": "C",
-        "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later Murasaki Shion, it gains the following effect: if the holomem with this Tool attached is your Center holomem, your Oshi Skill 「ねえ゛え゛え゛え゛え゛え゛え゛」 becomes (Twice per turn) instead of (Once per turn). You may only attach 1 Tool to a holomem.",
+        "ability": "",
         "hasFoils": true
     },
     {
@@ -1422,60 +1521,58 @@
         "name": "sample",
         "type": "Support (Tool)",
         "rarity": "U",
-        "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later <Mori Calliope>, it gains the following effect: when you attach this Tool to a holomem from your hand, Archive 1 card from the top of your deck. You may only attach 1 Tool to a holomem.",
+        "ability": "This card can only be played if you have less LIFE than your opponent. If your opponent has no Collab holomem, they choose one of their Back holomems and move it to the Collab Position (this is not treated as Collabing action)",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-089",
         "name": "sample",
-        "type": "Support (Mascot)",
+        "type": "Support (Event)",
         "rarity": "U",
-        "tag": "#ShirakamiCharacter",
-        "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect: when the holomem with this Mascot attached collabs, draw a card. You may only attach 1 Mascot to a holomem.",
+        "ability": "",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-090",
-        "name": "sample",
-        "type": "Support (Mascot)",
+        "name": "Can you do the Hololive?",
+        "type": "Support (Event)",
         "rarity": "U",
-        "tag": "#ShirakamiCharacter",
-        "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect:  it gains the following effect: when the holomem with this Mascot attached is Downed, move 1 Cheer from that holomem to another of your holomems. You may only attach 1 Mascot to a holomem.",
+        "ability": "Look at the top four cards of your Deck. Reveal any number of them that are Debut holomems and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-091",
-        "name": "sample",
-        "type": "Support (Mascot)",
+        "name": "hololive ID 1st Gen",
+        "type": "Support (Event)",
         "rarity": "U",
         "tag": "#ShirakamiCharacter",
-        "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect:  it gains the following effect: when the holomem with this Mascot attached Collabs, you may return one Mascot from your Archive to your hand. You may only attach 1 Mascot to a holomem.",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #IDGen1 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-092",
         "name": "sample",
-        "type": "Support (Mascot)",
+        "type": "Support (Event)",
         "rarity": "U",
-        "tag": "#ShirakamiCharacter",
-        "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect: (Once per turn) during your Main Step, you may Archive any 2 Cheers from your holomems for the following effect: the Arts of the holomem with this Mascot attached gain +50 power until the end of this turn. You may only attach 1 Mascot to a holomem.",
+        "ability": "",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-093",
-        "name": "sample",
-        "type": "Support (Mascot)",
+        "name": "hololive 4th Gen",
+        "type": "Support (Event)",
         "rarity": "U",
-        "tag": "#ShirakamiCharacter",
-        "ability": "The holomem with this Mascot attached gain +20 HP. If this is attached to <Shirakami Fubuki>, it gains the following effect: (Back position only) the holomem with this mascot attached does not take any damage. You may only attach 1 Mascot to a holomem.",
+        "limited" : "Yes",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Gen4 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-094",
-        "name": "sample",
-        "type": "Support (Mascot)",
+        "name": "FPS stream",
+        "type": "Support (Event)",
         "rarity": "U",
-        "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Pavolia Reine>, it gains the following effect: the holomem with this Mascot attached has +30 HP. You may only attach 1 Mascot to a holomem.",
+        "limited" : "Yes",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Shooter and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
     {
@@ -1483,23 +1580,23 @@
         "name": "sample",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Houshou Marine>, it gains the following effect: (Center position only) when the holomem that this Mascot is attached to Blooms, draw 1 card from your Deck. You may only attach 1 Mascot to a holomem.",
+        "ability": "",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-096",
-        "name": "sample",
-        "type": "Support (Mascot)",
+        "name": "Rifle",
+        "type": "Support (Tool)",
         "rarity": "U",
-        "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Sakamata Chloe>, it gains the following effect: when the holomem with this Mascot attached Downs one of your opponent's holomems, send a Cheer from your Archive to one of your holomems with #SecretSocietyholoX. You may only attach 1 Mascot to a holomem.",
+        "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later holomem with #Shooter, it gains the following effect: special damage done by this holomem to a single opposing holomem is increased by +10. You may only attach 1 Tool to a holomem.",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-097",
         "name": "sample",
-        "type": "Support (Mascot)",
+        "type": "Support (Tool)",
         "rarity": "C",
-        "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Kureiji Ollie>, it gains the following effect: when the holomem that this Mascot is attached to Blooms, draw 1 card from your Deck then Archive 1 card from your hand. You may only attach 1 Mascot to a holomem.",
+        "ability": "",
         "hasFoils": true
     },
     {
@@ -1507,7 +1604,7 @@
         "name": "sample",
         "type": "Support (Mascot)",
         "rarity": "U",
-        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to <Mori Calliope>, it gains the following effect: the Cheer requirements of all Arts of the holomem this is attached to become Colorless. You may only attach 1 Mascot to a holomem.",
+        "ability": "",
         "hasFoils": true
     },
     {
@@ -1515,23 +1612,23 @@
         "name": "sample",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "The holomem with this Fan attached has +10 HP. This Fan may only be attached to your <Shirakami Fubuki>, and you may attach any number of this Fan to one holomem.",
+        "ability": "",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-100",
-        "name": "sample",
+        "name": "Pero",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "Whenever the holomem with this Fan attached takes damage, it takes -10 damage. This Fan may only be attached to your <Shirogane Noel>, and you may attach any number of this Fan to one holomem.",
+        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to Fuwawa Abyssgard or Mococo Abyssgard, it gains the following effect: the Cheer requirements of all Arts of the holomem this is attached to become Colorless. You may only attach 1 Mascot to a holomem.",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-101",
-        "name": "sample",
+        "name": "Bibi",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": " During your opponent's turn, when the holomem with this Fan attached is Downed, draw a card. This Fan may only be attached to your <Ookami Mio>, and you may attach any number of this Fan to one holomem.",
+        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to Tokoyami Towa, it gains the following effect: special damage done by this holomem to a single opposing holomem is increased by +10. You may only attach 1 Mascot to a holomem.",
         "hasFoils": true
     },
     {
@@ -1539,7 +1636,7 @@
         "name": "sample",
         "type": "Support (Fan)",
         "rarity": "U",
-        "ability": "The Arts of the holomem with this Fan attached gain +10 power. When the holomem with this Fan attached takes damage, Archive this Fan. This Fan may only be attached to your <Murasaki Shion>, and you may attach any number of this Fan to one holomem.",
+        "ability": "",
         "hasFoils": true
     },
      {
@@ -1552,31 +1649,31 @@
     },
      {
         "cardNumber": "hBP03-104",
-        "name": "sample",
+        "name": "Riscot",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "",
+        "ability": "The Arts of the holomem with this Mascot attached gain +10 power.If this is attached to Ayunda Risu, it gains the following effect: when the holomem with this Mascot attached Collabs, you may move 1 Cheer from any of your holomems to that holomem. You may only attach 1 Mascot to a holomem.",
         "hasFoils": true
     },
      {
         "cardNumber": "hBP03-105",
-        "name": "sample",
+        "name": "Luknight",
         "type": "Support (Fan)",
         "rarity": "U",
-        "ability": "",
+        "ability": "During your opponent's turn, when the holomem with this Fan attached is about to take damage, you may Archive this Fan to reduce that damage by 30. This Fan may only be attached to your Himemori Luna, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     },
      {
         "cardNumber": "hBP03-106",
-        "name": "sample",
+        "name": "SSRB",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "",
+        "ability": "When the holomem with this Mascot attached Archives Cheer as part of their Ability or Arts, you may Archive this Fan instead of one Cheer. This Fan may only be attached to your Shishiro Botan, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     },
      {
         "cardNumber": "hBP03-107",
-        "name": "sample",
+        "name": "35P",
         "type": "Support (Fan)",
         "rarity": "U",
         "ability": "",
@@ -1584,18 +1681,18 @@
     },
     {
         "cardNumber": "hBP03-108",
-        "name": "sample",
+        "name": "Haaton",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "",
+        "ability": "When you roll dice as part of the Abilities or Arts of the holomem with this Fan attached, you may Archive this Fan for the following effect: re-roll all dice rolled as part of this ability. This Fan may only be attached to your Akai Haato, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     },
      {
         "cardNumber": "hBP03-109",
-        "name": "sample",
+        "name": "Ruffians",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "",
+        "ability": "During your opponent's turn, when the holomem with this Fan attached is Downed, you may send 1 Blue Cheer from your Archive to one of your holomems named Fuwawa Abyssgard. This Fan may only be attached to your Fuwawa Abyssgard or Mococo Abyssgard, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     },
     {
@@ -1616,18 +1713,18 @@
     },
     {
         "cardNumber": "hBP03-112",
-        "name": "sample",
+        "name": "Watamate",
         "type": "Support (Fan)",
         "rarity": "U",
-        "ability": "",
+        "ability": "During your opponent's turn, when the holomem with this Fan attached is Downed, you may move 1-2 Yellow Cheers from that holomem to another of your holomems named Tsunomaki Watame. This Fan may only be attached to your Tsunomaki Watame, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-113",
-        "name": "sample",
+        "name": "Risuners",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "",
+        "ability": "(Once per turn) When the holomem with this Fan attached received Cheer, their Arts gain +10 power until the end of this turn. This Fan may only be attached to your Ayunda Risu, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     }
 ]
