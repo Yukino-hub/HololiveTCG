@@ -578,10 +578,29 @@
             "description": "[Once per turn] One of your White holomems' Arts gains +20 power until the end of this turn.."
         },
         "spOshiSkill": {
-            "name": "Birthday Gift ~Yellow~",
+            "name": "Birthday Gift ~White~",
             "power": 2,
             "description": "[Once per game] Reveal 1 White holomem from your deck and put it into your hand. Then shuffle your deck."
         },
         "source": "Hakui Koyori 2025 birthday merch full set bonus"
+    },
+
+      {
+        "cardNumber": "hBD24-033",
+        "name": "IRyS",
+        "rarity": "P",
+        "lives": 5,
+        "color": "White",
+        "oshiSkill": {
+            "name": "White Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your White holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~White~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 White holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "IRyS 2025 birthday merch full set bonus"
     }
 ]
