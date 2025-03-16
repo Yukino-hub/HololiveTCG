@@ -252,3 +252,8 @@ img.lazy-load {
 img.lazy-load[src] {
     opacity: 1; /* Fully visible when the src is set */
 }
+
+.dropdown-container select option:checked {
+    background-color: #007bff;
+    color: white;
+}
