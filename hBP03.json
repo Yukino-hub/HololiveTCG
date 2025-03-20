@@ -247,7 +247,7 @@
         "bloomEffect": "ルーナについてくるのら～: If your Oshi holomem is <Himemori Luna>, you may attach 1 <Luknight> from your Archive to one of your holomems named <Himemori Luna>.",
         "skills": [
             {
-                "name": お疲れ様なのらね　"",
+                "name": "お疲れ様なのらね",
                 "dmg": "100+",
                 "description": "If this holomem has any <Luknight> attached, this Art gains +50 power."
             }
@@ -976,7 +976,7 @@
         "hasFoils": true
     },
     {
-        "cardNumber": "hBP03-054", 
+        "cardNumber": "hBP03-054",
         "name": "Tokoyami Towa",
         "rarity": "U",
         "bloomLevel": "1ST",
