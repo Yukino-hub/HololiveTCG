@@ -6,14 +6,14 @@
         "lives": 5,
         "color": "White",
         "oshiSkill": {
-            "name": "",
+            "name": "パソコンならわかるのら",
             "power": 2,
-            "description": "[Once per turn] Reveal 1 Item with [PC] in its name from your Deck and put it into your hand. Then shuffle your deck."
+            "description": "[Once per turn] Reveal 1 Item with 「PC」 in its name from your Deck and put it into your hand. Then shuffle your deck."
         },
         "spOshiSkill": {
-            "name": "",
+            "name": "ルーナイト集合",
             "power": 2,
-            "description": "[Once per game] May only be used if your Center holomem is Himemori Luna: Reveal 1-4 Luknights from your deck and attach them to your holomems in any way you like. Then shuffle your deck."
+            "description": "[Once per game] May only be used if your Center holomem is <Himemori Luna>: Reveal 1-4 <Luknights> from your deck and attach them to your holomems in any way you like. Then shuffle your deck."
         },
         "hasAlternativeArt": true
     },
@@ -29,7 +29,7 @@
             "description": "(Once per turn). Return 1 Cheer from archive to your own back <Shishiro Botan>"
         },
         "spOshiSkill": {
-            "name": "",
+            "name": "狙撃",
             "power": 2,
             "description": "(Once per game) You may use this when your center Holomen is Green : Deal 100 Special Damage Opponent's Center Holomen other then Debut."
         },
@@ -43,12 +43,12 @@
         "lives": 5,
         "color": "Red",
         "oshiSkill": {
-            "name": "",
+            "name": "35P帰ってくるのかッ！？って！",
             "power": 2,
             "description": "[Once per turn] You may roll a dice. If the result is 1, 2, 4, or 6, return a 35P from your Archive to your hand. If the result is 3 or 5, return 2 35Ps from your Archive to your hand."
         },
         "spOshiSkill": {
-            "name": "",
+            "name": "あきらめない心にぇ",
             "power": 2,
             "description": "[Once per game] Can be used if your Center holomem is Red: Choose any number of cards from your hand and place them on the bottom of your Deck in any order. Then draw from your Deck until you have 5 cards in your hand."
         },
@@ -62,7 +62,7 @@
         "lives": 5,
         "color": "Blue",
         "oshiSkill": {
-            "name": "",
+            "name": "モコちゃん！",
             "power": 3,
             "description": "[Once per turn] Send the top card of your Cheer Deck to one of your 1st Bloom holomems named Mococo Abyssgard.."
         },
@@ -80,12 +80,12 @@
         "lives": 5,
         "color": "Purple",
         "oshiSkill": {
-            "name": "",
+            "name": "デビルズヴォイス",
             "power": 2,
             "description": "[Once per turn] The Arts of your Center and Collab holomems with #Song gain +20 power until the end of the turn."
         },
         "spOshiSkill": {
-            "name": "",
+            "name": "悪魔的所業",
             "power": 2,
             "description": "[Once per game]  Can be used during your opponent's turn when your Tokoyami Towa is Downed: return 2 Cheers from your opponent's Center holomem and 2 Cheers from their Collab holomem to the bottom of their Cheer Deck in any order."
         },
@@ -94,17 +94,17 @@
     },
     {
         "cardNumber": "hBP03-006",
-        "name": "sample",
+        "name": "Inugami Korone",
         "rarity": "OSR",
         "lives": 6,
         "color": "Yellow",
         "oshiSkill": {
-            "name": "",
+            "name": "無限の体力",
             "power": "2",
             "description": "(Once per turn) Unrest one of your Resting holomems named [Inugami Korone]."
         },
         "spOshiSkill": {
-            "name": "",
+            "name": "ウォウウォウウォウウォウ",
             "power": 2,
             "description": "(Once per turn) You may use this when your Yellow holomen is down : Can be used when one of your Yellow holomems is Downed: move one of that holomem's Cheers to one of your other holomems, then return one of that holomem's stacked holomems (including the top holomem) to your hand."
         },
@@ -117,12 +117,12 @@
         "lives": 5,
         "color": "Yellow",
         "oshiSkill": {
-            "name": "",
+            "name": "Member sheep いらっしゃい！",
             "power": 2,
             "description": "[Once per turn] Reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck."
         },
         "spOshiSkill": {
-            "name": "",
+            "name": "わためは悪くないよねぇ？",
             "power": 2,
             "description": "[Once per game] Send the top 2 cards of your Cheer Deck to one of your Tsunomaki Watames."
         },
@@ -136,12 +136,12 @@
         "lives": 5,
         "color": "Yellow",
         "oshiSkill": {
-            "name": "",
+            "name": "ホロライブID一家",
             "power": 2,
             "description": "[Once per turn] Can be used when one of your holomems with #IDGen1 is Downed: draw a card."
         },
         "spOshiSkill": {
-            "name": "",
+            "name": "がんばり～リス！",
             "power": 2,
             "description": "[Once per game] The Arts of all of your holomems named Ayunda Risu gain +50 power until the end of this turn."
         },
@@ -157,7 +157,7 @@
         "tag": "#JP #Gen4 #Baby",
         "skills": [
             {
-                "name": "",
+                "name": "みんな～、おりゅ～？",
                 "dmg": "10",
                 "description": "If there are no <Luknight> attached to any holomems on your Stage, reveal a <Luknight> from your deck and attach it to any of your holomems. Then shuffle your deck."
             }
@@ -172,10 +172,10 @@
         "hp": 80,
         "color": "White",
         "tag": "#JP #Gen4 #Baby",
-        "collabEffect": "If your Center holomem is <Himemori Luna>, draw 1 card from your Deck.",
+        "collabEffect": "お菓子の国のお姫様: If your Center holomem is <Himemori Luna>, draw 1 card from your Deck.",
         "skills": [
             {
-                "name": "",
+                "name": "お菓子たべるのら？",
                 "dmg": "20"
             }
         ],
@@ -191,11 +191,11 @@
         "tag": "#JP #Gen4 #Baby",
         "skills": [
             {
-                "name": "",
+                "name": "おつルーナ",
                 "dmg": "40"
             },
             {
-                "name": "",
+                "name": "ぐっどないと～",
                 "dmg": "60"
             }
         ],
