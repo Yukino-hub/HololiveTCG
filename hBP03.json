@@ -1551,7 +1551,7 @@
         "name": "Dual Monitor PC",
         "type": "Support (Item)",
         "rarity": "C",
-        "ability": "Reveal 1-2 Debut holomems with the Extra text <<You may put any number of copies of this holomem in your Deck>> from your Deck and put them on your Stage. Then shuffle your Deck.",
+        "ability": "Reveal 1-2 Debut holomems with the Extra text 「You may put any number of copies of this holomem in your Deck」 from your Deck and put them on your Stage. Then shuffle your Deck.",
         "hasFoils": true
     },
     {
@@ -1644,7 +1644,7 @@
         "name": "Recorder",
         "type": "Support (Tool)",
         "rarity": "C",
-        "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later Otonose Kanade, it gains the following effect: when the holomem with this Tool attached Downs one of your opponent's holomems, draw 1 card from your Deck. You may only attach 1 Tool to a holomem.",
+        "ability": "The Arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later <Otonose Kanade>, it gains the following effect: when the holomem with this Tool attached Downs one of your opponent's holomems, draw 1 card from your Deck. You may only attach 1 Tool to a holomem.",
         "hasFoils": true
     },
     {
@@ -1652,7 +1652,7 @@
         "name": "Kintoki",
         "type": "Support (Mascot)",
         "rarity": "U",
-        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to Sakura Miko, it gains the following effect: when the holomem with this Mascot attached collabs, draw 1 card from your Deck. You may only attach 1 Mascot to a holomem..",
+        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to <Sakura Miko>, it gains the following effect: when the holomem with this Mascot attached collabs, draw 1 card from your Deck. You may only attach 1 Mascot to a holomem..",
         "hasFoils": true
     },
     {
@@ -1684,7 +1684,7 @@
         "name": "Futoinu",
         "type": "Support (Fan)",
         "rarity": "U",
-         "ability": "The Arts of the holomem with this Mascot attached gain +10 power.If this is attached to Inugami Korone, it gains the following effect: when the holomem with this Mascot attached collabs, you may send 1 Yellow Cheer from your Archive to that holomem.You may only attach 1 Mascot to a holomem.",
+         "ability": "The Arts of the holomem with this Mascot attached gain +10 power.If this is attached to <Inugami Korone>, it gains the following effect: when the holomem with this Mascot attached collabs, you may send 1 Yellow Cheer from your Archive to that holomem.You may only attach 1 Mascot to a holomem.",
        "hasFoils": true
     },
     {
@@ -1700,7 +1700,7 @@
         "name": "Riscot",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "The Arts of the holomem with this Mascot attached gain +10 power.If this is attached to Ayunda Risu, it gains the following effect: when the holomem with this Mascot attached Collabs, you may move 1 Cheer from any of your holomems to that holomem. You may only attach 1 Mascot to a holomem.",
+        "ability": "The Arts of the holomem with this Mascot attached gain +10 power.If this is attached to <Ayunda Risu>, it gains the following effect: when the holomem with this Mascot attached Collabs, you may move 1 Cheer from any of your holomems to that holomem. You may only attach 1 Mascot to a holomem.",
         "hasFoils": true
     },
     {
@@ -1724,7 +1724,7 @@
         "name": "35P",
         "type": "Support (Fan)",
         "rarity": "U",
-        "ability": "",
+        "ability": "When the holomem with this Fan attached uses an Art, this Fan is treated as 1 Red Cheer.When the holomem with this Fan attached is Downed, your opponent may draw 1 card from their Deck.This Fan may only be attached to your Sakura Miko, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     },
     {
@@ -1745,18 +1745,18 @@
     },
     {
         "cardNumber": "hBP03-110",
-        "name": "Pero",
+        "name": "Roboser",
         "type": "Support (Fan)",
         "rarity": "U",
-        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to Fuwawa Abyssgard or Mococo Abyssgard, it gains the following effect: the Cheer requirements of all Arts of the holomem this is attached to become Colorless. You may only attach 1 Mascot to a holomem.",
+        "ability": "When the holomem with this Fan attached uses an Art, this Fan is treated as 1 Purple Cheer.The Arts of the holomem with this Fan attached lose -10 power.This Fan may only be attached to your Robocosan, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     },
     {
         "cardNumber": "hBP03-111",
-        "name": "Bibi",
+        "name": "Koronesuki",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to Tokoyami Towa, it gains the following effect: special damage done by this holomem to a single opposing holomem is increased by +10. You may only attach 1 Mascot to a holomem.",
+        "ability": "The Baton Pass Cheer cost of the holomem this is attached to is reduced by 1.This Fan may only be attached to your Inugami Korone, and you may attach any number of this Fan to one holomem..",
         "hasFoils": true
     },
     {
