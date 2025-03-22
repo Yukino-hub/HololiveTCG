@@ -1359,7 +1359,7 @@
             {
                 "name": "繋がる願い",
                 "dmg": "20+",
-                "description": "If there is an <Airani Iofifteen> on your Stage, this Art gains +10 power.If there is a <Moona Hoshinova> on your Stage, this Art gains +10 power."
+                "description": "If there is an Airani Iofifteen on your Stage, this Art gains +10 power.If there is a Moona Hoshinova on your Stage, this Art gains +10 power."
             }
         ],
         "hasFoils": true
