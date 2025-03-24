@@ -1206,7 +1206,7 @@
         "hp": 210,
         "color": "Purple",
         "tag": " #EN #Advent #Song #Bird",
-        "collabEffect": "音の魔人　　Look at the top three cards of your Deck. Reveal one that is a holomem with #Song and put it into your hand. Then put the remaining cards on the bottom of your Deck in any order",
+        "collabEffect": "音の魔人 The Arts of your Center and Collab holomems with #Song gain +30 power until the end of the turn.",
         "skills": [
             {
                 "name": "歌に宿りし愛情",
