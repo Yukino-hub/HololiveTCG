@@ -334,7 +334,7 @@
         "hp": 130,
         "color": "Green",
         "tag": "#JP #Gen5 #AnimalEars #Shooter",
-        "bloomEffect": "歌う事は楽しい事: You may Archive 1 Cheer from one of your Back holomems for the following effect: deal 30 special damage to your opponent's Center or Collab holomem. You may only use the Bloom Effect [Singing is fun] once per turn.",
+        "bloomEffect": "歌う事は楽しい事: You may Archive 1 Cheer from one of your Back holomems for the following effect: deal 30 special damage to your opponent's Center or Collab holomem. You may only use the Bloom Effect [歌う事は楽しい事] once per turn.",
         "skills": [
             {
                 "name": "じゅるり",
