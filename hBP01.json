@@ -1625,7 +1625,7 @@
         "hp": 200,
         "color": "Blue",
         "tag": "#EN #Promise",
-        "collabeffect": "巻き戻し: Return 1 of your opponent's Back Holomems to the Debut Holomem state (after removing all damage counters, leave only a Debut Holomem card and all attached Cheer cards, and return all other attached cards to opp hand).",
+        "collabEffect": "巻き戻し: Return 1 of your opponent's Back Holomems to the Debut Holomem state (after removing all damage counters, leave only a Debut Holomem card and all attached Cheer cards, and return all other attached cards to opp hand).",
         "skills": [
             {
                 "name": "早送り",
