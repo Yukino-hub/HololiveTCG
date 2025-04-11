@@ -567,6 +567,24 @@
         "source": "Anya Melfissa 2025 birthday merch full set bonus"
     },
     {
+        "cardNumber": "hBD24-031",
+        "name": "Ouro Kronii",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Blue",
+        "oshiSkill": {
+            "name": "Blue Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Blue holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Blue~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Blue holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Ouro Kronii 2025 birthday merch full set bonus"
+    },
+    {
         "cardNumber": "hBD24-032",
         "name": "Hakui Koyori",
         "rarity": "P",
@@ -602,5 +620,82 @@
             "description": "[Once per game] Reveal 1 White holomem from your deck and put it into your hand. Then shuffle your deck."
         },
         "source": "IRyS 2025 birthday merch full set bonus"
+    },
+
+    {
+        "cardNumber": "hBD24-033",
+        "name": "Hoshimachi Suisei",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Blue",
+        "oshiSkill": {
+            "name": "Blue Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Blue holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Blue~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Blue holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Hoshimachi Suisei 2025 birthday merch full set bonus"
+    },
+
+      {
+        "cardNumber": "hBD24-034",
+        "name": "Momosuzu Nene",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Yellow",
+        "oshiSkill": {
+            "name": "Yellow Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Yellow holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Yellow~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Yellow holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Momosuzu Nene 2025 birthday merch full set bonus"
+    },
+    
+          {
+        "cardNumber": "hBD24-035",
+        "name": "Shiranui Flare",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Yellow",
+        "oshiSkill": {
+            "name": "Yellow Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Yellow holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Yellow~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Yellow holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Shiranui Flare 2025 birthday merch full set bonus"
+    },
+ {
+        "cardNumber": "hBD24-036",
+        "name": "Mori Calliope",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Purple",
+        "oshiSkill": {
+            "name": "Purple Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Purple holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Yellow~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Purple holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Mori Calliope2025 birthday merch full set bonus"
     }
+
+    
 ]
