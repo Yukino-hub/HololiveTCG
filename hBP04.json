@@ -8,12 +8,12 @@
         "oshiSkill": {
             "name": "Koyori Experiment",
             "power": 2,
-            "description": "[1/Turn] The arts of one of your holomem named Hakui Koyori which has a card with #KoyoLabo attached gain +30 power until the end of this turn."
+            "description": "[Once Per Turn] The arts of one of your holomem named Hakui Koyori which has a card with #KoyoLabo attached gain +30 power until the end of this turn."
         },
         "spOshiSkill": {
             "name": "Assisant-kun, mwah!",
             "power": 2,
-            "description": "[1/Game] Usable if your holomem named Hakui Koyori with a Koyori's Assistant-kun attached is about to take damage during your opponent's turn: Reduce that damage by 100.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
+            "description": "[Once Per Game] Usable if your holomem named Hakui Koyori with a Koyori's Assistant-kun attached is about to take damage during your opponent's turn: Reduce that damage by 100."
         },
          "hasSigned": true
     },
@@ -26,12 +26,12 @@
         "oshiSkill": {
             "name": "The elegant one of ReGLOSS",
             "power": 2,
-            "description": "[1/Turn] Send 1 cheer from your archive to one of your holomem with #ReGLOSS."
+            "description": "[Once Per Turn] Send 1 cheer from your archive to one of your holomem with #ReGLOSS."
         },
         "spOshiSkill": {
             "name": "Spinning around in my spare time",
             "power": 2,
-            "description": "[1/Game] Return 1-4 Events with #Mushroom from your archive to hand. Then, for each 2 cards returned to your hand, draw 1 card."
+            "description": "[Once Per Game] Return 1-4 Events with #Mushroom from your archive to hand. Then, for each 2 cards returned to your hand, draw 1 card."
         }
     },
     {
@@ -43,12 +43,12 @@
         "oshiSkill": {
             "name": "Reach the top!",
             "power": 3,
-            "description": "[1/Turn] If your center holomem has #ReGLOSS, deal 50 special damage to your opponent's collab holomem."
+            "description": "[Once Per Turn] If your center holomem has #ReGLOSS, deal 50 special damage to your opponent's collab holomem."
         },
         "spOshiSkill": {
             "name": "Kawaii! Positive! Genius!",
             "power": 1,
-            "description": "[1/Game] Usable if your holomem named Ichijou Ririka is downed during your opponent's turn: reveal 1 Ichijou Ririka and 1 Struggle Meal from your deck and put them into your hand. Then shuffle your deck."
+            "description": "[Once Per Game] Usable if your holomem named Ichijou Ririka is downed during your opponent's turn: reveal 1 Ichijou Ririka and 1 Struggle Meal from your deck and put them into your hand. Then shuffle your deck."
         }
     },
     {
@@ -60,13 +60,12 @@
         "oshiSkill": {
             "name": "Love you",
             "power": 1,
-            "description": "[1/Turn] Usable if your holomem is downed during your opponent's turn: Return 1 Fan attached to that holomem to hand."
+            "description": "[Once Per Turn] Usable if your holomem is downed during your opponent's turn: Return 1 Fan attached to that holomem to hand."
         },
         "spOshiSkill": {
             "name": "Vrooooom! Baribaribaribari",
             "power": 3,
-            "description": "[1/Game] Choose one of your holomem named Yukihana Lamy. Until the end of this turn, whenever that holomem deals special damage to a single opposing holomem, that damage is increased by +100. When the chosen holomem downs one of your opponent's holomem during this turn, draw 2 cards.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
-        },
+            "description": "[Once Per Game] Choose one of your holomem named Yukihana Lamy. Until the end of this turn, whenever that holomem deals special damage to a single opposing holomem, that damage is increased by +100. When the chosen holomem downs one of your opponent's holomem during this turn, draw 2 cards."
          "hasSigned": true
     },
     {
@@ -78,12 +77,12 @@
         "oshiSkill": {
             "name": "Leader's work",
             "power": 2,
-            "description": "[1/Turn] During this turn, whenever you roll a dice 3 times as part of an ability or arts, treat all dice rolls as if the result was 5."
+            "description": "[Once Per Turn] During this turn, whenever you roll a dice 3 times as part of an ability or arts, treat all dice rolls as if the result was 5."
         },
         "spOshiSkill": {
             "name": "We are Secret Society holoX!",
             "power": 3,
-            "description": "[1/Game] The arts of one of your holomem with #SecretSocietyholoX can be used without fulfilling their cheer requirement until the end of this turn.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
+            "description": "[Once Per Game] The arts of one of your holomem with #SecretSocietyholoX can be used without fulfilling their cheer requirement until the end of this turn."
         },
          "hasSigned": true
     },
@@ -96,12 +95,12 @@
         "oshiSkill": {
             "name": "Mental! Physical! Passion!",
             "power": 2,
-            "description": "[1/Turn] Usable if your holomem named Oozora Subaru is about to take damage during your opponent's turn: Reduce the damage taken by all of your holomem named Oozora Subaru from that effect by 30."
+            "description": "[Once Per Turn] Usable if your holomem named Oozora Subaru is about to take damage during your opponent's turn: Reduce the damage taken by all of your holomem named Oozora Subaru from that effect by 30."
         },
         "spOshiSkill": {
             "name": "Reaction Arts",
             "power": 2,
-            "description": "[1/Game] Usable if you have 3 or less Life: If your center holomem is Oozora Subaru, that holomem's arts gain +100 power until the end of this turn.\n\n[there is also a SEC version available, which is a signed version of the OUR]"
+            "description": "[Once Per Game] Usable if you have 3 or less Life: If your center holomem is Oozora Subaru, that holomem's arts gain +100 power until the end of this turn."
         },
          "hasSigned": true
     },
@@ -114,12 +113,12 @@
         "oshiSkill": {
             "name": "Mystical Ritual",
             "power": 2,
-            "description": "[1/Turn] Reveal 1 Ancient Weapon from your deck and attach it to any of your holomem. Then shuffle your deck."
+            "description": "[Once Per Turn] Reveal 1 Ancient Weapon from your deck and attach it to any of your holomem. Then shuffle your deck."
         },
         "spOshiSkill": {
             "name": "Those who think about life will win",
             "power": 2,
-            "description": "[1/Game] Send 1 cheer from your archive to each of your holomem that have an Ancient Weapon attached."
+            "description": "[Once Per Game] Send 1 cheer from your archive to each of your holomem that have an Ancient Weapon attached."
         }
     },
     {
