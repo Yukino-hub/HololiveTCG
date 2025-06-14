@@ -3,156 +3,356 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hololive TCG - Card Index</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Hololive Signed & OSR Card Release History</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* bg-gray-900 */
+        }
+        /* Custom styles for keyword highlighting */
+        .badge {
+            display: inline-block;
+            padding: 0.2em 0.6em;
+            font-size: 0.75em;
+            font-weight: 600;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: 0.375rem; /* rounded-md */
+            margin-left: 0.5rem;
+        }
+        .badge-sign { background-color: #ca8a04; color: #fefce8; } /* yellow-600, yellow-50 */
+        .badge-booster { background-color: #2563eb; color: #eff6ff; } /* blue-600, blue-50 */
+        .badge-starter { background-color: #16a34a; color: #f0fdf4; } /* green-600, green-50 */
+        .badge-grad { background-color: #4b5563; color: #d1d5db; } /* gray-600, gray-300 */
+        .badge-note { background-color: #6b7280; color: #f3f4f6; } /* gray-500, gray-100 */
+
+        /* Color text styling */
+        .color-white { color: #e5e7eb; }
+        .color-red { color: #ef4444; }
+        .color-blue { color: #3b82f6; }
+        .color-green { color: #22c55e; }
+        .color-yellow { color: #eab308; }
+        .color-purple { color: #a855f7; }
+
+        .card-glow {
+            box-shadow: 0 0 5px rgba(59, 130, 246, 0.3), 0 0 10px rgba(59, 130, 246, 0.2);
+        }
+    </style>
 </head>
-<body>
-    <header>
-        <h1>Hololive TCG - Card Index</h1>
-        <p><a href="index.html">Card List</a> | <a href="hololive-card-history.html">HoloCard Tracker</a> </p>
-        <p> <strong> © COVER Corp. This is a fan website for the Hololive Trading Card Game and not affiliated with Cover or Hololive Production. Please support the official card game. </strong></p>
-    </header>
-    <div class="container">
-    <div class="search-container">
-        <!-- Search Bar -->
-        <input type="text" id="searchBar" placeholder="Search by Card Name/Numbers/Tags ... Ex: Sora or Hbp01 or #Gen0" aria-label="Search">
-        <br><br>
-        
-        <!-- Dropdown Filters -->
-        <div class="dropdown-container">
-            <!-- Series Filter -->
-            <label for="seriesFilter">Series:</label>
-            <select id="seriesFilter">
-                <option value="">Select Series</option>
-                 <!-- Boosters -->
-                <optgroup label="Boosters">
-                    <option value="hBP01">hBP01</option>
-                    <option value="hBP02">hBP02</option>
-                    <option value="hBP03">hBP03</option>
-                    <option value="hBP04">hBP04</option>
-                </optgroup>
-                <!-- Starter Sets -->
-                <optgroup label="Starter Sets">
-                    <option value="hSD01">hSD01</option>
-                    <option value="hSD02">hSD02</option>
-                    <option value="hSD03">hSD03</option>
-                    <option value="hSD04">hSD04</option>
-                    <option value="hSD05">hSD05</option>
-                    <option value="hSD06">hSD06</option>
-                    <option value="hSD07">hSD07</option>
-                </optgroup>
-                <!-- Others -->
-                <optgroup label="Others">
-                    <option value="hPR">hPR</option>
-                    <option value="hY">hY</option>
-                    <option value="hBD">hBD</option>
-                </optgroup>
-            </select>
-            
-            <!-- Rarity Filter -->
-            <label for="rarityFilter">Rarity:</label>
-            <select id="rarityFilter">
-                <option value="">Select Rarity</option>
-                <option value="C">Common {C}</option>
-                <option value="U">Uncommon {U}</option>
-                <option value="R">Rare {R}</option>
-                <option value="RR">Double Rare {RR}</option>
-                <option value="OSR">Oshi Super Rare {OSR}</option>
-                <option value="P">Promo {P}</option>
-                <option value="SY">AltArt-Cheer {SY}</option>
-            </select>
-            
-            <!-- Bloom Type Filter -->
-            <label for="bloomTypeFilter">Bloom/Support:</label>
-            <select id="bloomTypeFilter">
-                <option value="">Select Bloom Level or Support</option>
-                <option value="Debut">Debut</option>
-                <option value="1st">1st</option>
-                <option value="2nd">2nd</option>
-                <option value="Spot">Spot</option>
-                <!-- Others -->
-                <optgroup label="Support">
-                    <option value="Support (Item)">Support (Item)</option>
-                    <option value="Support (Tool)">Support (Tool)</option>
-                    <option value="Support (Mascot)">Support (Mascot)</option>
-                    <option value="Support (Fan)">Support (Fan)</option>
-                    <option value="Support (Event)">Support (Event)</option>
-                    <option value="Support (Staff)">Support (Staff)</option>
-                </optgroup>
-            </select>
-        </div>
-        
-        <!-- Checkboxs for Alternative Arts -->
-        <div>
+<body class="text-gray-200">
 
-    <input type="checkbox" id="foilCheckbox">
-    <label for="foilCheckbox">Show Foiled {S}</label>
-            
-    <input type="checkbox" id="fullArtCheckbox">
-    <label for="fullArtCheckbox">Show FullArt {SR}</label>
-            
-  
-    <input type="checkbox" id="altArtCheckbox">
-    <label for="altArtCheckbox">Show Alternative Arts {OUR/UR}</label>
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+        <header class="text-center mb-10">
+            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">Hololive Signed & OSR Card Release History</h1>
+            <p class="mt-2 text-lg text-gray-400">A comprehensive list of card releases by generation.</p>
+        </header>
 
-    <input type="checkbox" id="signedCheckbox">
-    <label for="signedCheckbox">Show Signed {SEC}</label>
-
-    <input type="checkbox" id="grandprixCheckbox">
-    <label for="grandprixCheckbox">Show GrandPrix</label>
-    </div>
-
-        
-    <!-- Content container for dynamically loaded cards -->
-        <div id="contentContainer">
-            <!-- Cards will be dynamically loaded here -->
-        </div>
-
-
-        <!-- Loading indicator -->
-        <div id="loadingIndicator">Loading...</div>
-    </div>
-
-    <div id="modal" class="modal" onclick="closeModal(event)">
-        <div class="modal-content" onclick="event.stopPropagation()">
-            <span id="modalCloseIcon" class="modal-close">&times;</span>
-            <div id="modalImageContainer" class="image-scroll">
-                <img id="modalImage" data-src="" alt="" class="lazy-load" loading="lazy">
+        <!-- Summary Table -->
+        <section class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-bold text-white tracking-tight text-center mb-6">Release Summary by Generation</h2>
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-4 sm:p-6 overflow-x-auto card-glow">
+                <table class="w-full text-sm sm:text-base text-left text-gray-300">
+                    <thead class="text-xs text-teal-400 uppercase bg-gray-700/50">
+                        <tr>
+                            <th scope="col" class="px-4 py-3 rounded-l-lg">Generation</th>
+                            <th scope="col" class="px-4 py-3 text-center">Starter</th>
+                            <th scope="col" class="px-4 py-3 text-center">Booster</th>
+                            <th scope="col" class="px-4 py-3 text-center rounded-r-lg">Signed</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-700">
+                        <tr class="hover:bg-gray-700/40">
+                            <td class="px-4 py-3 font-medium text-white">Gen 0</td>
+                            <td class="px-4 py-3 text-center">2</td>
+                            <td class="px-4 py-3 text-center">2</td>
+                            <td class="px-4 py-3 text-center">2</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700/40">
+                            <td class="px-4 py-3 font-medium text-white">Gen 1</td>
+                            <td class="px-4 py-3 text-center">0</td>
+                            <td class="px-4 py-3 text-center">1</td>
+                            <td class="px-4 py-3 text-center">1</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700/40">
+                            <td class="px-4 py-3 font-medium text-white">Gamers</td>
+                            <td class="px-4 py-3 text-center">1</td>
+                            <td class="px-4 py-3 text-center">1</td>
+                            <td class="px-4 py-3 text-center">1</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700/40">
+                            <td class="px-4 py-3 font-medium text-white">Gen 2 (Exodia)</td>
+                            <td class="px-4 py-3 text-center">2</td>
+                            <td class="px-4 py-3 text-center">2</td>
+                            <td class="px-4 py-3 text-center">1</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700/40">
+                            <td class="px-4 py-3 font-medium text-white">Gen 3 (Fantasy)</td>
+                            <td class="px-4 py-3 text-center">1</td>
+                            <td class="px-4 py-3 text-center">1</td>
+                            <td class="px-4 py-3 text-center">1</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700/40">
+                            <td class="px-4 py-3 font-medium text-white">Gen 4 (Force)</td>
+                            <td class="px-4 py-3 text-center">0</td>
+                            <td class="px-4 py-3 text-center">4</td>
+                            <td class="px-4 py-3 text-center">2</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700/40">
+                            <td class="px-4 py-3 font-medium text-white">Gen 5 (NePoLaBo)</td>
+                            <td class="px-4 py-3 text-center">0</td>
+                            <td class="px-4 py-3 text-center">2</td>
+                            <td class="px-4 py-3 text-center">2</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700/40">
+                            <td class="px-4 py-3 font-medium text-white">Gen 6 (HoloX)</td>
+                            <td class="px-4 py-3 text-center">1</td>
+                            <td class="px-4 py-3 text-center">4</td>
+                            <td class="px-4 py-3 text-center">3</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700/40">
+                            <td class="px-4 py-3 font-medium text-white">ID Gen 1-3</td>
+                            <td class="px-4 py-3 text-center">0</td>
+                            <td class="px-4 py-3 text-center">5</td>
+                            <td class="px-4 py-3 text-center">0</td>
+                        </tr>
+                         <tr class="hover:bg-gray-700/40">
+                            <td class="px-4 py-3 font-medium text-white">EN Gen 1-4</td>
+                            <td class="px-4 py-3 text-center">0</td>
+                            <td class="px-4 py-3 text-center">3</td>
+                            <td class="px-4 py-3 text-center">1</td>
+                        </tr>
+                        <tr class="hover:bg-gray-700/40">
+                            <td class="px-4 py-3 font-medium text-white">ReGloss</td>
+                            <td class="px-4 py-3 text-center">1</td>
+                            <td class="px-4 py-3 text-center">2</td>
+                            <td class="px-4 py-3 text-center">0</td>
+                        </tr>
+                         <tr class="hover:bg-gray-700/40">
+                            <td class="px-4 py-3 font-medium text-white">FlowGlow</td>
+                            <td class="px-4 py-3 text-center">0</td>
+                            <td class="px-4 py-3 text-center">0</td>
+                            <td class="px-4 py-3 text-center">0</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="font-semibold text-white border-t-2 border-teal-400">
+                            <td class="px-4 py-3 text-base">Total</td>
+                            <td class="px-4 py-3 text-center">8</td>
+                            <td class="px-4 py-3 text-center">27</td>
+                            <td class="px-4 py-3 text-center">15</td>
+                        </tr>
+                    </tfoot>
+                </table>
             </div>
-            <div id="modalText">
-                <h3 id="modalCardName"></h3>
-                <p id="modalCardNumberContainer"><strong>Card Number:</strong> <span id="modalCardNumber"></span></p>
-                <p id="modalCardTagsContainer"><strong>Tags:</strong> <span id="modalCardTags"></span></p>
-                <p id="modalRarityContainer"><strong>Rarity:</strong> <span id="modalRarity"></span></p>
-                <p id="modalBloomLevelContainer"><strong>Bloom Level:</strong> <span id="modalBloomLevel"></span></p>
-                <p id="modalHPContainer"><strong>HP:</strong> <span id="modalHP"></span></p>
-                <p id="modalColorContainer"><strong>Color:</strong> <span id="modalColor"></span></p>
-                <p id="modalLivesContainer"><strong>Lives:</strong> <span id="modalLives"></span></p>
-                <p id="modalBuzzContainer"><strong>Buzz:</strong> <span id="modalBuzz"></span></p>
-                <p id="modalTypeContainer"><strong>Type:</strong> <span id="modalType"></span></p>
-                <p id="modalAbilityContainer"><strong>Ability:</strong> <span id="modalAbility"></span></p>
-                <p id="modalCollabEffectContainer"><strong>Collab Effect:</strong> <span id="modalCollabEffect"></span></p>
-                <p id="modalBloomEffectContainer"><strong>Bloom Effect:</strong> <span id="modalBloomEffect"></span></p>
-                <p id="modalGiftEffectContainer"><strong>Gift:</strong> <span id="modalGiftEffect"></span></p>
-                <div id="modalOshiSkill" class="hidden">
-                    <p><strong>Oshi Skill Name:</strong> <span id="modalOshiSkillName"></span></p>
-                    <p><strong>Power Cost:</strong> <span id="modalOshiSkillPower"></span></p>
-                    <p><strong>Description:</strong> <span id="modalOshiSkillDescription"></span></p>
-                </div>
-                <div id="modalSpOshiSkill" class="hidden">
-                    <p><strong>SP Oshi Skill Name:</strong> <span id="modalSpOshiSkillName"></span></p>
-                    <p><strong>Power Cost:</strong> <span id="modalSpOshiSkillPower"></span></p>
-                    <p><strong>Description:</strong> <span id="modalSpOshiSkillDescription"></span></p>
-                </div>
-                <div id="modalSkills" class="skills hidden">
-                    <h3>Skills</h3>
-                </div>
-                <p id="modalExtraEffectContainer"><strong>Extra Effect:</strong> <span id="modalExtraEffect"></span></p>
-                <p id="modalSourcesContainer"><strong>Sources:</strong> <span id="modalSources"></span></p>
+        </section>
+
+        <!-- Main grid for generation cards -->
+        <main class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+
+            <!-- Generation 0 -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-teal-400 mb-4">Gen 0</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Sora:</strong> <span class="color-white">White</span><span class="badge badge-starter">Starter</span></li>
+                    <li><strong>Azki:</strong> <span class="color-green">Green</span><span class="badge badge-starter">Starter</span></li>
+                    <li><strong>Roboco:</strong> <span class="color-purple">Purple</span></li>
+                    <li><strong>Miko:</strong> <span class="color-red">Red</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Sign</span></li>
+                    <li><strong>Suisei:</strong> <span class="color-blue">Blue</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Sign</span></li>
+                </ul>
             </div>
-        </div>
+
+            <!-- Generation 1 -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-teal-400 mb-4">Gen 1</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>FBK:</strong> <span class="color-white">White</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Sign</span></li>
+                    <li><strong>Aki:</strong> <span class="color-green">Green</span></li>
+                    <li><strong>Haato:</strong> <span class="color-red">Red</span></li>
+                    <li><strong>Matsuri:</strong> <span class="color-yellow">Yellow</span></li>
+                </ul>
+            </div>
+
+            <!-- Gamers -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-teal-400 mb-4">Gamers</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>FBK:</strong> <span class="color-white">White</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Sign</span></li>
+                    <li><strong>Mio:</strong> <span class="color-green">Green</span></li>
+                    <li><strong>Korone:</strong> <span class="color-yellow">Yellow</span></li>
+                    <li><strong>Okayu:</strong> <span class="color-blue">Blue</span><span class="badge badge-starter">Starter</span></li>
+                </ul>
+            </div>
+
+            <!-- Generation 2 (Exodia) -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-teal-400 mb-4">Gen 2 (Exodia)</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Ayame:</strong> <span class="color-red">Red</span><span class="badge badge-starter">Starter</span></li>
+                    <li><strong>Choco:</strong> <span class="color-purple">Purple</span><span class="badge badge-starter">Starter</span></li>
+                    <li><strong>Subaru:</strong> <span class="color-yellow">Yellow</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Signed</span></li>
+                    <li><strong>Shion:</strong> <span class="color-purple">Purple</span><span class="badge badge-booster">Booster</span><span class="badge badge-grad">Grad</span></li>
+                    <li><strong>Aqua:</strong> <span class="badge badge-grad">Grad</span></li>
+                </ul>
+            </div>
+
+            <!-- Generation 3 (Fantasy) -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-teal-400 mb-4">Gen 3 (Fantasy)</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Flare:</strong> <span class="color-yellow">Yellow</span><span class="badge badge-starter">Starter</span></li>
+                    <li><strong>Peko:</strong> <span class="color-green">Green</span></li>
+                    <li><strong>Noel:</strong> <span class="color-white">White</span></li>
+                    <li><strong>Marine:</strong> <span class="color-red">Red</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Signed</span></li>
+                </ul>
+            </div>
+
+            <!-- Generation 4 (Force) -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-teal-400 mb-4">Gen 4 (Force)</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Kanata:</strong> <span class="color-white">White</span><span class="badge badge-booster">Booster</span></li>
+                    <li><strong>Luna:</strong> <span class="color-white">White</span><span class="badge badge-booster">Booster</span></li>
+                    <li><strong>Towa:</strong> <span class="color-purple">Purple</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Sign</span></li>
+                    <li><strong>Watame:</strong> <span class="color-yellow">Yellow</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Sign</span></li>
+                </ul>
+            </div>
+
+            <!-- Generation 5 (NePoLaBo) -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-teal-400 mb-4">Gen 5 (NePoLaBo)</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Polka:</strong> <span class="color-red">Red</span></li>
+                    <li><strong>Botan:</strong> <span class="color-green">Green</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Sign</span></li>
+                    <li><strong>Lamy:</strong> <span class="color-blue">Blue</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Sign</span></li>
+                    <li><strong>Nene:</strong> <span class="color-yellow">Yellow</span></li>
+                </ul>
+            </div>
+
+            <!-- Generation 6 (HoloX) -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-teal-400 mb-4">Gen 6 (HoloX)</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Iroha:</strong> <span class="color-green">Green</span><span class="badge badge-starter">Starter</span></li>
+                    <li><strong>Lui:</strong> <span class="color-red">Red</span><span class="badge badge-booster">Booster</span></li>
+                    <li><strong>Laplus:</strong> <span class="color-purple">Purple</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Signed</span></li>
+                    <li><strong>Koyori:</strong> <span class="color-white">White</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Signed</span></li>
+                    <li><strong>Chloe:</strong> <span class="color-blue">Blue</span><span class="badge badge-booster">Booster</span><span class="badge badge-sign">Signed</span><span class="badge badge-grad">Grad</span></li>
+                </ul>
+            </div>
+            
+             <!-- ID Gen 1 (AREA 15) -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-cyan-400 mb-4">ID Gen 1 (AREA 15)</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Risu:</strong> <span class="color-yellow">Yellow</span><span class="badge badge-booster">Booster</span></li>
+                    <li><strong>Iofi:</strong> <span class="color-green">Green</span></li>
+                    <li><strong>Moona:</strong> <span class="color-blue">Blue</span></li>
+                </ul>
+            </div>
+            
+            <!-- ID Gen 2 (holoro) -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-cyan-400 mb-4">ID Gen 2 (holoro)</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Reine:</strong> <span class="color-green">Green</span><span class="badge badge-booster">Booster</span></li>
+                    <li><strong>Ollie:</strong> <span class="color-red">Red</span><span class="badge badge-booster">Booster</span></li>
+                    <li><strong>Anya:</strong> <span class="color-yellow">Yellow</span><span class="badge badge-booster">Booster</span></li>
+                </ul>
+            </div>
+            
+            <!-- ID Gen 3 (holoh3ro) -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-cyan-400 mb-4">ID Gen 3 (holoh3ro)</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Zeta:</strong> <span class="color-white">White</span></li>
+                    <li><strong>Kobo:</strong> <span class="color-blue">Blue</span><span class="badge badge-booster">Booster</span></li>
+                    <li><strong>Kaela:</strong> <span class="color-red">Red</span></li>
+                </ul>
+            </div>
+            
+            <!-- EN Gen 1 (Myth) -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-violet-400 mb-4">EN Gen 1 (Myth)</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Mori:</strong> <span class="color-purple">Purple</span><span class="badge badge-booster">Booster</span></li>
+                    <li><strong>Kiara:</strong> <span class="color-red">Red</span><span class="badge badge-sign">Signed</span></li>
+                    <li><strong>Ina:</strong> <span class="color-purple">Purple</span></li>
+                    <li><strong>Gura:</strong> <span class="badge badge-grad">Grad</span></li>
+                    <li><strong>Ame:</strong> <span class="badge badge-grad">Grad</span></li>
+                </ul>
+            </div>
+            
+            <!-- EN Gen 2 (Promise) -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-violet-400 mb-4">EN Gen 2 (Promise)</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Irys:</strong> <span class="color-white">White</span></li>
+                    <li><strong>Kronii:</strong> <span class="color-blue">Blue</span></li>
+                    <li><strong>Baelz:</strong> <span class="color-red">Red</span></li>
+                    <li><strong>Fauna:</strong> <span class="badge badge-grad">Grad</span></li>
+                    <li><strong>Mumei:</strong> <span class="color-white">White</span><span class="badge badge-booster">Booster</span><span class="badge badge-grad">Grad</span></li>
+                </ul>
+            </div>
+            
+            <!-- EN Gen 3 (Advent) -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-violet-400 mb-4">EN Gen 3 (Advent)</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Shiori:</strong> <span class="color-blue">Blue</span></li>
+                    <li><strong>Bijou:</strong> <span class="color-purple">Purple</span></li>
+                    <li><strong>Nerissa:</strong> <span class="color-purple">Purple</span></li>
+                    <li><strong>Fuwawa:</strong> <span class="color-blue">Blue</span><span class="badge badge-booster">Booster</span></li>
+                    <li><strong>Mococo:</strong> <span class="color-red">Red</span></li>
+                </ul>
+            </div>
+            
+            <!-- EN Gen 4 (Justice) -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-violet-400 mb-4">EN Gen 4 (Justice)</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Elizabeth:</strong> <span class="color-red">Red</span><span class="badge badge-note">(Spotsonly)</span></li>
+                    <li><strong>Gigi:</strong> <span class="color-yellow">Yellow</span><span class="badge badge-note">(No card)</span></li>
+                    <li><strong>Ceci:</strong> <span class="color-green">Green</span><span class="badge badge-note">(No card)</span></li>
+                    <li><strong>Roara:</strong> <span class="color-white">White</span></li>
+                </ul>
+            </div>
+
+            <!-- ReGloss -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-rose-400 mb-4">ReGloss</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Ao:</strong> <span class="color-blue">Blue</span></li>
+                    <li><strong>Kanade:</strong> <span class="color-yellow">Yellow</span></li>
+                    <li><strong>Ririka:</strong> <span class="color-red">Red</span><span class="badge badge-booster">Booster</span></li>
+                    <li><strong>Raden:</strong> <span class="color-green">Green</span><span class="badge badge-booster">Booster</span></li>
+                    <li><strong>Hajime:</strong> <span class="color-white">White</span><span class="badge badge-starter">Starter</span></li>
+                </ul>
+            </div>
+            
+            <!-- FlowGlow -->
+            <div class="bg-gray-800/60 backdrop-blur-sm border border-gray-700 rounded-xl shadow-lg p-6 card-glow">
+                <h2 class="text-2xl font-bold text-rose-400 mb-4">FlowGlow</h2>
+                <ul class="space-y-3 text-gray-300">
+                    <li><strong>Riona:</strong> <span class="color-white">White</span></li>
+                    <li><strong>Niko:</strong> <span class="text-gray-500">TBD</span></li>
+                    <li><strong>Su:</strong> <span class="text-gray-500">TBD</span></li>
+                    <li><strong>Chihaya:</strong> <span class="text-gray-500">TBD</span></li>
+                    <li><strong>Vivi:</strong> <span class="text-gray-500">TBD</span></li>
+                </ul>
+            </div>
+            
+        </main>
+
+        <footer class="text-center text-gray-500 mt-12 pb-4">
+            <p>Last updated based on provided information.</p>
+        </footer>
     </div>
 
-   <script src="scripts.js"></script>
 </body>
 </html>
