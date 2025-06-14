@@ -12,6 +12,17 @@
             margin: auto;
             padding: 20px;
         }
+        .qa-search-container {
+            margin-bottom: 25px;
+        }
+        #qaSearch {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
         .qa-item {
             margin-bottom: 20px;
             border: 1px solid #eee;
@@ -44,7 +55,7 @@
             display: block;
             margin-bottom: 5px;
         }
-        #loading-indicator {
+        #loading-indicator, #no-results {
             text-align: center;
             padding: 20px;
             font-size: 18px;
@@ -62,15 +73,25 @@
 
     <div class="container qa-container">
         <h2>Frequently Asked Questions</h2>
+
+        <!-- Search input field -->
+        <div class="qa-search-container">
+            <input type="text" id="qaSearch" placeholder="Search by keyword or card name/ID (e.g., 'damage', 'Suisei', 'hBP04-001')">
+        </div>
         
         <!-- This container will be populated with data from qa.json -->
         <div id="qa-content"></div>
+
+        <!-- Message for when no results are found -->
+        <div id="no-results">
+            <p>No matching Q&A found.</p>
+        </div>
 
         <!-- Loading indicator will show while fetching data -->
         <div id="loading-indicator">Loading Q&A...</div>
     </div>
 
-    <!-- The new script that will load and display the Q&A -->
+    <!-- The script that will load and display the Q&A -->
     <script src="qa-scripts.js"></script>
 </body>
 </html>
