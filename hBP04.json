@@ -131,7 +131,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tags": "#JP #SecretSocietyholoX #AnimalEars",
+        "tag": "#JP #SecretSocietyholoX #AnimalEars",
         "cardNumber": "hBP04-008",
         "rarity": "C",
         "color": "White",
@@ -148,7 +148,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tags": "#JP #SecretSocietyholoX #AnimalEars",
+        "tag": "#JP #SecretSocietyholoX #AnimalEars",
         "cardNumber": "hBP04-009",
         "rarity": "U",
         "color": "White",
@@ -166,7 +166,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tags": "#JP #SecretSocietyholoX #AnimalEars",
+        "tag": "#JP #SecretSocietyholoX #AnimalEars",
         "cardNumber": "hBP04-010",
         "rarity": "C",
         "color": "White",
@@ -188,7 +188,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tags": "#JP #SecretSocietyholoX #AnimalEars",
+        "tag": "#JP #SecretSocietyholoX #AnimalEars",
         "cardNumber": "hBP04-011",
         "rarity": "U",
         "color": "White",
@@ -206,7 +206,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tags": "#JP #SecretSocietyholoX #AnimalEars",
+        "tag": "#JP #SecretSocietyholoX #AnimalEars",
         "cardNumber": "hBP04-012",
         "rarity": "R",
         "color": "White",
@@ -225,7 +225,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tags": "#JP #SecretSocietyholoX #AnimalEars",
+        "tag": "#JP #SecretSocietyholoX #AnimalEars",
         "cardNumber": "hBP04-013",
         "rarity": "RR",
         "color": "White",
@@ -245,7 +245,7 @@
     },
     {
         "name": "Shirakami Fubuki",
-        "tags": "#JP #Gen1 #Gamers #AnimalEars #Art",
+        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
         "cardNumber": "hBP04-014",
         "rarity": "R",
         "color": "White",
@@ -264,7 +264,7 @@
     },
     {
         "name": "IRyS",
-        "tags": "#EN #Promise #Song",
+        "tag": "#EN #Promise #Song",
         "cardNumber": "hBP04-015",
         "rarity": "R",
         "color": "White",
@@ -284,7 +284,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tags": "#EN #Justice #AnimalEars #Art",
+        "tag": "#EN #Justice #AnimalEars #Art",
         "cardNumber": "hBP04-016",
         "rarity": "C",
         "color": "White",
@@ -302,7 +302,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tags": "#EN #Justice #AnimalEars #Art",
+        "tag": "#EN #Justice #AnimalEars #Art",
         "cardNumber": "hBP04-017",
         "rarity": "C",
         "color": "White",
@@ -319,7 +319,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tags": "#EN #Justice #AnimalEars #Art",
+        "tag": "#EN #Justice #AnimalEars #Art",
         "cardNumber": "hBP04-018",
         "rarity": "U",
         "color": "White",
@@ -337,7 +337,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tags": "#EN #Justice #AnimalEars #Art",
+        "tag": "#EN #Justice #AnimalEars #Art",
         "cardNumber": "hBP04-019",
         "rarity": "R",
         "color": "White",
@@ -356,7 +356,7 @@
     },
     {
         "name": "Juufuutei Raden",
-        "tags": "#DEV_IS #ReGLOSS #Alcohol",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
         "cardNumber": "hBP04-020",
         "rarity": "C",
         "color": "Green",
@@ -378,7 +378,7 @@
     },
     {
         "name": "Juufuutei Raden",
-        "tags": "#DEV_IS #ReGLOSS #Alcohol",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
         "cardNumber": "hBP04-021",
         "rarity": "U",
         "color": "Green",
@@ -396,7 +396,7 @@
     },
     {
         "name": "Juufuutei Raden",
-        "tags": "#DEV_IS #ReGLOSS #Alcohol",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
         "cardNumber": "hBP04-022",
         "rarity": "C",
         "color": "Green",
@@ -418,7 +418,7 @@
     },
     {
         "name": "Juufuutei Raden",
-        "tags": "#DEV_IS #ReGLOSS #Alcohol",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
         "cardNumber": "hBP04-023",
         "rarity": "U",
         "color": "Green",
@@ -436,7 +436,7 @@
     },
     {
         "name": "Juufuutei Raden",
-        "tags": "#DEV_IS #ReGLOSS #Alcohol",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
         "cardNumber": "hBP04-024",
         "rarity": "R",
         "color": "Green",
@@ -455,7 +455,7 @@
     },
     {
         "name": "Juufuutei Raden",
-        "tags": "#DEV_IS #ReGLOSS #Alcohol",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
         "cardNumber": "hBP04-025",
         "rarity": "RR",
         "color": "Green",
@@ -475,7 +475,7 @@
     },
     {
         "name": "Ookami Mio",
-        "tags": "#JP #Gamers #AnimalEars #Cooking",
+        "tag": "#JP #Gamers #AnimalEars #Cooking",
         "cardNumber": "hBP04-026",
         "rarity": "R",
         "color": "Green",
@@ -494,7 +494,7 @@
     },
     {
         "name": "Pavolia Reine",
-        "tags": "#ID #IDGen2 #Bird #Art",
+        "tag": "#ID #IDGen2 #Bird #Art",
         "cardNumber": "hBP04-027",
         "rarity": "R",
         "color": "Green",
@@ -512,7 +512,7 @@
     },
     {
         "name": "Cecilia Immergreen",
-        "tags": "#EN #Justice #Languages",
+        "tag": "#EN #Justice #Languages",
         "cardNumber": "hBP04-028",
         "rarity": "C",
         "color": "Green",
@@ -529,7 +529,7 @@
     },
     {
         "name": "Cecilia Immergreen",
-        "tags": "#EN #Justice #Languages",
+        "tag": "#EN #Justice #Languages",
         "cardNumber": "hBP04-029",
         "rarity": "C",
         "color": "Green",
@@ -546,7 +546,7 @@
     },
     {
         "name": "Cecilia Immergreen",
-        "tags": "#EN #Justice #Languages",
+        "tag": "#EN #Justice #Languages",
         "cardNumber": "hBP04-030",
         "rarity": "U",
         "color": "Green",
@@ -564,7 +564,7 @@
     },
     {
         "name": "Cecilia Immergreen",
-        "tags": "#EN #Justice #Languages",
+        "tag": "#EN #Justice #Languages",
         "cardNumber": "hBP04-031",
         "rarity": "R",
         "color": "Green",
@@ -583,7 +583,7 @@
     },
     {
         "name": "Ichijou Ririka",
-        "tags": "#DEV_IS #ReGLOSS #Cooking #Languages",
+        "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
         "cardNumber": "hBP04-032",
         "rarity": "C",
         "color": "Red",
@@ -600,7 +600,7 @@
     },
     {
         "name": "Ichijou Ririka",
-        "tags": "#DEV_IS #ReGLOSS #Cooking #Languages",
+        "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
         "cardNumber": "hBP04-033",
         "rarity": "U",
         "color": "Red",
@@ -623,7 +623,7 @@
     },
     {
         "name": "Ichijou Ririka",
-        "tags": "#DEV_IS #ReGLOSS #Cooking #Languages",
+        "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
         "cardNumber": "hBP04-034",
         "rarity": "C",
         "color": "Red",
@@ -645,7 +645,7 @@
     },
     {
         "name": "Ichijou Ririka",
-        "tags": "#DEV_IS #ReGLOSS #Cooking #Languages",
+        "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
         "cardNumber": "hBP04-035",
         "rarity": "U",
         "color": "Red",
@@ -664,7 +664,7 @@
     },
     {
         "name": "Ichijou Ririka",
-        "tags": "#DEV_IS #ReGLOSS #Cooking #Languages",
+        "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
         "cardNumber": "hBP04-036",
         "rarity": "R",
         "color": "Red",
@@ -683,7 +683,7 @@
     },
     {
         "name": "Ichijou Ririka",
-        "tags": "#DEV_IS #ReGLOSS #Cooking #Languages",
+        "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
         "cardNumber": "hBP04-037",
         "rarity": "RR",
         "color": "Red",
@@ -703,7 +703,7 @@
     },
     {
         "name": "Houshou Marine",
-        "tags": "#JP #Gen3 #Art #Sea",
+        "tag": "#JP #Gen3 #Art #Sea",
         "cardNumber": "hBP04-038",
         "rarity": "R",
         "color": "Red",
@@ -722,7 +722,7 @@
     },
     {
         "name": "Kaela Kovalskia",
-        "tags": "#ID #IDGen3",
+        "tag": "#ID #IDGen3",
         "cardNumber": "hBP04-039",
         "rarity": "C",
         "color": "Red",
@@ -739,7 +739,7 @@
     },
     {
         "name": "Kaela Kovalskia",
-        "tags": "#ID #IDGen3",
+        "tag": "#ID #IDGen3",
         "cardNumber": "hBP04-040",
         "rarity": "C",
         "color": "Red",
@@ -761,7 +761,7 @@
     },
     {
         "name": "Kaela Kovalskia",
-        "tags": "#ID #IDGen3",
+        "tag": "#ID #IDGen3",
         "cardNumber": "hBP04-041",
         "rarity": "U",
         "color": "Red",
@@ -779,7 +779,7 @@
     },
     {
         "name": "Kaela Kovalskia",
-        "tags": "#ID #IDGen3",
+        "tag": "#ID #IDGen3",
         "cardNumber": "hBP04-042",
         "rarity": "RR",
         "color": "Red",
@@ -806,7 +806,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tags": "#JP #Gen5 #HalfElf #Alcohol",
+        "tag": "#JP #Gen5 #HalfElf #Alcohol",
         "cardNumber": "hBP04-043",
         "rarity": "C",
         "color": "Blue",
@@ -824,7 +824,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tags": "#JP #Gen5 #HalfElf #Alcohol",
+        "tag": "#JP #Gen5 #HalfElf #Alcohol",
         "cardNumber": "hBP04-044",
         "rarity": "U",
         "color": "Blue",
@@ -842,7 +842,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tags": "#JP #Gen5 #HalfElf #Alcohol",
+        "tag": "#JP #Gen5 #HalfElf #Alcohol",
         "cardNumber": "hBP04-045",
         "rarity": "C",
         "color": "Blue",
@@ -864,7 +864,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tags": "#JP #Gen5 #HalfElf #Alcohol",
+        "tag": "#JP #Gen5 #HalfElf #Alcohol",
         "cardNumber": "hBP04-046",
         "rarity": "U",
         "color": "Blue",
@@ -882,7 +882,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tags": "#JP #Gen5 #HalfElf #Alcohol",
+        "tag": "#JP #Gen5 #HalfElf #Alcohol",
         "cardNumber": "hBP04-047",
         "rarity": "R",
         "color": "Blue",
@@ -900,7 +900,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tags": "#JP #Gen5 #HalfElf #Alcohol",
+        "tag": "#JP #Gen5 #HalfElf #Alcohol",
         "cardNumber": "hBP04-048",
         "rarity": "RR",
         "color": "Blue",
@@ -920,7 +920,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tags": "#ID #IDGen1 #Song",
+        "tag": "#ID #IDGen1 #Song",
         "cardNumber": "hBP04-049",
         "rarity": "R",
         "color": "Blue",
@@ -943,7 +943,7 @@
     },
     {
         "name": "Shiori Novella",
-        "tags": "#EN #Advent",
+        "tag": "#EN #Advent",
         "cardNumber": "hBP04-050",
         "rarity": "C",
         "color": "Blue",
@@ -960,7 +960,7 @@
     },
     {
         "name": "Shiori Novella",
-        "tags": "#EN #Advent",
+        "tag": "#EN #Advent",
         "cardNumber": "hBP04-051",
         "rarity": "C",
         "color": "Blue",
@@ -982,7 +982,7 @@
     },
     {
         "name": "Shiori Novella",
-        "tags": "#EN #Advent",
+        "tag": "#EN #Advent",
         "cardNumber": "hBP04-052",
         "rarity": "U",
         "color": "Blue",
@@ -1000,7 +1000,7 @@
     },
     {
         "name": "Shiori Novella",
-        "tags": "#EN #Advent",
+        "tag": "#EN #Advent",
         "cardNumber": "hBP04-053",
         "rarity": "RR",
         "color": "Blue",
@@ -1022,7 +1022,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tags": "#JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #SecretSocietyholoX #Shooter",
         "cardNumber": "hBP04-054",
         "rarity": "C",
         "color": "Purple",
@@ -1040,7 +1040,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tags": "#JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #SecretSocietyholoX #Shooter",
         "cardNumber": "hBP04-055",
         "rarity": "U",
         "color": "Purple",
@@ -1059,7 +1059,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tags": "#JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #SecretSocietyholoX #Shooter",
         "cardNumber": "hBP04-056",
         "rarity": "C",
         "color": "Purple",
@@ -1080,7 +1080,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tags": "#JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #SecretSocietyholoX #Shooter",
         "cardNumber": "hBP04-057",
         "rarity": "U",
         "color": "Purple",
@@ -1098,7 +1098,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tags": "#JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #SecretSocietyholoX #Shooter",
         "cardNumber": "hBP04-058",
         "rarity": "R",
         "color": "Purple",
@@ -1116,7 +1116,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tags": "#JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #SecretSocietyholoX #Shooter",
         "cardNumber": "hBP04-059",
         "rarity": "RR",
         "color": "Purple",
@@ -1136,7 +1136,7 @@
     },
     {
         "name": "Murasaki Shion",
-        "tags": "#JP #Gen2",
+        "tag": "#JP #Gen2",
         "cardNumber": "hBP04-060",
         "rarity": "R",
         "color": "Purple",
@@ -1157,7 +1157,7 @@
     },
     {
         "name": "Kureiji Ollie",
-        "tags": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Languages",
         "cardNumber": "hBP04-061",
         "rarity": "R",
         "color": "Purple",
@@ -1176,7 +1176,7 @@
     },
     {
         "name": "Mori Calliope",
-        "tags": "#EN #Myth #Song",
+        "tag": "#EN #Myth #Song",
         "cardNumber": "hBP04-062",
         "rarity": "R",
         "color": "Purple",
@@ -1197,7 +1197,7 @@
     },
     {
         "name": "Koseki Bijou",
-        "tags": "#EN #Advent #Baby",
+        "tag": "#EN #Advent #Baby",
         "cardNumber": "hBP04-063",
         "rarity": "C",
         "color": "Purple",
@@ -1215,7 +1215,7 @@
     },
     {
         "name": "Koseki Bijou",
-        "tags": "#EN #Advent #Baby",
+        "tag": "#EN #Advent #Baby",
         "cardNumber": "hBP04-064",
         "rarity": "C",
         "color": "Purple",
@@ -1232,7 +1232,7 @@
     },
     {
         "name": "Koseki Bijou",
-        "tags": "#EN #Advent #Baby",
+        "tag": "#EN #Advent #Baby",
         "cardNumber": "hBP04-065",
         "rarity": "U",
         "color": "Purple",
@@ -1251,7 +1251,7 @@
     },
     {
         "name": "Koseki Bijou",
-        "tags": "#EN #Advent #Baby",
+        "tag": "#EN #Advent #Baby",
         "cardNumber": "hBP04-066",
         "rarity": "RR",
         "color": "Purple",
@@ -1271,7 +1271,7 @@
     },
     {
         "name": "Oozora Subaru",
-        "tags": "#JP #Gen2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "cardNumber": "hBP04-067",
         "rarity": "C",
         "color": "Yellow",
@@ -1293,7 +1293,7 @@
     },
     {
         "name": "Oozora Subaru",
-        "tags": "#JP #Gen2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "cardNumber": "hBP04-068",
         "rarity": "U",
         "color": "Yellow",
@@ -1311,7 +1311,7 @@
     },
     {
         "name": "Oozora Subaru",
-        "tags": "#JP #Gen2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "cardNumber": "hBP04-069",
         "rarity": "C",
         "color": "Yellow",
@@ -1333,7 +1333,7 @@
     },
     {
         "name": "Oozora Subaru",
-        "tags": "#JP #Gen2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "cardNumber": "hBP04-070",
         "rarity": "U",
         "color": "Yellow",
@@ -1351,7 +1351,7 @@
     },
     {
         "name": "Oozora Subaru",
-        "tags": "#JP #Gen2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "cardNumber": "hBP04-071",
         "rarity": "R",
         "color": "Yellow",
@@ -1374,7 +1374,7 @@
     },
     {
         "name": "Oozora Subaru",
-        "tags": "#JP #Gen2 #Song #Bird",
+        "tag": "#JP #Gen2 #Song #Bird",
         "cardNumber": "hBP04-072",
         "rarity": "RR",
         "color": "Yellow",
@@ -1394,7 +1394,7 @@
     },
     {
         "name": "Anya Melfissa",
-        "tags": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Languages",
         "cardNumber": "hBP04-073",
         "rarity": "C",
         "color": "Yellow",
@@ -1411,7 +1411,7 @@
     },
     {
         "name": "Anya Melfissa",
-        "tags": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Languages",
         "cardNumber": "hBP04-074",
         "rarity": "U",
         "color": "Yellow",
@@ -1429,7 +1429,7 @@
     },
     {
         "name": "Anya Melfissa",
-        "tags": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Languages",
         "cardNumber": "hBP04-075",
         "rarity": "C",
         "color": "Yellow",
@@ -1451,7 +1451,7 @@
     },
     {
         "name": "Anya Melfissa",
-        "tags": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Languages",
         "cardNumber": "hBP04-076",
         "rarity": "U",
         "color": "Yellow",
@@ -1469,7 +1469,7 @@
     },
     {
         "name": "Anya Melfissa",
-        "tags": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Languages",
         "cardNumber": "hBP04-077",
         "rarity": "R",
         "color": "Yellow",
@@ -1487,7 +1487,7 @@
     },
     {
         "name": "Anya Melfissa",
-        "tags": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Languages",
         "cardNumber": "hBP04-078",
         "rarity": "RR",
         "color": "Yellow",
@@ -1506,7 +1506,7 @@
     },
     {
         "name": "Natsuiro Matsuri",
-        "tags": "#JP #Gen1 #Shooter",
+        "tag": "#JP #Gen1 #Shooter",
         "cardNumber": "hBP04-079",
         "rarity": "C",
         "color": "Yellow",
@@ -1524,7 +1524,7 @@
     },
     {
         "name": "Natsuiro Matsuri",
-        "tags": "#JP #Gen1 #Shooter",
+        "tag": "#JP #Gen1 #Shooter",
         "cardNumber": "hBP04-080",
         "rarity": "C",
         "color": "Yellow",
@@ -1546,7 +1546,7 @@
     },
     {
         "name": "Natsuiro Matsuri",
-        "tags": "#JP #Gen1 #Shooter",
+        "tag": "#JP #Gen1 #Shooter",
         "cardNumber": "hBP04-081",
         "rarity": "U",
         "color": "Yellow",
@@ -1564,7 +1564,7 @@
     },
     {
         "name": "Natsuiro Matsuri",
-        "tags": "#JP #Gen1 #Shooter",
+        "tag": "#JP #Gen1 #Shooter",
         "cardNumber": "hBP04-082",
         "rarity": "RR",
         "color": "Yellow",
@@ -1584,7 +1584,7 @@
     },
     {
         "name": "Momosuzu Nene",
-        "tags": "#JP #Gen5 #Song #Art",
+        "tag": "#JP #Gen5 #Song #Art",
         "cardNumber": "hBP04-083",
         "rarity": "C",
         "color": "Yellow",
@@ -1602,7 +1602,7 @@
     },
     {
         "name": "Momosuzu Nene",
-        "tags": "#JP #Gen5 #Song #Art",
+        "tag": "#JP #Gen5 #Song #Art",
         "cardNumber": "hBP04-084",
         "rarity": "C",
         "color": "Yellow",
@@ -1624,7 +1624,7 @@
     },
     {
         "name": "Momosuzu Nene",
-        "tags": "#JP #Gen5 #Song #Art",
+        "tag": "#JP #Gen5 #Song #Art",
         "cardNumber": "hBP04-085",
         "rarity": "U",
         "color": "Yellow",
@@ -1642,7 +1642,7 @@
     },
     {
         "name": "Momosuzu Nene",
-        "tags": "#JP #Gen5 #Song #Art",
+        "tag": "#JP #Gen5 #Song #Art",
         "cardNumber": "hBP04-086",
         "rarity": "RR",
         "color": "Yellow",
@@ -1666,7 +1666,7 @@
     },
     {
         "name": "Elizabeth Rose Bloodflame",
-        "tags": "#EN #Justice #Song",
+        "tag": "#EN #Justice #Song",
         "cardNumber": "hBP04-087",
         "rarity": "C",
         "bloomLevel": "Spot",
@@ -1684,7 +1684,7 @@
     },
     {
         "name": "Gigi Murin",
-        "tags": "#EN #Justice",
+        "tag": "#EN #Justice",
         "cardNumber": "hBP04-088",
         "rarity": "C",
         "bloomLevel": "Spot",
@@ -1720,7 +1720,7 @@
     },
     {
         "name": "Genkai-Meshi",
-        "tags": "#Food",
+        "tag": "#Food",
         "cardNumber": "hBP04-091",
         "rarity": "U",
         "type": "Support (Event)",
@@ -1747,7 +1747,7 @@
     },
     {
         "name": "Maitake Dance",
-        "tags": "#Mushroom",
+        "tag": "#Mushroom",
         "cardNumber": "hBP04-094",
         "rarity": "U",
         "type": "Support (Event)",
@@ -1774,7 +1774,7 @@
     },
     {
         "name": "Green Test Tube",
-        "tags": "#KoyoLabo",
+        "tag": "#KoyoLabo",
         "cardNumber": "hBP04-097",
         "rarity": "U",
         "type": "Support (Tool)",
@@ -1783,7 +1783,7 @@
     },
     {
         "name": "Blacksmith's Hammer",
-        "tags": "#Kaela's Arms",
+        "tag": "#Kaela's Arms",
         "cardNumber": "hBP04-098",
         "rarity": "U",
         "type": "Support (Tool)",
@@ -1800,7 +1800,7 @@
     },
     {
         "name": "Kokoro",
-        "tags": "#KoyoLabo",
+        "tag": "#KoyoLabo",
         "cardNumber": "hBP04-100",
         "rarity": "C",
         "type": "Support (Mascot)",
@@ -1841,7 +1841,7 @@
     },
     {
         "name": "Koyori's Assistant-kun",
-        "tags": "#KoyoLabo",
+        "tag": "#KoyoLabo",
         "cardNumber": "hBP04-105",
         "rarity": "U",
         "type": "Support (Fan)",
