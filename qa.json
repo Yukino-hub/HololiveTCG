@@ -1,0 +1,16 @@
+[
+    {
+        "id": "q372",
+        "date": "2025.06.11",
+        "question": "My Oshi is hBP04-001 Hakui Koyori. An opponent's hBP01-081 Suisei Hoshimachi attacks my Hakui Koyori (which has hBP04-105 Koyori's Assistant-kun attached) with the Art 'Shining Comet' for 180 damage. Can I use the SP Oshi Skill 'Assistant-kun, mwah!' to reduce the damage by 100?",
+        "answer": "Yes, you can.",
+        "relatedCards": ["hBP04-001 Hakui Koyori", "hBP01-081 Suisei Hoshimachi", "hBP04-105 Koyori's Assistant-kun"]
+    },
+    {
+        "id": "q371",
+        "date": "2025.06.11",
+        "question": "Can hBP04-001 Hakui Koyori's SP Oshi Skill 'Assistant-kun, mwah!' be used to reduce damage across multiple instances in a single turn (e.g., once for special damage and again for damage from an Art)?",
+        "answer": "No, it cannot. The damage reduction ability cannot be split or applied to multiple instances of damage.",
+        "relatedCards": ["hBP04-001 Hakui Koyori"]
+    }
+]
