@@ -14,6 +14,17 @@ document.addEventListener('DOMContentLoaded', function() {
     let allQAData = [];
 
     /**
+     * Escapes HTML special characters in a string to prevent them from being
+     * interpreted as HTML tags.
+     * @param {string} str The string to escape.
+     * @returns {string} The escaped string.
+     */
+    function escapeHTML(str) {
+        if (typeof str !== 'string') return '';
+        return str.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    /**
      * Fetches the Q&A data from the qa.json file.
      */
     function loadQAData() {
@@ -81,13 +92,19 @@ document.addEventListener('DOMContentLoaded', function() {
             const qaItemElement = document.createElement('div');
             qaItemElement.classList.add('qa-item');
 
+            // Escape the text content to ensure angle brackets are displayed correctly
+            const questionText = escapeHTML(item.question);
+            const answerText = escapeHTML(item.answer);
+            const relatedCardsText = item.relatedCards ? item.relatedCards.map(card => escapeHTML(card)) : [];
+
+
             // --- Build Related Cards HTML ---
             let relatedCardsHTML = '';
-            if (item.relatedCards && item.relatedCards.length > 0) {
+            if (relatedCardsText && relatedCardsText.length > 0) {
                 relatedCardsHTML = `
                     <div class="related-cards">
                         <strong>Related Cards:</strong>
-                        <span>${item.relatedCards.join(', ')}</span>
+                        <span>${relatedCardsText.join(', ')}</span>
                     </div>
                 `;
             }
@@ -104,9 +121,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // --- Construct the final HTML for the Q&A item ---
             qaItemElement.innerHTML = `
                 ${dateHTML}
-                <p class="qa-question">Q: ${item.question}</p>
+                <p class="qa-question">Q: ${questionText}</p>
                 <div class="qa-answer">
-                    <p>A: ${item.answer}</p>
+                    <p>A: ${answerText}</p>
                     ${relatedCardsHTML}
                 </div>
             `;
