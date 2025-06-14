@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hololive TCG - Q&A</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Styles specific to the Q&A page */
+        .qa-container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .qa-item {
+            margin-bottom: 20px;
+            border: 1px solid #eee;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .qa-question {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .qa-answer {
+            padding-left: 20px;
+            border-left: 3px solid #007bff;
+            color: #555;
+        }
+        .qa-date {
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .related-cards {
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+        .related-cards strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+        #loading-indicator {
+            text-align: center;
+            padding: 20px;
+            font-size: 18px;
+            color: #555;
+            display: none; /* Hidden by default */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hololive TCG - Q&A</h1>
+        <p><a href="index.html">Card List</a> | <a href="hololive-card-history.html">HoloCard Tracker</a> | <a href="qa.html">Q&A</a></p>
+        <p> <strong> © COVER Corp. This is a fan website for the Hololive Trading Card Game and not affiliated with Cover or Hololive Production. Please support the official card game. </strong></p>
+    </header>
+
+    <div class="container qa-container">
+        <h2>Frequently Asked Questions</h2>
+        
+        <!-- This container will be populated with data from qa.json -->
+        <div id="qa-content"></div>
+
+        <!-- Loading indicator will show while fetching data -->
+        <div id="loading-indicator">Loading Q&A...</div>
+    </div>
+
+    <!-- The new script that will load and display the Q&A -->
+    <script src="qa-scripts.js"></script>
+</body>
+</html>
