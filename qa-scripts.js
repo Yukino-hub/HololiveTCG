@@ -1,36 +1,37 @@
 /**
  * qa-scripts.js
  * * This script fetches Q&A data from a JSON file and dynamically populates
- * the Q&A page. This makes it easy to update questions and answers
- * without editing the HTML file directly.
+ * the Q&A page. It also includes a search function to filter the results
+ * based on user input.
  */
 document.addEventListener('DOMContentLoaded', function() {
     const qaContainer = document.getElementById('qa-content');
     const loadingIndicator = document.getElementById('loading-indicator');
+    const searchInput = document.getElementById('qaSearch');
+    const noResultsMessage = document.getElementById('no-results');
+
+    // This will store the complete list of Q&A items once fetched.
+    let allQAData = [];
 
     /**
      * Fetches the Q&A data from the qa.json file.
      */
     function loadQAData() {
-        // Show the loading indicator while we fetch data
         loadingIndicator.style.display = 'block';
 
         fetch('qa.json')
             .then(response => {
-                // Check if the request was successful
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
-                // Parse the JSON data from the response
                 return response.json();
             })
             .then(data => {
-                // Once data is loaded, display it and hide the loading indicator
-                displayQA(data);
+                allQAData = data;
+                displayQA(allQAData); // Display all Q&A initially
                 loadingIndicator.style.display = 'none';
             })
             .catch(error => {
-                // If there's an error, log it and show an error message on the page
                 console.error('Failed to load Q&A data:', error);
                 qaContainer.innerHTML = '<p style="color: red; text-align: center;">Failed to load Q&A. Please try again later.</p>';
                 loadingIndicator.style.display = 'none';
@@ -38,14 +39,44 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     /**
+     * Filters the Q&A data based on the search input.
+     */
+    function filterQA() {
+        const searchTerm = searchInput.value.toLowerCase().trim();
+
+        const filteredData = allQAData.filter(item => {
+            // Check if search term is in the question
+            if (item.question.toLowerCase().includes(searchTerm)) {
+                return true;
+            }
+            // Check if search term is in the answer
+            if (item.answer.toLowerCase().includes(searchTerm)) {
+                return true;
+            }
+            // Check if search term matches any of the related cards
+            if (item.relatedCards && item.relatedCards.some(card => card.toLowerCase().includes(searchTerm))) {
+                return true;
+            }
+            return false;
+        });
+
+        displayQA(filteredData);
+    }
+
+    /**
      * Renders the Q&A data into HTML elements and appends them to the page.
-     * @param {Array<Object>} qaData - An array of Q&A objects.
+     * @param {Array<Object>} qaData - An array of Q&A objects to display.
      */
     function displayQA(qaData) {
-        // Clear any previous content
         qaContainer.innerHTML = ''; 
 
-        // Loop through each Q&A item in the data
+        // Show or hide the "no results" message
+        if (qaData.length === 0) {
+            noResultsMessage.style.display = 'block';
+        } else {
+            noResultsMessage.style.display = 'none';
+        }
+
         qaData.forEach(item => {
             const qaItemElement = document.createElement('div');
             qaItemElement.classList.add('qa-item');
@@ -64,9 +95,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // --- Build Date/ID HTML ---
             let dateHTML = '';
             if (item.id && item.date) {
-                dateHTML = `<p class="qa-date">${item.id.toUpperCase()} (${item.date})</p>`;
-            } else if (item.id && !item.date) {
-                 // For general FAQs without a date
+                const idText = item.id.toUpperCase();
+                dateHTML = `<p class="qa-date">${idText} (${item.date})</p>`;
+            } else if (item.id) {
                  dateHTML = `<p class="qa-date">${item.id.toUpperCase()}</p>`;
             }
 
@@ -80,11 +111,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             `;
             
-            // Add the newly created element to the container
             qaContainer.appendChild(qaItemElement);
         });
     }
 
-    // Initial call to load the Q&A data when the page loads
+    // --- Event Listeners ---
+    // Filter the Q&A list whenever the user types in the search box.
+    searchInput.addEventListener('input', filterQA);
+
+    // Initial call to load the Q&A data when the page loads.
     loadQAData();
 });
