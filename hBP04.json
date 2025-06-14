@@ -15,7 +15,7 @@
             "power": 2,
             "description": "[Once Per Game] Usable if your holomem named Hakui Koyori with a Koyori's Assistant-kun attached is about to take damage during your opponent's turn: Reduce that damage by 100."
         },
-         "hasSigned": true
+        "hasSigned": true
     },
     {
         "name": "Juufuutei Raden",
@@ -66,7 +66,8 @@
             "name": "Vrooooom! Baribaribaribari",
             "power": 3,
             "description": "[Once Per Game] Choose one of your holomem named Yukihana Lamy. Until the end of this turn, whenever that holomem deals special damage to a single opposing holomem, that damage is increased by +100. When the chosen holomem downs one of your opponent's holomem during this turn, draw 2 cards."
-         "hasSigned": true
+        },
+        "hasSigned": true
     },
     {
         "name": "La+ Darknesss",
@@ -84,7 +85,7 @@
             "power": 3,
             "description": "[Once Per Game] The arts of one of your holomem with #SecretSocietyholoX can be used without fulfilling their cheer requirement until the end of this turn."
         },
-         "hasSigned": true
+        "hasSigned": true
     },
     {
         "name": "Oozora Subaru",
@@ -102,7 +103,7 @@
             "power": 2,
             "description": "[Once Per Game] Usable if you have 3 or less Life: If your center holomem is Oozora Subaru, that holomem's arts gain +100 power until the end of this turn."
         },
-         "hasSigned": true
+        "hasSigned": true
     },
     {
         "name": "Anya Melfissa",
