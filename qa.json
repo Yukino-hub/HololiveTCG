@@ -1,16 +1,393 @@
 [
     {
+        "id": "q411",
+        "date": "2025.06.11",
+        "question": "Does the ability of hBP04-104 <Subarudo Duck> also count Cheers in the archive?",
+        "answer": "No, it does not.",
+        "relatedCards": [
+            "hBP04-104 : Subarudo Duck"
+        ]
+    },
+    {
+        "id": "q410",
+        "date": "2025.06.11",
+        "question": "My <La+ Darknesss> with hBP04-103 <Crow> attached collabs, and I roll an odd number with <Crow>'s ability. In this case, must it move to the back position?",
+        "answer": "Yes, it must be moved.",
+        "relatedCards": [
+            "hBP04-103 : Crow"
+        ]
+    },
+    {
+        "id": "q409",
+        "date": "2025.06.11",
+        "question": "My <La+ Darknesss> with hBP04-103 <Crow> attached collabs and moves to the back position due to <Crow>'s ability. Can I collab again during this turn?",
+        "answer": "No, you cannot. You can only collab once per turn.",
+        "relatedCards": [
+            "hBP04-103 : Crow"
+        ]
+    },
+    {
+        "id": "q408",
+        "date": "2025.06.11",
+        "question": "With the ability of hBP04-048 <Yukihana Lamy>'s Art 'May There Be Blessings Today Too', can I choose a <Yukihana Lamy> in the back position that has hBP04-102 <Yamena> attached?",
+        "answer": "Yes, you can choose it. However, due to the ability of hBP04-102 <Yamena>, it will not take damage.",
+        "relatedCards": [
+            "hBP04-048 : Yukihana Lamy",
+            "hBP04-102 : Yamena"
+        ]
+    },
+    {
+        "id": "q407",
+        "date": "2025.06.11",
+        "question": "When I have an <Anya Melfissa> (hBP04-074) with <Ancient Weapon> (hBP04-099) on my stage, and I use the Art 'Cheer for me, okay!' from another <Anya Melfissa> (hBP04-076) that also has <Ancient Weapon> attached, how much is the damage of 'Cheer for me, okay!' increased by?",
+        "answer": "Since there are two <Ancient Weapon> cards on the stage, the damage is increased by +20.",
+        "relatedCards": [
+            "hBP04-074 : Anya Melfissa",
+            "hBP04-076 : Anya Melfissa"
+        ]
+    },
+    {
+        "id": "q406",
+        "date": "2025.06.11",
+        "question": "If the only holomem on my stage is <Juufuutei Raden> with 3 Cheers attached, can I use hBP04-094 <Maitake Dance> to increase its Arts power by +10?",
+        "answer": "Yes, you can.",
+        "relatedCards": [
+            "hBP04-094 : Maitake Dance"
+        ]
+    },
+    {
+        "id": "q405",
+        "date": "2025.06.11",
+        "question": "What does 'Colorless -1' on hBP04-091 <Genkai-Meshi> mean?",
+        "answer": "It reduces the number of colorless Cheers required to use an Art by one.",
+        "relatedCards": [
+            "hBP04-091 : Genkai-Meshi"
+        ]
+    },
+    {
+        "id": "q404",
+        "date": "2025.06.11",
+        "question": "When using hBP04-089 <Two-tone PC>, can I choose <Tokino Sora> and <Fuwawa Abyssgard> as holomem of a single, different color on my stage? And if so, can I add a 1st holomem of the same color, like <SorAZ> and <FUWAMOCO>, to my hand?",
+        "answer": "Yes, you can.",
+        "relatedCards": [
+            "hBP04-089 : Two-tone PC",
+            "hSD01-013 : SorAZ",
+            "hBP03-050 : FUWAMOCO"
+        ]
+    },
+    {
+        "id": "q403",
+        "date": "2025.06.11",
+        "question": "When using hBP04-089 <Two-tone PC>, can I choose a Spot holomem as one of the holomem with a single, different color?",
+        "answer": "No, you cannot. Spot holomem are treated as colorless, and colorless is not considered a color.",
+        "relatedCards": [
+            "hBP04-089 : Two-tone PC"
+        ]
+    },
+    {
+        "id": "q402",
+        "date": "2025.06.11",
+        "question": "What does 'holomem of a single, different color' on hBP04-089 <Two-tone PC> mean?",
+        "answer": "It refers to having two or more holomem that each have only one color. For example, hBP01-021 <Tokino Sora> has one color, but hSD01-013 <SorAZ> has two colors.",
+        "relatedCards": [
+            "hBP04-089 : Two-tone PC",
+            "hSD01-013 : SorAZ",
+            "hBP01-021 : Tokino Sora"
+        ]
+    },
+    {
+        "id": "q401",
+        "date": "2025.06.11",
+        "question": "If I have 3 holomem with the #Gen1 tag and different card names on my stage, and I use the Bloom Effect 'Let's Shopping!' of hBP04-082 <Natsuiro Matsuri>, rolling a 4 or higher 3 times. Do I have to send 3 Cheers to this holomem?",
+        "answer": "Yes, you must. If your Cheer deck has 2 or fewer cards, send all of them.",
+        "relatedCards": [
+            "hBP04-082 : Natsuiro Matsuri"
+        ]
+    },
+    {
+        "id": "q400",
+        "date": "2025.06.11",
+        "question": "When using the Bloom Effect 'Let's Shopping!' of hBP04-082 <Natsuiro Matsuri>, when are the Cheers sent to the holomem?",
+        "answer": "After you have finished rolling the dice for each of your holomem with the #Gen1 tag and a different card name.",
+        "relatedCards": [
+            "hBP04-082 : Natsuiro Matsuri"
+        ]
+    },
+    {
+        "id": "q398",
+        "date": "2025.06.11",
+        "question": "Does the Art 'Taiyou Shoujo' of hBP04-072 <Oozora Subaru> count cards like hBP01-126 <Zain> or hBP03-107 <35P>?",
+        "answer": "No, it does not count them.",
+        "relatedCards": [
+            "hBP04-072 : Oozora Subaru",
+            "hBP01-126 : Zain",
+            "hBP03-107 : 35P"
+        ]
+    },
+    {
+        "id": "q397",
+        "date": "2025.06.11",
+        "question": "When hBP04-062 <Mori Calliope> with both hBP02-088 <Mori Calliope's Scythe> and hBP02-098 <Death-sensei> attached uses an Art, is the Art damage increased by +60 due to the Gift 'Eternal Rest'?",
+        "answer": "No, the damage is only increased by +30.",
+        "relatedCards": [
+            "hBP04-062 : Mori Calliope",
+            "hBP02-088 : Mori Calliope's Scythe",
+            "hBP02-098 : Death-sensei"
+        ]
+    },
+    {
+        "id": "q396",
+        "date": "2025.06.11",
+        "question": "Does the Bloom Effect 'Ollie o mitekudasai!' of hBP04-061 <Kureiji Ollie> only recover the HP of a <Kureiji Ollie> that was Bloomed using the SP Oshi Skill 'Yomigaeru Ollie' from hBP02-006 <Kureiji Ollie>?",
+        "answer": "No, it can also recover the HP of other <Kureiji Ollie> holomem.",
+        "relatedCards": [
+            "hBP02-006 : Kureiji Ollie",
+            "hBP04-061 : Kureiji Ollie"
+        ]
+    },
+    {
+        "id": "q395",
+        "date": "2025.06.11",
+        "question": "For the Bloom Effect 'Yell Rebirth' of hBP04-060 <Murasaki Shion>, which player chooses the Cheer to be attached?",
+        "answer": "The owner of the hBP04-060 <Murasaki Shion> with the Bloom Effect chooses.",
+        "relatedCards": [
+            "hBP04-060 : Murasaki Shion"
+        ]
+    },
+    {
+        "id": "q394",
+        "date": "2025.06.11",
+        "question": "My hBP01-043 <Usada Pekora> in the center position with hBP01-123 <Nousagi Union> attached uses the Art 'Zinrui Usagika Keikaku' and rolls the dice 3 times. Then, I use the ability of hBP01-123 <Nousagi Union> to re-roll the 3 dice. If my hBP04-059 <La+ Darknesss> in the collab position then uses the Art 'Wagahai Saikyou Densetsu', how many times do I count as having 'rolled the dice' for its ability?",
+        "answer": "Since the ability of hBP01-123 <Nousagi Union> nullifies the previous dice results, the number of times counted is '3 times'.",
+        "relatedCards": [
+            "hBP01-123 : Nousagi Union",
+            "hBP01-043 : Usada Pekora",
+            "hBP04-059 : La+ Darknesss"
+        ]
+    },
+    {
+        "id": "q393",
+        "date": "2025.06.11",
+        "question": "My hBP01-043 <Usada Pekora> in the center position uses the Art 'Zinrui Usagika Keikaku' and rolls the dice 3 times. If my hBP04-059 <La+ Darknesss> in the collab position then uses the Art 'Wagahai Saikyou Densetsu', how many times do I count as having 'rolled the dice' for its ability?",
+        "answer": "The text reads 'the number of times you have rolled the dice with your abilities this turn', so in this case, it would be the '3 times' you rolled with hBP01-043 <Usada Pekora>'s Art.",
+        "relatedCards": [
+            "hBP01-043 : Usada Pekora",
+            "hBP04-059 : La+ Darknesss"
+        ]
+    },
+    {
+        "id": "q392",
+        "date": "2025.06.11",
+        "question": "During my Main Step, I use hBP02-084 <MikoKorone24> and hSD01-020 <Ring of Holoris> and roll the dice for each. If I then use the Art 'Wagahai Saikyou Densetsu' of hBP04-059 <La+ Darknesss>, how many times do I count as having 'rolled the dice' for its ability?",
+        "answer": "Since you are rolling with the abilities of support cards, it counts as '2 times'.",
+        "relatedCards": [
+            "hBP02-084 : MikoKorone24",
+            "hBP04-059 : La+ Darknesss"
+        ]
+    },
+    {
+        "id": "q391",
+        "date": "2025.06.11",
+        "question": "On the first turn of the game (as the first player), I collab with hBP04-055 <La+ Darknesss> and rest one of my opponent's back holomem. Does that holomem become active during my opponent's next Reset Step?",
+        "answer": "No, because the Reset Step is skipped for both players on their first turn, it does not become active.",
+        "relatedCards": [
+            "hBP04-055 : La+ Darknesss"
+        ]
+    },
+    {
+        "id": "q390",
+        "date": "2025.06.11",
+        "question": "Does the ability of hBP04-049 <Moona Hoshinova>'s Art 'Shining Moon' still get '+50' if my only other holomem is hBP03-050 <FUWAMOCO>?",
+        "answer": "Yes, it does.",
+        "relatedCards": [
+            "hBP04-049 : Moona Hoshinova",
+            "hBP03-050 : FUWAMOCO"
+        ]
+    },
+    {
+        "id": "q389",
+        "date": "2025.06.11",
+        "question": "Does the ability of hBP04-049 <Moona Hoshinova>'s Art 'Shining Moon' still get '+50' if my only other holomem is a Spot holomem?",
+        "answer": "No, it does not. Spot holomem are treated as colorless, and colorless is not considered a color.",
+        "relatedCards": [
+            "hBP04-049 : Moona Hoshinova"
+        ]
+    },
+    {
+        "id": "q388",
+        "date": "2025.06.11",
+        "question": "If I have a total of four hBP04-106 <Yukimin> cards between my archive and stage, can I still use the Collab Effect 'Snow flower' of hBP04-044 <Yukihana Lamy>?",
+        "answer": "Yes. You will look through your deck, find that there are no <Yukimin> cards that can be attached to the holomem, and the effect resolution will end.",
+        "relatedCards": [
+            "hBP04-044 : Yukihana Lamy",
+            "hBP04-106 : Yukimin"
+        ]
+    },
+    {
+        "id": "q387",
+        "date": "2025.06.11",
+        "question": "While I have used hBP04-091 <Genkai-Meshi> and my opponent has no center holomem, I use the Art 'O? Kenka suru?' of hBP04-037 <Ichijou Ririka> on the opponent's collab holomem. In this case, can I choose not to deal 50 damage to the center holomem and instead deal 30 damage to the collab holomem?",
+        "answer": "Yes, you can deal the damage.",
+        "relatedCards": [
+            "hBP04-091 : Genkai-Meshi",
+            "hBP04-037 : Ichijou Ririka"
+        ]
+    },
+    {
+        "id": "q386",
+        "date": "2025.06.11",
+        "question": "When the turn player uses the Bloom Effect 'KPG' of hBP04-037 <Ichijou Ririka>, which player chooses the back holomem to move to the collab position?",
+        "answer": "It is the player who did not use the Bloom Effect 'KPG' of hBP04-037 <Ichijou Ririka>.",
+        "relatedCards": [
+            "hBP04-037 : Ichijou Ririka"
+        ]
+    },
+    {
+        "id": "q385",
+        "date": "2025.06.11",
+        "question": "When a holomem is moved to the opponent's collab position by the Bloom Effect 'KPG' of hBP04-037 <Ichijou Ririka>, can the opponent gain Holo Power?",
+        "answer": "No, Holo Power can only be gained when you 'collab'.",
+        "relatedCards": [
+            "hBP04-037 : Ichijou Ririka"
+        ]
+    },
+    {
+        "id": "q384",
+        "date": "2025.06.11",
+        "question": "For the Bloom Effect 'Konna Senritsu Omoitsuita no' of hBP04-030 <Cecilia Immergreen>, can I choose one of my multiple holomem and attach both Cheers to that single holomem?",
+        "answer": "Yes, you can. Even if there are multiple holomem, you can attach all applicable Cheers to a single holomem.",
+        "relatedCards": [
+            "hBP04-030 Cecilia Immergreen"
+        ]
+    },
+    {
+        "id": "q383",
+        "date": "2025.06.11",
+        "question": "If I only have one back holomem, can I use the ability of hBP04-025 <Juufuutei Raden>'s Art 'Oato ga Yoroshii youde' to get '+30' power?",
+        "answer": "No, you cannot get '+30' unless you are able to attach the two Cheers to two different holomem with the Art's ability.",
+        "relatedCards": [
+            "hBP04-025 Juufuutei Raden"
+        ]
+    },
+    {
+        "id": "q382",
+        "date": "2025.06.11",
+        "question": "Can the Gift 'Reisei Chinchaku' of hBP04-024 <Juufuutei Raden> have its remaining HP be set to '50' by the Oshi Skill 'Gyu Gyu' of hBP01-001 <Amane Kanata>?",
+        "answer": "No, since its HP does not fluctuate, it cannot be set to '50'.",
+        "relatedCards": [
+            "hBP01-001 Amane Kanata",
+            "hBP04-024 Juufuutei Raden"
+        ]
+    },
+    {
+        "id": "q381",
+        "date": "2025.06.11",
+        "question": "When there is one or more cards in my deck, can I choose to add a card to my hand with the Gift 'Zettai Akiramenai!' of hBP04-013 <Hakui Koyori> without adding a card to my Holo Power?",
+        "answer": "No, you cannot.",
+        "relatedCards": [
+            "hBP04-013 Hakui Koyori"
+        ]
+    },
+    {
+        "id": "q380",
+        "date": "2025.06.11",
+        "question": "When my deck is empty, can I choose to add a card to my hand with the Gift 'Zettai Akiramenai!' of hBP04-013 <Hakui Koyori> without adding a card to my Holo Power?",
+        "answer": "Yes, you can.",
+        "relatedCards": [
+            "hBP04-013 Hakui Koyori"
+        ]
+    },
+    {
+        "id": "q379",
+        "date": "2025.06.11",
+        "question": "When I look at the cards in my Holo Power with the Gift 'Zettai Akiramenai!' of hBP04-013 <Hakui Koyori>, must I add one card to my hand?",
+        "answer": "Yes, if there is at least one card in your Holo Power, you must add one.",
+        "relatedCards": [
+            "hBP04-013 Hakui Koyori"
+        ]
+    },
+    {
+        "id": "q378",
+        "date": "2025.06.11",
+        "question": "If I use the Oshi Skill 'Sōsui no Oshigoto' of hBP04-005 <La+ Darknesss> and then use the Art 'Tomaraneeyo' of hBP01-023 <Tokino Sora> during the Performance Step, can I treat all the dice results as '5'?",
+        "answer": "No, you cannot. Only abilities that roll 3 dice at once can have all their results treated as '5'.",
+        "relatedCards": [
+            "hBP04-005 La+ Darknesss",
+            "hBP01-023 Tokino Sora"
+        ]
+    },
+    {
+        "id": "q377",
+        "date": "2025.06.11",
+        "question": "I use the SP Oshi Skill 'Buun, Baribaribaribari' of hBP04-004 <Yukihana Lamy> and choose a hBP04-043 <Yukihana Lamy> with hBP04-106 <Yukimin> attached. Afterwards, I Bloom into hBP04-047 <Yukihana Lamy>, use the Collab Effect 'fleur' to down an opponent's holomem, and draw 2 cards. In this case, during the Performance Step, can I use the Art 'Yuki ga Kirameku Hanataba' from hBP04-047 <Yukihana Lamy> to down the opponent's center holomem and draw another 2 cards?",
+        "answer": "Yes, you can.",
+        "relatedCards": [
+            "hBP04-004 : Yukihana Lamy",
+            "hBP04-043 : Yukihana Lamy",
+            "hBP04-047 : Yukihana Lamy",
+            "hBP04-106 : Yukimin"
+        ]
+    },
+    {
+        "id": "q376",
+        "date": "2025.06.11",
+        "question": "I use the SP Oshi Skill 'Buun, Baribaribaribari' of hBP04-004 <Yukihana Lamy> and choose hBP04-048 <Yukihana Lamy>. Afterwards, I use the Art 'Kyou mo Shukufuku ga Arimasu you ni' to down the opponent's center and back holomem. In this case, since I downed two holomem, can I draw 4 cards?",
+        "answer": "Yes, you can.",
+        "relatedCards": [
+            "hBP04-004 : Yukihana Lamy",
+            "hBP04-048 : Yukihana Lamy"
+        ]
+    },
+    {
+        "id": "q375",
+        "date": "2025.06.11",
+        "question": "I use the SP Oshi Skill 'Buun, Baribaribaribari' of hBP04-004 <Yukihana Lamy>, and the chosen <Yukihana Lamy> downs the opponent's hBP03-066 <Inugami Korone>. Which ability resolves first: the ability from the SP Oshi Skill, or the opponent's down processing and the Gift 'Wonderful~♡' ability?",
+        "answer": "First, you draw 2 cards from the ability of the SP Oshi Skill 'Buun, Baribaribaribari'. After that, resolve the ability of the Gift 'Wonderful~♡' and then process the life damage.",
+        "relatedCards": [
+            "hBP04-004 : Yukihana Lamy",
+            "hBP03-066 : Inugami Korone"
+        ]
+    },
+    {
+        "id": "q374",
+        "date": "2025.06.12",
+        "question": "My Oshi is hBP04-003 <Ichijou Ririka> and my opponent's Oshi is hBP01-007 <Hoshimachi Suisei>. The opponent's hBP01-081 <Hoshimachi Suisei> in the center position uses the Art 'Kagayaku Suisei' to down my hBP04-037 <Ichijou Ririka>. In this case, which SP Oshi Skill can be used first: my 'Kawaii! Positive! Genius!' or the opponent's 'Shooting Star'?",
+        "answer": "'Kawaii! Positive! Genius!' can be used first.",
+        "relatedCards": [
+            "hBP01-007 : Hoshimachi Suisei",
+            "hBP01-081 : Hoshimachi Suisei",
+            "hBP04-003 : Ichijou Ririka",
+            "hBP04-037 : Ichijou Ririka"
+        ]
+    },
+    {
+        "id": "q373",
+        "date": "2025.06.11",
+        "question": "For the SP Oshi Skill 'Kawaii! Positive! Genius!' of hBP04-003 <Ichijou Ririka>, do I have to reveal and add one <Ichijou Ririka> and one <Genkai-Meshi> to my hand?",
+        "answer": "No, you can add only one of them and finish resolving the effect.",
+        "relatedCards": [
+            "hBP04-003 : Ichijou Ririka",
+            "hBP04-091 : Genkai-Meshi"
+        ]
+    },
+    {
         "id": "q372",
         "date": "2025.06.11",
-        "question": "My Oshi is hBP04-001 Hakui Koyori. An opponent's hBP01-081 Suisei Hoshimachi attacks my Hakui Koyori (which has hBP04-105 Koyori's Assistant-kun attached) with the Art 'Shining Comet' for 180 damage. Can I use the SP Oshi Skill '助手くん、んーまっ！ to reduce the damage by 100?",
+        "question": "My Oshi is hBP04-001 Hakui Koyori. An opponent's hBP01-081 Suisei Hoshimachi (a 2nd Bloom on top of a Debut and 1st) attacks my Hakui Koyori (which has hBP04-105 Koyori's Assistant-kun attached) with the Art 'Shining Comet' for 180 damage. Can I use the SP Oshi Skill 'Assistant-kun, mwah!' to reduce the damage by 100?",
         "answer": "Yes, you can.",
-        "relatedCards": ["hBP04-001 Hakui Koyori", "hBP01-081 Suisei Hoshimachi", "hBP04-105 Koyori's Assistant-kun"]
+        "relatedCards": [
+            "hBP04-001 : Hakui Koyori",
+            "hBP01-081 : Suisei Hoshimachi",
+            "hBP04-105 : Koyori's Assistant-kun"
+        ]
     },
     {
         "id": "q371",
         "date": "2025.06.11",
         "question": "Can hBP04-001 Hakui Koyori's SP Oshi Skill 'Assistant-kun, mwah!' be used to reduce damage across multiple instances in a single turn (e.g., once for special damage and again for damage from an Art)?",
         "answer": "No, it cannot. The damage reduction ability cannot be split or applied to multiple instances of damage.",
-        "relatedCards": ["hBP04-001 Hakui Koyori"]
+        "relatedCards": [
+            "hBP04-001 Hakui Koyori"
+        ]
     }
 ]
