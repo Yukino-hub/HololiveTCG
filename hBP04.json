@@ -231,10 +231,10 @@
         "color": "White",
         "bloomLevel": "2nd",
         "hp": 200,
-        "giftEffect": "Never give up! : When this holomem downs an opponent's holomem, put the top card of your deck into your holo Power. Then look at your holo Power cards, reveal 1, and put it into your hand. Then shuffle your holo Power.",
+        "giftEffect": "絶対諦めない！ : When this holomem downs an opponent's holomem, put the top card of your deck into your holo Power. Then look at your holo Power cards, reveal 1, and put it into your hand. Then shuffle your holo Power.",
         "skills": [
             {
-                "name": "Life of Koyori",
+                "name": "かくせいのこより",
                 "cost": "1 White, 2 any color",
                 "dmg": "160, +50 vs Green",
                 "description": "If this holomem has a Support card with #KoyoLabo attached, reveal 1 Support card with #KoyoLabo from your deck and put it into your hand. Then shuffle your deck."
@@ -251,10 +251,10 @@
         "color": "White",
         "bloomLevel": "2nd",
         "hp": 200,
-        "bloomEffect": "Please come back : You may return 1-2 cards with #ShirakamiCharacter from your archive to hand.",
+        "bloomEffect": "戻っておいで: You may return 1-2 cards with #ShirakamiCharacter from your archive to hand.",
         "skills": [
             {
-                "name": "My special someone",
+                "name": "私の大切な人",
                 "cost": "1 White, 2 any color",
                 "dmg": "100+, +50 vs Green",
                 "description": "If there are any holomem with #Gamers that are not named Shirakami Fubuki on your stage, this art gains +50 power."
@@ -293,7 +293,7 @@
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "Ciaora",
+                "name": "チアオーラ",
                 "cost": "1 any color",
                 "dmg": "10",
                 "description": "If there are 5 or fewer holomem on your stage, you may reveal 1 Spot holomem with #Justice from your deck and put it onto your stage. Then shuffle your deck."
@@ -310,7 +310,7 @@
         "hp": 150,
         "skills": [
             {
-                "name": "Pink panther of Justice",
+                "name": "正義のピンクパンサー",
                 "cost": "1 any color",
                 "dmg": "40"
             }
@@ -325,10 +325,10 @@
         "color": "White",
         "bloomLevel": "1st",
         "hp": 140,
-        "bloomEffect": "The Artist with the God Eyes : The arts of one of your holomem with #Art gain +20 power until the end of this turn.",
+        "bloomEffect": "神眼の描き手 : The arts of one of your holomem with #Art gain +20 power until the end of this turn.",
         "skills": [
             {
-                "name": "Information gathering is a breeze",
+                "name": "情報収集はお手の物",
                 "cost": "2 any color",
                 "dmg": "50"
             }
@@ -343,7 +343,7 @@
         "color": "White",
         "bloomLevel": "2nd",
         "hp": 190,
-        "collabEffect": "Currently gathering information. : Look at the top three cards of your deck. Reveal one that is a holomem with #Art and put it into your hand. Then put the remaining cards on the bottom of your deck in any order.",
+        "collabEffect": "只今、情報収集中　. : Look at the top three cards of your deck. Reveal one that is a holomem with #Art and put it into your hand. Then put the remaining cards on the bottom of your deck in any order.",
         "skills": [
             {
                 "name": "Art Streamer",
@@ -365,12 +365,12 @@
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "The Juufuutei Group's curtain raiser and apprentice!",
+                "name": "儒烏風亭一門は前座見習い！",
                 "cost": "1 any color",
                 "dmg": "20"
             },
             {
-                "name": "I am Juufuutei Raden!",
+                "name": "儒烏風亭らでんでございます！",
                 "cost": "1 Green, 1 any color",
                 "dmg": "40"
             }
@@ -384,10 +384,10 @@
         "color": "Green",
         "bloomLevel": "Debut",
         "hp": 90,
-        "collabEffect": "Bringing you learning and fun : If you have played an Event with #Mushroom this turn, restore 20 HP to one of your holomem with #ReGLOSS.",
+        "collabEffect": "あなたに学びと面白いをお届け : If you have played an Event with #Mushroom this turn, restore 20 HP to one of your holomem with #ReGLOSS.",
         "skills": [
             {
-                "name": "Raden on standby",
+                "name": "らでんスタンバイ",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -404,12 +404,12 @@
         "hp": 160,
         "skills": [
             {
-                "name": "Knowledgeable Tsukkomi",
+                "name": "博識ツッコミ",
                 "cost": "1 Green",
                 "dmg": "30"
             },
             {
-                "name": "Well, that's about it",
+                "name": "まぁそんなとこですな",
                 "cost": "1 Green, 1 any color",
                 "dmg": "50"
             }
@@ -424,10 +424,10 @@
         "color": "Green",
         "bloomLevel": "1st",
         "hp": 130,
-        "giftEffect": "ReGLOSS's hype squad and jokester : If this holomem is downed during your opponent's turn, you may move 1 cheer from this holomem to one of your other holomem with #ReGLOSS.",
+        "giftEffect": "ReGLOSSの賑やかし : If this holomem is downed during your opponent's turn, you may move 1 cheer from this holomem to one of your other holomem with #ReGLOSS.",
         "skills": [
             {
-                "name": "Chief of story time",
+                "name": "ネタ枠担当",
                 "cost": "1 any color",
                 "dmg": "40"
             }
@@ -442,10 +442,10 @@
         "color": "Green",
         "bloomLevel": "1st",
         "hp": 170,
-        "giftEffect": "Calm and collected : [Center position only] During your opponent's Main Step, this holomem's HP cannot be changed or reduced by your opponent's abilities or effects.",
+        "giftEffect": "冷静沈着 : [Center position only] During your opponent's Main Step, this holomem's HP cannot be changed or reduced by your opponent's abilities or effects.",
         "skills": [
             {
-                "name": "Cheers Rumination",
+                "name": "喝采反芻",
                 "cost": "1 Green",
                 "dmg": "30",
                 "description": "You may send 1 cheer from your archive to this holomem."
@@ -461,13 +461,13 @@
         "color": "Green",
         "bloomLevel": "2nd",
         "hp": 200,
-        "collabEffect": "Tradition and innovation : Reveal 1 Event card with #Mushroom from your deck and put it into your hand. Then shuffle your deck.",
+        "collabEffect": "伝統と革新 : Reveal 1 Event card with #Mushroom from your deck and put it into your hand. Then shuffle your deck.",
         "skills": [
             {
-                "name": "And now for the next act",
+                "name": "御後がよろしいようで",
                 "cost": "2 Green, 2 any color",
                 "dmg": "140+, +50 vs White",
-                "description": "If your oshi holomem is Juufuutei Raden, you may choose 2 of your back holomem and move 1 cheer from this holomem to each of them. If you do, this art gains +30 power."
+                "description": "If your oshi holomem is <Juufuutei Raden>, you may choose 2 of your back holomem and move 1 cheer from this holomem to each of them. If you do, this art gains +30 power."
             }
         ],
         "hasFullArt": true,
@@ -481,10 +481,10 @@
         "color": "Green",
         "bloomLevel": "2nd",
         "hp": 190,
-        "bloomEffect": "Fubuki is a special someone : If your Oshi holomem is Shirakami Fubuki, reveal 1 white cheer from your cheer deck and send it to one of your holomem named Shirakami Fubuki. Then shuffle your cheer deck.",
+        "bloomEffect": "フブキは特別な存在 : If your Oshi holomem is <Shirakami Fubuki>, reveal 1 white cheer from your cheer deck and send it to one of your holomem named <Shirakami Fubuki>. Then shuffle your cheer deck.",
         "skills": [
             {
-                "name": "Did our house belong to Fubuki?",
+                "name": "うちってフブキのものだったの？",
                 "cost": "1 Green, 2 any color",
                 "dmg": "100+, +50 vs White",
                 "description": "If there are any holomem with #Gamers that are not named Ookami Mio on your stage, this art gains +50 power."
@@ -500,7 +500,7 @@
         "color": "Green",
         "bloomLevel": "1st",
         "hp": 130,
-        "bloomEffect": "HOLORO : Send the top card of your Cheer deck to one of your holomem named Kureiji Ollie or Anya Melfissa.",
+        "bloomEffect": "HOLORO : Send the top card of your Cheer deck to one of your holomem named <Kureiji Ollie> or <Anya Melfissa>.",
         "skills": [
             {
                 "name": "Terima Kasih",
@@ -521,7 +521,7 @@
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "The Melody of Justice",
+                "name": "正義の調べ",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -537,7 +537,7 @@
         "hp": 160,
         "skills": [
             {
-                "name": "Ancient Automaton",
+                "name": "『古代自動人形』",
                 "cost": "2 any color",
                 "dmg": "60"
             }
@@ -552,10 +552,10 @@
         "color": "Green",
         "bloomLevel": "1st",
         "hp": 130,
-        "bloomEffect": "I came up with a new melody : You may choose any 1-2 cheers on your stage, and move them between your holomem in any way you like.",
+        "bloomEffect": "こんな旋律思いついたの: You may choose any 1-2 cheers on your stage, and move them between your holomem in any way you like.",
         "skills": [
             {
-                "name": "Would you like to listen?",
+                "name": "聞いてくれる？",
                 "cost": "1 Green, 1 any color",
                 "dmg": "50"
             }
@@ -570,13 +570,13 @@
         "color": "Green",
         "bloomLevel": "2nd",
         "hp": 200,
-        "giftEffect": "Tea across the sea : If there are any holomem on your opponent's stage with #JP or #ID, this holomem's arts gain +30 power.",
+        "giftEffect": "海を越えたお茶会 : If there are any holomem on your opponent's stage with #JP or #ID, this holomem's arts gain +30 power.",
         "skills": [
             {
-                "name": "Multilingual",
+                "name": "マルチリンガル",
                 "cost": "1 Green, 1 any color",
                 "dmg": "80, +50 vs Yellow",
-                "description": "Reveal 1 cheer from your cheer deck of the same color as one of your back holomem with #Languages, and send it to that holomem. Then shuffle your cheer deck."
+                "description": "Choose one of your back Holomem with the #Language. You may reveal one cheer card of the same color as the chosen Holomem from your cheer Deck and attach it to that Holomem. Then, shuffle your cheer Deck."
             }
         ],
         "hasFullArt": true
@@ -592,7 +592,7 @@
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "Kon-riri",
+                "name": "こんりり",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -608,15 +608,15 @@
         "hp": 120,
         "skills": [
             {
-                "name": "Ririka on standby",
+                "name": "莉々華スタンバイ",
                 "cost": "1 Red",
                 "dmg": "20"
             },
             {
-                "name": "Limit Over",
+                "name": "リミットオーバー",
                 "cost": "1 Red, 1 any color",
                 "dmg": "30",
-                "description": "If you have played a Struggle Meal during this turn, deal 20 special damage to your opponent's collab holomem."
+                "description": "If you have used <Genkai-Meshi> this turn, deal 20 special damage to the opponent's Collab Holomem."
             }
         ],
         "hasFoils": true
@@ -651,10 +651,10 @@
         "color": "Red",
         "bloomLevel": "1st",
         "hp": 130,
-        "bloomEffect": "Struggle Meal Chef : You may return 1 Struggle Meal from your archive to hand.",
+        "bloomEffect": "限界飯料理人 : You may return 1 Struggle Meal from your archive to hand.",
         "skills": [
             {
-                "name": "Presidential Punch",
+                "name": "社長パンチ",
                 "cost": "2 Red",
                 "dmg": "50",
                 "description": "Deal 20 special damage to your opponent's collab holomem."
@@ -670,10 +670,10 @@
         "color": "Red",
         "bloomLevel": "1st",
         "hp": 140,
-        "bloomEffect": "Delicious food all to myself : Deal 20 special damage to your opponent's collab holomem.",
+        "bloomEffect": "おいしいもの独り占め : Deal 20 special damage to your opponent's collab holomem.",
         "skills": [
             {
-                "name": "eheheh",
+                "name": "いひひっ",
                 "cost": "1 any color",
                 "dmg": "30",
                 "description": "If this art is targeting your opponent's collab holomem, draw 1 card."
@@ -692,10 +692,10 @@
         "bloomEffect": "KPG : You may roll a dice: If the result is 4 or more, and your opponent has no collab holomem, they choose one of their back holomem and move it to the collab position (this is not treated as collabing).",
         "skills": [
             {
-                "name": "Oh? You want a fight?",
+                "name": "お？ 喧嘩する？",
                 "cost": "1 Red, 2 any color",
                 "dmg": "80, +50 vs Yellow",
-                "description": "Deal 50 special damage to your opponent's center holomem. Then, if you have played a Struggle Meal during this turn, deal 30 special damage to your opponent's center or collab holomem."
+                "description": "Deal 50 special damage to the opponent's center Holomem. Afterwards, if you have used <Genkai-Meshi> this turn, deal 30 special damage to the opponent's center Holomem or Collab Holomem."
             }
         ],
         "hasFullArt": true,
@@ -709,10 +709,10 @@
         "color": "Red",
         "bloomLevel": "2nd",
         "hp": 200,
-        "bloomEffect": "I wonder if they saw that!!❤️❤️ : Deal 10 damage to your opponent's center and collab holomem.",
+        "bloomEffect": "どこ見ちゃってるのかな～！！♥♡ : Deal 10 damage to your opponent's center and collab holomem.",
         "skills": [
             {
-                "name": "Risqué❤️❤️",
+                "name": "えっち♥♥",
                 "cost": "1 Red, 1 any color",
                 "dmg": "50+, +50 vs Green",
                 "description": "For each holomem stacked under this one, this art gains +20 power."
@@ -731,7 +731,7 @@
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "Ohaela",
+                "name": "おはエラ",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -770,7 +770,7 @@
         "bloomEffect": "JDON my soul : You may return 1 Tool from your archive to hand.",
         "skills": [
             {
-                "name": "Silent laughter",
+                "name": "サイレント笑い",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -795,7 +795,7 @@
                 "description": "If there are any holomem with #IDGen3 on your stage other than this holomem, draw 1 card."
             },
             {
-                "name": "Seal of approval",
+                "name": "お墨付きの一品",
                 "cost": "1 Red, 2 any color",
                 "dmg": "90",
                 "description": "If any of your holomem have a Tool with #Kaela'sArms attached, deal 30 special damage to your opponent's collab holomem."
@@ -815,10 +815,10 @@
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "Kon-Lamy",
+                "name": "こんらみ～",
                 "cost": "1 any color",
                 "dmg": "20",
-                "description": "Deal 10 damage any of your opponent's holomem. holomem downed with this effect do not reduce Life."
+                "description": "Deal 10 damage any of your opponent's holomem. However, even if this downs that Holomem, your opponent's life is not reduced."
             }
         ]
     },
@@ -830,10 +830,10 @@
         "color": "Blue",
         "bloomLevel": "Debut",
         "hp": 80,
-        "collabEffect": "Snow flower : If there are no Yukimin attached to any Yukihana Lamy on your stage, reveal 1 Yukimin from your deck and attach it to any of your Yukihana Lamy. Then shuffle your deck.",
+        "collabEffect": "Snow flower : If you do not have a <Yukihana Lamy> that is attached with <Yukimin>, you may reveal one <Yukimin> from your deck and attach it to your <Yukihana Lamy>. Then, shuffle your deck.",
         "skills": [
             {
-                "name": "uu...",
+                "name": "うぅ….",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -850,12 +850,12 @@
         "hp": 150,
         "skills": [
             {
-                "name": "Otsu-Lamy",
+                "name": "おつらみ",
                 "cost": "1 Blue",
                 "dmg": "30"
             },
             {
-                "name": "I can't beat the boss!",
+                "name": "ボスが攻略できな～い",
                 "cost": "1 Blue, 1 any color",
                 "dmg": "50"
             }
@@ -872,7 +872,7 @@
         "hp": 130,
         "skills": [
             {
-                "name": "I'll do my best!",
+                "name": "いっぱい頑張るよ！",
                 "cost": "1 any color",
                 "dmg": "30",
                 "description": "If there are any holomem on your stage with a Fan attached, deal 10 special damage to any of your opponent's holomem."
@@ -888,10 +888,10 @@
         "color": "Blue",
         "bloomLevel": "1st",
         "hp": 120,
-        "collabEffect": "fleur : If there is a Yukihana Lamy on your stage with a Yukimin attached, deal 20 special damage to any of your opponent's holomem. holomem downed with this effect do not reduce Life.",
+        "collabEffect": "fleur : f you have a <Yukihana Lamy> equipped with <Yukimin>, deal 20 special damage to one of your opponent's Holomem. However, even if this downs that Holomem, your opponent's life is not reduced.",
         "skills": [
             {
-                "name": "Sparkling Snow Bouquet",
+                "name": "雪が煌く花束",
                 "cost": "1 Blue, 1 any color",
                 "dmg": "50"
             }
@@ -906,13 +906,13 @@
         "color": "Blue",
         "bloomLevel": "2nd",
         "hp": 190,
-        "bloomEffect": "Daughter of Unylia : Send the top card of your cheer deck to one of your Yukihana Lamy with a Yukimin attached.",
+        "bloomEffect": "ユニーリアの令嬢 : Send the top card of your cheer deck to one of your <Yukihana Lamy> with a <Yukimin> attached.",
         "skills": [
             {
-                "name": "May you be blessed today too",
+                "name": "今日も祝福がありますように",
                 "cost": "1 Blue, 2 any color",
                 "dmg": "130, +50 vs Red",
-                "description": "You may archive 1 cheer from this holomem for the following effect: deal 30 special damage to your opponent's center holomem or one of their back holomem."
+                "description": "You may archive 1 of this Holomem's cheer cards: Deal 30 special damage to one of your opponent's center Holomem or back Holomem."
             }
         ],
         "hasFullArt": true,
@@ -928,7 +928,7 @@
         "hp": 190,
         "skills": [
             {
-                "name": "Moon and star stage",
+                "name": "月と星のステージ",
                 "cost": "1 any color",
                 "dmg": "50, +50 vs White"
             },
@@ -936,7 +936,7 @@
                 "name": "Shining Moon",
                 "cost": "1 Blue, 2 any color",
                 "dmg": "80+, +50 vs White",
-                "description": "Deal 20 special damage to one of your opponent's back holomem. Then, if you have any holomem with a color that is not this holomem's color, this art gains +50 power.\n\nNOTE: This has been clarified in the Q&A and this text has been updated to reflect the actual effect of this card. I was wrong before, my apologies."
+                "description": "Deal 20 special damage to one of your opponent's back Holomem. If you have a Holomem with a different color than this one on your stage, this Arts gets an additional +50."
             }
         ],
         "hasFullArt": true
@@ -952,7 +952,7 @@
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "Shiori~n!",
+                "name": "しおり～ん！",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -968,12 +968,12 @@
         "hp": 150,
         "skills": [
             {
-                "name": "Don't you think that's a wonderful story?",
+                "name": "それって素敵な物語だと思わない？",
                 "cost": "1 Blue",
                 "dmg": "30"
             },
             {
-                "name": "Endless thirst for knowledge",
+                "name": "尽きない知識欲",
                 "cost": "2 any color",
                 "dmg": "50"
             }
@@ -988,10 +988,10 @@
         "color": "Blue",
         "bloomLevel": "1st",
         "hp": 120,
-        "bloomEffect": "Prison break plan : Deal 20 special damage to one of your opponent's back holomem. holomem downed with this effect do not reduce Life.",
+        "bloomEffect": "脱獄計画 : Deal 20 special damage to one of your opponent's back holomem. holomem downed with this effect do not reduce Life.",
         "skills": [
             {
-                "name": "Fascinating Story",
+                "name": "魅力的な物語",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -1007,11 +1007,11 @@
         "bloomLevel": "1st",
         "hp": 230,
         "buzz": true,
-        "bloomEffect": "Forbidden Knowledge : Send the top card of your cheer deck to one of your holomem with #EN.",
+        "bloomEffect": "禁断の知識 : Send the top card of your cheer deck to one of your holomem with #EN.",
         "extraEffect": "When this holomem is downed, take 2 Life Damage.",
         "skills": [
             {
-                "name": "Memory Bookmark",
+                "name": "思い出の栞",
                 "cost": "1 Blue, 2 any color",
                 "dmg": "70",
                 "description": "You may reveal the top card of your holo Power. If the revealed card is a holomem with #EN, deal 20 special damage to any of your opponent's holomem. Then put the revealed card face down at the bottom of your holo Power."
@@ -1031,7 +1031,7 @@
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "Heed my call!",
+                "name": "貴様ら、刮目せよ！！",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -1046,10 +1046,10 @@
         "color": "Purple",
         "bloomLevel": "Debut",
         "hp": 100,
-        "collabEffect": "Kneel before me! : You may roll a dice. If the result is 3 or more, rest one of your opponent's back holomem.",
+        "collabEffect": "そこに跪け！ : You may roll a dice. If the result is 3 or more, rest one of your opponent's back holomem.",
         "skills": [
             {
-                "name": "We are the ones who rule planet Eden!",
+                "name": "我ら、エデンの星を統べる者！",
                 "cost": "1 Purple",
                 "dmg": "30+",
                 "description": "This art gains +10 power for each of your opponent's holomem who are resting."
@@ -1067,12 +1067,12 @@
         "hp": 160,
         "skills": [
             {
-                "name": "I love strawberries!",
+                "name": "いちごだいすき！",
                 "cost": "1 Purple",
                 "dmg": "40"
             },
             {
-                "name": "Thank you as always, Plusmates",
+                "name": "ぷらすめいと諸君いつもありがとう",
                 "cost": "2 Purple",
                 "dmg": "70"
             }
@@ -1086,10 +1086,10 @@
         "color": "Purple",
         "bloomLevel": "1st",
         "hp": 130,
-        "bloomEffect": "holoX Meeting : You may roll a dice. If the result is odd, return one holomem with #SecretSocietyholoX from your archive to hand. If the result is even, return one holomem with #SecretSocietyholoX from your archive to the top of your deck.",
+        "bloomEffect": "holoX集合 : You may roll a die; return a #Secret Society holoX Holomem from your Archive to your hand if you roll an odd number, or to the top of your deck if you roll an even number.",
         "skills": [
             {
-                "name": "I'll show you the best performance!!",
+                "name": "最高のステージ魅せてやるからな！！",
                 "cost": "1 any color",
                 "dmg": "40"
             }
@@ -1104,10 +1104,10 @@
         "color": "Purple",
         "bloomLevel": "1st",
         "hp": 140,
-        "collabEffect": "Would you like to test your fate? : You may roll a dice 3 times. Your opponent's center holomem takes 10 special damage for each odd result.",
+        "collabEffect": "貴様の運命試してみるか？ : You may roll a dice 3 times. Your opponent's center holomem takes 10 special damage for each odd result.",
         "skills": [
             {
-                "name": "You think you can defeat me?",
+                "name": "吾輩に勝つつもりか？",
                 "cost": "1 Purple",
                 "dmg": "30"
             }
@@ -1122,10 +1122,10 @@
         "color": "Purple",
         "bloomLevel": "2nd",
         "hp": 200,
-        "bloomEffect": "Yes My Dark! : You may archive a card from your hand to roll a dice 3 times. Draw 1 card for each odd result. You may only use the Bloom Effect \"Yes My Dark!\" once per turn.",
+        "bloomEffect": "Yes My Dark！ : You may archive 1 card from your hand to roll a die 3 times: For each time you roll an odd number, draw 1 card. Your Bloom Effect 「Yes My Dark!」can only be used once per turn.",
         "skills": [
             {
-                "name": "The strongest legend",
+                "name": "吾輩最強伝説",
                 "cost": "1 Purple, 2 any color",
                 "dmg": "120, +50 vs Blue",
                 "description": "Deal 10 special damage to your opponent's center holomem for each time you rolled a dice as part of your effects during this turn."
@@ -1143,14 +1143,14 @@
         "bloomLevel": "1st",
         "hp": 240,
         "buzz": true,
-        "bloomEffect": "Cheer Reverse : You may send 1 cheer from your opponent's archive to their center holomem.",
+        "bloomEffect": "エールリバース : You may send 1 cheer from your opponent's archive to their center holomem.",
         "extraEffect": "When this holomem is downed, take 2 Life Damage.",
         "skills": [
             {
-                "name": "Streaming games today",
+                "name": "ゲーム配信中",
                 "cost": "1 Purple, 1 any color",
                 "dmg": "40",
-                "description": "For each cheer attached to your opponent's center holomem, deal 10 special damage to your opponent's center and collab holomem."
+                "description": "Deal 10 special damage to the opponent's center Holomem and Collab Holomem for each cheer attached to the opponent's center Holomem."
             }
         ],
         "hasFullArt": true
@@ -1163,13 +1163,13 @@
         "color": "Purple",
         "bloomLevel": "2nd",
         "hp": 200,
-        "bloomEffect": "Look at Ollie! : If you bloomed this holomem using your SP Oshi Skill \"Ollie resurrection\", restore all of the HP of one of your holomem named Kureiji Ollie.",
+        "bloomEffect": "オリーを見てください！: When you Bloom with your SP Oshi Skill <蘇るオリー>, fully recover the HP of one of your <Kureiji Ollie>.",
         "skills": [
             {
-                "name": "Soul of HOLORO",
+                "name": "HOLOROの魂",
                 "cost": "1 Purple, 1 any color",
                 "dmg": "80+, +50 vs Green",
-                "description": "For each of your 2nd Bloom holomem with #IDGen2 other than this holomem, this art gains +20 power."
+                "description": "This Arts gets +20 for each other 2nd Holomem with the #ID2ndGen on your stage."
             }
         ],
         "hasFullArt": true
@@ -1183,14 +1183,14 @@
         "bloomLevel": "1st",
         "hp": 240,
         "buzz": true,
-        "giftEffect": "Eternal Rest : [Center or collab position only] If this holomem has a Mori Calliope's Scythe or Death-sensei attached, the arts of your center holomem with #Myth gain +30 power.",
+        "giftEffect": "永遠の休息 : [Center or collab position only] While this Holomem is attached with <Mori Calliope's Scythe> or <Death-sensei>, your center Holomem with the #Myth trait gets +30 to its Arts.",
         "extraEffect": "When this holomem is downed, take 2 Life Damage.",
         "skills": [
             {
-                "name": "Last drink",
+                "name": "最期の一杯",
                 "cost": "1 Purple, 1 any color",
                 "dmg": "50",
-                "description": "Look at the top 2 cards of your deck. Archive one of them and return the other to the top of your deck."
+                "description": "Look at the top 2 cards of your deck. Archive 1 of them and place the remaining card on top of your deck."
             }
         ],
         "hasFullArt": true
@@ -1203,11 +1203,11 @@
         "color": "Purple",
         "bloomLevel": "Debut",
         "hp": 110,
-        "giftEffect": "Kira kira Koseki! : If this holomem is downed during your opponent's turn, draw 1 card.",
+        "giftEffect": "キラキラ コセキ！ : During your opponent's turn, when this Holomem is downed, draw 1 card.",
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "Bon Bijou!",
+                "name": "ボンビジュー！",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -1223,7 +1223,7 @@
         "hp": 180,
         "skills": [
             {
-                "name": "Sparkling Gem",
+                "name": "煌く宝石",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -1238,13 +1238,13 @@
         "color": "Purple",
         "bloomLevel": "1st",
         "hp": 130,
-        "bloomEffect": "Unparalleled Brilliance : You may archive a red cheer from any of your holomem for the following effect: draw 2 cards.",
+        "bloomEffect": "絶世の輝き : You may archive a red cheer from any of your holomem for the following effect: draw 2 cards.",
         "skills": [
             {
-                "name": "Ore and miner",
+                "name": "鉱石と採掘者",
                 "cost": "1 Purple",
                 "dmg": "30+",
-                "description": "If there are any red cheers in your archive, this art gains +20 power."
+                "description": "If there are any red cheers in your archive, this art gains +20."
             }
         ],
         "hasFoils": true
@@ -1257,13 +1257,13 @@
         "color": "Purple",
         "bloomLevel": "2nd",
         "hp": 190,
-        "bloomEffect": "Jewel of Emotion : You may archive all cards in your hand for the following effect: draw as many cards as you archived. You may only use the Bloom Effect \"Jewel of Emotion\" once per turn.",
+        "bloomEffect": "『感情結晶体』 : You may count the number of cards in your hand and archive your entire hand: For each card archived this way, draw 1 card from your deck. Your Bloom Effect『感情結晶体』can only be used once per turn.",
         "skills": [
             {
-                "name": "I hope you'll feel my radiance!",
+                "name": "この輝きが、伝わればいいな",
                 "cost": "1 Purple, 1 any color",
                 "dmg": "80+, +50 vs Green",
-                "description": "For each cheer in your opponent's archive, this art gains +10 power."
+                "description": "For each cheer in your opponent's archive, this art gains +10."
             }
         ],
         "hasFullArt": true,
@@ -1280,12 +1280,12 @@
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "Ajimaru! Ajimaru!",
+                "name": "あじまる！ あじまる！",
                 "cost": "1 Yellow",
                 "dmg": "20"
             },
             {
-                "name": "Sup! I'm Oozora Subaru from hololive 2nd Generation!",
+                "name": "ちわーす！ ホロライブ2期生 大空スバルっス!!",
                 "cost": "1 Yellow, 2 any color",
                 "dmg": "60"
             }
@@ -1299,10 +1299,10 @@
         "color": "Yellow",
         "bloomLevel": "Debut",
         "hp": 100,
-        "giftEffect": "Oozora Subaru Assorted Set : [Center or collab position only] This holomem takes -20 damage from your opponent's 1st Bloom holomem.",
+        "giftEffect": "大空スバル盛り合わせセット : [Center or collab position only] This holomem takes -20 damage from your opponent's 1st Bloom holomem.",
         "skills": [
             {
-                "name": "From Subaru to you!",
+                "name": "スバルからきみへ！",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -1319,12 +1319,12 @@
         "hp": 190,
         "skills": [
             {
-                "name": "Good morning Subaru",
+                "name": "おはようスバル",
                 "cost": "1 Yellow",
                 "dmg": "30"
             },
             {
-                "name": "I'm sleepy tho",
+                "name": "眠いんデスケド",
                 "cost": "1 Yellow, 1 any color",
                 "dmg": "50"
             }
@@ -1339,10 +1339,10 @@
         "color": "Yellow",
         "bloomLevel": "1st",
         "hp": 130,
-        "collabEffect": "I'll do my best : Choose one of your holomem. Until the end of this turn, that holomem's arts gain +10 power for each cheer attached to it. The maximum number of cheers counted for this effect is 3.",
+        "collabEffect": "全力で頑張るから : Choose one of your Holomem. For the rest of this turn, the chosen Holomem gets +10 Arts for each cheer card attached to it (up to a maximum of 3 cards).",
         "skills": [
             {
-                "name": "Please support us and have fun!",
+                "name": "いっぱい応援して、楽しんでね！",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -1359,13 +1359,13 @@
         "hp": 160,
         "skills": [
             {
-                "name": "Shuba!",
+                "name": "しゅばっ！",
                 "cost": "1 Yellow",
                 "dmg": "20",
                 "description": "Send the top card of your cheer deck to this holomem."
             },
             {
-                "name": "The best and most fun day",
+                "name": "最強で楽しい毎日",
                 "cost": "1 yellow, 2 any color",
                 "dmg": "90"
             }
@@ -1380,10 +1380,10 @@
         "color": "Yellow",
         "bloomLevel": "2nd",
         "hp": 190,
-        "bloomEffect": "Sunlight Stage : You may send 1 yellow cheer from your archive to any of your holomem.",
+        "bloomEffect": "サンライトステージ : You may send 1 yellow cheer from your archive to any of your holomem.",
         "skills": [
             {
-                "name": "Sun Girl",
+                "name": "太陽少女",
                 "cost": "2 Yellow, 1 any color",
                 "dmg": "100+, +50 vs White",
                 "description": "For each cheer in play between both players, this art gains +10 power. The maximum number of cheers counted for this effect is 8."
@@ -1403,7 +1403,7 @@
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "Ohayo!",
+                "name": "おはよー！",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -1417,10 +1417,10 @@
         "color": "Yellow",
         "bloomLevel": "Debut",
         "hp": 120,
-        "giftEffect": "A Day at the Café : [Center position only] Whenever this holomem or your collab holomem take damage, they take -10 damage.",
+        "giftEffect": "A Day at the Café : [Center Position Only] Damage taken by this Holomem and your Collab Holomem is reduced by 10.",
         "skills": [
             {
-                "name": "Do you want to sit next to me?",
+                "name": "隣座りますか？",
                 "cost": "1 Yellow",
                 "dmg": "20"
             }
@@ -1437,12 +1437,12 @@
         "hp": 180,
         "skills": [
             {
-                "name": "Devil's invitation",
+                "name": "悪魔の招待",
                 "cost": "1 Yellow",
                 "dmg": "30"
             },
             {
-                "name": "Devil's whisper",
+                "name": "悪魔の囁き",
                 "cost": "1 Yellow, 1 any color",
                 "dmg": "50"
             }
@@ -1457,10 +1457,10 @@
         "color": "Yellow",
         "bloomLevel": "1st",
         "hp": 150,
-        "collabEffect": "A song from me to everyone : You may attach 1 Ancient Weapon from your archive to one of your holomem named Anya Melfissa.",
+        "collabEffect": "私から皆さんへの歌 : You may attach 1 Ancient Weapon from your archive to one of your <Anya Melfissa>.",
         "skills": [
             {
-                "name": "Thank you for your support!",
+                "name": "応援、よろしくね！",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -1475,10 +1475,10 @@
         "color": "Yellow",
         "bloomLevel": "1st",
         "hp": 180,
-        "giftEffect": "Garden behind the glass : If this holomem is downed during your opponent's turn, return one of this holomem's stacked holomem to hand (you may choose the top holomem).",
+        "giftEffect": "ガラス越しの庭園 : During your opponent's turn, when this Holomem is downed, return one card from among the Holomem stacked here (including this card) to your hand.",
         "skills": [
             {
-                "name": "Yellow Rose",
+                "name": "黄色い薔薇",
                 "cost": "1 Yellow, 1 any color",
                 "dmg": "50"
             }
@@ -1493,10 +1493,10 @@
         "color": "Yellow",
         "bloomLevel": "2nd",
         "hp": 200,
-        "giftEffect": "I found a treasure : [Center or collab position only] If your center holomem is named Anya Melfissa and has an Ancient Weapon attached, the cheer cost of their arts is reduced by 1 yellow cheer.",
+        "giftEffect": "宝物みつけた: [Center Position / Collab Position Only] The Yellow (黄) cost required for the Arts of your center Holomem <Anya Melfissa> that has <Ancient Weapon> attached is reduced by 1.",
         "skills": [
             {
-                "name": "Dungeon adventure",
+                "name": "ダンジョンアドベンチャー",
                 "cost": "2 Yellow, 2 any color",
                 "dmg": "160, +50 vs Red"
             }
@@ -1512,11 +1512,11 @@
         "color": "Yellow",
         "bloomLevel": "Debut",
         "hp": 120,
-        "giftEffect": "Wasshoi! : If this holomem is downed during your opponent's turn, you may move 1 cheer from this holomem to one of your other holomem.",
+        "giftEffect": "わっしょ～い! : If this holomem is downed during your opponent's turn, you may move 1 cheer from this holomem to one of your other holomem.",
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "Hololive's seiso representative",
+                "name": "ホロライブの清楚担当",
                 "cost": "1 any color",
                 "dmg": "10"
             }
@@ -1532,12 +1532,12 @@
         "hp": 180,
         "skills": [
             {
-                "name": "Natsuiro Cheer Squad",
+                "name": "夏色応援団",
                 "cost": "1 any color",
                 "dmg": "30"
             },
             {
-                "name": "Fight! Wash away blood with blood!",
+                "name": "戦え！ 血を血で洗え！",
                 "cost": "2 any color",
                 "dmg": "50"
             }
@@ -1552,10 +1552,10 @@
         "color": "Yellow",
         "bloomLevel": "1st",
         "hp": 120,
-        "bloomEffect": "So that I can reach you who I love : Reveal 1 yellow cheer from your cheer deck and send it to this holomem. Then shuffle your cheer deck.",
+        "bloomEffect": "大好きな君に届くように : Reveal 1 yellow cheer from your cheer deck and send it to this holomem. Then shuffle your cheer deck.",
         "skills": [
             {
-                "name": "I'll sing with all my might!!",
+                "name": "全力で歌うよッ！！",
                 "cost": "1 Yellow",
                 "dmg": "20"
             }
@@ -1570,10 +1570,10 @@
         "color": "Yellow",
         "bloomLevel": "2nd",
         "hp": 180,
-        "bloomEffect": "Let's go shopping! : You may roll a dice once for each of your differently-named holomem with #Gen1. For each time the result is 4 or higher, send the top card of your cheer deck to this holomem.",
+        "bloomEffect": "レッツ ショッピング! : You may roll a dice once for each of your differently-named holomem with #Gen1. For each time the result is 4 or higher, send the top card of your cheer deck to this holomem.",
         "skills": [
             {
-                "name": "I found my favorite",
+                "name": "お気に入りみつけた",
                 "cost": "1 Yellow",
                 "dmg": "60+, +50 vs White",
                 "description": "For each cheer attached to this holomem, this art gains +20 power."
@@ -1593,7 +1593,7 @@
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "Kon-Nene",
+                "name": "こんねね～",
                 "cost": "1 any color",
                 "dmg": "10",
                 "description": "If there are 5 or fewer holomem on your stage, you may reveal 1 Debut holomem with #Gen5 from your deck and put it onto your stage. Then shuffle your deck."
@@ -1610,12 +1610,12 @@
         "hp": 190,
         "skills": [
             {
-                "name": "haaan~",
+                "name": "はぁ～ん",
                 "cost": "1 any color",
                 "dmg": "30"
             },
             {
-                "name": "Mata-Nene",
+                "name": "またねね",
                 "cost": "1 Yellow, 1 any color",
                 "dmg": "50"
             }
@@ -1630,10 +1630,10 @@
         "color": "Yellow",
         "bloomLevel": "1st",
         "hp": 130,
-        "bloomEffect": "Feeling great!!!!!!!!!!!!!! : Reveal 1 cheer from your cheer deck of the same color as one of your holomem with #Gen5, and send that cheer to any of your holomem with #Gen5. Then shuffle your cheer deck.",
+        "bloomEffect": "最高の気分!!!!!!!!!!!!!! : Reveal 1 cheer from your cheer deck of the same color as one of your holomem with #Gen5, and send that cheer to any of your holomem with #Gen5. Then shuffle your cheer deck.",
         "skills": [
             {
-                "name": "I'll do my best!!!!!",
+                "name": "いっぱいがんばるぞい!!!!!",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -1650,15 +1650,15 @@
         "hp": 200,
         "skills": [
             {
-                "name": "Everyone is husband",
+                "name": "ハズバンドいっぱい",
                 "cost": "1 any color",
                 "dmg": "50, +50 vs White"
             },
             {
-                "name": "Gira Gira Power",
+                "name": "ギラギラパワー",
                 "cost": "1 Blue, 1 Yellow",
                 "dmg": "50+, +50 vs White",
-                "description": "For each cheer in your archive, this art gains +20 power. The maximum number of cheers counted for this effect is 5."
+                "description": "This Arts gets +20 for each Cheer in your Archive (up to a maximum of 5 cheers)."
             }
         ],
         "hasAlternativeArt": true,
@@ -1671,7 +1671,7 @@
         "rarity": "C",
         "bloomLevel": "Spot",
         "hp": 140,
-        "giftEffect": "The Scarlet Queen : [Collab position only] Whenever your Debut holomem takes damage while in the center position, it takes -20 damage.",
+        "giftEffect": "『緋色の女王』: [Collab position only] Whenever your Debut holomem takes damage while in the center position, it takes -20 damage.",
         "extraEffect": "This holomem cannot bloom.",
         "skills": [
             {
@@ -1689,11 +1689,11 @@
         "rarity": "C",
         "bloomLevel": "Spot",
         "hp": 130,
-        "giftEffect": "Eh? But it was fun! : If this holomem is downed during your opponent's turn, send the top card of your cheer deck to any of your holomem.",
+        "giftEffect": "え？ でも面白かったじゃん！ : If this holomem is downed during your opponent's turn, send the top card of your cheer deck to any of your holomem.",
         "extraEffect": "This holomem cannot bloom.",
         "skills": [
             {
-                "name": "Stop fighting!",
+                "name": "怒らないでよ!",
                 "cost": "1 any color",
                 "dmg": "10"
             }
@@ -1706,7 +1706,7 @@
         "rarity": "U",
         "type": "Support (Item)",
         "limited": "Yes",
-        "ability": "This card can only be played if you have at least 2 holomem with different single colors on your stage. Choose two of your single colored holomem with different colors. Reveal one 1st Bloom holomem from your deck (excluding Buzz holomem) of each of those colors, and put them into your hand. Then shuffle your deck.",
+        "ability": "This card cannot be played unless you have 2 or more Holomem on your stage that each have a single, different color. Choose two Holomem on your stage that each have a single, different color. Search your deck for a 1st Holomem that is the same color as each of the chosen Holomem (excluding Buzz), reveal them, and add them to your hand. Then, shuffle your deck..",
         "hasFoils": true
     },
     {
@@ -1715,16 +1715,16 @@
         "rarity": "U",
         "type": "Support (Item)",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal up to one holomem and up to one Tool, Mascot, or Fan from among them and put them into your hand. Then put the remaining cards on the bottom of your deck in any order.",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal up to one holomem and up to one Tool, Mascot, or Fan from among them and add them into your hand. Then put the remaining cards on the bottom of your deck in any order.",
         "hasFoils": true
     },
     {
-        "name": "Struggle Meal",
+        "name": "Genkai-Meshi",
         "tags": "#Food",
         "cardNumber": "hBP04-091",
         "rarity": "U",
         "type": "Support (Event)",
-        "ability": "During this turn, one of your holomem named Ichijou Ririka has the cheer cost of their arts reduced by 1 colourless cheer. You may only use the card \"Struggle Meal\" once per turn.",
+        "ability": "During this turn, one of your <Ichijou Ririka> has the cheer cost of their arts reduced by 1 colourless cheer. You may only use the card <Genkai-Meshi> once per turn.",
         "hasFoils": true
     },
     {
@@ -1733,7 +1733,7 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal any number of them that are holomem with #Gen5 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order.",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck.You may Reveal any number of them that are holomem with #Gen5 and add them into your hand. Then put the remaining cards on the bottom of your deck in any order.",
         "hasFoils": true
     },
     {
@@ -1742,7 +1742,7 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal any number of them that are holomem with #Gen2 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order.",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck.You may Reveal any number of them that are holomem with #Gen2 and add them into your hand. Then put the remaining cards on the bottom of your deck in any order.",
         "hasFoils": true
     },
     {
@@ -1751,7 +1751,7 @@
         "cardNumber": "hBP04-094",
         "rarity": "U",
         "type": "Support (Event)",
-        "ability": "Choose one of your holomem named Juufuutei Raden. You may move any 1-2 cheers on your stage to the chosen holomem. Then, if that holomem has at least 3 cheers attached, their arts gain +10 power until the end of this turn.",
+        "ability": "Choose one of your <Juufuutei Raden>. You may move any 1-2 cheers on your stage to the chosen holomem. Then, if choosen holomem has at least 3 cheers attached, their arts increased +10 until the end of this turn.",
         "hasFoils": true
     },
     {
@@ -1760,7 +1760,7 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "Reveal 1 Mascot from your deck and put it into your hand. Then shuffle your deck.",
+        "ability": "Reveal 1 Mascot from your deck and add it into your hand. Then shuffle your deck.",
         "hasFoils": true
     },
     {
@@ -1769,7 +1769,7 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal any number of them that are holomem with #Advent and put them into your hand. Then put the remaining cards on the bottom of your deck in any order.",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck.You may Reveal any number of them that are holomem with #Advent and add them into your hand. Then put the remaining cards on the bottom of your deck in any order.",
         "hasFoils": true
     },
     {
@@ -1778,16 +1778,16 @@
         "cardNumber": "hBP04-097",
         "rarity": "U",
         "type": "Support (Tool)",
-        "ability": "The arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later Hakui Koyori, it gains the following effect: During your Main Step, you may archive 1 Cheer from the holomem with this Tool attached to unrest one of your resting holomem with #SecretSocietyholoX. You may only attach 1 Tool to a holomem.",
+        "ability": "The Arts of the Holomem this tool is attached to is increased by 10. If this is attached to a 1st Bloom or later <Hakui Koyori>, it gains the following effect: During your Main Step, you may archive 1 Cheer from the holomem with this Tool attached to unrest one of your resting holomem with #SecretSocietyholoX. Only one Tool can be equipped to each of your Holomem.",
         "hasFoils": true
     },
     {
         "name": "Blacksmith's Hammer",
-        "tags": "#Kaela'sArms",
+        "tags": "#Kaela's Arms",
         "cardNumber": "hBP04-098",
         "rarity": "U",
         "type": "Support (Tool)",
-        "ability": "The arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later holomem with #ID3, it gains the following effect: The arts of the holomem with this Tool attached gain another +10 power. You may only attach 1 Tool to a holomem.",
+        "ability": "The Arts of the Holomem this tool is attached to is increased by 10. If equipped to a 1st Bloom or later holomem with #ID3, The arts of the holomem with this Tool attached increased by additional +10 power. Only one Tool can be equipped to each of your Holomem.",
         "hasFoils": true
     },
     {
@@ -1795,7 +1795,7 @@
         "cardNumber": "hBP04-099",
         "rarity": "U",
         "type": "Support (Tool)",
-        "ability": "If the holomem with this Tool attached is downed during your opponent's turn, you may archive 1 card from your hand for the following effect: Put this card into your hand. If this is attached to a 1st Bloom or higher Anya Melfissa, it gains the following effect: For each Ancient Weapon attached to holomems on your stage, the arts of the holomem with this Tool attached gain +10 power. You may only attach 1 Tool to a holomem.",
+        "ability": "During your opponent's turn, when the Holomem equipped with this Tool is downed, you may archive 1 card from your hand: Return this Tool to your hand. If attached to a 1st or higher <Anya Melfissa> The Holomem attached with this Tool gets +10 to its Arts for each <Ancient Weapon> on your stage. Only one Tool can be equipped to each of your Holomem.",
         "hasFoils": true
     },
     {
@@ -1804,7 +1804,7 @@
         "cardNumber": "hBP04-100",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to a 1st Bloom or higher Hakui Koyori, it gains the following effect: When the holomem with this Mascot attached collabs, their Arts gain +10 power until the end of this turn. You may only attach 1 Mascot to a holomem.",
+        "ability": "The HP of the Holomem this Mascot is attached to is increased by 20 If this is attached to a 1st Bloom or higher <Hakui Koyori>, it gains the following effect: When the holomem with this Mascot attached collabs, their Arts gain +10 power until the end of this turn. O Only one Mascot can be attached to each of your Holomem.",
         "hasFoils": true
     },
     {
@@ -1812,7 +1812,7 @@
         "cardNumber": "hBP04-101",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The arts of the holomem with this Mascot attached gain +10 power. If this is attached to Yukihana Lamy, it gains the following effect: The holomem with this Mascot attached has +20 HP. You may only attach 1 Mascot to a holomem.",
+        "ability": "The Arts of the Holomem this Mascot is attached to is increased by 10. If this is attached to >Yukihana Lamy?, it gains the following effect: The HP of the Holomem this Mascot is attached to is increased by 20. Only one Mascot can be attached to each of your Holomem.",
         "hasFoils": true
     },
     {
@@ -1820,7 +1820,7 @@
         "cardNumber": "hBP04-102",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The arts of the holomem with this Mascot attached gain +10 power. If this is attached to a 1st Bloom or higher holomem with #Gen5, it gains the following effect: [Back position only] The holomem with this mascot attached does not take any damage from your opponent. You may only attach 1 Mascot to a holomem.",
+        "ability": "The Arts of the Holomem this Mascot is attached to is increased by 10. If this is attached to a 1st Bloom or higher holomem with #Gen5, it gains the following effect: [Back position only] The holomem with this mascot attached does not take any damage from your opponent. Only one Mascot can be attached to each of your Holomem",
         "hasFoils": true
     },
     {
@@ -1828,7 +1828,7 @@
         "cardNumber": "hBP04-103",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The arts of the holomem with this Mascot attached gain +10 power. If this is attached to La+ Darknesss, it gains the following effect: [Collab position only] [Once per turn] During your main step, you may roll a dice. If the result is odd, move the holomem with this Mascot attached to the back position. You may only attach 1 Mascot to a holomem.",
+        "ability": "The Arts of the Holomem this Mascot is attached to is increased by 10.. If this is attached to <La+ Darknesss>, it gains the following effect: [Collab Position Only] [Once per turn]: During your Main Step, you may roll a die once: If the result is an odd number, move the Holomem this Mascot is attached to to a Back Position. Only one Mascot can be attached to each of your Holomem",
         "hasFoils": true
     },
     {
@@ -1836,7 +1836,7 @@
         "cardNumber": "hBP04-104",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to Oozora Subaru, it gains the following effect: If there is a total of 10 or more cheers in play between both players, the arts of holomem with this Mascot attached gain +20 power. You may only attach 1 Mascot to a holomem.",
+        "ability": "The HP of the Holomem this Mascot is attached to is increased by 20. If this is attached to <Oozora Subaru>, it gains the following effect: While there are a total of 10 or more Yell on both stages combined, the Arts of the Holomem this Mascot is attached to is increased by 20. Only one Mascot can be attached to each of your Holomem.",
         "hasFoils": true
     },
     {
@@ -1845,7 +1845,7 @@
         "cardNumber": "hBP04-105",
         "rarity": "U",
         "type": "Support (Fan)",
-        "ability": "When you attach this Fan to one of your holomem from hand or from archive, you may move 1 cheer on your stage to the holomem this Fan was attached to. This Fan may only be attached to your Hakui Koyori, and you may attach any number of this Fan to one holomem.",
+        "ability": "When you attach this Fan to one of your holomem from hand or from archive, you may move 1 cheer on your stage to the holomem this Fan was attached to. This Fan may only be attached to <Hakui Koyori>, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     },
     {
@@ -1853,7 +1853,7 @@
         "cardNumber": "hBP04-106",
         "rarity": "U",
         "type": "Support (Fan)",
-        "ability": "Special damage done by the holomem with this Fan attached to your opponent's center holomem is increased by +10. This Fan may only be attached to your Yukihana Lamy, and you may attach any number of this Fan to one holomem.",
+        "ability": "Special damage that the Holomem equipped with this Fan deals to the opponent's center Holomem is increased by 10. This Fan may only be attached to <Yukihana Lamy>, and you may attach any number of this Fan to one holomem.",
         "hasFoils": true
     }
 ]
