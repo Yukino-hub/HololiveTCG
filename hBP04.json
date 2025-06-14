@@ -11,7 +11,7 @@
             "description": "[Once Per Turn] The arts of one of your <Hakui Koyori> with a #KoyoLabo support card attached  gain +30 power until the end of this turn."
         },
         "spOshiSkill": {
-            "name": "Assisant-kun, mwah!",
+            "name": "助手くん、んーまっ！",
             "power": 2,
             "description": "[Once Per Game] Can be used during your opponent's turn when your <Hakui Koyori> equipped with <Koyori's Assistant-kun> takes damage from an opponent: The damage taken by that Holomem is reduced by 100."
         },
