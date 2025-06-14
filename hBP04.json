@@ -6,15 +6,16 @@
         "color": "White",
         "lives": 5,
         "oshiSkill": {
-            "name": "Koyori Experiment",
+            "name": "こより実験中",
             "power": 2,
-            "description": "[Once Per Turn] The arts of one of your holomem named Hakui Koyori which has a card with #KoyoLabo attached gain +30 power until the end of this turn."
+            "description": "[Once Per Turn] The arts of one of your <Hakui Koyori> with a #KoyoLabo support card attached  gain +30 power until the end of this turn."
         },
         "spOshiSkill": {
             "name": "Assisant-kun, mwah!",
             "power": 2,
-            "description": "[Once Per Game] Usable if your holomem named Hakui Koyori with a Koyori's Assistant-kun attached is about to take damage during your opponent's turn: Reduce that damage by 100."
+            "description": "[Once Per Game] Can be used during your opponent's turn when your <Hakui Koyori> equipped with <Koyori's Assistant-kun> takes damage from an opponent: The damage taken by that Holomem is reduced by 100."
         },
+        "hasAlternativeArt": true,
         "hasSigned": true
     },
     {
@@ -24,15 +25,16 @@
         "color": "Green",
         "lives": 6,
         "oshiSkill": {
-            "name": "The elegant one of ReGLOSS",
+            "name": "ReGLOSSの風流人",
             "power": 2,
             "description": "[Once Per Turn] Send 1 cheer from your archive to one of your holomem with #ReGLOSS."
         },
         "spOshiSkill": {
-            "name": "Spinning around in my spare time",
+            "name": "余った時間でぐるぐる",
             "power": 2,
             "description": "[Once Per Game] Return 1-4 Events with #Mushroom from your archive to hand. Then, for each 2 cards returned to your hand, draw 1 card."
-        }
+        },
+        "hasAlternativeArt": true
     },
     {
         "name": "Ichijou Ririka",
@@ -46,10 +48,11 @@
             "description": "[Once Per Turn] If your center holomem has #ReGLOSS, deal 50 special damage to your opponent's collab holomem."
         },
         "spOshiSkill": {
-            "name": "Kawaii! Positive! Genius!",
+            "name": "かわいい！ ポジティブ！ ジーニアス！",
             "power": 1,
-            "description": "[Once Per Game] Usable if your holomem named Ichijou Ririka is downed during your opponent's turn: reveal 1 Ichijou Ririka and 1 Struggle Meal from your deck and put them into your hand. Then shuffle your deck."
-        }
+            "description": "[Once Per Game] Can be used during your opponent's turn when your <Ichijo Ririka> is downed: Reveal 1 <Ichijo Ririka> and 1 <Genkai-Meshi> each from your deck and add them to your hand. Then, shuffle your deck."
+        },
+        "hasAlternativeArt": true
     },
     {
         "name": "Yukihana Lamy",
@@ -58,15 +61,16 @@
         "color": "Blue",
         "lives": 5,
         "oshiSkill": {
-            "name": "Love you",
+            "name": "愛してる",
             "power": 1,
-            "description": "[Once Per Turn] Usable if your holomem is downed during your opponent's turn: Return 1 Fan attached to that holomem to hand."
+            "description": "[Once Per Turn] Can be used during your opponent's turn when your holomem is downed during your opponent's turn: Return 1 Fan attached to that holomem to hand."
         },
         "spOshiSkill": {
-            "name": "Vrooooom! Baribaribaribari",
+            "name": "ぶーん、バリバリバリバリ",
             "power": 3,
-            "description": "[Once Per Game] Choose one of your holomem named Yukihana Lamy. Until the end of this turn, whenever that holomem deals special damage to a single opposing holomem, that damage is increased by +100. When the chosen holomem downs one of your opponent's holomem during this turn, draw 2 cards."
+            "description": "[Once Per Game] Choose one of your <Yukihana Lamy>. For the rest of this turn, the special damage that the chosen Holomem deals to one of the opponent's Holomem is increased by 100, and when the chosen Holomem downs an opponent's Holomem, draw 2 cards from your deck."
         },
+        "hasAlternativeArt": true,
         "hasSigned": true
     },
     {
@@ -76,15 +80,16 @@
         "color": "Purple",
         "lives": 5,
         "oshiSkill": {
-            "name": "Leader's work",
+            "name": "総帥のお仕事",
             "power": 2,
-            "description": "[Once Per Turn] During this turn, whenever you roll a dice 3 times as part of an ability or arts, treat all dice rolls as if the result was 5."
+            "description": "[Once Per Turn] During this turn, When you roll 3 dice at once due to the ability of your Holomem, you may treat all of those dice results as 5."
         },
         "spOshiSkill": {
-            "name": "We are Secret Society holoX!",
+            "name": "我ら秘密結社holoX!",
             "power": 3,
-            "description": "[Once Per Game] The arts of one of your holomem with #SecretSocietyholoX can be used without fulfilling their cheer requirement until the end of this turn."
+            "description": "[Once Per Game] Choose one of your Holomem with the #SecretSocietyHoloX For the rest of this turn, the chosen Holomem's Arts can be used without needing the cheer requirement."
         },
+        "hasAlternativeArt": true,
         "hasSigned": true
     },
     {
@@ -94,15 +99,16 @@
         "color": "Yellow",
         "lives": 5,
         "oshiSkill": {
-            "name": "Mental! Physical! Passion!",
+            "name": "メンタル！ フィジカル！ パッション！",
             "power": 2,
-            "description": "[Once Per Turn] Usable if your holomem named Oozora Subaru is about to take damage during your opponent's turn: Reduce the damage taken by all of your holomem named Oozora Subaru from that effect by 30."
+            "description": "[Once Per Turn] Can be used during your opponent's turn when your <Oozora Subaru> takes damage from an opponent: All of your <Oozora Subaru> take -30 damage that dmg instance"
         },
         "spOshiSkill": {
-            "name": "Reaction Arts",
+            "name": "リアクション芸",
             "power": 2,
-            "description": "[Once Per Game] Usable if you have 3 or less Life: If your center holomem is Oozora Subaru, that holomem's arts gain +100 power until the end of this turn."
+            "description": "[Once Per Game] Can be used if you have 3 or less Life: For the rest of this turn, your Center Holomem <Oozora Subaru> gets +100 to its Arts."
         },
+        "hasAlternativeArt": true,
         "hasSigned": true
     },
     {
@@ -112,15 +118,16 @@
         "color": "Yellow",
         "lives": 5,
         "oshiSkill": {
-            "name": "Mystical Ritual",
+            "name": "神秘の儀式",
             "power": 2,
-            "description": "[Once Per Turn] Reveal 1 Ancient Weapon from your deck and attach it to any of your holomem. Then shuffle your deck."
+            "description": "[Once Per Turn] Reveal 1 <Ancient Weapon> from your deck and attach it to any of your holomem. Then shuffle your deck."
         },
         "spOshiSkill": {
-            "name": "Those who think about life will win",
+            "name": "人生のこと考えていた方が勝てる",
             "power": 2,
-            "description": "[Once Per Game] Send 1 cheer from your archive to each of your holomem that have an Ancient Weapon attached."
-        }
+            "description": "[Once Per Game] Send 1 cheer from your archive to each of your holomem that have <Ancient Weapon> attached."
+        },
+        "hasAlternativeArt": true
     },
     {
         "name": "Hakui Koyori",
@@ -133,7 +140,7 @@
         "extraEffect": "You may put any number of copies of this holomem in your deck.",
         "skills": [
             {
-                "name": "Konkoyo",
+                "name": "こんこよ～",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -149,12 +156,13 @@
         "hp": 100,
         "skills": [
             {
-                "name": "Oh, you poor souls lost within an eternal cycle",
+                "name": "終わりなき輪廻に迷いし子らよ",
                 "cost": "1 any color",
                 "dmg": "20",
-                "description": "Look at the top 3 cards of your deck. From among them, you may reveal a Debut holomem with #SecretSocietyholoX or a Support card with #KoyoLabo and put the revealed card into your hand. Then put the remaining cards on the bottom of your deck in any order."
+                "description": "Look at the top 3 cards of your deck. From among them, reveal one [Debut Holomem with the #SecretSocietyHoloX or a Support card with the #KoyoLab] and add it to your hand. Then, return the remaining cards to the bottom of your deck in any order."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Hakui Koyori",
@@ -166,16 +174,17 @@
         "hp": 160,
         "skills": [
             {
-                "name": "Assistant-kun, you seem tired?",
+                "name": "助手く～ん、なんかお疲れっぽい？",
                 "cost": "1 any color",
                 "dmg": "40"
             },
             {
-                "name": "Will you sleep with me?",
+                "name": "こよに添い寝される？",
                 "cost": "1 White, 1 any color",
                 "dmg": "60"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Hakui Koyori",
@@ -187,12 +196,13 @@
         "hp": 140,
         "skills": [
             {
-                "name": "Assistant-kun, watch out!",
+                "name": "助手くんっ見ててね！",
                 "cost": "1 any color",
                 "dmg": "30",
-                "description": "You may attach a Koyori's Assistant-kun from your archive to one of your other holomem named Hakui Koyori."
+                "description": "You may attach a <Koyori's Assistant-kun> from your archive to one of your other holomem named <Hakui Koyori?."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Hakui Koyori",
@@ -202,15 +212,16 @@
         "color": "White",
         "bloomLevel": "1st",
         "hp": 140,
-        "bloomEffect": "Hai! Hai! Hai! Hai! : Reveal 1 Support card with #KoyoLabo from your deck and put it into your hand. Then shuffle your deck.",
+        "bloomEffect": "はい！ はい！ はい！ はい！ : Reveal 1 Support card with #KoyoLabo from your deck and put it into your hand. Then shuffle your deck.",
         "skills": [
             {
-                "name": "Assistant-kun and Koyo will always be together!",
+                "name": "助手くんとこよはずっと一緒だよ！",
                 "cost": "1 White",
                 "dmg": "30",
-                "description": "If this holomem has a Koyori's Assistant-kun attached, draw 1 card."
+                "description": "If this holomem has <Koyori's Assistant-kun> attached, draw 1 card from top of deck."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Hakui Koyori",
@@ -228,7 +239,9 @@
                 "dmg": "160, +50 vs Green",
                 "description": "If this holomem has a Support card with #KoyoLabo attached, reveal 1 Support card with #KoyoLabo from your deck and put it into your hand. Then shuffle your deck."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Shirakami Fubuki",
@@ -246,7 +259,8 @@
                 "dmg": "100+, +50 vs Green",
                 "description": "If there are any holomem with #Gamers that are not named Shirakami Fubuki on your stage, this art gains +50 power."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "IRyS",
@@ -265,7 +279,8 @@
                 "dmg": "30+",
                 "description": "For each of your holomem with #Promise, this art gains +10 Power. The maximum number of holomem counted for this effect is 4."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Raora Panthera",
@@ -299,7 +314,8 @@
                 "cost": "1 any color",
                 "dmg": "40"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Raora Panthera",
@@ -316,7 +332,8 @@
                 "cost": "2 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Raora Panthera",
@@ -334,7 +351,8 @@
                 "dmg": "70+, +50 vs Red",
                 "description": "[Collab position only] If your center holomem has #Art, this art gains +80 power."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Juufuutei Raden",
@@ -373,7 +391,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Juufuutei Raden",
@@ -394,7 +413,8 @@
                 "cost": "1 Green, 1 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Juufuutei Raden",
@@ -411,7 +431,8 @@
                 "cost": "1 any color",
                 "dmg": "40"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Juufuutei Raden",
@@ -429,7 +450,8 @@
                 "dmg": "30",
                 "description": "You may send 1 cheer from your archive to this holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Juufuutei Raden",
@@ -447,7 +469,9 @@
                 "dmg": "140+, +50 vs White",
                 "description": "If your oshi holomem is Juufuutei Raden, you may choose 2 of your back holomem and move 1 cheer from this holomem to each of them. If you do, this art gains +30 power."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Ookami Mio",
@@ -465,7 +489,8 @@
                 "dmg": "100+, +50 vs White",
                 "description": "If there are any holomem with #Gamers that are not named Ookami Mio on your stage, this art gains +50 power."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Pavolia Reine",
@@ -482,7 +507,8 @@
                 "cost": "1 Green",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Cecilia Immergreen",
@@ -515,7 +541,8 @@
                 "cost": "2 any color",
                 "dmg": "60"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Cecilia Immergreen",
@@ -532,7 +559,8 @@
                 "cost": "1 Green, 1 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Cecilia Immergreen",
@@ -550,7 +578,8 @@
                 "dmg": "80, +50 vs Yellow",
                 "description": "Reveal 1 cheer from your cheer deck of the same color as one of your back holomem with #Languages, and send it to that holomem. Then shuffle your cheer deck."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Ichijou Ririka",
@@ -589,7 +618,8 @@
                 "dmg": "30",
                 "description": "If you have played a Struggle Meal during this turn, deal 20 special damage to your opponent's collab holomem."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Ichijou Ririka",
@@ -610,7 +640,8 @@
                 "cost": "1 Red, 1 any color",
                 "dmg": "60"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Ichijou Ririka",
@@ -628,7 +659,8 @@
                 "dmg": "50",
                 "description": "Deal 20 special damage to your opponent's collab holomem."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Ichijou Ririka",
@@ -646,7 +678,8 @@
                 "dmg": "30",
                 "description": "If this art is targeting your opponent's collab holomem, draw 1 card."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Ichijou Ririka",
@@ -664,7 +697,9 @@
                 "dmg": "80, +50 vs Yellow",
                 "description": "Deal 50 special damage to your opponent's center holomem. Then, if you have played a Struggle Meal during this turn, deal 30 special damage to your opponent's center or collab holomem."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Houshou Marine",
@@ -682,7 +717,8 @@
                 "dmg": "50+, +50 vs Green",
                 "description": "For each holomem stacked under this one, this art gains +20 power."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Kaela Kovalskia",
@@ -720,7 +756,8 @@
                 "cost": "1 Red, 1 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Kaela Kovalskia",
@@ -737,7 +774,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Kaela Kovalskia",
@@ -762,7 +800,9 @@
                 "dmg": "90",
                 "description": "If any of your holomem have a Tool with #Kaela'sArms attached, deal 30 special damage to your opponent's collab holomem."
             }
-        ]
+        ],
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "name": "Yukihana Lamy",
@@ -797,7 +837,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Yukihana Lamy",
@@ -818,7 +859,8 @@
                 "cost": "1 Blue, 1 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Yukihana Lamy",
@@ -835,7 +877,8 @@
                 "dmg": "30",
                 "description": "If there are any holomem on your stage with a Fan attached, deal 10 special damage to any of your opponent's holomem."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Yukihana Lamy",
@@ -852,7 +895,8 @@
                 "cost": "1 Blue, 1 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Yukihana Lamy",
@@ -870,7 +914,9 @@
                 "dmg": "130, +50 vs Red",
                 "description": "You may archive 1 cheer from this holomem for the following effect: deal 30 special damage to your opponent's center holomem or one of their back holomem."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Moona Hoshinova",
@@ -892,7 +938,8 @@
                 "dmg": "80+, +50 vs White",
                 "description": "Deal 20 special damage to one of your opponent's back holomem. Then, if you have any holomem with a color that is not this holomem's color, this art gains +50 power.\n\nNOTE: This has been clarified in the Q&A and this text has been updated to reflect the actual effect of this card. I was wrong before, my apologies."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Shiori Novella",
@@ -930,7 +977,8 @@
                 "cost": "2 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Shiori Novella",
@@ -947,7 +995,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Shiori Novella",
@@ -967,7 +1016,9 @@
                 "dmg": "70",
                 "description": "You may reveal the top card of your holo Power. If the revealed card is a holomem with #EN, deal 20 special damage to any of your opponent's holomem. Then put the revealed card face down at the bottom of your holo Power."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "La+ Darknesss",
@@ -984,7 +1035,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "La+ Darknesss",
@@ -1002,7 +1054,8 @@
                 "dmg": "30+",
                 "description": "This art gains +10 power for each of your opponent's holomem who are resting."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "La+ Darknesss",
@@ -1040,7 +1093,8 @@
                 "cost": "1 any color",
                 "dmg": "40"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "La+ Darknesss",
@@ -1057,7 +1111,8 @@
                 "cost": "1 Purple",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "La+ Darknesss",
@@ -1075,7 +1130,9 @@
                 "dmg": "120, +50 vs Blue",
                 "description": "Deal 10 special damage to your opponent's center holomem for each time you rolled a dice as part of your effects during this turn."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Murasaki Shion",
@@ -1095,7 +1152,8 @@
                 "dmg": "40",
                 "description": "For each cheer attached to your opponent's center holomem, deal 10 special damage to your opponent's center and collab holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Kureiji Ollie",
@@ -1113,7 +1171,8 @@
                 "dmg": "80+, +50 vs Green",
                 "description": "For each of your 2nd Bloom holomem with #IDGen2 other than this holomem, this art gains +20 power."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Mori Calliope",
@@ -1133,7 +1192,8 @@
                 "dmg": "50",
                 "description": "Look at the top 2 cards of your deck. Archive one of them and return the other to the top of your deck."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Koseki Bijou",
@@ -1167,7 +1227,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Koseki Bijou",
@@ -1185,7 +1246,8 @@
                 "dmg": "30+",
                 "description": "If there are any red cheers in your archive, this art gains +20 power."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Koseki Bijou",
@@ -1203,7 +1265,9 @@
                 "dmg": "80+, +50 vs Green",
                 "description": "For each cheer in your opponent's archive, this art gains +10 power."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Oozora Subaru",
@@ -1242,7 +1306,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Oozora Subaru",
@@ -1263,7 +1328,8 @@
                 "cost": "1 Yellow, 1 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Oozora Subaru",
@@ -1280,7 +1346,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Oozora Subaru",
@@ -1302,7 +1369,8 @@
                 "cost": "1 yellow, 2 any color",
                 "dmg": "90"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Oozora Subaru",
@@ -1320,7 +1388,9 @@
                 "dmg": "100+, +50 vs White",
                 "description": "For each cheer in play between both players, this art gains +10 power. The maximum number of cheers counted for this effect is 8."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Anya Melfissa",
@@ -1354,7 +1424,8 @@
                 "cost": "1 Yellow",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Anya Melfissa",
@@ -1375,7 +1446,8 @@
                 "cost": "1 Yellow, 1 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Anya Melfissa",
@@ -1392,7 +1464,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Anya Melfissa",
@@ -1409,7 +1482,8 @@
                 "cost": "1 Yellow, 1 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Anya Melfissa",
@@ -1426,7 +1500,9 @@
                 "cost": "2 Yellow, 2 any color",
                 "dmg": "160, +50 vs Red"
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1465,7 +1541,8 @@
                 "cost": "2 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1482,7 +1559,8 @@
                 "cost": "1 Yellow",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1500,7 +1578,9 @@
                 "dmg": "60+, +50 vs White",
                 "description": "For each cheer attached to this holomem, this art gains +20 power."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Momosuzu Nene",
@@ -1539,7 +1619,8 @@
                 "cost": "1 Yellow, 1 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Momosuzu Nene",
@@ -1556,7 +1637,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Momosuzu Nene",
@@ -1578,7 +1660,9 @@
                 "dmg": "50+, +50 vs White",
                 "description": "For each cheer in your archive, this art gains +20 power. The maximum number of cheers counted for this effect is 5."
             }
-        ]
+        ],
+        "hasAlternativeArt": true,
+        "hasFullArt": true
     },
     {
         "name": "Elizabeth Rose Bloodflame",
@@ -1595,7 +1679,8 @@
                 "cost": "2 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Gigi Murin",
@@ -1612,7 +1697,8 @@
                 "cost": "1 any color",
                 "dmg": "10"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Two-tone PC",
@@ -1620,7 +1706,8 @@
         "rarity": "U",
         "type": "Support (Item)",
         "limited": "Yes",
-        "ability": "This card can only be played if you have at least 2 holomem with different single colors on your stage. Choose two of your single colored holomem with different colors. Reveal one 1st Bloom holomem from your deck (excluding Buzz holomem) of each of those colors, and put them into your hand. Then shuffle your deck."
+        "ability": "This card can only be played if you have at least 2 holomem with different single colors on your stage. Choose two of your single colored holomem with different colors. Reveal one 1st Bloom holomem from your deck (excluding Buzz holomem) of each of those colors, and put them into your hand. Then shuffle your deck.",
+        "hasFoils": true
     },
     {
         "name": "Work PC",
@@ -1628,7 +1715,8 @@
         "rarity": "U",
         "type": "Support (Item)",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal up to one holomem and up to one Tool, Mascot, or Fan from among them and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal up to one holomem and up to one Tool, Mascot, or Fan from among them and put them into your hand. Then put the remaining cards on the bottom of your deck in any order.",
+        "hasFoils": true
     },
     {
         "name": "Struggle Meal",
@@ -1636,7 +1724,8 @@
         "cardNumber": "hBP04-091",
         "rarity": "U",
         "type": "Support (Event)",
-        "ability": "During this turn, one of your holomem named Ichijou Ririka has the cheer cost of their arts reduced by 1 colourless cheer. You may only use the card \"Struggle Meal\" once per turn."
+        "ability": "During this turn, one of your holomem named Ichijou Ririka has the cheer cost of their arts reduced by 1 colourless cheer. You may only use the card \"Struggle Meal\" once per turn.",
+        "hasFoils": true
     },
     {
         "name": "NePoLaBo",
@@ -1644,7 +1733,8 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal any number of them that are holomem with #Gen5 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal any number of them that are holomem with #Gen5 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order.",
+        "hasFoils": true
     },
     {
         "name": "hololive 2nd Generation",
@@ -1652,7 +1742,8 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal any number of them that are holomem with #Gen2 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal any number of them that are holomem with #Gen2 and put them into your hand. Then put the remaining cards on the bottom of your deck in any order.",
+        "hasFoils": true
     },
     {
         "name": "Maitake Dance",
@@ -1660,7 +1751,8 @@
         "cardNumber": "hBP04-094",
         "rarity": "U",
         "type": "Support (Event)",
-        "ability": "Choose one of your holomem named Juufuutei Raden. You may move any 1-2 cheers on your stage to the chosen holomem. Then, if that holomem has at least 3 cheers attached, their arts gain +10 power until the end of this turn."
+        "ability": "Choose one of your holomem named Juufuutei Raden. You may move any 1-2 cheers on your stage to the chosen holomem. Then, if that holomem has at least 3 cheers attached, their arts gain +10 power until the end of this turn.",
+        "hasFoils": true
     },
     {
         "name": "Mascot Catcher",
@@ -1668,7 +1760,8 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "Reveal 1 Mascot from your deck and put it into your hand. Then shuffle your deck."
+        "ability": "Reveal 1 Mascot from your deck and put it into your hand. Then shuffle your deck.",
+        "hasFoils": true
     },
     {
         "name": "Advent",
@@ -1676,7 +1769,8 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal any number of them that are holomem with #Advent and put them into your hand. Then put the remaining cards on the bottom of your deck in any order."
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your deck. Reveal any number of them that are holomem with #Advent and put them into your hand. Then put the remaining cards on the bottom of your deck in any order.",
+        "hasFoils": true
     },
     {
         "name": "Green Test Tube",
@@ -1684,7 +1778,8 @@
         "cardNumber": "hBP04-097",
         "rarity": "U",
         "type": "Support (Tool)",
-        "ability": "The arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later Hakui Koyori, it gains the following effect: During your Main Step, you may archive 1 Cheer from the holomem with this Tool attached to unrest one of your resting holomem with #SecretSocietyholoX. You may only attach 1 Tool to a holomem."
+        "ability": "The arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later Hakui Koyori, it gains the following effect: During your Main Step, you may archive 1 Cheer from the holomem with this Tool attached to unrest one of your resting holomem with #SecretSocietyholoX. You may only attach 1 Tool to a holomem.",
+        "hasFoils": true
     },
     {
         "name": "Blacksmith's Hammer",
@@ -1692,14 +1787,16 @@
         "cardNumber": "hBP04-098",
         "rarity": "U",
         "type": "Support (Tool)",
-        "ability": "The arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later holomem with #ID3, it gains the following effect: The arts of the holomem with this Tool attached gain another +10 power. You may only attach 1 Tool to a holomem."
+        "ability": "The arts of the holomem with this Tool attached gain +10 power. If this is attached to a 1st Bloom or later holomem with #ID3, it gains the following effect: The arts of the holomem with this Tool attached gain another +10 power. You may only attach 1 Tool to a holomem.",
+        "hasFoils": true
     },
     {
         "name": "Ancient Weapon",
         "cardNumber": "hBP04-099",
         "rarity": "U",
         "type": "Support (Tool)",
-        "ability": "If the holomem with this Tool attached is downed during your opponent's turn, you may archive 1 card from your hand for the following effect: Put this card into your hand. If this is attached to a 1st Bloom or higher Anya Melfissa, it gains the following effect: For each Ancient Weapon attached to holomems on your stage, the arts of the holomem with this Tool attached gain +10 power. You may only attach 1 Tool to a holomem."
+        "ability": "If the holomem with this Tool attached is downed during your opponent's turn, you may archive 1 card from your hand for the following effect: Put this card into your hand. If this is attached to a 1st Bloom or higher Anya Melfissa, it gains the following effect: For each Ancient Weapon attached to holomems on your stage, the arts of the holomem with this Tool attached gain +10 power. You may only attach 1 Tool to a holomem.",
+        "hasFoils": true
     },
     {
         "name": "Kokoro",
@@ -1707,35 +1804,40 @@
         "cardNumber": "hBP04-100",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to a 1st Bloom or higher Hakui Koyori, it gains the following effect: When the holomem with this Mascot attached collabs, their Arts gain +10 power until the end of this turn. You may only attach 1 Mascot to a holomem."
+        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to a 1st Bloom or higher Hakui Koyori, it gains the following effect: When the holomem with this Mascot attached collabs, their Arts gain +10 power until the end of this turn. You may only attach 1 Mascot to a holomem.",
+        "hasFoils": true
     },
     {
         "name": "Daifuku",
         "cardNumber": "hBP04-101",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The arts of the holomem with this Mascot attached gain +10 power. If this is attached to Yukihana Lamy, it gains the following effect: The holomem with this Mascot attached has +20 HP. You may only attach 1 Mascot to a holomem."
+        "ability": "The arts of the holomem with this Mascot attached gain +10 power. If this is attached to Yukihana Lamy, it gains the following effect: The holomem with this Mascot attached has +20 HP. You may only attach 1 Mascot to a holomem.",
+        "hasFoils": true
     },
     {
         "name": "Yamena",
         "cardNumber": "hBP04-102",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The arts of the holomem with this Mascot attached gain +10 power. If this is attached to a 1st Bloom or higher holomem with #Gen5, it gains the following effect: [Back position only] The holomem with this mascot attached does not take any damage from your opponent. You may only attach 1 Mascot to a holomem."
+        "ability": "The arts of the holomem with this Mascot attached gain +10 power. If this is attached to a 1st Bloom or higher holomem with #Gen5, it gains the following effect: [Back position only] The holomem with this mascot attached does not take any damage from your opponent. You may only attach 1 Mascot to a holomem.",
+        "hasFoils": true
     },
     {
         "name": "Crow",
         "cardNumber": "hBP04-103",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The arts of the holomem with this Mascot attached gain +10 power. If this is attached to La+ Darknesss, it gains the following effect: [Collab position only] [Once per turn] During your main step, you may roll a dice. If the result is odd, move the holomem with this Mascot attached to the back position. You may only attach 1 Mascot to a holomem."
+        "ability": "The arts of the holomem with this Mascot attached gain +10 power. If this is attached to La+ Darknesss, it gains the following effect: [Collab position only] [Once per turn] During your main step, you may roll a dice. If the result is odd, move the holomem with this Mascot attached to the back position. You may only attach 1 Mascot to a holomem.",
+        "hasFoils": true
     },
     {
         "name": "Subarudo Duck",
         "cardNumber": "hBP04-104",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to Oozora Subaru, it gains the following effect: If there is a total of 10 or more cheers in play between both players, the arts of holomem with this Mascot attached gain +20 power. You may only attach 1 Mascot to a holomem."
+        "ability": "The holomem with this Mascot attached has +20 HP. If this is attached to Oozora Subaru, it gains the following effect: If there is a total of 10 or more cheers in play between both players, the arts of holomem with this Mascot attached gain +20 power. You may only attach 1 Mascot to a holomem.",
+        "hasFoils": true
     },
     {
         "name": "Koyori's Assistant-kun",
@@ -1743,13 +1845,15 @@
         "cardNumber": "hBP04-105",
         "rarity": "U",
         "type": "Support (Fan)",
-        "ability": "When you attach this Fan to one of your holomem from hand or from archive, you may move 1 cheer on your stage to the holomem this Fan was attached to. This Fan may only be attached to your Hakui Koyori, and you may attach any number of this Fan to one holomem."
+        "ability": "When you attach this Fan to one of your holomem from hand or from archive, you may move 1 cheer on your stage to the holomem this Fan was attached to. This Fan may only be attached to your Hakui Koyori, and you may attach any number of this Fan to one holomem.",
+        "hasFoils": true
     },
     {
         "name": "Yukimin",
         "cardNumber": "hBP04-106",
         "rarity": "U",
         "type": "Support (Fan)",
-        "ability": "Special damage done by the holomem with this Fan attached to your opponent's center holomem is increased by +10. This Fan may only be attached to your Yukihana Lamy, and you may attach any number of this Fan to one holomem."
+        "ability": "Special damage done by the holomem with this Fan attached to your opponent's center holomem is increased by +10. This Fan may only be attached to your Yukihana Lamy, and you may attach any number of this Fan to one holomem.",
+        "hasFoils": true
     }
 ]
