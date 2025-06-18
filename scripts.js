@@ -73,35 +73,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
     /**
      * Constructs the image URL for a card, allowing for a manual override.
-     * If card.manualUrl is present, it will be used directly.
-     * Otherwise, the URL is generated based on card properties.
+     * The logic prioritizes image types in a specific order.
+     * @param {object} card - The card data object from JSON.
+     * @returns {string} The final image URL for the card.
      */
     function getImageUrl(card) {
-        // If a manual URL is provided in the JSON, use it directly.
+        // Priority 1: Manual URL Override. If a card has `manualUrl`, use it immediately.
+        // This is the most powerful override and ignores all other logic.
+        // Ensure the property name in your JSON is "manualUrl" (case-sensitive).
         if (card.manualUrl) {
             return card.manualUrl;
         }
-
-        const directory =  card.setName; // Defaults to set
         
         // Handle signed cards (SEC rarity)
         if (signedCheckbox.checked && card.hasSigned) {
+            const directory = card.imageSet || card.setName;
             return `${baseUrl}${directory}/${card.cardNumber}_SEC.png`;
         }
-
+    
         // Handle full art cards (SR rarity)
         if (fullArtCheckbox.checked && card.hasFullArt) {
-            const fullArtDirectory = card.imageSet || card.setName; // use imageSet if provided, otherwise set
-            return `${baseUrl}${fullArtDirectory}/${card.cardNumber}_SR.png`;
+            const directory = card.imageSet || card.setName;
+            return `${baseUrl}${directory}/${card.cardNumber}_SR.png`;
         }
-
-        // Handle foil cards (S rarity)
-        if (foilCheckbox.checked && card.hasFoils) {
-            return `${baseUrl}${directory}/${card.cardNumber}_S.png`;
-        }
-        
-        // Handle alternative art cards if the checkbox is checked
+    
+        // Handle alternative art cards (OUR/UR)
         if (altArtCheckbox.checked && card.hasAlternativeArt) {
+            const directory = card.imageSet || card.setName;
             const altRarityMap = {
                 OSR: 'OUR',
                 RR: 'UR', 
@@ -109,20 +107,27 @@ document.addEventListener('DOMContentLoaded', function() {
             const altRarity = altRarityMap[card.rarity] || card.rarity;
             return `${baseUrl}${directory}/${card.cardNumber}_${altRarity}.png`;
         }
-
-        // Handle Grandprix art cards if the checkbox is checked
-        if (grandprixCheckbox.checked && card.hasGrandPrix) {
-            const GrandprixDir = "hPR" || card.setName; // use GrandprixDir if provided, otherwise set
-            return `${baseUrl}${GrandprixDir}/${card.cardNumber}_P.png`;
+        
+        // Handle foil cards (S rarity)
+        if (foilCheckbox.checked && card.hasFoils) {
+            const directory = card.imageSet || card.setName;
+            return `${baseUrl}${directory}/${card.cardNumber}_S.png`;
         }
-
-        // New condition for SY rarity if imageSet is provided
+        
+        // Handle Grandprix art cards (P rarity)
+        if (grandprixCheckbox.checked && card.hasGrandPrix) {
+            // Grand Prix cards are typically in the 'hPR' set.
+            const directory = "hPR";
+            return `${baseUrl}${directory}/${card.cardNumber}_P.png`;
+        }
+    
+        // Handle specific rarities that might use imageSet, like SY, as a fallback.
         if (card.rarity === 'SY' && card.imageSet) {
             return `${baseUrl}${card.imageSet}/${card.cardNumber}_SY.png`;
         }
-
-        // Default URL for standard art
-        return `${baseUrl}${directory}/${card.cardNumber}_${card.rarity}.png`;
+    
+        // Default URL for standard art. This should always use the card's native `setName`.
+        return `${baseUrl}${card.setName}/${card.cardNumber}_${card.rarity}.png`;
     }
 
     function loadCardData() {
