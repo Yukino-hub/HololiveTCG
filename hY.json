@@ -64,5 +64,41 @@
         "name": "Yellow Cheer (Watame)",
         "rarity": "SY",
         "imageSet": "hBP03"
+    },
+        {
+        "cardNumber": "hY01-006",
+        "name": "White Cheer (Koyori)",
+        "rarity": "SY",
+        "imageSet": "hBP04"
+    },
+     {
+        "cardNumber": "hY02-005",
+        "name": "Green Cheer (Aki)",
+        "rarity": "SY",
+        "imageSet": "hBP04"
+    },
+    {
+        "cardNumber": "hY03-004",
+        "name": "Red Cheer (Lui)",
+        "rarity": "SY",
+        "imageSet": "hBP04"
+    },
+     {
+        "cardNumber": "hY044-005",
+        "name": "Blue Cheer (Lamy)",
+        "rarity": "SY",
+        "imageSet": "hBP04"
+    },
+      {
+        "cardNumber": "hY05-004",
+        "name": "Purple Cheer (LaPlus)",
+        "rarity": "SY",
+        "imageSet": "hBP04"
+    },
+     {
+        "cardNumber": "hY06-004",
+        "name": "Yellow Cheer (Subaru)",
+        "rarity": "SY",
+        "imageSet": "hBP04"
     }
 ]
