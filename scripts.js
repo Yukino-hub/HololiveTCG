@@ -71,52 +71,58 @@ document.addEventListener('DOMContentLoaded', function() {
         'hY.json'
     ];
 
-    function getImageUrl(set, cardNumber, rarity, hasAlternativeArt, hasFoils, hasFullArt, hasSigned, imageSet, hasGrandPrix) {
+    /**
+     * Constructs the image URL for a card, allowing for a manual override.
+     * If card.manualUrl is present, it will be used directly.
+     * Otherwise, the URL is generated based on card properties.
+     */
+    function getImageUrl(card) {
+        // If a manual URL is provided in the JSON, use it directly.
+        if (card.manualUrl) {
+            return card.manualUrl;
+        }
 
-         const directory =  set; // Defaults to set
+        const directory =  card.setName; // Defaults to set
         
         // Handle signed cards (SEC rarity)
-        if (signedCheckbox.checked && hasSigned) {
-            return `${baseUrl}${directory}/${cardNumber}_SEC.png`;
+        if (signedCheckbox.checked && card.hasSigned) {
+            return `${baseUrl}${directory}/${card.cardNumber}_SEC.png`;
         }
 
         // Handle full art cards (SR rarity)
-       if (fullArtCheckbox.checked && hasFullArt) {
-        const fullArtDirectory = imageSet || set; // use imageSet if provided, otherwise set
-        return `${baseUrl}${fullArtDirectory}/${cardNumber}_SR.png`;
-    }
+        if (fullArtCheckbox.checked && card.hasFullArt) {
+            const fullArtDirectory = card.imageSet || card.setName; // use imageSet if provided, otherwise set
+            return `${baseUrl}${fullArtDirectory}/${card.cardNumber}_SR.png`;
+        }
 
         // Handle foil cards (S rarity)
-        if (foilCheckbox.checked && hasFoils) {
-            return `${baseUrl}${directory}/${cardNumber}_S.png`;
+        if (foilCheckbox.checked && card.hasFoils) {
+            return `${baseUrl}${directory}/${card.cardNumber}_S.png`;
         }
         
-
         // Handle alternative art cards if the checkbox is checked
-        if (altArtCheckbox.checked && hasAlternativeArt) {
+        if (altArtCheckbox.checked && card.hasAlternativeArt) {
             const altRarityMap = {
                 OSR: 'OUR',
                 RR: 'UR', 
             };
-            const altRarity = altRarityMap[rarity] || rarity;
-            return `${baseUrl}${directory}/${cardNumber}_${altRarity}.png`;
+            const altRarity = altRarityMap[card.rarity] || card.rarity;
+            return `${baseUrl}${directory}/${card.cardNumber}_${altRarity}.png`;
         }
 
-           // Handle Grandprix art cards if the checkbox is checked
-        if (grandprixCheckbox.checked && hasGrandPrix) {
-        const GrandprixDir = "hPR" || set; // use GrandprixDir if provided, otherwise set
-        return `${baseUrl}${GrandprixDir}/${cardNumber}_P.png`;
+        // Handle Grandprix art cards if the checkbox is checked
+        if (grandprixCheckbox.checked && card.hasGrandPrix) {
+            const GrandprixDir = "hPR" || card.setName; // use GrandprixDir if provided, otherwise set
+            return `${baseUrl}${GrandprixDir}/${card.cardNumber}_P.png`;
         }
 
-         // New condition for SY rarity if imageSet is provided
-        if (rarity === 'SY' && imageSet) {
-            // If you'd like to use imageSet directory specifically for SY rarity:
-            return `${baseUrl}${imageSet}/${cardNumber}_SY.png`;
+        // New condition for SY rarity if imageSet is provided
+        if (card.rarity === 'SY' && card.imageSet) {
+            return `${baseUrl}${card.imageSet}/${card.cardNumber}_SY.png`;
         }
-
 
         // Default URL for standard art
-        return `${baseUrl}${directory}/${cardNumber}_${rarity}.png`;
+        return `${baseUrl}${directory}/${card.cardNumber}_${card.rarity}.png`;
     }
 
     function loadCardData() {
@@ -128,11 +134,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 .then(response => {
                     if (!response.ok) {
                         // If file not found or error, continue with empty data
+                        return { setName, data: [] };
                     }
-                    return response.json();
+                    return response.json().then(data => ({ setName, data }));
                 })
-                .then(data => ({ setName, data }))
                 .catch(error => {
+                    console.error(`Error loading or parsing ${file}:`, error);
                     return { setName, data: [] };
                 });
         }))
@@ -141,11 +148,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 return result.data.map(card => ({ ...card, setName: result.setName }));
             });
             
-            // Initially show all card data
             filteredCardData = allCardData;
-            
             displayCards(filteredCardData);
-            
             loadingIndicator.style.display = 'none';
         })
         .catch(error => {
@@ -155,23 +159,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function displayCards(cardsToShow) {
-        contentContainer.innerHTML = ''; // Clear previous cards
+        contentContainer.innerHTML = '';
 
         cardsToShow.forEach(card => {
             const cardElement = document.createElement('div');
             cardElement.classList.add('card');
 
-            const imageUrl = getImageUrl(
-                card.setName,
-                card.cardNumber,
-                card.rarity,
-                card.hasAlternativeArt,
-                card.hasFoils,
-                card.hasFullArt,
-                card.hasSigned,
-                card.imageSet,
-                card.hasGrandPrix
-            );
+            // Pass the entire card object to the getImageUrl function
+            const imageUrl = getImageUrl(card);
 
             cardElement.innerHTML = `
                 <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
@@ -196,27 +191,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function initializeLazyLoading() {
         const lazyImages = document.querySelectorAll('.lazy-load');
-
-        const lazyLoad = (image) => {
-            const src = image.getAttribute('data-src');
-            if (src) {
-                image.src = src;
-                image.onload = () => image.classList.remove('lazy-load');
-            }
-        };
-
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    lazyLoad(entry.target);
-                    observer.unobserve(entry.target);
+                    const image = entry.target;
+                    const src = image.getAttribute('data-src');
+                    if (src) {
+                        image.src = src;
+                        image.onload = () => image.classList.remove('lazy-load');
+                    }
+                    observer.unobserve(image);
                 }
             });
         });
-
-        lazyImages.forEach(image => {
-            observer.observe(image);
-        });
+        lazyImages.forEach(image => observer.observe(image));
     }
 
     function filterCards() {
@@ -234,27 +222,16 @@ document.addEventListener('DOMContentLoaded', function() {
             const matchesSearch = card.name.toLowerCase().includes(searchText) || 
                                   card.cardNumber.toLowerCase().includes(searchText) || 
                                   (card.tag && card.tag.toLowerCase().includes(searchText));
-
             const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
             const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
             const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
-
-            // If a checkbox is checked, card must have that property
             const matchesAltArt = showAltArt ? card.hasAlternativeArt === true : true;
             const matchesFullArt = showFullArt ? card.hasFullArt === true : true;
             const matchesFoilCard = showFoil ? card.hasFoils === true : true;
             const matchesSignedCard = showSigned ? card.hasSigned === true : true;
             const matchesGrandPrix = showGrandprix? card.hasGrandPrix === true : true;
 
-            return matchesSearch &&
-                   matchesSeries &&
-                   matchesRarity &&
-                   matchesBloomType &&
-                   matchesAltArt &&
-                   matchesFullArt &&
-                   matchesFoilCard &&
-                   matchesSignedCard && 
-                   matchesGrandPrix;
+            return matchesSearch && matchesSeries && matchesRarity && matchesBloomType && matchesAltArt && matchesFullArt && matchesFoilCard && matchesSignedCard && matchesGrandPrix;
         });
 
         displayCards(filteredCardData);
@@ -264,26 +241,14 @@ document.addEventListener('DOMContentLoaded', function() {
         const modalImageContainer = document.getElementById('modalImageContainer');
         modalImageContainer.innerHTML = '';
     
-        // Generate the image URL for the modal
-        // Note: Pass all required card properties to get the correct image variant
-        const imageUrl = getImageUrl(
-            card.setName,
-            card.cardNumber,
-            card.rarity,
-            card.hasAlternativeArt,
-            card.hasFoils,
-            card.hasFullArt,
-            card.hasSigned,
-            card.imageSet,
-            card.hasGrandPrix
-        );
+        // Pass the entire card object to get the correct image URL
+        const imageUrl = getImageUrl(card);
     
         const primaryImage = document.createElement('img');
         primaryImage.src = imageUrl;
         primaryImage.alt = card.name;
         modalImageContainer.appendChild(primaryImage);
         
-        // Set the other modal data
         modalCardName.textContent = card.name || '';
         modalCardNumber.textContent = card.cardNumber || '';
         modalCardTags.textContent = card.tag || '';
@@ -301,7 +266,6 @@ document.addEventListener('DOMContentLoaded', function() {
         modalExtraEffect.textContent = card.extraEffect || '';
         modalSources.textContent = card.source || '';
 
-        // Toggle visibility based on content
         toggleVisibility(modalCardNumberContainer, card.cardNumber);
         toggleVisibility(modalCardTagsContainer, card.tag);
         toggleVisibility(modalRarityContainer, card.rarity);
@@ -318,7 +282,6 @@ document.addEventListener('DOMContentLoaded', function() {
         toggleVisibility(modalExtraEffectContainer, card.extraEffect);
         toggleVisibility(modalSourcesContainer, card.source);
         
-        // Oshi Skill
         if (card.oshiSkill) {
             modalOshiSkill.classList.remove('hidden');
             modalOshiSkillName.textContent = card.oshiSkill.name || '';
@@ -328,7 +291,6 @@ document.addEventListener('DOMContentLoaded', function() {
             modalOshiSkill.classList.add('hidden');
         }
 
-        // SP Oshi Skill
         if (card.spOshiSkill) {
             modalSpOshiSkill.classList.remove('hidden');
             modalSpOshiSkillName.textContent = card.spOshiSkill.name || '';
@@ -338,7 +300,6 @@ document.addEventListener('DOMContentLoaded', function() {
             modalSpOshiSkill.classList.add('hidden');
         }
 
-        // Skills
         if (card.skills && card.skills.length > 0) {
             modalSkills.innerHTML = '<h3>Skills</h3>';
             card.skills.forEach(skill => {
@@ -355,13 +316,11 @@ document.addEventListener('DOMContentLoaded', function() {
             modalSkills.classList.add('hidden');
         }
 
-        // Scroll the modal content container to the top
         const modalContent = document.querySelector('#modal .modal-content');
         if (modalContent) {
             modalContent.scrollTop = 0;
         }
 
-        // Display the modal
         modal.style.display = 'flex';
     }
 
