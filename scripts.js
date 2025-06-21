@@ -304,17 +304,36 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             modalSpOshiSkill.classList.add('hidden');
         }
-
+// Skills
         if (card.skills && card.skills.length > 0) {
-            modalSkills.innerHTML = '<h3>Skills</h3>';
+            modalSkills.innerHTML = '<h3>Skills</h3>'; // It's okay to use innerHTML for a simple, static tag like this.
             card.skills.forEach(skill => {
-                const skillElement = document.createElement('div');
-                skillElement.innerHTML = `
-                    <p class="modal-skill"><strong>Skill Name:</strong> ${skill.name}</p>
-                    <p><strong>DMG:</strong> ${skill.dmg || ''}</p>
-                    ${skill.description ? `<p><strong>Arts Effect:</strong> ${skill.description}</p>` : ''}
-                `;
-                modalSkills.appendChild(skillElement);
+                const skillContainer = document.createElement('div');
+
+                // Create and append the skill name
+                const skillNameP = document.createElement('p');
+                skillNameP.classList.add('modal-skill');
+                skillNameP.innerHTML = `<strong>Skill Name:</strong> ${skill.name}`; // Using innerHTML here is fine for the <strong> tag
+                skillContainer.appendChild(skillNameP);
+
+                // Create and append the DMG
+                const skillDmgP = document.createElement('p');
+                skillDmgP.innerHTML = `<strong>DMG:</strong> ${skill.dmg || ''}`;
+                skillContainer.appendChild(skillDmgP);
+
+                // Create and append the description using textContent
+                if (skill.description) {
+                    const skillDescP = document.createElement('p');
+                    const strongTag = document.createElement('strong');
+                    strongTag.textContent = 'Arts Effect: ';
+                    
+                    skillDescP.appendChild(strongTag); // Add the "Arts Effect: " part
+                    skillDescP.append(skill.description); // Append the description text, which will be correctly displayed
+                    
+                    skillContainer.appendChild(skillDescP);
+                }
+                
+                modalSkills.appendChild(skillContainer);
             });
             modalSkills.classList.remove('hidden');
         } else {
