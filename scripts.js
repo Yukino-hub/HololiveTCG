@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', function() {
         lazyImages.forEach(image => observer.observe(image));
     }
 
-    function filterCards() {
+  function filterCards() {
         const searchText = searchBar.value.toLowerCase();
         const selectedSeries = seriesFilter.value;
         const selectedRarity = rarityFilter.value;
@@ -224,19 +224,55 @@ document.addEventListener('DOMContentLoaded', function() {
         const showGrandprix = grandprixCheckbox.checked;
  
         filteredCardData = allCardData.filter(card => {
-            const matchesSearch = card.name.toLowerCase().includes(searchText) || 
+            let matchesSearch = true; // Default to true
+
+            // --- Start of New Search Logic ---
+
+            if (searchText.startsWith('bloom:')) {
+                // Search only in Bloom Effect
+                const term = searchText.substring(6).trim(); // Get text after "bloom:"
+                matchesSearch = card.bloomEffect && card.bloomEffect.toLowerCase().includes(term);
+
+            } else if (searchText.startsWith('collab:')) {
+                // Search only in Collab Effect
+                const term = searchText.substring(7).trim(); // Get text after "collab:"
+                matchesSearch = card.collabEffect && card.collabEffect.toLowerCase().includes(term);
+
+            } else if (searchText) {
+                // General search (if search bar is not empty and has no prefix)
+                 matchesSearch = card.name.toLowerCase().includes(searchText) || 
                                   card.cardNumber.toLowerCase().includes(searchText) || 
-                                  (card.tag && card.tag.toLowerCase().includes(searchText));
+                                  (card.tag && card.tag.toLowerCase().includes(searchText)) ||
+                                  (card.ability && card.ability.toLowerCase().includes(searchText)) ||
+                                  (card.collabEffect && card.collabEffect.toLowerCase().includes(searchText)) ||
+                                  (card.bloomEffect && card.bloomEffect.toLowerCase().includes(searchText)) ||
+                                  (card.giftEffect && card.giftEffect.toLowerCase().includes(searchText)) ||
+                                  (card.extraEffect && card.extraEffect.toLowerCase().includes(searchText)) ||
+                                  (card.oshiSkill && card.oshiSkill.description && card.oshiSkill.description.toLowerCase().includes(searchText)) ||
+                                  (card.spOshiSkill && card.spOshiSkill.description && card.spOshiSkill.description.toLowerCase().includes(searchText)) ||
+                                  (card.skills && card.skills.some(skill => skill.description && skill.description.toLowerCase().includes(searchText)));
+            }
+            // --- End of New Search Logic ---
+
             const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
             const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
             const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
+
             const matchesAltArt = showAltArt ? card.hasAlternativeArt === true : true;
             const matchesFullArt = showFullArt ? card.hasFullArt === true : true;
             const matchesFoilCard = showFoil ? card.hasFoils === true : true;
             const matchesSignedCard = showSigned ? card.hasSigned === true : true;
             const matchesGrandPrix = showGrandprix? card.hasGrandPrix === true : true;
 
-            return matchesSearch && matchesSeries && matchesRarity && matchesBloomType && matchesAltArt && matchesFullArt && matchesFoilCard && matchesSignedCard && matchesGrandPrix;
+            return matchesSearch &&
+                   matchesSeries &&
+                   matchesRarity &&
+                   matchesBloomType &&
+                   matchesAltArt &&
+                   matchesFullArt &&
+                   matchesFoilCard &&
+                   matchesSignedCard && 
+                   matchesGrandPrix;
         });
 
         displayCards(filteredCardData);
