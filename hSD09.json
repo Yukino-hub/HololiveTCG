@@ -1,0 +1,121 @@
+[
+     {
+        "cardNumber": "hSD09-001",
+        "name": "Houshou Marine",
+        "rarity": "OC",
+        "lives": 5,
+        "color": "Red",
+        "oshiSkill": {
+            "name": "レッドマイク",
+            "power": 2,
+            "description": "[Once per turn] During this turn, your red center holomem gets Arts+20."
+        },
+        "spOshiSkill": {
+            "name": "さあ！もう一度！",
+            "power": 1,
+            "description": "Return 1 red holomem from your archive to hand."
+        }
+    },
+    {
+        "name": "Houshou Marine",
+        "tags": "#JP #Gen3 #Painting #Sea #Summer",
+        "cardNumber": "hSD09-002",
+        "rarity": "U",
+        "color": "Red",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "collabEffect": "ホロサマー: Look at the top 5 cards of your deck. Reveal 1 Debut holomem with #Summer from among them, and add the revealed card to hand. Then, return the remaining cards to the bottom of the deck in any order.",
+        "skills": [
+            {
+                "name": "船長も一緒にい・か・が？",
+                "power": "20"
+            }
+        ]
+    },
+    {
+        "name": "Houshou Marine",
+        "tags": "#JP #Gen3 #Painting #Sea",
+        "cardNumber": "hSD09-003",
+        "rarity": "R",
+        "color": "Red",
+        "bloomLevel": "1st",
+        "hp": 240,
+        "buzz": true,
+        "collabEffect": "みんな優勝するぞ: Deal 10 Special Damage for each differently-named holomem with #Gen3 on your stage to your opponent's center holomem.",
+        "skills": [
+            {
+                "name": "マリンに任せろってマジで",
+                "power": "50"
+            }
+        ]
+    },
+    {
+        "name": "Houshou Marine",
+        "tags": "#JP #Gen3 #Painting #Sea",
+        "cardNumber": "hSD09-004",
+        "rarity": "RR",
+        "color": "Red",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "skills": [
+            {
+                "name": "3期生の絆",
+                "power": "60, +50 vs Yellow",
+                "description": "If your stage has a holomem with #Gen3 other than <Houshou Marine>, draw 1 card from your deck."
+            },
+            {
+                "name": "キミたちと水平線の向こう側へ",
+                "power": "120, +50 vs yellow",
+                "description": "Deal 10 Special Damage for each differently-named holomem with #Gen3 on your stage to your opponent's center holomem and collab holomem."
+            }
+        ]
+    },
+    {
+        "name": "Shirogane Noel",
+        "tags": "#JP #Gen3 #Alcohol #Summer",
+        "cardNumber": "hSD09-005",
+        "rarity": "C",
+        "color": "White",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "collabEffect": "3期生の海の家: Your center 2nd holomem gets Arts+10 for each of your differently-named holomem with #Gen3.",
+        "skills": [
+            {
+                "name": "夏が来たぞー！",
+                "power": "20"
+            }
+        ]
+    },
+    {
+        "name": "Usada Pekora",
+        "tags": "#JP #Gen3 #Kemomimi #Summer",
+        "cardNumber": "hSD09-006",
+        "rarity": "C",
+        "color": "Green",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "collabEffect": "あんたたち働くぺこー！: If you are going second and this is your first turn, send the top card of your cheer deck to your holomem with #Gen3.",
+        "skills": [
+            {
+                "name": "◇ご注文のかき氷ぺこ！",
+                "power": "10"
+            }
+        ]
+    },
+    {
+        "name": "Shiranui Flare",
+        "tags": "#JP #Gen3 #Half-Elf #Summer",
+        "cardNumber": "hSD09-007",
+        "rarity": "C",
+        "color": "Yellow",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "giftEffect": "クールダウンしよ: [Collab position only]If this holomem is downed during your opponent's turn, if you have less Life than your opponent, you take -1 Life Damage.",
+        "skills": [
+            {
+                "name": "冷たいものお待ちどうさま♪",
+                "power": "80"
+            }
+        ]
+    }
+]
