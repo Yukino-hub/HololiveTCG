@@ -1,0 +1,117 @@
+[
+   {
+        "cardNumber": "hSD08-001",
+        "name": "Amane Kanata",
+        "rarity": "OC",
+        "lives": 5,
+        "color": "White",
+        "oshiSkill": {
+            "name": "ホワイトマイク",
+            "power": 2,
+            "description": "[Once per turn] During this turn, your white center holomem gets Arts+20."
+        },
+        "spOshiSkill": {
+            "name": "クイックガード",
+            "power": 1,
+            "description": "[Once per game] During your opponent's turn, usable if your white holomem would take Damage from your opponent:That holomem takes -20 Damage."
+        }
+    },
+    {
+        "name": "Amane Kanata",
+        "tags": "#JP #Gen4 #Singing #Summer",
+        "cardNumber": "hSD08-002",
+        "rarity": "U",
+        "color": "White",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "collabEffect": "ホロサマー: Look at the top 5 cards of your deck. Reveal 1 Debut holomem with #Summer from among them, and add the revealed card to hand. Then, return the remaining cards to the bottom of the deck in any order.",
+        "skills": [
+            {
+                "name": "浴衣似合うでしょ",
+                "power": "20"
+            }
+        ]
+    },
+    {
+        "name": "Amane Kanata",
+        "tags": "#JP #Gen4 #Singing",
+        "cardNumber": "hSD08-003",
+        "rarity": "R",
+        "color": "White",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "bloomEffect": "相談のるよ: Reveal 1 Debut holomem with #Gen4 from your deck, and add it to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "みんなのスパダリ",
+                "power": "100+, +50 vs green",
+                "description": "This Arts gets +10 for each of your holomem with #Summer."
+            }
+        ]
+    },
+    {
+        "name": "Amane Kanata",
+        "tags": "#JP #Gen 4 #Singing",
+        "cardNumber": "hSD08-004",
+        "rarity": "RR",
+        "color": "White",
+        "bloomLevel": "2nd",
+        "hp": 180,
+        "giftEffect": "エンジェルウィンド : [Center position only] Your collab Debut holomem with #Gen4 gets Arts+40.",
+        "skills": [
+            {
+                "name": "きみの背中に追いつけるように",
+                "power": "120, +50 vs red",
+                "description": "[Once per turn] If your opponent's center holomem is downed by this Arts, deal 40 Special Damage to 1 of your opponent's 2nd holomem."
+            }
+        ]
+    },
+    {
+        "name": "Himemori Luna",
+        "tags": "#JP #Gen4 #Baby #Summer",
+        "cardNumber": "hSD08-005",
+        "rarity": "C",
+        "color": "White",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "giftEffect": "なんでも入る巾着: [Collab position only]If your holomem is downed during your opponent's turn, if you have equal or less Life than your opponent, your may return 1 item with \"PC\" in its name from your archive to hand.",
+        "skills": [
+            {
+                "name": "お祭りなのら",
+                "power": "30"
+            }
+        ]
+    },
+    {
+        "name": "Tokoyami Towa",
+        "tags": "#JP #Gen4 #Singing #Shooter #Summer",
+        "cardNumber": "hSD08-006",
+        "rarity": "C",
+        "color": "Purple",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "collabEffect": "花火見ていく？: Deal 10 Special Damage to your opponent's center holomem. If you are going second and this is your first turn, deal 20 Special Damage instead.",
+        "skills": [
+            {
+                "name": "トワに見惚れちゃった？",
+                "power": "20"
+            }
+        ]
+    },
+    {
+        "name": "Tsunomaki Watame",
+        "tags": "#JP #Gen4 #AnimalEars #Singing #Summer",
+        "cardNumber": "hSD08-007",
+        "rarity": "C",
+        "color": "Yellow",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "collabEffect": "みんなと夏祭り: You may send 1 cheer from your archive to your 2nd holomem with #Gen4.",
+        "skills": [
+            {
+                "name": "わたあめおいしいねぇ",
+                "power": "10"
+            }
+        ]
+    }
+]
