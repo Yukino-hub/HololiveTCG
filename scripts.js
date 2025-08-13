@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let allCardData = [];
     let filteredCardData = [];
     const seriesFiles = [
-        ...Array.from({ length: 7 }, (_, i) => `hSD${(i + 1).toString().padStart(2, '0')}.json`),
+        ...Array.from({ length: 9 }, (_, i) => `hSD${(i + 1).toString().padStart(2, '0')}.json`),
         ...Array.from({ length: 4 }, (_, i) => `hBP${(i + 1).toString().padStart(2, '0')}.json`),
         'hPR.json',
         'hY01.json',
