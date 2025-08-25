@@ -691,12 +691,66 @@
             "description": "[Once per turn] One of your Purple holomems' Arts gains +20 power until the end of this turn.."
         },
         "spOshiSkill": {
-            "name": "Birthday Gift ~Yellow~",
+            "name": "Birthday Gift ~Purple~",
             "power": 2,
             "description": "[Once per game] Reveal 1 Purple holomem from your deck and put it into your hand. Then shuffle your deck."
         },
-        "source": "Mori Calliope2025 birthday merch full set bonus"
-    }
+        "source": "Mori Calliope 2025 birthday merch full set bonus"
+    },
+    {
+        "cardNumber": "hBD24-038",
+        "name": "Koseki Bijou",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Purple",
+        "oshiSkill": {
+            "name": "Purple Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Purple holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Purple~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Purple holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Koseki Bijou 2025 birthday merch full set bonus"
+    },
+      {
+        "cardNumber": "hBD24-039",
+        "name": "Otonose Kanade",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Yellow",
+        "oshiSkill": {
+            "name": "Yellow Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Yellow holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Yellow~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Yellow holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Otonose Kanade 2025 birthday merch full set bonus"
+    },
+     {
+        "cardNumber": "hBD24-056",
+        "name": "Oozora Subaru",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Yellow",
+        "oshiSkill": {
+            "name": "Yellow Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Yellow holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Yellow~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Yellow holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Oozora Subaru 2025 birthday merch full set bonus"
+    },
 
     
 ]
