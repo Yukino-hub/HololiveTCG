@@ -348,6 +348,7 @@
             "power": 2,
             "description": "[Once per game] Reveal 1 Yellow holomem from your deck and put it into your hand. Then shuffle your deck."
         },
+        "image" : "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-018_P_02.png",
         "source": "Ayunda Risu 2024 birthday merch full set bonus"
     },
     {
@@ -623,7 +624,7 @@
     },
 
     {
-        "cardNumber": "hBD24-033",
+        "cardNumber": "hBD24-034",
         "name": "Hoshimachi Suisei",
         "rarity": "P",
         "lives": 5,
@@ -642,7 +643,7 @@
     },
 
       {
-        "cardNumber": "hBD24-034",
+        "cardNumber": "hBD24-035",
         "name": "Momosuzu Nene",
         "rarity": "P",
         "lives": 5,
@@ -661,7 +662,7 @@
     },
     
           {
-        "cardNumber": "hBD24-035",
+        "cardNumber": "hBD24-036",
         "name": "Shiranui Flare",
         "rarity": "P",
         "lives": 5,
@@ -679,7 +680,7 @@
         "source": "Shiranui Flare 2025 birthday merch full set bonus"
     },
  {
-        "cardNumber": "hBD24-036",
+        "cardNumber": "hBD24-037",
         "name": "Mori Calliope",
         "rarity": "P",
         "lives": 5,
