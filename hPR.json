@@ -733,6 +733,214 @@
         },
         "source": "Otonose Kanade 2025 birthday merch full set bonus"
     },
+
+     {
+        "cardNumber": "hBD24-040",
+        "name": "Amane Kanata",
+        "rarity": "P",
+        "lives": 5,
+        "color": "White",
+        "oshiSkill": {
+            "name": "White Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your White holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~White~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 White holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Amane Kanata 2025 birthday merch full set bonus"
+    },
+
+      {
+        "cardNumber": "hBD24-041",
+        "name": "Elizabeth Rose Bloodflame",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Red",
+        "oshiSkill": {
+            "name": "Red Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Red holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Red~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Red holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Elizabeth Rose Bloodflame 2025 birthday merch full set bonus"
+    },
+
+  {
+        "cardNumber": "hBD24-042",
+        "name": "Shiori Novella",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Blue",
+        "oshiSkill": {
+            "name": "Blue Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Blue holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Blue~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Blue holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Shiori Novella 2025 birthday merch full set bonus"
+    },
+
+ {
+        "cardNumber": "hBD24-043",
+        "name": "Raora Panthera",
+        "rarity": "P",
+        "lives": 5,
+        "color": "White",
+        "oshiSkill": {
+            "name": "White Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your White holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~White~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 White holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Raora Panthera 2025 birthday merch full set bonus"
+    },
+
+       {
+        "cardNumber": "hBD24-044",
+        "name": "Ichijou Ririka",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Red",
+        "oshiSkill": {
+            "name": "Red Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Red holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Red~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Red holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Ichijou Ririka 2025 birthday merch full set bonus"
+    },
+{
+        "cardNumber": "hBD24-045",
+        "name": "Tokino Sora",
+        "rarity": "P",
+        "lives": 5,
+        "color": "White",
+        "oshiSkill": {
+            "name": "White Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your White holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~White~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 White holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Tokino Sora 2025 birthday merch full set bonus"
+    },
+  {
+        "cardNumber": "hBD24-046",
+        "name": "Ninomae Ina'nis",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Purple",
+        "oshiSkill": {
+            "name": "Purple Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Purple holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Purple~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Purple holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Ninomae Ina'nis 2025 birthday merch full set bonus"
+    },
+
+     {
+        "cardNumber": "hBD24-047",
+        "name": "Robocosan",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Purple",
+        "oshiSkill": {
+            "name": "Purple Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Purple holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Purple~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Purple holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Robocosan 2025 birthday merch full set bonus"
+    },
+    
+     {
+        "cardNumber": "hBD24-048",
+        "name": "La+ Darknesss",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Purple",
+        "oshiSkill": {
+            "name": "Purple Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Purple holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Purple~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Purple holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "La+ Darknesss 2025 birthday merch full set bonus"
+    },
+
+    {
+        "cardNumber": "hBD24-049",
+        "name": "Isaki Riona",
+        "rarity": "P",
+        "lives": 5,
+        "color": "White",
+        "oshiSkill": {
+            "name": "White Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your White holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~White~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 White holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Isaki Riona 2025 birthday merch full set bonus"
+    },
+
+    
+     {
+        "cardNumber": "hBD24-050",
+        "name": "Tsunomaki Watame",
+        "rarity": "P",
+        "lives": 5,
+        "color": "Yellow",
+        "oshiSkill": {
+            "name": "Yellow Enhance",
+            "power": 2,
+            "description": "[Once per turn] One of your Yellow holomems' Arts gains +20 power until the end of this turn.."
+        },
+        "spOshiSkill": {
+            "name": "Birthday Gift ~Yellow~",
+            "power": 2,
+            "description": "[Once per game] Reveal 1 Yellow holomem from your deck and put it into your hand. Then shuffle your deck."
+        },
+        "source": "Tsunomaki Watame 2025 birthday merch full set bonus"
+     },
      {
         "cardNumber": "hBD24-056",
         "name": "Oozora Subaru",
