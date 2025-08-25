@@ -24,7 +24,7 @@
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #ReGLOSS and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "limited": "Yes",
         "source": "ReGLOSS first album 'ReGLOSS' CD bonus",
-        "image": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hPR-002.png"
+        "manualUrl": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hPR-002.png"
     },
     {
         "cardNumber": "hBD24-001",
@@ -348,7 +348,7 @@
             "power": 2,
             "description": "[Once per game] Reveal 1 Yellow holomem from your deck and put it into your hand. Then shuffle your deck."
         },
-        "image" : "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-018_P_02.png",
+        "manualUrl" : "https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-018_P_02.png",
         "source": "Ayunda Risu 2024 birthday merch full set bonus"
     },
     {
