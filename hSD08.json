@@ -28,7 +28,7 @@
         "skills": [
             {
                 "name": "浴衣似合うでしょ",
-                "power": "20"
+                "dmg": "20"
             }
         ]
     },
@@ -44,7 +44,7 @@
         "skills": [
             {
                 "name": "みんなのスパダリ",
-                "power": "100+, +50 vs green",
+                "dmg": "100+, +50 vs green",
                 "description": "This Arts gets +10 for each of your holomem with #Summer."
             }
         ]
@@ -61,7 +61,7 @@
         "skills": [
             {
                 "name": "きみの背中に追いつけるように",
-                "power": "120, +50 vs red",
+                "dmg": "120, +50 vs red",
                 "description": "[Once per turn] If your opponent's center holomem is downed by this Arts, deal 40 Special Damage to 1 of your opponent's 2nd holomem."
             }
         ]
@@ -78,7 +78,7 @@
         "skills": [
             {
                 "name": "お祭りなのら",
-                "power": "30"
+                "dmg": "30"
             }
         ]
     },
@@ -94,7 +94,7 @@
         "skills": [
             {
                 "name": "トワに見惚れちゃった？",
-                "power": "20"
+                "dmg": "20"
             }
         ]
     },
@@ -110,8 +110,9 @@
         "skills": [
             {
                 "name": "わたあめおいしいねぇ",
-                "power": "10"
+                "dmg": "10"
             }
         ]
     }
+
 ]
