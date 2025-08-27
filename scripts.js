@@ -87,61 +87,52 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     /**
-     * Constructs the image URL for a card, allowing for a manual override.
-     * The logic prioritizes image types in a specific order.
+     * Constructs the image URL for a card based on a priority system.
      * @param {object} card - The card data object from JSON.
      * @returns {string} The final image URL for the card.
      */
     function getImageUrl(card) {
-        // Priority 1: Manual URL Override. If a card has `manualUrl`, use it immediately.
-        // This is the most powerful override and ignores all other logic.
-        // Ensure the property name in your JSON is "manualUrl" (case-sensitive).
+        // Priority 1: Manual URL Override.
         if (card.manualUrl) {
             return card.manualUrl;
         }
 
-        // Handle signed cards (SEC rarity)
-        if (signedCheckbox.checked && card.hasSigned) {
-            const directory = card.imageSet || card.setName;
-            return `${baseUrl}${directory}/${card.cardNumber}_SEC.png`;
-        }
-
-        // Handle full art cards (SR rarity)
-        if (fullArtCheckbox.checked && card.hasFullArt) {
-            const directory = card.imageSet || card.setName;
-            return `${baseUrl}${directory}/${card.cardNumber}_SR.png`;
-        }
-
-        // Handle alternative art cards (OUR/UR)
-        if (altArtCheckbox.checked && card.hasAlternativeArt) {
-            const directory = card.imageSet || card.setName;
-            const altRarityMap = {
+        const imageTypeConfigs = [{
+            condition: signedCheckbox.checked && card.hasSigned,
+            directory: card.imageSet || card.setName,
+            suffix: 'SEC'
+        }, {
+            condition: fullArtCheckbox.checked && card.hasFullArt,
+            directory: card.imageSet || card.setName,
+            suffix: 'SR'
+        }, {
+            condition: altArtCheckbox.checked && card.hasAlternativeArt,
+            directory: card.imageSet || card.setName,
+            suffix: {
                 OSR: 'OUR',
-                RR: 'UR',
-            };
-            const altRarity = altRarityMap[card.rarity] || card.rarity;
-            return `${baseUrl}${directory}/${card.cardNumber}_${altRarity}.png`;
+                RR: 'UR'
+            } [card.rarity] || card.rarity
+        }, {
+            condition: foilCheckbox.checked && card.hasFoils,
+            directory: card.imageSet || card.setName,
+            suffix: 'S'
+        }, {
+            condition: grandprixCheckbox.checked && card.hasGrandPrix,
+            directory: 'hPR',
+            suffix: 'P'
+        }, {
+            condition: card.rarity === 'SY' && card.imageSet,
+            directory: card.imageSet,
+            suffix: 'SY'
+        }];
+
+        for (const config of imageTypeConfigs) {
+            if (config.condition) {
+                return `${baseUrl}${config.directory}/${card.cardNumber}_${config.suffix}.png`;
+            }
         }
 
-        // Handle foil cards (S rarity)
-        if (foilCheckbox.checked && card.hasFoils) {
-            const directory = card.imageSet || card.setName;
-            return `${baseUrl}${directory}/${card.cardNumber}_S.png`;
-        }
-
-        // Handle Grandprix art cards (P rarity)
-        if (grandprixCheckbox.checked && card.hasGrandPrix) {
-            // Grand Prix cards are typically in the 'hPR' set.
-            const directory = "hPR";
-            return `${baseUrl}${directory}/${card.cardNumber}_P.png`;
-        }
-
-        // Handle specific rarities that might use imageSet, like SY, as a fallback.
-        if (card.rarity === 'SY' && card.imageSet) {
-            return `${baseUrl}${card.imageSet}/${card.cardNumber}_SY.png`;
-        }
-
-        // Default URL for standard art. This should always use the card's native `setName`.
+        // Default URL for standard art.
         return `${baseUrl}${card.setName}/${card.cardNumber}_${card.rarity}.png`;
     }
 
@@ -178,34 +169,37 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
 
+    function createCardElement(card) {
+        const cardElement = document.createElement('div');
+        cardElement.classList.add('card');
+
+        const imageUrl = getImageUrl(card);
+
+        cardElement.innerHTML = `
+            <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
+            <p><strong>${card.name}</strong></p>
+            <p>Card Number: ${card.cardNumber}</p>
+            <p>Rarity: ${card.rarity}</p>
+            <div class="special-attributes">
+                ${card.hasFoils ? `<span class="badge foils">Foils</span>` : ''}
+                ${card.hasFullArt ? `<span class="badge full-art">Full Art</span>` : ''}
+                ${card.hasAlternativeArt ? `<span class="badge alt-art">Alt Art</span>` : ''}
+                ${card.hasSigned ? `<span class="badge signed">Signed</span>` : ''}
+                ${card.hasGrandPrix ? `<span class="badge GrandPrix">GrandPrix</span>` : ''}
+            </div>
+        `;
+
+        cardElement.addEventListener('click', () => openModal(card));
+        return cardElement;
+    }
+
     function displayCards(cardsToShow) {
         contentContainer.innerHTML = '';
-
+        const fragment = document.createDocumentFragment();
         cardsToShow.forEach(card => {
-            const cardElement = document.createElement('div');
-            cardElement.classList.add('card');
-
-            // Pass the entire card object to the getImageUrl function
-            const imageUrl = getImageUrl(card);
-
-            cardElement.innerHTML = `
-                <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
-                <p><strong>${card.name}</strong></p>
-                <p>Card Number: ${card.cardNumber}</p>
-                <p>Rarity: ${card.rarity}</p>
-                <div class="special-attributes">
-                    ${card.hasFoils ? `<span class="badge foils">Foils</span>` : ''}
-                    ${card.hasFullArt ? `<span class="badge full-art">Full Art</span>` : ''}
-                    ${card.hasAlternativeArt ? `<span class="badge alt-art">Alt Art</span>` : ''}
-                    ${card.hasSigned ? `<span class="badge signed">Signed</span>` : ''}
-                    ${card.hasGrandPrix ? `<span class="badge GrandPrix">GrandPrix</span>` : ''}
-                </div>
-            `;
-
-            cardElement.addEventListener('click', () => openModal(card));
-            contentContainer.appendChild(cardElement);
+            fragment.appendChild(createCardElement(card));
         });
-
+        contentContainer.appendChild(fragment);
         initializeLazyLoading();
     }
 
@@ -232,65 +226,73 @@ document.addEventListener('DOMContentLoaded', function() {
         const selectedSeries = seriesFilter.value;
         const selectedRarity = rarityFilter.value;
         const selectedBloomType = bloomTypeFilter.value;
-        const showAltArt = altArtCheckbox.checked;
-        const showFullArt = fullArtCheckbox.checked;
-        const showFoil = foilCheckbox.checked;
-        const showSigned = signedCheckbox.checked;
-        const showGrandprix = grandprixCheckbox.checked;
+        const checkboxState = {
+            altArt: altArtCheckbox.checked,
+            fullArt: fullArtCheckbox.checked,
+            foil: foilCheckbox.checked,
+            signed: signedCheckbox.checked,
+            grandprix: grandprixCheckbox.checked
+        };
 
         filteredCardData = allCardData.filter(card => {
-            let matchesSearch = true; // Default to true
-
-            // --- Start of New Search Logic ---
-
-            if (searchText.startsWith('bloom:')) {
-                // Search only in Bloom Effect
-                const term = searchText.substring(6).trim(); // Get text after "bloom:"
-                matchesSearch = card.bloomEffect && card.bloomEffect.toLowerCase().includes(term);
-
-            } else if (searchText.startsWith('collab:')) {
-                // Search only in Collab Effect
-                const term = searchText.substring(7).trim(); // Get text after "collab:"
-                matchesSearch = card.collabEffect && card.collabEffect.toLowerCase().includes(term);
-
-            } else if (searchText) {
-                // General search (if search bar is not empty and has no prefix)
-                matchesSearch = card.name.toLowerCase().includes(searchText) ||
-                    card.cardNumber.toLowerCase().includes(searchText) ||
-                    (card.tag && card.tag.toLowerCase().includes(searchText)) ||
-                    (card.ability && card.ability.toLowerCase().includes(searchText)) ||
-                    (card.collabEffect && card.collabEffect.toLowerCase().includes(searchText)) ||
-                    (card.bloomEffect && card.bloomEffect.toLowerCase().includes(searchText)) ||
-                    (card.giftEffect && card.giftEffect.toLowerCase().includes(searchText)) ||
-                    (card.extraEffect && card.extraEffect.toLowerCase().includes(searchText)) ||
-                    (card.oshiSkill && card.oshiSkill.description && card.oshiSkill.description.toLowerCase().includes(searchText)) ||
-                    (card.spOshiSkill && card.spOshiSkill.description && card.spOshiSkill.description.toLowerCase().includes(searchText)) ||
-                    (card.skills && card.skills.some(skill => skill.description && skill.description.toLowerCase().includes(searchText)));
-            }
-            // --- End of New Search Logic ---
-
-            const matchesSeries = selectedSeries ? card.cardNumber.startsWith(selectedSeries) : true;
-            const matchesRarity = selectedRarity ? card.rarity === selectedRarity : true;
-            const matchesBloomType = selectedBloomType ? (card.bloomLevel === selectedBloomType || card.type === selectedBloomType) : true;
-
-            const matchesAltArt = showAltArt ? card.hasAlternativeArt === true : true;
-            const matchesFullArt = showFullArt ? card.hasFullArt === true : true;
-            const matchesFoilCard = showFoil ? card.hasFoils === true : true;
-            const matchesSignedCard = showSigned ? card.hasSigned === true : true;
-            const matchesGrandPrix = showGrandprix ? card.hasGrandPrix === true : true;
-
-            return matchesSearch &&
-                matchesSeries &&
-                matchesRarity &&
-                matchesBloomType &&
-                matchesAltArt &&
-                matchesFullArt &&
-                matchesFoilCard &&
-                matchesSignedCard &&
-                matchesGrandPrix;
+            return matchesSearchText(card, searchText) &&
+                matchesSeries(card, selectedSeries) &&
+                matchesRarity(card, selectedRarity) &&
+                matchesBloomType(card, selectedBloomType) &&
+                matchesCheckboxes(card, checkboxState);
         });
 
         displayCards(filteredCardData);
+    }
+
+    function matchesSearchText(card, searchText) {
+        if (!searchText) return true;
+
+        if (searchText.startsWith('bloom:')) {
+            const term = searchText.substring(6).trim();
+            return card.bloomEffect && card.bloomEffect.toLowerCase().includes(term);
+        }
+
+        if (searchText.startsWith('collab:')) {
+            const term = searchText.substring(7).trim();
+            return card.collabEffect && card.collabEffect.toLowerCase().includes(term);
+        }
+
+        const searchableFields = [
+            card.name,
+            card.cardNumber,
+            card.tag,
+            card.ability,
+            card.collabEffect,
+            card.bloomEffect,
+            card.giftEffect,
+            card.extraEffect,
+            card.oshiSkill?.description,
+            card.spOshiSkill?.description,
+            ...(card.skills?.map(s => s.description) || [])
+        ];
+
+        return searchableFields.some(field => field && field.toLowerCase().includes(searchText));
+    }
+
+    function matchesSeries(card, selectedSeries) {
+        return !selectedSeries || card.cardNumber.startsWith(selectedSeries);
+    }
+
+    function matchesRarity(card, selectedRarity) {
+        return !selectedRarity || card.rarity === selectedRarity;
+    }
+
+    function matchesBloomType(card, selectedBloomType) {
+        return !selectedBloomType || card.bloomLevel === selectedBloomType || card.type === selectedBloomType;
+    }
+
+    function matchesCheckboxes(card, state) {
+        return (!state.altArt || card.hasAlternativeArt) &&
+            (!state.fullArt || card.hasFullArt) &&
+            (!state.foil || card.hasFoils) &&
+            (!state.signed || card.hasSigned) &&
+            (!state.grandprix || card.hasGrandPrix);
     }
 
     function openModal(card) {
@@ -418,20 +420,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    altArtCheckbox.addEventListener('change', filterCards);
-    signedCheckbox.addEventListener('change', filterCards);
-    foilCheckbox.addEventListener('change', filterCards);
-    fullArtCheckbox.addEventListener('change', filterCards);
-    grandprixCheckbox.addEventListener('change', filterCards);
+    // Consolidated event listeners for all filter controls
+    const filterControls = [
+        altArtCheckbox, signedCheckbox, foilCheckbox, fullArtCheckbox, grandprixCheckbox,
+        seriesFilter, rarityFilter, bloomTypeFilter
+    ];
 
-    // --- CHANGE IS HERE ---
+    filterControls.forEach(control => {
+        control.addEventListener('change', filterCards);
+    });
+
     // Apply debounce to the search bar input to improve performance
     searchBar.addEventListener('input', debounce(filterCards, 300));
-    // --- END OF CHANGE ---
-
-    seriesFilter.addEventListener('change', filterCards);
-    rarityFilter.addEventListener('change', filterCards);
-    bloomTypeFilter.addEventListener('change', filterCards);
 
     modal.addEventListener('click', (event) => {
         if (event.target === modal) {
