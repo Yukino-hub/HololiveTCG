@@ -28,7 +28,7 @@
         "skills": [
             {
                 "name": "船長も一緒にい・か・が？",
-                "power": "20"
+                "dmg": "20"
             }
         ]
     },
@@ -45,7 +45,7 @@
         "skills": [
             {
                 "name": "マリンに任せろってマジで",
-                "power": "50"
+                "dmg": "50"
             }
         ]
     },
@@ -60,12 +60,12 @@
         "skills": [
             {
                 "name": "3期生の絆",
-                "power": "60, +50 vs Yellow",
+                "dmg": "60, +50 vs Yellow",
                 "description": "If your stage has a holomem with #Gen3 other than <Houshou Marine>, draw 1 card from your deck."
             },
             {
                 "name": "キミたちと水平線の向こう側へ",
-                "power": "120, +50 vs yellow",
+                "dmg": "120, +50 vs yellow",
                 "description": "Deal 10 Special Damage for each differently-named holomem with #Gen3 on your stage to your opponent's center holomem and collab holomem."
             }
         ]
@@ -82,7 +82,7 @@
         "skills": [
             {
                 "name": "夏が来たぞー！",
-                "power": "20"
+                "dmg": "20"
             }
         ]
     },
@@ -98,7 +98,7 @@
         "skills": [
             {
                 "name": "◇ご注文のかき氷ぺこ！",
-                "power": "10"
+                "dmg": "10"
             }
         ]
     },
@@ -114,8 +114,9 @@
         "skills": [
             {
                 "name": "冷たいものお待ちどうさま♪",
-                "power": "80"
+                "dmg": "80"
             }
         ]
     }
+
 ]
