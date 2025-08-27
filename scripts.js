@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalImage = document.getElementById('modalImage');
     const modalCardName = document.getElementById('modalCardName');
     const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
-    const modalCardTagsContainer = document.getElementById('modalCardTagsContainer'); 
+    const modalCardTagsContainer = document.getElementById('modalCardTagsContainer');
     const modalRarityContainer = document.getElementById('modalRarityContainer');
     const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
     const modalHPContainer = document.getElementById('modalHPContainer');
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
     const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
     const modalSourcesContainer = document.getElementById('modalSourcesContainer');
-    
+
     const modalCardNumber = document.getElementById('modalCardNumber');
     const modalCardTags = document.getElementById('modalCardTags');
     const modalRarity = document.getElementById('modalRarity');
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const modalSkills = document.getElementById('modalSkills');
     const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardlist/";
-   
+
     let allCardData = [];
     let filteredCardData = [];
     const seriesFiles = [
@@ -70,6 +70,21 @@ document.addEventListener('DOMContentLoaded', function() {
         'hY01.json',
         'hY.json'
     ];
+
+    /**
+     * Debounce function to delay execution of a function until after a specified wait time
+     * has elapsed since the last time it was invoked.
+     * @param {Function} func The function to debounce.
+     * @param {number} delay The number of milliseconds to delay.
+     * @returns {Function} The new debounced function.
+     */
+    function debounce(func, delay) {
+        let timeout;
+        return function(...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), delay);
+        };
+    }
 
     /**
      * Constructs the image URL for a card, allowing for a manual override.
@@ -84,48 +99,48 @@ document.addEventListener('DOMContentLoaded', function() {
         if (card.manualUrl) {
             return card.manualUrl;
         }
-        
+
         // Handle signed cards (SEC rarity)
         if (signedCheckbox.checked && card.hasSigned) {
             const directory = card.imageSet || card.setName;
             return `${baseUrl}${directory}/${card.cardNumber}_SEC.png`;
         }
-    
+
         // Handle full art cards (SR rarity)
         if (fullArtCheckbox.checked && card.hasFullArt) {
             const directory = card.imageSet || card.setName;
             return `${baseUrl}${directory}/${card.cardNumber}_SR.png`;
         }
-    
+
         // Handle alternative art cards (OUR/UR)
         if (altArtCheckbox.checked && card.hasAlternativeArt) {
             const directory = card.imageSet || card.setName;
             const altRarityMap = {
                 OSR: 'OUR',
-                RR: 'UR', 
+                RR: 'UR',
             };
             const altRarity = altRarityMap[card.rarity] || card.rarity;
             return `${baseUrl}${directory}/${card.cardNumber}_${altRarity}.png`;
         }
-        
+
         // Handle foil cards (S rarity)
         if (foilCheckbox.checked && card.hasFoils) {
             const directory = card.imageSet || card.setName;
             return `${baseUrl}${directory}/${card.cardNumber}_S.png`;
         }
-        
+
         // Handle Grandprix art cards (P rarity)
         if (grandprixCheckbox.checked && card.hasGrandPrix) {
             // Grand Prix cards are typically in the 'hPR' set.
             const directory = "hPR";
             return `${baseUrl}${directory}/${card.cardNumber}_P.png`;
         }
-    
+
         // Handle specific rarities that might use imageSet, like SY, as a fallback.
         if (card.rarity === 'SY' && card.imageSet) {
             return `${baseUrl}${card.imageSet}/${card.cardNumber}_SY.png`;
         }
-    
+
         // Default URL for standard art. This should always use the card's native `setName`.
         return `${baseUrl}${card.setName}/${card.cardNumber}_${card.rarity}.png`;
     }
@@ -134,33 +149,33 @@ document.addEventListener('DOMContentLoaded', function() {
         loadingIndicator.style.display = 'block';
 
         Promise.all(seriesFiles.map(file => {
-            const setName = file.split('.')[0];
-            return fetch(file)
-                .then(response => {
-                    if (!response.ok) {
-                        // If file not found or error, continue with empty data
+                const setName = file.split('.')[0];
+                return fetch(file)
+                    .then(response => {
+                        if (!response.ok) {
+                            // If file not found or error, continue with empty data
+                            return { setName, data: [] };
+                        }
+                        return response.json().then(data => ({ setName, data }));
+                    })
+                    .catch(error => {
+                        console.error(`Error loading or parsing ${file}:`, error);
                         return { setName, data: [] };
-                    }
-                    return response.json().then(data => ({ setName, data }));
-                })
-                .catch(error => {
-                    console.error(`Error loading or parsing ${file}:`, error);
-                    return { setName, data: [] };
+                    });
+            }))
+            .then(results => {
+                allCardData = results.flatMap(result => {
+                    return result.data.map(card => ({...card, setName: result.setName }));
                 });
-        }))
-        .then(results => {
-            allCardData = results.flatMap(result => {
-                return result.data.map(card => ({ ...card, setName: result.setName }));
+
+                filteredCardData = allCardData;
+                displayCards(filteredCardData);
+                loadingIndicator.style.display = 'none';
+            })
+            .catch(error => {
+                console.error('Failed to load card data:', error);
+                loadingIndicator.style.display = 'none';
             });
-            
-            filteredCardData = allCardData;
-            displayCards(filteredCardData);
-            loadingIndicator.style.display = 'none';
-        })
-        .catch(error => {
-            console.error('Failed to load card data:', error);
-            loadingIndicator.style.display = 'none';
-        });
     }
 
     function displayCards(cardsToShow) {
@@ -212,7 +227,7 @@ document.addEventListener('DOMContentLoaded', function() {
         lazyImages.forEach(image => observer.observe(image));
     }
 
-  function filterCards() {
+    function filterCards() {
         const searchText = searchBar.value.toLowerCase();
         const selectedSeries = seriesFilter.value;
         const selectedRarity = rarityFilter.value;
@@ -222,7 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const showFoil = foilCheckbox.checked;
         const showSigned = signedCheckbox.checked;
         const showGrandprix = grandprixCheckbox.checked;
- 
+
         filteredCardData = allCardData.filter(card => {
             let matchesSearch = true; // Default to true
 
@@ -240,17 +255,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
             } else if (searchText) {
                 // General search (if search bar is not empty and has no prefix)
-                 matchesSearch = card.name.toLowerCase().includes(searchText) || 
-                                  card.cardNumber.toLowerCase().includes(searchText) || 
-                                  (card.tag && card.tag.toLowerCase().includes(searchText)) ||
-                                  (card.ability && card.ability.toLowerCase().includes(searchText)) ||
-                                  (card.collabEffect && card.collabEffect.toLowerCase().includes(searchText)) ||
-                                  (card.bloomEffect && card.bloomEffect.toLowerCase().includes(searchText)) ||
-                                  (card.giftEffect && card.giftEffect.toLowerCase().includes(searchText)) ||
-                                  (card.extraEffect && card.extraEffect.toLowerCase().includes(searchText)) ||
-                                  (card.oshiSkill && card.oshiSkill.description && card.oshiSkill.description.toLowerCase().includes(searchText)) ||
-                                  (card.spOshiSkill && card.spOshiSkill.description && card.spOshiSkill.description.toLowerCase().includes(searchText)) ||
-                                  (card.skills && card.skills.some(skill => skill.description && skill.description.toLowerCase().includes(searchText)));
+                matchesSearch = card.name.toLowerCase().includes(searchText) ||
+                    card.cardNumber.toLowerCase().includes(searchText) ||
+                    (card.tag && card.tag.toLowerCase().includes(searchText)) ||
+                    (card.ability && card.ability.toLowerCase().includes(searchText)) ||
+                    (card.collabEffect && card.collabEffect.toLowerCase().includes(searchText)) ||
+                    (card.bloomEffect && card.bloomEffect.toLowerCase().includes(searchText)) ||
+                    (card.giftEffect && card.giftEffect.toLowerCase().includes(searchText)) ||
+                    (card.extraEffect && card.extraEffect.toLowerCase().includes(searchText)) ||
+                    (card.oshiSkill && card.oshiSkill.description && card.oshiSkill.description.toLowerCase().includes(searchText)) ||
+                    (card.spOshiSkill && card.spOshiSkill.description && card.spOshiSkill.description.toLowerCase().includes(searchText)) ||
+                    (card.skills && card.skills.some(skill => skill.description && skill.description.toLowerCase().includes(searchText)));
             }
             // --- End of New Search Logic ---
 
@@ -262,17 +277,17 @@ document.addEventListener('DOMContentLoaded', function() {
             const matchesFullArt = showFullArt ? card.hasFullArt === true : true;
             const matchesFoilCard = showFoil ? card.hasFoils === true : true;
             const matchesSignedCard = showSigned ? card.hasSigned === true : true;
-            const matchesGrandPrix = showGrandprix? card.hasGrandPrix === true : true;
+            const matchesGrandPrix = showGrandprix ? card.hasGrandPrix === true : true;
 
             return matchesSearch &&
-                   matchesSeries &&
-                   matchesRarity &&
-                   matchesBloomType &&
-                   matchesAltArt &&
-                   matchesFullArt &&
-                   matchesFoilCard &&
-                   matchesSignedCard && 
-                   matchesGrandPrix;
+                matchesSeries &&
+                matchesRarity &&
+                matchesBloomType &&
+                matchesAltArt &&
+                matchesFullArt &&
+                matchesFoilCard &&
+                matchesSignedCard &&
+                matchesGrandPrix;
         });
 
         displayCards(filteredCardData);
@@ -281,15 +296,15 @@ document.addEventListener('DOMContentLoaded', function() {
     function openModal(card) {
         const modalImageContainer = document.getElementById('modalImageContainer');
         modalImageContainer.innerHTML = '';
-    
+
         // Pass the entire card object to get the correct image URL
         const imageUrl = getImageUrl(card);
-    
+
         const primaryImage = document.createElement('img');
         primaryImage.src = imageUrl;
         primaryImage.alt = card.name;
         modalImageContainer.appendChild(primaryImage);
-        
+
         modalCardName.textContent = card.name || '';
         modalCardNumber.textContent = card.cardNumber || '';
         modalCardTags.textContent = card.tag || '';
@@ -322,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function() {
         toggleVisibility(modalGiftEffectContainer, card.giftEffect);
         toggleVisibility(modalExtraEffectContainer, card.extraEffect);
         toggleVisibility(modalSourcesContainer, card.source);
-        
+
         if (card.oshiSkill) {
             modalOshiSkill.classList.remove('hidden');
             modalOshiSkillName.textContent = card.oshiSkill.name || '';
@@ -340,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             modalSpOshiSkill.classList.add('hidden');
         }
-// Skills
+        // Skills
         if (card.skills && card.skills.length > 0) {
             modalSkills.innerHTML = '<h3>Skills</h3>'; // It's okay to use innerHTML for a simple, static tag like this.
             card.skills.forEach(skill => {
@@ -362,13 +377,13 @@ document.addEventListener('DOMContentLoaded', function() {
                     const skillDescP = document.createElement('p');
                     const strongTag = document.createElement('strong');
                     strongTag.textContent = 'Arts Effect: ';
-                    
+
                     skillDescP.appendChild(strongTag); // Add the "Arts Effect: " part
                     skillDescP.append(skill.description); // Append the description text, which will be correctly displayed
-                    
+
                     skillContainer.appendChild(skillDescP);
                 }
-                
+
                 modalSkills.appendChild(skillContainer);
             });
             modalSkills.classList.remove('hidden');
@@ -389,6 +404,8 @@ document.addEventListener('DOMContentLoaded', function() {
         modal.style.display = 'none';
     }
 
+
+
     if (modalCloseIcon) {
         modalCloseIcon.addEventListener('click', closeModal);
     }
@@ -407,7 +424,11 @@ document.addEventListener('DOMContentLoaded', function() {
     fullArtCheckbox.addEventListener('change', filterCards);
     grandprixCheckbox.addEventListener('change', filterCards);
 
-    searchBar.addEventListener('input', filterCards);
+    // --- CHANGE IS HERE ---
+    // Apply debounce to the search bar input to improve performance
+    searchBar.addEventListener('input', debounce(filterCards, 300));
+    // --- END OF CHANGE ---
+
     seriesFilter.addEventListener('change', filterCards);
     rarityFilter.addEventListener('change', filterCards);
     bloomTypeFilter.addEventListener('change', filterCards);
