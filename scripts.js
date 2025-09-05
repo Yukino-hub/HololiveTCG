@@ -94,7 +94,8 @@ document.addEventListener('DOMContentLoaded', function() {
     function getImageUrl(card) {
         // Priority 1: Manual URL Override.
         if (card.manualUrl) {
-            return card.manualUrl;
+            // Enforce HTTPS for manual URLs to prevent mixed content issues.
+            return card.manualUrl.startsWith('http://') ? card.manualUrl.replace('http://', 'https://') : card.manualUrl;
         }
 
         const imageTypeConfigs = [{
