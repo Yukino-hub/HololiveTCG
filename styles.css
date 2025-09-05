@@ -1,32 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #121212;
     color: white;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
 }
 
 header {
-    background: #1E1E1E;
+    background-color: #1a1a1a;
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #333;
+    border-bottom: 1px solid #333;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: #4da6ff;
+    margin-bottom: 10px;
 }
 
 header a {
-    color: #1E90FF;
+    color: #4da6ff;
     text-decoration: none;
     margin: 0 15px;
+    transition: color 0.3s ease;
 }
 
 header a:hover {
+    color: #80bfff;
     text-decoration: underline;
 }
 
 .container {
     padding: 20px;
-    margin: auto;
+    margin: 20px auto;
+    background-color: rgba(26, 26, 26, 0.8);
+    border-radius: 8px;
 }
 
 .search-container {
