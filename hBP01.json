@@ -70,7 +70,7 @@
             "description": "[Once per game] During this turn, treat all as if they had rolled 6"
         },
         "hasAlternativeArt": true,
-        "hasGrandPrix" : true,
+        "hasGrandPrix": true,
         "source": "Top 4 WGP2025"
     },
     {
@@ -108,7 +108,7 @@
             "description": "[Once per game] Can be used during your opponent's turn when any of your Red holomems is Downed: lose 1 less LIFE than you normally would. Then choose a holomem that was Downed and put that holomem, and all holomems stacked under it, into your hand."
         },
         "hasAlternativeArt": true,
-        "hasSigned" : true
+        "hasSigned": true
     },
     {
         "cardNumber": "hBP01-007",
@@ -127,7 +127,7 @@
             "description": "[Once per game] You may use this When your blue holomen deal damage to opp's center holomen or collab holomen: deal an equal amount of special damage to one of your opponent's Back holomems."
         },
         "hasAlternativeArt": true,
-        "hasSigned" : true
+        "hasSigned": true
     },
     {
         "cardNumber": "hBP01-008",
@@ -466,7 +466,6 @@
         "extraEffect": "When this Holomen is downed, your life is reduced by 2",
         "hasAlternativeArt": true
     },
-    
     {
         "cardNumber": "hBP01-028",
         "name": "IRyS",
@@ -545,7 +544,9 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "This Holomen can be included in your deck in any number of copies.",
+        "hasHolomenRare": true,
+        "imageSet": "hBP05"
     },
     {
         "cardNumber": "hBP01-033",
@@ -890,7 +891,7 @@
             {
                 "name": "スラマッパギ!",
                 "dmg": "10",
-                "description" : "You may move 1 Cheer from any of your holomems to one of your holomems with #ID."
+                "description": "You may move 1 Cheer from any of your holomems to one of your holomems with #ID."
             }
         ],
         "extraEffect": "This Holomen can be included in your deck in any number of copies."
@@ -1167,7 +1168,9 @@
                 "dmg": "20+"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "This Holomen can be included in your deck in any number of copies.",
+        "hasHolomenRare": true,
+        "imageSet": "hBP05"
     },
     {
         "cardNumber": "hBP01-069",
@@ -1304,7 +1307,9 @@
                 "description": "Deal 10 special damage to one of your opponent's Back holomems. (Holomems Downed with this effect do not reduce LIFE)"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "This Holomen can be included in your deck in any number of copies.",
+        "hasHolomenRare": true,
+        "imageSet": "hBP05"
     },
     {
         "cardNumber": "hBP01-077",
