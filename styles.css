@@ -200,6 +200,10 @@ header a:hover {
 .badge.signed { 
     color: #e74c3c; /* Most important */
 }
+
+.badge.HolomenRare { 
+    color: #e74c3c; /* Most important */
+}
 /* Loading Indicator Styles */
 #loadingIndicator {
     text-align: center;
