@@ -222,7 +222,8 @@
                 "power": "130+, +50 vs green",
                 "description": "[Center position only] If your collab holomem has #Gen3, this Arts +30."
             }
-        ]
+        ],
+         "hasAlternativeArt": true
     },
     {
         "name": "Tokino Sora",
@@ -297,8 +298,10 @@
                 "power": "120+, +50 vs red",
                 "description": "You may roll a die once for each holomem that is stacked to this holomem:This Arts gets +10x the total number rolled."
             }
-        ]
+        ],
+         "hasAlternativeArt": true
     },
+    
     {
         "name": "Himemori Luna",
         "tags": "#JP #Gen4 #Baby",
@@ -320,13 +323,13 @@
                 "name": "",
                 "cost": "1 white, 2 any color",
                 "power": "80",
-                "description": "[Collab position only]For each <Luknight> attached to your center holomem, reduce the cheer cost of this Arts by 1 colorless cheer."
+                "description": "[Collab position only ]For each <Luknight> attached to your center holomem, reduce the cheer cost of this Arts by 1 colorless cheer."
             }
         ]
     },
     {
         "name": "Vestia Zeta",
-        "tags": "#ID#IDGen3",
+        "tags": "#ID #IDGen3",
         "cardNumber": "hBP05-018",
         "rarity": "R",
         "color": "White",
@@ -350,7 +353,7 @@
     },
     {
         "name": "Airani Iofifteen",
-        "tags": "#ID#IDGen1 #Painting",
+        "tags": "#ID #IDGen1 #Painting",
         "cardNumber": "hBP05-019",
         "rarity": "U",
         "color": "Green",
@@ -432,7 +435,8 @@
                 "power": "130+, +50 vs white",
                 "description": "[Center position only]If your Oshi holomem is <Airani Iofifteen>, this Arts gets +20 for every 3 cheers on your stage."
             }
-        ]
+        ],
+         "hasAlternativeArt": true
     },
     {
         "name": "AZKi",
@@ -508,7 +512,8 @@
                 "power": "130, +50 vs blue",
                 "description": "If your opponent's holomem is downed by this Arts, draw 1 card from your deck. Then, if your Oshi holomem is <Aki Rosenthal>, restore 20 HP to all of your holomem."
             }
-        ]
+        ],
+         "hasAlternativeArt": true
     },
     {
         "name": "Shishiro Botan",
@@ -645,7 +650,8 @@
                 "power": "110+, +50 vs green",
                 "description": "If your oshi holomem is <Omaru Polka>, this Arts gets +30 for every 10 cards in your archive."
             }
-        ]
+        ],
+         "hasAlternativeArt": true
     },
     {
         "name": "Sakura Miko",
@@ -703,7 +709,8 @@
                 "power": "220, +50 vs purple",
                 "description": "Archive all cheers attached to this holomem."
             }
-        ]
+        ],
+         "hasAlternativeArt": true
     },
     {
         "name": "Mococo Abyssgard",
@@ -852,7 +859,8 @@
                 "power": "120, +50 vs white",
                 "description": "Deal 20 Special Damage to 1 of your opponent's holomem. Then, you may send 1 Cheer from your archive to your back holomem with #Gamers."
             }
-        ]
+        ],
+         "hasAlternativeArt": true
     },
     {
         "name": "Yukihana Lamy",
@@ -928,7 +936,8 @@
                 "power": "120, +50 vs white",
                 "description": "You may archive 2 cheers from this holomem:Deal 30 Special Damage to all of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
             }
-        ]
+        ],
+         "hasAlternativeArt": true
     },
     {
         "name": "Fuwawa Abyssgard",
@@ -1057,7 +1066,8 @@
                 "power": "150, +50 vs Blue",
                 "description": "You may archive 2 cards from your hand:Return 1 holomem with #Cooking from your archive to hand."
             }
-        ]
+        ],
+         "hasAlternativeArt": true
     },
     {
         "name": "Nerissa Ravencroft",
@@ -1149,7 +1159,8 @@
                 "power": "120, +50 vs blue",
                 "description": "You may archive 1~3 cards from your hand:During this turn, 1 of your holomem with #Singing gets Arts+20 for each card archived."
             }
-        ]
+        ],
+         "hasAlternativeArt": true
     },
     {
         "name": "Tokoyami Towa",
@@ -1255,7 +1266,8 @@
                 "power": "120+, +50 vs blue",
                 "description": "You may roll a die once:If it is greater than or equal to your current Life, the Arts gets +60. If it is less than or equal to your current Life, draw 1 card from your deck."
             }
-        ]
+        ],
+         "hasAlternativeArt": true
     },
     {
         "name": "Shirakami Fubuki",
@@ -1313,7 +1325,8 @@
                 "power": "100+, +50 vs blue",
                 "description": "If [your Oshi holomem is <Shirakami Fubuki> or your Oshi holomem's color is yellow], and there are 4 or more [tools, mascots, and fans] on your stage, this Arts gets +100."
             }
-        ]
+        ],
+         "hasAlternativeArt": true
     },
     {
         "name": "Inugami Korone",
@@ -1483,3 +1496,4 @@
     }
 
 ]
+
