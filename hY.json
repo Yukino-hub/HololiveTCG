@@ -100,5 +100,41 @@
         "name": "Yellow Cheer (Subaru)",
         "rarity": "SY",
         "imageSet": "hBP04"
+    },
+     {
+        "cardNumber": "hY01-007",
+        "name": "White Cheer (Pekora)",
+        "rarity": "SY",
+        "imageSet": "hBP05"
+    },
+     {
+        "cardNumber": "hY02-006",
+        "name": "Green Cheer (Azki)",
+        "rarity": "SY",
+        "imageSet": "hBP05"
+    },
+     {
+        "cardNumber": "hY03-009",
+        "name": "Red Cheer (Ayame)",
+        "rarity": "SY",
+        "imageSet": "hBP05"
+    },
+    {
+        "cardNumber": "hY04-006",
+        "name": "Blue Cheer (Okayu)",
+        "rarity": "SY",
+        "imageSet": "hBP05"
+    },
+      {
+        "cardNumber": "hY05-005",
+        "name": "Purple Cheer (Choco)",
+        "rarity": "SY",
+        "imageSet": "hBP05"
+    },
+     {
+        "cardNumber": "hY06-005",
+        "name": "Yellow Cheer (Flare)",
+        "rarity": "SY",
+        "imageSet": "hBP05"
     }
 ]
