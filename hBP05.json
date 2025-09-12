@@ -1,8 +1,8 @@
 [
     
       {
-        "cardNumber": "hBP01-001",
-        "name": "Amane Kanata",
+        "cardNumber": "hBP05-001",
+        "name": "Shirogane Noel",
         "rarity": "OSR",
         "lives": 5,
         "color": "White",
@@ -1481,4 +1481,5 @@
         "type": "Support (Fan)",
         "ability": "During your opponent's turn, if the holomem this fan is attached to is downed, reattach 1 cheer from the holomem this fan is attached to to your other holomem with #Singing. You may only attach this fan to your <Nerissa Ravencroft>, and you may attach any number of this fan per holomem."
     }
+
 ]
