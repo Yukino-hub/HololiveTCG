@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const foilCheckbox = document.getElementById('foilCheckbox');
     const signedCheckbox = document.getElementById('signedCheckbox');
     const grandprixCheckbox = document.getElementById('grandprixCheckbox');
+    const holomenRareCheckbox = document.getElementById('holomenRareCheckbox');
 
     const modal = document.getElementById('modal');
     const modalCloseIcon = document.getElementById('modalCloseIcon');
@@ -102,6 +103,10 @@ document.addEventListener('DOMContentLoaded', function() {
             condition: signedCheckbox.checked && card.hasSigned,
             directory: card.imageSet || card.setName,
             suffix: 'SEC'
+        }, {
+            condition: holomenRareCheckbox.checked && card.hasHolomenRare,
+            directory: card.imageSet || card.setName,
+            suffix: 'HR'
         }, {
             condition: fullArtCheckbox.checked && card.hasFullArt,
             directory: card.imageSet || card.setName,
@@ -232,7 +237,8 @@ document.addEventListener('DOMContentLoaded', function() {
             fullArt: fullArtCheckbox.checked,
             foil: foilCheckbox.checked,
             signed: signedCheckbox.checked,
-            grandprix: grandprixCheckbox.checked
+            grandprix: grandprixCheckbox.checked,
+            holomenRare: holomenRareCheckbox.checked
         };
 
         filteredCardData = allCardData.filter(card => {
@@ -293,7 +299,8 @@ document.addEventListener('DOMContentLoaded', function() {
             (!state.fullArt || card.hasFullArt) &&
             (!state.foil || card.hasFoils) &&
             (!state.signed || card.hasSigned) &&
-            (!state.grandprix || card.hasGrandPrix);
+            (!state.grandprix || card.hasGrandPrix) &&
+            (!state.holomenRare || card.hasHolomenRare);
     }
 
     function openModal(card) {
@@ -423,7 +430,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Consolidated event listeners for all filter controls
     const filterControls = [
-        altArtCheckbox, signedCheckbox, foilCheckbox, fullArtCheckbox, grandprixCheckbox,
+        altArtCheckbox, signedCheckbox, foilCheckbox, fullArtCheckbox, grandprixCheckbox, holomenRareCheckbox,
         seriesFilter, rarityFilter, bloomTypeFilter
     ];
 

@@ -635,7 +635,8 @@
                 "description": "You may archive 1 card from your hand:Deal 10 damage to your opponent's center holomem or collab holomem."
             }
         ],
-        "hasFoils" : true
+        "hasFoils" : true,
+        "hasHolomenRare": true
     },
     {
         "name": "Omaru Polka",
