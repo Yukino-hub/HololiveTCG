@@ -192,6 +192,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 ${card.hasAlternativeArt ? `<span class="badge alt-art">Alt Art</span>` : ''}
                 ${card.hasSigned ? `<span class="badge signed">Signed</span>` : ''}
                 ${card.hasGrandPrix ? `<span class="badge GrandPrix">GrandPrix</span>` : ''}
+                 ${card.hasHolomenRare ? `<span class="badge HolomenRare">HolomenRare</span>` : ''}
             </div>
         `;
 
