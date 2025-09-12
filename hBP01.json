@@ -1303,7 +1303,9 @@
                 "description": "Deal 10 special damage to one of your opponent's Back holomems. (Holomems Downed with this effect do not reduce LIFE)"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "This Holomen can be included in your deck in any number of copies.".
+         "hasHolomenRare": true,
+    "imageSet": "hBP05"
     },
     {
         "cardNumber": "hBP01-077",
