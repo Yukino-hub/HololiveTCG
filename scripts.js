@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const foilCheckbox = document.getElementById('foilCheckbox');
     const signedCheckbox = document.getElementById('signedCheckbox');
     const grandprixCheckbox = document.getElementById('grandprixCheckbox');
+    const holographicCheckbox = document.getElementById('holographicCheckbox');
 
     const modal = document.getElementById('modal');
     const modalCloseIcon = document.getElementById('modalCloseIcon');
@@ -122,6 +123,10 @@ document.addEventListener('DOMContentLoaded', function() {
             directory: 'hPR',
             suffix: 'P'
         }, {
+            condition: holographicCheckbox.checked && card.hasHolographic,
+            directory: card.imageSet || card.setName,
+            suffix: 'HR'
+        }, {
             condition: card.rarity === 'SY' && card.imageSet,
             directory: card.imageSet,
             suffix: 'SY'
@@ -187,6 +192,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 ${card.hasAlternativeArt ? `<span class="badge alt-art">Alt Art</span>` : ''}
                 ${card.hasSigned ? `<span class="badge signed">Signed</span>` : ''}
                 ${card.hasGrandPrix ? `<span class="badge GrandPrix">GrandPrix</span>` : ''}
+                ${card.hasHolographic ? `<span class="badge holographic">Holographic</span>` : ''}
             </div>
         `;
 
@@ -232,7 +238,8 @@ document.addEventListener('DOMContentLoaded', function() {
             fullArt: fullArtCheckbox.checked,
             foil: foilCheckbox.checked,
             signed: signedCheckbox.checked,
-            grandprix: grandprixCheckbox.checked
+            grandprix: grandprixCheckbox.checked,
+            holographic: holographicCheckbox.checked
         };
 
         filteredCardData = allCardData.filter(card => {
@@ -293,7 +300,8 @@ document.addEventListener('DOMContentLoaded', function() {
             (!state.fullArt || card.hasFullArt) &&
             (!state.foil || card.hasFoils) &&
             (!state.signed || card.hasSigned) &&
-            (!state.grandprix || card.hasGrandPrix);
+            (!state.grandprix || card.hasGrandPrix) &&
+            (!state.holographic || card.hasHolographic);
     }
 
     function openModal(card) {
@@ -423,7 +431,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Consolidated event listeners for all filter controls
     const filterControls = [
-        altArtCheckbox, signedCheckbox, foilCheckbox, fullArtCheckbox, grandprixCheckbox,
+        altArtCheckbox, signedCheckbox, foilCheckbox, fullArtCheckbox, grandprixCheckbox, holographicCheckbox,
         seriesFilter, rarityFilter, bloomTypeFilter
     ];
 
