@@ -544,7 +544,9 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "This Holomen can be included in your deck in any number of copies.",
+        "hasHolomenRare": true,
+        "imageSet": "hBP05"
     },
     {
         "cardNumber": "hBP01-033",
@@ -1166,7 +1168,9 @@
                 "dmg": "20+"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "This Holomen can be included in your deck in any number of copies.",
+        "hasHolomenRare": true,
+        "imageSet": "hBP05"
     },
     {
         "cardNumber": "hBP01-069",
