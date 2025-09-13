@@ -245,7 +245,7 @@
     },
     {
         "name": "Shirakami Fubuki",
-        "tag": "#JP #Gen1 #Gamers #Kemomimi #Art",
+        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
         "cardNumber": "hBP04-014",
         "rarity": "R",
         "color": "White",
@@ -284,7 +284,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tag": "#EN #Justice #Kemomimi #Art",
+        "tag": "#EN #Justice #Kemomimi #Painting",
         "cardNumber": "hBP04-016",
         "rarity": "C",
         "color": "White",
@@ -302,7 +302,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tag": "#EN #Justice #Kemomimi #Art",
+        "tag": "#EN #Justice #Kemomimi #Painting",
         "cardNumber": "hBP04-017",
         "rarity": "C",
         "color": "White",
@@ -319,13 +319,13 @@
     },
     {
         "name": "Raora Panthera",
-        "tag": "#EN #Justice #Kemomimi #Art",
+        "tag": "#EN #Justice #Kemomimi #Painting",
         "cardNumber": "hBP04-018",
         "rarity": "U",
         "color": "White",
         "bloomLevel": "1st",
         "hp": 140,
-        "bloomEffect": "神眼の描き手 : The arts of one of your holomem with #Art gain +20 power until the end of this turn.",
+        "bloomEffect": "神眼の描き手 : The arts of one of your holomem with #Painting gain +20 power until the end of this turn.",
         "skills": [
             {
                 "name": "情報収集はお手の物",
@@ -337,19 +337,19 @@
     },
     {
         "name": "Raora Panthera",
-        "tag": "#EN #Justice #Kemomimi #Art",
+        "tag": "#EN #Justice #Kemomimi #Painting",
         "cardNumber": "hBP04-019",
         "rarity": "R",
         "color": "White",
         "bloomLevel": "2nd",
         "hp": 190,
-        "collabEffect": "只今、情報収集中　. : Look at the top three cards of your deck. Reveal one that is a holomem with #Art and put it into your hand. Then put the remaining cards on the bottom of your deck in any order.",
+        "collabEffect": "只今、情報収集中　. : Look at the top three cards of your deck. Reveal one that is a holomem with #Painting and put it into your hand. Then put the remaining cards on the bottom of your deck in any order.",
         "skills": [
             {
                 "name": "Art Streamer",
                 "cost": "3 any color",
                 "dmg": "70+, +50 vs Red",
-                "description": "[Collab position only] If your center holomem has #Art, this art gains +80 power."
+                "description": "[Collab position only] If your center holomem has #Painting, this art gains +80 power."
             }
         ],
         "hasFullArt": true
@@ -494,7 +494,7 @@
     },
     {
         "name": "Pavolia Reine",
-        "tag": "#ID #IDGen2 #Bird #Art",
+        "tag": "#ID #IDGen2 #Bird #Painting",
         "cardNumber": "hBP04-027",
         "rarity": "R",
         "color": "Green",
@@ -703,7 +703,7 @@
     },
     {
         "name": "Houshou Marine",
-        "tag": "#JP #Gen3 #Art #Sea",
+        "tag": "#JP #Gen3 #Painting #Sea",
         "cardNumber": "hBP04-038",
         "rarity": "R",
         "color": "Red",
@@ -1585,7 +1585,7 @@
     },
     {
         "name": "Momosuzu Nene",
-        "tag": "#JP #Gen5 #Song #Art",
+        "tag": "#JP #Gen5 #Song #Painting",
         "cardNumber": "hBP04-083",
         "rarity": "C",
         "color": "Yellow",
@@ -1603,7 +1603,7 @@
     },
     {
         "name": "Momosuzu Nene",
-        "tag": "#JP #Gen5 #Song #Art",
+        "tag": "#JP #Gen5 #Song #Painting",
         "cardNumber": "hBP04-084",
         "rarity": "C",
         "color": "Yellow",
@@ -1625,7 +1625,7 @@
     },
     {
         "name": "Momosuzu Nene",
-        "tag": "#JP #Gen5 #Song #Art",
+        "tag": "#JP #Gen5 #Song #Painting",
         "cardNumber": "hBP04-085",
         "rarity": "U",
         "color": "Yellow",
@@ -1643,7 +1643,7 @@
     },
     {
         "name": "Momosuzu Nene",
-        "tag": "#JP #Gen5 #Song #Art",
+        "tag": "#JP #Gen5 #Song #Painting",
         "cardNumber": "hBP04-086",
         "rarity": "RR",
         "color": "Yellow",
@@ -1858,4 +1858,5 @@
         "hasFoils": true
     }
 ]
+
 
