@@ -87,7 +87,7 @@
         "spOshiSkill": {
             "name": "我ら秘密結社holoX!",
             "power": 3,
-            "description": "[Once Per Game] Choose one of your Holomem with the #SecretSocietyHoloX For the rest of this turn, the chosen Holomem's Arts can be used without needing the cheer requirement."
+            "description": "[Once Per Game] Choose one of your Holomem with the #HoloX For the rest of this turn, the chosen Holomem's Arts can be used without needing the cheer requirement."
         },
         "hasAlternativeArt": true,
         "hasSigned": true
@@ -131,7 +131,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #SecretSocietyholoX #Kemomimi",
+        "tag": "#JP #HoloX #Kemomimi",
         "cardNumber": "hBP04-008",
         "rarity": "C",
         "color": "White",
@@ -148,7 +148,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #SecretSocietyholoX #Kemomimi",
+        "tag": "#JP #HoloX #Kemomimi",
         "cardNumber": "hBP04-009",
         "rarity": "U",
         "color": "White",
@@ -159,14 +159,14 @@
                 "name": "終わりなき輪廻に迷いし子らよ",
                 "cost": "1 any color",
                 "dmg": "20",
-                "description": "Look at the top 3 cards of your deck. From among them, reveal one [Debut Holomem with the #SecretSocietyHoloX or a Support card with the #KoyoLab] and add it to your hand. Then, return the remaining cards to the bottom of your deck in any order."
+                "description": "Look at the top 3 cards of your deck. From among them, reveal one [Debut Holomem with the #HoloX or a Support card with the #KoyoLab] and add it to your hand. Then, return the remaining cards to the bottom of your deck in any order."
             }
         ],
         "hasFoils": true
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #SecretSocietyholoX #Kemomimi",
+        "tag": "#JP #HoloX #Kemomimi",
         "cardNumber": "hBP04-010",
         "rarity": "C",
         "color": "White",
@@ -188,7 +188,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #SecretSocietyholoX #Kemomimi",
+        "tag": "#JP #HoloX #Kemomimi",
         "cardNumber": "hBP04-011",
         "rarity": "U",
         "color": "White",
@@ -206,7 +206,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #SecretSocietyholoX #Kemomimi",
+        "tag": "#JP #HoloX #Kemomimi",
         "cardNumber": "hBP04-012",
         "rarity": "R",
         "color": "White",
@@ -225,7 +225,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #SecretSocietyholoX #Kemomimi",
+        "tag": "#JP #HoloX #Kemomimi",
         "cardNumber": "hBP04-013",
         "rarity": "RR",
         "color": "White",
@@ -1022,7 +1022,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tag": "#JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #HoloX #Shooter",
         "cardNumber": "hBP04-054",
         "rarity": "C",
         "color": "Purple",
@@ -1040,7 +1040,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tag": "#JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #HoloX #Shooter",
         "cardNumber": "hBP04-055",
         "rarity": "U",
         "color": "Purple",
@@ -1059,7 +1059,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tag": "#JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #HoloX #Shooter",
         "cardNumber": "hBP04-056",
         "rarity": "C",
         "color": "Purple",
@@ -1081,7 +1081,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tag": "#JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #HoloX #Shooter",
         "cardNumber": "hBP04-057",
         "rarity": "U",
         "color": "Purple",
@@ -1099,7 +1099,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tag": "#JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #HoloX #Shooter",
         "cardNumber": "hBP04-058",
         "rarity": "R",
         "color": "Purple",
@@ -1117,7 +1117,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tag": "#JP #SecretSocietyholoX #Shooter",
+        "tag": "#JP #HoloX #Shooter",
         "cardNumber": "hBP04-059",
         "rarity": "RR",
         "color": "Purple",
@@ -1779,7 +1779,7 @@
         "cardNumber": "hBP04-097",
         "rarity": "U",
         "type": "Support (Tool)",
-        "ability": "The Arts of the Holomem this tool is attached to is increased by 10. If this is attached to a 1st Bloom or later <Hakui Koyori>, it gains the following effect: During your Main Step, you may archive 1 Cheer from the holomem with this Tool attached to unrest one of your resting holomem with #SecretSocietyholoX. Only one Tool can be equipped to each of your Holomem.",
+        "ability": "The Arts of the Holomem this tool is attached to is increased by 10. If this is attached to a 1st Bloom or later <Hakui Koyori>, it gains the following effect: During your Main Step, you may archive 1 Cheer from the holomem with this Tool attached to unrest one of your resting holomem with #HoloX. Only one Tool can be equipped to each of your Holomem.",
         "hasFoils": true
     },
     {
@@ -1858,6 +1858,7 @@
         "hasFoils": true
     }
 ]
+
 
 
 
