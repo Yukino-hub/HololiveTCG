@@ -15,7 +15,10 @@
     <div class="container">
     <div class="search-container">
         <!-- Search Bar -->
-        <input type="text" id="searchBar" placeholder="Search by Card Name/Numbers/Tags/Text ... Ex: Sora or Hbp01 or #Gen0 or bloom: or collab:" aria-label="Search">
+        <div class="search-bar-container">
+            <input type="text" id="searchBar" placeholder="Search by Card Name/Numbers/Tags/Text ... Ex: Sora or Hbp01 or #Gen0 or bloom: or collab:" aria-label="Search">
+            <button id="clearButton">Clear</button>
+        </div>
         <br><br>
         
         <!-- Dropdown Filters -->
@@ -110,8 +113,8 @@
 
         <!-- Tag display section -->
         <div class="tags-section">
-            <button id="showTagsButton">Show Available Tags</button>
-            <div id="tagsContainer" class="hidden"></div>
+            <label class="tags-label">Available Tags:</label>
+            <div id="tagsContainer"></div>
         </div>
         
     <!-- Content container for dynamically loaded cards -->
