@@ -6,12 +6,12 @@
         "lives": 5,
         "color": "White",
         "oshiSkill": {
-            "name": "ぎゅっきゅっ  (\"Squeeze Squeeze\")",
+            "name": "ぎゅっきゅっ",
             "power": 3,
             "description": "[Once per turn] Set the opponent's center holomem's remaining HP to 50."
         },
         "spOshiSkill": {
-            "name": "握りつぶしちゃうと  (\"I'll Crush you\")",
+            "name": "握りつぶしちゃうと",
             "power": 2,
             "description": "[Once per game] During this turn, 1 of your holomem gets Arts+50. Then, if that holomem's color is white, it gets Arts+50."
         },
@@ -24,12 +24,12 @@
         "lives": 5,
         "color": "White",
         "oshiSkill": {
-            "name": "文明の守護者  (\"Guardian of Civilization\")",
+            "name": "文明の守護者 ",
             "power": 2,
             "description": "[Once per turn]Usable if your holomem with #Promise would take Damage from the opponent during the opponent's turn:1 of those holomem takes -50 Damage."
         },
         "spOshiSkill": {
-            "name": "アメイジング・ドローイング  (\"Amazing Drawing\")",
+            "name": "アメイジング・ドローイング",
             "power": 2,
             "description": "[Once per game] Reveal 1 event from your deck, and add it to hand. Then, shuffle the deck."
         },
@@ -42,12 +42,12 @@
         "lives": 5,
         "color": "Green",
         "oshiSkill": {
-            "name": "サバイバルパワ-~  (\"Surival Power\")",
+            "name": "サバイバルパワ-~",
             "power": 2,
             "description": "[Once per turn] Reveal 1 〈Stone Axe〉 from your deck, and attach it to your green holomem. Then, shuffle the deck."
         },
         "spOshiSkill": {
-            "name": "大地の唄  (\"Song of the Earth\")",
+            "name": "大地の唄",
             "power": 2,
             "description": "[Once per game] Restore all HP of your green center holomem."
         },
@@ -60,12 +60,12 @@
         "lives": 6,
         "color": "Green",
         "oshiSkill": {
-            "name": "野兎たち~  (\"Nousagis~\")",
+            "name": "野兎たち~",
             "power": 2,
             "description": "[Once per turn] Usable if your holomem is downed during the opponent's turn:Reattach all green cheers from 1 of your downed holomem divided as you choose to your other holomems."
         },
         "spOshiSkill": {
-            "name": "幸運兎  (\"Lucky Rabbit\")",
+            "name": "幸運兎",
             "power": 3,
             "description": "[Once per game] During this turn, regard all numbers on the faces of your dice as 6."
         },
@@ -80,12 +80,12 @@
         "lives": 5,
         "color": "Red",
         "oshiSkill": {
-            "name": "女幹部の采配 (\"Executive's Order\")",
+            "name": "女幹部の采配",
             "power": "X",
             "description": "[Once per turn] Usable if you would archive cards from hand by your red holomem's ability:You may archive 1 of your holo Power instead for each hand card to be archived.."
         },
         "spOshiSkill": {
-            "name": "ホークアイ  (\"Hawkeye\")",
+            "name": "ホークアイ",
             "power": 2,
             "description": "[Once per game] During your opponent's next turn, your opponent's center holomem and collab holomem cannot Baton Pass, move, or swap.."
         },
@@ -98,7 +98,7 @@
         "lives": 5,
         "color": "Red",
         "oshiSkill": {
-            "name": "フェニックステール (\"Phoenix Tail\")",
+            "name": "フェニックステール",
             "power": "2",
             "description": "[Once per turn] Return 1 holomem from your archive to hand."
         },
@@ -117,12 +117,12 @@
         "lives": 5,
         "color": "Blue",
         "oshiSkill": {
-            "name": "ほうき星  (\"Comet\")",
+            "name": "ほうき星",
             "power": 2,
             "description": "[Once per turn] Usable when this Oshi holomem or your blue holomem deals Damage to your opponent's back holomem:Deal 50 Special Damage to that back holomem."
         },
         "spOshiSkill": {
-            "name": "シューティングスター  (\"Shooting Star\")",
+            "name": "シューティングスター",
             "power": 2,
             "description": "[Once per game]Usable when your blue holomem deals Damage to your opponent's center holomem or collab holomem:Deal the same amount of Special Damage to 1 of your opponent's back holomem.."
         },
@@ -136,12 +136,12 @@
         "lives": 6,
         "color": "Blue",
         "oshiSkill": {
-            "name": "レイン・シャーマニズム  (\"Rain Shamen\")",
+            "name": "レイン・シャーマニズム",
             "power": 2,
             "description": "[Once per turn] Usable when your blue holomem's ability archives a cheer:Deal 20 Special Damage to 1 of your opponent's holomem."
         },
         "spOshiSkill": {
-            "name": "雨乞い (\"Praying for rain\")",
+            "name": "雨乞い",
             "power": 2,
             "description": "[Once per game] Send 1~5 cheers from your archive divided as you choose to your holomems with #ID."
         },
