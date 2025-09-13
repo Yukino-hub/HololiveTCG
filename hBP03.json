@@ -162,7 +162,7 @@
                 "description": "If there are no <Luknight> attached to any holomems on your Stage, reveal a <Luknight> from your deck and attach it to any of your holomems. Then shuffle your deck."
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-010",
@@ -288,7 +288,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-017",
@@ -398,7 +398,7 @@
             }
         ],
         "hasFullArt": true,
-        "extraEffect": "When this holomem is downed, your life is reduced by 2."
+        "extraEffect": "If this holomem is downed, you get Life-2."
     },
     {
         "cardNumber": "hBP03-023",
@@ -418,7 +418,7 @@
             }
         ],
         "hasFullArt": true,
-        "extraEffect": "When this holomem is downed, your life is reduced by 2."
+        "extraEffect": "If this holomem is downed, you get Life-2."
     },
     {
         "cardNumber": "hBP03-024",
@@ -453,7 +453,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-026",
@@ -564,7 +564,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-032",
@@ -616,7 +616,7 @@
                 "description": "You may roll a dice: if the result is odd, deal 20 special damage to your opponent's Center and Collab holomems. If the result is even, this Art gains +40 power."
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "hasAlternativeArt": true,
         "hasFullArt": true
     },
@@ -637,7 +637,7 @@
             }
         ],
         "hasFullArt": true,
-        "extraEffect": "When this holomem is downed, your life is reduced by 2."
+        "extraEffect": "If this holomem is downed, you get Life-2."
     },
     {
         "cardNumber": "hBP03-036",
@@ -671,7 +671,7 @@
                 "description": "If there is a Fuwawa Abyssgard in your Center position, this Art can be used with no Cheer requirement."
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-038",
@@ -707,7 +707,7 @@
                 "description": "[Collab Position only] If your Center holomem is Fuwawa Abyssgard, this Art gains +30 power."
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "hasFullArt": true
     },
     {
@@ -724,7 +724,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-041",
@@ -821,7 +821,7 @@
             }
         ],
         "hasFullArt": true,
-        "extraEffect": "When this holomem is downed, your life is reduced by 2."
+        "extraEffect": "If this holomem is downed, you get Life-2."
     },
     {
         "cardNumber": "hBP03-046",
@@ -841,7 +841,7 @@
                 "dmg": "40"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-047",
@@ -897,7 +897,7 @@
                 "description": "Deal 10 special damage to your opponent's Center holomem or one of their Back holomems for each of your differently-named Back holomems with #ReGLOSS."
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "hasFullArt": true
     },
     {
@@ -936,7 +936,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-052",
@@ -1051,7 +1051,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-058",
@@ -1125,7 +1125,7 @@
                 "dmg": "60"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-062",
@@ -1232,7 +1232,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-068",
@@ -1345,7 +1345,7 @@
                 "description": "You may move 1 Cheer from this holomem to one of your holomems named Inugami Korone."
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-074",
@@ -1474,7 +1474,7 @@
                 "dmg": 50
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP03-081",
@@ -1525,7 +1525,7 @@
                 "dmg": 120
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "hasFullArt": true
     },
     {
@@ -1551,7 +1551,7 @@
         "name": "Dual Monitor PC",
         "type": "Support (Item)",
         "rarity": "C",
-        "ability": "Reveal 1-2 Debut holomems with the Extra text \"You may include any number of this holomem in your deck.\" from your Deck and put them on your Stage. Then shuffle your Deck.",
+        "ability": "Reveal 1-2 Debut holomems with the Extra text \"You may include any number of this holomem in the deck.\" from your Deck and put them on your Stage. Then shuffle your Deck.",
         "hasFoils": true
     },
     {
