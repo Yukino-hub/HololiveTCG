@@ -264,7 +264,7 @@
     },
     {
         "name": "IRyS",
-        "tag": "#EN #Promise #Song",
+        "tag": "#EN #Promise #Singing",
         "cardNumber": "hBP04-015",
         "rarity": "R",
         "color": "White",
@@ -920,7 +920,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tag": "#ID #IDGen1 #Song",
+        "tag": "#ID #IDGen1 #Singing",
         "cardNumber": "hBP04-049",
         "rarity": "R",
         "color": "Blue",
@@ -1177,7 +1177,7 @@
     },
     {
         "name": "Mori Calliope",
-        "tag": "#EN #Myth #Song",
+        "tag": "#EN #Myth #Singing",
         "cardNumber": "hBP04-062",
         "rarity": "R",
         "color": "Purple",
@@ -1375,7 +1375,7 @@
     },
     {
         "name": "Oozora Subaru",
-        "tag": "#JP #Gen2 #Song #Bird",
+        "tag": "#JP #Gen2 #Singing #Bird",
         "cardNumber": "hBP04-072",
         "rarity": "RR",
         "color": "Yellow",
@@ -1585,7 +1585,7 @@
     },
     {
         "name": "Momosuzu Nene",
-        "tag": "#JP #Gen5 #Song #Painting",
+        "tag": "#JP #Gen5 #Singing #Painting",
         "cardNumber": "hBP04-083",
         "rarity": "C",
         "color": "Yellow",
@@ -1603,7 +1603,7 @@
     },
     {
         "name": "Momosuzu Nene",
-        "tag": "#JP #Gen5 #Song #Painting",
+        "tag": "#JP #Gen5 #Singing #Painting",
         "cardNumber": "hBP04-084",
         "rarity": "C",
         "color": "Yellow",
@@ -1625,7 +1625,7 @@
     },
     {
         "name": "Momosuzu Nene",
-        "tag": "#JP #Gen5 #Song #Painting",
+        "tag": "#JP #Gen5 #Singing #Painting",
         "cardNumber": "hBP04-085",
         "rarity": "U",
         "color": "Yellow",
@@ -1643,7 +1643,7 @@
     },
     {
         "name": "Momosuzu Nene",
-        "tag": "#JP #Gen5 #Song #Painting",
+        "tag": "#JP #Gen5 #Singing #Painting",
         "cardNumber": "hBP04-086",
         "rarity": "RR",
         "color": "Yellow",
@@ -1667,7 +1667,7 @@
     },
     {
         "name": "Elizabeth Rose Bloodflame",
-        "tag": "#EN #Justice #Song",
+        "tag": "#EN #Justice #Singing",
         "cardNumber": "hBP04-087",
         "rarity": "C",
         "bloomLevel": "Spot",
@@ -1858,5 +1858,6 @@
         "hasFoils": true
     }
 ]
+
 
 
