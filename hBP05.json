@@ -321,7 +321,7 @@
         "bloomLevel": "1st",
         "hp": 240,
         "buzz": true,
-        "extraEffect": "If this holomem is downed, you get Life-2",
+        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
         "skills": [
             {
                 "name": "レトロロマン",
@@ -464,7 +464,7 @@
         "bloomLevel": "1st",
         "hp": 250,
         "buzz": true,
-        "extraEffect": "If this holomem is downed, you get Life-2",
+        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
         "skills": [
             {
                 "name": "あずきんちでゆっくりしよ",
@@ -546,7 +546,7 @@
         "hp": 250,
         "buzz": true,
         "giftEffect": "ちょっと頑張りました : [Center position only][once per turn]When your Oshi holomem <Shishiro Botan> or a <Shishiro Botan> on your stage deals 30 or more Special Damage to your opponent's holomem, draw 1 card from your deck.",
-        "extraEffect": "If this holomem is downed, you get Life-2",
+        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
         "skills": [
             {
                 "name": "ここからが俺たちのスタートだ",
@@ -992,7 +992,7 @@
         "hp": 250,
         "buzz": true,
         "giftEffect": "モゴジャ～～ン！！！: [Center position only]When you use your Oshi skill \"Moco-chan!\", send the top card of your cheer deck to your holomem with #Advent.",
-        "extraEffect": "If this holomem is downed, you get Life-2",
+        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
         "skills": [
             {
                 "name": "キーボードクラッシャー",
@@ -1421,7 +1421,7 @@
         "bloomLevel": "1st",
         "hp": 250,
         "buzz": true,
-        "extraEffect": "If this holomem is downed, you get Life-2",
+        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
         "skills": [
             {
                 "name": "君と色違いのリュック",
@@ -1488,7 +1488,7 @@
         "cardNumber": "hBP05-077",
         "rarity": "U",
         "type": "Support (Event)",
-        "limited": "Yes",
+        "limited": true,
         "ability": "This card can only be used if you have 6 or less cards in hand excluding this card. Look at the top 4 cards of your deck. Reveal any number of <Shirakami Fubuki>, <Shiranui Flare>, <Tsunomaki Watame>, and or <Omaru Polka> from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order.",
         "hasFoils" :true
     },
@@ -1497,7 +1497,7 @@
         "cardNumber": "hBP05-078",
         "rarity": "U",
         "type": "Support (Event)",
-        "limited": "Yes",
+        "limited": true,
         "ability": "This card can only be used if you have 6 or less cards in hand excluding this card. Look at the top 4 cards of your deck. Reveal any number of holomem with #Alcohol from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order.",
         "hasFoils" :true
     },
@@ -1506,7 +1506,7 @@
         "cardNumber": "hBP05-079",
         "rarity": "U",
         "type": "Support (Event)",
-        "limited": "Yes",
+        "limited": true,
         "ability": "Draw 2 cards. If your holomem was downed during your opponent's previous turn, and you have less Life than your opponent, send 1 cheer from your archive to your holomem.",
         "hasFoils" :true
     },
@@ -1515,7 +1515,7 @@
         "cardNumber": "hBP05-080",
         "rarity": "U",
         "type": "Support (Event)",
-        "limited": "Yes",
+        "limited": true,
         "ability": "Draw 2 cards from your deck. Then, look at the top 5 cards of your deck. Reveal 1 1st holomem from among them, and add the revealed card to hand. Then, return the remaining cards to the bottom of the deck in any order.",
         "hasFullArt" :true,
         "hasSigned" : true

@@ -162,7 +162,7 @@
                 "description": "If there are no <Luknight> attached to any holomems on your Stage, reveal a <Luknight> from your deck and attach it to any of your holomems. Then shuffle your deck."
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-010",
@@ -288,7 +288,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-017",
@@ -398,7 +398,7 @@
             }
         ],
         "hasFullArt": true,
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
+        "extraEffect": "When this holomem is downed, your life is reduced by 2."
     },
     {
         "cardNumber": "hBP03-023",
@@ -418,7 +418,7 @@
             }
         ],
         "hasFullArt": true,
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
+        "extraEffect": "When this holomem is downed, your life is reduced by 2."
     },
     {
         "cardNumber": "hBP03-024",
@@ -453,7 +453,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-026",
@@ -564,7 +564,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-032",
@@ -616,7 +616,7 @@
                 "description": "You may roll a dice: if the result is odd, deal 20 special damage to your opponent's Center and Collab holomems. If the result is even, this Art gains +40 power."
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
         "hasAlternativeArt": true,
         "hasFullArt": true
     },
@@ -637,7 +637,7 @@
             }
         ],
         "hasFullArt": true,
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
+        "extraEffect": "When this holomem is downed, your life is reduced by 2."
     },
     {
         "cardNumber": "hBP03-036",
@@ -671,7 +671,7 @@
                 "description": "If there is a Fuwawa Abyssgard in your Center position, this Art can be used with no Cheer requirement."
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-038",
@@ -707,7 +707,7 @@
                 "description": "[Collab Position only] If your Center holomem is Fuwawa Abyssgard, this Art gains +30 power."
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
         "hasFullArt": true
     },
     {
@@ -724,7 +724,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-041",
@@ -792,7 +792,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Blue",
-        "tag": " #JP #Gen0 #singing",
+        "tag": "#JP #Gen0 #singing",
         "bloomEffect": "プラネットステージ: Look at the top four cards of your Deck. Reveal 1 [Hoshimachi Suisei] from among them and put it into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "skills": [
             {
@@ -810,7 +810,7 @@
         "bloomLevel": "1st",
         "hp": 230,
         "color": "Blue",
-        "tag": " #ID #IDGen3",
+        "tag": "#ID #IDGen3",
         "buzz": true,
         "bloomEffect": "ブルーレイン: You may Archive 1 Cheer from one of your holomems with #ID for the following effect: deal 30 damage to your opponent's Back holomems, split into units of 10 damage placed however you like. holomems Downed with this effect do not reduce LIFE.",
         "skills": [
@@ -821,7 +821,7 @@
             }
         ],
         "hasFullArt": true,
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
+        "extraEffect": "When this holomem is downed, your life is reduced by 2."
     },
     {
         "cardNumber": "hBP03-046",
@@ -830,7 +830,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Blue",
-        "tag": " #DEV_IS #ReGLOSS #Painting",
+        "tag": "#DEV_IS #ReGLOSS #Painting",
         "skills": [
             {
                 "name": "可愛い女の子かと思った？",
@@ -841,7 +841,7 @@
                 "dmg": "40"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-047",
@@ -850,7 +850,7 @@
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Blue",
-        "tag": " #DEV_IS #ReGLOSS #Painting",
+        "tag": "#DEV_IS #ReGLOSS #Painting",
         "skills": [
             {
                 "name": "アフタヌーンティーデートのその後に…　",
@@ -866,7 +866,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Blue",
-        "tag": " #DEV_IS #ReGLOSS #Painting",
+        "tag": "#DEV_IS #ReGLOSS #Painting",
         "skills": [
             {
                 "name": "僕、カッコいいでしょ？",
@@ -897,7 +897,7 @@
                 "description": "Deal 10 special damage to your opponent's Center holomem or one of their Back holomems for each of your differently-named Back holomems with #ReGLOSS."
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
         "hasFullArt": true
     },
     {
@@ -936,7 +936,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-052",
@@ -1051,7 +1051,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-058",
@@ -1125,7 +1125,7 @@
                 "dmg": "60"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-062",
@@ -1232,7 +1232,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-068",
@@ -1345,7 +1345,7 @@
                 "description": "You may move 1 Cheer from this holomem to one of your holomems named Inugami Korone."
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-074",
@@ -1474,7 +1474,7 @@
                 "dmg": 50
             }
         ],
-        "extraEffect": "This Holomen can be included in your deck in any number of copies."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hBP03-081",
@@ -1525,7 +1525,7 @@
                 "dmg": 120
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2",
+        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
         "hasFullArt": true
     },
     {
@@ -1533,7 +1533,7 @@
         "name": "Gorgeous PC",
         "type": "Support (Item)",
         "rarity": "U",
-        "limited": "Yes",
+        "limited": true,
         "ability": "To play this card, you must Archive one holo power. Reveal a 1st Bloom holomem that is the same color as your Oshi holomem from your Deck and put it into your hand. Then shuffle your Deck.",
         "hasFoils": true
     },
@@ -1542,7 +1542,7 @@
         "name": "Super PC",
         "type": "Support (Event)",
         "rarity": "U",
-        "limited": "Yes",
+        "limited": true,
         "ability": "Look at the top four cards of your deck. Reveal up to 1 Debut holomem and up to 1 1st Bloom holomem from among them and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
@@ -1551,7 +1551,7 @@
         "name": "Dual Monitor PC",
         "type": "Support (Item)",
         "rarity": "C",
-        "ability": "Reveal 1-2 Debut holomems with the Extra text 「You may put any number of copies of this holomem in your Deck」 from your Deck and put them on your Stage. Then shuffle your Deck.",
+        "ability": "Reveal 1-2 Debut holomems with the Extra text \"You may include any number of this holomem in your deck.\" from your Deck and put them on your Stage. Then shuffle your Deck.",
         "hasFoils": true
     },
     {
@@ -1575,7 +1575,7 @@
         "name": "Fan Meeting",
         "type": "Support (Event)",
         "rarity": "U",
-        "limited": "Yes",
+        "limited": true,
         "ability": "Reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck.",
         "hasFoils": true
     },
@@ -1601,7 +1601,7 @@
         "name": "hololive 0th Generation",
         "type": "Support (Event)",
         "rarity": "U",
-        "limited": "Yes",
+        "limited": true,
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card.Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Gen0 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
@@ -1610,7 +1610,7 @@
         "name": "hololive 4th Gen",
         "type": "Support (Event)",
         "rarity": "U",
-        "limited": "Yes",
+        "limited": true,
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Gen4 and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
@@ -1619,7 +1619,7 @@
         "name": "FPS stream",
         "type": "Support (Event)",
         "rarity": "U",
-        "limited": "Yes",
+        "limited": true,
         "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Shooter and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },

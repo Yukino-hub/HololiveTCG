@@ -6,29 +6,29 @@
         "lives": 5,
         "color": "White",
         "oshiSkill": {
-            "name": "リプレイスメント (\"Replacement\")",
+            "name": "リプレイスメント (Replacement)",
             "power": 1,
             "description": "[Once per turn] Swap one cheer card from your stage to one of your Holomen."
         },
         "spOshiSkill": {
-            "name": "じゃあ敵だね (\"then you're an enemy\")",
+            "name": "じゃあ敵だね (then you're an enemy)",
             "power": 2,
             "description": "[Once per game] Switch your opponent's center Holomen with one of their back Holomen. Then, for the duration of this turn, your white center Holomen's arts increase by 50."
         }
     },
     {
         "cardNumber": "hSD01-002",
-        "name": "Azki",
+        "name": "AZKi",
         "rarity": "OSR",
         "lives": 6,
         "color": "Green",
         "oshiSkill": {
-            "name": "左手に地図 (\"Map on the left\")",
+            "name": "左手に地図 (Map on the left)",
             "power": 3,
             "description": "[Once per turn] Usable when rolling a die with your Holomen's ability: Declare one number on the die, and treat the next rolled number as the declared number."
         },
         "spOshiSkill": {
-            "name": "手にマイク (\"Mic On the Right\")",
+            "name": "手にマイク (Mic On the Right)",
             "power": 3,
             "description": "[Once per game] Send any number of archived cheer cards to one Green Holomen."
         }
@@ -101,15 +101,15 @@
             {
                 "name": "SorAZ シンパシー",
                 "dmg": "60+",
-                "description": "When you have the Holomen 'AZKI' on your stage, this art gains +50."
+                "description": "When you have the Holomen 'AZKi' on your stage, this art gains +50."
             }
         ],
-        "extraEffect": "When this Holomen is downed, your life is reduced by 2"
+        "extraEffect": "When this holomem is downed, your life is reduced by 2."
     },
 
       {
         "cardNumber": "hSD01-007",
-        "name": "Iris",
+        "name": "IRyS",
         "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 50,
@@ -126,7 +126,7 @@
     
     {
         "cardNumber": "hSD01-008",
-        "name": "Azki",
+        "name": "AZKi",
         "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 70,
@@ -141,7 +141,7 @@
     },
   {
         "cardNumber": "hSD01-009",
-        "name": "Azki",
+        "name": "AZKi",
         "rarity": "R",
         "bloomLevel": "Debut",
         "hp": 60,
@@ -158,7 +158,7 @@
     
     {
         "cardNumber": "hSD01-010",
-        "name": "Azki",
+        "name": "AZKi",
         "rarity": "U",
         "bloomLevel": "1st",
         "hp": 160,
@@ -173,7 +173,7 @@
     },
      {
         "cardNumber": "hSD01-011",
-        "name": "Azki",
+        "name": "AZKi",
         "rarity": "RR",
         "bloomLevel": "2nd",
         "hp": 190,
@@ -211,7 +211,7 @@
     
     {
         "cardNumber": "hSD01-013",
-        "name": "SorAz",
+        "name": "SorAZ",
         "rarity": "R",
         "bloomLevel": "1st",
         "hp": 130,
@@ -224,7 +224,7 @@
                 "description": "You may roll a die once: If the result is odd, send the top card of your cheer deck to this Holomen. If the result is even, draw one card from your deck."
             }
         ],
-        "extraEffect": "This Holomen is also treated as 'Tokino Sora' and 'AZKI'"
+        "extraEffect": "This Holomen is also treated as 'Tokino Sora' and 'AZKi'"
     },
     {
         "cardNumber": "hSD01-014",
@@ -240,7 +240,7 @@
                 "dmg": 30
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom"
+        "extraEffect": "This holomem cannot Bloom."
     },
     {
         "cardNumber": "hSD01-015",
@@ -250,14 +250,14 @@
         "color": "Colorless",
         "bloomLevel": "Spot",
         "tag": "#JP #HoloX #Kemomimi",
-        "collabEffect": "SoAzKo: When collaborating with 'Tokino Sora,' draw one card from your deck. When collaborating with 'AZKI,' send the top card of your cheer deck to your center Holomen",
+        "collabEffect": "SoAzKo: When collaborating with 'Tokino Sora,' draw one card from your deck. When collaborating with 'AZKi,' send the top card of your cheer deck to your center Holomen",
         "skills": [
             {
                 "name": "ピュアピュアピュア~",
                 "dmg": 10
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom"
+        "extraEffect": "This holomem cannot Bloom."
     },
     {
         "cardNumber": "hSD01-016",
@@ -304,6 +304,6 @@
         "rarity": "C",
         "type": "Support (Event)",
         "limited" : true,
-        "ability": "You can only use this card if you have 6 or fewer cards in your hand, excluding this one. Look at the top 4 cards of your deck. Reveal any number of 'Tokino Sora' and 'AZKI' cards from among them and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order."
+        "ability": "You can only use this card if you have 6 or fewer cards in your hand, excluding this one. Look at the top 4 cards of your deck. Reveal any number of 'Tokino Sora' and 'AZKi' cards from among them and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order."
     }
 ]

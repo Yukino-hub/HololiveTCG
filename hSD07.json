@@ -34,7 +34,7 @@
                 "dmg": 60
             }
         ],
-        "extraEffect": "You may put any number of copies of this holomem in your Deck.",
+        "extraEffect": "You may include any number of this holomem in your deck.",
         "hasHolomenRare": true,
         "imageSet": "hBP05"
     },
@@ -143,7 +143,7 @@
                 "description": "You may attach 1 Elfriend from your Archive to this holomem."
             }
         ],
-        "extraEffect": "When this holomem is Downed, lose 2 LIFE."
+        "extraEffect": "When this holomem is downed, your life is reduced by 2."
     },
     {
         "cardNumber": "hSD07-009",

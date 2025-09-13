@@ -30,7 +30,7 @@
                 "dmg": 30
             }
         ],
-        "extraEffect": "You may put any number of copies of this holomem in your Deck."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hSD03-003",
@@ -135,7 +135,7 @@
                 "dmg": 60
             }
         ],
-        "extraEffect": "When this holomem is Downed, lose 2 LIFE."
+        "extraEffect": "When this holomem is downed, your life is reduced by 2."
     },
     {
         "cardNumber": "hSD03-009",
@@ -174,7 +174,7 @@
                 "dmg": 30
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom"
+        "extraEffect": "This holomem cannot Bloom."
     },
     {
         "cardNumber": "hSD03-011",
@@ -195,7 +195,7 @@
                 "description": "If you have 2 or less cards in your hand, draw from your Deck until you have 3 cards in your hand."
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom"
+        "extraEffect": "This holomem cannot Bloom."
     },
     {
         "cardNumber": "hSD03-012",

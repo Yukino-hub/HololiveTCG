@@ -30,7 +30,7 @@
                 "dmg": 30
             }
         ],
-        "extraEffect": "You may put any number of copies of this holomem in your Deck."
+        "extraEffect": "You may include any number of this holomem in your deck."
     },
     {
         "cardNumber": "hSD04-003",
@@ -135,7 +135,7 @@
                 "description": "You may return one Event with #Food from your Archive to your hand: if you do, this Art gains +20 power."
             }
         ],
-        "extraEffect": "When this holomem is Downed, lose 2 LIFE."
+        "extraEffect": "When this holomem is downed, your life is reduced by 2."
     },
     {
         "cardNumber": "hSD04-009",
@@ -174,7 +174,7 @@
                 "dmg": 20
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom"
+        "extraEffect": "This holomem cannot Bloom."
     },
     {
         "cardNumber": "hSD04-011",
@@ -191,7 +191,7 @@
                 "dmg": 10
             }
         ],
-        "extraEffect": "This Holomen cannot be Bloom"
+        "extraEffect": "This holomem cannot Bloom."
     },
     {
         "cardNumber": "hSD04-012",
