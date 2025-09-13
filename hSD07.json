@@ -23,7 +23,7 @@
         "bloomLevel": "Debut",
         "hp": 110,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #HalfElf",
+        "tag":  "#JP #Gen3 #Half-Elf",
         "skills": [
             {
                 "name": "こんぬいー！",
@@ -45,7 +45,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #HalfElf",
+        "tag":  "#JP #Gen3 #Half-Elf",
         "collabEffect": "大切な仲間たちと: If there are 5 or fewer holomems on your Stage, you may reveal a Debut <Omaru Polka>, <Sakura Miko>, <Hoshimachi Suisei>, or <Shirogane Noel> from your Deck and put it onto your Stage. Then shuffle your deck.",
         "skills": [
             {
@@ -61,7 +61,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #HalfElf",
+        "tag":  "#JP #Gen3 #Half-Elf",
         "skills": [
             {
                 "name": "ワンダフルライフ",
@@ -77,7 +77,7 @@
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #HalfElf",
+        "tag":  "#JP #Gen3 #Half-Elf",
         "skills": [
             {
                 "name": "私からキミへ",
@@ -96,7 +96,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #HalfElf",
+        "tag":  "#JP #Gen3 #Half-Elf",
         "bloomEffect" : "エルフレンドのさえずり: Reveal 1 <Elfriend> from your deck and put it into your hand. Then shuffle your deck.",
         "skills": [
             {
@@ -118,7 +118,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #HalfElf",
+        "tag":  "#JP #Gen3 #Half-Elf",
         "bloomEffect": "また一つ成長した私を　 : [Back position only] If your collab holomem has 70 of less HP remaining, you may Switch this holomem with your Collab holomem.",
         "skills": [
             {
@@ -135,7 +135,7 @@
         "buzz": "true",
         "hp": 250,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #HalfElf",
+        "tag":  "#JP #Gen3 #Half-Elf",
         "skills": [
             {
                 "name": "エルフレパーティー",
@@ -152,7 +152,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #HalfElf",
+        "tag":  "#JP #Gen3 #Half-Elf",
         "giftEffect": "疲れ知らず : [Center position only] Whenever this holomem takes damage, it takes -10 damage.",
         "skills": [
             {
