@@ -95,7 +95,7 @@
                 "dmg": 50
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2."
+        "extraEffect": "If this holomem is downed, you get Life-2."
     },
     {
         "cardNumber": "hSD06-007",
