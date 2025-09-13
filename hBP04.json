@@ -137,7 +137,7 @@
         "color": "White",
         "bloomLevel": "Debut",
         "hp": 100,
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "こんこよ～",
@@ -271,7 +271,7 @@
         "bloomLevel": "1st",
         "hp": 230,
         "buzz": true,
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "skills": [
             {
                 "name": "The Race Queen",
@@ -290,7 +290,7 @@
         "color": "White",
         "bloomLevel": "Debut",
         "hp": 100,
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "チアオーラ",
@@ -362,7 +362,7 @@
         "color": "Green",
         "bloomLevel": "Debut",
         "hp": 110,
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "儒烏風亭一門は前座見習い！",
@@ -518,7 +518,7 @@
         "color": "Green",
         "bloomLevel": "Debut",
         "hp": 100,
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "正義の調べ",
@@ -589,7 +589,7 @@
         "color": "Red",
         "bloomLevel": "Debut",
         "hp": 100,
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "こんりり",
@@ -728,7 +728,7 @@
         "color": "Red",
         "bloomLevel": "Debut",
         "hp": 120,
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "おはエラ",
@@ -786,7 +786,7 @@
         "bloomLevel": "1st",
         "hp": 240,
         "buzz": true,
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "skills": [
             {
                 "name": "holoh3ro",
@@ -812,7 +812,7 @@
         "color": "Blue",
         "bloomLevel": "Debut",
         "hp": 90,
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "こんらみ～",
@@ -949,7 +949,7 @@
         "color": "Blue",
         "bloomLevel": "Debut",
         "hp": 110,
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "しおり～ん！",
@@ -1008,7 +1008,7 @@
         "hp": 230,
         "buzz": true,
         "bloomEffect": "禁断の知識 : Send the top card of your cheer deck to one of your holomem with #EN.",
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "skills": [
             {
                 "name": "思い出の栞",
@@ -1028,7 +1028,7 @@
         "color": "Purple",
         "bloomLevel": "Debut",
         "hp": 100,
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "貴様ら、刮目せよ！！",
@@ -1145,7 +1145,7 @@
         "hp": 240,
         "buzz": true,
         "bloomEffect": "エールリバース : You may send 1 cheer from your opponent's archive to their center holomem.",
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "skills": [
             {
                 "name": "ゲーム配信中",
@@ -1185,7 +1185,7 @@
         "hp": 240,
         "buzz": true,
         "giftEffect": "永遠の休息 : [Center or collab position only] While this Holomem is attached with <Mori Calliope's Scythe> or <Death-sensei>, your center Holomem with the #Myth trait gets +30 to its Arts.",
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "skills": [
             {
                 "name": "最期の一杯",
@@ -1205,7 +1205,7 @@
         "bloomLevel": "Debut",
         "hp": 110,
         "giftEffect": "キラキラ コセキ！ : During your opponent's turn, when this Holomem is downed, draw 1 card.",
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "ボンビジュー！",
@@ -1278,7 +1278,7 @@
         "color": "Yellow",
         "bloomLevel": "Debut",
         "hp": 130,
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "あじまる！ あじまる！",
@@ -1401,7 +1401,7 @@
         "color": "Yellow",
         "bloomLevel": "Debut",
         "hp": 100,
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "おはよー！",
@@ -1514,7 +1514,7 @@
         "bloomLevel": "Debut",
         "hp": 120,
         "giftEffect": "わっしょ～い! : If this holomem is downed during your opponent's turn, you may move 1 cheer from this holomem to one of your other holomem.",
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "ホロライブの清楚担当",
@@ -1591,7 +1591,7 @@
         "color": "Yellow",
         "bloomLevel": "Debut",
         "hp": 90,
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "skills": [
             {
                 "name": "こんねね～",
@@ -1858,6 +1858,7 @@
         "hasFoils": true
     }
 ]
+
 
 
 
