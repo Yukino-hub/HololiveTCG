@@ -427,7 +427,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Green",
-        "tag": "#JP #SecretSocietyholoX",
+        "tag": "#JP #HoloX",
         "bloomEffect": "風真が護る:　You may choose up to 1 of your holomems named Kazama Iroha and up to 1 named Hoshimachi Suisei. Send 1 Cheer from your Archive to each chosen holomem.",
         "skills": [
             {
@@ -627,7 +627,7 @@
         "bloomLevel": "1st",
         "hp": 240,
         "color": "Red",
-        "tag": "#JP #SecretSocietyholoX #Bird #Alcohol",
+        "tag": "#JP #HoloX #Bird #Alcohol",
         "buzz": true,
         "skills": [
             {
