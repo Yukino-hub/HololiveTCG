@@ -135,7 +135,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
+        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
         "skills": [
             {
                 "name": "こんこんきーつね！",
@@ -151,7 +151,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
+        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
         "giftEffect": "おはこんきーつね！:　(Collab position only) The Arts of all of your holomems with a Mascot attached gain +10 power.",
         "skills": [
             {
@@ -167,7 +167,7 @@
         "bloomLevel": "1ST",
         "hp": 150,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
+        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
         "skills": [
             {
                 "name": "キンモクセイの花フブキ",
@@ -187,7 +187,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
+        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
         "bloomEffect": "白上から目をそらしちゃ　: Reveal a card with #ShirakamiCharacter from your deck and put it into your hand. Then shuffle your deck.",
         "skills": [
             {
@@ -204,7 +204,7 @@
         "bloomLevel": "1st",
         "hp": 100,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
+        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
         "bloomEffect": "ちょっと動かしますね : Move 1 Mascot from one of your holomems to another.",
         "skills": [
             {
@@ -222,7 +222,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
+        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
         "giftEffect": "みんなと一緒! This holomem may have two Mascots with different names attached.",
         "skills": [
             {
@@ -320,7 +320,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Green",
-        "tag": "#ID #IDGen2 #Bird #Art",
+        "tag": "#ID #IDGen2 #Bird #Painting",
         "skills": [
             {
                 "name": "ペルハティアン！",
@@ -336,7 +336,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Green",
-        "tag": "#ID #IDGen2 #Bird #Art",
+        "tag": "#ID #IDGen2 #Bird #Painting",
         "collabEffect": "友達をHALUにさせる方法 : You may send 1 Cheer from your Archive to any of your holomems.",
         "skills": [
             {
@@ -353,7 +353,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Green",
-        "tag": "#ID #IDGen2 #Bird #Art",
+        "tag": "#ID #IDGen2 #Bird #Painting",
         "skills": [
             {
                 "name": "Royal Halu Sleepover",
@@ -369,7 +369,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Green",
-        "tag": "#ID #IDGen2 #Bird #Art",
+        "tag": "#ID #IDGen2 #Bird #Painting",
         "bloomEffect": "心を込めて歌って、踊ります。 For each color of Cheer on your Stage, restore 10 HP to one of your holomems.",
         "skills": [
             {
@@ -387,7 +387,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Green",
-        "tag": "#ID #IDGen2 #Bird #Art",
+        "tag": "#ID #IDGen2 #Bird #Painting",
         "bloomEffect": "What Are You Waiting For?　 Reveal a <Tatang> from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
@@ -405,7 +405,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Green",
-        "tag": "#ID #IDGen2 #Bird #Art",
+        "tag": "#ID #IDGen2 #Bird #Painting",
         "bloomEffect": "Kanjeng : Reveal a Cheer from your Cheer Deck and send it to one of your holomems. Then shuffle your Cheer Deck.",
         "skills": [
             {
@@ -424,7 +424,7 @@
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "Green",
-        "tag": "#JP #Gamers #AnimalEars #Cooking",
+        "tag": "#JP #Gamers #Kemomimi #Cooking",
         "skills": [
             {
                 "name": "うちうち、うちだよ～大神ミオだよ～",
@@ -440,7 +440,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Green",
-        "tag": "#JP #Gamers #AnimalEars #Cooking",
+        "tag": "#JP #Gamers #Kemomimi #Cooking",
         "skills": [
             {
                 "name": "おはみぉーん",
@@ -460,7 +460,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Green",
-        "tag": "#JP #Gamers #AnimalEars #Cooking",
+        "tag": "#JP #Gamers #Kemomimi #Cooking",
         "bloomEffect": "アイドルとして成長した姿 : Reveal 1 Cheer from your Cheer Deck of the same color as one of your holomems with #Gamers, and send that Cheer to any of your holomems. Then shuffle your Cheer Deck.",
         "skills": [
             {
@@ -477,7 +477,7 @@
         "bloomLevel": "1st",
         "hp": 240,
         "color": "Green",
-        "tag": "#JP #Gamers #AnimalEars #Cooking",
+        "tag": "#JP #Gamers #Kemomimi #Cooking",
         "skills": [
             {
                 "name": "タロットの導き",
@@ -496,7 +496,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Red",
-        "tag": "#JP #Gen3 #Art #Sea",
+        "tag": "#JP #Gen3 #Painting #Sea",
         "skills": [
             {
                 "name": "宝鐘海賊団船長の宝鐘マリンですぅー!",
@@ -512,7 +512,7 @@
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Red",
-        "tag": "#JP #Gen3 #Art #Sea #Alcohol",
+        "tag": "#JP #Gen3 #Painting #Sea #Alcohol",
         "collabEffect": "マリンと宅飲み: Deal 20 special damage to your opponent's Collab holomem.",
         "skills": [
             {
@@ -528,7 +528,7 @@
         "bloomLevel": "Debut",
         "hp": 160,
         "color": "Red",
-        "tag": "#JP #Gen3 #Art #Sea",
+        "tag": "#JP #Gen3 #Painting #Sea",
         "skills": [
             {
                 "name": "船長、何されちゃうのかな？",
@@ -548,7 +548,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Red",
-        "tag": "#JP #Gen3 #Art #Sea",
+        "tag": "#JP #Gen3 #Painting #Sea",
         "bloomEffect": "キミたちの声が船長の支えです！ Deal 20 special damage to your opponent's Collab holomem.",
         "skills": [
             {
@@ -565,7 +565,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Red",
-        "tag": "#JP #Gen3 #Art #Sea",
+        "tag": "#JP #Gen3 #Painting #Sea",
         "bloomEffect": "宝鐘の海賊団　: Reveal a card named Houshou Marine from your deck and put it into your hand. Then shuffle your deck. You may only use the Bloom Effect 「宝鐘の海賊団」 once per turn.",
         "skills": [
             {
@@ -582,7 +582,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Red",
-        "tag": "#JP #Gen3 #Art #Sea",
+        "tag": "#JP #Gen3 #Painting #Sea",
         "bloomEffect": "ゴシッククィーン: You may return 1 holomem from your Archive to your hand. Then, if this card has 3 or more holomems stacked under it, deal 50 special damage to your opponent's Center or Collab holomem.",
         "skills": [
             {
@@ -729,7 +729,7 @@
         "hp": 230,
         "buzz": true,
         "color": "Blue",
-        "tag": " #JP #Gamers #AnimalEars #Song",
+        "tag": " #JP #Gamers #Kemomimi #Singing",
         "giftEffect": "毒の愛　:(Center position only) All holomems named Nekomata Okayu on your stage deal +20 damage when they deal special damage to your opponent's Center holomem.",
         "skills": [
             {
@@ -963,7 +963,7 @@
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "Purple",
-        "tag": "#EN #Myth #Song",
+        "tag": "#EN #Myth #Singing",
         "skills": [
             {
                 "name": "グリム・リーパーの第一弟子",
@@ -980,7 +980,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Purple",
-        "tag": "#EN #Myth #Song",
+        "tag": "#EN #Myth #Singing",
         "collabEffect": "ショータイム　: You may Archive 1 holomem from your hand for the following effect: the Arts of one of your holomems with #Myth gain +20 until the end of this turn.",
         "skills": [
             {
@@ -997,7 +997,7 @@
         "bloomLevel": "1st",
         "hp": 110,
         "color": "Purple",
-        "tag": "#EN #Myth #Song",
+        "tag": "#EN #Myth #Singing",
         "skills": [
             {
                 "name": "Cash-Money",
@@ -1013,7 +1013,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Purple",
-        "tag": "#EN #Myth #Song",
+        "tag": "#EN #Myth #Singing",
         "bloomEffect": "みんなで作る最高のfes :You may Archive 2 holomems that share a tag from your hand for the following effect: draw 2 cards from your Deck.",
         "skills": [
             {
@@ -1030,7 +1030,7 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Purple",
-        "tag": "#EN #Myth #Song",
+        "tag": "#EN #Myth #Singing",
         "bloomEffect": "What's up?　You may return 1 Mori Calliope's Scythe or Death-sensei from your Archive to your hand.",
         "skills": [
             {
@@ -1048,7 +1048,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Purple",
-        "tag": "#EN #Myth #Song",
+        "tag": "#EN #Myth #Singing",
         "bloomEffect": "Soul Voice: Reveal any card from your Deck and Archive it. Then shuffle your Deck.",
         "skills": [
             {
@@ -1085,7 +1085,7 @@
         "bloomLevel": "Debut",
         "hp": 140,
         "color": "Purple",
-        "tag": "#EN #Myth #Art #Sea",
+        "tag": "#EN #Myth #Painting #Sea",
         "skills": [
             {
                 "name": "WAH!",
@@ -1101,7 +1101,7 @@
         "bloomLevel": "1st",
         "hp": 180,
         "color": "Purple",
-        "tag": "#EN #Myth #Art #Sea",
+        "tag": "#EN #Myth #Painting #Sea",
         "skills": [
             {
                 "name": "君とタコグラム",
@@ -1117,7 +1117,7 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Purple",
-        "tag": "#EN #Myth #Art #Sea",
+        "tag": "#EN #Myth #Painting #Sea",
         "bloomEffect": "みんな「WAH」の準備はいいかー！Restore 20 HP to one of your holomems with #Myth.",
         "skills": [
             {
@@ -1135,7 +1135,7 @@
         "hp": 250,
         "buzz": "true",
         "color": "Purple",
-        "tag": "#EN #Myth #Art #Sea",
+        "tag": "#EN #Myth #Painting #Sea",
         "skills": [
             {
                 "name": "アルカイックスマイル",
@@ -1154,7 +1154,7 @@
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "Purple",
-        "tag": " #EN #Advent #Song #Bird",
+        "tag": " #EN #Advent #Singing #Bird",
         "skills": [
             {
                 "name": "Hiya darlings!",
@@ -1172,7 +1172,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Purple",
-        "tag": " #EN #Advent #Song #Bird",
+        "tag": " #EN #Advent #Singing #Bird",
         "skills": [
             {
                 "name": "良い響きですね",
@@ -1192,8 +1192,8 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Purple",
-        "tag": " #EN #Advent #Song #Bird",
-        "bloomEffect": "ネリッサとお茶会　Look at the top three cards of your Deck. Reveal one that is a holomem with #Song and put it into your hand. Then put the remaining cards on the bottom of your Deck in any order",
+        "tag": " #EN #Advent #Singing #Bird",
+        "bloomEffect": "ネリッサとお茶会　Look at the top three cards of your Deck. Reveal one that is a holomem with #Singing and put it into your hand. Then put the remaining cards on the bottom of your Deck in any order",
         "skills": [
             {
                 "name": "コーヒーよりも紅茶です",
@@ -1209,8 +1209,8 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "Purple",
-        "tag": " #EN #Advent #Song #Bird",
-        "collabEffect": "音の魔人 The Arts of your Center and Collab holomems with #Song gain +30 power until the end of the turn.",
+        "tag": " #EN #Advent #Singing #Bird",
+        "collabEffect": "音の魔人 The Arts of your Center and Collab holomems with #Singing gain +30 power until the end of the turn.",
         "skills": [
             {
                 "name": "歌に宿りし愛情",
@@ -1333,7 +1333,7 @@
         "type": "Support (Item)",
         "rarity": "U",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Art and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #Painting and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
     {
