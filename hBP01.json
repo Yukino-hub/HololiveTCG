@@ -809,7 +809,7 @@
         "bloomLevel": "Debut",
         "hp": 120,
         "color": "Green",
-        "tag": "#JP #Holox",
+        "tag": "#JP #HoloX",
         "skills": [
             {
                 "name": "皆殿、風真いろはでござる-",
@@ -825,7 +825,7 @@
         "bloomLevel": "Debut",
         "hp": 180,
         "color": "Green",
-        "tag": "#JP #Holox",
+        "tag": "#JP #HoloX",
         "skills": [
             {
                 "name": "とれたてナス",
@@ -844,13 +844,13 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Green",
-        "tag": "#JP #Holox",
+        "tag": "#JP #HoloX",
         "giftEffect": "用心棒: [Collab Position only], Your opponent's holomem's Arts can only target your collab holomem. However, it excludes Special Damage.",
         "skills": [
             {
                 "name": "元気を全力でお届けします!",
                 "dmg": "20",
-                "description": "Send the top card of your cheer deck to your holomem with #Holox other than 〈Kazama Iroha〉."
+                "description": "Send the top card of your cheer deck to your holomem with #HoloX other than 〈Kazama Iroha〉."
             }
         ]
     },
@@ -862,7 +862,7 @@
         "buzz": true,
         "hp": 250,
         "color": "Green",
-        "tag": "#JP #Holox",
+        "tag": "#JP #HoloX",
         "skills": [
             {
                 "name": "エールを束ねて",
@@ -949,7 +949,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Red",
-        "tag": "#JP #Holox #Bird #Alcohol",
+        "tag": "#JP #HoloX #Bird #Alcohol",
         "skills": [
             {
                 "name": "皆さん、待っ鷹ね?",
@@ -965,7 +965,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Red",
-        "tag": "#JP #Holox #Bird #Alcohol",
+        "tag": "#JP #HoloX #Bird #Alcohol",
         "collabEffect": "アポイント: Deal 10 Special Damage to your opponent's collab holomem.",
         "skills": [
             {
@@ -982,7 +982,7 @@
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Red",
-        "tag": "#JP #Holox #Bird #Alcohol",
+        "tag": "#JP #HoloX #Bird #Alcohol",
         "skills": [
             {
                 "name": "こんルイルイ",
@@ -1001,7 +1001,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Red",
-        "tag": "#JP #Holox #Bird #Alcohol",
+        "tag": "#JP #HoloX #Bird #Alcohol",
         "skills": [
             {
                 "name": "パーティーへようこそ",
@@ -1021,7 +1021,7 @@
         "bloomLevel": "2nd",
         "hp": 100,
         "color": "Red",
-        "tag": "#JP #Holox #Bird #Alcohol",
+        "tag": "#JP #HoloX #Bird #Alcohol",
         "bloomEffect": "本当にみんなのおかげ!!: If Bloomed from Debut, you may archive 1 card from your hand:Draw 2 cards from your deck.",
         "skills": [
             {
@@ -1037,8 +1037,8 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Red",
-        "tag": "#JP #Holox #Bird #Alcohol",
-        "bloomEffect": "組織の司令塔: You may return 1~2 holomem with #Holox from your archive to hand.",
+        "tag": "#JP #HoloX #Bird #Alcohol",
+        "bloomEffect": "組織の司令塔: You may return 1~2 holomem with #HoloX from your archive to hand.",
         "skills": [
             {
                 "name": "ホークレイヴ",
