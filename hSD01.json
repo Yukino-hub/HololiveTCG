@@ -40,7 +40,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "White",
-        "tag": "#JP #Gen0 #Song",
+        "tag": "#JP #Gen0 #Singing",
         "skills": [
             {
                 "name": "ぬんぬん",
@@ -56,7 +56,7 @@
         "bloomLevel": "Debut",
         "hp": 150,
         "color": "White",
-        "tag": "#JP #Gen0 #Song",
+        "tag": "#JP #Gen0 #Singing",
         "collabEffect": "レッツダンス!: For the duration of this turn, your center Holomen's art gains +20.",
         "skills": [
             {
@@ -72,7 +72,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "White",
-        "tag": "#JP #Gen0 #Song",
+        "tag": "#JP #Gen0 #Singing",
         "skills": [
             {
                 "name": "ぬんぬんしよう",
@@ -92,7 +92,7 @@
         "buzz": true,
         "hp": 240,
         "color": "White",
-        "tag": "#JP #Gen0 #Song",
+        "tag": "#JP #Gen0 #Singing",
         "skills": [
             {
                 "name": "ドリームライブ",
@@ -114,7 +114,7 @@
         "bloomLevel": "Debut",
         "hp": 50,
         "color": "White",
-        "tag": "#EN #Promise #Song",
+        "tag": "#EN #Promise #Singing",
         "collabEffect": "HOPE!: Look at your Holopower. Reveal one card from among them and add it to your hand. Then, choose one card from your hand and turn it into Holopower.",  
         "skills": [
             {
@@ -131,7 +131,7 @@
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Green",
-        "tag": "#JP #Gen0 #Song",
+        "tag": "#JP #Gen0 #Singing",
         "skills": [
             {
                 "name": "がんばれてえらい!",
@@ -146,7 +146,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Green",
-        "tag": "#JP #Gen0 #Song",
+        "tag": "#JP #Gen0 #Singing",
         "collabEffect": "広がる地図: You can roll a die once: If the result is 4 or lower, send the top card of your cheer deck to your back Holomen. If the result is 1, you may also move this Holomen to the back position.", 
         "skills": [
             {
@@ -163,7 +163,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Green",
-        "tag": "#JP #Gen0 #Song",
+        "tag": "#JP #Gen0 #Singing",
         "skills": [
             {
                 "name": "きみとあてのない旅",
@@ -178,7 +178,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Green",
-         "tag": "#JP #Gen0 #Song",
+         "tag": "#JP #Gen0 #Singing",
         "skills": [
             {
                 "name": "SorAZ グラビティ",
@@ -216,7 +216,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "White & Green",
-        "tag": "#JP #Gen0 #Song",
+        "tag": "#JP #Gen0 #Singing",
         "skills": [
             {
                 "name": "越えたい未来",
@@ -233,7 +233,7 @@
         "hp": 150,
         "color": "Colorless",
         "bloomLevel": "Spot",
-        "tag": "#JP #Gen4 #Song",
+        "tag": "#JP #Gen4 #Singing",
         "skills": [
             {
                 "name": "へい",
