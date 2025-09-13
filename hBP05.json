@@ -321,7 +321,7 @@
         "bloomLevel": "1st",
         "hp": 240,
         "buzz": true,
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "skills": [
             {
                 "name": "レトロロマン",
@@ -464,7 +464,7 @@
         "bloomLevel": "1st",
         "hp": 250,
         "buzz": true,
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "skills": [
             {
                 "name": "あずきんちでゆっくりしよ",
@@ -546,7 +546,7 @@
         "hp": 250,
         "buzz": true,
         "giftEffect": "ちょっと頑張りました : [Center position only][once per turn]When your Oshi holomem <Shishiro Botan> or a <Shishiro Botan> on your stage deals 30 or more Special Damage to your opponent's holomem, draw 1 card from your deck.",
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "skills": [
             {
                 "name": "ここからが俺たちのスタートだ",
@@ -992,7 +992,7 @@
         "hp": 250,
         "buzz": true,
         "giftEffect": "モゴジャ～～ン！！！: [Center position only]When you use your Oshi skill \"Moco-chan!\", send the top card of your cheer deck to your holomem with #Advent.",
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "skills": [
             {
                 "name": "キーボードクラッシャー",
@@ -1421,7 +1421,7 @@
         "bloomLevel": "1st",
         "hp": 250,
         "buzz": true,
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2.",
         "skills": [
             {
                 "name": "君と色違いのリュック",
@@ -1577,4 +1577,5 @@
         "hasFoils" :true
     }
 ]
+
 
