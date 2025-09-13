@@ -806,7 +806,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tag": "#JP #Gen5 #HalfElf #Alcohol",
+        "tag": "#JP #Gen5 #Half-Elf #Alcohol",
         "cardNumber": "hBP04-043",
         "rarity": "C",
         "color": "Blue",
@@ -824,7 +824,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tag": "#JP #Gen5 #HalfElf #Alcohol",
+        "tag": "#JP #Gen5 #Half-Elf #Alcohol",
         "cardNumber": "hBP04-044",
         "rarity": "U",
         "color": "Blue",
@@ -842,7 +842,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tag": "#JP #Gen5 #HalfElf #Alcohol",
+        "tag": "#JP #Gen5 #Half-Elf #Alcohol",
         "cardNumber": "hBP04-045",
         "rarity": "C",
         "color": "Blue",
@@ -864,7 +864,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tag": "#JP #Gen5 #HalfElf #Alcohol",
+        "tag": "#JP #Gen5 #Half-Elf #Alcohol",
         "cardNumber": "hBP04-046",
         "rarity": "U",
         "color": "Blue",
@@ -882,7 +882,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tag": "#JP #Gen5 #HalfElf #Alcohol",
+        "tag": "#JP #Gen5 #Half-Elf #Alcohol",
         "cardNumber": "hBP04-047",
         "rarity": "R",
         "color": "Blue",
@@ -900,7 +900,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tag": "#JP #Gen5 #HalfElf #Alcohol",
+        "tag": "#JP #Gen5 #Half-Elf #Alcohol",
         "cardNumber": "hBP04-048",
         "rarity": "RR",
         "color": "Blue",
@@ -1858,6 +1858,7 @@
         "hasFoils": true
     }
 ]
+
 
 
 
