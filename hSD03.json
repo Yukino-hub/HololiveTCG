@@ -30,7 +30,7 @@
                 "dmg": 30
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hSD03-003",
@@ -135,7 +135,7 @@
                 "dmg": 60
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2."
+        "extraEffect": "If this holomem is downed, you get Life-2."
     },
     {
         "cardNumber": "hSD03-009",
