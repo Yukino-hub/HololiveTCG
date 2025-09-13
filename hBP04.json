@@ -1077,7 +1077,7 @@
                 "dmg": "70"
             }
         ],
-        "manualUrl" : "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-056_C_02.png"
+        "manualUrl": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-056_C_02.png"
     },
     {
         "name": "La+ Darknesss",
@@ -1784,7 +1784,7 @@
     },
     {
         "name": "Blacksmith's Hammer",
-        "tag": "#Kaela'sArms,
+        "tag": "#Kaela'sArms",
         "cardNumber": "hBP04-098",
         "rarity": "U",
         "type": "Support (Tool)",
@@ -1858,4 +1858,3 @@
         "hasFoils": true
     }
 ]
-
