@@ -1784,7 +1784,7 @@
     },
     {
         "name": "Blacksmith's Hammer",
-        "tag": "#Kaela's Arms",
+        "tag": "#Kaela'sArms,
         "cardNumber": "hBP04-098",
         "rarity": "U",
         "type": "Support (Tool)",
@@ -1858,3 +1858,4 @@
         "hasFoils": true
     }
 ]
+
