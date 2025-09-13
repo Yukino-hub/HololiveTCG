@@ -30,7 +30,7 @@
                 "dmg": 30
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hSD05-003",
@@ -134,7 +134,7 @@
                 "description": "During this turn, the arts of one Debut Holomem with #ReGLOSS on your stage gains +40."
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2."
+        "extraEffect": "If this holomem is downed, you get Life-2."
     },
     {
         "cardNumber": "hSD05-009",
