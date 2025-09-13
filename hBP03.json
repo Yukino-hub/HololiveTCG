@@ -387,7 +387,7 @@
         "bloomLevel": "1st",
         "hp": 250,
         "color": "Green",
-        "tag": "#JP #Gen1 #HalfElf #Alcohol",
+        "tag": "#JP #Gen1 #Half-Elf #Alcohol",
         "buzz": true,
         "giftEffect": "異国の世界の姿 : [Center or Collab Position only] Can be used at the start of your opponent's Performance Step: until the end of this turn, your LIFE cannot be directly reduced by your opponent's abilities.",
         "skills": [
@@ -1444,7 +1444,7 @@
         "bloomLevel": "1st",
         "hp": 240,
         "color": "Yellow",
-        "tag": "#JP #Gen3 #HalfElf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "bloomEffect": "今日はステキな日: Reveal 1 Yellow Cheer from your Cheer Deck and send it to this holomem. Then shuffle your Cheer Deck.",
         "skills": [
             {
