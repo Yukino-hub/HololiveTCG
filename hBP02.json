@@ -142,7 +142,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP02-009",
@@ -248,7 +248,7 @@
                 "dmg": "20"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "hasHolomenRare": true,
         "imageSet": "hBP05"
     },
@@ -309,7 +309,7 @@
                 "description": "(Collab position only) For each other Holomen on your stage with the #Gen3 tag, this Arts gets +20. However, the number of Holomen counted is limited to 4.."
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2",
         "hasAlternativeArt": true,
         "hasFullArt": true
     },
@@ -327,7 +327,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP02-019",
@@ -431,7 +431,7 @@
                 "dmg": "10"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP02-025",
@@ -485,7 +485,7 @@
                 "description": "You may Archive the top card of your Deck. If it's a holomem, this Art gains +20 power. If it's a Support card, this Art gains +50 power."
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2",
         "hasAlternativeArt": true,
         "hasFullArt": true
     },
@@ -503,7 +503,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck.
+        "extraEffect": "You may include any number of this holomem in the deck.
     },
     {
         "cardNumber": "hBP02-029",
@@ -614,7 +614,7 @@
                 "description": "If this holomem has a Tool or Mascot attached, deal 30 special damage to your opponent's Center or Collab holomem."
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2",
         "hasAlternativeArt": true,
         "hasFullArt": true
     },
@@ -632,7 +632,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP02-036",
@@ -738,7 +738,7 @@
                 "description": "You may archive 1 Blue Cheer from this holomem for the following effect: deal 20 special damage to your opponent's Center holomem and one of their Back holomems."
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2",
         "hasAlternativeArt": true,
         "hasFullArt": true
     },
@@ -756,7 +756,7 @@
                 "dmg": "20"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP02-043",
@@ -864,7 +864,7 @@
                 "dmg": "20"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP02-049",
@@ -971,7 +971,7 @@
                 "description": "If there are any holomems in your Archive, this Art gains +10 power."
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP02-055",
@@ -1075,7 +1075,7 @@
                 "dmg": "80+"
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2",
         "hasFullArt": true
     },
     {
@@ -1092,7 +1092,7 @@
                 "dmg": "10"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hBP02-062",
@@ -1143,7 +1143,7 @@
                 "description": "If there are 5 or more holomems with #Myth in your Archive, you may move 1 Cheer from this holomem to one of your other holomems. If there are 10 or more, this Art gains +50 power."
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2.",
+        "extraEffect": "If this holomem is downed, you get Life-2",
         "hasAlternativeArt": true,
         "hasFullArt": true
     },
@@ -1161,7 +1161,7 @@
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck.",
+        "extraEffect": "You may include any number of this holomem in the deck.",
         "hasHolomenRare": true,
         "imageSet": "hBP05"
     },
