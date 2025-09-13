@@ -30,7 +30,7 @@
                 "dmg": 30
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hSD04-003",
@@ -135,7 +135,7 @@
                 "description": "You may return one Event with #Food from your Archive to your hand: if you do, this Art gains +20 power."
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2."
+        "extraEffect": "If this holomem is downed, you get Life-2."
     },
     {
         "cardNumber": "hSD04-009",
