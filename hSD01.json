@@ -104,7 +104,7 @@
                 "description": "When you have the Holomen 'AZKi' on your stage, this art gains +50."
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2."
+        "extraEffect": "If this holomem is downed, you get Life-2."
     },
 
       {
