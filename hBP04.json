@@ -131,7 +131,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #SecretSocietyholoX #AnimalEars",
+        "tag": "#JP #SecretSocietyholoX #Kemomimi",
         "cardNumber": "hBP04-008",
         "rarity": "C",
         "color": "White",
@@ -148,7 +148,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #SecretSocietyholoX #AnimalEars",
+        "tag": "#JP #SecretSocietyholoX #Kemomimi",
         "cardNumber": "hBP04-009",
         "rarity": "U",
         "color": "White",
@@ -166,7 +166,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #SecretSocietyholoX #AnimalEars",
+        "tag": "#JP #SecretSocietyholoX #Kemomimi",
         "cardNumber": "hBP04-010",
         "rarity": "C",
         "color": "White",
@@ -188,7 +188,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #SecretSocietyholoX #AnimalEars",
+        "tag": "#JP #SecretSocietyholoX #Kemomimi",
         "cardNumber": "hBP04-011",
         "rarity": "U",
         "color": "White",
@@ -206,7 +206,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #SecretSocietyholoX #AnimalEars",
+        "tag": "#JP #SecretSocietyholoX #Kemomimi",
         "cardNumber": "hBP04-012",
         "rarity": "R",
         "color": "White",
@@ -225,7 +225,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #SecretSocietyholoX #AnimalEars",
+        "tag": "#JP #SecretSocietyholoX #Kemomimi",
         "cardNumber": "hBP04-013",
         "rarity": "RR",
         "color": "White",
@@ -245,7 +245,7 @@
     },
     {
         "name": "Shirakami Fubuki",
-        "tag": "#JP #Gen1 #Gamers #AnimalEars #Art",
+        "tag": "#JP #Gen1 #Gamers #Kemomimi #Art",
         "cardNumber": "hBP04-014",
         "rarity": "R",
         "color": "White",
@@ -284,7 +284,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tag": "#EN #Justice #AnimalEars #Art",
+        "tag": "#EN #Justice #Kemomimi #Art",
         "cardNumber": "hBP04-016",
         "rarity": "C",
         "color": "White",
@@ -302,7 +302,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tag": "#EN #Justice #AnimalEars #Art",
+        "tag": "#EN #Justice #Kemomimi #Art",
         "cardNumber": "hBP04-017",
         "rarity": "C",
         "color": "White",
@@ -319,7 +319,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tag": "#EN #Justice #AnimalEars #Art",
+        "tag": "#EN #Justice #Kemomimi #Art",
         "cardNumber": "hBP04-018",
         "rarity": "U",
         "color": "White",
@@ -337,7 +337,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tag": "#EN #Justice #AnimalEars #Art",
+        "tag": "#EN #Justice #Kemomimi #Art",
         "cardNumber": "hBP04-019",
         "rarity": "R",
         "color": "White",
@@ -475,7 +475,7 @@
     },
     {
         "name": "Ookami Mio",
-        "tag": "#JP #Gamers #AnimalEars #Cooking",
+        "tag": "#JP #Gamers #Kemomimi #Cooking",
         "cardNumber": "hBP04-026",
         "rarity": "R",
         "color": "Green",
@@ -1858,3 +1858,4 @@
         "hasFoils": true
     }
 ]
+
