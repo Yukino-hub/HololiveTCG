@@ -689,7 +689,7 @@
         "color": "Red",
         "bloomLevel": "2nd",
         "hp": 200,
-        "giftEffect": "今のはちょっとね、練習で… [Center position/collab position only]Usable during your opponent's turn if 1 of your <Sakura Miko> is downed:Reveal 1 <Miko, I'm ashamed> from your deck, and add it to hand. Then, shuffle the deck.",
+        "giftEffect": "今のはちょっとね、練習で… [Center position/collab position only]Usable during your opponent's turn if 1 of your <Sakura Miko> is downed:Reveal 1 <MiOreHaji> from your deck, and add it to hand. Then, shuffle the deck.",
         "skills": [
             {
                 "name": "",
@@ -1502,7 +1502,7 @@
         "hasFoils" :true
     },
     {
-        "name": "Miko, I'm ashamed",
+        "name": "MiOreHaji",
         "cardNumber": "hBP05-079",
         "rarity": "U",
         "type": "Support (Event)",
