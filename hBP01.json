@@ -154,7 +154,7 @@
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "White",
-        "tag": "#JP #4thGen #Singing",
+        "tag": "#JP #Gen4 #Singing",
         "skills": [
             {
                 "name": "こんかなた〜",
@@ -171,7 +171,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "White",
-        "tag": "#JP #4thGen #Singing",
+        "tag": "#JP #Gen4 #Singing",
         "collabEffect": "お出かけ天使 : During this turn, your center holomem gets Arts+10. Then, if your center holomem has #Gen 4, your center holomem gets Arts+20.",
         "skills": [
             {
@@ -187,7 +187,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "White",
-        "tag": "#JP #4thGen #Singing",
+        "tag": "#JP #Gen4 #Singing",
         "skills": [
             {
                 "name": "塩対応かなたそ",
@@ -202,7 +202,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "White",
-        "tag": "#JP #4thGen #Singing",
+        "tag": "#JP #Gen4 #Singing",
         "bloomEffect": "アイドルかなたそを : You may roll a die once:If it is 3 or less, reveal 1 mascot from your deck, and attach it to your holomem. Then, shuffle the deck.",
         "skills": [
             {
@@ -218,7 +218,7 @@
         "bloomLevel": "1st",
         "hp": 100,
         "color": "White",
-        "tag": "#JP #4thGen #Singing",
+        "tag": "#JP #Gen4 #Singing",
         "bloomEffect": "天使のお仕事 :Deal 30 Special Damage to your opponent's center holomem. However, your opponent's Life does not reduce even if downed.",
         "skills": [
             {
@@ -234,7 +234,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "White",
-        "tag": "#JP #4thGen #Singing",
+        "tag": "#JP #Gen4 #Singing",
         "collabEffect": "堕ちた天使 : Deal 50 Special Damage to your opponent's center holomem.",
         "skills": [
             {
