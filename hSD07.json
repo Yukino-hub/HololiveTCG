@@ -34,7 +34,9 @@
                 "dmg": 60
             }
         ],
-        "extraEffect": "You may put any number of copies of this holomem in your Deck."
+        "extraEffect": "You may put any number of copies of this holomem in your Deck.".
+        "hasHolomenRare": true,
+        "imageSet": "hBP05"
     },
     {
         "cardNumber": "hSD07-003",
