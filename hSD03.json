@@ -23,7 +23,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "skills": [
             {
                 "name": "",
@@ -39,7 +39,7 @@
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "collabEffect": "If your Center holomem has #Gamers, deal 10 special damage to your opponent's Center holomem and one of their Back holomems. holomems Downed with this effect do not reduce LIFE.",
         "skills": [
             {
@@ -55,7 +55,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "collabEffect": "You may reveal one card from the top of your deck. If that card is a Debut or Spot holomem, send the top card of your Cheer Deck to this holomem. Then put that card on the bottom of your deck.",
         "skills": [
             {
@@ -71,7 +71,7 @@
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "skills": [
             {
                 "name": "",
@@ -90,7 +90,7 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "skills": [
             {
                 "name": "",
@@ -110,7 +110,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "bloomEffect": "Send a Cheer from your Archive to one of your holomems with #Gamers.",
         "skills": [
             {
@@ -127,7 +127,7 @@
         "buzz": "true",
         "hp": 240,
         "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "giftEffect": "(Center position only) Your Takane Lui, Ookami Mio, Shirakami Fubuki, La+ Darknesss, and Inugami Korone's Arts gain +20 power.",
         "skills": [
             {
@@ -144,7 +144,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "Blue",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "skills": [
             {
                 "name": "",
@@ -166,7 +166,7 @@
         "bloomLevel": "Spot",
         "hp": 70,
         "color": "Colorless",
-        "tag": "JP #Gamers #AnimalEars",
+        "tag": "JP #Gamers #Kemomimi",
         "collabEffect": "If your Center holomem is Nekomata Okayu, reveal 1 Fan or Mascot from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
