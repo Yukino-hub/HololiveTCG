@@ -625,7 +625,7 @@
         "bloomLevel": "Debut",
         "hp": 110,
         "color": "Blue",
-        "tag": "#JP #SecretSocietyholoX #Sea",
+        "tag": "#JP #holoX #Sea",
         "skills": [
             {
                 "name": "ばっくばっくばく～ん",
@@ -641,8 +641,8 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Blue",
-        "tag": "#JP #SecretSocietyholoX #Sea",
-        "collabEffect": "掃除屋でインターン: Look at the top three cards of your Deck. Reveal one that is a 2nd Bloom holomem with #SecretSocietyholoX and put it into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
+        "tag": "#JP #holoX #Sea",
+        "collabEffect": "掃除屋でインターン: Look at the top three cards of your Deck. Reveal one that is a 2nd Bloom holomem with #holoX and put it into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "skills": [
             {
                 "name": "吐いて捨てるような現実を！",
@@ -658,7 +658,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Blue",
-        "tag": "#JP #SecretSocietyholoX #Sea",
+        "tag": "#JP #holoX #Sea",
         "skills": [
             {
                 "name": "ふたりじめビーチ",
@@ -674,7 +674,7 @@
         "bloomLevel": "1st",
         "hp": 110,
         "color": "Blue",
-        "tag": "#JP #SecretSocietyholoX #Sea",
+        "tag": "#JP #holoX #Sea",
         "bloomEffect": "君の心をばっくばっくばく～んしちゃうぞ♡: Look at the top 3 cards of your Cheer Deck. Reveal 1 Cheer from among them and send it to any of your holomems. Then put the remaining cards on the bottom of your Deck in any order.",
         "skills": [
             {
@@ -691,7 +691,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Blue",
-        "tag": "#JP #SecretSocietyholoX #Sea",
+        "tag": "#JP #holoX #Sea",
         "giftEffect": "ぷいぷいぷい～: (Once per turn) When you reveal cards with this holomem's Art 「ホロックスロット」, you may put 1 of them that is a Support card into your hand instead of Archiving it.",
         "skills": [
             {
@@ -709,7 +709,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Blue",
-        "tag": "#JP #SecretSocietyholoX #Sea",
+        "tag": "#JP #holoX #Sea",
         "giftEffect": "最高に激アツ～　(Once per turn) When you reveal cards with this holomem's Art 「ホロックスロット」, if the three revealed cards are all holomems with the same Bloom level, your opponent loses 1 LIFE.",
         "skills": [
             {
@@ -1316,7 +1316,7 @@
         "bloomLevel": "Spot",
         "hp": 60,
         "color": "Colorless",
-        "tag": "#HoloWitch #SecretSocietyholoX #Magic",
+        "tag": "#HoloWitch #holoX #Magic",
         "collabEffect": "荒波をゆく奔放の牙！！: You may roll a dice. If the result is even, reveal a Tool card from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
@@ -1377,7 +1377,7 @@
         "type": "Support (Event)",
         "rarity": "U",
         "limited": "Yes",
-        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #SecretSocietyholoX and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
+        "ability": "This card can only be played if you have 6 or fewer cards in your hand, excluding this card. Look at the top four cards of your Deck. Reveal any number of them that are holomems with #holoX and put them into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "hasFoils": true
     },
     {
@@ -1516,7 +1516,7 @@
         "name": "イヌ(Inu)",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Sakamata Chloe>, it gains the following effect: when the holomem with this Mascot attached Downs one of your opponent's holomems, send a Cheer from your Archive to one of your holomems with #SecretSocietyholoX. You may only attach 1 Mascot to a holomem.",
+        "ability": "The holomem with this Mascot attached gain +10 Power. If this is attached to <Sakamata Chloe>, it gains the following effect: when the holomem with this Mascot attached Downs one of your opponent's holomems, send a Cheer from your Archive to one of your holomems with #holoX. You may only attach 1 Mascot to a holomem.",
         "hasFoils": true
     },
     {
