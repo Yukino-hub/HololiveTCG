@@ -30,7 +30,7 @@
                 "dmg": 30
             }
         ],
-        "extraEffect": "You may include any number of this holomem in your deck."
+        "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
         "cardNumber": "hSD02-003",
@@ -135,7 +135,7 @@
                 "description": "You may Archive one card from your hand for the following effect: deal 50 special damage to your opponent's Center or Collab holomem."
             }
         ],
-        "extraEffect": "When this holomem is downed, your life is reduced by 2."
+        "extraEffect": "If this holomem is downed, you get Life-2."
     },
     {
         "cardNumber": "hSD02-009",
