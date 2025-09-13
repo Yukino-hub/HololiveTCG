@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const grandprixCheckbox = document.getElementById('grandprixCheckbox');
     const holomenRareCheckbox = document.getElementById('holomenRareCheckbox');
 
+    const tagsContainer = document.getElementById('tagsContainer');
+    const clearButton = document.getElementById('clearButton');
+
     const modal = document.getElementById('modal');
     const modalCloseIcon = document.getElementById('modalCloseIcon');
 
@@ -167,6 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 filteredCardData = allCardData;
                 displayCards(filteredCardData);
+                extractAndDisplayTags(); // Extract and display tags
                 loadingIndicator.style.display = 'none';
             })
             .catch(error => {
@@ -198,6 +202,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
         cardElement.addEventListener('click', () => openModal(card));
         return cardElement;
+    }
+
+    function extractAndDisplayTags() {
+        const tags = new Set();
+        allCardData.forEach(card => {
+            if (card.tag) {
+                // Split tags string into individual tags and trim whitespace
+                card.tag.split(' ').forEach(tag => {
+                    if (tag.startsWith('#')) {
+                        tags.add(tag);
+                    }
+                });
+            }
+        });
+
+        const sortedTags = [...tags].sort();
+        tagsContainer.innerHTML = ''; // Clear previous tags
+        sortedTags.forEach(tag => {
+            const tagElement = document.createElement('span');
+            tagElement.classList.add('tag-item');
+            tagElement.textContent = tag;
+            tagElement.addEventListener('click', () => {
+                searchBar.value = tag;
+                filterCards();
+            });
+            tagsContainer.appendChild(tagElement);
+        });
     }
 
     function displayCards(cardsToShow) {
@@ -441,6 +472,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Apply debounce to the search bar input to improve performance
     searchBar.addEventListener('input', debounce(filterCards, 300));
+
+    clearButton.addEventListener('click', () => {
+        searchBar.value = '';
+        filterCards();
+    });
 
     modal.addEventListener('click', (event) => {
         if (event.target === modal) {

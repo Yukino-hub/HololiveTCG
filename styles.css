@@ -36,8 +36,13 @@ header a:hover {
     margin-bottom: 20px;
 }
 
+.search-bar-container {
+    display: flex;
+    gap: 10px;
+}
+
 #searchBar {
-    width: 100%; /* Full width on small screens */
+    flex-grow: 1;
     padding: 10px;
     font-size: 16px;
     box-sizing: border-box; /* Include padding and border in the width */
@@ -45,6 +50,21 @@ header a:hover {
     color: white;
     border: 1px solid #444;
 }
+
+#clearButton {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#clearButton:hover {
+    background-color: #777;
+}
+
 .dropdown-container {
     display: flex;
     justify-content: center;
@@ -274,4 +294,35 @@ img.lazy-load[src] {
 .dropdown-container select option:checked {
     background-color: #1E90FF;
     color: white;
+}
+
+/* Tag display styles */
+.tags-section {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.tags-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#tagsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag-item {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.tag-item:hover {
+    background-color: #1E90FF;
 }
