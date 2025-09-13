@@ -82,7 +82,7 @@
         "oshiSkill": {
             "name": "デビルズヴォイス",
             "power": 2,
-            "description": "[Once per turn] The Arts of your Center and Collab holomems with #Song gain +20 power until the end of the turn."
+            "description": "[Once per turn] The Arts of your Center and Collab holomems with #singing gain +20 power until the end of the turn."
         },
         "spOshiSkill": {
             "name": "悪魔的所業",
@@ -281,7 +281,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Green",
-        "tag": "#JP #Gen5 #AnimalEars #Shooter",
+        "tag": "#JP #Gen5 #Kemomimi #Shooter",
         "skills": [
             {
                 "name": "ららーいおん♪",
@@ -297,7 +297,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Green",
-        "tag": "#JP #Gen5 #AnimalEars #Shooter",
+        "tag": "#JP #Gen5 #Kemomimi #Shooter",
         "collabEffect": "プリペア: If your Oshi holomem is Shishiro Botan, you may Archive the top card of your Cheer Deck for the following effect: restore 10 HP to any of your holomems.",
         "skills": [
             {
@@ -314,7 +314,7 @@
         "bloomLevel": "1st",
         "hp": 100,
         "color": "Green",
-        "tag": "#JP #Gen5 #AnimalEars #Shooter",
+        "tag": "#JP #Gen5 #Kemomimi #Shooter",
         "skills": [
             {
                 "name": "ぼたんがアイドルになったら…",
@@ -333,7 +333,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Green",
-        "tag": "#JP #Gen5 #AnimalEars #Shooter",
+        "tag": "#JP #Gen5 #Kemomimi #Shooter",
         "bloomEffect": "歌う事は楽しい事: You may Archive 1 Cheer from one of your Back holomems for the following effect: deal 30 special damage to your opponent's Center or Collab holomem. You may only use the Bloom Effect [歌う事は楽しい事] once per turn.",
         "skills": [
             {
@@ -351,7 +351,7 @@
         "bloomLevel": "1st",
         "hp": 110,
         "color": "Green",
-        "tag": "#JP #Gen5 #AnimalEars #Shooter",
+        "tag": "#JP #Gen5 #Kemomimi #Shooter",
         "bloomEffect": "SSSSR: Send the top card of your Cheer Deck to one of your Back holomems named Shishiro Botan.",
         "skills": [
             {
@@ -368,7 +368,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Green",
-        "tag": "#JP #Gen5 #AnimalEars #Shooter",
+        "tag": "#JP #Gen5 #Kemomimi #Shooter",
         "bloomEffect": "なんとかしてくれる獅白ぼたん: You may choose 1-2 of your Back holomems with #Shooter. Send 1 Cheer from your Archive to each of them.",
         "skills": [
             {
@@ -407,7 +407,7 @@
         "bloomLevel": "1st",
         "hp": 230,
         "color": "Green",
-        "tag": "#JP #Gen3 #AnimalEars",
+        "tag": "#JP #Gen3 #Kemomimi",
         "buzz": true,
         "collabEffect": "あんたたちぃ:　You may roll a dice. If the result is even, reveal 1 Fan from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
@@ -663,7 +663,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Red",
-        "tag": "#EN #Advent #AnimalEars",
+        "tag": "#EN #Advent #Kemomimi",
         "skills": [
             {
                 "name": "フワワじゃないよ、モココだよ",
@@ -680,7 +680,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Red",
-        "tag": "#EN #Advent #AnimalEars",
+        "tag": "#EN #Advent #Kemomimi",
         "bloomEffect": "遊びの時間だー！:　When this Blooms from a Debut holomem, you may reveal a 1st Bloom Fuwawa Abyssgard from your deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
@@ -698,7 +698,7 @@
         "hp": 240,
         "color": "Red",
         "buzz": true,
-        "tag": "#EN #Advent #AnimalEars",
+        "tag": "#EN #Advent #Kemomimi",
         "giftEffect": "魔界乃番犬の暴れん坊:　During your Reset Step, if your Center holomem is Fuwawa Abyssgard, this holomem will not be Rested when moving from the Collab position to the Back position.",
         "skills": [
             {
@@ -717,7 +717,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Blue",
-        "tag": "#EN #Advent #AnimalEars",
+        "tag": "#EN #Advent #Kemomimi",
         "skills": [
             {
                 "name": "チワワじゃないよ、フワワだよ",
@@ -733,7 +733,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Blue",
-        "tag": "#EN #Advent #AnimalEars",
+        "tag": "#EN #Advent #Kemomimi",
         "skills": [
             {
                 "name": "魔界乃番犬のまとめ役",
@@ -753,7 +753,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Blue",
-        "tag": "#EN #Advent #AnimalEars",
+        "tag": "#EN #Advent #Kemomimi",
         "bloomEffect": "フワ花流水: If there is a Mococo Abyssgard on your stage, you may deal 20 damage to your opponent's Center holomem or one of their Back holomems. holomems Downed with this effect do not reduce LIFE.",
         "skills": [
             {
@@ -770,7 +770,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Blue",
-        "tag": "#EN #Advent #AnimalEars",
+        "tag": "#EN #Advent #Kemomimi",
         "skills": [
             {
                 "name": "ドーナツ大好き",
@@ -792,7 +792,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Blue",
-        "tag": " #JP #Gen0 #Song",
+        "tag": " #JP #Gen0 #singing",
         "bloomEffect": "プラネットステージ: Look at the top four cards of your Deck. Reveal 1 [Hoshimachi Suisei] from among them and put it into your hand. Then put the remaining cards on the bottom of your Deck in any order.",
         "skills": [
             {
@@ -830,7 +830,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Blue",
-        "tag": " #DEV_IS #ReGLOSS #Art",
+        "tag": " #DEV_IS #ReGLOSS #Painting",
         "skills": [
             {
                 "name": "可愛い女の子かと思った？",
@@ -850,7 +850,7 @@
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Blue",
-        "tag": " #DEV_IS #ReGLOSS #Art",
+        "tag": " #DEV_IS #ReGLOSS #Painting",
         "skills": [
             {
                 "name": "アフタヌーンティーデートのその後に…　",
@@ -866,7 +866,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Blue",
-        "tag": " #DEV_IS #ReGLOSS #Art",
+        "tag": " #DEV_IS #ReGLOSS #Painting",
         "skills": [
             {
                 "name": "僕、カッコいいでしょ？",
@@ -887,7 +887,7 @@
         "bloomLevel": "1st",
         "hp": 230,
         "color": "Blue",
-        "tag": "#DEV_IS #ReGLOSS #Art",
+        "tag": "#DEV_IS #ReGLOSS #Painting",
         "buzz": "true",
         "bloomEffect": "困ったお姫様たちだね: Reveal 1 Cheer from your Cheer Deck of the same color as your Center holomem with #ReGLOSS, and send that Cheer to any of your holomems with #ReGLOSS. Then shuffle your Cheer Deck.",
         "skills": [
@@ -907,7 +907,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Blue",
-        "tag": "#EN #Advent #AnimalEars",
+        "tag": "#EN #Advent #Kemomimi",
         "skills": [
             {
                 "name": "魔界乃番犬シスターズ",
@@ -929,7 +929,7 @@
         "bloomLevel": "Debut",
         "hp": 110,
         "color": "Purple",
-        "tag": "#JP #Gen4 #Song #Shooter",
+        "tag": "#JP #Gen4 #singing #Shooter",
         "skills": [
             {
                 "name": "こんやっぴー",
@@ -945,7 +945,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Purple",
-        "tag": "#JP #Gen4 #Song #Shooter",
+        "tag": "#JP #Gen4 #singing #Shooter",
         "skills": [
             {
                 "name": "そういう感じなんだ",
@@ -962,7 +962,7 @@
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Purple",
-        "tag": "#JP #Gen4 #Song #Shooter",
+        "tag": "#JP #Gen4 #singing #Shooter",
         "skills": [
             {
                 "name": "おつやっぴー　",
@@ -982,7 +982,7 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Purple",
-        "tag": "#JP #Gen4 #Song #Shooter",
+        "tag": "#JP #Gen4 #singing #Shooter",
         "collabEffect": "トワにしか出せない色: Deal 20 special damage to your Opponent's Center or Collab holomem.",
         "skills": [
             {
@@ -1000,7 +1000,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Purple",
-        "tag": "#JP #Gen4 #Song #Shooter",
+        "tag": "#JP #Gen4 #singing #Shooter",
         "skills": [
             {
                 "name": "トワとお家デートしたっていい",
@@ -1009,7 +1009,7 @@
             {
                 "name": "てんQ",
                 "dmg": "50",
-                "description": "If you have any Back holomems with #Song, deal 20 special damage to your opponent's Collab holomem."
+                "description": "If you have any Back holomems with #singing, deal 20 special damage to your opponent's Collab holomem."
             }
         ],
         "hasFullArt": true
@@ -1021,7 +1021,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Purple",
-        "tag": "#JP #Gen4 #Song #Shooter",
+        "tag": "#JP #Gen4 #singing #Shooter",
         "skills": [
             {
                 "name": "私を縛る固定概念を壊せ",
@@ -1031,7 +1031,7 @@
             {
                 "name": "Break your ×××",
                 "dmg": "80",
-                "description": "Deal 20 special damage for each of your Back holomems with #Song to your opponent's Center or Collab holomem. The maximum number of holomems counted for this effect is 4."
+                "description": "Deal 20 special damage for each of your Back holomems with #singing to your opponent's Center or Collab holomem. The maximum number of holomems counted for this effect is 4."
             }
         ],
         "hasAlternativeArt": true,
@@ -1114,7 +1114,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Yellow",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "skills": [
             {
                 "name": "ぉぁよ～",
@@ -1134,7 +1134,7 @@
         "bloomLevel": "1st",
         "hp": 100,
         "color": "Yellow",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "collabEffect": "ころねダイナー:　You may Archive 1 Cheer from this holomem for the following effect: reveal a Debut holomem with #Gamers from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
@@ -1151,7 +1151,7 @@
         "bloomLevel": "1st",
         "hp": 200,
         "color": "Yellow",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "skills": [
             {
                 "name": "つころ～ん",
@@ -1167,7 +1167,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Yellow",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "skills": [
             {
                 "name": "ぶるぁあああああ!!!!!!!!!!!!!!",
@@ -1188,7 +1188,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Yellow",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "giftEffect": "ボクシングスタイル:　[Collab Position only] During your opponent's Main Step, if your Center holomem is <Inugami Korone>, that holome's HP cannot be changed or reduced by your opponent's abilities or effects.",
         "skills": [
             {
@@ -1206,7 +1206,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "Yellow",
-        "tag": "#JP #Gamers #AnimalEars",
+        "tag": "#JP #Gamers #Kemomimi",
         "giftEffect": "わんだふぉ～♡: When this holomem is Downed, send the top card of your Cheer Deck to one of your holomems named Inugami Korone.",
         "skills": [
             {
@@ -1225,7 +1225,7 @@
         "bloomLevel": "Debut",
         "hp": 110,
         "color": "Yellow",
-        "tag": "#JP #Gen4 #AnimalEars #Song",
+        "tag": "#JP #Gen4 #Kemomimi #singing",
         "skills": [
             {
                 "name": "こんばんドドド～！",
@@ -1241,7 +1241,7 @@
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "Yellow",
-        "tag": "#JP #Gen4 #AnimalEars #Song",
+        "tag": "#JP #Gen4 #Kemomimi #singing",
         "skills": [
             {
                 "name": "わためのうた",
@@ -1258,7 +1258,7 @@
         "bloomLevel": "1st",
         "hp": 190,
         "color": "Yellow",
-        "tag": "#JP #Gen4 #AnimalEars #Song",
+        "tag": "#JP #Gen4 #Kemomimi #singing",
         "skills": [
             {
                 "name": "癒しのひととき",
@@ -1278,7 +1278,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Yellow",
-        "tag": "#JP #Gen4 #AnimalEars #Song",
+        "tag": "#JP #Gen4 #Kemomimi #singing",
         "bloomEffect": "めいっぱい歌って踊ります！:If there are 5 or fewer holomems on your Stage, you may reveal a Debut <Tsunomaki Watame> from your Deck and put it onto your Stage. Then shuffle your deck.",
         "skills": [
             {
@@ -1296,7 +1296,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Yellow",
-        "tag": "#JP #Gen4 #AnimalEars #Song",
+        "tag": "#JP #Gen4 #Kemomimi #singing",
         "bloomEffect": "Member sheep おかえり～: You may return a Watamate from your Archive to your hand.",
         "skills": [
             {
@@ -1314,7 +1314,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Yellow",
-        "tag": "#JP #Gen4 #AnimalEars #Song",
+        "tag": "#JP #Gen4 #Kemomimi #singing",
         "giftEffect": "まだまだいくよー！: When this holomem is Downed, you may move 1 Cheer from this holomem to one of your holomems named <Tsunomaki Watame>.",
         "skills": [
             {
@@ -1333,7 +1333,7 @@
         "bloomLevel": "Debut",
         "hp": 110,
         "color": "Yellow",
-        "tag": "#ID #IDGen1 #AnimalEars #Song",
+        "tag": "#ID #IDGen1 #Kemomimi #singing",
         "skills": [
             {
                 "name": "こんリス",
@@ -1354,7 +1354,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Yellow",
-        "tag": "#ID #IDGen1 #AnimalEars #Song",
+        "tag": "#ID #IDGen1 #Kemomimi #singing",
         "skills": [
             {
                 "name": "繋がる願い",
@@ -1371,7 +1371,7 @@
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Yellow",
-        "tag": "#ID #IDGen1 #AnimalEars #Song",
+        "tag": "#ID #IDGen1 #Kemomimi #singing",
         "skills": [
             {
                 "name": "おつリスー",
@@ -1391,7 +1391,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Yellow",
-        "tag": "#ID #IDGen1 #AnimalEars #Song",
+        "tag": "#ID #IDGen1 #Kemomimi #singing",
         "bloomEffect": "いやっほー！ みんな元気？: Reveal a Green Cheer or Yellow Cheer from your Cheer Deck and send it to any of your holomems. Then shuffle your Cheer Deck.",
         "skills": [
             {
@@ -1408,7 +1408,7 @@
         "bloomLevel": "1st",
         "hp": 250,
         "color": "Yellow",
-        "tag": "#ID #IDGen1 #AnimalEars #Song",
+        "tag": "#ID #IDGen1 #Kemomimi #singing",
         "bloomEffect": "同期の絆:If there are 5 or fewer holomems on your Stage, you may reveal a Debut holomem with #IDGen1 from your Deck and put it onto your Stage. Then shuffle your deck.",
         "skills": [
             {
@@ -1425,7 +1425,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Yellow",
-        "tag": "#ID #IDGen1 #AnimalEars #Song",
+        "tag": "#ID #IDGen1 #Kemomimi #singing",
         "bloomEffect": "マジカルサポート:　You may move 1 Cheer attached to one of your holomems with #IDGen1, to any of your holomems.",
         "skills": [
             {
@@ -1463,7 +1463,7 @@
         "bloomLevel": "Debut",
         "hp": 130,
         "color": "Yellow",
-        "tag": "#DEV_IS #ReGLOSS #Song",
+        "tag": "#DEV_IS #ReGLOSS #singing",
         "skills": [
             {
                 "name": "ドレミファソラシド～！",
@@ -1483,7 +1483,7 @@
         "bloomLevel": "1st",
         "hp": 180,
         "color": "Yellow",
-        "tag": "#DEV_IS #ReGLOSS #Song",
+        "tag": "#DEV_IS #ReGLOSS #singing",
         "skills": [
             {
                 "name": "明日は月曜日～っ♪",
@@ -1499,7 +1499,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Yellow",
-        "tag": "#DEV_IS #ReGLOSS #Song",
+        "tag": "#DEV_IS #ReGLOSS #singing",
         "bloomEffect": "ここが私のステージだから！:　You may move any 1-2 Cheers on your Stage to this holomem.",
         "skills": [
             {
@@ -1517,7 +1517,7 @@
         "hp": 250,
         "buzz": true,
         "color": "Yellow",
-        "tag": "#DEV_IS #ReGLOSS #Song",
+        "tag": "#DEV_IS #ReGLOSS #singing",
         "giftEffect": "なんちゅーこった: At the end of your opponent's Performance Step, if you lost any LIFE during that Performance Step, you may send 1 Cheer from your Archive to this holomem.",
         "skills": [
             {
