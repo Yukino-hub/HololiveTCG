@@ -275,3 +275,38 @@ img.lazy-load[src] {
     background-color: #1E90FF;
     color: white;
 }
+
+/* Tag display styles */
+.tags-section {
+    margin: 20px 0;
+}
+
+#showTagsButton {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#tagsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag-item {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.tag-item:hover {
+    background-color: #1E90FF;
+}
