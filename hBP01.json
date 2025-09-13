@@ -252,7 +252,7 @@
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "White",
-        "tag": "#EN #Promise #Bird #Art",
+        "tag": "#EN #Promise #Bird #Painting",
         "skills": [
             {
                 "name": "Oh, Hi",
@@ -268,7 +268,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "White",
-        "tag": "#EN #Promise #Bird #Art",
+        "tag": "#EN #Promise #Bird #Painting",
         "collabEffect": "白いキャンバス: If your center holomem has #Promise, draw 1 card from your deck.",
         "skills": [
             {
@@ -284,7 +284,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "White",
-        "tag": "#EN #Promise #Bird #Art",
+        "tag": "#EN #Promise #Bird #Painting",
         "skills": [
             {
                 "name": "一緒にお出かけ",
@@ -303,7 +303,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "White",
-        "tag": "#EN #Promise #Bird #Art",
+        "tag": "#EN #Promise #Bird #Painting",
         "skills": [
             {
                 "name": "思い出の欠片",
@@ -319,7 +319,7 @@
         "bloomLevel": "1st",
         "hp": 100,
         "color": "White",
-        "tag": "#EN #Promise #Bird #Art",
+        "tag": "#EN #Promise #Bird #Painting",
         "bloomEffect": "みんなと歌って踊りたい! : If Bloomed from Debut, reveal 1 [Debut holomem or 1st holomem] other than Buzz from your deck with #Promise, and add it to hand. Then, shuffle the deck.",
         "skills": [
             {
@@ -335,7 +335,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "White",
-        "tag": "#EN #Promise #Bird #Art",
+        "tag": "#EN #Promise #Bird #Painting",
         "collabEffect": "あの日の約束 : Reveal 1 holomem with #Promise from your deck, and add it to hand. Then, shuffle the deck.",
         "skills": [
             {
@@ -537,7 +537,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Green",
-        "tag": "#JP #Gen1 #HalfElf #Alcohol",
+        "tag": "#JP #Gen1 #Half-Elf #Alcohol",
         "skills": [
             {
                 "name": "アロ～ナ！",
@@ -555,7 +555,7 @@
         "bloomLevel": "Debut",
         "hp": 50,
         "color": "Green",
-        "tag": "#JP #Gen1 #HalfElf #Alcohol",
+        "tag": "#JP #Gen1 #Half-Elf #Alcohol",
         "collabEffect": "ヒーリングランウェイ: You may roll a die once:If it is odd, restore 20 HP to 1 of your green holomem..",
         "skills": [
             {
@@ -571,7 +571,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Green",
-        "tag": "#JP #Gen1 #HalfElf #Alcohol",
+        "tag": "#JP #Gen1 #Half-Elf #Alcohol",
         "skills": [
             {
                 "name": "あらあら",
@@ -590,7 +590,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Green",
-        "tag": "#JP #Gen1 #HalfElf #Alcohol",
+        "tag": "#JP #Gen1 #Half-Elf #Alcohol",
         "bloomEffect": "ブレーメンの音楽祭: You may attach 1 tool from your archive to your holomem.",
         "skills": [
             {
@@ -607,7 +607,7 @@
         "bloomLevel": "1st",
         "hp": 100,
         "color": "Green",
-        "tag": "#JP #Gen1 #HalfElf #Alcohol",
+        "tag": "#JP #Gen1 #Half-Elf #Alcohol",
         "collabEffect": "ロゼ隊のみんな応援しててね!: Restore 20 HP to 1 of your holomem.",
         "skills": [
             {
@@ -623,7 +623,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Green",
-        "tag": "#JP #Gen1 #HalfElf #Alcohol",
+        "tag": "#JP #Gen1 #Half-Elf #Alcohol",
         "bloomEffect": "ゴシックドール: Send the top card of your cheer deck to your holomem. If a tool is attached to this holomem, restore 40 HP to this holomem.",
         "skills": [
             {
@@ -809,7 +809,7 @@
         "bloomLevel": "Debut",
         "hp": 120,
         "color": "Green",
-        "tag": "#JP #SecretSocietyholoX",
+        "tag": "#JP #Holox",
         "skills": [
             {
                 "name": "皆殿、風真いろはでござる-",
@@ -825,7 +825,7 @@
         "bloomLevel": "Debut",
         "hp": 180,
         "color": "Green",
-        "tag": "#JP #SecretSocietyholoX",
+        "tag": "#JP #Holox",
         "skills": [
             {
                 "name": "とれたてナス",
@@ -844,13 +844,13 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Green",
-        "tag": "#JP #SecretSocietyholoX",
+        "tag": "#JP #Holox",
         "giftEffect": "用心棒: [Collab Position only], Your opponent's holomem's Arts can only target your collab holomem. However, it excludes Special Damage.",
         "skills": [
             {
                 "name": "元気を全力でお届けします!",
                 "dmg": "20",
-                "description": "Send the top card of your cheer deck to your holomem with #holoX other than 〈Kazama Iroha〉."
+                "description": "Send the top card of your cheer deck to your holomem with #Holox other than 〈Kazama Iroha〉."
             }
         ]
     },
@@ -862,7 +862,7 @@
         "buzz": true,
         "hp": 250,
         "color": "Green",
-        "tag": "#JP #SecretSocietyholoX",
+        "tag": "#JP #Holox",
         "skills": [
             {
                 "name": "エールを束ねて",
@@ -884,7 +884,7 @@
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Green",
-        "tag": "#ID #IDGen1 #Art",
+        "tag": "#ID #IDGen1 #Painting",
         "skills": [
             {
                 "name": "スラマッパギ!",
@@ -901,7 +901,7 @@
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Green",
-        "tag": "#ID #IDGen1 #Art",
+        "tag": "#ID #IDGen1 #Painting",
         "skills": [
             {
                 "name": "あなたの愛しの宇宙人",
@@ -916,7 +916,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Green",
-        "tag": "#ID #IDGen1 #Art",
+        "tag": "#ID #IDGen1 #Painting",
         "bloomEffect": "緑の光が広がる海: Send the top card of your cheer deck to your holomem with #ID other than 〈Airani Iofifteen〉.",
         "skills": [
             {
@@ -932,7 +932,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "Green",
-        "tag": "#ID #IDGen1 #Art",
+        "tag": "#ID #IDGen1 #Painting",
         "collabEffect": "AREA 15: You may send 1 cheer each from your archive to 1~3 of your holomem with #ID.",
         "skills": [
             {
@@ -949,7 +949,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Red",
-        "tag": "#JP #SecretSocietyholoX #Bird #Alcohol",
+        "tag": "#JP #Holox #Bird #Alcohol",
         "skills": [
             {
                 "name": "皆さん、待っ鷹ね?",
@@ -965,7 +965,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Red",
-        "tag": "#JP #SecretSocietyholoX #Bird #Alcohol",
+        "tag": "#JP #Holox #Bird #Alcohol",
         "collabEffect": "アポイント: Deal 10 Special Damage to your opponent's collab holomem.",
         "skills": [
             {
@@ -982,7 +982,7 @@
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Red",
-        "tag": "#JP #SecretSocietyholoX #Bird #Alcohol",
+        "tag": "#JP #Holox #Bird #Alcohol",
         "skills": [
             {
                 "name": "こんルイルイ",
@@ -1001,7 +1001,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Red",
-        "tag": "#JP #SecretSocietyholoX #Bird #Alcohol",
+        "tag": "#JP #Holox #Bird #Alcohol",
         "skills": [
             {
                 "name": "パーティーへようこそ",
@@ -1021,7 +1021,7 @@
         "bloomLevel": "2nd",
         "hp": 100,
         "color": "Red",
-        "tag": "#JP #SecretSocietyholoX #Bird #Alcohol",
+        "tag": "#JP #Holox #Bird #Alcohol",
         "bloomEffect": "本当にみんなのおかげ!!: If Bloomed from Debut, you may archive 1 card from your hand:Draw 2 cards from your deck.",
         "skills": [
             {
@@ -1037,8 +1037,8 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Red",
-        "tag": "#JP #SecretSocietyholoX #Bird #Alcohol",
-        "bloomEffect": "組織の司令塔: You may return 1~2 holomem with #holoX from your archive to hand.",
+        "tag": "#JP #Holox #Bird #Alcohol",
+        "bloomEffect": "組織の司令塔: You may return 1~2 holomem with #Holox from your archive to hand.",
         "skills": [
             {
                 "name": "ホークレイヴ",
@@ -1661,7 +1661,7 @@
         "bloomLevel": "Spot",
         "hp": 80,
         "color": "Colorless",
-        "tag": " #JP #Gen3 #HalfElf",
+        "tag": " #JP #Gen3 #Half-Elf",
         "collabEffect": "それは「愛と絆の物語」: Exchange your center holomem with 1 non-resting back holomem.",
         "skills": [
             {
@@ -1695,7 +1695,7 @@
         "bloomLevel": "Spot",
         "hp": 90,
         "color": "Colorless",
-        "tag": " #JP #Gen3 #Art #Sea",
+        "tag": " #JP #Gen3 #Painting #Sea",
         "collabEffect": "それは「エジンバラ城」: You may roll a die once:If it is odd, exchange your opponent's center holomem with 1 back holomem.",
         "skills": [
             {
