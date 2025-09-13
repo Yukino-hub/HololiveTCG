@@ -271,7 +271,65 @@ img.lazy-load[src] {
     opacity: 1; /* Fully visible when the src is set */
 }
 
+/* Tags Styles */
+.tags-control {
+    margin-bottom: 10px;
+}
+
+#toggleTagsButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #2C2C2C;
+    border-radius: 5px;
+}
+
+.tag-badge {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tag-badge:hover {
+    background-color: #0056b3;
+}
+
 .dropdown-container select option:checked {
     background-color: #1E90FF;
     color: white;
+}
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#backToTopBtn:hover {
+    background-color: #0056b3;
 }

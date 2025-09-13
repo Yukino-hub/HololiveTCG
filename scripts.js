@@ -167,6 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 filteredCardData = allCardData;
                 displayCards(filteredCardData);
+                displayAllTags(allCardData);
                 loadingIndicator.style.display = 'none';
             })
             .catch(error => {
@@ -227,6 +228,31 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         lazyImages.forEach(image => observer.observe(image));
     }
+    function displayAllTags(cards) {
+        const tagsContainer = document.getElementById('tagsContainer');
+        const allTags = new Set();
+
+        cards.forEach(card => {
+            if (card.tag) {
+                const tags = card.tag.split(' ').filter(t => t.startsWith('#'));
+                tags.forEach(tag => allTags.add(tag));
+            }
+        });
+
+        const sortedTags = Array.from(allTags).sort();
+
+        sortedTags.forEach(tag => {
+            const tagElement = document.createElement('span');
+            tagElement.classList.add('tag-badge');
+            tagElement.textContent = tag;
+            tagElement.addEventListener('click', () => {
+                searchBar.value = tag;
+                filterCards();
+            });
+            tagsContainer.appendChild(tagElement);
+        });
+    }
+
 
     function filterCards() {
         const searchText = searchBar.value.toLowerCase();
@@ -442,10 +468,38 @@ document.addEventListener('DOMContentLoaded', function() {
     // Apply debounce to the search bar input to improve performance
     searchBar.addEventListener('input', debounce(filterCards, 300));
 
+    const toggleTagsButton = document.getElementById('toggleTagsButton');
+    const tagsContainer = document.getElementById('tagsContainer');
+
+    toggleTagsButton.addEventListener('click', () => {
+        const isHidden = tagsContainer.classList.toggle('hidden');
+        toggleTagsButton.textContent = isHidden ? 'Show Tags' : 'Hide Tags';
+    });
+
     modal.addEventListener('click', (event) => {
         if (event.target === modal) {
             modal.style.display = 'none';
         }
+    });
+
+    // Back to top button
+    const backToTopButton = document.getElementById("backToTopBtn");
+
+    window.onscroll = function() {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
+
+    backToTopButton.addEventListener('click', () => {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     });
 
     loadCardData();
