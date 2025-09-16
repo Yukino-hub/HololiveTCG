@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const tagsContainer = document.getElementById('tagsContainer');
     const clearButton = document.getElementById('clearButton');
+    const toggleTagsBtn = document.getElementById('toggleTagsBtn');
 
     const modal = document.getElementById('modal');
     const modalCloseIcon = document.getElementById('modalCloseIcon');
@@ -477,6 +478,15 @@ document.addEventListener('DOMContentLoaded', function() {
     clearButton.addEventListener('click', () => {
         searchBar.value = '';
         filterCards();
+    });
+
+    toggleTagsBtn.addEventListener('click', () => {
+        tagsContainer.classList.toggle('hidden');
+        if (tagsContainer.classList.contains('hidden')) {
+            toggleTagsBtn.textContent = 'Show';
+        } else {
+            toggleTagsBtn.textContent = 'Hide';
+        }
     });
 
     modal.addEventListener('click', (event) => {
