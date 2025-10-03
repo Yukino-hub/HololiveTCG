@@ -1557,7 +1557,7 @@
     {
         "cardNumber": "hBP03-087",
         "name": "Call and Response",
-        "type": "Support (Tool)",
+        "type": "Support (Event)",
         "rarity": "C",
         "ability": "Move 1 Cheer from one of your holomems to another.",
         "hasFoils": true
@@ -1565,7 +1565,7 @@
     {
         "cardNumber": "hBP03-088",
         "name": "Call-In",
-        "type": "Support (Tool)",
+        "type": "Support (Event)",
         "rarity": "U",
         "ability": "This card can only be played if you have less LIFE than your opponent. If your opponent has no Collab holomem, they choose one of their Back holomems and move it to the Collab Position (this is not treated as Collabing).",
         "hasFoils": true
