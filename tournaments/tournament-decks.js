@@ -30,6 +30,16 @@ document.addEventListener('DOMContentLoaded', function() {
                         infoContainer.appendChild(prizeElement);
                     }
 
+                      if (data.link) {
+                        const linkElement = document.createElement('p');
+                        const linkAnchor = document.createElement('a');
+                        linkAnchor.href = data.link;
+                        linkAnchor.textContent = "Official Tournament Page";
+                        linkAnchor.target = "_blank";
+                        linkElement.appendChild(linkAnchor);
+                        infoContainer.appendChild(linkElement);
+                    }
+
                     const table = document.getElementById('decksTable');
                     container.insertBefore(infoContainer, table);
                 }
