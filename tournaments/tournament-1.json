@@ -4,12 +4,16 @@
         {
             "rank": "1st Place",
             "playerName": "Player A",
-            "deckUrl": "https://decklog.bushiroad.com/view/4FAEU"
+            "deckUrl": "https://decklog.bushiroad.com/view/4FAEU",
+            "oshiCard": "Shirakami Fubuki",
+            "buildName": "Fubuki Rush"
         },
         {
             "rank": "2nd Place",
             "playerName": "Player B",
-            "deckUrl": "https://decklog.bushiroad.com/view/2BGUQ"
+            "deckUrl": "https://decklog.bushiroad.com/view/2BGUQ",
+            "oshiCard": "Tokoyami Towa",
+            "buildName": "Towa Control"
         }
     ]
 }
