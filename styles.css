@@ -389,6 +389,30 @@ img.lazy-load[src] {
 }
 
 .tournament-image {
-    width: 100px;
+    width: 200px; /* Increased size for better visibility */
     height: auto;
+    border-radius: 5px; /* Softer edges for the images */
+}
+
+/* Tournaments Table Styles */
+#tournamentsTable {
+    width: 80%; /* More focused table width */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#tournamentsTable th, #tournamentsTable td {
+    border: 1px solid #444;
+    padding: 12px; /* Increased padding for better spacing */
+}
+
+#tournamentsTable th {
+    background-color: #333;
+    color: white;
+}
+
+#tournamentsTable tbody tr:hover {
+    background-color: #333; /* Highlight on hover */
+    cursor: pointer;
 }
