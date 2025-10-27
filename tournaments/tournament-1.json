@@ -1,5 +1,8 @@
 {
     "tournamentName": "Exstreamer Cup 2025",
+    "description": "This was the first major tournament of the 2025 season, featuring a prize pool of over $10,000 and 128 players from around the world. The meta was dominated by decks featuring the newly released cards from the 'Cosmic Clash' expansion.",
+    "format": "Standard",
+    "prize": "$10,000",
     "topDecks": [
         {
             "rank": 1,
