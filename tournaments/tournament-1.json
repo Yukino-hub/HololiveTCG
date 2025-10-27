@@ -2,18 +2,20 @@
     "tournamentName": "Exstreamer Cup 2025",
     "topDecks": [
         {
-            "rank": "1st Place",
+            "rank": 1,
             "playerName": "WsM/p^3(りっぽう)",
             "deckUrl": "https://decklog.bushiroad.com/view/4FAEU",
             "oshiCard": "Hoshimachi Suisei - hBP01-007",
-            "buildName": "Okayu-Chloe"
+            "buildName": "Okayu-Chloe",
+            "imageUrl": "images/4FAEU.jpg"
         },
         {
-            "rank": "2nd Place",
+            "rank": 2,
             "playerName": "ろーれいん",
             "deckUrl": "https://decklog.bushiroad.com/view/2BGUQ",
             "oshiCard": "Kobo Kanaeru - hBP01-008",
-            "buildName": "Reine-Marine"
+            "buildName": "Reine-Marine",
+            "imageUrl": "images/deck2.png"
         }
     ]
 }

@@ -6,3 +6,19 @@
     max-width: 100%;
     height: auto;
 }
+
+#decksTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#decksTable th, #decksTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#decksTable th {
+    background-color: #4CAF50;
+}
