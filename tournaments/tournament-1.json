@@ -1,7 +1,7 @@
 {
     "tournamentName": "Exstreamer Cup 2025 Final",
     "description": "The 2025 Final Cup for Hololive TCG was held on October 26, 2025. This event brought together 76 participants, all of whom had previously earned the right to compete in this event from the WGP2025 or Extreme Cup 2025 area qualifiers.",
-    "format": "Qualifying Round: BO1, 5 rounds swiss, top 8 divisity cut. Finals : BO1 Single elimination"
+    "format": "Qualifying Round: BO1, 5 rounds swiss, top 8 divisity cut. Finals : BO1 Single elimination",
     "prize": "Hoshimachi Suisei OSR PR with TOP 8, TOP 4, Finalist, Champion respectively",
     "link" : "https://hololive-official-cardgame.com/events/post/excp2025-final",
     "topDecks": [
