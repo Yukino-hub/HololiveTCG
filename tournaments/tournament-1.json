@@ -29,10 +29,37 @@
             "rank": "Top 4",
             "playerName": "かもなべ",
             "deckUrl": "https://decklog.bushiroad.com/view/2X7HE",
-            "oshiCard": "Hoshimachi Suisei - hBP01-007",
+            "oshiCard": "Kureiji Ollie - hBP02-006",
             "buildName": "Reine-Iofi",
             "imageUrl": "images/2X7HE.jpg"
+        },
+         {
+            "rank": "Top 8",
+            "playerName": "あるたます",
+            "deckUrl": "https://decklog.bushiroad.com/view/779WU",
+            "oshiCard": "Hoshimachi Suisei - hBP01-007",
+            "buildName": "Okayu-Chloe",
+        },
+        {
+            "rank": "Top 8",
+            "playerName": "おぐり@へい民",
+            "deckUrl": "https://decklog.bushiroad.com/view/5EKHA",
+            "oshiCard": "Hoshimachi Suisei - hBP01-007",
+            "buildName": "Okayu-Chloe",
+        },
+        {
+            "rank": "Top 8",
+            "playerName": "n2ko",
+            "deckUrl": "https://decklog.bushiroad.com/view/3EUY5",
+            "oshiCard": "Kobo Kanaeru - hBP01-008",
+            "buildName": "Reine-Marine",
+        },
+        {
+            "rank": "Top 8",
+            "playerName": "smol",
+            "deckUrl": "https://decklog.bushiroad.com/view/1WQSY",
+            "oshiCard": "Sakamata Chloe - hBP02-004",
+            "buildName": "Reine-Marine",
         }
-        
     ]
 }
