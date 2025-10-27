@@ -15,7 +15,24 @@
             "deckUrl": "https://decklog.bushiroad.com/view/2BGUQ",
             "oshiCard": "Kobo Kanaeru - hBP01-008",
             "buildName": "Reine-Marine",
-            "imageUrl": "images/deck2.png"
+            "imageUrl": "images/2BGUQ.jpg"
+        },
+        {
+            "rank": "Top 4",
+            "playerName": "WsM/母なるママ",
+            "deckUrl": "https://decklog.bushiroad.com/view/7NFB0",
+            "oshiCard": "Hoshimachi Suisei - hBP01-007",
+            "buildName": "Okayu-Chloe",
+            "imageUrl": "images/7NFB0.jpg"
+        },
+        {
+            "rank": "Top 4",
+            "playerName": "かもなべ",
+            "deckUrl": "https://decklog.bushiroad.com/view/2X7HE",
+            "oshiCard": "Hoshimachi Suisei - hBP01-007",
+            "buildName": "Reine-Iofi",
+            "imageUrl": "images/2X7HE.jpg"
         }
+        
     ]
 }
