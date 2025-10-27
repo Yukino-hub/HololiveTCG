@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const tournamentsList = document.getElementById('tournamentsList');
             data.forEach(tournament => {
                 const tournamentElement = document.createElement('div');
-                tournamentElement.innerHTML = `<a href="tournaments/tournament-${tournament.id}.html">${tournament.name}</a>`;
+                tournamentElement.innerHTML = `<a href="${tournament.htmlUrl}">${tournament.name}</a>`;
                 tournamentsList.appendChild(tournamentElement);
             });
         })
