@@ -1,22 +1,7 @@
 [
     {
-        "tournamentName": "HoloCup 2023",
-        "date": "2023-12-25",
-        "winner": "Mori Calliope",
-        "decklist": [
-            {"cardName": "Mori Calliope, Death-Sensei", "quantity": 3},
-            {"cardName": "Gawr Gura, Shark!", "quantity": 3},
-            {"cardName": "Ninomae Ina'nis, Ancient One", "quantity": 2}
-        ]
-    },
-    {
-        "tournamentName": "Summer Tournament",
-        "date": "2023-08-15",
-        "winner": "Takanashi Kiara",
-        "decklist": [
-            {"cardName": "Takanashi Kiara, Phoenix", "quantity": 3},
-            {"cardName": "Watson Amelia, Investigator", "quantity": 3},
-            {"cardName": "IRyS, Hope", "quantity": 2}
-        ]
+        "id": 1,
+        "name": "Exstreamer Cup 2025",
+        "jsonUrl": "tournaments/tournament-1.json"
     }
 ]
