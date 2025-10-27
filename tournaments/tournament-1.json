@@ -3,17 +3,17 @@
     "topDecks": [
         {
             "rank": "1st Place",
-            "playerName": "Player A",
+            "playerName": "WsM/p^3(りっぽう)",
             "deckUrl": "https://decklog.bushiroad.com/view/4FAEU",
-            "oshiCard": "Shirakami Fubuki",
-            "buildName": "Fubuki Rush"
+            "oshiCard": "Hoshimachi Suisei - hBP01-007",
+            "buildName": "Okayu-Chloe"
         },
         {
             "rank": "2nd Place",
-            "playerName": "Player B",
+            "playerName": "ろーれいん",
             "deckUrl": "https://decklog.bushiroad.com/view/2BGUQ",
-            "oshiCard": "Tokoyami Towa",
-            "buildName": "Towa Control"
+            "oshiCard": "Kobo Kanaeru - hBP01-008",
+            "buildName": "Reine-Iofi"
         }
     ]
 }
