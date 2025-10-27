@@ -365,3 +365,25 @@ img.lazy-load[src] {
 #backToTopBtn:hover {
     background-color: #777;
 }
+
+/* Tournament Page Styles */
+.tournament {
+    background-color: #1E1E1E;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.tournament h3 {
+    margin-top: 0;
+}
+
+.tournament ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tournament li {
+    padding: 5px 0;
+}
