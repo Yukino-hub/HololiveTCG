@@ -42,8 +42,12 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function getRankText(rank) {
-    if (rank === 1) return '1st';
-    if (rank === 2) return '2nd';
-    if (rank === 3) return '3rd';
-    return `${rank}th`;
+    // Handle numeric ranks with suffixes, and return strings as-is.
+    if (typeof rank === 'number') {
+        if (rank === 1) return '1st';
+        if (rank === 2) return '2nd';
+        if (rank === 3) return '3rd';
+        return `${rank}th`;
+    }
+    return rank;
 }
