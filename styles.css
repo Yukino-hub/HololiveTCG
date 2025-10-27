@@ -389,7 +389,7 @@ img.lazy-load[src] {
 }
 
 .tournament-image {
-    width: 200px; /* Increased size for better visibility */
+    width: 100px; /* Increased size for better visibility */
     height: auto;
     border-radius: 5px; /* Softer edges for the images */
 }
