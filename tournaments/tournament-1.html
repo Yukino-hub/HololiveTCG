@@ -7,14 +7,25 @@
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../tournament.css">
 </head>
-<body>
+<body data-tournament-id="1">
     <header>
-        <h2>Hololive TCG - Tournament 1 Decks</h2>
+        <h2 id="tournamentName">Hololive TCG - Tournament 1 Decks</h2>
     </header>
     <div class="container">
-        <div id="decksContainer">
-            <!-- Decks will be loaded here -->
-        </div>
+        <table id="decksTable">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Player</th>
+                    <th>Build Name</th>
+                    <th>Oshi Card</th>
+                    <th>Decklist</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Deck rows will be loaded here -->
+            </tbody>
+        </table>
     </div>
     <script src="tournament-decks.js"></script>
 </body>

@@ -1,12 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const tournaments = [
-        { id: 1, name: 'Tournament 1' }
-    ];
-
-    const tournamentsList = document.getElementById('tournamentsList');
-    tournaments.forEach(tournament => {
-        const tournamentElement = document.createElement('div');
-        tournamentElement.innerHTML = `<a href="tournaments/tournament-${tournament.id}.html">${tournament.name}</a>`;
-        tournamentsList.appendChild(tournamentElement);
-    });
+    fetch('tournaments.json')
+        .then(response => response.json())
+        .then(data => {
+            const tournamentsList = document.getElementById('tournamentsList');
+            data.forEach(tournament => {
+                const tournamentElement = document.createElement('div');
+                tournamentElement.innerHTML = `<a href="tournaments/tournament-${tournament.id}.html">${tournament.name}</a>`;
+                tournamentsList.appendChild(tournamentElement);
+            });
+        })
+        .catch(error => console.error('Error fetching tournaments:', error));
 });
