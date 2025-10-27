@@ -3,8 +3,10 @@
 }
 
 .deck-image {
-    max-width: 100%;
+    max-width: 600px; /* Reduced max-width for better scaling */
     height: auto;
+    display: block; /* Allows margin auto to work for centering */
+    margin: auto; /* Centers the image horizontally */
 }
 
 #decksTable {
@@ -14,31 +16,33 @@
 }
 
 #decksTable th, #decksTable td {
-    border: 1px solid #ddd;
+    border: 1px solid #444; /* Darker border for the dark theme */
     padding: 8px;
     text-align: left;
+    color: white; /* Ensure text is white for dark theme */
 }
 
 #decksTable th {
-    background-color: #4CAF50;
+    background-color: #333; /* Darker header background */
+    color: white; /* Ensure header text is white */
 }
 
 /* Sets the color for unvisited links */
 a:link {
-  color: #007BFF; /* A nice, bright blue */
+  color: #1E90FF; /* A brighter blue for better visibility */
 }
 
 /* Sets the color for links the user has already visited */
 a:visited {
-  color: #9370DB; /* A medium purple */
+  color: #DAA520; /* A golden color for visited links */
 }
 
 /* Sets the color for when the mouse is hovering over the link */
 a:hover {
-  color: #FF5733; /* A reddish-orange */
+  color: #32CD32; /* A vibrant green for hover */
 }
 
 /* Sets the color for the link as it's being clicked */
 a:active {
-  color: #FF0000; /* A bright red */
+  color: #FF4500; /* An orange-red for active links */
 }
