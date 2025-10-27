@@ -3,6 +3,9 @@
         "id": 1,
         "name": "Exstreamer Cup 2025",
         "jsonUrl": "tournaments/tournament-1.json",
-        "htmlUrl": "tournaments/exstreamer-cup-2025.html"
+        "htmlUrl": "tournaments/exstreamer-cup-2025.html",
+        "image": "images/ExstreamerFinal.png",
+        "location": "Tokyo",
+        "date": "2025-10-26"
     }
 ]

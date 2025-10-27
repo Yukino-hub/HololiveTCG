@@ -387,3 +387,8 @@ img.lazy-load[src] {
 .tournament li {
     padding: 5px 0;
 }
+
+.tournament-image {
+    width: 100px;
+    height: auto;
+}
