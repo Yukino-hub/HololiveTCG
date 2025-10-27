@@ -22,3 +22,23 @@
 #decksTable th {
     background-color: #4CAF50;
 }
+
+/* Sets the color for unvisited links */
+a:link {
+  color: #007BFF; /* A nice, bright blue */
+}
+
+/* Sets the color for links the user has already visited */
+a:visited {
+  color: #9370DB; /* A medium purple */
+}
+
+/* Sets the color for when the mouse is hovering over the link */
+a:hover {
+  color: #FF5733; /* A reddish-orange */
+}
+
+/* Sets the color for the link as it's being clicked */
+a:active {
+  color: #FF0000; /* A bright red */
+}
