@@ -8,6 +8,32 @@ document.addEventListener('DOMContentLoaded', function() {
                 const tableBody = document.querySelector('#decksTable tbody');
                 const container = document.querySelector('.container');
 
+                if (data.description || data.format || data.prize) {
+                    const infoContainer = document.createElement('div');
+                    infoContainer.classList.add('tournament-info');
+
+                    if (data.description) {
+                        const descriptionElement = document.createElement('p');
+                        descriptionElement.textContent = data.description;
+                        infoContainer.appendChild(descriptionElement);
+                    }
+
+                    if (data.format) {
+                        const formatElement = document.createElement('p');
+                        formatElement.innerHTML = `<strong>Format:</strong> ${data.format}`;
+                        infoContainer.appendChild(formatElement);
+                    }
+
+                    if (data.prize) {
+                        const prizeElement = document.createElement('p');
+                        prizeElement.innerHTML = `<strong>Prize Pool:</strong> ${data.prize}`;
+                        infoContainer.appendChild(prizeElement);
+                    }
+
+                    const table = document.getElementById('decksTable');
+                    container.insertBefore(infoContainer, table);
+                }
+
                 data.topDecks.forEach(deck => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
