@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 document.getElementById('tournamentName').textContent = data.tournamentName;
                 const tableBody = document.querySelector('#decksTable tbody');
                 const container = document.querySelector('.container');
+                const deckImagesContainer = document.getElementById('deckImagesContainer');
 
                 if (data.description || data.format || data.prize) {
                     const infoContainer = document.createElement('div');
@@ -69,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         deckImage.classList.add('deck-image');
                         deckImageSection.appendChild(deckImage);
 
-                        container.appendChild(deckImageSection);
+                        deckImagesContainer.appendChild(deckImageSection);
                     }
                 });
             })

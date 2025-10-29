@@ -1,48 +1,27 @@
-.tournament-deck {
+.tournament-info {
     margin-bottom: 20px;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.tournament-info p {
+    margin: 5px 0;
+}
+
+.tournament-deck {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .deck-image {
-    max-width: 600px; /* Reduced max-width for better scaling */
+    max-width: 100%;
     height: auto;
-    display: block; /* Allows margin auto to work for centering */
-    margin: auto; /* Centers the image horizontally */
+    border-radius: 10px;
 }
 
-#decksTable {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
-#decksTable th, #decksTable td {
-    border: 1px solid #444; /* Darker border for the dark theme */
-    padding: 8px;
-    text-align: left;
-    color: white; /* Ensure text is white for dark theme */
-}
-
-#decksTable th {
-    background-color: #333; /* Darker header background */
-    color: white; /* Ensure header text is white */
-}
-
-/* Sets the color for unvisited links */
-a:link {
-  color: #1E90FF; /* A brighter blue for better visibility */
-}
-
-/* Sets the color for links the user has already visited */
-a:visited {
-  color: #DAA520; /* A golden color for visited links */
-}
-
-/* Sets the color for when the mouse is hovering over the link */
-a:hover {
-  color: #32CD32; /* A vibrant green for hover */
-}
-
-/* Sets the color for the link as it's being clicked */
-a:active {
-  color: #FF4500; /* An orange-red for active links */
+#deckImagesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
 }
