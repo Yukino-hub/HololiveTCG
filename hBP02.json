@@ -13,7 +13,7 @@
         "spOshiSkill": {
             "name": "フブキングダム  (\"Fubukingdom\")",
             "power": 2,
-            "description": "[Once per game] WYou may roll a die once for every 2 mascots on your stage if your white holomem downed your opponent's holomem:If an odd number appears once or more, your opponent gets life-1."
+            "description": "[Once per game] You may roll a die once for every 2 mascots on your stage if your white holomem downed your opponent's holomem:If an odd number appears once or more, your opponent gets life-1."
         },
         "hasAlternativeArt": true,
         "hasSigned": true
