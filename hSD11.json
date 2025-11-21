@@ -51,7 +51,9 @@
                 "name": "期待せよ 牙で噛まれちゃうシゲキ",
                 "cost": "3 any color",
                 "dmg": "80"
-            }
+            },
+             "manualUrl": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD11/hSD11-003_C_re.png"
+            
         ]
     },
     {
@@ -69,7 +71,9 @@
                 "cost": "1 yellow, 1 any color",
                 "dmg": "30",
                 "description": "You may send the top card of your cheer deck to your <Koganei Niko>."
-            }
+            },
+             "manualUrl": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD11/hSD11-004_U_re.png"
+            
         ]
     },
     {
@@ -164,3 +168,4 @@
     }
 
 ]
+
