@@ -29,7 +29,7 @@
             {
                 "name": "ニコたんが～来たァー！",
                 "cost": "1 any color",
-                "power": "20"
+                "dmg": "20"
             }
         ]
     },
@@ -45,12 +45,12 @@
             {
                 "name": "にこと出会えたの何かのキセキ",
                 "cost": "2 any color",
-                "power": "50"
+                "dmg": "50"
             },
             {
                 "name": "期待せよ 牙で噛まれちゃうシゲキ",
                 "cost": "3 any color",
-                "power": "80"
+                "dmg": "80"
             }
         ]
     },
@@ -67,7 +67,7 @@
             {
                 "name": "自分の人生すらも捧げられる",
                 "cost": "1 yellow, 1 any color",
-                "power": "30",
+                "dmg": "30",
                 "description": "You may send the top card of your cheer deck to your <Koganei Niko>."
             }
         ]
@@ -85,7 +85,7 @@
             {
                 "name": "百折不撓",
                 "cost": "1 yellow",
-                "power": "30+",
+                "dmg": "30+",
                 "description": "If there are 5 or more cheers on your stage, this Arts gets +20."
             }
         ]
@@ -103,7 +103,7 @@
             {
                 "name": "虎嘯風生",
                 "cost": "1 yellow",
-                "power": "40+, +50 vs red",
+                "dmg": "40+, +50 vs red",
                 "description": "You may archive any number of cheers from this holomem:This Arts gets +40 for each card archived."
             }
         ]
@@ -121,7 +121,7 @@
             {
                 "name": "しゅぴしゅわー",
                 "cost": "1 any color",
-                "power": "20",
+                "dmg": "20",
                 "description": "Until the end of your opponent's next turn, the Baton Pass cheer cost of the holomem currently in your opponent's center position is increased by +1 colorless cheer."
             }
         ]
@@ -139,7 +139,7 @@
             {
                 "name": "愛は時間ですよ",
                 "cost": "1 any color",
-                "power": "30",
+                "dmg": "30",
                 "description": "If the cheer cost of the targeted holomem's Baton Pass is 2 or more, send the top card of your cheer deck to your back holomem."
             }
         ]
@@ -157,9 +157,10 @@
             {
                 "name": "スゥイートオブセッション",
                 "cost": "1 blue, 1 any color",
-                "power": "100, +50 vs purple",
+                "dmg": "100, +50 vs purple",
                 "description": "Deal 10 special damage to the targeted holomem times the cheer cost of that holomem's Baton Pass."
             }
         ]
     }
+
 ]
