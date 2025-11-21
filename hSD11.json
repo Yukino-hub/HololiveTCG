@@ -5,7 +5,7 @@
         "rarity": "OSR",
         "color": "Yellow",
         "lives": 5,
-         "oshiSkill": {
+        "oshiSkill": {
             "name": "虎視眈々",
             "power": 2,
             "description": "[Once per turn] Send 1~2 cheers from your archive to 1 of your holomem with #FLOWGLOW that has no cheers attached."
@@ -51,10 +51,9 @@
                 "name": "期待せよ 牙で噛まれちゃうシゲキ",
                 "cost": "3 any color",
                 "dmg": "80"
-            },
-             "manualUrl": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD11/hSD11-003_C_re.png"
-            
-        ]
+            }
+        ],
+        "manualUrl": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD11/hSD11-003_C_re.png"
     },
     {
         "name": "Koganei Niko",
@@ -71,10 +70,9 @@
                 "cost": "1 yellow, 1 any color",
                 "dmg": "30",
                 "description": "You may send the top card of your cheer deck to your <Koganei Niko>."
-            },
-             "manualUrl": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD11/hSD11-004_U_re.png"
-            
-        ]
+            }
+        ],
+        "manualUrl": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD11/hSD11-004_U_re.png"
     },
     {
         "name": "Koganei Niko",
@@ -166,6 +164,4 @@
             }
         ]
     }
-
 ]
-
