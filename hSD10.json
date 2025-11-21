@@ -204,46 +204,7 @@
         "rarity": "C",
         "type": "Support (Tool)",
         "ability": "The holomem with #FLOWGLOW this tool is attached to gets Arts+10. ◆Additional ability if attached to a holomem with #FLOWGLOW Usable at the start of your end phase, if the holomem this tool is attached to has used Arts this turn: Reveal 1 [Debut holomem or Spot holomem] with #FLOWGLOW from your deck, and place it on stage. Then, shuffle the deck. Then, return this tool to the bottom of the deck. Only 1 tool can be attached to each of your holomem."
-    },
-    {
-        "name": "Isaki Riona",
-        "tags": "#DEV_IS #FLOWGLOW",
-        "cardNumber": "hSD10-010",
-        "rarity": "RR",
-        "bloomLevel": "Spot",
-        "hp": 170,
-        "collabEffect": "Come to me!\nYou may archive 1 card from your hand:Reveal 1 [holomem with a Collab Effect and #FLOWGLOW] from your deck, and add it to hand. Then, shuffle the deck.",
-        "skills": [
-            {
-                "name": "RIONA IN DA HOUSE~!",
-                "cost": "2 any color",
-                "dmg": "50+",
-                "description": "If there is a 2nd or greater holomem with #FLOWGLOW on your stage, this Arts gets +30."
-            }
-        ]
-    },
-    {
-        "name": "WHAT'S UP!!!!! KEEEEEP GROWING!!!!!",
-        "cardNumber": "hSD10-011",
-        "rarity": "U",
-        "type": "Support (Event)",
-        "limited": "Yes",
-        "ability": "This card can only be used if all holomem on your stage have #FLOWGLOW. Choose 3 cheers from your archive, and send them to your center holomem and collab holomem divided as you choose. However, you may only send up to 2 cheers to each holomem."
-    },
-    {
-        "name": "FLOW GLOW",
-        "cardNumber": "hSD10-012",
-        "rarity": "U",
-        "type": "Support (Event)",
-        "limited": "Yes",
-        "ability": "This card can only be used if you have 6 or less cards in hand excluding this card. Look at the top 4 cards of your deck. Reveal any number of holomem with #FLOWGLOW from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."
-    },
-    {
-        "name": "Fugutaro",
-        "cardNumber": "hSD10-013",
-        "rarity": "C",
-        "type": "Support (Tool)",
-        "ability": "The holomem with #FLOWGLOW this tool is attached to gets Arts+10. ◆Additional ability if attached to a holomem with #FLOWGLOW Usable at the start of your end phase, if the holomem this tool is attached to has used Arts this turn: Reveal 1 [Debut holomem or Spot holomem] with #FLOWGLOW from your deck, and place it on stage. Then, shuffle the deck. Then, return this tool to the bottom of the deck. Only 1 tool can be attached to each of your holomem."
     }
 
 ]
+
