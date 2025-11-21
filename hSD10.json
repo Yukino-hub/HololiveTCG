@@ -1,0 +1,248 @@
+[
+    {
+        "name": "Rindo Chihaya",
+        "cardNumber": "hSD10-001",
+        "rarity": "OSR",
+        "color": "Green",
+        "lives": 5,
+        "oshiSkill": {
+            "name": "エンジン全開！レッツゴー！",
+            "power": 2,
+            "description": "[Once per turn] If during this turn one of your holomem has Bloomed, during this turn, 1 of your holomem with #FLOWGLOW gets Arts+30."
+        },
+        "spOshiSkill": {
+            "name": "さあ！もう一度！向こう側の景色を見に行かない？",
+            "power": 2,
+            "description": "Send the top card of your cheer deck to your holomem. Then, choose 1 of your holomem with #FLOWGLOW. During this turn, for each cheer attached to the chosen holomem, the chosen holomem gets Arts+20."
+        }
+    },
+    {
+        "name": "Rindo Chihaya",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD10-002",
+        "rarity": "C",
+        "color": "Green",
+        "bloomLevel": "Debut",
+        "hp": 110,
+        "extraEffect": "You may include any number of this holomem in the deck",
+        "skills": [
+            {
+                "name": "はじまりんど～～～！",
+                "cost": "1 any color",
+                "power": "30"
+            }
+        ]
+    },
+    {
+        "name": "Rindo Chihaya",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD10-003",
+        "rarity": "C",
+        "color": "Green",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "skills": [
+            {
+                "name": "エンジン全開 演じない自然体",
+                "cost": "1 any color",
+                "power": "30"
+            },
+            {
+                "name": "全身全霊 越えてく限界",
+                "cost": "1 green, 2 any color",
+                "power": "80"
+            }
+        ]
+    },
+    {
+        "name": "Rindo Chihaya",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD10-004",
+        "rarity": "U",
+        "color": "Green",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "giftEffect": "300馬力だよ！: If your Oshi holomem is <Rindo Chihaya> and your opponent has a 1st holomem on their stage, on the turn that this holomem bloomed it may bloom once more using a 2nd holomem from your hand.",
+        "skills": [
+            {
+                "name": "パワフルな運転手だよ",
+                "cost": "1 green, 1 any color",
+                "power": "50",
+                "description": "If there are 3 or more holomem with #FLOWGLOW on your stage, you may send the top card of your cheer deck to your back holomem."
+            }
+        ]
+    },
+    {
+        "name": "Rindo Chihaya",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD10-005",
+        "rarity": "U",
+        "color": "Green",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "collabEffect": "FLOW GLOWのDJ兼運転手担当: You may return 1~3 holomem with #FLOWGLOW from your archive to the bottom of your deck. If you returned 3 holomem, you may send the top card of your cheer deck to your holomem.",
+        "skills": [
+            {
+                "name": "行きます！！！！",
+                "cost": "1 green",
+                "power": "20+",
+                "description": "If any of your holomem have bloomed this turn, during this turn, 1 of your <Rindo Chihaya> gets Arts+20."
+            }
+        ]
+    },
+    {
+        "name": "Rindo Chihaya",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD10-006",
+        "rarity": "RR",
+        "color": "Green",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "skills": [
+            {
+                "name": "鼓動の操縦者",
+                "cost": "1 green, 1 any color",
+                "power": "80+, +50 vs white",
+                "description": "If any of your holomem have bloomed this turn, this Arts gets +50."
+            },
+            {
+                "name": "アクセラビートブレイズ",
+                "cost": "1 green, 2 any color",
+                "power": "140, +50 vs white",
+                "description": "If your opponent's center holomem is downed by this Arts, send 1 card from the top of your cheer deck to your back holomem for each 30 damage dealt more than the remaining HP."
+            }
+        ]
+    },
+    {
+        "name": "Kikirara Vivi",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD10-007",
+        "rarity": "C",
+        "color": "Purple",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "extraEffect": "You may include any number of this holomem in the deck",
+        "skills": [
+            {
+                "name": "ん〜〜〜〜〜ッヴィヴィ〜！",
+                "cost": "1 any color",
+                "power": "20"
+            }
+        ]
+    },
+    {
+        "name": "Kikirara Vivi",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD10-008",
+        "rarity": "C",
+        "color": "Purple",
+        "bloomLevel": "1st",
+        "hp": 130,
+        "collabEffect": "FLOW GLOWのメイク担当: Look at the cards in your opponent's hand. If there are any support cards among them, draw 1 card.",
+        "skills": [
+            {
+                "name": "そこに愛はあるんや!",
+                "cost": "1 any color",
+                "power": "30"
+            }
+        ]
+    },
+    {
+        "name": "Kikirara Vivi",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD10-009",
+        "rarity": "RR",
+        "color": "Purple",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "collabEffect": "美の求道者: Look at a number of cards from the top of your deck equal to the number of cards in your opponent's hand. Add 1 card from among them to hand. Then, return the remaining cards to your deck and shuffle it.",
+        "skills": [
+            {
+                "name": "ヴィジランスヴィーナス",
+                "cost": "1 purple, 1 any color",
+                "power": "80+, +50 vs blue",
+                "description": "For each card in your opponent's hand, this Arts gets +10."
+            }
+        ]
+    },
+    {
+        "name": "Isaki Riona",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD10-010",
+        "rarity": "RR",
+        "bloomLevel": "Spot",
+        "hp": 170,
+        "collabEffect": "私の元においで～っ: You may archive 1 card from your hand:Reveal 1 [holomem with a Collab Effect and #FLOWGLOW] from your deck, and add it to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "RIONA IN DA HOUSE~!",
+                "cost": "2 any color",
+                "power": "50+",
+                "description": "If there is a 2nd or greater holomem with #FLOWGLOW on your stage, this Arts gets +30."
+            }
+        ]
+    },
+    {
+        "name": "WHAT'S UP!!!!! KEEEEEP GROWING!!!!!",
+        "cardNumber": "hSD10-011",
+        "rarity": "U",
+        "type": "Support (Event)",
+        "limited": "Yes",
+        "ability": "This card can only be used if all holomem on your stage have #FLOWGLOW. Choose 3 cheers from your archive, and send them to your center holomem and collab holomem divided as you choose. However, you may only send up to 2 cheers to each holomem."
+    },
+    {
+        "name": "FLOW GLOW",
+        "cardNumber": "hSD10-012",
+        "rarity": "U",
+        "type": "Support (Event)",
+        "limited": "Yes",
+        "ability": "This card can only be used if you have 6 or less cards in hand excluding this card. Look at the top 4 cards of your deck. Reveal any number of holomem with #FLOWGLOW from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."
+    },
+    {
+        "name": "Fugutaro",
+        "cardNumber": "hSD10-013",
+        "rarity": "C",
+        "type": "Support (Tool)",
+        "ability": "The holomem with #FLOWGLOW this tool is attached to gets Arts+10. ◆Additional ability if attached to a holomem with #FLOWGLOW Usable at the start of your end phase, if the holomem this tool is attached to has used Arts this turn: Reveal 1 [Debut holomem or Spot holomem] with #FLOWGLOW from your deck, and place it on stage. Then, shuffle the deck. Then, return this tool to the bottom of the deck. Only 1 tool can be attached to each of your holomem."
+    },
+    {
+        "name": "Isaki Riona",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD10-010",
+        "rarity": "RR",
+        "bloomLevel": "Spot",
+        "hp": 170,
+        "collabEffect": "Come to me!\nYou may archive 1 card from your hand:Reveal 1 [holomem with a Collab Effect and #FLOWGLOW] from your deck, and add it to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "RIONA IN DA HOUSE~!",
+                "cost": "2 any color",
+                "power": "50+",
+                "description": "If there is a 2nd or greater holomem with #FLOWGLOW on your stage, this Arts gets +30."
+            }
+        ]
+    },
+    {
+        "name": "WHAT'S UP!!!!! KEEEEEP GROWING!!!!!",
+        "cardNumber": "hSD10-011",
+        "rarity": "U",
+        "type": "Support (Event)",
+        "limited": "Yes",
+        "ability": "This card can only be used if all holomem on your stage have #FLOWGLOW. Choose 3 cheers from your archive, and send them to your center holomem and collab holomem divided as you choose. However, you may only send up to 2 cheers to each holomem."
+    },
+    {
+        "name": "FLOW GLOW",
+        "cardNumber": "hSD10-012",
+        "rarity": "U",
+        "type": "Support (Event)",
+        "limited": "Yes",
+        "ability": "This card can only be used if you have 6 or less cards in hand excluding this card. Look at the top 4 cards of your deck. Reveal any number of holomem with #FLOWGLOW from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."
+    },
+    {
+        "name": "Fugutaro",
+        "cardNumber": "hSD10-013",
+        "rarity": "C",
+        "type": "Support (Tool)",
+        "ability": "The holomem with #FLOWGLOW this tool is attached to gets Arts+10. ◆Additional ability if attached to a holomem with #FLOWGLOW Usable at the start of your end phase, if the holomem this tool is attached to has used Arts this turn: Reveal 1 [Debut holomem or Spot holomem] with #FLOWGLOW from your deck, and place it on stage. Then, shuffle the deck. Then, return this tool to the bottom of the deck. Only 1 tool can be attached to each of your holomem."
+    }
+]

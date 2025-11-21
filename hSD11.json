@@ -1,0 +1,165 @@
+[
+    {
+        "name": "Koganei Niko",
+        "cardNumber": "hSD11-001",
+        "rarity": "OSR",
+        "color": "Yellow",
+        "lives": 5,
+         "oshiSkill": {
+            "name": "虎視眈々",
+            "power": 2,
+            "description": "[Once per turn] Send 1~2 cheers from your archive to 1 of your holomem with #FLOWGLOW that has no cheers attached."
+        },
+        "spOshiSkill": {
+            "name": "ニコたんの名を呼ぶがいいさ！",
+            "power": 2,
+            "description": "Usable when your holomem with #FLOWGLOW's ability archives cheer:Deal 30 special damage for each cheer archived by that ability to your opponent's center holomem or collab holomem."
+        }
+    },
+    {
+        "name": "Koganei Niko",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD11-002",
+        "rarity": "C",
+        "color": "Yellow",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "extraEffect": "You may include any number of this holomem in the deck",
+        "skills": [
+            {
+                "name": "ニコたんが～来たァー！",
+                "cost": "1 any color",
+                "power": "20"
+            }
+        ]
+    },
+    {
+        "name": "Koganei Niko",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD11-003",
+        "rarity": "C",
+        "color": "Yellow",
+        "bloomLevel": "1st",
+        "hp": 180,
+        "skills": [
+            {
+                "name": "にこと出会えたの何かのキセキ",
+                "cost": "2 any color",
+                "power": "50"
+            },
+            {
+                "name": "期待せよ 牙で噛まれちゃうシゲキ",
+                "cost": "3 any color",
+                "power": "80"
+            }
+        ]
+    },
+    {
+        "name": "Koganei Niko",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD11-004",
+        "rarity": "U",
+        "color": "Yellow",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "bloomEffect": "人を笑顔にするためならば: You may archive 2 cheers from your stage:Return 1 <Koganei Niko> from your archive to hand.",
+        "skills": [
+            {
+                "name": "自分の人生すらも捧げられる",
+                "cost": "1 yellow, 1 any color",
+                "power": "30",
+                "description": "You may send the top card of your cheer deck to your <Koganei Niko>."
+            }
+        ]
+    },
+    {
+        "name": "Koganei Niko",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD11-005",
+        "rarity": "U",
+        "color": "Yellow",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "collabEffect": "FLOW GLOWのお笑い担当: You may send 1 cheer from your archive to your back holomem with #FLOWGLOW.",
+        "skills": [
+            {
+                "name": "百折不撓",
+                "cost": "1 yellow",
+                "power": "30+",
+                "description": "If there are 5 or more cheers on your stage, this Arts gets +20."
+            }
+        ]
+    },
+    {
+        "name": "Koganei Niko",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD11-006",
+        "rarity": "RR",
+        "color": "Yellow",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "giftEffect": "戯笑の使者: At the start of your Performance Phase, you may archive 1 holomem with #FLOWGLOW from your hand:Send 1 yellow cheer from your archive to your <Koganei Niko>.",
+        "skills": [
+            {
+                "name": "虎嘯風生",
+                "cost": "1 yellow",
+                "power": "40+, +50 vs red",
+                "description": "You may archive any number of cheers from this holomem:This Arts gets +40 for each card archived."
+            }
+        ]
+    },
+    {
+        "name": "Mizumiya Su",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD11-007",
+        "rarity": "C",
+        "color": "Blue",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "extraEffect": "You may include any number of this holomem in the deck",
+        "skills": [
+            {
+                "name": "しゅぴしゅわー",
+                "cost": "1 any color",
+                "power": "20",
+                "description": "Until the end of your opponent's next turn, the Baton Pass cheer cost of the holomem currently in your opponent's center position is increased by +1 colorless cheer."
+            }
+        ]
+    },
+    {
+        "name": "Mizumiya Su",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD11-008",
+        "rarity": "C",
+        "color": "Blue",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "collabEffect": "FLOW GLOWのえらい宣伝担当: Until the end of your opponent's next turn, the Baton Pass cheer cost of the holomem currently in your opponent's center position is increased by +1 colorless cheer.",
+        "skills": [
+            {
+                "name": "愛は時間ですよ",
+                "cost": "1 any color",
+                "power": "30",
+                "description": "If the cheer cost of the targeted holomem's Baton Pass is 2 or more, send the top card of your cheer deck to your back holomem."
+            }
+        ]
+    },
+    {
+        "name": "Mizumiya Su",
+        "tags": "#DEV_IS #FLOWGLOW",
+        "cardNumber": "hSD11-009",
+        "rarity": "RR",
+        "color": "Blue",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "collabEffect": "感情の伝令者: Until the end of your opponent's next turn, the Baton Pass cheer cost of the holomem currently in your opponent's center position is increased by +3 colorless cheer.",
+        "skills": [
+            {
+                "name": "スゥイートオブセッション",
+                "cost": "1 blue, 1 any color",
+                "power": "100, +50 vs purple",
+                "description": "Deal 10 special damage to the targeted holomem times the cheer cost of that holomem's Baton Pass."
+            }
+        ]
+    }
+]
