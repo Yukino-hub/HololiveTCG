@@ -29,7 +29,7 @@
             {
                 "name": "はじまりんど～～～！",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             }
         ]
     },
@@ -45,12 +45,12 @@
             {
                 "name": "エンジン全開 演じない自然体",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             },
             {
                 "name": "全身全霊 越えてく限界",
                 "cost": "1 green, 2 any color",
-                "power": "80"
+                "dmg": "80"
             }
         ]
     },
@@ -67,7 +67,7 @@
             {
                 "name": "パワフルな運転手だよ",
                 "cost": "1 green, 1 any color",
-                "power": "50",
+                "dmg": "50",
                 "description": "If there are 3 or more holomem with #FLOWGLOW on your stage, you may send the top card of your cheer deck to your back holomem."
             }
         ]
@@ -85,7 +85,7 @@
             {
                 "name": "行きます！！！！",
                 "cost": "1 green",
-                "power": "20+",
+                "dmg": "20+",
                 "description": "If any of your holomem have bloomed this turn, during this turn, 1 of your <Rindo Chihaya> gets Arts+20."
             }
         ]
@@ -102,13 +102,13 @@
             {
                 "name": "鼓動の操縦者",
                 "cost": "1 green, 1 any color",
-                "power": "80+, +50 vs white",
+                "dmg": "80+, +50 vs white",
                 "description": "If any of your holomem have bloomed this turn, this Arts gets +50."
             },
             {
                 "name": "アクセラビートブレイズ",
                 "cost": "1 green, 2 any color",
-                "power": "140, +50 vs white",
+                "dmg": "140, +50 vs white",
                 "description": "If your opponent's center holomem is downed by this Arts, send 1 card from the top of your cheer deck to your back holomem for each 30 damage dealt more than the remaining HP."
             }
         ]
@@ -126,7 +126,7 @@
             {
                 "name": "ん〜〜〜〜〜ッヴィヴィ〜！",
                 "cost": "1 any color",
-                "power": "20"
+                "dmg": "20"
             }
         ]
     },
@@ -143,7 +143,7 @@
             {
                 "name": "そこに愛はあるんや!",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             }
         ]
     },
@@ -160,7 +160,7 @@
             {
                 "name": "ヴィジランスヴィーナス",
                 "cost": "1 purple, 1 any color",
-                "power": "80+, +50 vs blue",
+                "dmg": "80+, +50 vs blue",
                 "description": "For each card in your opponent's hand, this Arts gets +10."
             }
         ]
@@ -177,7 +177,7 @@
             {
                 "name": "RIONA IN DA HOUSE~!",
                 "cost": "2 any color",
-                "power": "50+",
+                "dmg": "50+",
                 "description": "If there is a 2nd or greater holomem with #FLOWGLOW on your stage, this Arts gets +30."
             }
         ]
@@ -217,7 +217,7 @@
             {
                 "name": "RIONA IN DA HOUSE~!",
                 "cost": "2 any color",
-                "power": "50+",
+                "dmg": "50+",
                 "description": "If there is a 2nd or greater holomem with #FLOWGLOW on your stage, this Arts gets +30."
             }
         ]
@@ -245,4 +245,5 @@
         "type": "Support (Tool)",
         "ability": "The holomem with #FLOWGLOW this tool is attached to gets Arts+10. ◆Additional ability if attached to a holomem with #FLOWGLOW Usable at the start of your end phase, if the holomem this tool is attached to has used Arts this turn: Reveal 1 [Debut holomem or Spot holomem] with #FLOWGLOW from your deck, and place it on stage. Then, shuffle the deck. Then, return this tool to the bottom of the deck. Only 1 tool can be attached to each of your holomem."
     }
+
 ]
