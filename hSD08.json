@@ -18,7 +18,7 @@
     },
     {
         "name": "Amane Kanata",
-        "tags": "#JP #Gen4 #Singing #Summer",
+        "tag": "#JP #Gen4 #Singing #Summer",
         "cardNumber": "hSD08-002",
         "rarity": "U",
         "color": "White",
@@ -34,7 +34,7 @@
     },
     {
         "name": "Amane Kanata",
-        "tags": "#JP #Gen4 #Singing",
+        "tag": "#JP #Gen4 #Singing",
         "cardNumber": "hSD08-003",
         "rarity": "R",
         "color": "White",
@@ -51,7 +51,7 @@
     },
     {
         "name": "Amane Kanata",
-        "tags": "#JP #Gen4 #Singing",
+        "tag": "#JP #Gen4 #Singing",
         "cardNumber": "hSD08-004",
         "rarity": "RR",
         "color": "White",
@@ -68,7 +68,7 @@
     },
     {
         "name": "Himemori Luna",
-        "tags": "#JP #Gen4 #Baby #Summer",
+        "tag": "#JP #Gen4 #Baby #Summer",
         "cardNumber": "hSD08-005",
         "rarity": "C",
         "color": "White",
@@ -84,7 +84,7 @@
     },
     {
         "name": "Tokoyami Towa",
-        "tags": "#JP #Gen4 #Singing #Shooter #Summer",
+        "tag": "#JP #Gen4 #Singing #Shooter #Summer",
         "cardNumber": "hSD08-006",
         "rarity": "C",
         "color": "Purple",
@@ -100,7 +100,7 @@
     },
     {
         "name": "Tsunomaki Watame",
-        "tags": "#JP #Gen4 #AnimalEars #Singing #Summer",
+        "tag": "#JP #Gen4 #AnimalEars #Singing #Summer",
         "cardNumber": "hSD08-007",
         "rarity": "C",
         "color": "Yellow",
@@ -116,3 +116,4 @@
     }
 
 ]
+
