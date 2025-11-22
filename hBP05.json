@@ -133,7 +133,7 @@
     },
     {
         "name": "Shirogane Noel",
-        "tags": "#JP #Gen3 #Alcohol",
+        "tag": "#JP #Gen3 #Alcohol",
         "cardNumber": "hBP05-008",
         "rarity": "U",
         "color": "White",
@@ -151,7 +151,7 @@
     },
     {
         "name": "Shirogane Noel",
-        "tags": "#JP #Gen3 #Alcohol",
+        "tag": "#JP #Gen3 #Alcohol",
         "cardNumber": "hBP05-009",
         "rarity": "C",
         "color": "White",
@@ -169,7 +169,7 @@
     },
     {
         "name": "Shirogane Noel",
-        "tags": "#JP #Gen3 #Alcohol",
+        "tag": "#JP #Gen3 #Alcohol",
         "cardNumber": "hBP05-010",
         "rarity": "U",
         "color": "White",
@@ -188,7 +188,7 @@
     },
     {
         "name": "Shirogane Noel",
-        "tags": "#JP #Gen3 #Alcohol",
+        "tag": "#JP #Gen3 #Alcohol",
         "cardNumber": "hBP05-011",
         "rarity": "R",
         "color": "White",
@@ -207,7 +207,7 @@
     },
     {
         "name": "Shirogane Noel",
-        "tags": "#JP #Gen3 #Alcohol",
+        "tag": "#JP #Gen3 #Alcohol",
         "cardNumber": "hBP05-012",
         "rarity": "RR",
         "color": "White",
@@ -232,7 +232,7 @@
     },
     {
         "name": "Tokino Sora",
-        "tags": "#JP #Gen0 #Singing",
+        "tag": "#JP #Gen0 #Singing",
         "cardNumber": "hBP05-013",
         "rarity": "R",
         "color": "White",
@@ -250,7 +250,7 @@
     },
     {
         "name": "Usada Pekora",
-        "tags": "#JP #Gen3 #Kemomimi",
+        "tag": "#JP #Gen3 #Kemomimi",
         "cardNumber": "hBP05-014",
         "rarity": "C",
         "color": "White",
@@ -268,7 +268,7 @@
     },
     {
         "name": "Usada Pekora",
-        "tags": "#JP #Gen3 #Kemomimi",
+        "tag": "#JP #Gen3 #Kemomimi",
         "cardNumber": "hBP05-015",
         "rarity": "U",
         "color": "White",
@@ -292,7 +292,7 @@
     },
     {
         "name": "Usada Pekora",
-        "tags": "#JP #Gen3 #Kemomimi",
+        "tag": "#JP #Gen3 #Kemomimi",
         "cardNumber": "hBP05-016",
         "rarity": "RR",
         "color": "White",
@@ -314,7 +314,7 @@
     
     {
         "name": "Himemori Luna",
-        "tags": "#JP #Gen4 #Baby",
+        "tag": "#JP #Gen4 #Baby",
         "cardNumber": "hBP05-017",
         "rarity": "R",
         "color": "White",
@@ -340,7 +340,7 @@
     },
     {
         "name": "Vestia Zeta",
-        "tags": "#ID #IDGen3",
+        "tag": "#ID #IDGen3",
         "cardNumber": "hBP05-018",
         "rarity": "R",
         "color": "White",
@@ -365,7 +365,7 @@
     },
     {
         "name": "Airani Iofifteen",
-        "tags": "#ID #IDGen1 #Painting",
+        "tag": "#ID #IDGen1 #Painting",
         "cardNumber": "hBP05-019",
         "rarity": "U",
         "color": "Green",
@@ -383,7 +383,7 @@
     },
     {
         "name": "Airani Iofifteen",
-        "tags": "#ID #IDGen1 #Painting",
+        "tag": "#ID #IDGen1 #Painting",
         "cardNumber": "hBP05-020",
         "rarity": "C",
         "color": "Green",
@@ -401,7 +401,7 @@
     },
     {
         "name": "Airani Iofifteen",
-        "tags": "#ID #IDGen1 #Painting",
+        "tag": "#ID #IDGen1 #Painting",
         "cardNumber": "hBP05-021",
         "rarity": "U",
         "color": "Green",
@@ -419,7 +419,7 @@
     },
     {
         "name": "Airani Iofifteen",
-        "tags": "#ID#IDGen1 #Painting",
+        "tag": "#ID#IDGen1 #Painting",
         "cardNumber": "hBP05-022",
         "rarity": "R",
         "color": "Green",
@@ -437,7 +437,7 @@
     },
     {
         "name": "Airani Iofifteen",
-        "tags": "#ID#IDGen1 #Painting",
+        "tag": "#ID#IDGen1 #Painting",
         "cardNumber": "hBP05-023",
         "rarity": "RR",
         "color": "Green",
@@ -457,7 +457,7 @@
     },
     {
         "name": "AZKi",
-        "tags": "#JP #Gen0 #Singing",
+        "tag": "#JP #Gen0 #Singing",
         "cardNumber": "hBP05-024",
         "rarity": "R",
         "color": "Green",
@@ -483,7 +483,7 @@
     },
     {
         "name": "Aki Rosenthal",
-        "tags": "#JP #Gen1 #Half-Elf #Alcohol",
+        "tag": "#JP #Gen1 #Half-Elf #Alcohol",
         "cardNumber": "hBP05-025",
         "rarity": "C",
         "color": "Green",
@@ -500,7 +500,7 @@
     },
     {
         "name": "Aki Rosenthal",
-        "tags": "#JP #Gen1 #Half-Elf #Alcohol",
+        "tag": "#JP #Gen1 #Half-Elf #Alcohol",
         "cardNumber": "hBP05-026",
         "rarity": "U",
         "color": "Green",
@@ -518,7 +518,7 @@
     },
     {
         "name": "Aki Rosenthal",
-        "tags": "#JP #Gen1 #Half-Elf #Alcohol",
+        "tag": "#JP #Gen1 #Half-Elf #Alcohol",
         "cardNumber": "hBP05-027",
         "rarity": "RR",
         "color": "Green",
@@ -538,7 +538,7 @@
     },
     {
         "name": "Shishiro Botan",
-        "tags": "#JP #Gen5 #Kemomimi #Shooter",
+        "tag": "#JP #Gen5 #Kemomimi #Shooter",
         "cardNumber": "hBP05-028",
         "rarity": "R",
         "color": "Green",
@@ -559,7 +559,7 @@
     },
     {
         "name": "Juufuutei Raden",
-        "tags": "#DEV_IS #ReGLOSS #Alcohol",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
         "cardNumber": "hBP05-029",
         "rarity": "R",
         "color": "Green",
@@ -584,7 +584,7 @@
     },
     {
         "name": "Omaru Polka",
-        "tags": "#JP #Gen5 #Kemomimi",
+        "tag": "#JP #Gen5 #Kemomimi",
         "cardNumber": "hBP05-030",
         "rarity": "U",
         "color": "Red",
@@ -602,7 +602,7 @@
     },
     {
         "name": "Omaru Polka",
-        "tags": "#JP #Gen5 #Kemomimi",
+        "tag": "#JP #Gen5 #Kemomimi",
         "cardNumber": "hBP05-031",
         "rarity": "C",
         "color": "Red",
@@ -620,7 +620,7 @@
     },
     {
         "name": "Omaru Polka",
-        "tags": "#JP #Gen5 #Kemomimi",
+        "tag": "#JP #Gen5 #Kemomimi",
         "cardNumber": "hBP05-032",
         "rarity": "U",
         "color": "Red",
@@ -639,7 +639,7 @@
     },
     {
         "name": "Omaru Polka",
-        "tags": "#JP #Gen5 #Kemomimi",
+        "tag": "#JP #Gen5 #Kemomimi",
         "cardNumber": "hBP05-033",
         "rarity": "R",
         "color": "Red",
@@ -663,7 +663,7 @@
     },
     {
         "name": "Omaru Polka",
-        "tags": "#JP #Gen5 #Kemomimi",
+        "tag": "#JP #Gen5 #Kemomimi",
         "cardNumber": "hBP05-034",
         "rarity": "RR",
         "color": "Red",
@@ -683,7 +683,7 @@
     },
     {
         "name": "Sakura Miko",
-        "tags": "#JP #Gen0 #Baby",
+        "tag": "#JP #Gen0 #Baby",
         "cardNumber": "hBP05-035",
         "rarity": "R",
         "color": "Red",
@@ -702,7 +702,7 @@
     },
     {
         "name": "Hoshimachi Suisei",
-        "tags": "#JP #Gen0 #Singing",
+        "tag": "#JP #Gen0 #Singing",
         "cardNumber": "hBP05-036",
         "rarity": "C",
         "color": "Red",
@@ -720,7 +720,7 @@
     },
     {
         "name": "Hoshimachi Suisei",
-        "tags": "#JP #Gen0 #Singing",
+        "tag": "#JP #Gen0 #Singing",
         "cardNumber": "hBP05-037",
         "rarity": "RR",
         "color": "Red",
@@ -745,7 +745,7 @@
     },
     {
         "name": "Mococo Abyssgard",
-        "tags": "#EN #Advent #Kemomimi",
+        "tag": "#EN #Advent #Kemomimi",
         "cardNumber": "hBP05-038",
         "rarity": "R",
         "color": "Red",
@@ -764,7 +764,7 @@
     },
     {
         "name": "Ichijou Ririka",
-        "tags": "#DEV_IS #ReGLOSS #Cooking #Languages",
+        "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
         "cardNumber": "hBP05-039",
         "rarity": "R",
         "color": "Red",
@@ -789,7 +789,7 @@
     },
     {
         "name": "miComet",
-        "tags": "#JP #Gen0 #Baby #Singing",
+        "tag": "#JP #Gen0 #Baby #Singing",
         "cardNumber": "hBP05-040",
         "rarity": "U",
         "color": "Red/Blue",
@@ -809,7 +809,7 @@
     },
     {
         "name": "Nekomata Okayu",
-        "tags": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #Gamers #Kemomimi",
         "cardNumber": "hBP05-041",
         "rarity": "U",
         "color": "Blue",
@@ -827,7 +827,7 @@
     },
     {
         "name": "Nekomata Okayu",
-        "tags": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #Gamers #Kemomimi",
         "cardNumber": "hBP05-042",
         "rarity": "C",
         "color": "Blue",
@@ -845,7 +845,7 @@
     },
     {
         "name": "Nekomata Okayu",
-        "tags": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #Gamers #Kemomimi",
         "cardNumber": "hBP05-043",
         "rarity": "U",
         "color": "Blue",
@@ -864,7 +864,7 @@
     },
     {
         "name": "Nekomata Okayu",
-        "tags": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #Gamers #Kemomimi",
         "cardNumber": "hBP05-044",
         "rarity": "R",
         "color": "Blue",
@@ -883,7 +883,7 @@
     },
     {
         "name": "Nekomata Okayu",
-        "tags": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #Gamers #Kemomimi",
         "cardNumber": "hBP05-045",
         "rarity": "RR",
         "color": "Blue",
@@ -903,7 +903,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tags": "#JP #Gen5 #Half-Elf #Alcohol",
+        "tag": "#JP #Gen5 #Half-Elf #Alcohol",
         "cardNumber": "hBP05-046",
         "rarity": "R",
         "color": "Blue",
@@ -922,7 +922,7 @@
     },
     {
         "name": "Kobo Kanaeru",
-        "tags": "#ID#IDGen3",
+        "tag": "#ID#IDGen3",
         "cardNumber": "hBP05-047",
         "rarity": "C",
         "color": "Blue",
@@ -940,7 +940,7 @@
     },
     {
         "name": "Kobo Kanaeru",
-        "tags": "#ID#IDGen3",
+        "tag": "#ID#IDGen3",
         "cardNumber": "hBP05-048",
         "rarity": "U",
         "color": "Blue",
@@ -959,7 +959,7 @@
     },
     {
         "name": "Kobo Kanaeru",
-        "tags": "#ID#IDGen3",
+        "tag": "#ID#IDGen3",
         "cardNumber": "hBP05-049",
         "rarity": "RR",
         "color": "Blue",
@@ -984,7 +984,7 @@
     },
     {
         "name": "Fuwawa Abyssgard",
-        "tags": "#EN #Advent #Kemomimi",
+        "tag": "#EN #Advent #Kemomimi",
         "cardNumber": "hBP05-050",
         "rarity": "R",
         "color": "Blue",
@@ -1005,7 +1005,7 @@
     },
     {
         "name": "Hiodoshi Ao",
-        "tags": "#DEV_IS #ReGLOSS #Painting #Alcohol",
+        "tag": "#DEV_IS #ReGLOSS #Painting #Alcohol",
         "cardNumber": "hBP05-051",
         "rarity": "R",
         "color": "Blue",
@@ -1024,7 +1024,7 @@
     },
     {
         "name": "Yuzuki Choco",
-        "tags": "#JP #Gen2 #Cooking",
+        "tag": "#JP #Gen2 #Cooking",
         "cardNumber": "hBP05-052",
         "rarity": "U",
         "color": "Purple",
@@ -1042,7 +1042,7 @@
     },
     {
         "name": "Yuzuki Choco",
-        "tags": "#JP #Gen2 #Cooking",
+        "tag": "#JP #Gen2 #Cooking",
         "cardNumber": "hBP05-053",
         "rarity": "C",
         "color": "Purple",
@@ -1060,7 +1060,7 @@
     },
     {
         "name": "Yuzuki Choco",
-        "tags": "#JP #Gen2 #Cooking",
+        "tag": "#JP #Gen2 #Cooking",
         "cardNumber": "hBP05-054",
         "rarity": "U",
         "color": "Purple",
@@ -1078,7 +1078,7 @@
     },
     {
         "name": "Yuzuki Choco",
-        "tags": "#JP #Gen2 #Cooking",
+        "tag": "#JP #Gen2 #Cooking",
         "cardNumber": "hBP05-055",
         "rarity": "R",
         "color": "Purple",
@@ -1096,7 +1096,7 @@
     },
     {
         "name": "Yuzuki Choco",
-        "tags": "#JP #Gen2 #Cooking",
+        "tag": "#JP #Gen2 #Cooking",
         "cardNumber": "hBP05-056",
         "rarity": "RR",
         "color": "Purple",
@@ -1121,7 +1121,7 @@
     },
     {
         "name": "Nerissa Ravencroft",
-        "tags": "#EN #Advent #Singing #Bird",
+        "tag": "#EN #Advent #Singing #Bird",
         "cardNumber": "hBP05-057",
         "rarity": "U",
         "color": "Purple",
@@ -1139,7 +1139,7 @@
     },
     {
         "name": "Nerissa Ravencroft",
-        "tags": "#EN #Advent #Singing #Bird",
+        "tag": "#EN #Advent #Singing #Bird",
         "cardNumber": "hBP05-058",
         "rarity": "C",
         "color": "Purple",
@@ -1157,7 +1157,7 @@
     },
     {
         "name": "Nerissa Ravencroft",
-        "tags": "#EN #Advent #Singing #Bird",
+        "tag": "#EN #Advent #Singing #Bird",
         "cardNumber": "hBP05-059",
         "rarity": "U",
         "color": "Purple",
@@ -1180,7 +1180,7 @@
     },
     {
         "name": "Nerissa Ravencroft",
-        "tags": "#EN #Advent #Singing #Bird",
+        "tag": "#EN #Advent #Singing #Bird",
         "cardNumber": "hBP05-060",
         "rarity": "R",
         "color": "Purple",
@@ -1199,7 +1199,7 @@
     },
     {
         "name": "Nerissa Ravencroft",
-        "tags": "#EN #Advent #Singing #Bird",
+        "tag": "#EN #Advent #Singing #Bird",
         "cardNumber": "hBP05-061",
         "rarity": "RR",
         "color": "Purple",
@@ -1219,7 +1219,7 @@
     },
     {
         "name": "Tokoyami Towa",
-        "tags": "#JP #Gen4 #Singing #Shooter",
+        "tag": "#JP #Gen4 #Singing #Shooter",
         "cardNumber": "hBP05-062",
         "rarity": "R",
         "color": "Purple",
@@ -1239,7 +1239,7 @@
     },
     {
         "name": "Shiranui Flare",
-        "tags": "#JP #Gen3 #Half-Elf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "cardNumber": "hBP05-063",
         "rarity": "U",
         "color": "Yellow",
@@ -1257,7 +1257,7 @@
     },
     {
         "name": "Shiranui Flare",
-        "tags": "#JP #Gen3 #Half-Elf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "cardNumber": "hBP05-064",
         "rarity": "C",
         "color": "Yellow",
@@ -1275,7 +1275,7 @@
     },
     {
         "name": "Shiranui Flare",
-        "tags": "#JP #Gen3 #Half-Elf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "cardNumber": "hBP05-065",
         "rarity": "U",
         "color": "Yellow",
@@ -1293,7 +1293,7 @@
     },
     {
         "name": "Shiranui Flare",
-        "tags": "#JP #Gen3 #Half-Elf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "cardNumber": "hBP05-066",
         "rarity": "R",
         "color": "Yellow",
@@ -1312,7 +1312,7 @@
     },
     {
         "name": "Shiranui Flare",
-        "tags": "#JP #Gen3 #Half-Elf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "cardNumber": "hBP05-067",
         "rarity": "RR",
         "color": "Yellow",
@@ -1332,7 +1332,7 @@
     },
     {
         "name": "Shirakami Fubuki",
-        "tags": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
         "cardNumber": "hBP05-068",
         "rarity": "C",
         "color": "Yellow",
@@ -1350,7 +1350,7 @@
     },
     {
         "name": "Shirakami Fubuki",
-        "tags": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
         "cardNumber": "hBP05-069",
         "rarity": "U",
         "color": "Yellow",
@@ -1369,7 +1369,7 @@
     },
     {
         "name": "Shirakami Fubuki",
-        "tags": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
         "cardNumber": "hBP05-070",
         "rarity": "RR",
         "color": "Yellow",
@@ -1394,7 +1394,7 @@
     },
     {
         "name": "Inugami Korone",
-        "tags": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #Gamers #Kemomimi",
         "cardNumber": "hBP05-071",
         "rarity": "R",
         "color": "Yellow",
@@ -1414,7 +1414,7 @@
     },
     {
         "name": "Tsunomaki Watame",
-        "tags": "#JP #gen4 #Kemomimi #Singing",
+        "tag": "#JP #gen4 #Kemomimi #Singing",
         "cardNumber": "hBP05-072",
         "rarity": "R",
         "color": "Yellow",
@@ -1440,7 +1440,7 @@
     },
     {
         "name": "Ayunda Risu",
-        "tags": "#ID#IDgen1 #Kemomimi #Singing",
+        "tag": "#ID#IDgen1 #Kemomimi #Singing",
         "cardNumber": "hBP05-073",
         "rarity": "R",
         "color": "Yellow",
@@ -1467,7 +1467,7 @@
     },
     {
         "name": "Gyudon",
-        "tags": "#Food",
+        "tag": "#Food",
         "cardNumber": "hBP05-075",
         "rarity": "C",
         "type": "Support (Event)",
@@ -1476,7 +1476,7 @@
     },
     {
         "name": "Choco's Beef Stroganoff",
-        "tags": "#Food",
+        "tag": "#Food",
         "cardNumber": "hBP05-076",
         "rarity": "U",
         "type": "Support (Event)",
@@ -1577,6 +1577,7 @@
         "hasFoils" :true
     }
 ]
+
 
 
 
