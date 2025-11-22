@@ -18,7 +18,7 @@
     },
     {
         "name": "Koganei Niko",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD11-002",
         "rarity": "C",
         "color": "Yellow",
@@ -35,7 +35,7 @@
     },
     {
         "name": "Koganei Niko",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD11-003",
         "rarity": "C",
         "color": "Yellow",
@@ -57,7 +57,7 @@
     },
     {
         "name": "Koganei Niko",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD11-004",
         "rarity": "U",
         "color": "Yellow",
@@ -76,7 +76,7 @@
     },
     {
         "name": "Koganei Niko",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD11-005",
         "rarity": "U",
         "color": "Yellow",
@@ -94,7 +94,7 @@
     },
     {
         "name": "Koganei Niko",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD11-006",
         "rarity": "RR",
         "color": "Yellow",
@@ -112,7 +112,7 @@
     },
     {
         "name": "Mizumiya Su",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD11-007",
         "rarity": "C",
         "color": "Blue",
@@ -130,7 +130,7 @@
     },
     {
         "name": "Mizumiya Su",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD11-008",
         "rarity": "C",
         "color": "Blue",
@@ -148,7 +148,7 @@
     },
     {
         "name": "Mizumiya Su",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD11-009",
         "rarity": "RR",
         "color": "Blue",
@@ -165,3 +165,4 @@
         ]
     }
 ]
+
