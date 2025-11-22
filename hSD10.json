@@ -18,7 +18,7 @@
     },
     {
         "name": "Rindo Chihaya",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD10-002",
         "rarity": "C",
         "color": "Green",
@@ -35,7 +35,7 @@
     },
     {
         "name": "Rindo Chihaya",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD10-003",
         "rarity": "C",
         "color": "Green",
@@ -56,7 +56,7 @@
     },
     {
         "name": "Rindo Chihaya",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD10-004",
         "rarity": "U",
         "color": "Green",
@@ -74,7 +74,7 @@
     },
     {
         "name": "Rindo Chihaya",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD10-005",
         "rarity": "U",
         "color": "Green",
@@ -92,7 +92,7 @@
     },
     {
         "name": "Rindo Chihaya",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD10-006",
         "rarity": "RR",
         "color": "Green",
@@ -115,7 +115,7 @@
     },
     {
         "name": "Kikirara Vivi",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD10-007",
         "rarity": "C",
         "color": "Purple",
@@ -132,7 +132,7 @@
     },
     {
         "name": "Kikirara Vivi",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD10-008",
         "rarity": "C",
         "color": "Purple",
@@ -149,7 +149,7 @@
     },
     {
         "name": "Kikirara Vivi",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD10-009",
         "rarity": "RR",
         "color": "Purple",
@@ -167,7 +167,7 @@
     },
     {
         "name": "Isaki Riona",
-        "tags": "#DEV_IS #FLOWGLOW",
+        "tag": "#DEV_IS #FLOWGLOW",
         "cardNumber": "hSD10-010",
         "rarity": "RR",
         "bloomLevel": "Spot",
@@ -207,4 +207,5 @@
     }
 
 ]
+
 
