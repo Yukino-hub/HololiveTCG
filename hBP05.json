@@ -27,7 +27,7 @@
         "lives": 5,
         "oshiSkill": {
             "name": "IOFORIA~!",
-            "power": 1,
+            "dmg": 1,
             "description": "[Once Per Turn] Usable if your holomem with #IDGen1 would take Damage from the opponent during the opponent's turn: You may reattach 1 cheer from that holomem to 1 of your other holomem with #IDGen1."
         },
         "spOshiSkill": {
@@ -144,7 +144,7 @@
             {
                 "name": "楽しく！",
                 "cost": "1 any color",
-                "power": "20"
+                "dmg": "20"
             }
         ],
         "hasFoils": true
@@ -162,7 +162,7 @@
             {
                 "name": "夏の思い出",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             }
         ],
         "hasFoils": true
@@ -180,7 +180,7 @@
             {
                 "name": "生きる力",
                 "cost": "2 any color",
-                "power": "20+",
+                "dmg": "20+",
                 "description": "If you have used a <Gyudon> this turn, this Arts gets +30."
             }
         ],
@@ -199,7 +199,7 @@
             {
                 "name": "団長幸せだよ",
                 "cost": "1 white, 1 any color",
-                "power": "40+",
+                "dmg": "40+",
                 "description": "For each Holomen on your stage with #Gen3 and a different card name, this Arts gets +10."
             }
         ],
@@ -217,13 +217,13 @@
             {
                 "name": "騎士団の道",
                 "cost": "2 any color",
-                "power": "80+, +50 vs green",
+                "dmg": "80+, +50 vs green",
                 "description": "If this holomem is damaged, this Arts +40."
             },
             {
                 "name": "慈悲の一撃",
                 "cost": "1 white, 2 any color",
-                "power": "130+, +50 vs green",
+                "dmg": "130+, +50 vs green",
                 "description": "[Center position only] If your collab holomem has #Gen3, this Arts +30."
             }
         ],
@@ -243,7 +243,7 @@
             {
                 "name": "7周年いえーい✩°｡⋆⸜(*╹꒳ ╹* )⸝",
                 "cost": "2 any color",
-                "power": "90, +50 vs red"
+                "dmg": "90, +50 vs red"
             }
         ],
         "hasFullArt": true
@@ -260,7 +260,7 @@
             {
                 "name": "かわいいぺこか？",
                 "cost": "1 any color",
-                "power": "20",
+                "dmg": "20",
                 "description": "You may roll a die once:If it is even, draw 1 card from your deck."
             }
         ],
@@ -278,13 +278,13 @@
             {
                 "name": "にんじん…",
                 "cost": "1 any color",
-                "power": "30",
+                "dmg": "30",
                 "description": "If you have 3 or more holomem with #Gen3 are on your stage, send the top card of your cheer deck to this holomem."
             },
             {
                 "name": "いらないぺこ？",
                 "cost": "1 any color",
-                "power": "30",
+                "dmg": "30",
                 "description": "If your Oshi holomem's color is white, draw 1 card from your deck."
             }
         ],
@@ -303,7 +303,7 @@
             {
                 "name": "ウーサペコラを崇めるぺこ",
                 "cost": "4 any color",
-                "power": "120+, +50 vs red",
+                "dmg": "120+, +50 vs red",
                 "description": "You may roll a die once for each Holomen card stacked under this Holomen: For each 1 of the total result from the roll(s), this Arts gets +10."
             }
         ],
@@ -326,13 +326,13 @@
             {
                 "name": "レトロロマン",
                 "cost": "1 white, 1 any color",
-                "power": "50",
+                "dmg": "50",
                 "description": "You may attach 1 <Luknight> from your archive to this holomem."
             },
             {
                 "name": "ぱくぱく",
                 "cost": "1 white, 2 any color",
-                "power": "80",
+                "dmg": "80",
                 "description": "[Collab position only ]For each <Luknight> attached to your center holomem, reduce the cheer cost of this Arts by 1 colorless cheer."
             }
         ],
@@ -351,13 +351,13 @@
             {
                 "name": "海に行こう！",
                 "cost": "1 white",
-                "power": "60, +50 vs purple",
+                "dmg": "60, +50 vs purple",
                 "description": "If a Buzz holomem with #IDGen3 is on your stage, draw 1 card from your deck."
             },
             {
                 "name": "Summer Vibes",
                 "cost": "1 white, 2 any color",
-                "power": "140, +50 vs purple",
+                "dmg": "140, +50 vs purple",
                 "description": "If your opponent's holomem is downed by this Arts, reveal 1 1st holomem with #IDGen3 from your deck,and add it to hand. Then, shuffle the deck."
             }
         ],
@@ -376,7 +376,7 @@
             {
                 "name": "君といる時間",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             }
         ],
         "hasFoils" : true
@@ -394,7 +394,7 @@
             {
                 "name": "君となら",
                 "cost": "1 any color",
-                "power": "10"
+                "dmg": "10"
             }
         ],
         "hasFoils" : true
@@ -412,7 +412,7 @@
             {
                 "name": "抹茶めっちゃ好き ( ´ڡ`* )",
                 "cost": "1 any color",
-                "power": "40"
+                "dmg": "40"
             }
         ],
         "hasFoils" : true
@@ -430,7 +430,7 @@
             {
                 "name": "Matahari Terbenam",
                 "cost": "1 green, 1 any color",
-                "power": "50"
+                "dmg": "50"
             }
         ],
         "hasFullArt" : true
@@ -448,7 +448,7 @@
             {
                 "name": "リレーションガーデン",
                 "cost": "1 green, 2 any color",
-                "power": "130+, +50 vs white",
+                "dmg": "130+, +50 vs white",
                 "description": "[Center position only]If your Oshi holomem is <Airani Iofifteen>, this Arts gets +20 for every 3 cheers on your stage."
             }
         ],
@@ -469,13 +469,13 @@
             {
                 "name": "あずきんちでゆっくりしよ",
                 "cost": "2 green",
-                "power": "50",
+                "dmg": "50",
                 "description": "If a <Pioneers> is on your stage, send the top card of your cheer deck to your <AZKi>."
             },
             {
                 "name": "帰っちゃうの？",
                 "cost": "2 green, 2 any color",
-                "power": "80+",
+                "dmg": "80+",
                 "description": "If your Oshi holomem is <AZKi>, this Arts gets +20 for each cheer attached to this holomem."
             }
         ],
@@ -493,7 +493,7 @@
             {
                 "name": "新たな旅を始めよう",
                 "cost": "1 any color",
-                "power": "20"
+                "dmg": "20"
             }
         ],
         "hasFoils" : true
@@ -511,7 +511,7 @@
             {
                 "name": "暮れなずむひととき",
                 "cost": "1 green, 1 any color",
-                "power": "50"
+                "dmg": "50"
             }
         ],
         "hasFoils" : true
@@ -529,7 +529,7 @@
             {
                 "name": "ワンフォーオール",
                 "cost": "1 green, 2 any color",
-                "power": "130, +50 vs blue",
+                "dmg": "130, +50 vs blue",
                 "description": "If your opponent's holomem is downed by this Arts, draw 1 card from your deck. Then, if your Oshi holomem is <Aki Rosenthal>, restore 20 HP to all of your holomem."
             }
         ],
@@ -551,7 +551,7 @@
             {
                 "name": "ここからが俺たちのスタートだ",
                 "cost": "1 green, 1 any color",
-                "power": "40",
+                "dmg": "40",
                 "description": "You may archive 1 cheer from your <Shishiro Botan>:Deal 30 Special Damage to your opponent's center holomem."
             }
         ],
@@ -570,13 +570,13 @@
             {
                 "name": "誰かの為に生きてきたけど",
                 "cost": "1 green, 1 any color",
-                "power": "50",
+                "dmg": "50",
                 "description": "If your Oshi holomem is <Juufuutei Raden>, reveal 1 event with #Mushroom from your deck, and add it to hand. Then, shuffle the deck."
             },
             {
                 "name": "漸く自分の人生を生きてる",
                 "cost": "1 green, 2 any color",
-                "power": "80+",
+                "dmg": "80+",
                 "description": "If a 2nd holomem with #ReGLOSS is on your stage, this Arts gets +40."
             }
         ],
@@ -595,7 +595,7 @@
             {
                 "name": "",
                 "cost": "1 red",
-                "power": "20"
+                "dmg": "20"
             }
         ],
         "hasFoils" : true
@@ -612,7 +612,7 @@
             {
                 "name": "あゝ素晴らしきアイドル人生かな",
                 "cost": "1 any color",
-                "power": "30",
+                "dmg": "30",
                 "description": "If you are going second and this is your first turn, reveal 1 <Troupe Member> from your deck, and add it to hand. Then, shuffle your deck."
             }
         ],
@@ -631,7 +631,7 @@
             {
                 "name": "朝のポルカ ※若干のフィクション",
                 "cost": "2 any color",
-                "power": "50",
+                "dmg": "50",
                 "description": "You may archive 1 card from your hand:Deal 10 damage to your opponent's center holomem or collab holomem."
             }
         ],
@@ -649,13 +649,13 @@
             {
                 "name": "すごいね、桜！",
                 "cost": "2 any color",
-                "power": "40+",
+                "dmg": "40+",
                 "description": "You may roll a die once:Archive a number of cards from the top of your deck equal to the number rolled. Then, if there are 10 or more cards in your archive, this Arts gets +10."
             },
             {
                 "name": "来年も君と見に来たいな",
                 "cost": "1 red, 2 any color",
-                "power": "70+",
+                "dmg": "70+",
                 "description": "This Arts gets +10 for each <Troupe Member> attached to this holomem."
             }
         ],
@@ -674,7 +674,7 @@
             {
                 "name": "Are you ready？",
                 "cost": "1 red, 2 any color",
-                "power": "110+, +50 vs green",
+                "dmg": "110+, +50 vs green",
                 "description": "If your oshi holomem is <Omaru Polka>, this Arts gets +30 for every 10 cards in your archive."
             }
         ],
@@ -694,7 +694,7 @@
             {
                 "name": "",
                 "cost": "2 red",
-                "power": "90, +50 vs yellow",
+                "dmg": "90, +50 vs yellow",
                 "description": "You may archive 2 cards from your hand:Deal 50 Special Damage to your opponent's center holomem or collab holomem. If there is a <35P> on your stage, draw 1 card from your deck."
             }
         ],
@@ -712,7 +712,7 @@
             {
                 "name": "声出し最高！",
                 "cost": "1 any color",
-                "power": "20+",
+                "dmg": "20+",
                 "description": "If any of your opponent's back holomem are damaged, this Arts gets +20."
             }
         ],
@@ -730,13 +730,13 @@
             {
                 "name": "Non-Limit Boost",
                 "cost": "1 any color",
-                "power": "50, +50 vs purple",
+                "dmg": "50, +50 vs purple",
                 "description": "If a red cheer and a blue cheer are attached to this holomem, you may send 2 cheers from your archive to this holomem. If any cheers of only one of those colors are attached to this holomem, you may send 1 cheer from your archive to this holomem."
             },
             {
                 "name": "Shout in Crisis",
                 "cost": "4 any color",
-                "power": "220, +50 vs purple",
+                "dmg": "220, +50 vs purple",
                 "description": "Archive all cheers attached to this holomem."
             }
         ],
@@ -756,7 +756,7 @@
             {
                 "name": "ノーーーーーーエ！",
                 "cost": "1 any color",
-                "power": "30",
+                "dmg": "30",
                 "description": "If your center holomem is <Fuwawa Abyssgard>, this Arts can be used with no cheer requirement."
             }
         ],
@@ -775,13 +775,13 @@
             {
                 "name": "人生に手遅れとかないか",
                 "cost": "1 red, 1 any color",
-                "power": "40",
+                "dmg": "40",
                 "description": "If you have used a <Struggle Meal> this turn, deal 20 Special Damage to your opponent's center holomem and collab holomem."
             },
             {
                 "name": "いつでも軌道修正できる",
                 "cost": "1 red, 2 any color",
-                "power": "70+",
+                "dmg": "70+",
                 "description": "If the target of this Arts is a 1st or greater collab holomem, this Arts gets +70."
             }
         ],
@@ -801,7 +801,7 @@
             {
                 "name": "ビジネスパートナー",
                 "cost": "3 any color",
-                "power": "90",
+                "dmg": "90",
                 "description": "You may reattach 1 cheer from this holomem to your back holomem."
             }
         ],
@@ -819,7 +819,7 @@
             {
                 "name": "ぐるぐる～",
                 "cost": "1 any color",
-                "power": "20",
+                "dmg": "20",
                 "description": "Deal 10 Special Damage to your opponent's center holomem."
             }
         ],
@@ -838,7 +838,7 @@
             {
                 "name": "ずうっと一緒だよ",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             }
         ],
         "hasFoils" :true
@@ -856,7 +856,7 @@
             {
                 "name": "まだまだ遊べるよね～？",
                 "cost": "1 any color",
-                "power": "30",
+                "dmg": "30",
                 "description": "You may archive 1 blue cheer from this holomem:Deal 10 Special Damage to your opponent's center holomem and 1 of your opponent's back holomem."
             }
         ],
@@ -875,7 +875,7 @@
             {
                 "name": "ドンストップゲーミング！",
                 "cost": "1 blue, 1 any color",
-                "power": "40",
+                "dmg": "40",
                 "description": "Deal 10 Special Damage to 1 of your opponent's holomem."
             }
         ],
@@ -894,7 +894,7 @@
             {
                 "name": "僕のコト、大好きになってみない？",
                 "cost": "2 blue, 1 any color",
-                "power": "120, +50 vs white",
+                "dmg": "120, +50 vs white",
                 "description": "Deal 20 Special Damage to 1 of your opponent's holomem. Then, you may send 1 Cheer from your archive to your back holomem with #Gamers."
             }
         ],
@@ -914,7 +914,7 @@
             {
                 "name": "愛せな～い！",
                 "cost": "1 blue, 1 any color",
-                "power": "40",
+                "dmg": "40",
                 "description": "If a 2nd holomem with #Gen5 is on your stage, deal 20 Special Damage to 1 of your opponent's holomem."
             }
         ],
@@ -932,7 +932,7 @@
             {
                 "name": "アットユアサービス！",
                 "cost": "1 any color",
-                "power": "20",
+                "dmg": "20",
                 "description": "Deal 10 Special Damage to 1 of your opponent's back holomem."
             }
         ],
@@ -951,7 +951,7 @@
             {
                 "name": "キミが元気になれるように",
                 "cost": "1 blue, 1 any color",
-                "power": "40",
+                "dmg": "40",
                 "description": "Deal 10 Special Damage to 2 of your opponent's back holomem."
             }
         ],
@@ -969,13 +969,13 @@
             {
                 "name": "雨跡をなぞ",
                 "cost": "1 blue",
-                "power": "60, +50 vs white",
+                "dmg": "60, +50 vs white",
                 "description": "If your opponent's back holomem have taken a total of 80 or more Damage, you may send 1 blue cheer from your archive to your <Kobo Kanaeru>."
             },
             {
                 "name": "残響する雨音",
                 "cost": "2 blue, 2 any color",
-                "power": "120, +50 vs white",
+                "dmg": "120, +50 vs white",
                 "description": "You may archive 2 cheers from this holomem:Deal 30 Special Damage to all of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
             }
         ],
@@ -997,7 +997,7 @@
             {
                 "name": "キーボードクラッシャー",
                 "cost": "1 blue, 2 any color",
-                "power": "100+",
+                "dmg": "100+",
                 "description": "If your <Mococo Abyssgard> has performed Arts this turn, this Arts gets +40. If you have also used your Oshi skill \"Moco-chan!\" this turn, this Arts gets +30."
             }
         ],
@@ -1016,7 +1016,7 @@
             {
                 "name": "シャンパンシャンパン！",
                 "cost": "1 any color",
-                "power": "20",
+                "dmg": "20",
                 "description": "If there are 3 or more holomem with #Alcohol on your stage, you may send 1 cheer from your archive to your back holomem with #Alcohol."
             }
         ],
@@ -1035,7 +1035,7 @@
             {
                 "name": "膝枕とかどうですか？",
                 "cost": "1 purple",
-                "power": "30"
+                "dmg": "30"
             }
         ],
         "hasFoils" : true
@@ -1053,7 +1053,7 @@
             {
                 "name": "ぎゅーってして？",
                 "cost": "1 any color",
-                "power": "10"
+                "dmg": "10"
             }
         ],
         "hasFoils" : true
@@ -1070,7 +1070,7 @@
             {
                 "name": "ガァチィ？",
                 "cost": "1 any color",
-                "power": "30",
+                "dmg": "30",
                 "description": "If you have used 2 or more events with #Food this turn, this Arts can be used with no cheer requirement."
             }
         ],
@@ -1089,7 +1089,7 @@
             {
                 "name": "ｱﾞｱﾞｱﾞｱﾞｱﾞ",
                 "cost": "1 purple",
-                "power": "30"
+                "dmg": "30"
             }
         ],
         "hasFullArt" : true
@@ -1106,13 +1106,13 @@
             {
                 "name": "愛を込めて",
                 "cost": "1 Purple, 1 any color",
-                "power": "90+, +50 vs Blue",
+                "dmg": "90+, +50 vs Blue",
                 "description": "This Arts gets +20 for each event with #Food you have used this turn. However, only up to 2 cards are counted."
             },
             {
                 "name": "夜に寄り添う",
                 "cost": "1 Purple, 2 any color",
-                "power": "150, +50 vs Blue",
+                "dmg": "150, +50 vs Blue",
                 "description": "You may archive 2 cards from your hand:Return 1 holomem with #Cooking from your archive to hand."
             }
         ],
@@ -1132,7 +1132,7 @@
             {
                 "name": "Cool Summer Nights",
                 "cost": "1 any color",
-                "power": "20"
+                "dmg": "20"
             }
         ],
         "hasFoils" : true
@@ -1145,12 +1145,12 @@
         "color": "Purple",
         "bloomLevel": "Debut",
         "hp": 100,
-        "collabEffect": "SUGOIDEKAI: If you are going second, this is your first turn, and your Oshi holomem is <Nerissa Ravencroft>, put the top card of your deck to holo Power.",
+        "collabEffect": "SUGOIDEKAI: If you are going second, this is your first turn, and your Oshi holomem is <Nerissa Ravencroft>, put the top card of your deck to holo dmg.",
         "skills": [
             {
                 "name": "Byeya darlings!",
                 "cost": "1 any color",
-                "power": "10"
+                "dmg": "10"
             }
         ],
         "hasFoils" : true
@@ -1167,13 +1167,13 @@
             {
                 "name": "ワンアンドオンリー",
                 "cost": "1 purple",
-                "power": "30",
+                "dmg": "30",
                 "description": "If your Oshi holomem is <Nerissa Ravencroft>, draw 1 card from your deck."
             },
             {
                 "name": "ツノに触らないで！",
                 "cost": "1 purple, 1 any color",
-                "power": "50"
+                "dmg": "50"
             }
         ],
         "hasFoils" : true
@@ -1191,7 +1191,7 @@
             {
                 "name": "艶なる宴",
                 "cost": "1 purple, 1 any color",
-                "power": "40",
+                "dmg": "40",
                 "description": "You may archive 1 card from your hand:Deal 20 Special Damage to your opponent's center holomem or collab holomem."
             }
         ],
@@ -1210,7 +1210,7 @@
             {
                 "name": "Unleashed Charm",
                 "cost": "1 purple, 2 any color",
-                "power": "120, +50 vs blue",
+                "dmg": "120, +50 vs blue",
                 "description": "You may archive 1~3 cards from your hand:During this turn, 1 of your holomem with #Singing gets Arts+20 for each card archived."
             }
         ],
@@ -1231,7 +1231,7 @@
             {
                 "name": "ありがとうみんな",
                 "cost": "1 purple, 1 any color",
-                "power": "70, +50 vs green",
+                "dmg": "70, +50 vs green",
                 "description": "Deal 20 Special Damage for each of your 1st holomem with #Singing to your opponent's center holomem or collab holomem."
             }
         ],
@@ -1250,7 +1250,7 @@
             {
                 "name": "キミも一緒にゲームしない？",
                 "cost": "1 any color",
-                "power": "20"
+                "dmg": "20"
             }
         ],
         "hasFoils" :true
@@ -1268,7 +1268,7 @@
             {
                 "name": "幸せの場所",
                 "cost": "1 any color",
-                "power": "10"
+                "dmg": "10"
             }
         ],
         "hasFoils" :true
@@ -1286,7 +1286,7 @@
             {
                 "name": "それは嘘じゃん！",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             }
         ],
         "hasFoils" :true
@@ -1304,7 +1304,7 @@
             {
                 "name": "氷姿雪魄",
                 "cost": "2 any color",
-                "power": "30+",
+                "dmg": "30+",
                 "description": "This Arts gets +10 for each differently-named holomem with #Gen3 on your stage."
             }
         ],
@@ -1323,7 +1323,7 @@
             {
                 "name": "みんなに笑っててほしいから",
                 "cost": "2 yellow, 1 any color",
-                "power": "120+, +50 vs blue",
+                "dmg": "120+, +50 vs blue",
                 "description": "You may roll a die once:If it is greater than or equal to your current Life, the Arts gets +60. If it is less than or equal to your current Life, draw 1 card from your deck."
             }
         ],
@@ -1343,7 +1343,7 @@
             {
                 "name": "おやつ食べてゲーム最高！",
                 "cost": "1 any color",
-                "power": "20"
+                "dmg": "20"
             }
         ],
         "hasFoils" : true
@@ -1361,7 +1361,7 @@
             {
                 "name": "満点じゃい！",
                 "cost": "2 any color",
-                "power": "40",
+                "dmg": "40",
                 "description": "You may send the top card of your cheer deck to this holomem."
             }
         ],
@@ -1379,13 +1379,13 @@
             {
                 "name": "フブキカフェにようこそ",
                 "cost": "2 any color",
-                "power": "60, +50 vs blue",
+                "dmg": "60, +50 vs blue",
                 "description": "You may choose any number of [mascots and fans] with #ShirakamiCharacter from your archive, and attach them to your holomem."
             },
             {
                 "name": "国王兼喫茶経営者",
                 "cost": "4 any color",
-                "power": "100+, +50 vs blue",
+                "dmg": "100+, +50 vs blue",
                 "description": "If [your Oshi holomem is <Shirakami Fubuki> or your Oshi holomem's color is yellow], and there are 4 or more [tools, mascots, and fans] on your stage, this Arts gets +100."
             }
         ],
@@ -1406,7 +1406,7 @@
             {
                 "name": "YB-2",
                 "cost": "1 any color",
-                "power": "50+, +50 vs blue",
+                "dmg": "50+, +50 vs blue",
                 "description": "During this turn, 1 of your holomem with #Gamers gets Arts+30."
             }
         ],
@@ -1426,13 +1426,13 @@
             {
                 "name": "君と色違いのリュック",
                 "cost": "2 yellow",
-                "power": "50+",
+                "dmg": "50+",
                 "description": "[Center position only]If 4 or more cheers are attached to this holomem, during this turn this holomem and your collab holomem get Arts+50."
             },
             {
                 "name": "わためと海辺デート",
                 "cost": "2 yellow, 1 any color",
-                "power": "80",
+                "dmg": "80",
                 "description": "If your Oshi holomem is <Tsunomaki Watame>, you may send the top card of your cheer deck to your <Tsunomaki Watame>."
             }
         ],
@@ -1451,7 +1451,7 @@
             {
                 "name": "IT's Time to RE4GE !!!!!",
                 "cost": "1 yellow, 1 any color",
-                "power": "50+, +50 vs white",
+                "dmg": "50+, +50 vs white",
                 "description": "If your Oshi holomem is <Ayunda Risu>, this Arts gets +10 for each cheer attached to your holomem with #IDGen1. However, only up to 10 cheers are counted."
             }
         ],
@@ -1577,5 +1577,6 @@
         "hasFoils" :true
     }
 ]
+
 
 
