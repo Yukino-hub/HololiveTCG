@@ -18,7 +18,7 @@
     },
     {
         "name": "Houshou Marine",
-        "tags": "#JP #Gen3 #Painting #Sea #Summer",
+        "tag": "#JP #Gen3 #Painting #Sea #Summer",
         "cardNumber": "hSD09-002",
         "rarity": "U",
         "color": "Red",
@@ -34,7 +34,7 @@
     },
     {
         "name": "Houshou Marine",
-        "tags": "#JP #Gen3 #Painting #Sea",
+        "tag": "#JP #Gen3 #Painting #Sea",
         "cardNumber": "hSD09-003",
         "rarity": "R",
         "color": "Red",
@@ -51,7 +51,7 @@
     },
     {
         "name": "Houshou Marine",
-        "tags": "#JP #Gen3 #Painting #Sea",
+        "tag": "#JP #Gen3 #Painting #Sea",
         "cardNumber": "hSD09-004",
         "rarity": "RR",
         "color": "Red",
@@ -72,7 +72,7 @@
     },
     {
         "name": "Shirogane Noel",
-        "tags": "#JP #Gen3 #Alcohol #Summer",
+        "tag": "#JP #Gen3 #Alcohol #Summer",
         "cardNumber": "hSD09-005",
         "rarity": "C",
         "color": "White",
@@ -88,7 +88,7 @@
     },
     {
         "name": "Usada Pekora",
-        "tags": "#JP #Gen3 #Kemomimi #Summer",
+        "tag": "#JP #Gen3 #Kemomimi #Summer",
         "cardNumber": "hSD09-006",
         "rarity": "C",
         "color": "Green",
@@ -104,7 +104,7 @@
     },
     {
         "name": "Shiranui Flare",
-        "tags": "#JP #Gen3 #Half-Elf #Summer",
+        "tag": "#JP #Gen3 #Half-Elf #Summer",
         "cardNumber": "hSD09-007",
         "rarity": "C",
         "color": "Yellow",
@@ -120,3 +120,4 @@
     }
 
 ]
+
