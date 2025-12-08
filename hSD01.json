@@ -28,7 +28,7 @@
             "description": "[Once per turn] Usable when rolling a die with your Holomen's ability: Declare one number on the die, and treat the next rolled number as the declared number."
         },
         "spOshiSkill": {
-            "name": "手にマイク (Mic On the Right)",
+            "name": "右手にマイク (Mic On the Right)",
             "power": 3,
             "description": "[Once per game] Send any number of archived cheer cards to one Green Holomen."
         }
