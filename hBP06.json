@@ -297,12 +297,12 @@
         "hp": 160,
         "skills": [
             {
-                "name": "My dream is to have an arena live",
+                "name": "夢はアリーナでするライブ",
                 "cost": "1 any color",
                 "dmg": "40"
             },
             {
-                "name": "This hololive is causing a typhoon",
+                "name": "タイフーン起こすこのホロライブ",
                 "cost": "1 white, 1 any color",
                 "dmg": "60"
             }
@@ -316,7 +316,7 @@
         "color": "White",
         "bloomLevel": "1st",
         "hp": 160,
-        "collabEffect": "The leader of FLOW GLOW\nDuring this turn, 1 of your holomem with #FLOW GLOW gets Arts+20.",
+        "collabEffect": "TFLOW GLOWのリーダー: During this turn, 1 of your holomem with #FLOW GLOW gets Arts+20.",
         "skills": [
             {
                 "name": "Brr! Brr!",
@@ -334,10 +334,10 @@
         "color": "White",
         "bloomLevel": "1st",
         "hp": 150,
-        "bloomEffect": "Stoic and hates losing\nIf your Oshi holomem is <Isaki Riona>, you may archive the top card of your deck:Draw 1 card.",
+        "bloomEffect": "ストイック負けず嫌い王: nIf your Oshi holomem is <Isaki Riona>, you may archive the top card of your deck:Draw 1 card.",
         "skills": [
             {
-                "name": "Surprisingly hot-blooded?",
+                "name": "意外と熱血タイプ？",
                 "cost": "1 white",
                 "dmg": "40",
                 "description": "Archive the top card of your deck."
@@ -352,10 +352,10 @@
         "color": "White",
         "bloomLevel": "2nd",
         "hp": 200,
-        "giftEffect": "Conductor of Will\nIf this holomem is downed during your opponent's turn, you may archive the top 2 cards of your deck. If you do, draw 1 card from your deck for each differently-named holomem with #FLOW GLOW on your stage.",
+        "giftEffect": "意志の指揮者　: If this holomem is downed during your opponent's turn, you may archive the top 2 cards of your deck. If you do, draw 1 card from your deck for each differently-named holomem with #FLOW GLOW on your stage.",
         "skills": [
             {
-                "name": "Resonance Roar",
+                "name": "レゾナンスロア",
                 "cost": "1 white, 2 any color",
                 "dmg": "150+, +50 vs red",
                 "description": "Archive 1~3 cards from the top of your deck. This Arts gets +20 for each card archived."
@@ -370,10 +370,10 @@
         "color": "White",
         "bloomLevel": "2nd",
         "hp": 190,
-        "collabEffect": "I'll deliver it to you\nDuring this turn, 1 of your holomem with #holoX gets Arts+30. If this holomem has a Support card with #KoyoLabo attached, that holomem gets Arts+50 instead.",
+        "collabEffect": "君に届けっ:During this turn, 1 of your holomem with #holoX gets Arts+30. If this holomem has a Support card with #KoyoLabo attached, that holomem gets Arts+50 instead.",
         "skills": [
             {
-                "name": "A page of youth",
+                "name": "青春の１ページ",
                 "cost": "1 white, 1 any color",
                 "dmg": "90+, +50 vs red",
                 "description": "You may return a Support card with #KoyoLabo from your archive to the bottom of your deck:This Arts gets +40."
@@ -390,7 +390,7 @@
         "hp": 140,
         "skills": [
             {
-                "name": "Handmade charm",
+                "name": "手作りのお守り",
                 "cost": "1 any color",
                 "dmg": "10"
             }
@@ -404,7 +404,7 @@
         "color": "Green",
         "bloomLevel": "Debut",
         "hp": 110,
-        "collabEffect": "Hop Step Jump!\nIf you are going second and this is your first turn, reveal 1 Buzz <Kazama Iroha> from your deck, and add it to hand. Then, shuffle the deck.",
+        "collabEffect": "ホップすてっぷジャンプ！: If you are going second and this is your first turn, reveal 1 Buzz <Kazama Iroha> from your deck, and add it to hand. Then, shuffle the deck.",
         "buzz": true,
         "skills": [
             {
@@ -424,7 +424,7 @@
         "hp": 200,
         "skills": [
             {
-                "name": "Magical☆Gozaru's Uplifting Spell",
+                "name": "まじかる☆ござるの元気の出る魔法",
                 "cost": "1 green, 2 any color",
                 "dmg": "80"
             }
@@ -438,10 +438,10 @@
         "color": "Green",
         "bloomLevel": "1st",
         "hp": 150,
-        "giftEffect": "A Chill Anniversary\n[Center position or collab position only]Your holomem with #holoX other than this holomem get Arts+20.",
+        "giftEffect": "のんびり過ごす記念日: [Center position or collab position only]Your holomem with #holoX other than this holomem get Arts+20.",
         "skills": [
             {
-                "name": "Tsuntsuntsun...",
+                "name": "ツンツンツン…",
                 "cost": "2 any color",
                 "dmg": "50"
             }
@@ -456,11 +456,11 @@
         "bloomLevel": "1st",
         "hp": 250,
         "buzz": true,
-        "giftEffect": "Delivering you energy!\n[Center position only]When your holomem collabs, if you have 5 or more cards in your hand, you may send the top card of your cheer deck to your collab holomem.",
+        "giftEffect": "元気をお届け！: [Center position only]When your holomem collabs, if you have 5 or more cards in your hand, you may send the top card of your cheer deck to your collab holomem.",
         "extraEffect": "If this holomem is downed, you get Life-2",
         "skills": [
             {
-                "name": "I hope you enjoy",
+                "name": "喜んでもらえたらいいな",
                 "cost": "2 green",
                 "dmg": "60"
             }
@@ -474,11 +474,11 @@
         "color": "Green",
         "bloomLevel": "2nd",
         "hp": 210,
-        "giftEffect": "Thoughts I want to convey\nWhen this holomem downs your opponent's center holomem, you may bloom 1 of your <Kazama Iroha> that bloomed this turn once more using a holomem from your hand.",
+        "giftEffect": "伝えたい想い: When this holomem downs your opponent's center holomem, you may bloom 1 of your <Kazama Iroha> that bloomed this turn once more using a holomem from your hand.",
         "buzz": true,
         "skills": [
             {
-                "name": "Step Together",
+                "name": "一緒にすてっぷ",
                 "cost": "1 green, 2 any color",
                 "dmg": "160+, +50 vs white",
                 "description": "If your Oshi holomem is <Kazama Iroha>, and you have a collab holomem, this Arts gets +40. Also, if this holomem has bloomed from a Buzz holomem, damage from this Arts cannot be reduced."
@@ -495,7 +495,7 @@
         "hp": 130,
         "skills": [
             {
-                "name": "Nnaaaaaai",
+                "name": "んなあああああい",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -511,13 +511,13 @@
         "hp": 170,
         "skills": [
             {
-                "name": "Festival",
+                "name": "祝祭",
                 "cost": "1 any color",
                 "dmg": "30",
                 "description": "If there is a fan attached to your holomem, you may send the top card of your cheer deck to this holomem."
             },
             {
-                "name": "Royal Flower Bouquet",
+                "name": "ロイヤル・フラワーブーケ",
                 "cost": "3 any color",
                 "dmg": "80"
             }
@@ -531,10 +531,10 @@
         "color": "Green",
         "bloomLevel": "1st",
         "hp": 180,
-        "giftEffect": "Feelings of gratitude toward everyone\n[Collab position only]During your opponent's turn, when you would archive a <Lu-knights> attached to your center holomem, you may reattach it to your back <Himemori Luna> instead.",
+        "giftEffect": "みんなへ感謝の気持ち: [Collab position only]During your opponent's turn, when you would archive a <Lu-knights> attached to your center holomem, you may reattach it to your back <Himemori Luna> instead.",
         "skills": [
             {
-                "name": "I want to share them!",
+                "name": "届けたいのら！",
                 "cost": "1 any color",
                 "dmg": "20",
                 "description": "You may attach 1 <Lu-knights> from your archive to your <Himemori Luna>."
@@ -549,10 +549,10 @@
         "color": "Green",
         "bloomLevel": "2nd",
         "hp": 190,
-        "bloomEffect": "Nnasshoi!\nIf your Oshi holomem is <Himemori Luna>, you may archive 1~2 <Lu-knights> on your stage:For each card archived, send the top card of your cheer deck to 1 of your <Himemori Luna>.",
+        "bloomEffect": "んなっしょい！: If your Oshi holomem is <Himemori Luna>, you may archive 1~2 <Lu-knights> on your stage:For each card archived, send the top card of your cheer deck to 1 of your <Himemori Luna>.",
         "skills": [
             {
-                "name": "We'll be together forever",
+                "name": "ずっと一緒なのらね",
                 "cost": "4 any color",
                 "dmg": "160+, +50 vs blue",
                 "description": "If 2 or more <Lu-knights> are attached to this holomem, this Arts gets +50."
@@ -567,10 +567,10 @@
         "color": "Green",
         "bloomLevel": "1st",
         "hp": 130,
-        "collabEffect": "FOR! JUSTICE!\nSend the top card of your cheer deck to your other holomem with #Justice.",
+        "collabEffect": "FOR! JUSTICE!: Send the top card of your cheer deck to your other holomem with #Justice.",
         "skills": [
             {
-                "name": "Spring Memories",
+                "name": "春の思い出",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -584,10 +584,10 @@
         "color": "Green",
         "bloomLevel": "1st",
         "hp": 160,
-        "bloomEffect": "Wet feather-colored cracks\nIf you have used an event with #Mushroom this turn, draw 2 cards. You may only use Bloom Effect \"Wet feather-colored cracks\" once per turn.",
+        "bloomEffect": "濡羽色のほころび: If you have used an event with #Mushroom this turn, draw 2 cards. You may only use Bloom Effect \"Wet feather-colored cracks\" once per turn.",
         "skills": [
             {
-                "name": "Mushroom (Kusabira)",
+                "name": "茸 （くさびら)",
                 "cost": "1 green",
                 "dmg": "40",
                 "description": "You may send 1 cheer from your archive to your holomem with #ReGLOSS."
