@@ -604,7 +604,7 @@
         "hp": 130,
         "skills": [
             {
-                "name": "BBQ Date at the Summer Beach",
+                "name": "夏の海でドキドキデート",
                 "cost": "1 any color",
                 "dmg": "10+",
                 "description": "You may archive 1 card from your hand:Your center <Nakiri Ayame> gets Arts+30."
@@ -619,10 +619,10 @@
         "color": "Red",
         "bloomLevel": "Debut",
         "hp": 120,
-        "collabEffect": "Kawayo\nIf you are going second and this is your first turn, reveal 1 [tool, mascot, or fan] from your deck and attach it to your <Nakiri Ayame>. Then, shuffle the deck.",
+        "collabEffect": "かわ余: If you are going second and this is your first turn, reveal 1 [tool, mascot, or fan] from your deck and attach it to your <Nakiri Ayame>. Then, shuffle the deck.",
         "skills": [
             {
-                "name": "...I'm going back to sleep (:3_\\)_",
+                "name": "…二度寝する(:3_ヽ)_",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -636,10 +636,10 @@
         "color": "Red",
         "bloomLevel": "1st",
         "hp": 140,
-        "collabEffect": "Laid-Back Night Cherry Blossom Hot Spring Date\nReveal 1 [<Asura & Rakshasa>, <Demonic Sword \"Asura\">, or <Poyoyo>] from your deck, and add it to hand. Then, shuffle the deck.",
+        "collabEffect": "まったり夜桜温泉デート: Reveal 1 [<Asura & Rakshasa>, <Demonic Sword \"Asura\">, or <Poyoyo>] from your deck, and add it to hand. Then, shuffle the deck.",
         "skills": [
             {
-                "name": "Happy time after taking a bath",
+                "name": "お風呂上がりの幸せな時間",
                 "cost": "1 any color",
                 "dmg": "30",
                 "description": "You may archive the top card of your cheer deck:Draw 1 card."
@@ -654,10 +654,10 @@
         "color": "Red",
         "bloomLevel": "1st",
         "hp": 140,
-        "bloomEffect": "Visiting Date\nYou may return 2 red cheers from your archive to the bottom of your cheer deck in any order.",
+        "bloomEffect": "お参りデート:You may return 2 red cheers from your archive to the bottom of your cheer deck in any order.",
         "skills": [
             {
-                "name": "I hope you stay healthy forever...",
+                "name": "ずっと元気でいられますように….",
                 "cost": "2 red",
                 "dmg": "50",
                 "description": "You may archive the top card of your cheer deck:Deal 30 damage to your opponent's center holomem or collab holomem."
@@ -672,10 +672,10 @@
         "color": "Red",
         "bloomLevel": "1st",
         "hp": 140,
-        "collabEffect": "I Sometimes Multiply\nYou may archive the top card of your cheer deck:Return 1 <Nakiri Ayame> from your archive to hand.",
+        "collabEffect": "たまに増える余: You may archive the top card of your cheer deck:Return 1 <Nakiri Ayame> from your archive to hand.",
         "skills": [
             {
-                "name": "Sally we forth!",
+                "name": "では参る！",
                 "cost": "1 red",
                 "dmg": "30",
                 "description": "You may archive the top card of your cheer deck:Deal 20 special damage to your opponent's center holomem or collab holomem."
@@ -690,10 +690,10 @@
         "color": "Red",
         "bloomLevel": "2nd",
         "hp": 160,
-        "giftEffect": "I didn't hear anything\n[Center position only]If you have a collab holomem and your opponent does not have a collab holomem, all of your holomem take no Arts damage from your opponent.",
+        "giftEffect": "余、なんも聞いとらんかった。: [Center position only]If you have a collab holomem and your opponent does not have a collab holomem, all of your holomem take no Arts damage from your opponent.",
         "skills": [
             {
-                "name": "Hundred Oni Dance -Hazy Moon-",
+                "name": "百鬼乱舞 -朧月-",
                 "cost": "2 red",
                 "dmg": "80+, +50 vs green",
                 "description": "If your oshi holomem is <Nakiri Ayame>, you may archive 1~3 cards from the top of your cheer deck:This arts gets +40 for each card archived. This Arts may not be used from the collab position unless your Life is 2 or less."
@@ -725,7 +725,7 @@
         "color": "Red",
         "bloomLevel": "Debut",
         "hp": 110,
-        "collabEffect": "GYM RAT\nIf you are going second and this is your first turn, draw 3 cards, then archive 2 cards from your hand.",
+        "collabEffect": "GYM RAT: If you are going second and this is your first turn, draw 3 cards, then archive 2 cards from your hand.",
         "skills": [
             {
                 "name": "Brat Wellness",
@@ -742,10 +742,10 @@
         "color": "Red",
         "bloomLevel": "1st",
         "hp": 160,
-        "bloomEffect": "Strawberry Princess\nArchive 1 card from your hand. Then, draw 1 card.",
+        "bloomEffect": "Strawberry Princess: Archive 1 card from your hand. Then, draw 1 card.",
         "skills": [
             {
-                "name": "Birthday colored with strawberries",
+                "name": "イチゴで彩る誕生日",
                 "cost": "1 red",
                 "dmg": "40+",
                 "description": "You may archive 2 cards from your hand:This Arts gets +20."
@@ -760,7 +760,7 @@
         "color": "Red",
         "bloomLevel": "1st",
         "hp": 160,
-        "collabEffect": "Once a Peasant,\nYou may archive 1 holomem with #Promise from your hand:Deal 30 special damage to your opponent's center holomem or collab holomem.",
+        "collabEffect": "Once a Peasant,: You may archive 1 holomem with #Promise from your hand:Deal 30 special damage to your opponent's center holomem or collab holomem.",
         "skills": [
             {
                 "name": "ALWAYS A PEASANT.",
@@ -779,13 +779,13 @@
         "hp": 160,
         "skills": [
             {
-                "name": "Wheel of Fortune",
+                "name": "ホイールオブフォーチュン",
                 "cost": "1 red",
                 "dmg": "30+",
                 "description": "If you have used your SP Oshi Skill \"🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲\" this game, roll a die once. This Arts gets +10x the number rolled."
             },
             {
-                "name": "Ariga-chu!",
+                "name": "ありがチュー！",
                 "cost": "2 red",
                 "dmg": "70"
             }
@@ -801,13 +801,13 @@
         "hp": 200,
         "skills": [
             {
-                "name": "Chaos Reloaded",
+                "name": "カオスリローデッドd",
                 "cost": "2 any color",
                 "dmg": "70+, +50 vs purple",
                 "description": "Return 1~5 holomem from your archive to the bottom of your deck in any order. This Arts gets +10 for each holomem returned."
             },
             {
-                "name": "💥¡¡SSՈHƆS⅂ƎԀԀOᗡ💥",
+                "name": "💥¡¡SSꓵHƆSꓶƎԀԀOꓷ💥",
                 "cost": "1 red, 2 any color",
                 "dmg": "100, +50 vs purple",
                 "description": "If you have used your SP Oshi Skill \"🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲\" this game, deal 100 special damage to your opponent's center holomem or collab holomem."
@@ -822,10 +822,10 @@
         "color": "Red",
         "bloomLevel": "2nd",
         "hp": 200,
-        "giftEffect": "You're wrong!\nIf you have used your SP Oshi Skill \"Hawkeye\" this game, this holomem has Arts+20.",
+        "giftEffect": "間違っているぞ！: If you have used your SP Oshi Skill \"Hawkeye\" this game, this holomem has Arts+20.",
         "skills": [
             {
-                "name": "Eternal Bond",
+                "name": "永久不滅の絆",
                 "cost": "1 red, 2 any color",
                 "dmg": "120, +50 vs purple",
                 "description": "If your Oshi holomem is <Takane Lui>, you may archive 2 cards from your hand:Deal 50 special damage to your opponent's center holomem or collab holomem."
@@ -840,10 +840,10 @@
         "color": "Red",
         "bloomLevel": "2nd",
         "hp": 190,
-        "collabEffect": "Cooking with the leftovers\nIf your Oshi holomem is <Ichijou Ririka> and there are 2 or more <Struggle Meal> in your archive, draw 2 cards.",
+        "collabEffect": "家にあるもの限界飯:If your Oshi holomem is <Ichijou Ririka> and there are 2 or more <Struggle Meal> in your archive, draw 2 cards.",
         "skills": [
             {
-                "name": "There's nothing there. Help me.",
+                "name": "ガチでなんもない。タスケテ。",
                 "cost": "1 red",
                 "dmg": "70, +50 vs purple",
                 "description": "[Collab position only]Deal 50 damage to your opponent's collab holomem. If your opponent has no collab holomem, deal 50 damage to your opponent's center holomem instead."
@@ -860,7 +860,7 @@
         "hp": 100,
         "skills": [
             {
-                "name": "Moon Pace",
+                "name": "ムーンペース",
                 "cost": "1 any color",
                 "dmg": "20",
                 "description": "If a non-blue cheer is attached to this holomem, deal 10 special damage to 1 of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
@@ -875,10 +875,10 @@
         "color": "Blue",
         "bloomLevel": "Debut",
         "hp": 110,
-        "collabEffect": "Blue Amber\nIf you are going second and this is your first turn, reveal 1 blue cheer from your cheer deck and send it to your <Moona Hoshinova>. Then, shuffle the cheer deck.",
+        "collabEffect": "青い琥珀: If you are going second and this is your first turn, reveal 1 blue cheer from your cheer deck and send it to your <Moona Hoshinova>. Then, shuffle the cheer deck.",
         "skills": [
             {
-                "name": "Dance of Stars",
+                "name": "星々の踊り",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -916,12 +916,12 @@
         "hp": 170,
         "skills": [
             {
-                "name": "Spring Party",
+                "name": "スプリングパーティー",
                 "cost": "1 any color",
                 "dmg": "30"
             },
             {
-                "name": "Affection",
+                "name": "親愛の情",
                 "cost": "1 blue, 1 any color",
                 "dmg": "50",
                 "description": "If your Oshi holomem is <Moona Hoshinova>, you may archive 1 cheer from this holomem:Draw 1 card."
@@ -937,11 +937,11 @@
         "bloomLevel": "1st",
         "hp": 240,
         "buzz": true,
-        "giftEffect": "New Moon\nUsable when this holomem deals Arts damage to your opponent's holomem:Deal the same amount of special damage to the chosen holomem as the amount of damage taken by that holomem.",
+        "giftEffect": "新月: Usable when this holomem deals Arts damage to your opponent's holomem:Deal the same amount of special damage to the chosen holomem as the amount of damage taken by that holomem.",
         "extraEffect": "If this holomem is downed, you get Life-2",
         "skills": [
             {
-                "name": "Waning Moon",
+                "name": "下弦の月",
                 "cost": "1 blue, 1 any color",
                 "dmg": "20+",
                 "description": "If your Oshi holomem is <Moona Hoshinova> and 4 or more cheers are attached to this holomem, this Arts gets +60."
@@ -956,7 +956,7 @@
         "color": "Blue",
         "bloomLevel": "2nd",
         "hp": 200,
-        "collabEffect": "Star Fate\nChoose your opponent's center holomem or collab holomem. Deal the same amount of special damage to the chosen holomem as the amount of damage taken by that holomem.",
+        "collabEffect": "星の運命: Choose your opponent's center holomem or collab holomem. Deal the same amount of special damage to the chosen holomem as the amount of damage taken by that holomem.",
         "skills": [
             {
                 "name": "Tidal Eclipse",
@@ -974,10 +974,10 @@
         "color": "Blue",
         "bloomLevel": "2nd",
         "hp": 200,
-        "bloomEffect": "Deliver on your promises!!\nIf this holomem has a <Yukimin> attached, deal 20 special damage to your opponent's center holomem and draw 1 card. If this holomem has 3 or more <Yukimin> attached, draw 2 cards instead.",
+        "bloomEffect": "有言実行！！: If this holomem has a <Yukimin> attached, deal 20 special damage to your opponent's center holomem and draw 1 card. If this holomem has 3 or more <Yukimin> attached, draw 2 cards instead.",
         "skills": [
             {
-                "name": "A wholesome birthday and the future beyond",
+                "name": "暖かい誕生日とその先へ",
                 "cost": "2 blue, 1 any color",
                 "dmg": "140+, +50 vs white",
                 "description": "This Arts gets +10 for each <Yukimin> attached to this holomem."
@@ -992,10 +992,10 @@
         "color": "Blue",
         "bloomLevel": "2nd",
         "hp": 190,
-        "collabEffect": "Bow wow!!!\nIf your Oshi holomem is <Murasaki Shion>, send 3 cheers from your opponent's archive to your opponent's center holomem. Then, you may send 1 cheer from your archive to your <Murasaki Shion>.",
+        "collabEffect": "ワンワーーン！！！: If your Oshi holomem is <Murasaki Shion>, send 3 cheers from your opponent's archive to your opponent's center holomem. Then, you may send 1 cheer from your archive to your <Murasaki Shion>.",
         "skills": [
             {
-                "name": "The magic we spun together",
+                "name": "二人で紡いだ魔法",
                 "cost": "1 blue, 1 purple",
                 "dmg": "100+, +50 vs red",
                 "description": "Reveal the top 4 cards of your deck. This Arts gets +20 for each holomem revealed. Then, archive the revealed cards. If there is an event among them, draw 2 cards."
@@ -1010,10 +1010,10 @@
         "color": "Blue",
         "bloomLevel": "2nd",
         "hp": 200,
-        "giftEffect": "Going to school with Gyarumata\nIf you have used your SP Oshi Skill \"Life Reset Button\" this game, this holomem's Arts \"Spend your youth with Sakamata?\" has its cost reduced by 1 colorless cheer.",
+        "giftEffect": "ギャル叉と登校: f you have used your SP Oshi Skill \"Life Reset Button\" this game, this holomem's Arts \"Spend your youth with Sakamata?\" has its cost reduced by 1 colorless cheer.",
         "skills": [
             {
-                "name": "Spend your youth with Sakamata?",
+                "name": "沙花叉と青春しよ？",
                 "cost": "2 blue, 2 any color",
                 "dmg": "120+, +50 vs purple",
                 "description": "Reveal the top 6 cards of your deck. This Arts gets +20 for each holomem revealed. Then, archive the revealed cards."
@@ -1045,7 +1045,7 @@
         "color": "Blue",
         "bloomLevel": "1st",
         "hp": 160,
-        "collabEffect": "Yes, Chef.\nDraw 3 cards, then archive 2 cards from your hand.",
+        "collabEffect": "Yes, Chef.: Draw 3 cards, then archive 2 cards from your hand.",
         "skills": [
             {
                 "name": "a chef's journey's end.",
@@ -1063,10 +1063,10 @@
         "color": "Blue",
         "bloomLevel": "1st",
         "hp": 160,
-        "bloomEffect": "Sleepover Party!\nIf you have 3 or more holomem with #EN on your stage, reveal 1 [blue cheer or purple cheer] from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck.",
+        "bloomEffect": "お泊りパーリナイ!: If you have 3 or more holomem with #EN on your stage, reveal 1 [blue cheer or purple cheer] from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck.",
         "skills": [
             {
-                "name": "Sleepy time",
+                "name": "まどろみの中で",
                 "cost": "3 any color",
                 "dmg": "80"
             }
@@ -1105,7 +1105,7 @@
         "hp": 120,
         "skills": [
             {
-                "name": "Sweet times with me",
+                "name": "ボクと過ごす甘いひと",
                 "cost": "1 any color",
                 "dmg": "20",
                 "description": "If a <Roboser> is attached to this holomem, deal 20 special damage to your opponent's center holomem."
@@ -1120,10 +1120,10 @@
         "color": "Purple",
         "bloomLevel": "Debut",
         "hp": 110,
-        "collabEffect": "Let's play with Roboco\nIf you are going second and this is your first turn, reveal 2 <Roboser> from your deck, and add them to hand. Then, shuffle the deck.",
+        "collabEffect": "ロボ子と一緒にあそぼ: If you are going second and this is your first turn, reveal 2 <Roboser> from your deck, and add them to hand. Then, shuffle the deck.",
         "skills": [
             {
-                "name": "You're not alone",
+                "name": "ひとりじゃないよ",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -1137,10 +1137,10 @@
         "color": "Purple",
         "bloomLevel": "1st",
         "hp": 150,
-        "bloomEffect": "Pudding and Kids' Omurice\nIf there is a <Roboser> attached to your holomem, deal 20 special damage to your opponent's center holomem.",
+        "bloomEffect": "プリンとお子様オムライス: If there is a <Roboser> attached to your holomem, deal 20 special damage to your opponent's center holomem.",
         "skills": [
             {
-                "name": "Mmmm Yummy [๑´ڡ`๑]",
+                "name": "んーーーおいしい[๑´ڡ`๑]♡",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -1154,10 +1154,10 @@
         "color": "Purple",
         "bloomLevel": "1st",
         "hp": 160,
-        "collabEffect": "I'm going to play a prank on you!\nIf your Oshi holomem is <Robocosan>, you may archive 1~2 cards from your hand:For each card archived, return 1 <Roboser> from your archive to hand.",
+        "collabEffect": "いたずらしちゃうぞ～！: If your Oshi holomem is <Robocosan>, you may archive 1~2 cards from your hand:For each card archived, return 1 <Roboser> from your archive to hand.",
         "skills": [
             {
-                "name": "Boo!! ...were you surprised?",
+                "name": "がおー！！......ビックリした？",
                 "cost": "1 purple",
                 "dmg": "40"
             }
@@ -1172,11 +1172,11 @@
         "bloomLevel": "1st",
         "hp": 250,
         "buzz": true,
-        "giftEffect": "A word of gratitude\nWhen this holomem uses Arts, if this holomem has bloomed from a 1st holomem, deal 50 special damage to your opponent's center holomem or collab holomem.",
+        "giftEffect": "一言芳恩:When this holomem uses Arts, if this holomem has bloomed from a 1st holomem, deal 50 special damage to your opponent's center holomem or collab holomem.",
         "extraEffect": "If this holomem is downed, you get Life-2",
         "skills": [
             {
-                "name": "Irreplaceable Days",
+                "name": "かけがえのない日々",
                 "cost": "1 purple, 2 any color",
                 "dmg": "90",
                 "description": "If your holomem was downed on your opponent's last turn, this Arts cheer cost is reduced by 1 colorless cheer."
@@ -1191,10 +1191,10 @@
         "color": "Purple",
         "bloomLevel": "2nd",
         "hp": 200,
-        "giftEffect": "dream_CONNECT.zero\n[Center position only]When your collab holomem with #Gen 0 uses Arts, reveal 1 card from your deck and archive it. Then, shuffle the deck.",
+        "giftEffect": "どり～む_コネクト.zero: [Center position only]When your collab holomem with #Gen 0 uses Arts, reveal 1 card from your deck and archive it. Then, shuffle the deck.",
         "skills": [
             {
-                "name": "<Seal> Dark Bridal",
+                "name": "＜封印＞ ダークブライダル",
                 "cost": "2 purple, 1 any color",
                 "dmg": "160, +50 vs yellow",
                 "description": "If this holomem has 3 or more <Roboser> attached, deal 70 special damage to your opponent's center holomem or collab holomem."
@@ -1209,10 +1209,10 @@
         "color": "Purple",
         "bloomLevel": "Debut",
         "hp": 100,
-        "collabEffect": "hololive's Mad Dog\nYou may archive 1 holomem with #GAMERS from your hand:Draw 1 card.",
+        "collabEffect": "ホロライブの狂犬: You may archive 1 holomem with #GAMERS from your hand:Draw 1 card.",
         "skills": [
             {
-                "name": "Gimme your fingers!",
+                "name": "指一本くれや！",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -1226,10 +1226,10 @@
         "color": "Purple",
         "bloomLevel": "1st",
         "hp": 140,
-        "bloomEffect": "Leave it to me\nReveal 1 <Fingers> from your deck, and add it to hand. Then, shuffle the deck. You may only use Bloom Effect \"Leave it to me\" once per turn.",
+        "bloomEffect": "まかしなー:Reveal 1 <Fingers> from your deck, and add it to hand. Then, shuffle the deck. You may only use Bloom Effect \"Leave it to me\" once per turn.",
         "skills": [
             {
-                "name": "Thank you for the congratulations!",
+                "name": "おめでとうをありがとう！",
                 "cost": "2 any color",
                 "dmg": "50",
                 "description": "If there is a support card attached to your holomem, draw 1 card, then archive 1 card from your hand."
@@ -1244,10 +1244,10 @@
         "color": "Purple",
         "bloomLevel": "1st",
         "hp": 160,
-        "collabEffect": "Just keep your eyes on me, okay? ♡\nIf there is a <Fingers> attached to your holomem, draw 1 card.",
+        "collabEffect": "こぉねのことだけ見ててね？♡　:If there is a <Fingers> attached to your holomem, draw 1 card.",
         "skills": [
             {
-                "name": "Shibakiage Punching",
+                "name": "しばきあげパンチング",
                 "cost": "1 any color",
                 "dmg": "30+",
                 "description": "If this holomem was unrested this turn by your Oshi Skill \"Infinite Stamina\", this Arts gets +50."
@@ -1262,10 +1262,10 @@
         "color": "Purple",
         "bloomLevel": "2nd",
         "hp": 210,
-        "giftEffect": "Wan-der Viking\n[Center position only][1/Turn]You may return 1 <Fingers> from your stage to the bottom of your deck:During this turn, this holomem's Arts cheer cost is reduced by 2 colorless cheer.",
+        "giftEffect": "ワンダーヴァイキング: [Center position only][1/Turn]You may return 1 <Fingers> from your stage to the bottom of your deck:During this turn, this holomem's Arts cheer cost is reduced by 2 colorless cheer.",
         "skills": [
             {
-                "name": "Wow Wow Axe of the End",
+                "name": "終焉のウォウウォウアックス",
                 "cost": "4 any color",
                 "dmg": "170+, +50 vs green",
                 "description": "If you have used your Oshi Skill \"Infinite Stamina\" this turn, this Arts gets +40."
@@ -1282,13 +1282,13 @@
         "hp": 200,
         "skills": [
             {
-                "name": "Together with La+!",
+                "name": "らぷらすといっしょ！",
                 "cost": "2 purple",
                 "dmg": "80+, +50 vs yellow",
                 "description": "Roll a die 3 times. This Arts gets +20 for each odd number rolled."
             },
             {
-                "name": "Everyone, heed my call!",
+                "name": "みんなかつもくせよ！",
                 "cost": "5 purple",
                 "dmg": "150, +50 vs yellow",
                 "description": "Roll a die 5 times. For each odd number rolled, draw 1 card and deal 30 special damage to your opponent's center holomem and collab holomem."
@@ -1303,10 +1303,10 @@
         "color": "Yellow",
         "bloomLevel": "Debut",
         "hp": 100,
-        "giftEffect": "Did you think you could win?\nThis holomem takes -30 Arts damage from your opponent's 1st holomem.",
+        "giftEffect": "勝てると思った？ This holomem takes -30 Arts damage from your opponent's 1st holomem.",
         "skills": [
             {
-                "name": "Disappointment",
+                "name": "ざんね～ん",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -1320,10 +1320,10 @@
         "color": "Yellow",
         "bloomLevel": "Debut",
         "hp": 110,
-        "collabEffect": "Will you stay with me...?\nIf you are going second, this is your first turn, and your Oshi holomem is <Natsuiro Matsuri>, reveal 1 Limited support card from your deck and add it to hand. Then, shuffle the deck.",
+        "collabEffect": "いっしょに居てくれる…？: If you are going second, this is your first turn, and your Oshi holomem is <Natsuiro Matsuri>, reveal 1 Limited support card from your deck and add it to hand. Then, shuffle the deck.",
         "skills": [
             {
-                "name": "Thank you",
+                "name": "ありがとっ",
                 "cost": "1 any color",
                 "dmg": "10"
             }
@@ -1337,7 +1337,7 @@
         "color": "Yellow",
         "bloomLevel": "1st",
         "hp": 140,
-        "collabEffect": "Tenshi Kaiwai\nDuring this turn, your center holomem gets Arts+10 for each support card you used this turn. However, only up to 3 cards are counted.",
+        "collabEffect": "天使界隈: During this turn, your center holomem gets Arts+10 for each support card you used this turn. However, only up to 3 cards are counted.",
         "skills": [
             {
                 "name": "CURE PALE",
@@ -1356,12 +1356,12 @@
         "hp": 160,
         "skills": [
             {
-                "name": "Tonight, dance the night!",
+                "name": "今夜はdance the night!",
                 "cost": "1 yellow, 1 any color",
                 "dmg": "50"
             },
             {
-                "name": "I'll do my best at dance lessons!",
+                "name": "ダンスレッスン頑張るぞ！",
                 "cost": "2 yellow, 1 any color",
                 "dmg": "80+",
                 "description": "Roll a die once for every [mascot and fan] on your stage. This Arts gets +10 for each time it is 4 or greater. However, the die can be rolled only up to 4 times."
@@ -1377,11 +1377,11 @@
         "bloomLevel": "1st",
         "hp": 250,
         "buzz": true,
-        "bloomEffect": "Let's go performing!\nReveal 1 [<Ebifrion> or <Matsurisu>] from your deck, and add it to hand. Then, shuffle the deck.",
+        "bloomEffect": "レッツパフォーミング　: Reveal 1 [<Ebifrion> or <Matsurisu>] from your deck, and add it to hand. Then, shuffle the deck.",
         "extraEffect": "If this holomem is downed, you get Life-2",
         "skills": [
             {
-                "name": "Fall in love with Matsuri-chan ♥",
+                "name": "まつりちゃんにメロメロになれよ❤︎",
                 "cost": "1 yellow, 1 any color",
                 "dmg": "50+",
                 "description": "If the target of this Arts is your opponent's 2nd holomem, and you have used a Limited event this turn, this Arts gets +70."
@@ -1396,10 +1396,10 @@
         "color": "Yellow",
         "bloomLevel": "2nd",
         "hp": 200,
-        "bloomEffect": "Re:START\nIf your life is equal to or less than your opponent's life, you may send the top card of your cheer deck to your <Natsuiro Matsuri>.",
+        "bloomEffect": "Re:START: If your life is equal to or less than your opponent's life, you may send the top card of your cheer deck to your <Natsuiro Matsuri>.",
         "skills": [
             {
-                "name": "Never give up!! Natsuiro Soul",
+                "name": "Never give up!! 夏色魂",
                 "cost": "2 yellow, 1 any color",
                 "dmg": "140+, +50 vs blue",
                 "description": "The Arts gets +30 for each Limited support card you used this turn."
@@ -1414,10 +1414,10 @@
         "color": "Yellow",
         "bloomLevel": "Debut",
         "hp": 100,
-        "collabEffect": "Earth & Terra\nYou may archive 1 cheer from this holomem:Reveal 1 Debut holomem with the same name as your Oshi holomem from your deck, and add it to hand. Then, shuffle the deck.",
+        "collabEffect": "地球&テラ:You may archive 1 cheer from this holomem:Reveal 1 Debut holomem with the same name as your Oshi holomem from your deck, and add it to hand. Then, shuffle the deck.",
         "skills": [
             {
-                "name": "For now, I'll do my best with POWER!!!!",
+                "name": "取り敢えずPOWERで頑張るっす！！！！",
                 "cost": "1 any color",
                 "dmg": "20"
             }
@@ -1431,10 +1431,10 @@
         "color": "Yellow",
         "bloomLevel": "1st",
         "hp": 140,
-        "collabEffect": "Subaru Duck Dance\nYou may send 1 cheer from your archive to this holomem.",
+        "collabEffect": "Subaru Duck Dance: You may send 1 cheer from your archive to this holomem.",
         "skills": [
             {
-                "name": "Sound of ripples",
+                "name": "さ゛さ゛な゛み゛の゛音゛",
                 "cost": "1 any color",
                 "dmg": "30"
             }
@@ -1448,10 +1448,10 @@
         "color": "Yellow",
         "bloomLevel": "1st",
         "hp": 130,
-        "bloomEffect": "Let's Hold Hands\nReveal 1 [<Subarudo Duck> or <Subatomo>] from your deck, and add it to hand. Then, shuffle the deck.",
+        "bloomEffect": "手を繋ごう: Reveal 1 [<Subarudo Duck> or <Subatomo>] from your deck, and add it to hand. Then, shuffle the deck.",
         "skills": [
             {
-                "name": "I can go anywhere",
+                "name": "どこへだって行ける",
                 "cost": "2 yellow",
                 "dmg": "60+",
                 "description": "This Arts gets +20 for every <Subatomo> attached to this holomem."
@@ -1466,7 +1466,7 @@
         "color": "Yellow",
         "bloomLevel": "2nd",
         "hp": 200,
-        "bloomEffect": "Dispatch! The chaotic Oozora Police!!\nIf your Oshi holomem is <Oozora Subaru>, you may archive 1 cheer from your stage:Reveal 1 <Oozora Subaru> from your deck, and add it to hand. Then, shuffle the deck.",
+        "bloomEffect": "出動！ ドタバタ大空警察!!: If your Oshi holomem is <Oozora Subaru>, you may archive 1 cheer from your stage:Reveal 1 <Oozora Subaru> from your deck, and add it to hand. Then, shuffle the deck.",
         "skills": [
             {
                 "name": "GUILTY or INNOCENT",
@@ -1484,10 +1484,10 @@
         "color": "Yellow",
         "bloomLevel": "2nd",
         "hp": 200,
-        "giftEffect": "The city that never sleeps\n[Collab position only]If your Oshi holomem is <Anya Melfissa>, your [center holomem and collab holomem] with an <Ancient Weapon> attached take -30 Arts damage.",
+        "giftEffect": "眠らない街:　[Collab position only]If your Oshi holomem is <Anya Melfissa>, your [center holomem and collab holomem] with an <Ancient Weapon> attached take -30 Arts damage.",
         "skills": [
             {
-                "name": "Strange Visitor",
+                "name": "奇妙な来客",
                 "cost": "1 yellow",
                 "dmg": "70, +50 vs blue",
                 "description": "If you used your Oshi skill \"Mystical Ritual\" this turn, you may return 1~3 <Anya Melfissa> from your archive to hand."
@@ -1502,11 +1502,11 @@
         "color": "Yellow",
         "bloomLevel": "1st",
         "hp": 170,
-        "collabEffect": "The end of the story\nYou may reveal 1 <Oozora Subaru> from your hand and return it to the bottom of your deck:Return 1 <Tsunomaki Watame> or <Oozora Subaru> from your archive to hand.",
+        "collabEffect": "おしまいのあじまり: You may reveal 1 <Oozora Subaru> from your hand and return it to the bottom of your deck:Return 1 <Tsunomaki Watame> or <Oozora Subaru> from your archive to hand.",
         "extraEffect": "This holomem is also regarded as <Tsunomaki Watame> <Oozora Subaru>",
         "skills": [
             {
-                "name": "I am Subaru & Watame! Yeah!!",
+                "name": "I am スバル＆わため！ Yeah！！",
                 "cost": "3 yellow",
                 "dmg": "80",
                 "description": "[Collab position only]If your Oshi holomem is <Tsunomaki Watame> or <Oozora Subaru>, the cheer cost of this Arts is reduced by 1 yellow cheer. If your center holomem is a 2nd <Tsunomaki Watame>, the cheer cost of this Arts is reduced by 3 yellow cheer instead."
@@ -1520,11 +1520,11 @@
         "rarity": "U",
         "bloomLevel": "Spot",
         "hp": 150,
-        "giftEffect": "\"Konkoyo\", I wonder if that's getting old?\nWhen this holomem moves to the back position using Baton Pass, during this turn, 1 of your <Hakui Koyori> gets Arts+20.",
+        "giftEffect": "「こんこよ」、古くなっちゃったかな？ : When this holomem moves to the back position using Baton Pass, during this turn, 1 of your <Hakui Koyori> gets Arts+20.",
         "extraEffect": "This holomem cannot Bloom",
         "skills": [
             {
-                "name": "Happy Leaf!",
+                "name": "「ハッピーリーフ！」",
                 "cost": "1 any color",
                 "dmg": "30"
             }
