@@ -1,0 +1,66 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/jules/.pyenv/versions/3.12.12/lib/python3.12/http/server.py", line 1314, in <module>
+    test(
+  File "/home/jules/.pyenv/versions/3.12.12/lib/python3.12/http/server.py", line 1261, in test
+    with ServerClass(addr, HandlerClass) as httpd:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jules/.pyenv/versions/3.12.12/lib/python3.12/socketserver.py", line 457, in __init__
+    self.server_bind()
+  File "/home/jules/.pyenv/versions/3.12.12/lib/python3.12/http/server.py", line 1308, in server_bind
+    return super().server_bind()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jules/.pyenv/versions/3.12.12/lib/python3.12/http/server.py", line 136, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/home/jules/.pyenv/versions/3.12.12/lib/python3.12/socketserver.py", line 478, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+127.0.0.1 - - [13/Dec/2025 13:35:06] "GET /deckbuilder.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:06] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:06] "GET /deckbuilder.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:06] "GET /deckbuilder.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hSD02.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hSD01.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hSD04.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hSD03.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hSD05.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hSD06.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hSD10.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hSD08.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hSD11.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hBP01.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hSD09.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hSD07.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hBP03.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hBP05.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hBP02.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hBP04.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hPR.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hBP06.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hY01.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:35:07] "GET /hY.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /deckbuilder.html HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /deckbuilder.js HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /deckbuilder.css HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hSD01.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hSD03.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hSD02.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hSD06.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hSD05.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hSD07.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hSD04.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hSD08.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hSD09.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hSD10.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hSD11.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hBP01.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hBP04.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hBP05.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hBP03.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hBP02.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hBP06.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hY.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hY01.json HTTP/1.1" 200 -
+127.0.0.1 - - [13/Dec/2025 13:39:52] "GET /hPR.json HTTP/1.1" 200 -
