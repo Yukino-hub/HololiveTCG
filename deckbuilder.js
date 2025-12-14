@@ -5,7 +5,58 @@ document.addEventListener('DOMContentLoaded', function() {
     const seriesFilter = document.getElementById('seriesFilter');
     const rarityFilter = document.getElementById('rarityFilter');
     const bloomTypeFilter = document.getElementById('bloomTypeFilter');
-    // const altArtCheckbox = document.getElementById('altArtCheckbox'); // Only kept alt art for simplicity in UI, if needed add others
+
+    // Modal Elements
+    const modal = document.getElementById('modal');
+    const modalCloseIcon = document.getElementById('modalCloseIcon');
+    const modalImage = document.getElementById('modalImage');
+    const modalCardName = document.getElementById('modalCardName');
+    const modalAddBtn = document.getElementById('modalAddBtn');
+
+    // Modal Detail Elements
+    const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
+    const modalCardTagsContainer = document.getElementById('modalCardTagsContainer');
+    const modalRarityContainer = document.getElementById('modalRarityContainer');
+    const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
+    const modalHPContainer = document.getElementById('modalHPContainer');
+    const modalColorContainer = document.getElementById('modalColorContainer');
+    const modalLivesContainer = document.getElementById('modalLivesContainer');
+    const modalBuzzContainer = document.getElementById('modalBuzzContainer');
+    const modalTypeContainer = document.getElementById('modalTypeContainer');
+    const modalAbilityContainer = document.getElementById('modalAbilityContainer');
+    const modalCollabEffectContainer = document.getElementById('modalCollabEffectContainer');
+    const modalBloomEffectContainer = document.getElementById('modalBloomEffectContainer');
+    const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
+    const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
+    const modalSourcesContainer = document.getElementById('modalSourcesContainer');
+
+    const modalCardNumber = document.getElementById('modalCardNumber');
+    const modalCardTags = document.getElementById('modalCardTags');
+    const modalRarity = document.getElementById('modalRarity');
+    const modalBloomLevel = document.getElementById('modalBloomLevel');
+    const modalHP = document.getElementById('modalHP');
+    const modalColor = document.getElementById('modalColor');
+    const modalLives = document.getElementById('modalLives');
+    const modalBuzz = document.getElementById('modalBuzz');
+    const modalType = document.getElementById('modalType');
+    const modalAbility = document.getElementById('modalAbility');
+    const modalCollabEffect = document.getElementById('modalCollabEffect');
+    const modalBloomEffect = document.getElementById('modalBloomEffect');
+    const modalGiftEffect = document.getElementById('modalGiftEffect');
+    const modalExtraEffect = document.getElementById('modalExtraEffect');
+    const modalSources = document.getElementById('modalSources');
+
+    const modalOshiSkill = document.getElementById('modalOshiSkill');
+    const modalOshiSkillName = document.getElementById('modalOshiSkillName');
+    const modalOshiSkillPower = document.getElementById('modalOshiSkillPower');
+    const modalOshiSkillDescription = document.getElementById('modalOshiSkillDescription');
+
+    const modalSpOshiSkill = document.getElementById('modalSpOshiSkill');
+    const modalSpOshiSkillName = document.getElementById('modalSpOshiSkillName');
+    const modalSpOshiSkillPower = document.getElementById('modalSpOshiSkillPower');
+    const modalSpOshiSkillDescription = document.getElementById('modalSpOshiSkillDescription');
+
+    const modalSkills = document.getElementById('modalSkills');
 
     // Deck State
     const deck = {
@@ -31,6 +82,9 @@ document.addEventListener('DOMContentLoaded', function() {
         'hY01.json',
         'hY.json'
     ];
+
+    // Variable to track currently selected card for modal
+    let currentModalCard = null;
 
     function debounce(func, delay) {
         let timeout;
@@ -78,12 +132,16 @@ document.addEventListener('DOMContentLoaded', function() {
             <button class="add-btn">Add</button>
         `;
 
+        // Open modal on click (excluding the add button)
+        cardElement.addEventListener('click', () => {
+            openModal(card);
+        });
+
+        // Add button specific handler
         cardElement.querySelector('.add-btn').addEventListener('click', (e) => {
             e.stopPropagation();
             addToDeck(card);
         });
-
-        // Optional: Open modal on click (omitted for brevity, can add later if requested)
 
         return cardElement;
     }
@@ -91,9 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function displayCards(cardsToShow) {
         contentContainer.innerHTML = '';
         const fragment = document.createDocumentFragment();
-        // Limit to first 100 to avoid lag, add pagination or infinite scroll later if needed
-        // For now, just show first 50 or so, or implement virtual scroll.
-        // Actually, user filters are powerful enough. Let's show a reasonable amount or all if filtered.
+        // Limit to avoid lag
         const limit = cardsToShow.length > 200 ? 200 : cardsToShow.length;
 
         for(let i=0; i<limit; i++) {
@@ -135,7 +191,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const selectedBloomType = bloomTypeFilter.value;
 
         filteredCardData = allCardData.filter(card => {
-            // Reusing basic logic
              const matchesSearch = !searchText ||
                 card.name.toLowerCase().includes(searchText) ||
                 card.cardNumber.toLowerCase().includes(searchText) ||
@@ -150,21 +205,126 @@ document.addEventListener('DOMContentLoaded', function() {
         displayCards(filteredCardData);
     }
 
+    // --- Modal Logic ---
+    function openModal(card) {
+        currentModalCard = card;
+        const modalImageContainer = document.getElementById('modalImageContainer');
+        modalImageContainer.innerHTML = '';
+
+        const imageUrl = getImageUrl(card);
+
+        const primaryImage = document.createElement('img');
+        primaryImage.src = imageUrl;
+        primaryImage.alt = card.name;
+        modalImageContainer.appendChild(primaryImage);
+
+        modalCardName.textContent = card.name || '';
+        modalCardNumber.textContent = card.cardNumber || '';
+        modalCardTags.textContent = card.tag || '';
+        modalRarity.textContent = card.rarity || '';
+        modalBloomLevel.textContent = card.bloomLevel || '';
+        modalHP.textContent = card.hp || '';
+        modalColor.textContent = card.color || '';
+        modalLives.textContent = card.lives || '';
+        modalBuzz.textContent = card.buzz || '';
+        modalType.textContent = card.type || '';
+        modalAbility.textContent = card.ability || '';
+        modalCollabEffect.textContent = card.collabEffect || '';
+        modalBloomEffect.textContent = card.bloomEffect || '';
+        modalGiftEffect.textContent = card.giftEffect || '';
+        modalExtraEffect.textContent = card.extraEffect || '';
+        modalSources.textContent = card.source || '';
+
+        toggleVisibility(modalCardNumberContainer, card.cardNumber);
+        toggleVisibility(modalCardTagsContainer, card.tag);
+        toggleVisibility(modalRarityContainer, card.rarity);
+        toggleVisibility(modalBloomLevelContainer, card.bloomLevel);
+        toggleVisibility(modalHPContainer, card.hp);
+        toggleVisibility(modalColorContainer, card.color);
+        toggleVisibility(modalLivesContainer, card.lives);
+        toggleVisibility(modalBuzzContainer, card.buzz);
+        toggleVisibility(modalTypeContainer, card.type);
+        toggleVisibility(modalAbilityContainer, card.ability);
+        toggleVisibility(modalCollabEffectContainer, card.collabEffect);
+        toggleVisibility(modalBloomEffectContainer, card.bloomEffect);
+        toggleVisibility(modalGiftEffectContainer, card.giftEffect);
+        toggleVisibility(modalExtraEffectContainer, card.extraEffect);
+        toggleVisibility(modalSourcesContainer, card.source);
+
+        if (card.oshiSkill) {
+            modalOshiSkill.classList.remove('hidden');
+            modalOshiSkillName.textContent = card.oshiSkill.name || '';
+            modalOshiSkillPower.textContent = card.oshiSkill.power || '';
+            modalOshiSkillDescription.textContent = card.oshiSkill.description || '';
+        } else {
+            modalOshiSkill.classList.add('hidden');
+        }
+
+        if (card.spOshiSkill) {
+            modalSpOshiSkill.classList.remove('hidden');
+            modalSpOshiSkillName.textContent = card.spOshiSkill.name || '';
+            modalSpOshiSkillPower.textContent = card.spOshiSkill.power || '';
+            modalSpOshiSkillDescription.textContent = card.spOshiSkill.description || '';
+        } else {
+            modalSpOshiSkill.classList.add('hidden');
+        }
+        // Skills
+        if (card.skills && card.skills.length > 0) {
+            modalSkills.innerHTML = '<h3>Skills</h3>';
+            card.skills.forEach(skill => {
+                const skillContainer = document.createElement('div');
+
+                const skillNameP = document.createElement('p');
+                skillNameP.classList.add('modal-skill');
+                skillNameP.innerHTML = `<strong>Skill Name:</strong> ${skill.name}`;
+                skillContainer.appendChild(skillNameP);
+
+                const skillDmgP = document.createElement('p');
+                skillDmgP.innerHTML = `<strong>DMG:</strong> ${skill.dmg || ''}`;
+                skillContainer.appendChild(skillDmgP);
+
+                if (skill.description) {
+                    const skillDescP = document.createElement('p');
+                    const strongTag = document.createElement('strong');
+                    strongTag.textContent = 'Arts Effect: ';
+
+                    skillDescP.appendChild(strongTag);
+                    skillDescP.append(skill.description);
+                    skillContainer.appendChild(skillDescP);
+                }
+
+                modalSkills.appendChild(skillContainer);
+            });
+            modalSkills.classList.remove('hidden');
+        } else {
+            modalSkills.classList.add('hidden');
+        }
+
+        modal.style.display = 'flex';
+    }
+
+    function closeModal(event) {
+        if (event) event.stopPropagation();
+        modal.style.display = 'none';
+        currentModalCard = null;
+    }
+
+    function toggleVisibility(element, value) {
+        if (!value || value === 'N/A') {
+            element.classList.add('hidden');
+        } else {
+            element.classList.remove('hidden');
+        }
+    }
+
     // --- Deck Management ---
 
     function addToDeck(card) {
-        // Determine if Oshi or Main deck based on card type
-        // Usually Oshi cards have rarity 'OSR' or are specific types?
-        // Let's assume user decides or we infer from card data.
-        // The project has 'oshiSkill' field. If it has oshiSkill, it's an Oshi card?
-        // Or checking card type == 'Oshi'? (I need to check data structure)
-
         // Determine if Oshi or Main deck based on card type
         const isOshi = card.type === 'Oshi' || card.cardType === 'Oshi' || (card.oshiSkill && card.oshiSkill.name) || card.rarity === 'OSR';
 
         if (isOshi) {
             // Add to Oshi deck
-            // Check duplicates if needed? Oshi deck usually allows different oshis?
             deck.oshi.push(card);
         } else {
             // Add to Main deck
@@ -252,6 +412,24 @@ document.addEventListener('DOMContentLoaded', function() {
     seriesFilter.addEventListener('change', filterCards);
     rarityFilter.addEventListener('change', filterCards);
     bloomTypeFilter.addEventListener('change', filterCards);
+
+    if (modalCloseIcon) {
+        modalCloseIcon.addEventListener('click', closeModal);
+    }
+
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            closeModal();
+        }
+    });
+
+    modalAddBtn.addEventListener('click', () => {
+        if (currentModalCard) {
+            addToDeck(currentModalCard);
+            // Optionally close modal after adding, or keep open to see details
+            // user feedback: maybe a small toast? For now just add.
+        }
+    });
 
     // Initial Load
     loadCardData();

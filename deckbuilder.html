@@ -135,17 +135,43 @@
     </div>
 
     <!-- Modal for Card Details (Same as index.html) -->
-    <div id="modal" class="modal" onclick="closeModal(event)">
-        <div class="modal-content" onclick="event.stopPropagation()">
+    <div id="modal" class="modal">
+        <div class="modal-content">
             <span id="modalCloseIcon" class="modal-close">&times;</span>
             <div id="modalImageContainer" class="image-scroll">
                 <img id="modalImage" data-src="" alt="" class="lazy-load" loading="lazy">
             </div>
             <div id="modalText">
                 <h3 id="modalCardName"></h3>
-                <button id="modalAddBtn">Add to Deck</button>
+                <button id="modalAddBtn" class="add-btn" style="margin-bottom: 10px;">Add to Deck</button>
                 <p id="modalCardNumberContainer"><strong>Card Number:</strong> <span id="modalCardNumber"></span></p>
-                <!-- Add other details as needed -->
+                <p id="modalCardTagsContainer"><strong>Tags:</strong> <span id="modalCardTags"></span></p>
+                <p id="modalRarityContainer"><strong>Rarity:</strong> <span id="modalRarity"></span></p>
+                <p id="modalBloomLevelContainer"><strong>Bloom Level:</strong> <span id="modalBloomLevel"></span></p>
+                <p id="modalHPContainer"><strong>HP:</strong> <span id="modalHP"></span></p>
+                <p id="modalColorContainer"><strong>Color:</strong> <span id="modalColor"></span></p>
+                <p id="modalLivesContainer"><strong>Lives:</strong> <span id="modalLives"></span></p>
+                <p id="modalBuzzContainer"><strong>Buzz:</strong> <span id="modalBuzz"></span></p>
+                <p id="modalTypeContainer"><strong>Type:</strong> <span id="modalType"></span></p>
+                <p id="modalAbilityContainer"><strong>Ability:</strong> <span id="modalAbility"></span></p>
+                <p id="modalCollabEffectContainer"><strong>Collab Effect:</strong> <span id="modalCollabEffect"></span></p>
+                <p id="modalBloomEffectContainer"><strong>Bloom Effect:</strong> <span id="modalBloomEffect"></span></p>
+                <p id="modalGiftEffectContainer"><strong>Gift:</strong> <span id="modalGiftEffect"></span></p>
+                <div id="modalOshiSkill" class="hidden">
+                    <p><strong>Oshi Skill Name:</strong> <span id="modalOshiSkillName"></span></p>
+                    <p><strong>Power Cost:</strong> <span id="modalOshiSkillPower"></span></p>
+                    <p><strong>Description:</strong> <span id="modalOshiSkillDescription"></span></p>
+                </div>
+                <div id="modalSpOshiSkill" class="hidden">
+                    <p><strong>SP Oshi Skill Name:</strong> <span id="modalSpOshiSkillName"></span></p>
+                    <p><strong>Power Cost:</strong> <span id="modalSpOshiSkillPower"></span></p>
+                    <p><strong>Description:</strong> <span id="modalSpOshiSkillDescription"></span></p>
+                </div>
+                <div id="modalSkills" class="skills hidden">
+                    <h3>Skills</h3>
+                </div>
+                <p id="modalExtraEffectContainer"><strong>Extra Effect:</strong> <span id="modalExtraEffect"></span></p>
+                <p id="modalSourcesContainer"><strong>Sources:</strong> <span id="modalSources"></span></p>
             </div>
         </div>
     </div>
