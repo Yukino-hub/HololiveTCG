@@ -120,26 +120,15 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
 
-    function getCardCount(card) {
-        // Count in both oshi and main deck
-        const oshiCount = deck.oshi.filter(c => c.cardNumber === card.cardNumber).length;
-        const mainCount = deck.main.filter(c => c.cardNumber === card.cardNumber).length;
-        return oshiCount + mainCount;
-    }
-
     function createCardElement(card) {
         const cardElement = document.createElement('div');
         cardElement.classList.add('card');
-        cardElement.dataset.cardNumber = card.cardNumber; // Add data attribute
-
         const imageUrl = getImageUrl(card);
-        const count = getCardCount(card);
 
         cardElement.innerHTML = `
             <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
             <p><strong>${card.name}</strong></p>
             <p>${card.cardNumber}</p>
-            <p class="card-quantity ${count > 0 ? 'active' : ''}">In Deck: ${count}</p>
             <button class="add-btn">Add</button>
         `;
 
@@ -175,23 +164,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         contentContainer.appendChild(fragment);
         initializeLazyLoading();
-    }
-
-    function updateCardGridQuantity(card) {
-        const count = getCardCount(card);
-        const cardElements = document.querySelectorAll(`.card[data-card-number="${card.cardNumber}"]`);
-
-        cardElements.forEach(el => {
-            const quantityEl = el.querySelector('.card-quantity');
-            if (quantityEl) {
-                quantityEl.textContent = `In Deck: ${count}`;
-                if (count > 0) {
-                    quantityEl.classList.add('active');
-                } else {
-                    quantityEl.classList.remove('active');
-                }
-            }
-        });
     }
 
     function initializeLazyLoading() {
@@ -353,10 +325,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (isOshi) {
             // Add to Oshi deck
-            if (deck.oshi.length >= 1) {
-                alert("You can only have 1 Oshi card.");
-                return;
-            }
             deck.oshi.push(card);
         } else {
             // Add to Main deck
@@ -373,36 +341,28 @@ document.addEventListener('DOMContentLoaded', function() {
             deck.main.push(card);
         }
         updateDeckUI();
-        updateCardGridQuantity(card);
     }
 
-    function removeOneInstanceFromDeck(listType, cardNumber) {
-        const list = listType === 'oshi' ? deck.oshi : deck.main;
-        const index = list.findIndex(c => c.cardNumber === cardNumber);
-
-        if (index !== -1) {
-            const card = list[index];
-            list.splice(index, 1);
-            updateDeckUI();
-            updateCardGridQuantity(card);
+    function removeFromDeck(listType, index) {
+        if (listType === 'oshi') {
+            deck.oshi.splice(index, 1);
+        } else {
+            deck.main.splice(index, 1);
         }
+        updateDeckUI();
     }
 
     function updateDeckUI() {
         oshiListEl.innerHTML = '';
         mainDeckListEl.innerHTML = '';
 
-        // Group cards by cardNumber
-        const groupedOshi = groupCards(deck.oshi);
-        const groupedMain = groupCards(deck.main);
-
-        groupedOshi.forEach(group => {
-            const el = createDeckListElement(group, 'oshi');
+        deck.oshi.forEach((card, index) => {
+            const el = createDeckListElement(card, 'oshi', index);
             oshiListEl.appendChild(el);
         });
 
-        groupedMain.forEach(group => {
-            const el = createDeckListElement(group, 'main');
+        deck.main.forEach((card, index) => {
+            const el = createDeckListElement(card, 'main', index);
             mainDeckListEl.appendChild(el);
         });
 
@@ -412,54 +372,19 @@ document.addEventListener('DOMContentLoaded', function() {
         validateDeck();
     }
 
-    function groupCards(cardList) {
-        const groups = {};
-        cardList.forEach(card => {
-            if (!groups[card.cardNumber]) {
-                groups[card.cardNumber] = {
-                    card: card,
-                    count: 0
-                };
-            }
-            groups[card.cardNumber].count++;
-        });
-        return Object.values(groups);
-    }
-
-    function createDeckListElement(group, listType) {
-        const card = group.card;
-        const count = group.count;
+    function createDeckListElement(card, listType, index) {
         const div = document.createElement('div');
         div.classList.add('deck-card-item');
-
-        const imageUrl = getImageUrl(card);
-
         div.innerHTML = `
-            <img src="${imageUrl}" alt="${card.name}" class="deck-card-thumb">
-            <div class="deck-card-info">
-                <div class="card-name" title="${card.name}">${card.name}</div>
-                <div class="card-id">${card.cardNumber}</div>
-            </div>
-            <div class="deck-card-quantity">x${count}</div>
-            <button class="remove-btn" title="Remove one copy">-</button>
+            <span class="card-name" title="${card.name}">${card.name} (${card.cardNumber})</span>
+            <button class="remove-btn">x</button>
         `;
-
-        // Click to open modal
-        div.addEventListener('click', () => {
-             openModal(card);
-        });
-
-        // Remove button
-        div.querySelector('.remove-btn').addEventListener('click', (e) => {
-            e.stopPropagation(); // Prevent opening modal
-            removeOneInstanceFromDeck(listType, card.cardNumber);
-        });
-
+        div.querySelector('.remove-btn').addEventListener('click', () => removeFromDeck(listType, index));
         return div;
     }
 
     function validateDeck() {
-        const oshiValid = deck.oshi.length === 1;
+        const oshiValid = deck.oshi.length >= 1;
         const deckValid = deck.main.length === 50;
 
         if (oshiValid && deckValid) {
@@ -467,7 +392,7 @@ document.addEventListener('DOMContentLoaded', function() {
             deckValidationStatusEl.className = "valid";
         } else {
             let msg = "Invalid Deck: ";
-            if (!oshiValid) msg += "Need exactly 1 Oshi. ";
+            if (!oshiValid) msg += "Need at least 1 Oshi. ";
             if (!deckValid) msg += `Need 50 cards (have ${deck.main.length}).`;
             deckValidationStatusEl.textContent = msg;
             deckValidationStatusEl.className = "invalid";
@@ -476,14 +401,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     clearDeckBtn.addEventListener('click', () => {
         if(confirm("Clear current deck?")) {
-            const allCardsInDeck = [...deck.oshi, ...deck.main];
             deck.oshi = [];
             deck.main = [];
             updateDeckUI();
-
-            // Unique cards to avoid multiple updates for same card
-            const uniqueCards = [...new Map(allCardsInDeck.map(item => [item.cardNumber, item])).values()];
-            uniqueCards.forEach(c => updateCardGridQuantity(c));
         }
     });
 
