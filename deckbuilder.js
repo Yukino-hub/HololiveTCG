@@ -353,6 +353,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (isOshi) {
             // Add to Oshi deck
+            if (deck.oshi.length >= 1) {
+                alert("You can only have 1 Oshi card.");
+                return;
+            }
             deck.oshi.push(card);
         } else {
             // Add to Main deck
@@ -455,7 +459,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function validateDeck() {
-        const oshiValid = deck.oshi.length >= 1;
+        const oshiValid = deck.oshi.length === 1;
         const deckValid = deck.main.length === 50;
 
         if (oshiValid && deckValid) {
@@ -463,7 +467,7 @@ document.addEventListener('DOMContentLoaded', function() {
             deckValidationStatusEl.className = "valid";
         } else {
             let msg = "Invalid Deck: ";
-            if (!oshiValid) msg += "Need at least 1 Oshi. ";
+            if (!oshiValid) msg += "Need exactly 1 Oshi. ";
             if (!deckValid) msg += `Need 50 cards (have ${deck.main.length}).`;
             deckValidationStatusEl.textContent = msg;
             deckValidationStatusEl.className = "invalid";
