@@ -372,30 +372,33 @@ document.addEventListener('DOMContentLoaded', function() {
         updateCardGridQuantity(card);
     }
 
-    function removeFromDeck(listType, index) {
-        let card;
-        if (listType === 'oshi') {
-            card = deck.oshi[index];
-            deck.oshi.splice(index, 1);
-        } else {
-            card = deck.main[index];
-            deck.main.splice(index, 1);
+    function removeOneInstanceFromDeck(listType, cardNumber) {
+        const list = listType === 'oshi' ? deck.oshi : deck.main;
+        const index = list.findIndex(c => c.cardNumber === cardNumber);
+
+        if (index !== -1) {
+            const card = list[index];
+            list.splice(index, 1);
+            updateDeckUI();
+            updateCardGridQuantity(card);
         }
-        updateDeckUI();
-        updateCardGridQuantity(card);
     }
 
     function updateDeckUI() {
         oshiListEl.innerHTML = '';
         mainDeckListEl.innerHTML = '';
 
-        deck.oshi.forEach((card, index) => {
-            const el = createDeckListElement(card, 'oshi', index);
+        // Group cards by cardNumber
+        const groupedOshi = groupCards(deck.oshi);
+        const groupedMain = groupCards(deck.main);
+
+        groupedOshi.forEach(group => {
+            const el = createDeckListElement(group, 'oshi');
             oshiListEl.appendChild(el);
         });
 
-        deck.main.forEach((card, index) => {
-            const el = createDeckListElement(card, 'main', index);
+        groupedMain.forEach(group => {
+            const el = createDeckListElement(group, 'main');
             mainDeckListEl.appendChild(el);
         });
 
@@ -405,14 +408,49 @@ document.addEventListener('DOMContentLoaded', function() {
         validateDeck();
     }
 
-    function createDeckListElement(card, listType, index) {
+    function groupCards(cardList) {
+        const groups = {};
+        cardList.forEach(card => {
+            if (!groups[card.cardNumber]) {
+                groups[card.cardNumber] = {
+                    card: card,
+                    count: 0
+                };
+            }
+            groups[card.cardNumber].count++;
+        });
+        return Object.values(groups);
+    }
+
+    function createDeckListElement(group, listType) {
+        const card = group.card;
+        const count = group.count;
         const div = document.createElement('div');
         div.classList.add('deck-card-item');
+
+        const imageUrl = getImageUrl(card);
+
         div.innerHTML = `
-            <span class="card-name" title="${card.name}">${card.name} (${card.cardNumber})</span>
-            <button class="remove-btn">x</button>
+            <img src="${imageUrl}" alt="${card.name}" class="deck-card-thumb">
+            <div class="deck-card-info">
+                <div class="card-name" title="${card.name}">${card.name}</div>
+                <div class="card-id">${card.cardNumber}</div>
+            </div>
+            <div class="deck-card-quantity">x${count}</div>
+            <button class="remove-btn" title="Remove one copy">-</button>
         `;
-        div.querySelector('.remove-btn').addEventListener('click', () => removeFromDeck(listType, index));
+
+        // Click to open modal
+        div.addEventListener('click', () => {
+             openModal(card);
+        });
+
+        // Remove button
+        div.querySelector('.remove-btn').addEventListener('click', (e) => {
+            e.stopPropagation(); // Prevent opening modal
+            removeOneInstanceFromDeck(listType, card.cardNumber);
+        });
+
         return div;
     }
 
