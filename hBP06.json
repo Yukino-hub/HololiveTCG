@@ -15,7 +15,8 @@
             "power": 1,
             "description": "[Once Per Game] During this game, your <Raora Panthera> do not Rest during your Reset Phase"
         },
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasSigned": true
     },
     {
         "name": "Isaki Riona",
@@ -51,7 +52,8 @@
             "power": 2,
             "description": "[Once Per Game] During this turn, all of your <Kazama Iroha> get Arts+10 for every cheer on your stage. Then, if there is a Buzz holomem on your stage, draw 3 cards."
         },
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasSigned": true
     },
     {
         "name": "Nakiri Ayame",
@@ -69,7 +71,8 @@
             "power": 2,
             "description": "[Once Per Game] Deal 20 special damage to your opponent's center holomem or collab holomem for each red cheer in your archive."
         },
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasSigned": true
     },
     {
         "name": "Hakos Baelz",
@@ -141,7 +144,8 @@
             "power": 1,
             "description": "[Once Per Game] If your center holomem is <Natsuiro Matsuri>, the number of Limited support cards you may use this turn is 2."
         },
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "hasSigned": true
     },
     {
         "name": "Raora Panthera",
@@ -158,7 +162,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Raora Panthera",
@@ -192,7 +197,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Raora Panthera",
@@ -214,7 +220,8 @@
                 "dmg": "70",
                 "description": "Draw 2 cards."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Raora Panthera",
@@ -233,7 +240,8 @@
                 "dmg": "30",
                 "description": "[Center position only]During this turn, your collab holomem with #Painting gets Arts+20."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Raora Panthera",
@@ -251,7 +259,9 @@
                 "dmg": "100, +50 vs purple",
                 "description": "[Center position only]During this turn, your collab holomem with #Painting gets Arts+50, and the cheer cost of that holomem's Arts is reduced by 1 colorless cheer."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Isaki Riona",
@@ -306,7 +316,8 @@
                 "cost": "1 white, 1 any color",
                 "dmg": "60"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Isaki Riona",
@@ -324,7 +335,8 @@
                 "dmg": "30",
                 "description": "Archive the top card of your deck."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Isaki Riona",
@@ -342,7 +354,8 @@
                 "dmg": "40",
                 "description": "Archive the top card of your deck."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Isaki Riona",
@@ -360,7 +373,9 @@
                 "dmg": "150+, +50 vs red",
                 "description": "Archive 1~3 cards from the top of your deck. This Arts gets +20 for each card archived."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Hakui Koyori",
@@ -378,7 +393,8 @@
                 "dmg": "90+, +50 vs red",
                 "description": "You may return a Support card with #KoyoLabo from your archive to the bottom of your deck:This Arts gets +40."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Kazama Iroha",
@@ -394,7 +410,8 @@
                 "cost": "1 any color",
                 "dmg": "10"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Kazama Iroha",
@@ -428,7 +445,8 @@
                 "cost": "1 green, 2 any color",
                 "dmg": "80"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Kazama Iroha",
@@ -445,7 +463,8 @@
                 "cost": "2 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Kazama Iroha",
@@ -464,7 +483,8 @@
                 "cost": "2 green",
                 "dmg": "60"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Kazama Iroha",
@@ -483,7 +503,9 @@
                 "dmg": "160+, +50 vs white",
                 "description": "If your Oshi holomem is <Kazama Iroha>, and you have a collab holomem, this Arts gets +40. Also, if this holomem has bloomed from a Buzz holomem, damage from this Arts cannot be reduced."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Himemori Luna",
@@ -499,7 +521,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Himemori Luna",
@@ -521,7 +544,8 @@
                 "cost": "3 any color",
                 "dmg": "80"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Himemori Luna",
@@ -539,7 +563,8 @@
                 "dmg": "20",
                 "description": "You may attach 1 <Lu-knights> from your archive to your <Himemori Luna>."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Himemori Luna",
@@ -557,7 +582,9 @@
                 "dmg": "160+, +50 vs blue",
                 "description": "If 2 or more <Lu-knights> are attached to this holomem, this Arts gets +50."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Cecilia Immergreen",
@@ -574,7 +601,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Juufuutei Raden",
@@ -592,7 +620,8 @@
                 "dmg": "40",
                 "description": "You may send 1 cheer from your archive to your holomem with #ReGLOSS."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Nakiri Ayame",
@@ -609,7 +638,8 @@
                 "dmg": "10+",
                 "description": "You may archive 1 card from your hand:Your center <Nakiri Ayame> gets Arts+30."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Nakiri Ayame",
@@ -644,7 +674,8 @@
                 "dmg": "30",
                 "description": "You may archive the top card of your cheer deck:Draw 1 card."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Nakiri Ayame",
@@ -662,7 +693,8 @@
                 "dmg": "50",
                 "description": "You may archive the top card of your cheer deck:Deal 30 damage to your opponent's center holomem or collab holomem."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Nakiri Ayame",
@@ -680,7 +712,8 @@
                 "dmg": "30",
                 "description": "You may archive the top card of your cheer deck:Deal 20 special damage to your opponent's center holomem or collab holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Nakiri Ayame",
@@ -698,7 +731,9 @@
                 "dmg": "80+, +50 vs green",
                 "description": "If your oshi holomem is <Nakiri Ayame>, you may archive 1~3 cards from the top of your cheer deck:This arts gets +40 for each card archived. This Arts may not be used from the collab position unless your Life is 2 or less."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Hakos Baelz",
@@ -715,7 +750,8 @@
                 "dmg": "30",
                 "description": "Roll a die once. If it is odd, deal 10 special damage to your opponent's center holomem and collab holomem."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Hakos Baelz",
@@ -750,7 +786,8 @@
                 "dmg": "40+",
                 "description": "You may archive 2 cards from your hand:This Arts gets +20."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Hakos Baelz",
@@ -767,7 +804,8 @@
                 "cost": "1 red",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Hakos Baelz",
@@ -789,7 +827,8 @@
                 "cost": "2 red",
                 "dmg": "70"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Hakos Baelz",
@@ -812,7 +851,9 @@
                 "dmg": "100, +50 vs purple",
                 "description": "If you have used your SP Oshi Skill \"🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲\" this game, deal 100 special damage to your opponent's center holomem or collab holomem."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Takane Lui",
@@ -830,7 +871,8 @@
                 "dmg": "120, +50 vs purple",
                 "description": "If your Oshi holomem is <Takane Lui>, you may archive 2 cards from your hand:Deal 50 special damage to your opponent's center holomem or collab holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Ichijou Ririka",
@@ -848,7 +890,8 @@
                 "dmg": "70, +50 vs purple",
                 "description": "[Collab position only]Deal 50 damage to your opponent's collab holomem. If your opponent has no collab holomem, deal 50 damage to your opponent's center holomem instead."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Moona Hoshinova",
@@ -865,7 +908,8 @@
                 "dmg": "20",
                 "description": "If a non-blue cheer is attached to this holomem, deal 10 special damage to 1 of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Moona Hoshinova",
@@ -904,7 +948,8 @@
                 "cost": "3 any color",
                 "dmg": "80"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Moona Hoshinova",
@@ -926,7 +971,8 @@
                 "dmg": "50",
                 "description": "If your Oshi holomem is <Moona Hoshinova>, you may archive 1 cheer from this holomem:Draw 1 card."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Moona Hoshinova",
@@ -946,7 +992,8 @@
                 "dmg": "20+",
                 "description": "If your Oshi holomem is <Moona Hoshinova> and 4 or more cheers are attached to this holomem, this Arts gets +60."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Moona Hoshinova",
@@ -964,7 +1011,9 @@
                 "dmg": "90, +50 vs white",
                 "description": "If 4 or more cheers are attached to this holomem, deal 90 special damage to your opponent's center holomem or collab holomem."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Yukihana Lamy",
@@ -982,7 +1031,8 @@
                 "dmg": "140+, +50 vs white",
                 "description": "This Arts gets +10 for each <Yukimin> attached to this holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Sakamata Chloe",
@@ -1000,7 +1050,8 @@
                 "dmg": "100+, +50 vs red",
                 "description": "Reveal the top 4 cards of your deck. This Arts gets +20 for each holomem revealed. Then, archive the revealed cards. If there is an event among them, draw 2 cards."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Sakamata Chloe",
@@ -1018,7 +1069,8 @@
                 "dmg": "120+, +50 vs purple",
                 "description": "Reveal the top 6 cards of your deck. This Arts gets +20 for each holomem revealed. Then, archive the revealed cards."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Mori Calliope",
@@ -1035,7 +1087,8 @@
                 "dmg": "20",
                 "description": "Draw 1 card, then archive 1 card from your hand."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Mori Calliope",
@@ -1053,7 +1106,8 @@
                 "dmg": "30",
                 "description": "If a purple cheer is attached to this holomem, draw 1 card from your deck. Then, archive the top 2 cards of your deck."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Mori Calliope",
@@ -1070,7 +1124,8 @@
                 "cost": "3 any color",
                 "dmg": "80"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Mori Calliope",
@@ -1093,7 +1148,9 @@
                 "dmg": "200+, +50 vs red",
                 "description": "During this turn, 1 of your holomem with #Myth gets Arts+20. Then, if your Oshi holomem is <Mori Calliope> and you have 8 or more holomem in your archive, you may draw 1 card."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Robocosan",
@@ -1110,7 +1167,8 @@
                 "dmg": "20",
                 "description": "If a <Roboser> is attached to this holomem, deal 20 special damage to your opponent's center holomem."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Robocosan",
@@ -1144,7 +1202,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Robocosan",
@@ -1161,7 +1220,8 @@
                 "cost": "1 purple",
                 "dmg": "40"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Robocosan",
@@ -1181,7 +1241,8 @@
                 "dmg": "90",
                 "description": "If your holomem was downed on your opponent's last turn, this Arts cheer cost is reduced by 1 colorless cheer."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Robocosan",
@@ -1199,7 +1260,9 @@
                 "dmg": "160, +50 vs yellow",
                 "description": "If this holomem has 3 or more <Roboser> attached, deal 70 special damage to your opponent's center holomem or collab holomem."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Inugami Korone",
@@ -1216,7 +1279,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Inugami Korone",
@@ -1234,7 +1298,8 @@
                 "dmg": "50",
                 "description": "If there is a support card attached to your holomem, draw 1 card, then archive 1 card from your hand."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Inugami Korone",
@@ -1252,7 +1317,8 @@
                 "dmg": "30+",
                 "description": "If this holomem was unrested this turn by your Oshi Skill \"Infinite Stamina\", this Arts gets +50."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Inugami Korone",
@@ -1270,7 +1336,9 @@
                 "dmg": "170+, +50 vs green",
                 "description": "If you have used your Oshi Skill \"Infinite Stamina\" this turn, this Arts gets +40."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "La+ Darknesss",
@@ -1293,7 +1361,8 @@
                 "dmg": "150, +50 vs yellow",
                 "description": "Roll a die 5 times. For each odd number rolled, draw 1 card and deal 30 special damage to your opponent's center holomem and collab holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1310,7 +1379,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1344,7 +1414,8 @@
                 "cost": "1 yellow",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1366,7 +1437,8 @@
                 "dmg": "80+",
                 "description": "Roll a die once for every [mascot and fan] on your stage. This Arts gets +10 for each time it is 4 or greater. However, the die can be rolled only up to 4 times."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1386,7 +1458,8 @@
                 "dmg": "50+",
                 "description": "If the target of this Arts is your opponent's 2nd holomem, and you have used a Limited event this turn, this Arts gets +70."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1404,7 +1477,9 @@
                 "dmg": "140+, +50 vs blue",
                 "description": "The Arts gets +30 for each Limited support card you used this turn."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Oozora Subaru",
@@ -1421,7 +1496,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Oozora Subaru",
@@ -1438,7 +1514,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Oozora Subaru",
@@ -1456,7 +1533,8 @@
                 "dmg": "60+",
                 "description": "This Arts gets +20 for every <Subatomo> attached to this holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "Oozora Subaru",
@@ -1474,7 +1552,9 @@
                 "dmg": "100, +50 vs red",
                 "description": "If your life is 3 or less, for each of this holomem's cheers, send the top card of your cheer deck to 1 of your yellow holomem."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Anya Melfissa",
@@ -1492,7 +1572,8 @@
                 "dmg": "70, +50 vs blue",
                 "description": "If you used your Oshi skill \"Mystical Ritual\" this turn, you may return 1~3 <Anya Melfissa> from your archive to hand."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "LAMBDUCK",
@@ -1511,7 +1592,8 @@
                 "dmg": "80",
                 "description": "[Collab position only]If your Oshi holomem is <Tsunomaki Watame> or <Oozora Subaru>, the cheer cost of this Arts is reduced by 1 yellow cheer. If your center holomem is a 2nd <Tsunomaki Watame>, the cheer cost of this Arts is reduced by 3 yellow cheer instead."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "name": "AI Koyori",
@@ -1528,7 +1610,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "name": "Favorite PC",
@@ -1536,7 +1619,8 @@
         "rarity": "U",
         "type": "Support (Item)",
         "limited": "Yes",
-        "ability": "Reveal 1 [Debut holomem and Buzz holomem] with the same name and 1 support card with #BuzzMerch from your deck, and add the revealed cards to hand. Then, shuffle the deck."
+        "ability": "Reveal 1 [Debut holomem and Buzz holomem] with the same name and 1 support card with #BuzzMerch from your deck, and add the revealed cards to hand. Then, shuffle the deck.",
+        "hasFoils": true
     },
     {
         "name": "Enjoy it with lots of love ♪",
@@ -1544,7 +1628,8 @@
         "rarity": "C",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "Draw 1 card. Then, restore 100 HP to 1 of your holomem."
+        "ability": "Draw 1 card. Then, restore 100 HP to 1 of your holomem.",
+        "hasFoils": true
     },
     {
         "name": "Shimeji Dance",
@@ -1552,7 +1637,8 @@
         "cardNumber": "hBP06-087",
         "rarity": "U",
         "type": "Support (Event)",
-        "ability": "This card can only be used if your Oshi holomem is <Juufuutei Raden>. Archive the top card of your cheer deck. Then, return 1 <Juufuutei Raden> from your archive to hand."
+        "ability": "This card can only be used if your Oshi holomem is <Juufuutei Raden>. Archive the top card of your cheer deck. Then, return 1 <Juufuutei Raden> from your archive to hand.",
+        "hasFoils": true
     },
     {
         "name": "Prank Rabbit",
@@ -1560,7 +1646,8 @@
         "rarity": "C",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be used if your holomem was downed during your opponent's previous turn and you have less Life than your opponent. Choose your opponent's center holomem or collab holomem. Rest the chosen holomem and move it to the back position. The chosen holomem does not unrest during your opponent's next reset step."
+        "ability": "This card can only be used if your holomem was downed during your opponent's previous turn and you have less Life than your opponent. Choose your opponent's center holomem or collab holomem. Rest the chosen holomem and move it to the back position. The chosen holomem does not unrest during your opponent's next reset step.",
+        "hasFoils": true
     },
     {
         "name": "Drawing Stream",
@@ -1568,7 +1655,8 @@
         "rarity": "C",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "Reveal 1 cheer from your cheer deck and send it to your holomem with #Painting. Then, shuffle the cheer deck. Then, return 1 holomem with #Painting from your archive to hand."
+        "ability": "Reveal 1 cheer from your cheer deck and send it to your holomem with #Painting. Then, shuffle the cheer deck. Then, return 1 holomem with #Painting from your archive to hand.",
+        "hasFoils": true
     },
     {
         "name": "Bloom Stage",
@@ -1576,7 +1664,8 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "Draw 2 cards. Then, if your Life is 4 or less, bloom 1 of your 1st holomem that bloomed from Debut this turn once more using a holomem from your hand."
+        "ability": "Draw 2 cards. Then, if your Life is 4 or less, bloom 1 of your 1st holomem that bloomed from Debut this turn once more using a holomem from your hand.",
+        "hasFoils": true
     },
     {
         "name": "hololive Generation 1",
@@ -1584,14 +1673,16 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be used if you have 6 or less cards in hand excluding this card. Look at the top 4 cards of your deck. Reveal any number of holomem with #Gen 1 from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."
+        "ability": "This card can only be used if you have 6 or less cards in hand excluding this card. Look at the top 4 cards of your deck. Reveal any number of holomem with #Gen 1 from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order.",
+        "hasFoils": true
     },
     {
         "name": "Mayonnaise sip sip",
         "cardNumber": "hBP06-092",
         "rarity": "C",
         "type": "Support (Event)",
-        "ability": "During this turn, 1 of your <Hakui Koyori> gets Arts+30."
+        "ability": "During this turn, 1 of your <Hakui Koyori> gets Arts+30.",
+        "hasFoils": true
     },
     {
         "name": "YamadaLui54Sen",
@@ -1599,7 +1690,8 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be used if all holomem on your stage have #holoX. Reveal 2 holomem with #holoX from your deck, and add them to hand. Then, shuffle the deck. Then, if you have fewer cheers on stage than your opponent, you may send the top card of your cheer deck to your holomem."
+        "ability": "This card can only be used if all holomem on your stage have #holoX. Reveal 2 holomem with #holoX from your deck, and add them to hand. Then, shuffle the deck. Then, if you have fewer cheers on stage than your opponent, you may send the top card of your cheer deck to your holomem.",
+        "hasFoils": true
     },
     {
         "name": "Workout",
@@ -1607,7 +1699,8 @@
         "rarity": "C",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be used if you have a collab holomem, or your opponent has no collab holomem. During this turn, 1 of your holomem gets Arts+20. If that holomem is a Buzz holomem or 2nd holomem, that holomem gets Arts+50 instead."
+        "ability": "This card can only be used if you have a collab holomem, or your opponent has no collab holomem. During this turn, 1 of your holomem gets Arts+20. If that holomem is a Buzz holomem or 2nd holomem, that holomem gets Arts+50 instead.",
+        "hasFoils": true
     },
     {
         "name": "IDENTIFY -AREA 15-",
@@ -1615,7 +1708,8 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be used if all holomem on your stage have #ID Gen 1. Reveal 2 holomem with #ID Gen 1 from your deck, and add them to hand. Then, shuffle the deck. Then, if there are 0 cards in your cheer deck, during this turn, when your holomem with #ID Gen 1 downs your opponent's center holomem, your opponent gets life-1."
+        "ability": "This card can only be used if all holomem on your stage have #ID Gen 1. Reveal 2 holomem with #ID Gen 1 from your deck, and add them to hand. Then, shuffle the deck. Then, if there are 0 cards in your cheer deck, during this turn, when your holomem with #ID Gen 1 downs your opponent's center holomem, your opponent gets life-1.",
+        "hasFoils": true
     },
     {
         "name": "The two of us are LAMBDUCK!",
@@ -1623,7 +1717,8 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "Choose 1 each of your [<Tsunomaki Watame> and <Oozora Subaru>]. Send 1 cheer from your archive to each of the chosen holomem. Then, during this turn, the chosen holomem get Arts+20."
+        "ability": "Choose 1 each of your [<Tsunomaki Watame> and <Oozora Subaru>]. Send 1 cheer from your archive to each of the chosen holomem. Then, during this turn, the chosen holomem get Arts+20.",
+        "hasFoils": true
     },
     {
         "name": "Cute Varsity Jacket",
@@ -1631,55 +1726,63 @@
         "cardNumber": "hBP06-097",
         "rarity": "C",
         "type": "Support (Tool)",
-        "ability": "◆Additional ability if attached to a Buzz holomem ■The holomem this tool is attached to gets +30 HP. ■During your opponent's Main Phase, the HP of the holomem this tool is attached to cannot be changed or reduced by your opponent's abilities. Only 1 tool can be attached to each of your holomem."
+        "ability": "◆Additional ability if attached to a Buzz holomem ■The holomem this tool is attached to gets +30 HP. ■During your opponent's Main Phase, the HP of the holomem this tool is attached to cannot be changed or reduced by your opponent's abilities. Only 1 tool can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "name": "Demonic Sword \"Asura\"",
         "cardNumber": "hBP06-098",
         "rarity": "U",
         "type": "Support (Tool)",
-        "ability": "The holomem this tool is attached to gets Arts+10. ◆Additional ability if attached to <Nakiri Ayame> When the holomem this tool is attached to collabs, if your Life is at 1 and your opponent has no collab holomem, your opponent chooses 1 of their back holomem and moves it to the collab position (Moving is not regarded as collab). Only 1 tool can be attached to each of your holomem."
+        "ability": "The holomem this tool is attached to gets Arts+10. ◆Additional ability if attached to <Nakiri Ayame> When the holomem this tool is attached to collabs, if your Life is at 1 and your opponent has no collab holomem, your opponent chooses 1 of their back holomem and moves it to the collab position (Moving is not regarded as collab). Only 1 tool can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "name": "Fingers",
         "cardNumber": "hBP06-099",
         "rarity": "U",
         "type": "Support (Tool)",
-        "ability": "The holomem this tool is attached to gets Arts+10. When this tool is attached from hand to your <Inugami Korone>, you may return 1 <Inugami Korone> from your archive to hand. Only 1 tool can be attached to each of your holomem."
+        "ability": "The holomem this tool is attached to gets Arts+10. When this tool is attached from hand to your <Inugami Korone>, you may return 1 <Inugami Korone> from your archive to hand. Only 1 tool can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "name": "Chattino",
         "cardNumber": "hBP06-100",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The holomem this mascot is attached to gets +10 HP. ◆Additional ability if attached to a 1st or greater <Raora Panthera> If your Oshi holomem is <Raora Panthera>, the holomem this mascot is attached to gets +20 HP. Only 1 mascot can be attached to each of your holomem."
+        "ability": "The holomem this mascot is attached to gets +10 HP. ◆Additional ability if attached to a 1st or greater <Raora Panthera> If your Oshi holomem is <Raora Panthera>, the holomem this mascot is attached to gets +20 HP. Only 1 mascot can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "name": "Moonabito",
         "cardNumber": "hBP06-101",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The holomem this mascot is attached to gets +20 HP. ◆Additional ability if attached to <Moona Hoshinova> [1/Turn]When the holomem with this mascot attached deals special damage to your opponent's holomem, you may send 1 blue cheer from your archive to your back holomem. Only 1 mascot can be attached to each of your holomem."
+        "ability": "The holomem this mascot is attached to gets +20 HP. ◆Additional ability if attached to <Moona Hoshinova> [1/Turn]When the holomem with this mascot attached deals special damage to your opponent's holomem, you may send 1 blue cheer from your archive to your back holomem. Only 1 mascot can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "name": "Ebifrion",
         "cardNumber": "hBP06-102",
         "rarity": "C",
         "type": "Support (Mascot)",
-        "ability": "The holomem this mascot is attached to gets +20 HP. ◆Additional ability if attached to <Natsuiro Matsuri> During your opponent's turn, if the holomem this mascot is attached to is downed, you may reattach 1 yellow cheer from this holomem to your other <Natsuiro Matsuri>. Only 1 mascot can be attached to each of your holomem."
+        "ability": "The holomem this mascot is attached to gets +20 HP. ◆Additional ability if attached to <Natsuiro Matsuri> During your opponent's turn, if the holomem this mascot is attached to is downed, you may reattach 1 yellow cheer from this holomem to your other <Natsuiro Matsuri>. Only 1 mascot can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "name": "Matsurisu",
         "cardNumber": "hBP06-103",
         "rarity": "C",
         "type": "Support (Fan)",
-        "ability": "If your [Oshi holomem or holomem with #Gen 1] rolled a die by an ability, you may archive this fan:Regard the result of one dice roll as 4. You may only attach this fan to your <Natsuiro Matsuri>, and you may attach any number of this fan per holomem."
+        "ability": "If your [Oshi holomem or holomem with #Gen 1] rolled a die by an ability, you may archive this fan:Regard the result of one dice roll as 4. You may only attach this fan to your <Natsuiro Matsuri>, and you may attach any number of this fan per holomem.",
+        "hasFoils": true
     },
     {
         "name": "Subatomo",
         "cardNumber": "hBP06-104",
         "rarity": "C",
         "type": "Support (Fan)",
-        "ability": "During your opponent's turn, if the holomem this fan is attached to is downed, send the top card of your cheer deck to your <Oozora Subaru>. You may only attach this fan to your <Oozora Subaru>, and you may attach any number of this fan per holomem."
+        "ability": "During your opponent's turn, if the holomem this fan is attached to is downed, send the top card of your cheer deck to your <Oozora Subaru>. You may only attach this fan to your <Oozora Subaru>, and you may attach any number of this fan per holomem.",
+        "hasFoils": true
     }
 ]
