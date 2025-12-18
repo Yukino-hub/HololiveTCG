@@ -125,7 +125,9 @@
                 "name": "キミに見てほしいな！",
                 "dmg": 40
             }
-        ]
+        ],  
+        "hasFullart": true,
+        "imageSet": "hBP06"
     },
     {
         "cardNumber": "hSD07-008",
