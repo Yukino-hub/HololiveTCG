@@ -30,7 +30,9 @@
                 "dmg": 30
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "hasHolomenRare": true,
+        "imageSet": "hBP05"
     },
     {
         "cardNumber": "hSD02-003",
