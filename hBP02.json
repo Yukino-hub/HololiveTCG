@@ -286,8 +286,9 @@
                 "name": "目に焼き付けるんだゾ♡",
                 "dmg": "30"
             }
-        ],
-        "hasFoils": true
+        ],  
+        "hasFullart": true,
+        "imageSet": "hBP06"
     },
     {
         "cardNumber": "hBP02-017",
