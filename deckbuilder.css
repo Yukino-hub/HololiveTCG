@@ -191,14 +191,14 @@ body {
         height: auto;
         overflow: visible;
     }
-    
+
     .deck-panel {
         width: 100%;
         border-right: none;
         border-bottom: 1px solid #333;
         max-height: 300px;
     }
-    
+
     .card-selection-panel {
         height: auto;
     }
