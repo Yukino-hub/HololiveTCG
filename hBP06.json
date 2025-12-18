@@ -278,7 +278,9 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "hasHolomenRare": true,
+        "imageSet": "hBP05"
     },
     {
         "name": "Isaki Riona",
