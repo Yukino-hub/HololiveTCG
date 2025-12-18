@@ -820,7 +820,9 @@
                 "dmg": "20",
                 "description": "Deal 10 damage any of your opponent's holomem. However, even if this downs that Holomem, your opponent's life is not reduced."
             }
-        ]
+        ],
+        "hasHolomenRare": true,
+        "imageSet": "hBP06"
     },
     {
         "name": "Yukihana Lamy",
@@ -1860,6 +1862,7 @@
         "hasFoils": true
     }
 ]
+
 
 
 
