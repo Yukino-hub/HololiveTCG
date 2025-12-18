@@ -71,6 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const oshiListEl = document.getElementById('oshiList');
     const mainDeckListEl = document.getElementById('mainDeckList');
     const clearDeckBtn = document.getElementById('clearDeckBtn');
+    const exportDeckBtn = document.getElementById('exportDeckBtn');
 
     const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardlist/";
     let allCardData = [];
@@ -489,6 +490,25 @@ document.addEventListener('DOMContentLoaded', function() {
             uniqueCards.forEach(c => updateCardGridQuantity(c));
         }
     });
+
+    function exportDeck() {
+        const exportData = {
+            oshi: deck.oshi.map(c => c.cardNumber),
+            main: deck.main.map(c => c.cardNumber)
+        };
+
+        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportData, null, 2));
+        const downloadAnchorNode = document.createElement('a');
+        downloadAnchorNode.setAttribute("href", dataStr);
+        downloadAnchorNode.setAttribute("download", "decklist.json");
+        document.body.appendChild(downloadAnchorNode); // required for firefox
+        downloadAnchorNode.click();
+        downloadAnchorNode.remove();
+    }
+
+    if (exportDeckBtn) {
+        exportDeckBtn.addEventListener('click', exportDeck);
+    }
 
     // Event Listeners
     searchBar.addEventListener('input', debounce(filterCards, 300));
