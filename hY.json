@@ -136,5 +136,41 @@
         "name": "Yellow Cheer (Flare)",
         "rarity": "SY",
         "imageSet": "hBP05"
+    },
+    {
+        "cardNumber": "hY01-010",
+        "name": "White Cheer (Raora)",
+        "rarity": "SY",
+        "imageSet": "hBP06"
+    },
+    {
+        "cardNumber": "hY02-008",
+        "name": "Green Cheer (Raden)",
+        "rarity": "SY",
+        "imageSet": "hBP06"
+    }, 
+    {
+        "cardNumber": "hY03-013",
+        "name": "Red Cheer (Ririka)",
+        "rarity": "SY",
+        "imageSet": "hBP06"
+    },
+    {
+        "cardNumber": "hY04-010",
+        "name": "Blue Cheer (Moona)",
+        "rarity": "SY",
+        "imageSet": "hBP06"
+    },
+    {
+        "cardNumber": "hY05-008",
+        "name": "Purple Cheer (Roboco)",
+        "rarity": "SY",
+        "imageSet": "hBP06"
+    },
+    {
+        "cardNumber": "hY06-007",
+        "name": "Yellow Cheer (Matsuri)",
+        "rarity": "SY",
+        "imageSet": "hBP06"
     }
 ]
