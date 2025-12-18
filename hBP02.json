@@ -975,7 +975,9 @@
                 "description": "If your archive has holomem, this Arts gets +10."
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "hasHolomenRare": true,
+        "imageSet": "hBP06"
     },
     {
         "cardNumber": "hBP02-055",
