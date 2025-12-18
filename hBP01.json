@@ -696,7 +696,9 @@
                 "name": "見逃しちゃだめべこだよ!",
                 "dmg": 30
             }
-        ]
+        ],  
+        "hasFullart": true,
+        "imageSet": "hBP06"
     },
     {
         "cardNumber": "hBP01-042",
