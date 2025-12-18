@@ -61,16 +61,20 @@ document.addEventListener('DOMContentLoaded', function() {
     // Deck State
     const deck = {
         oshi: [],
-        main: []
+        main: [],
+        cheer: []
     };
 
     // UI Elements
     const oshiCountEl = document.getElementById('oshiCount');
     const deckCountEl = document.getElementById('deckCount');
+    const cheerCountEl = document.getElementById('cheerCount');
     const deckValidationStatusEl = document.getElementById('deckValidationStatus');
     const oshiListEl = document.getElementById('oshiList');
     const mainDeckListEl = document.getElementById('mainDeckList');
+    const cheerDeckListEl = document.getElementById('cheerDeckList');
     const clearDeckBtn = document.getElementById('clearDeckBtn');
+    const exportDeckBtn = document.getElementById('exportDeckBtn');
 
     const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardlist/";
     let allCardData = [];
@@ -121,10 +125,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function getCardCount(card) {
-        // Count in both oshi and main deck
+        // Count in oshi, main deck, and cheer deck
         const oshiCount = deck.oshi.filter(c => c.cardNumber === card.cardNumber).length;
         const mainCount = deck.main.filter(c => c.cardNumber === card.cardNumber).length;
-        return oshiCount + mainCount;
+        const cheerCount = deck.cheer.filter(c => c.cardNumber === card.cardNumber).length;
+        return oshiCount + mainCount + cheerCount;
     }
 
     function createCardElement(card) {
@@ -348,8 +353,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- Deck Management ---
 
     function addToDeck(card) {
-        // Determine if Oshi or Main deck based on card type
+        // Determine deck based on card type/rarity
         const isOshi = card.type === 'Oshi' || card.cardType === 'Oshi' || (card.oshiSkill && card.oshiSkill.name) || card.rarity === 'OSR';
+        const isCheer = card.rarity === 'SY';
 
         if (isOshi) {
             // Add to Oshi deck
@@ -358,12 +364,32 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             deck.oshi.push(card);
+        } else if (isCheer) {
+            // Add to Cheer deck
+            if (deck.cheer.length >= 20) {
+                alert("Cheer deck cannot exceed 20 cards.");
+                return;
+            }
+            // No 4-copy limit for cheer deck? Usually cheer decks have many basic cheers.
+            // The request says "cheer deck, min 20 cards, max 20cards, only rarity SY maybe added to here".
+            // It does not explicitly mention 4-copy limit for cheer deck.
+            // However, typical TCG rules might apply. Assuming standard rules, limit applies unless basic resource.
+            // But SY are "Cheer" cards, likely basic resources.
+            // Let's assume unlimited or high limit for now, or just check standard limit?
+            // Actually, the example export shows "hY01-001":10, "hY02-001":10. So definitely > 4 allowed.
+            deck.cheer.push(card);
         } else {
             // Add to Main deck
+            if (card.rarity === 'SY') {
+                alert("Cheer cards (SY) cannot be added to the Main Deck.");
+                return;
+            }
+
             if (deck.main.length >= 50) {
                 alert("Main deck cannot exceed 50 cards.");
                 return;
             }
+
             // Check 4-copy limit
             // Check if card has "unlimited" effect
             const isUnlimited = card.extraEffect && card.extraEffect.includes("You may include any number of this holomem in the deck");
@@ -380,7 +406,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function removeOneInstanceFromDeck(listType, cardNumber) {
-        const list = listType === 'oshi' ? deck.oshi : deck.main;
+        const list = listType === 'oshi' ? deck.oshi : (listType === 'cheer' ? deck.cheer : deck.main);
         const index = list.findIndex(c => c.cardNumber === cardNumber);
 
         if (index !== -1) {
@@ -394,10 +420,12 @@ document.addEventListener('DOMContentLoaded', function() {
     function updateDeckUI() {
         oshiListEl.innerHTML = '';
         mainDeckListEl.innerHTML = '';
+        cheerDeckListEl.innerHTML = '';
 
         // Group cards by cardNumber
         const groupedOshi = groupCards(deck.oshi);
         const groupedMain = groupCards(deck.main);
+        const groupedCheer = groupCards(deck.cheer);
 
         groupedOshi.forEach(group => {
             const el = createDeckListElement(group, 'oshi');
@@ -409,8 +437,14 @@ document.addEventListener('DOMContentLoaded', function() {
             mainDeckListEl.appendChild(el);
         });
 
+        groupedCheer.forEach(group => {
+            const el = createDeckListElement(group, 'cheer');
+            cheerDeckListEl.appendChild(el);
+        });
+
         oshiCountEl.textContent = deck.oshi.length;
         deckCountEl.textContent = deck.main.length;
+        cheerCountEl.textContent = deck.cheer.length;
 
         validateDeck();
     }
@@ -464,14 +498,16 @@ document.addEventListener('DOMContentLoaded', function() {
     function validateDeck() {
         const oshiValid = deck.oshi.length === 1;
         const deckValid = deck.main.length === 50;
+        const cheerValid = deck.cheer.length === 20;
 
-        if (oshiValid && deckValid) {
+        if (oshiValid && deckValid && cheerValid) {
             deckValidationStatusEl.textContent = "Valid Deck";
             deckValidationStatusEl.className = "valid";
         } else {
             let msg = "Invalid Deck: ";
             if (!oshiValid) msg += "Need exactly 1 Oshi. ";
-            if (!deckValid) msg += `Need 50 cards (have ${deck.main.length}).`;
+            if (!deckValid) msg += `Need 50 cards (have ${deck.main.length}). `;
+            if (!cheerValid) msg += `Need 20 cheer cards (have ${deck.cheer.length}).`;
             deckValidationStatusEl.textContent = msg;
             deckValidationStatusEl.className = "invalid";
         }
@@ -479,9 +515,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     clearDeckBtn.addEventListener('click', () => {
         if(confirm("Clear current deck?")) {
-            const allCardsInDeck = [...deck.oshi, ...deck.main];
+            const allCardsInDeck = [...deck.oshi, ...deck.main, ...deck.cheer];
             deck.oshi = [];
             deck.main = [];
+            deck.cheer = [];
             updateDeckUI();
 
             // Unique cards to avoid multiple updates for same card
@@ -489,6 +526,35 @@ document.addEventListener('DOMContentLoaded', function() {
             uniqueCards.forEach(c => updateCardGridQuantity(c));
         }
     });
+
+    function exportDeck() {
+        // Helper to convert array to map of counts
+        const countCards = (list) => {
+            const counts = {};
+            list.forEach(c => {
+                counts[c.cardNumber] = (counts[c.cardNumber] || 0) + 1;
+            });
+            return counts;
+        };
+
+        const exportData = {
+            oshi: deck.oshi.length > 0 ? deck.oshi[0].cardNumber : "",
+            deck: countCards(deck.main),
+            cheer_deck: countCards(deck.cheer)
+        };
+
+        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportData, null, 2));
+        const downloadAnchorNode = document.createElement('a');
+        downloadAnchorNode.setAttribute("href", dataStr);
+        downloadAnchorNode.setAttribute("download", "decklist.json");
+        document.body.appendChild(downloadAnchorNode); // required for firefox
+        downloadAnchorNode.click();
+        downloadAnchorNode.remove();
+    }
+
+    if (exportDeckBtn) {
+        exportDeckBtn.addEventListener('click', exportDeck);
+    }
 
     // Event Listeners
     searchBar.addEventListener('input', debounce(filterCards, 300));
