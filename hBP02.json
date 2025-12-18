@@ -557,8 +557,9 @@
                 "name": "いっしょに出航しましょう！（健全)",
                 "dmg": "30"
             }
-        ],
-        "hasFoils": true
+        ],  
+        "hasFullart": true,
+        "imageSet": "hBP06"
     },
     {
         "cardNumber": "hBP02-032",
