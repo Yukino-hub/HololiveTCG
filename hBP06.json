@@ -149,7 +149,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tags": "#EN #Justice #Kemomimi #Painting",
+        "tag": "#EN #Justice #Kemomimi #Painting",
         "cardNumber": "hBP06-009",
         "rarity": "C",
         "color": "White",
@@ -167,7 +167,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tags": "#EN #Justice #Kemomimi #Painting",
+        "tag": "#EN #Justice #Kemomimi #Painting",
         "cardNumber": "hBP06-010",
         "rarity": "U",
         "color": "White",
@@ -184,7 +184,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tags": "#EN #Justice #Kemomimi #Painting",
+        "tag": "#EN #Justice #Kemomimi #Painting",
         "cardNumber": "hBP06-011",
         "rarity": "C",
         "color": "White",
@@ -202,7 +202,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tags": "#EN #Justice #Kemomimi #Painting",
+        "tag": "#EN #Justice #Kemomimi #Painting",
         "cardNumber": "hBP06-012",
         "rarity": "U",
         "color": "White",
@@ -225,7 +225,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tags": "#EN #Justice #Kemomimi #Painting",
+        "tag": "#EN #Justice #Kemomimi #Painting",
         "cardNumber": "hBP06-013",
         "rarity": "R",
         "color": "White",
@@ -245,7 +245,7 @@
     },
     {
         "name": "Raora Panthera",
-        "tags": "#EN #Justice #Kemomimi #Painting",
+        "tag": "#EN #Justice #Kemomimi #Painting",
         "cardNumber": "hBP06-014",
         "rarity": "RR",
         "color": "White",
@@ -265,7 +265,7 @@
     },
     {
         "name": "Isaki Riona",
-        "tags": "#DEV_IS #FLOW GLOW",
+        "tag": "#DEV_IS #FLOW GLOW",
         "cardNumber": "hBP06-015",
         "rarity": "C",
         "color": "White",
@@ -284,7 +284,7 @@
     },
     {
         "name": "Isaki Riona",
-        "tags": "#DEV_IS #FLOW GLOW",
+        "tag": "#DEV_IS #FLOW GLOW",
         "cardNumber": "hBP06-016",
         "rarity": "U",
         "color": "White",
@@ -301,7 +301,7 @@
     },
     {
         "name": "Isaki Riona",
-        "tags": "#DEV_IS #FLOW GLOW",
+        "tag": "#DEV_IS #FLOW GLOW",
         "cardNumber": "hBP06-017",
         "rarity": "C",
         "color": "White",
@@ -323,7 +323,7 @@
     },
     {
         "name": "Isaki Riona",
-        "tags": "#DEV_IS #FLOW GLOW",
+        "tag": "#DEV_IS #FLOW GLOW",
         "cardNumber": "hBP06-018",
         "rarity": "U",
         "color": "White",
@@ -342,7 +342,7 @@
     },
     {
         "name": "Isaki Riona",
-        "tags": "#DEV_IS #FLOW GLOW",
+        "tag": "#DEV_IS #FLOW GLOW",
         "cardNumber": "hBP06-019",
         "rarity": "R",
         "color": "White",
@@ -361,7 +361,7 @@
     },
     {
         "name": "Isaki Riona",
-        "tags": "#DEV_IS #FLOW GLOW",
+        "tag": "#DEV_IS #FLOW GLOW",
         "cardNumber": "hBP06-020",
         "rarity": "RR",
         "color": "White",
@@ -381,7 +381,7 @@
     },
     {
         "name": "Hakui Koyori",
-        "tags": "#JP #holoX #Kemomimi",
+        "tag": "#JP #holoX #Kemomimi",
         "cardNumber": "hBP06-021",
         "rarity": "R",
         "color": "White",
@@ -400,7 +400,7 @@
     },
     {
         "name": "Kazama Iroha",
-        "tags": "#JP #holoX",
+        "tag": "#JP #holoX",
         "cardNumber": "hBP06-022",
         "rarity": "C",
         "color": "Green",
@@ -417,7 +417,7 @@
     },
     {
         "name": "Kazama Iroha",
-        "tags": "#JP #holoX",
+        "tag": "#JP #holoX",
         "cardNumber": "hBP06-023",
         "rarity": "U",
         "color": "Green",
@@ -435,7 +435,7 @@
     },
     {
         "name": "Kazama Iroha",
-        "tags": "#JP #holoX",
+        "tag": "#JP #holoX",
         "cardNumber": "hBP06-024",
         "rarity": "C",
         "color": "Green",
@@ -452,7 +452,7 @@
     },
     {
         "name": "Kazama Iroha",
-        "tags": "#JP #holoX",
+        "tag": "#JP #holoX",
         "cardNumber": "hBP06-025",
         "rarity": "U",
         "color": "Green",
@@ -470,7 +470,7 @@
     },
     {
         "name": "Kazama Iroha",
-        "tags": "#JP #holoX",
+        "tag": "#JP #holoX",
         "cardNumber": "hBP06-026",
         "rarity": "R",
         "color": "Green",
@@ -490,7 +490,7 @@
     },
     {
         "name": "Kazama Iroha",
-        "tags": "#JP #holoX",
+        "tag": "#JP #holoX",
         "cardNumber": "hBP06-027",
         "rarity": "RR",
         "color": "Green",
@@ -511,7 +511,7 @@
     },
     {
         "name": "Himemori Luna",
-        "tags": "#JP #Gen 4 #Baby",
+        "tag": "#JP #Gen 4 #Baby",
         "cardNumber": "hBP06-028",
         "rarity": "C",
         "color": "Green",
@@ -528,7 +528,7 @@
     },
     {
         "name": "Himemori Luna",
-        "tags": "#JP #Gen 4 #Baby",
+        "tag": "#JP #Gen 4 #Baby",
         "cardNumber": "hBP06-029",
         "rarity": "U",
         "color": "Green",
@@ -551,7 +551,7 @@
     },
     {
         "name": "Himemori Luna",
-        "tags": "#JP #Gen 4 #Baby",
+        "tag": "#JP #Gen 4 #Baby",
         "cardNumber": "hBP06-030",
         "rarity": "R",
         "color": "Green",
@@ -570,7 +570,7 @@
     },
     {
         "name": "Himemori Luna",
-        "tags": "#JP #Gen 4 #Baby",
+        "tag": "#JP #Gen 4 #Baby",
         "cardNumber": "hBP06-031",
         "rarity": "RR",
         "color": "Green",
@@ -590,7 +590,7 @@
     },
     {
         "name": "Cecilia Immergreen",
-        "tags": "#EN #Justice #Language",
+        "tag": "#EN #Justice #Language",
         "cardNumber": "hBP06-032",
         "rarity": "R",
         "color": "Green",
@@ -608,7 +608,7 @@
     },
     {
         "name": "Juufuutei Raden",
-        "tags": "#DEV_IS #ReGLOSS #Alcohol",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
         "cardNumber": "hBP06-033",
         "rarity": "R",
         "color": "Green",
@@ -627,7 +627,7 @@
     },
     {
         "name": "Nakiri Ayame",
-        "tags": "#JP #Gen 2 #Shooter",
+        "tag": "#JP #Gen 2 #Shooter",
         "cardNumber": "hBP06-034",
         "rarity": "C",
         "color": "Red",
@@ -645,7 +645,7 @@
     },
     {
         "name": "Nakiri Ayame",
-        "tags": "#JP #Gen 2 #Shooter",
+        "tag": "#JP #Gen 2 #Shooter",
         "cardNumber": "hBP06-035",
         "rarity": "U",
         "color": "Red",
@@ -662,7 +662,7 @@
     },
     {
         "name": "Nakiri Ayame",
-        "tags": "#JP #Gen 2 #Shooter",
+        "tag": "#JP #Gen 2 #Shooter",
         "cardNumber": "hBP06-036",
         "rarity": "C",
         "color": "Red",
@@ -681,7 +681,7 @@
     },
     {
         "name": "Nakiri Ayame",
-        "tags": "#JP #Gen 2 #Shooter",
+        "tag": "#JP #Gen 2 #Shooter",
         "cardNumber": "hBP06-037",
         "rarity": "U",
         "color": "Red",
@@ -700,7 +700,7 @@
     },
     {
         "name": "Nakiri Ayame",
-        "tags": "#JP #Gen 2 #Shooter",
+        "tag": "#JP #Gen 2 #Shooter",
         "cardNumber": "hBP06-038",
         "rarity": "R",
         "color": "Red",
@@ -719,7 +719,7 @@
     },
     {
         "name": "Nakiri Ayame",
-        "tags": "#JP #Gen 2 #Shooter",
+        "tag": "#JP #Gen 2 #Shooter",
         "cardNumber": "hBP06-039",
         "rarity": "RR",
         "color": "Red",
@@ -739,7 +739,7 @@
     },
     {
         "name": "Hakos Baelz",
-        "tags": "#EN #Promise #Kemomimi",
+        "tag": "#EN #Promise #Kemomimi",
         "cardNumber": "hBP06-040",
         "rarity": "C",
         "color": "Red",
@@ -757,7 +757,7 @@
     },
     {
         "name": "Hakos Baelz",
-        "tags": "#EN #Promise #Kemomimi",
+        "tag": "#EN #Promise #Kemomimi",
         "cardNumber": "hBP06-041",
         "rarity": "U",
         "color": "Red",
@@ -774,7 +774,7 @@
     },
     {
         "name": "Hakos Baelz",
-        "tags": "#EN #Promise #Kemomimi",
+        "tag": "#EN #Promise #Kemomimi",
         "cardNumber": "hBP06-042",
         "rarity": "C",
         "color": "Red",
@@ -793,7 +793,7 @@
     },
     {
         "name": "Hakos Baelz",
-        "tags": "#EN #Promise #Kemomimi",
+        "tag": "#EN #Promise #Kemomimi",
         "cardNumber": "hBP06-043",
         "rarity": "U",
         "color": "Red",
@@ -811,7 +811,7 @@
     },
     {
         "name": "Hakos Baelz",
-        "tags": "#EN #Promise #Kemomimi",
+        "tag": "#EN #Promise #Kemomimi",
         "cardNumber": "hBP06-044",
         "rarity": "R",
         "color": "Red",
@@ -834,7 +834,7 @@
     },
     {
         "name": "Hakos Baelz",
-        "tags": "#EN #Promise #Kemomimi",
+        "tag": "#EN #Promise #Kemomimi",
         "cardNumber": "hBP06-045",
         "rarity": "RR",
         "color": "Red",
@@ -859,7 +859,7 @@
     },
     {
         "name": "Takane Lui",
-        "tags": "#JP #holoX #Bird #Alcohol",
+        "tag": "#JP #holoX #Bird #Alcohol",
         "cardNumber": "hBP06-046",
         "rarity": "R",
         "color": "Red",
@@ -878,7 +878,7 @@
     },
     {
         "name": "Ichijou Ririka",
-        "tags": "#DEV_IS #ReGLOSS #Cooking #Language",
+        "tag": "#DEV_IS #ReGLOSS #Cooking #Language",
         "cardNumber": "hBP06-047",
         "rarity": "R",
         "color": "Red",
@@ -897,7 +897,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tags": "#ID #ID Gen 1 #Singing",
+        "tag": "#ID #ID Gen 1 #Singing",
         "cardNumber": "hBP06-048",
         "rarity": "C",
         "color": "Blue",
@@ -915,7 +915,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tags": "#ID #ID Gen 1 #Singing",
+        "tag": "#ID #ID Gen 1 #Singing",
         "cardNumber": "hBP06-049",
         "rarity": "U",
         "color": "Blue",
@@ -932,7 +932,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tags": "#ID #ID Gen 1 #Singing",
+        "tag": "#ID #ID Gen 1 #Singing",
         "cardNumber": "hBP06-050",
         "rarity": "C",
         "color": "Blue",
@@ -955,7 +955,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tags": "#ID #ID Gen 1 #Singing",
+        "tag": "#ID #ID Gen 1 #Singing",
         "cardNumber": "hBP06-051",
         "rarity": "U",
         "color": "Blue",
@@ -978,7 +978,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tags": "#ID #ID Gen 1 #Singing",
+        "tag": "#ID #ID Gen 1 #Singing",
         "cardNumber": "hBP06-052",
         "rarity": "R",
         "color": "Blue",
@@ -999,7 +999,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tags": "#ID #ID Gen 1 #Singing",
+        "tag": "#ID #ID Gen 1 #Singing",
         "cardNumber": "hBP06-053",
         "rarity": "RR",
         "color": "Blue",
@@ -1019,7 +1019,7 @@
     },
     {
         "name": "Yukihana Lamy",
-        "tags": "#JP #Gen 5 #Half-Elf #Alcohol",
+        "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
         "cardNumber": "hBP06-054",
         "rarity": "R",
         "color": "Blue",
@@ -1038,7 +1038,7 @@
     },
     {
         "name": "Sakamata Chloe",
-        "tags": "#JP #holoX #Sea",
+        "tag": "#JP #holoX #Sea",
         "cardNumber": "hBP06-055",
         "rarity": "R",
         "color": "Blue",
@@ -1057,7 +1057,7 @@
     },
     {
         "name": "Sakamata Chloe",
-        "tags": "#JP #holoX #Sea",
+        "tag": "#JP #holoX #Sea",
         "cardNumber": "hBP06-056",
         "rarity": "R",
         "color": "Blue",
@@ -1076,7 +1076,7 @@
     },
     {
         "name": "Mori Calliope",
-        "tags": "#EN #Myth #Singing",
+        "tag": "#EN #Myth #Singing",
         "cardNumber": "hBP06-057",
         "rarity": "C",
         "color": "Blue",
@@ -1094,7 +1094,7 @@
     },
     {
         "name": "Mori Calliope",
-        "tags": "#EN #Myth #Singing",
+        "tag": "#EN #Myth #Singing",
         "cardNumber": "hBP06-058",
         "rarity": "U",
         "color": "Blue",
@@ -1113,7 +1113,7 @@
     },
     {
         "name": "Mori Calliope",
-        "tags": "#EN #Myth #Singing",
+        "tag": "#EN #Myth #Singing",
         "cardNumber": "hBP06-059",
         "rarity": "R",
         "color": "Blue",
@@ -1131,7 +1131,7 @@
     },
     {
         "name": "Mori Calliope",
-        "tags": "#EN #Myth #Singing",
+        "tag": "#EN #Myth #Singing",
         "cardNumber": "hBP06-060",
         "rarity": "RR",
         "color": "Blue",
@@ -1156,7 +1156,7 @@
     },
     {
         "name": "Robocosan",
-        "tags": "#JP #Gen 0 #Shooter",
+        "tag": "#JP #Gen 0 #Shooter",
         "cardNumber": "hBP06-061",
         "rarity": "C",
         "color": "Purple",
@@ -1174,7 +1174,7 @@
     },
     {
         "name": "Robocosan",
-        "tags": "#JP #Gen 0 #Shooter",
+        "tag": "#JP #Gen 0 #Shooter",
         "cardNumber": "hBP06-062",
         "rarity": "U",
         "color": "Purple",
@@ -1191,7 +1191,7 @@
     },
     {
         "name": "Robocosan",
-        "tags": "#JP #Gen 0 #Shooter",
+        "tag": "#JP #Gen 0 #Shooter",
         "cardNumber": "hBP06-063",
         "rarity": "C",
         "color": "Purple",
@@ -1209,7 +1209,7 @@
     },
     {
         "name": "Robocosan",
-        "tags": "#JP #Gen 0 #Shooter",
+        "tag": "#JP #Gen 0 #Shooter",
         "cardNumber": "hBP06-064",
         "rarity": "U",
         "color": "Purple",
@@ -1227,7 +1227,7 @@
     },
     {
         "name": "Robocosan",
-        "tags": "#JP #Gen 0 #Shooter",
+        "tag": "#JP #Gen 0 #Shooter",
         "cardNumber": "hBP06-065",
         "rarity": "R",
         "color": "Purple",
@@ -1248,7 +1248,7 @@
     },
     {
         "name": "Robocosan",
-        "tags": "#JP #Gen 0 #Shooter",
+        "tag": "#JP #Gen 0 #Shooter",
         "cardNumber": "hBP06-066",
         "rarity": "RR",
         "color": "Purple",
@@ -1268,7 +1268,7 @@
     },
     {
         "name": "Inugami Korone",
-        "tags": "#JP #GAMERS #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "cardNumber": "hBP06-067",
         "rarity": "C",
         "color": "Purple",
@@ -1286,7 +1286,7 @@
     },
     {
         "name": "Inugami Korone",
-        "tags": "#JP #GAMERS #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "cardNumber": "hBP06-068",
         "rarity": "U",
         "color": "Purple",
@@ -1305,7 +1305,7 @@
     },
     {
         "name": "Inugami Korone",
-        "tags": "#JP #GAMERS #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "cardNumber": "hBP06-069",
         "rarity": "R",
         "color": "Purple",
@@ -1324,7 +1324,7 @@
     },
     {
         "name": "Inugami Korone",
-        "tags": "#JP #GAMERS #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "cardNumber": "hBP06-070",
         "rarity": "RR",
         "color": "Purple",
@@ -1344,7 +1344,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tags": "#JP #holoX #Shooter",
+        "tag": "#JP #holoX #Shooter",
         "cardNumber": "hBP06-071",
         "rarity": "R",
         "color": "Purple",
@@ -1368,7 +1368,7 @@
     },
     {
         "name": "Natsuiro Matsuri",
-        "tags": "#JP #Gen 1 #Shooter",
+        "tag": "#JP #Gen 1 #Shooter",
         "cardNumber": "hBP06-072",
         "rarity": "C",
         "color": "Yellow",
@@ -1386,7 +1386,7 @@
     },
     {
         "name": "Natsuiro Matsuri",
-        "tags": "#JP #Gen 1 #Shooter",
+        "tag": "#JP #Gen 1 #Shooter",
         "cardNumber": "hBP06-073",
         "rarity": "U",
         "color": "Yellow",
@@ -1403,7 +1403,7 @@
     },
     {
         "name": "Natsuiro Matsuri",
-        "tags": "#JP #Gen 1 #Shooter",
+        "tag": "#JP #Gen 1 #Shooter",
         "cardNumber": "hBP06-074",
         "rarity": "C",
         "color": "Yellow",
@@ -1421,7 +1421,7 @@
     },
     {
         "name": "Natsuiro Matsuri",
-        "tags": "#JP #Gen 1 #Shooter",
+        "tag": "#JP #Gen 1 #Shooter",
         "cardNumber": "hBP06-075",
         "rarity": "U",
         "color": "Yellow",
@@ -1444,7 +1444,7 @@
     },
     {
         "name": "Natsuiro Matsuri",
-        "tags": "#JP #Gen 1 #Shooter",
+        "tag": "#JP #Gen 1 #Shooter",
         "cardNumber": "hBP06-076",
         "rarity": "R",
         "color": "Yellow",
@@ -1465,7 +1465,7 @@
     },
     {
         "name": "Natsuiro Matsuri",
-        "tags": "#JP #Gen 1 #Shooter",
+        "tag": "#JP #Gen 1 #Shooter",
         "cardNumber": "hBP06-077",
         "rarity": "RR",
         "color": "Yellow",
@@ -1485,7 +1485,7 @@
     },
     {
         "name": "Oozora Subaru",
-        "tags": "#JP #Gen 2 #Bird",
+        "tag": "#JP #Gen 2 #Bird",
         "cardNumber": "hBP06-078",
         "rarity": "C",
         "color": "Yellow",
@@ -1503,7 +1503,7 @@
     },
     {
         "name": "Oozora Subaru",
-        "tags": "#JP #Gen 2 #Bird",
+        "tag": "#JP #Gen 2 #Bird",
         "cardNumber": "hBP06-079",
         "rarity": "U",
         "color": "Yellow",
@@ -1521,7 +1521,7 @@
     },
     {
         "name": "Oozora Subaru",
-        "tags": "#JP #Gen 2 #Bird",
+        "tag": "#JP #Gen 2 #Bird",
         "cardNumber": "hBP06-080",
         "rarity": "R",
         "color": "Yellow",
@@ -1540,7 +1540,7 @@
     },
     {
         "name": "Oozora Subaru",
-        "tags": "#JP #Gen 2 #Bird",
+        "tag": "#JP #Gen 2 #Bird",
         "cardNumber": "hBP06-081",
         "rarity": "RR",
         "color": "Yellow",
@@ -1560,7 +1560,7 @@
     },
     {
         "name": "Anya Melfissa",
-        "tags": "#ID #ID Gen 2 #Language",
+        "tag": "#ID #ID Gen 2 #Language",
         "cardNumber": "hBP06-082",
         "rarity": "R",
         "color": "Yellow",
@@ -1579,7 +1579,7 @@
     },
     {
         "name": "LAMBDUCK",
-        "tags": "#JP #Gen 2 #Gen 4 #Bird #Kemomimi #Singing",
+        "tag": "#JP #Gen 2 #Gen 4 #Bird #Kemomimi #Singing",
         "cardNumber": "hBP06-083",
         "rarity": "R",
         "color": "Yellow",
@@ -1599,7 +1599,7 @@
     },
     {
         "name": "AI Koyori",
-        "tags": "#JP #holoX #Kemomimi",
+        "tag": "#JP #holoX #Kemomimi",
         "cardNumber": "hBP06-084",
         "rarity": "U",
         "bloomLevel": "Spot",
@@ -1635,7 +1635,7 @@
     },
     {
         "name": "Shimeji Dance",
-        "tags": "#Mushroom",
+        "tag": "#Mushroom",
         "cardNumber": "hBP06-087",
         "rarity": "U",
         "type": "Support (Event)",
@@ -1724,7 +1724,7 @@
     },
     {
         "name": "Cute Varsity Jacket",
-        "tags": "#BuzzMerch",
+        "tag": "#BuzzMerch",
         "cardNumber": "hBP06-097",
         "rarity": "C",
         "type": "Support (Tool)",
