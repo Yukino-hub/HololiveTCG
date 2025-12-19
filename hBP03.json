@@ -539,7 +539,7 @@
         "hp": 200,
         "color": "Red",
         "tag": "#JP #Gen0 #Baby",
-        "giftEffect": "エリートギャンブル:　[Center Position only] (Once per turn) [1/Turn]During your main phase, when 〈35P〉 is attached to this holomem, you may roll a die once:If it is 3 or 5, during this turn, this holomem gets Arts+50.",
+        "giftEffect": "エリートギャンブル:　[Center Position only] (Once per turn) [1/Turn]During your main phase, if〈35P〉 is attached to this holomem, you may roll a die once:If it is 3 or 5, during this turn, this holomem gets Arts+50.",
         "skills": [
             {
                 "name": "エリート巫女",
@@ -608,7 +608,7 @@
         "color": "Red",
         "tag": "#JP #Gen1 #Cooking",
         "buzz": true,
-        "bloomEffect": "もう1人のはあと: You may return 1 [1st holomem or 2nd holomem] with #Gen 1 other than Buzz to hand..",
+        "bloomEffect": "もう1人のはあと: You may return 1 [1st holomem or 2nd holomem] with #Gen 1 other than Buzz from archive to hand..",
         "skills": [
             {
                 "name": "レッド オア ルージュ",
@@ -1684,7 +1684,7 @@
         "name": "Futoinu",
         "type": "Support (Fan)",
         "rarity": "U",
-         "ability": "The Arts of the holomem with this Mascot attached gain +10 power.If this is attached to <Inugami Korone>, it gains the following effect: when the holomem with this Mascot attached collabs, you may send 1 Yellow Cheer from your Archive to that holomem.You may only attach 1 Mascot to a holomem.",
+         "ability": "The Arts of the holomem with this Mascot attached gain +10 power.If this is attached to <Inugami Korone>, it gains the following effect: when the holomem with this Mascot attached collabs, you may send 1 Yellow Cheer from your Archive to this holomem.You may only attach 1 Mascot to a holomem.",
        "hasFoils": true
     },
     {
