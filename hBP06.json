@@ -1619,6 +1619,7 @@
         "name": "Favorite PC",
         "cardNumber": "hBP06-085",
         "rarity": "U",
+        "tag" : "#BuzzMerch",
         "type": "Support (Item)",
         "limited": "Yes",
         "ability": "Reveal 1 [Debut holomem and Buzz holomem] with the same name and 1 support card with #BuzzMerch from your deck, and add the revealed cards to hand. Then, shuffle the deck.",
@@ -1675,7 +1676,7 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be used if you have 6 or less cards in hand excluding this card. Look at the top 4 cards of your deck. Reveal any number of holomem with #Gen 1 from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order.",
+        "ability": "This card can only be used if you have 6 or less cards in hand excluding this card. Look at the top 4 cards of your deck. Reveal any number of holomem with #Gen1 from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order.",
         "hasFoils": true
     },
     {
@@ -1710,7 +1711,7 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be used if all holomem on your stage have #ID Gen 1. Reveal 2 holomem with #ID Gen 1 from your deck, and add them to hand. Then, shuffle the deck. Then, if there are 0 cards in your cheer deck, during this turn, when your holomem with #ID Gen 1 downs your opponent's center holomem, your opponent gets life-1.",
+        "ability": "This card can only be used if all holomem on your stage have #ID Gen 1. Reveal 2 holomem with #IDGen1 from your deck, and add them to hand. Then, shuffle the deck. Then, if there are 0 cards in your cheer deck, during this turn, when your holomem with #ID Gen 1 downs your opponent's center holomem, your opponent gets life-1.",
         "hasFoils": true
     },
     {
