@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <td><a href="${tournament.htmlUrl}">${tournament.name}</a></td>
                     <td>${tournament.location}</td>
                     <td>${tournament.date}</td>
+                    <td>${tournament.metagame}</td>
                 `;
                 tournamentsTableBody.appendChild(row);
             });
