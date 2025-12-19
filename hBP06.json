@@ -381,13 +381,13 @@
     },
     {
         "name": "Hakui Koyori",
-        "tag": "#JP #holoX #Kemomimi",
+        "tag": "#JP #HoloX #Kemomimi",
         "cardNumber": "hBP06-021",
         "rarity": "R",
         "color": "White",
         "bloomLevel": "2nd",
         "hp": 190,
-        "collabEffect": "君に届けっ:During this turn, 1 of your holomem with #holoX gets Arts+30. If this holomem has a Support card with #KoyoLabo attached, that holomem gets Arts+50 instead.",
+        "collabEffect": "君に届けっ:During this turn, 1 of your holomem with #HoloX gets Arts+30. If this holomem has a Support card with #KoyoLabo attached, that holomem gets Arts+50 instead.",
         "skills": [
             {
                 "name": "青春の１ページ",
@@ -400,7 +400,7 @@
     },
     {
         "name": "Kazama Iroha",
-        "tag": "#JP #holoX",
+        "tag": "#JP #HoloX",
         "cardNumber": "hBP06-022",
         "rarity": "C",
         "color": "Green",
@@ -417,7 +417,7 @@
     },
     {
         "name": "Kazama Iroha",
-        "tag": "#JP #holoX",
+        "tag": "#JP #HoloX",
         "cardNumber": "hBP06-023",
         "rarity": "U",
         "color": "Green",
@@ -435,7 +435,7 @@
     },
     {
         "name": "Kazama Iroha",
-        "tag": "#JP #holoX",
+        "tag": "#JP #HoloX",
         "cardNumber": "hBP06-024",
         "rarity": "C",
         "color": "Green",
@@ -452,13 +452,13 @@
     },
     {
         "name": "Kazama Iroha",
-        "tag": "#JP #holoX",
+        "tag": "#JP #HoloX",
         "cardNumber": "hBP06-025",
         "rarity": "U",
         "color": "Green",
         "bloomLevel": "1st",
         "hp": 150,
-        "giftEffect": "のんびり過ごす記念日: [Center position or collab position only]Your holomem with #holoX other than this holomem get Arts+20.",
+        "giftEffect": "のんびり過ごす記念日: [Center position or collab position only]Your holomem with #HoloX other than this holomem get Arts+20.",
         "skills": [
             {
                 "name": "ツンツンツン…",
@@ -470,7 +470,7 @@
     },
     {
         "name": "Kazama Iroha",
-        "tag": "#JP #holoX",
+        "tag": "#JP #HoloX",
         "cardNumber": "hBP06-026",
         "rarity": "R",
         "color": "Green",
@@ -490,7 +490,7 @@
     },
     {
         "name": "Kazama Iroha",
-        "tag": "#JP #holoX",
+        "tag": "#JP #HoloX",
         "cardNumber": "hBP06-027",
         "rarity": "RR",
         "color": "Green",
@@ -859,7 +859,7 @@
     },
     {
         "name": "Takane Lui",
-        "tag": "#JP #holoX #Bird #Alcohol",
+        "tag": "#JP #HoloX #Bird #Alcohol",
         "cardNumber": "hBP06-046",
         "rarity": "R",
         "color": "Red",
@@ -1038,7 +1038,7 @@
     },
     {
         "name": "Sakamata Chloe",
-        "tag": "#JP #holoX #Sea",
+        "tag": "#JP #HoloX #Sea",
         "cardNumber": "hBP06-055",
         "rarity": "R",
         "color": "Blue",
@@ -1057,7 +1057,7 @@
     },
     {
         "name": "Sakamata Chloe",
-        "tag": "#JP #holoX #Sea",
+        "tag": "#JP #HoloX #Sea",
         "cardNumber": "hBP06-056",
         "rarity": "R",
         "color": "Blue",
@@ -1344,7 +1344,7 @@
     },
     {
         "name": "La+ Darknesss",
-        "tag": "#JP #holoX #Shooter",
+        "tag": "#JP #HoloX #Shooter",
         "cardNumber": "hBP06-071",
         "rarity": "R",
         "color": "Purple",
@@ -1599,7 +1599,7 @@
     },
     {
         "name": "AI Koyori",
-        "tag": "#JP #holoX #Kemomimi",
+        "tag": "#JP #HoloX #Kemomimi",
         "cardNumber": "hBP06-084",
         "rarity": "U",
         "bloomLevel": "Spot",
@@ -1693,7 +1693,7 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be used if all holomem on your stage have #holoX. Reveal 2 holomem with #holoX from your deck, and add them to hand. Then, shuffle the deck. Then, if you have fewer cheers on stage than your opponent, you may send the top card of your cheer deck to your holomem.",
+        "ability": "This card can only be used if all holomem on your stage have #HoloX. Reveal 2 holomem with #HoloX from your deck, and add them to hand. Then, shuffle the deck. Then, if you have fewer cheers on stage than your opponent, you may send the top card of your cheer deck to your holomem.",
         "hasFoils": true
     },
     {
