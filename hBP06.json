@@ -106,7 +106,7 @@
         "spOshiSkill": {
             "name": "双月の斉唱",
             "power": 2,
-            "description": "[Once Per Game] If there is a total of 6 or more cheers on both players' stages, reveal 1~3 cheers from your cheer deck and send them divided as you choose to your holomem with #ID Gen 1. Then, shuffle the cheer deck."
+            "description": "[Once Per Game] If there is a total of 6 or more cheers on both players' stages, reveal 1~3 cheers from your cheer deck and send them divided as you choose to your holomem with #IDGen1. Then, shuffle the cheer deck."
         },
         "hasAlternativeArt": true
     },
@@ -897,7 +897,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tag": "#ID #ID Gen 1 #Singing",
+        "tag": "#ID #IDGen1 #Singing",
         "cardNumber": "hBP06-048",
         "rarity": "C",
         "color": "Blue",
@@ -915,7 +915,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tag": "#ID #ID Gen 1 #Singing",
+        "tag": "#ID #IDGen1 #Singing",
         "cardNumber": "hBP06-049",
         "rarity": "U",
         "color": "Blue",
@@ -932,7 +932,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tag": "#ID #ID Gen 1 #Singing",
+        "tag": "#ID #IDGen1 #Singing",
         "cardNumber": "hBP06-050",
         "rarity": "C",
         "color": "Blue",
@@ -955,7 +955,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tag": "#ID #ID Gen 1 #Singing",
+        "tag": "#ID #IDGen1 #Singing",
         "cardNumber": "hBP06-051",
         "rarity": "U",
         "color": "Blue",
@@ -978,7 +978,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tag": "#ID #ID Gen 1 #Singing",
+        "tag": "#ID #IDGen1 #Singing",
         "cardNumber": "hBP06-052",
         "rarity": "R",
         "color": "Blue",
@@ -999,7 +999,7 @@
     },
     {
         "name": "Moona Hoshinova",
-        "tag": "#ID #ID Gen 1 #Singing",
+        "tag": "#ID #IDGen1 #Singing",
         "cardNumber": "hBP06-053",
         "rarity": "RR",
         "color": "Blue",
@@ -1711,7 +1711,7 @@
         "rarity": "U",
         "type": "Support (Event)",
         "limited": "Yes",
-        "ability": "This card can only be used if all holomem on your stage have #ID Gen 1. Reveal 2 holomem with #IDGen1 from your deck, and add them to hand. Then, shuffle the deck. Then, if there are 0 cards in your cheer deck, during this turn, when your holomem with #ID Gen 1 downs your opponent's center holomem, your opponent gets life-1.",
+        "ability": "This card can only be used if all holomem on your stage have #IDGen1. Reveal 2 holomem with #IDGen1 from your deck, and add them to hand. Then, shuffle the deck. Then, if there are 0 cards in your cheer deck, during this turn, when your holomem with #IDGen1 downs your opponent's center holomem, your opponent gets life-1.",
         "hasFoils": true
     },
     {
