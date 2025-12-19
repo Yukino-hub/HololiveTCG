@@ -46,3 +46,21 @@ a:hover {
 a:active {
   color: #FF4500; /* An orange-red for active links */
 }
+
+.metagame-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.metagame-table th, .metagame-table td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+
+.metagame-table th {
+    background-color: #333;
+    color: white;
+}
