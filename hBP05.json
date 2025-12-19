@@ -419,7 +419,7 @@
     },
     {
         "name": "Airani Iofifteen",
-        "tag": "#ID#IDGen1 #Painting",
+        "tag": "#ID #IDGen1 #Painting",
         "cardNumber": "hBP05-022",
         "rarity": "R",
         "color": "Green",
@@ -437,7 +437,7 @@
     },
     {
         "name": "Airani Iofifteen",
-        "tag": "#ID#IDGen1 #Painting",
+        "tag": "#ID #IDGen1 #Painting",
         "cardNumber": "hBP05-023",
         "rarity": "RR",
         "color": "Green",
@@ -922,7 +922,7 @@
     },
     {
         "name": "Kobo Kanaeru",
-        "tag": "#ID#IDGen3",
+        "tag": "#ID #IDGen3",
         "cardNumber": "hBP05-047",
         "rarity": "C",
         "color": "Blue",
@@ -940,7 +940,7 @@
     },
     {
         "name": "Kobo Kanaeru",
-        "tag": "#ID#IDGen3",
+        "tag": "#ID #IDGen3",
         "cardNumber": "hBP05-048",
         "rarity": "U",
         "color": "Blue",
@@ -959,7 +959,7 @@
     },
     {
         "name": "Kobo Kanaeru",
-        "tag": "#ID#IDGen3",
+        "tag": "#ID #IDGen3",
         "cardNumber": "hBP05-049",
         "rarity": "RR",
         "color": "Blue",
@@ -1440,7 +1440,7 @@
     },
     {
         "name": "Ayunda Risu",
-        "tag": "#ID#IDgen1 #Kemomimi #Singing",
+        "tag": "#ID #IDgen1 #Kemomimi #Singing",
         "cardNumber": "hBP05-073",
         "rarity": "R",
         "color": "Yellow",
@@ -1577,6 +1577,7 @@
         "hasFoils" :true
     }
 ]
+
 
 
 
