@@ -1786,5 +1786,73 @@
         "type": "Support (Fan)",
         "ability": "During your opponent's turn, if the holomem this fan is attached to is downed, send the top card of your cheer deck to your <Oozora Subaru>. You may only attach this fan to your <Oozora Subaru>, and you may attach any number of this fan per holomem.",
         "hasFoils": true
+    },
+    {
+        "cardNumber": "hBP01-041",
+        "name": "Usada Pekora",
+        "rarity": "SR",
+        "bloomLevel": "1st",
+        "hp": 90,
+        "color": "Green",
+        "tag": "#JP #Gen3 #Kemomimi",
+        "bloomEffect": "成長した兎田ぺこらを: Send the top card of your cheer deck to your center Holomen or collab Holomen.",
+        "skills": [
+            {
+                "name": "見逃しちゃだめぺこだよ!",
+                "dmg": 30
+            }
+        ],
+        "hasFullArt": true
+    },
+    {
+        "cardNumber": "hBP02-016",
+        "name": "Shirogane Noel",
+        "rarity": "SR",
+        "bloomLevel": "1st",
+        "hp": 130,
+        "color": "White",
+        "tag": "#JP #Gen3 #Alcohol",
+        "bloomEffect": "ノエちゃんの勇姿……: If bloomed from Debut, reveal 1 [Debut holomem, 1st holomem or Spot holomem] with #Gen 3 from your deck, and add it to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "目に焼き付けるんだゾ♡",
+                "dmg": 30
+            }
+        ],
+        "hasFullArt": true
+    },
+    {
+        "cardNumber": "hBP02-031",
+        "name": "Houshou Marine",
+        "rarity": "SR",
+        "bloomLevel": "1st",
+        "hp": 130,
+        "color": "Red",
+        "tag": "#JP #Gen3 #Painting #Sea",
+        "bloomEffect": "キミたちの声が船長の支えです！: Deal 20 special damage to your opponent's Collab holomem.",
+        "skills": [
+            {
+                "name": "いっしょに出航しましょう！（健全)",
+                "dmg": 30
+            }
+        ],
+        "hasFullArt": true
+    },
+    {
+        "cardNumber": "hSD07-007",
+        "name": "Shiranui Flare",
+        "rarity": "SR",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "Yellow",
+        "tag":  "#JP #Gen3 #Half-Elf",
+        "bloomEffect": "また一つ成長した私を　 : [Back position only] If your collab holomem has 70 or less HP remaining, you may Switch this holomem with your Collab holomem.",
+        "skills": [
+            {
+                "name": "キミに見てほしいな！",
+                "dmg": 40
+            }
+        ],
+        "hasFullArt": true
     }
 ]
