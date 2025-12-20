@@ -10,9 +10,9 @@
 }
 
 #decksTable, #tournamentsTable {
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
     font-size: 16px;
     background-color: #1E1E1E;
 }
