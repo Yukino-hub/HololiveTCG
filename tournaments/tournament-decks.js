@@ -44,6 +44,43 @@ document.addEventListener('DOMContentLoaded', function() {
                     container.insertBefore(infoContainer, table);
                 }
 
+                if (data.metagame) {
+                    const metagameContainer = document.createElement('div');
+                    metagameContainer.classList.add('tournament-metagame');
+
+                    const metaHeader = document.createElement('h3');
+                    metaHeader.textContent = 'Metagame Breakdown';
+                    metagameContainer.appendChild(metaHeader);
+
+                    if (data.metagame.totalDecks) {
+                         const totalDecksP = document.createElement('p');
+                         totalDecksP.textContent = `Total Decks: ${data.metagame.totalDecks}`;
+                         metagameContainer.appendChild(totalDecksP);
+                    }
+
+                    if (data.metagame.breakdown && data.metagame.breakdown.length > 0) {
+                        const table = document.createElement('table');
+                        table.classList.add('metagame-table');
+
+                        const thead = document.createElement('thead');
+                        thead.innerHTML = `<tr><th>Deck Name</th><th>Count</th><th>Share</th></tr>`;
+                        table.appendChild(thead);
+
+                        const tbody = document.createElement('tbody');
+                        data.metagame.breakdown.forEach(item => {
+                            const row = document.createElement('tr');
+                            row.innerHTML = `<td>${item.name}</td><td>${item.count}</td><td>${item.share}</td>`;
+                            tbody.appendChild(row);
+                        });
+                        table.appendChild(tbody);
+                        metagameContainer.appendChild(table);
+                    }
+
+                    // Insert before decksTable
+                     const table = document.getElementById('decksTable');
+                     container.insertBefore(metagameContainer, table);
+                }
+
                 data.topDecks.forEach(deck => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
