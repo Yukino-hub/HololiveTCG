@@ -1,0 +1,95 @@
+{
+    "tournamentName": "WGP25-26 Chiba Venue",
+    "description": "The major official tournament leading to the Extreme Cup 25-26 Final hosted in Chiba on Nov 2 2025. Individual and Trio is held concurrently.",
+    "format": "Qualifying Round: BO1, 5 rounds swiss, top 16 divisity cut. Finals : BO1 Single elimination",
+    "prize": "Winners and runners-up will receive entry rights to the Extreme Cup 25-26 Final, Top4 - Raden hBP04-002 WGP OUR , Top16 - Koyori hBP04-013 WGP UR",
+    "link": "https://hololive-official-cardgame.com/events/post/wgp25-26chiba/",
+    "metagame": {
+        "images": [
+            "../images/WGP25-26/Chiba Meta-Individual.jpg",
+            "../images/WGP25-26/Chiba Meta-Trio.jpg"
+        ]
+    },
+    "topDecks": [
+        {
+            "rank": "Block A Winner",
+            "playerName": "MALs",
+            "deckUrl": "https://decklog.bushiroad.com/view/7Y4XE",
+            "oshiCard": "Hoshimachi Suisei",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "Block A Runner-up",
+            "playerName": "ジェシー",
+            "deckUrl": "https://decklog.bushiroad.com/view/7ZFKN",
+            "oshiCard": "Hoshimachi Suisei",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "Block B Winner",
+            "playerName": "にょちお",
+            "deckUrl": "https://decklog.bushiroad.com/view/1V3R6",
+            "oshiCard": "Omaru Polka",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "Block B Runner-up",
+            "playerName": "selena",
+            "deckUrl": "https://decklog.bushiroad.com/view/6FV7J",
+            "oshiCard": "Usada Pekora",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "Block C Winner",
+            "playerName": "茶葉",
+            "deckUrl": "https://decklog.bushiroad.com/view/1M92C",
+            "oshiCard": "Omaru Polka",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "Block C Runner-up",
+            "playerName": "白河",
+            "deckUrl": "https://decklog.bushiroad.com/view/1C10G",
+            "oshiCard": "Hoshimachi Suisei",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "Block D Winner",
+            "playerName": "kito",
+            "deckUrl": "https://decklog.bushiroad.com/view/54RMA",
+            "oshiCard": "Hoshimachi Suisei",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "Block D Runner-up",
+            "playerName": "きつはる",
+            "deckUrl": "https://decklog.bushiroad.com/view/6PJG8",
+            "oshiCard": "Amane Kanata",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "Block E Winner",
+            "playerName": "モモピ",
+            "deckUrl": "https://decklog.bushiroad.com/view/5MGPS",
+            "oshiCard": "Hoshimachi Suisei",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "Block E Runner-up",
+            "playerName": "たかみぃ",
+            "deckUrl": "https://decklog.bushiroad.com/view/2R348",
+            "oshiCard": "Hoshimachi Suisei",
+            "buildName": "-",
+            "imageUrl": ""
+        }
+    ]
+}
