@@ -76,6 +76,26 @@ document.addEventListener('DOMContentLoaded', function() {
                         metagameContainer.appendChild(table);
                     }
 
+                    if (data.metagame.images && data.metagame.images.length > 0) {
+                        const imagesContainer = document.createElement('div');
+                        imagesContainer.classList.add('metagame-images');
+                        // Add some basic styling here or in CSS
+                        imagesContainer.style.display = 'flex';
+                        imagesContainer.style.gap = '20px';
+                        imagesContainer.style.marginTop = '20px';
+                        imagesContainer.style.justifyContent = 'center';
+
+                        data.metagame.images.forEach(imgSrc => {
+                            const img = document.createElement('img');
+                            img.src = imgSrc;
+                            img.classList.add('metagame-image');
+                            img.style.maxWidth = '45%'; // Responsive
+                            img.style.height = 'auto';
+                            imagesContainer.appendChild(img);
+                        });
+                        metagameContainer.appendChild(imagesContainer);
+                    }
+
                     // Insert before decksTable
                      const table = document.getElementById('decksTable');
                      container.insertBefore(metagameContainer, table);

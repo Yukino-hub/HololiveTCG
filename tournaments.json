@@ -8,5 +8,15 @@
         "location": "Tokyo",
         "date": "2025-10-26",
         "metagame" : "Sui-Okayu Era (hBP05)"
+    },
+    {
+        "id": "wgp25-26-chiba",
+        "name": "WGP25-26 Chiba Venue",
+        "jsonUrl": "tournaments/tournament-wgp25-26-chiba.json",
+        "htmlUrl": "tournaments/wgp25-26-chiba.html",
+        "image": "images/WGP.png",
+        "location": "Chiba",
+        "date": "2025-11-02",
+        "metagame" : "Individual & Trio"
     }
 ]
