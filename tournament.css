@@ -9,22 +9,50 @@
     margin: auto; /* Centers the image horizontally */
 }
 
-#decksTable {
+#decksTable, #tournamentsTable {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #1E1E1E;
 }
 
-#decksTable th, #decksTable td {
-    border: 1px solid #444; /* Darker border for the dark theme */
-    padding: 8px;
+#decksTable th, #decksTable td,
+#tournamentsTable th, #tournamentsTable td {
+    border: 1px solid #444;
+    padding: 12px 15px; /* More breathing room */
     text-align: left;
-    color: white; /* Ensure text is white for dark theme */
+    color: white;
+    vertical-align: middle;
 }
 
-#decksTable th {
-    background-color: #333; /* Darker header background */
-    color: white; /* Ensure header text is white */
+#decksTable th, #tournamentsTable th {
+    background-color: #2C2C2C;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid #555;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#decksTable tr:nth-child(even),
+#tournamentsTable tr:nth-child(even) {
+    background-color: #252525; /* Subtle zebra striping */
+}
+
+#decksTable tr:hover,
+#tournamentsTable tr:hover {
+    background-color: #333;
+    transition: background-color 0.2s ease;
+}
+
+.tournament-image {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+    display: block;
 }
 
 /* Sets the color for unvisited links */
