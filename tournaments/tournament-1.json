@@ -4,16 +4,6 @@
     "format": "Qualifying Round: BO1, 5 rounds swiss, top 8 divisity cut. Finals : BO1 Single elimination",
     "prize": "Hoshimachi Suisei OSR PR with TOP 8, TOP 4, Finalist, Champion respectively",
     "link" : "https://hololive-official-cardgame.com/events/post/excp2025-final",
-    "metagame": {
-        "totalDecks": 76,
-        "breakdown": [
-            { "name": "Okayu-Chloe", "count": 20, "share": "26.3%" },
-            { "name": "Reine-Marine", "count": 15, "share": "19.7%" },
-            { "name": "Promise (Kronii-Mumei)", "count": 10, "share": "13.2%" },
-            { "name": "Sora-Azki", "count": 8, "share": "10.5%" },
-            { "name": "Others", "count": 23, "share": "30.3%" }
-        ]
-    },
     "topDecks": [
         {
             "rank": 1,
