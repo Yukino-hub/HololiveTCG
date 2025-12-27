@@ -116,7 +116,10 @@ document.addEventListener('DOMContentLoaded', function() {
             }))
             .then(results => {
                 allCardData = results.flatMap(result => {
-                    return result.data.map(card => ({...card, setName: result.setName }));
+                    return result.data.map(card => {
+                        const searchString = (card.name + card.cardNumber + (card.tag || '')).toLowerCase();
+                        return { ...card, setName: result.setName, searchString };
+                    });
                 });
                 filteredCardData = allCardData;
                 displayCards(filteredCardData);
@@ -224,10 +227,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const selectedBloomType = bloomTypeFilter.value;
 
         filteredCardData = allCardData.filter(card => {
-             const matchesSearch = !searchText ||
-                card.name.toLowerCase().includes(searchText) ||
-                card.cardNumber.toLowerCase().includes(searchText) ||
-                (card.tag && card.tag.toLowerCase().includes(searchText));
+             const matchesSearch = !searchText || card.searchString.includes(searchText);
 
              const matchesSeries = !selectedSeries || card.cardNumber.startsWith(selectedSeries);
              const matchesRarity = !selectedRarity || card.rarity === selectedRarity;
