@@ -9,54 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Modal Elements
     const modal = document.getElementById('modal');
     const modalCloseIcon = document.getElementById('modalCloseIcon');
-    const modalImage = document.getElementById('modalImage');
-    const modalCardName = document.getElementById('modalCardName');
     const modalAddBtn = document.getElementById('modalAddBtn');
-
-    // Modal Detail Elements
-    const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
-    const modalCardTagsContainer = document.getElementById('modalCardTagsContainer');
-    const modalRarityContainer = document.getElementById('modalRarityContainer');
-    const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
-    const modalHPContainer = document.getElementById('modalHPContainer');
-    const modalColorContainer = document.getElementById('modalColorContainer');
-    const modalLivesContainer = document.getElementById('modalLivesContainer');
-    const modalBuzzContainer = document.getElementById('modalBuzzContainer');
-    const modalTypeContainer = document.getElementById('modalTypeContainer');
-    const modalAbilityContainer = document.getElementById('modalAbilityContainer');
-    const modalCollabEffectContainer = document.getElementById('modalCollabEffectContainer');
-    const modalBloomEffectContainer = document.getElementById('modalBloomEffectContainer');
-    const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
-    const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
-    const modalSourcesContainer = document.getElementById('modalSourcesContainer');
-
-    const modalCardNumber = document.getElementById('modalCardNumber');
-    const modalCardTags = document.getElementById('modalCardTags');
-    const modalRarity = document.getElementById('modalRarity');
-    const modalBloomLevel = document.getElementById('modalBloomLevel');
-    const modalHP = document.getElementById('modalHP');
-    const modalColor = document.getElementById('modalColor');
-    const modalLives = document.getElementById('modalLives');
-    const modalBuzz = document.getElementById('modalBuzz');
-    const modalType = document.getElementById('modalType');
-    const modalAbility = document.getElementById('modalAbility');
-    const modalCollabEffect = document.getElementById('modalCollabEffect');
-    const modalBloomEffect = document.getElementById('modalBloomEffect');
-    const modalGiftEffect = document.getElementById('modalGiftEffect');
-    const modalExtraEffect = document.getElementById('modalExtraEffect');
-    const modalSources = document.getElementById('modalSources');
-
-    const modalOshiSkill = document.getElementById('modalOshiSkill');
-    const modalOshiSkillName = document.getElementById('modalOshiSkillName');
-    const modalOshiSkillPower = document.getElementById('modalOshiSkillPower');
-    const modalOshiSkillDescription = document.getElementById('modalOshiSkillDescription');
-
-    const modalSpOshiSkill = document.getElementById('modalSpOshiSkill');
-    const modalSpOshiSkillName = document.getElementById('modalSpOshiSkillName');
-    const modalSpOshiSkillPower = document.getElementById('modalSpOshiSkillPower');
-    const modalSpOshiSkillDescription = document.getElementById('modalSpOshiSkillDescription');
-
-    const modalSkills = document.getElementById('modalSkills');
 
     // Deck State
     const deck = {
@@ -76,54 +29,31 @@ document.addEventListener('DOMContentLoaded', function() {
     const clearDeckBtn = document.getElementById('clearDeckBtn');
     const exportDeckBtn = document.getElementById('exportDeckBtn');
 
-    const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardlist/";
     let allCardData = [];
     let filteredCardData = [];
-    const seriesFiles = [
-        ...Array.from({ length: 11 }, (_, i) => `hSD${(i + 1).toString().padStart(2, '0')}.json`),
-        ...Array.from({ length: 6 }, (_, i) => `hBP${(i + 1).toString().padStart(2, '0')}.json`),
-        'hPR.json',
-        'hY01.json',
-        'hY.json'
-    ];
 
     // Variable to track currently selected card for modal
     let currentModalCard = null;
 
-    function debounce(func, delay) {
-        let timeout;
-        return function(...args) {
-            clearTimeout(timeout);
-            timeout = setTimeout(() => func.apply(this, args), delay);
-        };
-    }
-
     function getImageUrl(card) {
-        if (card.manualUrl) {
-            return card.manualUrl.startsWith('http://') ? card.manualUrl.replace('http://', 'https://') : card.manualUrl;
-        }
-        // Default URL for standard art (simplest for deck builder)
-        return `${baseUrl}${card.setName}/${card.cardNumber}_${card.rarity}.png`;
+        return constructImageUrl(card);
     }
 
     function loadCardData() {
         loadingIndicator.style.display = 'block';
-        Promise.all(seriesFiles.map(file => {
-                const setName = file.split('.')[0];
-                return fetch(file)
-                    .then(response => response.ok ? response.json().then(data => ({ setName, data })) : { setName, data: [] })
-                    .catch(error => ({ setName, data: [] }));
-            }))
-            .then(results => {
-                allCardData = results.flatMap(result => {
-                    return result.data.map(card => {
-                        const searchString = (card.name + card.cardNumber + (card.tag || '')).toLowerCase();
-                        return { ...card, setName: result.setName, searchString };
-                    });
+        fetchCardData()
+            .then(data => {
+                allCardData = data.map(card => {
+                     const searchString = (card.name + card.cardNumber + (card.tag || '')).toLowerCase();
+                     return { ...card, searchString };
                 });
                 filteredCardData = allCardData;
                 displayCards(filteredCardData);
                 loadingIndicator.style.display = 'none';
+            })
+            .catch(error => {
+                 console.error('Failed to load card data:', error);
+                 loadingIndicator.style.display = 'none';
             });
     }
 
@@ -202,24 +132,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    function initializeLazyLoading() {
-        const lazyImages = document.querySelectorAll('.lazy-load');
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const image = entry.target;
-                    const src = image.getAttribute('data-src');
-                    if (src) {
-                        image.src = src;
-                        image.onload = () => image.classList.remove('lazy-load');
-                    }
-                    observer.unobserve(image);
-                }
-            });
-        });
-        lazyImages.forEach(image => observer.observe(image));
-    }
-
     function filterCards() {
         const searchText = searchBar.value.toLowerCase();
         const selectedSeries = seriesFilter.value;
@@ -251,87 +163,8 @@ document.addEventListener('DOMContentLoaded', function() {
         primaryImage.alt = card.name;
         modalImageContainer.appendChild(primaryImage);
 
-        modalCardName.textContent = card.name || '';
-        modalCardNumber.textContent = card.cardNumber || '';
-        modalCardTags.textContent = card.tag || '';
-        modalRarity.textContent = card.rarity || '';
-        modalBloomLevel.textContent = card.bloomLevel || '';
-        modalHP.textContent = card.hp || '';
-        modalColor.textContent = card.color || '';
-        modalLives.textContent = card.lives || '';
-        modalBuzz.textContent = card.buzz || '';
-        modalType.textContent = card.type || '';
-        modalAbility.textContent = card.ability || '';
-        modalCollabEffect.textContent = card.collabEffect || '';
-        modalBloomEffect.textContent = card.bloomEffect || '';
-        modalGiftEffect.textContent = card.giftEffect || '';
-        modalExtraEffect.textContent = card.extraEffect || '';
-        modalSources.textContent = card.source || '';
-
-        toggleVisibility(modalCardNumberContainer, card.cardNumber);
-        toggleVisibility(modalCardTagsContainer, card.tag);
-        toggleVisibility(modalRarityContainer, card.rarity);
-        toggleVisibility(modalBloomLevelContainer, card.bloomLevel);
-        toggleVisibility(modalHPContainer, card.hp);
-        toggleVisibility(modalColorContainer, card.color);
-        toggleVisibility(modalLivesContainer, card.lives);
-        toggleVisibility(modalBuzzContainer, card.buzz);
-        toggleVisibility(modalTypeContainer, card.type);
-        toggleVisibility(modalAbilityContainer, card.ability);
-        toggleVisibility(modalCollabEffectContainer, card.collabEffect);
-        toggleVisibility(modalBloomEffectContainer, card.bloomEffect);
-        toggleVisibility(modalGiftEffectContainer, card.giftEffect);
-        toggleVisibility(modalExtraEffectContainer, card.extraEffect);
-        toggleVisibility(modalSourcesContainer, card.source);
-
-        if (card.oshiSkill) {
-            modalOshiSkill.classList.remove('hidden');
-            modalOshiSkillName.textContent = card.oshiSkill.name || '';
-            modalOshiSkillPower.textContent = card.oshiSkill.power || '';
-            modalOshiSkillDescription.textContent = card.oshiSkill.description || '';
-        } else {
-            modalOshiSkill.classList.add('hidden');
-        }
-
-        if (card.spOshiSkill) {
-            modalSpOshiSkill.classList.remove('hidden');
-            modalSpOshiSkillName.textContent = card.spOshiSkill.name || '';
-            modalSpOshiSkillPower.textContent = card.spOshiSkill.power || '';
-            modalSpOshiSkillDescription.textContent = card.spOshiSkill.description || '';
-        } else {
-            modalSpOshiSkill.classList.add('hidden');
-        }
-        // Skills
-        if (card.skills && card.skills.length > 0) {
-            modalSkills.innerHTML = '<h3>Skills</h3>';
-            card.skills.forEach(skill => {
-                const skillContainer = document.createElement('div');
-
-                const skillNameP = document.createElement('p');
-                skillNameP.classList.add('modal-skill');
-                skillNameP.innerHTML = `<strong>Skill Name:</strong> ${skill.name}`;
-                skillContainer.appendChild(skillNameP);
-
-                const skillDmgP = document.createElement('p');
-                skillDmgP.innerHTML = `<strong>DMG:</strong> ${skill.dmg || ''}`;
-                skillContainer.appendChild(skillDmgP);
-
-                if (skill.description) {
-                    const skillDescP = document.createElement('p');
-                    const strongTag = document.createElement('strong');
-                    strongTag.textContent = 'Arts Effect: ';
-
-                    skillDescP.appendChild(strongTag);
-                    skillDescP.append(skill.description);
-                    skillContainer.appendChild(skillDescP);
-                }
-
-                modalSkills.appendChild(skillContainer);
-            });
-            modalSkills.classList.remove('hidden');
-        } else {
-            modalSkills.classList.add('hidden');
-        }
+        // Populate common fields
+        populateModalCommon(card);
 
         modal.style.display = 'flex';
     }
@@ -340,14 +173,6 @@ document.addEventListener('DOMContentLoaded', function() {
         if (event) event.stopPropagation();
         modal.style.display = 'none';
         currentModalCard = null;
-    }
-
-    function toggleVisibility(element, value) {
-        if (!value || value === 'N/A') {
-            element.classList.add('hidden');
-        } else {
-            element.classList.remove('hidden');
-        }
     }
 
     // --- Deck Management ---
@@ -370,13 +195,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 alert("Cheer deck cannot exceed 20 cards.");
                 return;
             }
-            // No 4-copy limit for cheer deck? Usually cheer decks have many basic cheers.
-            // The request says "cheer deck, min 20 cards, max 20cards, only rarity SY maybe added to here".
-            // It does not explicitly mention 4-copy limit for cheer deck.
-            // However, typical TCG rules might apply. Assuming standard rules, limit applies unless basic resource.
-            // But SY are "Cheer" cards, likely basic resources.
-            // Let's assume unlimited or high limit for now, or just check standard limit?
-            // Actually, the example export shows "hY01-001":10, "hY02-001":10. So definitely > 4 allowed.
             deck.cheer.push(card);
         } else {
             // Add to Main deck
