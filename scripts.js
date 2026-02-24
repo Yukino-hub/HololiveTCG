@@ -20,79 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalCloseIcon = document.getElementById('modalCloseIcon');
     const backToTopBtn = document.getElementById('backToTopBtn');
 
-    const modalImage = document.getElementById('modalImage');
-    const modalCardName = document.getElementById('modalCardName');
-    const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
-    const modalCardTagsContainer = document.getElementById('modalCardTagsContainer');
-    const modalRarityContainer = document.getElementById('modalRarityContainer');
-    const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
-    const modalHPContainer = document.getElementById('modalHPContainer');
-    const modalColorContainer = document.getElementById('modalColorContainer');
-    const modalLivesContainer = document.getElementById('modalLivesContainer');
-    const modalBuzzContainer = document.getElementById('modalBuzzContainer');
-    const modalTypeContainer = document.getElementById('modalTypeContainer');
-    const modalAbilityContainer = document.getElementById('modalAbilityContainer');
-    const modalCollabEffectContainer = document.getElementById('modalCollabEffectContainer');
-    const modalBloomEffectContainer = document.getElementById('modalBloomEffectContainer');
-    const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
-    const modalOshiStageSkillContainer = document.getElementById('modalOshiStageSkillContainer'); 
-    const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
-    const modalSourcesContainer = document.getElementById('modalSourcesContainer');
-
-    const modalCardNumber = document.getElementById('modalCardNumber');
-    const modalCardTags = document.getElementById('modalCardTags');
-    const modalRarity = document.getElementById('modalRarity');
-    const modalBloomLevel = document.getElementById('modalBloomLevel');
-    const modalHP = document.getElementById('modalHP');
-    const modalColor = document.getElementById('modalColor');
-    const modalLives = document.getElementById('modalLives');
-    const modalBuzz = document.getElementById('modalBuzz');
-    const modalType = document.getElementById('modalType');
-    const modalAbility = document.getElementById('modalAbility');
-    const modalCollabEffect = document.getElementById('modalCollabEffect');
-    const modalBloomEffect = document.getElementById('modalBloomEffect');
-    const modalGiftEffect = document.getElementById('modalGiftEffect');
-    const modalOshiStageSkill = document.getElementById('modalOshiStageSkill'); 
-    const modalExtraEffect = document.getElementById('modalExtraEffect');
-    const modalSources = document.getElementById('modalSources');
-
-    const modalOshiSkill = document.getElementById('modalOshiSkill');
-    const modalOshiSkillName = document.getElementById('modalOshiSkillName');
-    const modalOshiSkillPower = document.getElementById('modalOshiSkillPower');
-    const modalOshiSkillDescription = document.getElementById('modalOshiSkillDescription');
-
-    const modalSpOshiSkill = document.getElementById('modalSpOshiSkill');
-    const modalSpOshiSkillName = document.getElementById('modalSpOshiSkillName');
-    const modalSpOshiSkillPower = document.getElementById('modalSpOshiSkillPower');
-    const modalSpOshiSkillDescription = document.getElementById('modalSpOshiSkillDescription');
-
-    const modalSkills = document.getElementById('modalSkills');
-    const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardlist/";
-
     let allCardData = [];
     let filteredCardData = [];
-    const seriesFiles = [
-        ...Array.from({ length: 13 }, (_, i) => `sets/hSD/hSD${(i + 1).toString().padStart(2, '0')}.json`),
-        ...Array.from({ length: 7 }, (_, i) => `sets/hBP/hBP${(i + 1).toString().padStart(2, '0')}.json`),
-        'sets/hPR.json',
-        'sets/hY01.json',
-        'sets/hY.json'
-    ];
-
-    /**
-     * Debounce function to delay execution of a function until after a specified wait time
-     * has elapsed since the last time it was invoked.
-     * @param {Function} func The function to debounce.
-     * @param {number} delay The number of milliseconds to delay.
-     * @returns {Function} The new debounced function.
-     */
-    function debounce(func, delay) {
-        let timeout;
-        return function(...args) {
-            clearTimeout(timeout);
-            timeout = setTimeout(() => func.apply(this, args), delay);
-        };
-    }
 
     /**
      * Constructs the image URL for a card based on a priority system.
@@ -100,10 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
      * @returns {string} The final image URL for the card.
      */
     function getImageUrl(card) {
-        // Priority 1: Manual URL Override.
+        // Priority 1: Manual URL Override (handled by utils base function).
         if (card.manualUrl) {
-            // Enforce HTTPS for manual URLs to prevent mixed content issues.
-            return card.manualUrl.startsWith('http://') ? card.manualUrl.replace('http://', 'https://') : card.manualUrl;
+            return getBaseImageUrl(card);
         }
 
         const imageTypeConfigs = [{
@@ -146,32 +74,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Default URL for standard art.
-        return `${baseUrl}${card.setName}/${card.cardNumber}_${card.rarity}.png`;
+        return getBaseImageUrl(card);
     }
 
     function loadCardData() {
         loadingIndicator.style.display = 'block';
 
-        Promise.all(seriesFiles.map(file => {
-                const setName = file.split('/').pop().split('.')[0];
-                return fetch(file)
-                    .then(response => {
-                        if (!response.ok) {
-                            // If file not found or error, continue with empty data
-                            return { setName, data: [] };
-                        }
-                        return response.json().then(data => ({ setName, data }));
-                    })
-                    .catch(error => {
-                        console.error(`Error loading or parsing ${file}:`, error);
-                        return { setName, data: [] };
-                    });
-            }))
-            .then(results => {
-                allCardData = results.flatMap(result => {
-                    return result.data.map(card => ({...card, setName: result.setName }));
-                });
-
+        fetchCardData()
+            .then(data => {
+                allCardData = data;
                 filteredCardData = allCardData;
                 displayCards(filteredCardData);
                 extractAndDisplayTags(); // Extract and display tags
@@ -245,24 +156,6 @@ document.addEventListener('DOMContentLoaded', function() {
         initializeLazyLoading();
     }
 
-    function initializeLazyLoading() {
-        const lazyImages = document.querySelectorAll('.lazy-load');
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const image = entry.target;
-                    const src = image.getAttribute('data-src');
-                    if (src) {
-                        image.src = src;
-                        image.onload = () => image.classList.remove('lazy-load');
-                    }
-                    observer.unobserve(image);
-                }
-            });
-        });
-        lazyImages.forEach(image => observer.observe(image));
-    }
-
     function filterCards() {
         const searchText = searchBar.value.toLowerCase();
         const selectedSeries = seriesFilter.value;
@@ -301,21 +194,8 @@ document.addEventListener('DOMContentLoaded', function() {
             return card.collabEffect && card.collabEffect.toLowerCase().includes(term);
         }
 
-      const searchableFields = [
-            card.name,
-            card.cardNumber,
-            card.tag,
-            card.ability,
-            card.collabEffect,
-            card.bloomEffect,
-            card.giftEffect,
-            card.extraEffect,
-            card.oshiStageSkill,
-            card.oshiSkill?.description,
-            card.spOshiSkill?.description,
-            ...(card.skills?.map(s => s.description) || [])
-        ];
-        return searchableFields.some(field => field && field.toLowerCase().includes(searchText));
+        // Optimized search using pre-computed string from utils.js
+        return card.searchString.includes(searchText);
     }
 
     function matchesSeries(card, selectedSeries) {
@@ -343,7 +223,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const modalImageContainer = document.getElementById('modalImageContainer');
         modalImageContainer.innerHTML = '';
 
-        // Pass the entire card object to get the correct image URL
+        // Pass the entire card object to get the correct image URL (handling alt arts)
         const imageUrl = getImageUrl(card);
 
         const primaryImage = document.createElement('img');
@@ -351,93 +231,8 @@ document.addEventListener('DOMContentLoaded', function() {
         primaryImage.alt = card.name;
         modalImageContainer.appendChild(primaryImage);
 
-        modalCardName.textContent = card.name || '';
-        modalCardNumber.textContent = card.cardNumber || '';
-        modalCardTags.textContent = card.tag || '';
-        modalRarity.textContent = card.rarity || '';
-        modalBloomLevel.textContent = card.bloomLevel || '';
-        modalHP.textContent = card.hp || '';
-        modalColor.textContent = card.color || '';
-        modalLives.textContent = card.lives || '';
-        modalBuzz.textContent = card.buzz || '';
-        modalType.textContent = card.type || '';
-        modalAbility.textContent = card.ability || '';
-        modalCollabEffect.textContent = card.collabEffect || '';
-        modalBloomEffect.textContent = card.bloomEffect || '';
-        modalGiftEffect.textContent = card.giftEffect || '';
-        modalOshiStageSkill.textContent = card.oshiStageSkill || '';
-        modalExtraEffect.textContent = card.extraEffect || '';
-        modalSources.textContent = card.source || '';
-
-        toggleVisibility(modalCardNumberContainer, card.cardNumber);
-        toggleVisibility(modalCardTagsContainer, card.tag);
-        toggleVisibility(modalRarityContainer, card.rarity);
-        toggleVisibility(modalBloomLevelContainer, card.bloomLevel);
-        toggleVisibility(modalHPContainer, card.hp);
-        toggleVisibility(modalColorContainer, card.color);
-        toggleVisibility(modalLivesContainer, card.lives);
-        toggleVisibility(modalBuzzContainer, card.buzz);
-        toggleVisibility(modalTypeContainer, card.type);
-        toggleVisibility(modalAbilityContainer, card.ability);
-        toggleVisibility(modalCollabEffectContainer, card.collabEffect);
-        toggleVisibility(modalBloomEffectContainer, card.bloomEffect);
-        toggleVisibility(modalGiftEffectContainer, card.giftEffect);
-        toggleVisibility(modalOshiStageSkillContainer, card.oshiStageSkill);
-        toggleVisibility(modalExtraEffectContainer, card.extraEffect);
-        toggleVisibility(modalSourcesContainer, card.source);
-
-        if (card.oshiSkill) {
-            modalOshiSkill.classList.remove('hidden');
-            modalOshiSkillName.textContent = card.oshiSkill.name || '';
-            modalOshiSkillPower.textContent = card.oshiSkill.power || '';
-            modalOshiSkillDescription.textContent = card.oshiSkill.description || '';
-        } else {
-            modalOshiSkill.classList.add('hidden');
-        }
-
-        if (card.spOshiSkill) {
-            modalSpOshiSkill.classList.remove('hidden');
-            modalSpOshiSkillName.textContent = card.spOshiSkill.name || '';
-            modalSpOshiSkillPower.textContent = card.spOshiSkill.power || '';
-            modalSpOshiSkillDescription.textContent = card.spOshiSkill.description || '';
-        } else {
-            modalSpOshiSkill.classList.add('hidden');
-        }
-        // Skills
-        if (card.skills && card.skills.length > 0) {
-            modalSkills.innerHTML = '<h3>Skills</h3>'; // It's okay to use innerHTML for a simple, static tag like this.
-            card.skills.forEach(skill => {
-                const skillContainer = document.createElement('div');
-
-                // Create and append the skill name
-                const skillNameP = document.createElement('p');
-                skillNameP.classList.add('modal-skill');
-                skillNameP.innerHTML = `<strong>Skill Name:</strong> ${skill.name}`; // Using innerHTML here is fine for the <strong> tag
-                skillContainer.appendChild(skillNameP);
-
-                // Create and append the DMG
-                const skillDmgP = document.createElement('p');
-                skillDmgP.innerHTML = `<strong>DMG:</strong> ${skill.dmg || ''}`;
-                skillContainer.appendChild(skillDmgP);
-
-                // Create and append the description using textContent
-                if (skill.description) {
-                    const skillDescP = document.createElement('p');
-                    const strongTag = document.createElement('strong');
-                    strongTag.textContent = 'Arts Effect: ';
-
-                    skillDescP.appendChild(strongTag); // Add the "Arts Effect: " part
-                    skillDescP.append(skill.description); // Append the description text, which will be correctly displayed
-
-                    skillContainer.appendChild(skillDescP);
-                }
-
-                modalSkills.appendChild(skillContainer);
-            });
-            modalSkills.classList.remove('hidden');
-        } else {
-            modalSkills.classList.add('hidden');
-        }
+        // Use shared population function from utils.js
+        populateModalCommon(card);
 
         const modalContent = document.querySelector('#modal .modal-content');
         if (modalContent) {
@@ -452,18 +247,8 @@ document.addEventListener('DOMContentLoaded', function() {
         modal.style.display = 'none';
     }
 
-
-
     if (modalCloseIcon) {
         modalCloseIcon.addEventListener('click', closeModal);
-    }
-
-    function toggleVisibility(element, value) {
-        if (!value || value === 'N/A') {
-            element.classList.add('hidden');
-        } else {
-            element.classList.remove('hidden');
-        }
     }
 
     // Consolidated event listeners for all filter controls
