@@ -1,0 +1,270 @@
+[
+    {
+        "name": "Shiori Novella",
+        "cardNumber": "hSD12-001",
+        "rarity": "OSR",
+        "color": "Blue",
+        "lives": 5,
+        "oshiSkill": {
+            "name": "収集家",
+            "power": 1,
+            "description": "[1/Turn]Look at the top 3 cards of your deck. Reveal 1 support card from among them, add it to hand. Then, return the remaining cards to the bottom of the deck in any order."
+        },
+        "spOshiSkill": {
+            "name": "リベリオン",
+            "power": 3,
+            "description": "[1/Game]Deal 10 special damage for each support card in your archive to 1 of your opponent's back holomem other than Debut."
+        }
+    },
+    {
+        "name": "Koseki Bijou",
+        "cardNumber": "hSD12-002",
+        "rarity": "OSR",
+        "color": "Purple",
+        "lives": 5,
+        "oshiSkill": {
+            "name": "Biboo Tax",
+            "power": 2,
+            "description": "[1/Turn]Archive the top card of both players' cheer decks. For each color of cheer archived, draw 1 card."
+        },
+        "spOshiSkill": {
+            "name": "古代魔石の輝き",
+            "power": 2,
+            "description": "[1/Game]Deal 10 special damage for each [holomem with #Advent and cheer] in your archive to your opponent's center holomem."
+        }
+    },
+    {
+        "name": "Shiori Novella",
+        "tags": "#EN #Advent",
+        "cardNumber": "hSD12-003",
+        "rarity": "C",
+        "color": "Blue",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "collabEffect": "パレ・モンローズのお話をお聞きになったことは？ : Deal 10 special damage to 1 of your opponent's back holomem.",
+        "skills": [
+            {
+                "name": "アデュー、親愛なる聞き手様",
+                "cost": "1 any color",
+                "power": "20"
+            }
+        ]
+    },
+    {
+        "name": "Shiori Novella",
+        "tags": "#EN #Advent",
+        "cardNumber": "hSD12-004",
+        "rarity": "C",
+        "color": "Blue",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "skills": [
+            {
+                "name": "不穏な忠告",
+                "cost": "1 any color",
+                "power": "20",
+                "description": "This Arts may also target your opponent's back holomem."
+            },
+            {
+                "name": "Just a Humble, Kind Witch",
+                "cost": "1 blue",
+                "power": "30",
+                "description": "If you have 4 or more support cards in your archive, send the top card of your cheer deck to your holomem with #Advent."
+            }
+        ]
+    },
+    {
+        "name": "Shiori Novella",
+        "tags": "#EN #Advent",
+        "cardNumber": "hSD12-005",
+        "rarity": "U",
+        "color": "Blue",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "collabEffect": "『異世界への旅立ちと幸せ』: Send 1 cheer from your archive to your holomem with #Advent.",
+        "skills": [
+            {
+                "name": "車窓から見える星がとてもきれいよ",
+                "cost": "1 any color",
+                "power": "40"
+            }
+        ]
+    },
+    {
+        "name": "Shiori Novella",
+        "tags": "#EN #Advent",
+        "cardNumber": "hSD12-006",
+        "rarity": "R",
+        "color": "Blue",
+        "bloomLevel": "1st",
+        "hp": 250,
+        "buzz": true,
+        "bloomEffect": "A Study in Advent : You may archive 1 support card from your hand:Reveal 1 [Debut holomem or 1st holomem] from your deck with #Advent, and add it to hand. Then, shuffle the deck.",
+        "extraEffect": "If this holomem is downed, you get life-2",
+        "skills": [
+            {
+                "name": "初歩的なことよ",
+                "cost": "1 blue, 1 any color",
+                "power": "40",
+                "description": "Deal 20 special damage to 1 of your opponent's holomem."
+            }
+        ]
+    },
+    {
+        "name": "Shiori Novella",
+        "tags": "#EN #Advent",
+        "cardNumber": "hSD12-007",
+        "rarity": "RR",
+        "color": "Blue",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "giftEffect": "どんな知識が得られるかしら : [1/Turn]When this holomem downed your opponent's holomem, return 1 support card other than LIMITED from your archive to hand.",
+        "skills": [
+            {
+                "name": "私達を見くびらないで貰える？",
+                "cost": "1 blue, 2 any color",
+                "power": "110, +50 vs white",
+                "description": "Deal 10 special damage for each holomem with #Advent on your stage to 1 of your opponent's holomem other than Debut."
+            }
+        ]
+    },
+    {
+        "name": "Koseki Bijou",
+        "tags": "#EN #Advent #Baby",
+        "cardNumber": "hSD12-008",
+        "rarity": "C",
+        "color": "Purple",
+        "bloomLevel": "Debut",
+        "hp": 110,
+        "collabEffect": "花売りの少女: If you went second and it is your first turn, draw 1 card for each cheer on both players' stage.",
+        "skills": [
+            {
+                "name": "私……この頃よく夢を見るの。",
+                "cost": "1 any color",
+                "power": "30"
+            }
+        ]
+    },
+    {
+        "name": "Koseki Bijou",
+        "tags": "#EN #Advent #Baby",
+        "cardNumber": "hSD12-009",
+        "rarity": "C",
+        "color": "Purple",
+        "bloomLevel": "1st",
+        "hp": 130,
+        "bloomEffect": "賑やかな家族 : Look at the top 3 cards of your deck. Reveal 1 holomem with #Advent from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order.",
+        "skills": [
+            {
+                "name": "とっても感謝してるの",
+                "cost": "1 any color",
+                "power": "30"
+            }
+        ]
+    },
+    {
+        "name": "Koseki Bijou",
+        "tags": "#EN #Advent #Baby",
+        "cardNumber": "hSD12-010",
+        "rarity": "U",
+        "color": "Purple",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "skills": [
+            {
+                "name": "滲んでいく輝き",
+                "cost": "1 any color",
+                "power": "30"
+            },
+            {
+                "name": "Your Princess AWAKENS!",
+                "cost": "1 purple, 1 any color",
+                "power": "50",
+                "description": "You may archive 1 non-purple cheer from this holomem:Return 1 holomem from your archive to hand."
+            }
+        ]
+    },
+    {
+        "name": "Koseki Bijou",
+        "tags": "#EN #Advent #Baby",
+        "cardNumber": "hSD12-011",
+        "rarity": "RR",
+        "color": "Purple",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "bloomEffect": "ビブーと遊んでいかない？ : Draw 1 card. You may archive 1 cheer from your stage. If you archived cheer, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+40.",
+        "skills": [
+            {
+                "name": "キラキラぜーんぶ受け止めて！",
+                "cost": "1 purple, 3 any color",
+                "power": "110, +50 vs yellow",
+                "description": "For each color of cheer in both players' archive, this Arts requires -1 colorless."
+            }
+        ]
+    },
+    {
+        "name": "Nerissa Ravencroft",
+        "tags": "#EN #Advent #Singing #Bird",
+        "cardNumber": "hSD12-012",
+        "rarity": "C",
+        "color": "Purple",
+        "bloomLevel": "Debut",
+        "hp": 140,
+        "skills": [
+            {
+                "name": "綾なす想いは、儚きブルー",
+                "cost": "1 purple, 3 any color",
+                "power": "80",
+                "description": "If your life is 3 or less, this Arts requires -2 colorless."
+            }
+        ]
+    },
+    {
+        "name": "Mococo Abyssgard",
+        "tags": "#EN #Advent #Kemomimi",
+        "cardNumber": "hSD12-013",
+        "rarity": "C",
+        "color": "Red",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "collabEffect": "ハッピー☆パピー -MOCOCO- : If all holomem on your stage have #Advent, you may return 1 Debut holomem from your back position to the bottom of your deck:Draw 2 cards.",
+        "skills": [
+            {
+                "name": "ほんまにほんま～！！",
+                "cost": "1 any color",
+                "power": "30"
+            }
+        ]
+    },
+    {
+        "name": "Fuwawa Abyssgard",
+        "tags": "#EN #Advent #Kemomimi",
+        "cardNumber": "hSD12-014",
+        "rarity": "C",
+        "color": "Blue",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "collabEffect": "ハッピー☆パピー -FUWAWA- : If all holomem on your stage have #Advent, you may return 1 Debut holomem from your back position to the bottom of your deck:Send the top card of your cheer deck to your holomem.",
+        "skills": [
+            {
+                "name": "ほんまにほんまだよ！",
+                "cost": "1 any color",
+                "power": "30"
+            }
+        ]
+    },
+    {
+        "name": "The accomplices who achieved a jailbreak",
+        "cardNumber": "hSD12-015",
+        "rarity": "U",
+        "type": "Support (Event)",
+        "ability": "This card can only be used if all holomem on your stage have #Advent. Deal 20 special damage to your opponent's center holomem. Send 1 cheer from your archive to your holomem. You may only use the card <Escaped Criminal Gang> once per turn."
+    },
+    {
+        "name": "GEOW",
+        "cardNumber": "hSD12-016",
+        "rarity": "C",
+        "type": "Support (Mascot)",
+        "ability": "The holomem this mascot is attached to gets +20 HP. When this mascot is attached to your 1st or greater <Koseki Bijou> from hand, you may archive 1 cheer from your stage:Reveal 1 cheer from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck. Only 1 mascot can be attached to each of your holomem."
+    }
+]

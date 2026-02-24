@@ -1,0 +1,294 @@
+[
+    {
+        "name": "Elizabeth Rose Bloodflame",
+        "cardNumber": "hSD13-001",
+        "rarity": "OSR",
+        "color": "Red",
+        "lives": 5,
+        "oshiSkill": {
+            "name": "秩序の先駆者",
+            "power": 3,
+            "description": "[1/Turn]When 1 of your holomem would take Arts damage from your opponent, you may choose 1 red [Buzz or 2nd] holomem on your stage:The chosen holomem takes the damage instead."
+        },
+        "spOshiSkill": {
+            "name": "JUST LIKE THAT",
+            "power": 3,
+            "description": "[1/Game]Place 1 holomem with #Justice from your archive on stage. Then, send 1~5 cheers from your archive to that holomem."
+        }
+    },
+    {
+        "name": "Gigi Murin",
+        "cardNumber": "hSD13-002",
+        "rarity": "OSR",
+        "color": "Yellow",
+        "lives": 5,
+        "oshiSkill": {
+            "name": "Boat Goes Binted",
+            "power": 1,
+            "description": "[1/Turn]Switch your opponent's center holomem and collab holomem."
+        },
+        "spOshiSkill": {
+            "name": "自由奔放な『追跡者』",
+            "power": 3,
+            "description": "[1/Game]Reveal 2 2nd holomem <Gigi Murin> from your deck, and place them on stage. Then, shuffle the deck. Send 1 cheer from your archive to each of your holomem."
+        }
+    },
+    {
+        "name": "Elizabeth Rose Bloodflame",
+        "tags": "#EN #Justice #Singing",
+        "cardNumber": "hSD13-003",
+        "rarity": "C",
+        "color": "Red",
+        "bloomLevel": "Debut",
+        "hp": 140,
+        "extraEffect": "You may include any number of this holomem in the deck",
+        "skills": [
+            {
+                "name": "オーッホッホッホッ！",
+                "cost": "1 any color",
+                "power": "30"
+            }
+        ]
+    },
+    {
+        "name": "Elizabeth Rose Bloodflame",
+        "tags": "#EN #Justice #Singing",
+        "cardNumber": "hSD13-004",
+        "rarity": "C",
+        "color": "Red",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "skills": [
+            {
+                "name": "薔薇は赤い",
+                "cost": "1 any color",
+                "power": "40"
+            },
+            {
+                "name": "私の心の炎は青い",
+                "cost": "1 red, 3 any color",
+                "power": "140"
+            }
+        ]
+    },
+    {
+        "name": "Elizabeth Rose Bloodflame",
+        "tags": "#EN #Justice #Singing",
+        "cardNumber": "hSD13-005",
+        "rarity": "U",
+        "color": "Red",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "giftEffect": "For Justice! -ERB- : During your opponent's turn, when 1 of your holomem with #Justice is downed, send the top card of your cheer deck to this holomem. You may only use Gift \"For Justice! -ERB-\" once per turn.",
+        "skills": [
+            {
+                "name": "Lovely to See You, to See You, Lovely～♡",
+                "cost": "1 red, 1 any color",
+                "power": "50"
+            }
+        ]
+    },
+    {
+        "name": "Elizabeth Rose Bloodflame",
+        "tags": "#EN #Justice #Singing",
+        "cardNumber": "hSD13-006",
+        "rarity": "U",
+        "color": "Red",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "bloomEffect": "Bring It On! : Choose 1 holomem with #Justice on your stage. During this turn, the chosen holomem gets Arts+20.",
+        "skills": [
+            {
+                "name": "守護るべきもの",
+                "cost": "1 any color",
+                "power": "30"
+            }
+        ]
+    },
+    {
+        "name": "Elizabeth Rose Bloodflame",
+        "tags": "#EN #Justice #Singing",
+        "cardNumber": "hSD13-007",
+        "rarity": "RR",
+        "color": "Red",
+        "bloomLevel": "2nd",
+        "hp": 180,
+        "giftEffect": "猛炎のウォークライ: This holomem gets +10 HP for each of this holomem's cheers.",
+        "skills": [
+            {
+                "name": "悪斬りのカデンツァ",
+                "cost": "1 red, 2 any color",
+                "power": "100+, +50 vs purple",
+                "description": "This Arts gets +20 for each of this holomem's cheers. When this Arts downed your opponent's holomem, send the top card of your cheer deck to this holomem."
+            }
+        ]
+    },
+    {
+        "name": "Gigi Murin",
+        "tags": "#EN #Justice",
+        "cardNumber": "hSD13-008",
+        "rarity": "C",
+        "color": "Yellow",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "collabEffect": "For Justice! -GG- : Send 1 cheer from your archive to your holomem with #Justice.",
+        "extraEffect": "You may include any number of this holomem in the deck",
+        "skills": [
+            {
+                "name": "GI MURIN!!!!",
+                "cost": "1 any color",
+                "power": "20"
+            }
+        ]
+    },
+    {
+        "name": "Gigi Murin",
+        "tags": "#EN #Justice",
+        "cardNumber": "hSD13-009",
+        "rarity": "C",
+        "color": "Yellow",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "collabEffect": "イタズラ増殖！: If you went second and it is your first turn, reveal 1 1st holomem with #Justice from your deck, and place it on stage. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "YIPPEEE",
+                "cost": "1 any color",
+                "power": "20"
+            }
+        ]
+    },
+    {
+        "name": "Gigi Murin",
+        "tags": "#EN #Justice",
+        "cardNumber": "hSD13-010",
+        "rarity": "C",
+        "color": "Yellow",
+        "bloomLevel": "1st",
+        "hp": 180,
+        "skills": [
+            {
+                "name": "周囲の頭痛の種",
+                "cost": "1 yellow",
+                "power": "40"
+            },
+            {
+                "name": "悪戯好きのグレムリン",
+                "cost": "1 yellow, 1 any color",
+                "power": "60"
+            }
+        ]
+    },
+    {
+        "name": "Gigi Murin",
+        "tags": "#EN #Justice",
+        "cardNumber": "hSD13-011",
+        "rarity": "U",
+        "color": "Yellow",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "bloomEffect": "I am Gonathan G. : You may archive 1 Debut holomem that is stacked to this holomem:Deal 20 special damage to your opponent's collab holomem.",
+        "skills": [
+            {
+                "name": "すべての意味を追い求めて",
+                "cost": "1 yellow, 1 any color",
+                "power": "40+",
+                "description": "If there are no holomem stacked to this holomem, this Arts gets +20."
+            }
+        ]
+    },
+    {
+        "name": "Gigi Murin",
+        "tags": "#EN #Justice",
+        "cardNumber": "hSD13-012",
+        "rarity": "U",
+        "color": "Yellow",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "giftEffect": "ご苦労さん！ : During your opponent's turn, when your back holomem would take special damage from your opponent, you may archive 1 holomem that is stacked to this holomem:During this turn, all of your back holomem do not take special damage.",
+        "skills": [
+            {
+                "name": "負けるわけにはいかない",
+                "cost": "1 yellow, 1 any color",
+                "power": "60"
+            }
+        ]
+    },
+    {
+        "name": "Gigi Murin",
+        "tags": "#EN #Justice",
+        "cardNumber": "hSD13-013",
+        "rarity": "RR",
+        "color": "Yellow",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "giftEffect": "再起のストレングス : [1/Turn]During your main phase, you may archive 1 holomem stacked to your <Gigi Murin>:Send the top card of your cheer deck to this holomem.",
+        "skills": [
+            {
+                "name": "殻破りのライオット",
+                "cost": "1 yellow, 3 any color",
+                "power": "90+, +50 vs white",
+                "description": "If there are no holomem stacked to this holomem, this Arts gets +90."
+            }
+        ]
+    },
+    {
+        "name": "Cecilia Immergreen",
+        "tags": "#EN #Justice #Language",
+        "cardNumber": "hSD13-014",
+        "rarity": "C",
+        "bloomLevel": "Spot",
+        "hp": 160,
+        "giftEffect": "正義の旋律: [Center Position・Collab Position Only][1/Turn]When a [Debut holomem or Spot holomem] with #Justice is placed on your stage, draw 1 card.",
+        "extraEffect": "This holomem cannot Bloom",
+        "skills": [
+            {
+                "name": "紅茶をどうぞ！",
+                "cost": "2 any color",
+                "power": "40",
+                "description": "Send the top card of your cheer deck to your holomem with #Justice."
+            }
+        ]
+    },
+    {
+        "name": "Raora Panthera",
+        "tags": "#EN #Justice #Kemomimi #Painting",
+        "cardNumber": "hSD13-015",
+        "rarity": "C",
+        "bloomLevel": "Spot",
+        "hp": 160,
+        "collabEffect": "正義の諧調 : You may return 1 cheer from your stage to the bottom of your cheer deck. If you do, reveal 1 cheer from your cheer deck and send it to your holomem. Then, shuffle the cheer deck.",
+        "extraEffect": "This holomem cannot Bloom",
+        "skills": [
+            {
+                "name": "コーヒーをどうぞ！",
+                "cost": "1 any color",
+                "power": "30+",
+                "description": "If your [center holomem and collab holomem] with #Justice have cheers of different colors attached, this Arts gets +20."
+            }
+        ]
+    },
+    {
+        "name": "Justice",
+        "cardNumber": "hSD13-016",
+        "rarity": "U",
+        "type": "Support (Event)",
+        "limited": "Yes",
+        "ability": "This card can only be used if you have 6 or less cards in hand excluding this card. Look at the top 4 cards of your deck. Reveal any number of holomem with #Justice from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."
+    },
+    {
+        "name": "JUSTICE, JUST LIKE THAT!!!!",
+        "cardNumber": "hSD13-017",
+        "rarity": "U",
+        "type": "Support (Event)",
+        "limited": "Yes",
+        "ability": "This card can only be used if all holomem on your stage have #Justice. Choose 1 holomem on your stage. Return 1~2 holomem stacked to that holomem to hand. During this turn, the chosen holomem gets Arts+20 for each holomem returned by this effect."
+    },
+    {
+        "name": "Popo",
+        "cardNumber": "hSD13-018",
+        "rarity": "C",
+        "type": "Support (Mascot)",
+        "ability": "The holomem this mascot is attached to gets +20 HP. ◆Additional ability if attached to <Gigi Murin> If there are no holomem stacked to this holomem, this holomem gets Arts+20. Only 1 mascot can be attached to each of your holomem."
+    }
+]
