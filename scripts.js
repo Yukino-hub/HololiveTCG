@@ -70,11 +70,11 @@ document.addEventListener('DOMContentLoaded', function() {
     let allCardData = [];
     let filteredCardData = [];
     const seriesFiles = [
-        ...Array.from({ length: 13 }, (_, i) => `hSD${(i + 1).toString().padStart(2, '0')}.json`),
-        ...Array.from({ length: 6 }, (_, i) => `hBP${(i + 1).toString().padStart(2, '0')}.json`),
-        'hPR.json',
-        'hY01.json',
-        'hY.json'
+        ...Array.from({ length: 13 }, (_, i) => `sets/hSD/hSD${(i + 1).toString().padStart(2, '0')}.json`),
+        ...Array.from({ length: 6 }, (_, i) => `sets/hBP/hBP${(i + 1).toString().padStart(2, '0')}.json`),
+        'sets/hPR.json',
+        'sets/hY01.json',
+        'sets/hY.json'
     ];
 
     /**
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
         loadingIndicator.style.display = 'block';
 
         Promise.all(seriesFiles.map(file => {
-                const setName = file.split('.')[0];
+                const setName = file.split('/').pop().split('.')[0];
                 return fetch(file)
                     .then(response => {
                         if (!response.ok) {
