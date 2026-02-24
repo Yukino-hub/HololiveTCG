@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let filteredCardData = [];
     const seriesFiles = [
         ...Array.from({ length: 13 }, (_, i) => `sets/hSD/hSD${(i + 1).toString().padStart(2, '0')}.json`),
-        ...Array.from({ length: 6 }, (_, i) => `sets/hBP/hBP${(i + 1).toString().padStart(2, '0')}.json`),
+        ...Array.from({ length: 7 }, (_, i) => `sets/hBP/hBP${(i + 1).toString().padStart(2, '0')}.json`),
         'sets/hPR.json',
         'sets/hY01.json',
         'sets/hY.json'
