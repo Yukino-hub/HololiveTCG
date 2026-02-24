@@ -35,6 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalCollabEffectContainer = document.getElementById('modalCollabEffectContainer');
     const modalBloomEffectContainer = document.getElementById('modalBloomEffectContainer');
     const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
+    const modalOshiStageSkillContainer = document.getElementById('modalOshiStageSkillContainer'); 
     const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
     const modalSourcesContainer = document.getElementById('modalSourcesContainer');
 
@@ -51,6 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const modalCollabEffect = document.getElementById('modalCollabEffect');
     const modalBloomEffect = document.getElementById('modalBloomEffect');
     const modalGiftEffect = document.getElementById('modalGiftEffect');
+    const modalOshiStageSkill = document.getElementById('modalOshiStageSkill'); 
     const modalExtraEffect = document.getElementById('modalExtraEffect');
     const modalSources = document.getElementById('modalSources');
 
@@ -299,7 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return card.collabEffect && card.collabEffect.toLowerCase().includes(term);
         }
 
-        const searchableFields = [
+      const searchableFields = [
             card.name,
             card.cardNumber,
             card.tag,
@@ -308,11 +310,11 @@ document.addEventListener('DOMContentLoaded', function() {
             card.bloomEffect,
             card.giftEffect,
             card.extraEffect,
+            card.oshiStageSkill,
             card.oshiSkill?.description,
             card.spOshiSkill?.description,
             ...(card.skills?.map(s => s.description) || [])
         ];
-
         return searchableFields.some(field => field && field.toLowerCase().includes(searchText));
     }
 
@@ -363,6 +365,7 @@ document.addEventListener('DOMContentLoaded', function() {
         modalCollabEffect.textContent = card.collabEffect || '';
         modalBloomEffect.textContent = card.bloomEffect || '';
         modalGiftEffect.textContent = card.giftEffect || '';
+        modalOshiStageSkill.textContent = card.oshiStageSkill || '';
         modalExtraEffect.textContent = card.extraEffect || '';
         modalSources.textContent = card.source || '';
 
@@ -379,6 +382,7 @@ document.addEventListener('DOMContentLoaded', function() {
         toggleVisibility(modalCollabEffectContainer, card.collabEffect);
         toggleVisibility(modalBloomEffectContainer, card.bloomEffect);
         toggleVisibility(modalGiftEffectContainer, card.giftEffect);
+        toggleVisibility(modalOshiStageSkillContainer, card.oshiStageSkill);
         toggleVisibility(modalExtraEffectContainer, card.extraEffect);
         toggleVisibility(modalSourcesContainer, card.source);
 
