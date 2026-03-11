@@ -1,0 +1,1661 @@
+[
+    {
+        "cardNumber": "hBP07-001",
+        "name": "Tsunomaki Watame",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "White",
+        "oshiStageSkill": "ドドドライブ : When your <Tsunomaki Watame> uses Arts, put the top card of your deck as holo Power.",
+        "oshiSkill": {
+            "name": "角ドリルしたろか？",
+            "power": 6,
+            "description": "[1/Turn]During this turn, all <Tsunomaki Watame> on your stage get Arts+100."
+        }
+    },
+    {
+        "cardNumber": "hBP07-002",
+        "name": "Vestia Zeta",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "White",
+        "oshiSkill": {
+            "name": "Good Luck, holoh3ro!",
+            "power": 3,
+            "description": "[1/Turn]Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+50. If that holomem is a Buzz holomem with #IDGen3, that holomem gets Arts+80 instead."
+        },
+        "spOshiSkill": {
+            "name": "不可能なんてないんだから！",
+            "power": 2,
+            "description": "[1/Game]Choose any number of [mascots and fans] from your archive, and attach them to 1 of your holomem with #IDGen3. If you attach 3 or more, during this turn, that holomem gets Arts+100."
+        }
+    },
+    {
+        "cardNumber": "hBP07-003",
+        "name": "Ookami Mio",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "Green",
+        "oshiSkill": {
+            "name": "神札の導き",
+            "power": 1,
+            "description": "[1/Turn]Look at the top 2 cards of your deck. Add 1 card from among them to hand. Then, return the remaining card to the top of the deck."
+        },
+        "spOshiSkill": {
+            "name": "みんなのママ",
+            "power": 2,
+            "description": "[1/Game]Look at the top 6 cards of your deck. Add 3 cards from among them to hand. Then, return the remaining cards to the top of the deck in any order. Restore 50 HP to all of your holomem."
+        }
+    },
+    {
+        "cardNumber": "hBP07-004",
+        "name": "Akai Haato",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "Red",
+        "oshiStageSkill": "はあちゃまなう : [1/Turn]During your turn, when your <Akai Haato> returns from your stage to deck using your ability, draw 2 cards.",
+        "oshiSkill": {
+            "name": "ワールドワイドな最強アイドル！",
+            "power": 2,
+            "description": "[1/Turn]Return 1 Debut holomem <Akai Haato> from your back position to the bottom of your deck. Choose 1 <Akai Haato> on your stage. During this turn, the chosen holomem gets Arts+50."
+        }
+    },
+    {
+        "cardNumber": "hBP07-005",
+        "name": "Ouro Kronii",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "Blue",
+        "oshiSkill": {
+            "name": "忘却の輪の上で",
+            "power": 2,
+            "description": "[1/Turn]Draw the bottom 2 cards of your deck, and archive 1 card from your hand."
+        },
+        "spOshiSkill": {
+            "name": "時間の典獄",
+            "power": 4,
+            "description": "[1/Game]If your center holomem is a 2nd holomem <Ouro Kronii>, take an extra turn after this one."
+        }
+    },
+    {
+        "cardNumber": "hBP07-006",
+        "name": "AZKi",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "Purple",
+        "oshiStageSkill": "ETERNiTY FRONTiER : Your center holomem <AZKi> gets Arts+20 for each of your holo Power.",
+        "oshiSkill": {
+            "name": "行くよ、開拓者。",
+            "power": 1,
+            "description": "[1/Turn]If your holomem was downed during your opponent's previous turn, reveal 1 event from your deck and add it to hand. Then, shuffle the deck."
+        }
+    },
+    {
+        "cardNumber": "hBP07-007",
+        "name": "Momosuzu Nene",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "Yellow",
+        "oshiSkill": {
+            "name": "スーパーねぽらぼエナジー",
+            "power": 2,
+            "description": "[1/Turn]Send 1 cheer from your archive to each of your 2nd holomem with #Gen5."
+        },
+        "spOshiSkill": {
+            "name": "ねねちの大・暴・走！",
+            "power": 1,
+            "description": "[1/Game]Reveal 1~4 Debut holomem <Momosuzu Nene> from your deck, and place them on stage. Then, shuffle the deck."
+        }
+    },
+    {
+        "cardNumber": "hBP07-008",
+        "name": "Tsunomaki Watame",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "color": "White",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
+        "collabEffect": "もういっぺぇ : If you went second and it is your first turn, choose 1 of your <Tsunomaki Watame>. During this turn, after the chosen holomem used Arts, use the same Arts once more.",
+        "skills": [
+            {
+                "name": "スプリングシープ",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-009",
+        "name": "Tsunomaki Watame",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "White",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
+        "skills": [
+            {
+                "name": "ガブガブ！",
+                "dmg": "20+",
+                "description": "[Center Position Only]This Arts gets +20."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-010",
+        "name": "Tsunomaki Watame",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "color": "White",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
+        "collabEffect": "みんなー！ 楽しむぞおおー！！！！！ : Put the top card of your deck as holo Power. Look at your holo Power, and add 1 card from among them to hand. Then, shuffle your holo Power.",
+        "skills": [
+            {
+                "name": "みんなの声聞けるかなー？？？？？？？",
+                "dmg": 40
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-011",
+        "name": "Tsunomaki Watame",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "White",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
+        "bloomEffect": "グルグルシープ : Reveal 1 1st holomem <Tsunomaki Watame> from your deck, and add it to hand. Then, shuffle the deck. You may only use Bloom Effect \"Guruguru Sheep\" once per turn.",
+        "skills": [
+            {
+                "name": "これボタン弾けちゃうよぉ",
+                "dmg": 70,
+                "description": "If this holomem has 2 white cheers attached, this Arts requires -1 colorless."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-012",
+        "name": "Tsunomaki Watame",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 190,
+        "color": "White",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
+        "bloomEffect": "わたビーーーーーーーム！！！！！！ : Deal 30 special damage to your opponent's center holomem or collab holomem. Your opponent draws 1 card.",
+        "skills": [
+            {
+                "name": "わたキャノンもだ！",
+                "dmg": 20,
+                "description": "Draw 1 card."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-013",
+        "name": "Tsunomaki Watame",
+        "rarity": "U",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "color": "White",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
+        "collabEffect": "はばないすでーい！！！ : During this turn, all <Tsunomaki Watame> on your stage get Arts+20. If 6 or more cheers are attached to your center holomem, draw 2 cards.",
+        "skills": [
+            {
+                "name": "センキューオーバーシープ！",
+                "dmg": "90+, +50 vs purple",
+                "description": "This Arts gets +50 for each <Watamates> attached to this holomem."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-014",
+        "name": "Tsunomaki Watame",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "White",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
+        "giftEffect": "キュートセクシー : This holomem gets +10 HP for each holomem stacked to this holomem.",
+        "skills": [
+            {
+                "name": "脳天直撃わためハンマー！",
+                "dmg": "160, +50 vs red",
+                "description": "[Center Position Only]If your opponent's holomem is downed by this Arts, and the dealt damage was greater than the remaining HP, deal special damage to 1 of your opponent's 2nd holomem equal to the excess damage."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-015",
+        "name": "Vestia Zeta",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "White",
+        "tag": "#ID #IDGen3",
+        "collabEffect": "Adopt Me？ : If you went second and it is your first turn, reveal 1 Buzz holomem with #IDGen3 from your deck, and add it to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "ノラネコ見つけた~",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-016",
+        "name": "Vestia Zeta",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "color": "White",
+        "tag": "#ID #IDGen3",
+        "giftEffect": "Pat the BAZO : If this holomem has a mascot attached, this holomem gets +30 HP.",
+        "skills": [
+            {
+                "name": "So, Tell Me Your Secrets?",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-017",
+        "name": "Vestia Zeta",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "color": "White",
+        "tag": "#ID #IDGen3",
+        "giftEffect": "holoh3ro Shopping : [Center Position Only]When your Buzz holomem with #IDGen3 collabs, choose 1 holomem on your stage. The chosen holomem gets Arts+30.",
+        "skills": [
+            {
+                "name": "みんなと一緒にいる時間が好き",
+                "dmg": 50
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-018",
+        "name": "Vestia Zeta",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "White",
+        "tag": "#ID #IDGen3",
+        "collabEffect": "Horse Doko? : Reveal the top card of your deck. If the revealed card is a support card, add it to your hand. If it is not a support card, return it to the top of the deck.",
+        "skills": [
+            {
+                "name": "うまみ～うまみ～♪",
+                "dmg": "30+",
+                "description": "If you have used an event this turn, this Arts gets +30."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-019",
+        "name": "Vestia Zeta",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 230,
+        "buzz": true,
+        "color": "White",
+        "tag": "#ID #IDGen3",
+        "bloomEffect": "準備万端！ : Reveal 1 [<BAZO> or <Zecretary>] from your deck, and attach it to your <Vestia Zeta>. Then, shuffle the deck.",
+        "extraEffect": "If this holomem is downed, you get life-2",
+        "skills": [
+            {
+                "name": "ホロライブID初代ダンスクイーン",
+                "dmg": 50,
+                "description": "If this holomem has a mascot or fan attached, draw 1 card."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-020",
+        "name": "Vestia Zeta",
+        "rarity": "U",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "White",
+        "tag": "#ID #IDGen3",
+        "collabEffect": "Ya ya ya ya ya～! : Roll a die once. If it is odd, set your opponent's 2nd holomem in the center position's remaining HP to 100.",
+        "skills": [
+            {
+                "name": "もっとパフォーマンスしたい！",
+                "dmg": "100, +50 vs red"
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-021",
+        "name": "Vestia Zeta",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "White",
+        "tag": "#ID #IDGen3",
+        "bloomEffect": "任務手伝ってくれる？ : Attach 1 [<BAZO> or <Zecretary>] from your archive to your holomem.",
+        "skills": [
+            {
+                "name": "最高のシークレットエージェント",
+                "dmg": "160+, +50 vs purple",
+                "description": "If you have a Buzz holomem with #IDGen3 on your stage, this Arts gets +40."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-022",
+        "name": "Shirogane Noel",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 220,
+        "color": "White",
+        "tag": "#JP #Gen3 #Alcohol",
+        "giftEffect": "筋肉は裏切らない！ : [Collab Position Only]During your opponent's turn, when your center holomem with #Gen3 is downed, return all of the stacked holomem including that downed holomem to hand.",
+        "skills": [
+            {
+                "name": "元気もりもりさんでーまっする",
+                "dmg": "50, +50 vs purple",
+                "description": "Choose 1 of your holomem with #Gen3. During this turn, the chosen holomem requires -1 colorless for its Arts. If that holomem is a 2nd <Shirogane Noel>, it requires -2 colorless for its Arts instead."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-023",
+        "name": "Ookami Mio",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "color": "Green",
+        "tag": "#JP #GAMERS #Kemomimi #Cooking",
+        "collabEffect": "占いパワー注入！ : If you went second and it is your first turn, look at the top 3 cards of your deck. Add 1 card from among them to hand. Then, return the remaining cards to the top of the deck in any order.",
+        "skills": [
+            {
+                "name": "MIOON!",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-024",
+        "name": "Ookami Mio",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "Green",
+        "tag": "#JP #GAMERS #Kemomimi #Cooking",
+        "giftEffect": "ウチの大切な家族 : [1/Turn]When <Mio-fam> is attached to this holomem, draw 1 card.",
+        "skills": [
+            {
+                "name": "今日もいっぱい笑っていこう",
+                "dmg": "10+",
+                "description": "You may archive the top card of your deck. If the archived card is a support card, this Arts gets +30."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-025",
+        "name": "Ookami Mio",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "color": "Green",
+        "tag": "#JP #GAMERS #Kemomimi #Cooking",
+        "collabEffect": "抹茶パフェ～！きゅんです : Choose 1 of your holomem with #GAMERS and with a support card attached. During this turn, the chosen holomem gets Arts+20.",
+        "skills": [
+            {
+                "name": "ゲーマーズカフェへようこそ",
+                "dmg": 20,
+                "description": "Send 1 cheer from your archive to 1 of your holomem with #GAMERS."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-026",
+        "name": "Ookami Mio",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "Green",
+        "tag": "#JP #GAMERS #Kemomimi #Cooking",
+        "bloomEffect": "早く来ないかな… : Reveal 1 [<Pigeotaurus> or <Mio-fam>] from your deck, and add it to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "ちょっとお洒落な感じでしょ？",
+                "dmg": 40
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-027",
+        "name": "Ookami Mio",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Green",
+        "tag": "#JP #GAMERS #Kemomimi #Cooking",
+        "bloomEffect": "ハートの女王の采配 : Choose 1 of your back holomem other than this holomem. During this turn, the chosen holomem gets Arts+30.",
+        "skills": [
+            {
+                "name": "女王陛下と呼びなさい",
+                "dmg": 70,
+                "description": "[Center Position Only]When this Arts downed your opponent's holomem, draw 1 card."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-028",
+        "name": "Ookami Mio",
+        "rarity": "U",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Green",
+        "tag": "#JP #GAMERS #Kemomimi #Cooking",
+        "collabEffect": "金瞳の綺羅星 : Look at the top 2 cards of your deck. Add 1 card from among them to hand. Then, return the remaining card to the top of the deck.",
+        "skills": [
+            {
+                "name": "天まで届け、みんなの願い",
+                "dmg": "90+, +50 vs blue",
+                "description": "You may archive the top card of your deck. If the archived card is a support card, this Arts gets +50."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-029",
+        "name": "Ookami Mio",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Green",
+        "tag": "#JP #GAMERS #Kemomimi #Cooking",
+        "giftEffect": "緑の地母神 : [1/Turn]During your opponent's turn, when this holomem takes damage, if this holomem has a support card attached, restore 50 HP to this holomem.",
+        "skills": [
+            {
+                "name": "Upright Leading",
+                "dmg": "130+, +50 vs yellow",
+                "description": "You may archive the top card of your deck:If the archived card is a holomem, send the top card of your cheer deck to your holomem. If it is a support card, this Arts gets +50."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-030",
+        "name": "Kazama Iroha",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "color": "Green",
+        "tag": "#JP #holoX",
+        "bloomEffect": "holoRêve -いろは- : When bloomed from a Buzz holomem, restore 100 HP to 1 of your holomem.",
+        "skills": [
+            {
+                "name": "たくさんの宝物",
+                "dmg": "100, +50 vs yellow",
+                "description": "You may archive 2 cheers from this holomem:Draw 2 cards."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-031",
+        "name": "Airani Iofifteen",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 240,
+        "buzz": true,
+        "color": "Green",
+        "tag": "#ID #ID Gen 1 #Painting",
+        "bloomEffect": "この輝きが私達！ : You may archive the top 2 cards of your holo Power:Draw 2 cards.",
+        "extraEffect": "If this holomem is downed, you get life-2",
+        "skills": [
+            {
+                "name": "ひとつになる声",
+                "dmg": 50,
+                "description": "If your oshi holomem is green, blue or yellow, put the top card of your deck as holo Power."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-032",
+        "name": "Rindo Chihaya",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "Green",
+        "tag": "#DEV_IS #FLOW GLOW",
+        "collabEffect": "ドライブ行こうよ : If you went second and it is your first turn, reveal 1 [1st holomem <Rindo Chihaya> and/or <Fugutaro>] each from your deck, and add them to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "一陣の夜風",
+                "dmg": 10
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-033",
+        "name": "Rindo Chihaya",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Green",
+        "tag": "#DEV_IS #FLOW GLOW",
+        "bloomEffect": "ティールマーメイド : Choose 1 of your holomem with #FLOW GLOW that has bloomed this turn. During this turn, the chosen holomem gets Arts+30.",
+        "skills": [
+            {
+                "name": "～Something blue～ 千速",
+                "dmg": 50
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-034",
+        "name": "Rindo Chihaya",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 190,
+        "color": "Green",
+        "tag": "#DEV_IS #FLOW GLOW",
+        "bloomEffect": "ぶいぶい走らせるぞ！！！ : You may archive 1 cheer from your stage:Reveal 1 [Debut holomem, 1st holomem or Spot holomem] with #FLOW GLOW from your deck, and add it to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "どっちが速いｶﾅ？！？！？！",
+                "dmg": "20+",
+                "description": "If <Fugutaro> is attached to this holomem, this Arts gets +10."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-035",
+        "name": "Rindo Chihaya",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 190,
+        "color": "Green",
+        "tag": "#DEV_IS #FLOW GLOW",
+        "collabEffect": "Give Me Hype!! : Send the top card of your cheer deck to this holomem for each time your holomem with #FLOW GLOW bloomed this turn.",
+        "skills": [
+            {
+                "name": "サージングエキゾースト",
+                "dmg": "160, +50 vs blue",
+                "description": "Count the number of cheers attached to this holomem, and return all cheers attached to this holomem to the bottom of your cheer deck in any order. Draw cards until your hand has the same number of cards as the number of cheers returned."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-036",
+        "name": "Akai Haato",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 110,
+        "color": "Red",
+        "tag": "#JP #Gen1 #Cooking",
+        "collabEffect": "AKAI HAATO VS HAACHAMA : If you went second and it is your first turn, reveal 2 Debut holomem <Akai Haato> from your deck, and place them on stage. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "どちらがお好き？♡",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-037",
+        "name": "Akai Haato",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "Red",
+        "tag": "#JP #Gen1 #Cooking",
+        "collabEffect": "ちゃまと旅する！ : If your center holomem is <Akai Haato>, draw 1 card.",
+        "skills": [
+            {
+                "name": "旅はまだ、始まったばかり。",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-038",
+        "name": "Akai Haato",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "Red",
+        "tag": "#JP #Gen1 #Cooking",
+        "bloomEffect": "幻獣グルメハンター : Roll a die once. If it is odd, deal 20 special damage to your opponent's center holomem. If it is even, draw 1 card.",
+        "skills": [
+            {
+                "name": "hololiveEN0",
+                "dmg": 30,
+                "description": "During this turn, all holomem on your stage with #EN get Arts+20."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-039",
+        "name": "Akai Haato",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Red",
+        "tag": "#JP #Gen1 #Cooking",
+        "giftEffect": "血ゃ舞ってる奴いる！？ : [1/Turn]During your turn, when your <Akai Haato> returns from your stage to deck, you may send 1 cheer from your archive to this holomem.",
+        "skills": [
+            {
+                "name": "俺の名は〝ちゃまお〟漢の中の漢だ！",
+                "dmg": 50,
+                "description": "Deal 20 special damage to your opponent's center holomem."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-040",
+        "name": "Akai Haato",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "color": "Red",
+        "tag": "#JP #Gen1 #Cooking",
+        "collabEffect": "Haachama ♥ Restaurant : You may return 1 Debut <Akai Haato> from your back position to the bottom of your deck:Reveal 1 [1st holomem or 2nd holomem] other than Buzz from your deck, and add it to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "当店自慢のはあとんバーガー！",
+                "dmg": 40
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-041",
+        "name": "Akai Haato",
+        "rarity": "U",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Red",
+        "tag": "#JP #Gen1 #Cooking",
+        "collabEffect": "EVERYBODY SAY HENTAI : Deal 50 special damage to your opponent's collab holomem.",
+        "skills": [
+            {
+                "name": "万物に愛されちゃま計画",
+                "dmg": "80+, +50 vs green",
+                "description": "If all cheers on your stage are red cheers, this Arts gets +20."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-042",
+        "name": "Akai Haato",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Red",
+        "tag": "#JP #Gen1 #Cooking",
+        "skills": [
+            {
+                "name": "純心タランテラ",
+                "dmg": "80, +50 vs purple",
+                "description": "Deal 40 special damage to your opponent's center holomem and collab holomem."
+            },
+            {
+                "name": "幸せへの旅路",
+                "dmg": "140+, +50 vs purple",
+                "description": "If your holomem returned from your stage to deck this turn, this Arts gets +50."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-043",
+        "name": "Sakura Miko",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "color": "Red",
+        "tag": "#JP #Gen0 #Baby",
+        "collabEffect": "holoRêve -みこ- : Choose the number 3 or 5. During this turn, when you roll a die using the ability of your Oshi holomem <Sakura Miko> or any <Sakura Miko> on your stage, regard all numbers on the faces of that die as the chosen number.",
+        "skills": [
+            {
+                "name": "桜は花に顕る",
+                "dmg": "70+, +50 vs purple",
+                "description": "For each <35P> attached to this holomem, this Arts gets +70 and you draw 1 card."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-044",
+        "name": "Omaru Polka",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Red",
+        "tag": "#JP #Gen5 #Kemomimi",
+        "giftEffect": "The Show Must Go On : [Center Position・Collab Position Only]During your opponent's turn, when your Buzz holomem with a fan attached is downed, if your Oshi holomem is <Omaru Polka>, you take -1 Life Damage.",
+        "skills": [
+            {
+                "name": "スタッフファーストです！",
+                "dmg": "120, +50 vs purple",
+                "description": "Archive the top 2 cards of your deck. You may return 1 staff from your archive to hand."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-045",
+        "name": "Hakos Baelz",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 230,
+        "buzz": true,
+        "color": "Red",
+        "tag": "#EN #Promise #Kemomimi",
+        "giftEffect": "テンション上がってきた！ : [Center Position・Collab Position Only]When you use your SP Oshi Skill, put the top card of your deck as holo Power.",
+        "extraEffect": "If this holomem is downed, you get life-2",
+        "skills": [
+            {
+                "name": "キミがいないと楽しくないもん",
+                "dmg": "20+",
+                "description": "This Arts gets +20 for each card in your hand."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-046",
+        "name": "Elizabeth Rose Bloodflame",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "Red",
+        "tag": "#EN #Justice #Singing",
+        "collabEffect": "後の先を取る！ : If you went second and it is your first turn, reveal 1 [1st holomem <Elizabeth Rose Bloodflame> and/or <Thorn>] each from your deck, and add them to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "Onwards and Upwards!",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-047",
+        "name": "Elizabeth Rose Bloodflame",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 120,
+        "color": "Red",
+        "tag": "#EN #Justice #Singing",
+        "collabEffect": "…Very well. : If your Oshi holomem is <Elizabeth Rose Bloodflame>, put the top card of your deck as holo Power.",
+        "skills": [
+            {
+                "name": "さあ、かかってくるといい",
+                "dmg": 50
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-048",
+        "name": "Elizabeth Rose Bloodflame",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 260,
+        "buzz": true,
+        "color": "Red",
+        "tag": "#EN #Justice #Singing",
+        "giftEffect": "Queen of Impersonation : This holomem may use the Arts of any holomem on your stage with #EN (correct cheer is required to use those Arts).",
+        "extraEffect": "If this holomem is downed, you get life-2",
+        "skills": [
+            {
+                "name": "Because I love people's voices",
+                "dmg": 60,
+                "description": "Return 1 holomem with #EN from your archive to hand."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-049",
+        "name": "Elizabeth Rose Bloodflame",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "color": "Red",
+        "tag": "#EN #Justice #Singing",
+        "giftEffect": "絢爛のアインザッツ : [Center Position・Collab Position Only]When your holomem downs your opponent's holomem, choose 1 of your holomem. During this turn, the chosen holomem requires -2 colorless for its Arts.",
+        "skills": [
+            {
+                "name": "不撓のコンチェルタート",
+                "dmg": "130+, +50 vs yellow",
+                "description": "If your life is 4 or less, this Arts gets +30. If your life is 2 or less, this Arts gets +60 instead."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-050",
+        "name": "Ouro Kronii",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "Blue",
+        "tag": "#EN #Promise",
+        "collabEffect": "この日が来た！ : If you went second and it is your first turn, you may bloom your center holomem <Ouro Kronii> using a 1st holomem in your hand. This ability allows you to bloom on your first turn.",
+        "skills": [
+            {
+                "name": "金色のルアー",
+                "dmg": 10
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-051",
+        "name": "Ouro Kronii",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "Blue",
+        "tag": "#EN #Promise",
+        "collabEffect": "TAKE YOUR TIME : You may reattach 1 cheer from your stage to your other holomem with #Promise.",
+        "skills": [
+            {
+                "name": "Check This Out Yo 🕶️",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-052",
+        "name": "Ouro Kronii",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Blue",
+        "tag": "#EN #Promise",
+        "collabEffect": "お時間ですわ！ : You may attach 1 mascot from your archive to this holomem.",
+        "skills": [
+            {
+                "name": "私の新キャッチフレーズ。どうだい？",
+                "dmg": "30+",
+                "description": "If your stage has a holomem with #Promise other than <Ouro Kronii>, this Arts gets +10."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-053",
+        "name": "Ouro Kronii",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "Blue",
+        "tag": "#EN #Promise",
+        "bloomEffect": "時を超えた約束 : Choose 1 holomem with #Promise on your stage. During this turn, the chosen holomem gets Arts+20.",
+        "skills": [
+            {
+                "name": "Everlasting Flower",
+                "dmg": 50,
+                "description": "Send the top card of your cheer deck to your holomem with #Promise."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-054",
+        "name": "Ouro Kronii",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 250,
+        "buzz": true,
+        "color": "Blue",
+        "tag": "#EN #Promise",
+        "extraEffect": "If this holomem is downed, you get life-2",
+        "skills": [
+            {
+                "name": "I'm pretty shy…uwu",
+                "dmg": 50,
+                "description": "Send the top card of your cheer deck to your Buzz holomem with #Promise."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-055",
+        "name": "Ouro Kronii",
+        "rarity": "U",
+        "bloomLevel": "2nd",
+        "hp": 190,
+        "color": "Blue",
+        "tag": "#EN #Promise",
+        "bloomEffect": "約束の未来へ : Choose 1 holomem with #Promise on your stage. During this turn, the chosen holomem gets Arts+50.",
+        "skills": [
+            {
+                "name": "Life Goes On",
+                "dmg": "90, +50 vs white"
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-056",
+        "name": "Ouro Kronii",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Blue",
+        "tag": "#EN #Promise",
+        "giftEffect": "時界を統べし者 : [Center Position Only]At the start of your performance phase, you may bloom 1 of your other <Ouro Kronii> using a holomem that is stacked to this holomem.",
+        "skills": [
+            {
+                "name": "You're not ready for me.",
+                "dmg": "80+, +50 vs red",
+                "description": "You may reattach 1 cheer from this holomem to your other holomem with #Promise. If your Oshi holomem is <Ouro Kronii>, this Arts gets +100."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-057",
+        "name": "Nekomata Okayu",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Blue",
+        "tag": "#JP #GAMERS #Kemomimi",
+        "collabEffect": "君と遊ぶとドキドキしちゃう… : Deal 30 special damage to 1 of your opponent's holomem.",
+        "skills": [
+            {
+                "name": "おりゃー！！油断したでしょ～",
+                "dmg": "100, +50 vs red",
+                "description": "If your Oshi holomem is <Nekomata Okayu> and your opponent has a back holomem which has taken 100 or more damage, deal 50 special damage to 1 of your opponent's holomem."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-058",
+        "name": "Kobo Kanaeru",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Blue",
+        "tag": "#ID #IDGen3",
+        "bloomEffect": "Happy For You : Reveal 1 cheer from your cheer deck with the same color as 1 holomem with #IDGen3 on your stage, and send it to your holomem. Then, shuffle the cheer deck.",
+        "skills": [
+            {
+                "name": "MANTAP LEE!!",
+                "dmg": 60,
+                "description": "If your opponent has 3 or more back holomem with reduced HP, draw 2 cards."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-059",
+        "name": "Shiori Novella",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "color": "Blue",
+        "tag": "#EN #Advent",
+        "collabEffect": "It's Time to Play Dress-up! : If you went second and it is your first turn, return 1 support card from your archive to hand.",
+        "skills": [
+            {
+                "name": "A Cozy, Spooky Night Together",
+                "dmg": 10,
+                "description": "Deal 10 special damage to 1 of your opponent's holomem."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-060",
+        "name": "Shiori Novella",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 190,
+        "color": "Blue",
+        "tag": "#EN #Advent",
+        "skills": [
+            {
+                "name": "食料解剖",
+                "dmg": 10
+            },
+            {
+                "name": "Don't Let Her Cook!",
+                "dmg": 50,
+                "description": "This Arts may not be used unless you have 4 or more support cards in your archive."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-061",
+        "name": "Shiori Novella",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "Blue",
+        "tag": "#EN #Advent",
+        "bloomEffect": "A New Chapter Begins! : If your Oshi holomem is <Shiori Novella>, look at the top 4 cards of your deck. Reveal 1 support card from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order.",
+        "skills": [
+            {
+                "name": "逃がす訳がないでしょう？",
+                "dmg": 20,
+                "description": "Deal 20 special damage to 1 of your opponent's back holomem."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-062",
+        "name": "Shiori Novella",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Blue",
+        "tag": "#EN #Advent",
+        "collabEffect": "A New Crime & A New Me : You may archive 2 support cards from your hand:Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+50.",
+        "skills": [
+            {
+                "name": "解き放たれた禁断の知識",
+                "dmg": "60+, +50 vs red",
+                "description": "Send 1 cheer from your archive to your holomem with #Advent. If your Oshi holomem is <Shiori Novella> and 4 or more cheers are attached to this holomem, this Arts gets +100."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-063",
+        "name": "AZKi",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "color": "Purple",
+        "tag": "#JP #Gen0 #Singing",
+        "collabEffect": "ドキドキ夜キャンプ… : If you went second, it is your first turn, and your Oshi holomem is <AZKi>, return 1 cheer from your opponent's stage to the bottom of the cheer deck.",
+        "skills": [
+            {
+                "name": "君とぴったり密着空間",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-064",
+        "name": "AZKi",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "Purple",
+        "tag": "#JP #Gen0 #Singing",
+        "skills": [
+            {
+                "name": "ゆっくりしにおいで♡",
+                "dmg": 20,
+                "description": "Reveal 1 <Pioneers> from your deck, and attach it to your <AZKi>. Then, shuffle the deck."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-065",
+        "name": "AZKi",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 190,
+        "color": "Purple",
+        "tag": "#JP #Gen0 #Singing",
+        "skills": [
+            {
+                "name": "盛り上がっていこう！",
+                "dmg": 30,
+                "description": "Draw 1 card, and archive 1 card from your hand."
+            },
+            {
+                "name": "みんなの声聞かせてええええええ！！！",
+                "dmg": 120
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-066",
+        "name": "AZKi",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "color": "Purple",
+        "tag": "#JP #Gen0 #Singing",
+        "collabEffect": "仮想世界の伴走する歌姫 : Restore 30 HP to 1 of your holomem. Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+10.",
+        "skills": [
+            {
+                "name": "音楽と歌うことが大好き！",
+                "dmg": 40
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-067",
+        "name": "AZKi",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "Purple",
+        "tag": "#JP #Gen0 #Singing",
+        "bloomEffect": "ROMANTiC NiGHT : Look at the top 4 cards of your deck. Reveal 1 <AZKi> from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order.",
+        "skills": [
+            {
+                "name": "君と二人きりの夜",
+                "dmg": 40,
+                "description": "You may archive 1 card from your hand:Deal 20 special damage to your opponent's center holomem or collab holomem."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-068",
+        "name": "AZKi",
+        "rarity": "U",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "color": "Purple",
+        "tag": "#JP #Gen0 #Singing",
+        "giftEffect": "Cost : 2 any color Power: 100, +50 vs yellow",
+        "collabEffect": "共に歩んできた軌跡 : During this turn, this holomem gets Arts+20 for each differently named holomem with #Gen0 on your stage.",
+        "skills": [
+            {
+                "name": "ホワイトデーのお返し、待ってるね",
+                "dmg": "100, +50 vs yellow"
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-069",
+        "name": "AZKi",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 220,
+        "color": "Purple",
+        "tag": "#JP #Gen0 #Singing",
+        "skills": [
+            {
+                "name": "君と新たな開拓の地へ",
+                "dmg": "140, +50 vs green",
+                "description": "Draw 2 cards."
+            },
+            {
+                "name": "紡いだ軌跡 すべてに捧ぐ歌",
+                "dmg": "200, +50 vs green",
+                "description": "If your Oshi holomem is <AZKi>, you may archive 4 of your holo Power:If you have 4 <Frontier Spirit> in your archive, your opponent gets life-1."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-070",
+        "name": "Yuzuki Choco",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "Purple",
+        "tag": "#JP #Gen2 #Cooking",
+        "bloomEffect": "今日のご飯、何がいーい？ : Look at the top 3 cards of your deck. Reveal 1 holomem with #Cooking from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order.",
+        "skills": [
+            {
+                "name": "がんばって美味しいの作るね♡",
+                "dmg": 30,
+                "description": "Choose 1 of your holomem with #Cooking. During this turn, for each event with #Food you used this turn, the chosen holomem requires -1 colorless for its Arts."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-071",
+        "name": "La+ Darknesss",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "color": "Purple",
+        "tag": "#JP #holoX #Shooter",
+        "collabEffect": "おい、お前 : Look at the top 5 cards of your deck. Reveal 1 purple Debut holomem from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order.",
+        "skills": [
+            {
+                "name": "手作りの朝ごはんを要求する",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-072",
+        "name": "La+ Darknesss",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "Purple",
+        "tag": "#JP #holoX #Shooter",
+        "bloomEffect": "Secret Love -La+- : Choose 1 of your holomem with #holoX, and roll a die 3 times. During this turn, for each odd result rolled, the chosen holomem gets Arts+10.",
+        "skills": [
+            {
+                "name": "吾輩との秘密だぞ",
+                "dmg": 60
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-073",
+        "name": "La+ Darknesss",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "color": "Purple",
+        "tag": "#JP #holoX #Shooter #Singing",
+        "collabEffect": "ライブだー！！！！！！！！！ : During this turn, this holomem requires -2 colorless for its Arts.",
+        "skills": [
+            {
+                "name": "吾輩の歌聴いてくれる奴いるううう！？！？",
+                "dmg": 30,
+                "description": "Reveal 1 <La+ Darknesss> from your deck, and add it to hand. Then, shuffle the deck."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-074",
+        "name": "La+ Darknesss",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Purple",
+        "tag": "#JP #holoX #Shooter #Singing",
+        "bloomEffect": "ラッシュ行きます : Look at the top 3 cards of your deck. Reveal any number of holomem from among them, and add the revealed cards to hand. Then, return the remaining cards to the bottom of the deck in any order.",
+        "skills": [
+            {
+                "name": "吾輩の歌を聴けえええええええ！！！！",
+                "dmg": "110+, +50 vs green",
+                "description": "If your center holomem is purple, this Arts gets +40."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-075",
+        "name": "Koseki Bijou",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Purple",
+        "tag": "#EN #Advent #Baby",
+        "giftEffect": "闇夜のハンター : If the target of this holomem's Arts is your opponent's holomem with the same color as a cheer in your archive, damage from that Arts cannot be reduced.",
+        "skills": [
+            {
+                "name": "CODE:81800",
+                "dmg": "70+, +50 vs blue",
+                "description": "If 3 or more cheers are attached to this holomem, this Arts gets +10 for each cheer in both players' archive."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-076",
+        "name": "Nerissa Ravencroft",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 260,
+        "buzz": true,
+        "color": "Purple",
+        "tag": "#EN #Advent #Singing #Bird",
+        "collabEffect": "SUGOISUGOIDEKAI : If your Oshi holomem is <Nerissa Ravencroft>, draw 1 card and put 1 card from your hand to holo Power.",
+        "extraEffect": "If this holomem is downed, you get life-2",
+        "skills": [
+            {
+                "name": "あら、捕まえられちゃった！",
+                "dmg": "50+",
+                "description": "You may archive 1 of your holo Power:This Arts gets +30."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-077",
+        "name": "Momosuzu Nene",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "Yellow",
+        "tag": "#JP #Gen5 #Singing #Painting",
+        "collabEffect": "あぱぱ : If you went second and it is your first turn, reveal 1 2nd holomem with #Gen5 from your deck, and add it to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "ねね、酔っちゃった～",
+                "dmg": 10
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-078",
+        "name": "Momosuzu Nene",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 110,
+        "color": "Yellow",
+        "tag": "#JP #Gen5 #Singing #Painting",
+        "collabEffect": "君もこっちにおいで～！ : Look at the top 5 cards of your deck. Reveal 1 <Nekko> from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order.",
+        "skills": [
+            {
+                "name": "ねねと一緒に楽しもう！！",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-079",
+        "name": "Momosuzu Nene",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "Yellow",
+        "tag": "#JP #Gen5 #Singing #Painting",
+        "bloomEffect": "ねねちライブスタート！ : You may send 1 cheer from your archive to this holomem.",
+        "skills": [
+            {
+                "name": "ご自由にお使いください！",
+                "dmg": 30,
+                "description": "Reveal 1 <Yamena> from your deck, and attach it to your holomem. Then, shuffle the deck."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-080",
+        "name": "Momosuzu Nene",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "Yellow",
+        "tag": "#JP #Gen5 #Singing #Painting",
+        "giftEffect": "オレンジアイドル！ : [1/Turn]Usable during your main phase if your Oshi holomem is <Momosuzu Nene>:Attach 1 <Nekko> from your archive to this holomem.",
+        "skills": [
+            {
+                "name": "さいくーにくぅわいい",
+                "dmg": 40
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-081",
+        "name": "Momosuzu Nene",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 180,
+        "color": "Yellow",
+        "tag": "#JP #Gen5 #Singing #Painting",
+        "collabEffect": "桃鈴ねねは昆虫博士になる！ : If you have 4 or more holo Power and your opponent has no collab holomem, your opponent moves 1 of their back holomem to the collab position (Moving is not regarded as collab).",
+        "skills": [
+            {
+                "name": "君のハートをブルロック！",
+                "dmg": 30,
+                "description": "If this holomem has <Giraffe Stag Beetle> attached, this Arts damage is dealt to your opponent's center holomem and collab holomem, instead of only the holomem targeted by this Arts."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-082",
+        "name": "Momosuzu Nene",
+        "rarity": "U",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Yellow",
+        "tag": "#JP #Gen5 #Singing #Painting",
+        "collabEffect": "ねぽらぼが最強です！！！！！！！！！！！！！ : Reveal 1 2nd holomem with #Gen5 from your deck, and add it to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "アチョ～～～！",
+                "dmg": "50, +50 vs blue"
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-083",
+        "name": "Momosuzu Nene",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Yellow",
+        "tag": "#JP #Gen5 #Singing #Painting",
+        "bloomEffect": "みんなのエナジードリンク : [Center Position Only]Until the end of your opponent's next turn, all holomem on both players' stage get Arts+40. Then, all 2nd holomem <Momosuzu Nene> on your stage get Arts+60.",
+        "skills": [
+            {
+                "name": "オーバーチアリーディング",
+                "dmg": "100, +50 vs red",
+                "description": "Return 1 cheer from your opponent's [center holomem or collab holomem] to the bottom of the cheer deck."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-084",
+        "name": "Natsuiro Matsuri",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "color": "Yellow",
+        "tag": "#JP #Gen1 #Shooter",
+        "giftEffect": "一緒にゲームしよ : During your opponent's turn, when this holomem is downed, you may return 1 LIMITED support card from your archive to the bottom of your deck. If you do, return this holomem to hand instead of archiving it.",
+        "skills": [
+            {
+                "name": "やっぱり、FPSとか？",
+                "dmg": "90, +50 vs blue",
+                "description": "Send 1 cheer from your archive to your holomem."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-085",
+        "name": "Shiranui Flare",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "color": "Yellow",
+        "tag": "#JP #Gen3 #Half-Elf",
+        "giftEffect": "私のとっておき！ : During your turn, when this holomem moves to the collab position, look at the top 3 cards of your deck. Reveal 1 <Shiranui Flare> from among them, and add it to hand. Then, archive the remaining cards.",
+        "skills": [
+            {
+                "name": "元気いっぱいカラフルパフェ",
+                "dmg": "20+",
+                "description": "If your Oshi holomem is <Shiranui Flare>, choose 1 of your <Shiranui Flare>. During this turn, the chosen holomem gets Arts+20 for each of the chosen holomem's cheers."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-086",
+        "name": "Gigi Murin",
+        "rarity": "R",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "color": "Yellow",
+        "tag": "#EN #Justice",
+        "collabEffect": "執念のチェイサー : Choose 1 of your <Gigi Murin>. During this turn, you may also target your opponent's back holomem with reduced HP with the chosen holomem's Arts.",
+        "skills": [
+            {
+                "name": "追撃のライオット",
+                "dmg": "160+, +50 vs blue",
+                "description": "If the target of this Arts is a holomem with reduced HP, this Arts gets +30."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-087",
+        "name": "Koganei Niko",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "color": "Yellow",
+        "tag": "#DEV_IS #FLOW GLOW",
+        "collabEffect": "ニコたん出動！ : If you went second and it is your first turn, you may archive the top 2 cards of your cheer deck:Choose 1 holomem with #FLOW GLOW on your stage. During this turn, the chosen holomem gets Arts+20.",
+        "skills": [
+            {
+                "name": "現行犯逮捕だ",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-088",
+        "name": "Koganei Niko",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Yellow",
+        "tag": "#DEV_IS #FLOW GLOW",
+        "giftEffect": "虎の威 : All of your 1st holomem in the back position with #FLOW GLOW do not take special damage from your opponent.",
+        "skills": [
+            {
+                "name": "みんなが居るから幸せだ！",
+                "dmg": "50+",
+                "description": "If cheer has been archived from your stage this turn, this Arts gets +30."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-089",
+        "name": "Koganei Niko",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 180,
+        "color": "Yellow",
+        "tag": "#DEV_IS #FLOW GLOW",
+        "bloomEffect": "っしゃ反撃抜刀 : If your holomem with #FLOW GLOW was downed during your opponent's previous turn, draw 2 cards. You may only use Bloom Effect \"Swift Riposte!\" once per turn.",
+        "skills": [
+            {
+                "name": "スッゲーワクワクするしょ！！",
+                "dmg": 50
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-090",
+        "name": "Koganei Niko",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "color": "Yellow",
+        "tag": "#DEV_IS #FLOW GLOW",
+        "collabEffect": "ここで終わっちゃう虎じゃないんだ！ : You may send 2 cheers from your archive to 1 of your holomem with #FLOW GLOW.",
+        "skills": [
+            {
+                "name": "ぶち上げる気合いだ！",
+                "dmg": "80+, +50 vs white",
+                "description": "This Arts gets +20 for each of this holomem's cheers."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hBP07-091",
+        "name": "Live Staff",
+        "type": "Support (Staff)",
+        "rarity": "C",
+        "ability": "This card can only be used if you archive 1 cheer from your stage. Attach 1 fan from your archive to your holomem. If you do, return 1 holomem from your archive to hand."
+    },
+    {
+        "cardNumber": "hBP07-092",
+        "name": "Archive PC",
+        "type": "Support (Item)",
+        "rarity": "U",
+        "limited": true,
+        "ability": ": Only one can be used per turn. Return 1~3 holomem from your archive to the deck and shuffle it. Draw 2 cards."
+    },
+    {
+        "cardNumber": "hBP07-093",
+        "name": "Umami!",
+        "type": "Support (Event)",
+        "rarity": "C",
+        "ability": "Choose your <Vestia Zeta> in the collab position. During this turn, the chosen holomem gets Arts+40. Roll a die once. If the result is anything other than 6, return this card to the deck, and shuffle the deck. You may only use the card <Umami!> once per turn."
+    },
+    {
+        "cardNumber": "hBP07-094",
+        "name": "GiriWaru Robo",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "limited": true,
+        "ability": ": Only one can be used per turn. Return all of the cards in your hand to the deck and shuffle it. Then, draw 4 cards. If your life is 3 or less, instead both players return all of the cards in their hands to their decks and shuffle them. Then, both players draw 4 cards."
+    },
+    {
+        "cardNumber": "hBP07-095",
+        "name": "Cross Impact",
+        "type": "Support (Event)",
+        "rarity": "C",
+        "limited": true,
+        "ability": ": Only one can be used per turn. This card cannot be used unless both players' center holomem are 2nd holomem. Both players roll a die once. If your result is greater than or equal to your opponent's result, during this turn, your center holomem gets Arts+100. If your result is less than your opponent's result, send the top card of your cheer deck to your holomem."
+    },
+    {
+        "cardNumber": "hBP07-096",
+        "name": "Chama Journey",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "ability": "Choose 1 <Akai Haato> in your back position. Return all of the chosen holomem's stacked holomem, including that holomem, to the bottom of the deck in any order. During this turn, all of your <Akai Haato> requires -1 colorless for their Arts."
+    },
+    {
+        "cardNumber": "hBP07-097",
+        "name": "Ruler of Time -Promise-",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "limited": true,
+        "ability": ": Only one can be used per turn. This card can only be used if all holomem on your stage have #Promise. Reveal 2 holomem with #Promise from your deck, and add them to hand. Then, shuffle the deck. If your life is less than your opponent's, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+20."
+    },
+    {
+        "cardNumber": "hBP07-098",
+        "name": "Big God Mion's Fortune Telling",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "limited": true,
+        "ability": ": Only one can be used per turn. This card can only be used if your Oshi holomem is <Ookami Mio>. Reveal the top 3 cards of your deck. During this turn, for each support card revealed, all holomem on your stage get Arts+20. Then, return the revealed cards to the top of the deck in any order."
+    },
+    {
+        "cardNumber": "hBP07-099",
+        "name": "Buhii!",
+        "type": "Support (Event)",
+        "rarity": "C",
+        "limited": true,
+        "ability": ": Only one can be used per turn. Draw 2 cards. If your holomem was downed during your opponent's previous turn, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+20. Then, if the holomem that was downed during your opponent's previous turn was <La+ Darknesss>, draw 2 cards."
+    },
+    {
+        "cardNumber": "hBP07-100",
+        "name": "Frontier Spirit",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "ability": "Return 1 <AZKi> from your archive to hand. Send 1 cheer from your archive to 1 of your <AZKi> for each <Frontier Spirit> in your archive. You may only use the card <Frontier Spirit> once per turn."
+    },
+    {
+        "cardNumber": "hBP07-101",
+        "name": "ASMR Microphone",
+        "type": "Support (Tool)",
+        "rarity": "C",
+        "ability": "◆Additional ability if attached to a Buzz holomem This holomem requires -1 colorless for its Arts. Only 1 tool can be attached to each of your holomem."
+    },
+    {
+        "cardNumber": "hBP07-102",
+        "name": "Tsunomaki Watame's Hammer",
+        "type": "Support (Tool)",
+        "rarity": "U",
+        "ability": "The <Tsunomaki Watame> with this tool attached gets Arts+20. ◆Additional ability if attached to 2nd <Tsunomaki Watame> ■[Center Position Only]This holomem gets Arts+30. ■[Center Position Only]When this holomem uses Arts, roll a die once. If it is 3 or 5, deal 50 special damage to 1 of your other holomem. Only 1 tool can be attached to each of your holomem."
+    },
+    {
+        "cardNumber": "hBP07-103",
+        "name": "Giraffe Stag Beetle",
+        "type": "Support (Tool)",
+        "rarity": "U",
+        "ability": "The <Momosuzu Nene> with this tool attached gets Arts+20. ◆Additional ability if attached to 1st or greater <Momosuzu Nene> This holomem's Arts damage cannot be reduced. Only 1 tool can be attached to each of your holomem."
+    },
+    {
+        "cardNumber": "hBP07-104",
+        "name": "Thorn",
+        "type": "Support (Tool)",
+        "rarity": "U",
+        "ability": "The <Elizabeth Rose Bloodflame> with this tool attached gets Arts+20. ◆Additional ability if attached to 2nd <Elizabeth Rose Bloodflame> While this holomem has reduced HP, this holomem gets Arts+20. Only 1 tool can be attached to each of your holomem."
+    },
+    {
+        "cardNumber": "hBP07-105",
+        "name": "BAZO",
+        "type": "Support (Mascot)",
+        "rarity": "C",
+        "ability": "The holomem this mascot is attached to gets Arts+10. ◆Additional ability if attached to <Vestia Zeta> When this holomem uses Arts, return 1 fan from your archive to hand. Only 1 mascot can be attached to each of your holomem."
+    },
+    {
+        "cardNumber": "hBP07-106",
+        "name": "Pigeotaurus",
+        "type": "Support (Mascot)",
+        "rarity": "U",
+        "ability": "The holomem this mascot is attached to gets +20 HP. ◆Additional ability if attached to <Ookami Mio> When this holomem collabs, you may return 1 <Pigeotaurus> attached to this holomem to the top of the deck:Return 1 holomem from your archive to hand. Only 1 mascot can be attached to each of your holomem."
+    },
+    {
+        "cardNumber": "hBP07-107",
+        "name": "Boros",
+        "type": "Support (Mascot)",
+        "rarity": "U",
+        "ability": "The holomem this mascot is attached to gets +20 HP. ◆Additional ability if attached to <Ouro Kronii> If you have used your SP Oshi Skill \"Warden of Time\" this game, this holomem gets Arts+20. Only 1 mascot can be attached to each of your holomem."
+    },
+    {
+        "cardNumber": "hBP07-108",
+        "name": "Zecretary",
+        "type": "Support (Fan)",
+        "rarity": "C",
+        "ability": "■If the holomem this fan is attached to would use Arts, if your Oshi holomem is <Vestia Zeta>, this fan is also regarded as a white cheer. ■During your opponent's turn, when the holomem this fan is attached to takes damage, archive this fan. You may only attach this fan to your <Vestia Zeta>, and you may attach any number of this fan per holomem."
+    },
+    {
+        "cardNumber": "hBP07-109",
+        "name": "Kronies",
+        "type": "Support (Fan)",
+        "rarity": "C",
+        "ability": "The holomem this fan is attached to gets Arts+10. You may only attach this fan to your <Ouro Kronii>, and you may attach any number of this fan per holomem."
+    },
+    {
+        "cardNumber": "hBP07-110",
+        "name": "Nekko",
+        "type": "Support (Fan)",
+        "rarity": "C",
+        "ability": "[1/Turn]When the bloom level of the holomem this fan is attached to increases, draw 1 card. You may only attach this fan to your <Momosuzu Nene>, and you may attach any number of this fan per holomem."
+    }
+]
