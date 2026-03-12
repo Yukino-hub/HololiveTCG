@@ -1038,6 +1038,7 @@
                 "dmg": "30"
             }
         ],
+        "hasHolomenRare": true,
         "hasFoils": true
     },
     {
@@ -1862,6 +1863,7 @@
         "hasFoils": true
     }
 ]
+
 
 
 
