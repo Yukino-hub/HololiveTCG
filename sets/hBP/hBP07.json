@@ -305,8 +305,7 @@
                 "dmg": "30+",
                 "description": "If you have used an event this turn, this Arts gets +30."
             }
-        ],
-        "hasFullArt": true,
+        ]
         "hasFoils": true
     },
     {
@@ -326,7 +325,8 @@
                 "dmg": 50,
                 "description": "If this holomem has a mascot or fan attached, draw 1 card."
             }
-        ]
+        ],
+        "hasFullArt": true,
     },
     {
         "cardNumber": "hBP07-020",
@@ -1775,3 +1775,4 @@
     }
 
 ]
+
