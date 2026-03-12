@@ -410,7 +410,8 @@
             }
         ],
         "extraEffect": "You may include any number of this holomem in the deck",
-        "hasHolomenRare": true
+        "hasHolomenRare": true,
+        "imageSet": "hBP07"
     },
     {
         "cardNumber": "hBP01-025",
@@ -1587,6 +1588,7 @@
             }
         ],
         "hasHolomenRare": true,
+        "imageSet": "hBP07",
         "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
