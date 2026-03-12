@@ -172,5 +172,41 @@
         "name": "Yellow Cheer (Matsuri)",
         "rarity": "SY",
         "imageSet": "hBP06"
+    },
+    {
+        "cardNumber": "hY01-012",
+        "name": "White Cheer (Noel)",
+        "rarity": "SY",
+        "imageSet": "hBP07"
+    },
+     {
+        "cardNumber": "hY02-010",
+        "name": "Green Cheer (Chihaya)",
+        "rarity": "SY",
+        "imageSet": "hBP07"
+    },
+      {
+        "cardNumber": "hY03-014",
+        "name": "Red Cheer (Polka)",
+        "rarity": "SY",
+        "imageSet": "hBP07"
+    },
+       {
+        "cardNumber": "hY04-011",
+        "name": "Blue Cheer (Kobo)",
+        "rarity": "SY",
+        "imageSet": "hBP07"
+    },
+      {
+        "cardNumber": "hY05-009",
+        "name": "Purple Cheer (Bijou)",
+        "rarity": "SY",
+        "imageSet": "hBP07"
+    },
+     {
+        "cardNumber": "hY06-009",
+        "name": "Yellow Cheer (Nene)",
+        "rarity": "SY",
+        "imageSet": "hBP07"
     }
 ]
