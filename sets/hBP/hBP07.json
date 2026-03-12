@@ -10,7 +10,8 @@
             "name": "角ドリルしたろか？",
             "power": 6,
             "description": "[1/Turn]During this turn, all <Tsunomaki Watame> on your stage get Arts+100."
-        }
+        },
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-002",
@@ -27,7 +28,9 @@
             "name": "不可能なんてないんだから！",
             "power": 2,
             "description": "[1/Game]Choose any number of [mascots and fans] from your archive, and attach them to 1 of your holomem with #IDGen3. If you attach 3 or more, during this turn, that holomem gets Arts+100."
-        }
+        },
+        "hasAlternativeArt": true,
+        "hasSigned": true
     },
     {
         "cardNumber": "hBP07-003",
@@ -44,7 +47,9 @@
             "name": "みんなのママ",
             "power": 2,
             "description": "[1/Game]Look at the top 6 cards of your deck. Add 3 cards from among them to hand. Then, return the remaining cards to the top of the deck in any order. Restore 50 HP to all of your holomem."
-        }
+        },
+        "hasAlternativeArt": true,
+        "hasSigned": true
     },
     {
         "cardNumber": "hBP07-004",
@@ -57,7 +62,8 @@
             "name": "ワールドワイドな最強アイドル！",
             "power": 2,
             "description": "[1/Turn]Return 1 Debut holomem <Akai Haato> from your back position to the bottom of your deck. Choose 1 <Akai Haato> on your stage. During this turn, the chosen holomem gets Arts+50."
-        }
+        },
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-005",
@@ -74,7 +80,8 @@
             "name": "時間の典獄",
             "power": 4,
             "description": "[1/Game]If your center holomem is a 2nd holomem <Ouro Kronii>, take an extra turn after this one."
-        }
+        },
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-006",
@@ -87,7 +94,9 @@
             "name": "行くよ、開拓者。",
             "power": 1,
             "description": "[1/Turn]If your holomem was downed during your opponent's previous turn, reveal 1 event from your deck and add it to hand. Then, shuffle the deck."
-        }
+        },
+        "hasAlternativeArt": true,
+        "hasSigned": true
     },
     {
         "cardNumber": "hBP07-007",
@@ -104,7 +113,9 @@
             "name": "ねねちの大・暴・走！",
             "power": 1,
             "description": "[1/Game]Reveal 1~4 Debut holomem <Momosuzu Nene> from your deck, and place them on stage. Then, shuffle the deck."
-        }
+        },
+        "hasAlternativeArt": true,
+        "hasSigned": true
     },
     {
         "cardNumber": "hBP07-008",
@@ -136,7 +147,8 @@
                 "dmg": "20+",
                 "description": "[Center Position Only]This Arts gets +20."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-010",
@@ -152,7 +164,8 @@
                 "name": "みんなの声聞けるかなー？？？？？？？",
                 "dmg": 40
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-011",
@@ -169,7 +182,8 @@
                 "dmg": 70,
                 "description": "If this holomem has 2 white cheers attached, this Arts requires -1 colorless."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-012",
@@ -186,7 +200,8 @@
                 "dmg": 20,
                 "description": "Draw 1 card."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-013",
@@ -203,7 +218,8 @@
                 "dmg": "90+, +50 vs purple",
                 "description": "This Arts gets +50 for each <Watamates> attached to this holomem."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-014",
@@ -220,7 +236,9 @@
                 "dmg": "160, +50 vs red",
                 "description": "[Center Position Only]If your opponent's holomem is downed by this Arts, and the dealt damage was greater than the remaining HP, deal special damage to 1 of your opponent's 2nd holomem equal to the excess damage."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-015",
@@ -252,7 +270,8 @@
                 "name": "So, Tell Me Your Secrets?",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-017",
@@ -268,7 +287,8 @@
                 "name": "みんなと一緒にいる時間が好き",
                 "dmg": 50
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-018",
@@ -285,7 +305,9 @@
                 "dmg": "30+",
                 "description": "If you have used an event this turn, this Arts gets +30."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-019",
@@ -320,7 +342,8 @@
                 "name": "もっとパフォーマンスしたい！",
                 "dmg": "100, +50 vs red"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-021",
@@ -337,7 +360,9 @@
                 "dmg": "160+, +50 vs purple",
                 "description": "If you have a Buzz holomem with #IDGen3 on your stage, this Arts gets +40."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-022",
@@ -354,7 +379,8 @@
                 "dmg": "50, +50 vs purple",
                 "description": "Choose 1 of your holomem with #Gen3. During this turn, the chosen holomem requires -1 colorless for its Arts. If that holomem is a 2nd <Shirogane Noel>, it requires -2 colorless for its Arts instead."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-023",
@@ -387,7 +413,8 @@
                 "dmg": "10+",
                 "description": "You may archive the top card of your deck. If the archived card is a support card, this Arts gets +30."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-025",
@@ -404,7 +431,8 @@
                 "dmg": 20,
                 "description": "Send 1 cheer from your archive to 1 of your holomem with #GAMERS."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-026",
@@ -420,7 +448,8 @@
                 "name": "ちょっとお洒落な感じでしょ？",
                 "dmg": 40
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-027",
@@ -437,7 +466,8 @@
                 "dmg": 70,
                 "description": "[Center Position Only]When this Arts downed your opponent's holomem, draw 1 card."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-028",
@@ -454,7 +484,8 @@
                 "dmg": "90+, +50 vs blue",
                 "description": "You may archive the top card of your deck. If the archived card is a support card, this Arts gets +50."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-029",
@@ -471,7 +502,9 @@
                 "dmg": "130+, +50 vs yellow",
                 "description": "You may archive the top card of your deck:If the archived card is a holomem, send the top card of your cheer deck to your holomem. If it is a support card, this Arts gets +50."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-030",
@@ -488,7 +521,8 @@
                 "dmg": "100, +50 vs yellow",
                 "description": "You may archive 2 cheers from this holomem:Draw 2 cards."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-031",
@@ -507,7 +541,8 @@
                 "dmg": 50,
                 "description": "If your oshi holomem is green, blue or yellow, put the top card of your deck as holo Power."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-032",
@@ -539,7 +574,8 @@
                 "name": "～Something blue～ 千速",
                 "dmg": 50
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-034",
@@ -556,7 +592,8 @@
                 "dmg": "20+",
                 "description": "If <Fugutaro> is attached to this holomem, this Arts gets +10."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-035",
@@ -573,7 +610,9 @@
                 "dmg": "160, +50 vs blue",
                 "description": "Count the number of cheers attached to this holomem, and return all cheers attached to this holomem to the bottom of your cheer deck in any order. Draw cards until your hand has the same number of cards as the number of cheers returned."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-036",
@@ -605,7 +644,8 @@
                 "name": "旅はまだ、始まったばかり。",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-038",
@@ -622,7 +662,8 @@
                 "dmg": 30,
                 "description": "During this turn, all holomem on your stage with #EN get Arts+20."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-039",
@@ -639,7 +680,8 @@
                 "dmg": 50,
                 "description": "Deal 20 special damage to your opponent's center holomem."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-040",
@@ -655,7 +697,8 @@
                 "name": "当店自慢のはあとんバーガー！",
                 "dmg": 40
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-041",
@@ -672,7 +715,8 @@
                 "dmg": "80+, +50 vs green",
                 "description": "If all cheers on your stage are red cheers, this Arts gets +20."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-042",
@@ -693,7 +737,9 @@
                 "dmg": "140+, +50 vs purple",
                 "description": "If your holomem returned from your stage to deck this turn, this Arts gets +50."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-043",
@@ -710,7 +756,8 @@
                 "dmg": "70+, +50 vs purple",
                 "description": "For each <35P> attached to this holomem, this Arts gets +70 and you draw 1 card."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-044",
@@ -727,7 +774,8 @@
                 "dmg": "120, +50 vs purple",
                 "description": "Archive the top 2 cards of your deck. You may return 1 staff from your archive to hand."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-045",
@@ -746,7 +794,8 @@
                 "dmg": "20+",
                 "description": "This Arts gets +20 for each card in your hand."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-046",
@@ -778,7 +827,8 @@
                 "name": "さあ、かかってくるといい",
                 "dmg": 50
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-048",
@@ -797,7 +847,8 @@
                 "dmg": 60,
                 "description": "Return 1 holomem with #EN from your archive to hand."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-049",
@@ -814,7 +865,9 @@
                 "dmg": "130+, +50 vs yellow",
                 "description": "If your life is 4 or less, this Arts gets +30. If your life is 2 or less, this Arts gets +60 instead."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-050",
@@ -846,7 +899,8 @@
                 "name": "Check This Out Yo 🕶️",
                 "dmg": 30
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-052",
@@ -863,7 +917,8 @@
                 "dmg": "30+",
                 "description": "If your stage has a holomem with #Promise other than <Ouro Kronii>, this Arts gets +10."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-053",
@@ -880,7 +935,8 @@
                 "dmg": 50,
                 "description": "Send the top card of your cheer deck to your holomem with #Promise."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-054",
@@ -898,7 +954,8 @@
                 "dmg": 50,
                 "description": "Send the top card of your cheer deck to your Buzz holomem with #Promise."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-055",
@@ -914,7 +971,8 @@
                 "name": "Life Goes On",
                 "dmg": "90, +50 vs white"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-056",
@@ -931,7 +989,9 @@
                 "dmg": "80+, +50 vs red",
                 "description": "You may reattach 1 cheer from this holomem to your other holomem with #Promise. If your Oshi holomem is <Ouro Kronii>, this Arts gets +100."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-057",
@@ -948,7 +1008,8 @@
                 "dmg": "100, +50 vs red",
                 "description": "If your Oshi holomem is <Nekomata Okayu> and your opponent has a back holomem which has taken 100 or more damage, deal 50 special damage to 1 of your opponent's holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-058",
@@ -965,7 +1026,8 @@
                 "dmg": 60,
                 "description": "If your opponent has 3 or more back holomem with reduced HP, draw 2 cards."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-059",
@@ -1002,7 +1064,8 @@
                 "dmg": 50,
                 "description": "This Arts may not be used unless you have 4 or more support cards in your archive."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-061",
@@ -1019,7 +1082,8 @@
                 "dmg": 20,
                 "description": "Deal 20 special damage to 1 of your opponent's back holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-062",
@@ -1036,7 +1100,9 @@
                 "dmg": "60+, +50 vs red",
                 "description": "Send 1 cheer from your archive to your holomem with #Advent. If your Oshi holomem is <Shiori Novella> and 4 or more cheers are attached to this holomem, this Arts gets +100."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-063",
@@ -1068,7 +1134,8 @@
                 "dmg": 20,
                 "description": "Reveal 1 <Pioneers> from your deck, and attach it to your <AZKi>. Then, shuffle the deck."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-065",
@@ -1088,7 +1155,8 @@
                 "name": "みんなの声聞かせてええええええ！！！",
                 "dmg": 120
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-066",
@@ -1104,7 +1172,8 @@
                 "name": "音楽と歌うことが大好き！",
                 "dmg": 40
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-067",
@@ -1121,7 +1190,8 @@
                 "dmg": 40,
                 "description": "You may archive 1 card from your hand:Deal 20 special damage to your opponent's center holomem or collab holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-068",
@@ -1138,7 +1208,8 @@
                 "name": "ホワイトデーのお返し、待ってるね",
                 "dmg": "100, +50 vs yellow"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-069",
@@ -1159,7 +1230,9 @@
                 "dmg": "200, +50 vs green",
                 "description": "If your Oshi holomem is <AZKi>, you may archive 4 of your holo Power:If you have 4 <Frontier Spirit> in your archive, your opponent gets life-1."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-070",
@@ -1176,7 +1249,8 @@
                 "dmg": 30,
                 "description": "Choose 1 of your holomem with #Cooking. During this turn, for each event with #Food you used this turn, the chosen holomem requires -1 colorless for its Arts."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-071",
@@ -1192,7 +1266,8 @@
                 "name": "手作りの朝ごはんを要求する",
                 "dmg": 30
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-072",
@@ -1208,7 +1283,8 @@
                 "name": "吾輩との秘密だぞ",
                 "dmg": 60
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-073",
@@ -1225,7 +1301,8 @@
                 "dmg": 30,
                 "description": "Reveal 1 <La+ Darknesss> from your deck, and add it to hand. Then, shuffle the deck."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-074",
@@ -1242,7 +1319,9 @@
                 "dmg": "110+, +50 vs green",
                 "description": "If your center holomem is purple, this Arts gets +40."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-075",
@@ -1259,7 +1338,8 @@
                 "dmg": "70+, +50 vs blue",
                 "description": "If 3 or more cheers are attached to this holomem, this Arts gets +10 for each cheer in both players' archive."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-076",
@@ -1278,7 +1358,8 @@
                 "dmg": "50+",
                 "description": "You may archive 1 of your holo Power:This Arts gets +30."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-077",
@@ -1310,7 +1391,8 @@
                 "name": "ねねと一緒に楽しもう！！",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-079",
@@ -1327,7 +1409,8 @@
                 "dmg": 30,
                 "description": "Reveal 1 <Yamena> from your deck, and attach it to your holomem. Then, shuffle the deck."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-080",
@@ -1343,7 +1426,8 @@
                 "name": "さいくーにくぅわいい",
                 "dmg": 40
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-081",
@@ -1360,7 +1444,8 @@
                 "dmg": 30,
                 "description": "If this holomem has <Giraffe Stag Beetle> attached, this Arts damage is dealt to your opponent's center holomem and collab holomem, instead of only the holomem targeted by this Arts."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-082",
@@ -1376,7 +1461,8 @@
                 "name": "アチョ～～～！",
                 "dmg": "50, +50 vs blue"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-083",
@@ -1393,7 +1479,9 @@
                 "dmg": "100, +50 vs red",
                 "description": "Return 1 cheer from your opponent's [center holomem or collab holomem] to the bottom of the cheer deck."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-084",
@@ -1410,7 +1498,8 @@
                 "dmg": "90, +50 vs blue",
                 "description": "Send 1 cheer from your archive to your holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-085",
@@ -1427,7 +1516,8 @@
                 "dmg": "20+",
                 "description": "If your Oshi holomem is <Shiranui Flare>, choose 1 of your <Shiranui Flare>. During this turn, the chosen holomem gets Arts+20 for each of the chosen holomem's cheers."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-086",
@@ -1444,7 +1534,8 @@
                 "dmg": "160+, +50 vs blue",
                 "description": "If the target of this Arts is a holomem with reduced HP, this Arts gets +30."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-087",
@@ -1477,7 +1568,8 @@
                 "dmg": "50+",
                 "description": "If cheer has been archived from your stage this turn, this Arts gets +30."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-089",
@@ -1493,7 +1585,8 @@
                 "name": "スッゲーワクワクするしょ！！",
                 "dmg": 50
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-090",
@@ -1510,14 +1603,17 @@
                 "dmg": "80+, +50 vs white",
                 "description": "This Arts gets +20 for each of this holomem's cheers."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP07-091",
         "name": "Live Staff",
         "type": "Support (Staff)",
         "rarity": "C",
-        "ability": "This card can only be used if you archive 1 cheer from your stage. Attach 1 fan from your archive to your holomem. If you do, return 1 holomem from your archive to hand."
+        "ability": "This card can only be used if you archive 1 cheer from your stage. Attach 1 fan from your archive to your holomem. If you do, return 1 holomem from your archive to hand.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-092",
@@ -1525,14 +1621,16 @@
         "type": "Support (Item)",
         "rarity": "U",
         "limited": true,
-        "ability": ": Only one can be used per turn. Return 1~3 holomem from your archive to the deck and shuffle it. Draw 2 cards."
+        "ability": ": Only one can be used per turn. Return 1~3 holomem from your archive to the deck and shuffle it. Draw 2 cards.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-093",
         "name": "Umami!",
         "type": "Support (Event)",
         "rarity": "C",
-        "ability": "Choose your <Vestia Zeta> in the collab position. During this turn, the chosen holomem gets Arts+40. Roll a die once. If the result is anything other than 6, return this card to the deck, and shuffle the deck. You may only use the card <Umami!> once per turn."
+        "ability": "Choose your <Vestia Zeta> in the collab position. During this turn, the chosen holomem gets Arts+40. Roll a die once. If the result is anything other than 6, return this card to the deck, and shuffle the deck. You may only use the card <Umami!> once per turn.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-094",
@@ -1540,7 +1638,8 @@
         "type": "Support (Event)",
         "rarity": "U",
         "limited": true,
-        "ability": ": Only one can be used per turn. Return all of the cards in your hand to the deck and shuffle it. Then, draw 4 cards. If your life is 3 or less, instead both players return all of the cards in their hands to their decks and shuffle them. Then, both players draw 4 cards."
+        "ability": ": Only one can be used per turn. Return all of the cards in your hand to the deck and shuffle it. Then, draw 4 cards. If your life is 3 or less, instead both players return all of the cards in their hands to their decks and shuffle them. Then, both players draw 4 cards.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-095",
@@ -1548,14 +1647,16 @@
         "type": "Support (Event)",
         "rarity": "C",
         "limited": true,
-        "ability": ": Only one can be used per turn. This card cannot be used unless both players' center holomem are 2nd holomem. Both players roll a die once. If your result is greater than or equal to your opponent's result, during this turn, your center holomem gets Arts+100. If your result is less than your opponent's result, send the top card of your cheer deck to your holomem."
+        "ability": ": Only one can be used per turn. This card cannot be used unless both players' center holomem are 2nd holomem. Both players roll a die once. If your result is greater than or equal to your opponent's result, during this turn, your center holomem gets Arts+100. If your result is less than your opponent's result, send the top card of your cheer deck to your holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-096",
         "name": "Chama Journey",
         "type": "Support (Event)",
         "rarity": "U",
-        "ability": "Choose 1 <Akai Haato> in your back position. Return all of the chosen holomem's stacked holomem, including that holomem, to the bottom of the deck in any order. During this turn, all of your <Akai Haato> requires -1 colorless for their Arts."
+        "ability": "Choose 1 <Akai Haato> in your back position. Return all of the chosen holomem's stacked holomem, including that holomem, to the bottom of the deck in any order. During this turn, all of your <Akai Haato> requires -1 colorless for their Arts.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-097",
@@ -1563,7 +1664,8 @@
         "type": "Support (Event)",
         "rarity": "U",
         "limited": true,
-        "ability": ": Only one can be used per turn. This card can only be used if all holomem on your stage have #Promise. Reveal 2 holomem with #Promise from your deck, and add them to hand. Then, shuffle the deck. If your life is less than your opponent's, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+20."
+        "ability": ": Only one can be used per turn. This card can only be used if all holomem on your stage have #Promise. Reveal 2 holomem with #Promise from your deck, and add them to hand. Then, shuffle the deck. If your life is less than your opponent's, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+20.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-098",
@@ -1571,7 +1673,8 @@
         "type": "Support (Event)",
         "rarity": "U",
         "limited": true,
-        "ability": ": Only one can be used per turn. This card can only be used if your Oshi holomem is <Ookami Mio>. Reveal the top 3 cards of your deck. During this turn, for each support card revealed, all holomem on your stage get Arts+20. Then, return the revealed cards to the top of the deck in any order."
+        "ability": ": Only one can be used per turn. This card can only be used if your Oshi holomem is <Ookami Mio>. Reveal the top 3 cards of your deck. During this turn, for each support card revealed, all holomem on your stage get Arts+20. Then, return the revealed cards to the top of the deck in any order.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-099",
@@ -1579,83 +1682,96 @@
         "type": "Support (Event)",
         "rarity": "C",
         "limited": true,
-        "ability": ": Only one can be used per turn. Draw 2 cards. If your holomem was downed during your opponent's previous turn, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+20. Then, if the holomem that was downed during your opponent's previous turn was <La+ Darknesss>, draw 2 cards."
+        "ability": ": Only one can be used per turn. Draw 2 cards. If your holomem was downed during your opponent's previous turn, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+20. Then, if the holomem that was downed during your opponent's previous turn was <La+ Darknesss>, draw 2 cards.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-100",
         "name": "Frontier Spirit",
         "type": "Support (Event)",
         "rarity": "U",
-        "ability": "Return 1 <AZKi> from your archive to hand. Send 1 cheer from your archive to 1 of your <AZKi> for each <Frontier Spirit> in your archive. You may only use the card <Frontier Spirit> once per turn."
+        "ability": "Return 1 <AZKi> from your archive to hand. Send 1 cheer from your archive to 1 of your <AZKi> for each <Frontier Spirit> in your archive. You may only use the card <Frontier Spirit> once per turn.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-101",
         "name": "ASMR Microphone",
         "type": "Support (Tool)",
         "rarity": "C",
-        "ability": "◆Additional ability if attached to a Buzz holomem This holomem requires -1 colorless for its Arts. Only 1 tool can be attached to each of your holomem."
+        "ability": "◆Additional ability if attached to a Buzz holomem This holomem requires -1 colorless for its Arts. Only 1 tool can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-102",
         "name": "Tsunomaki Watame's Hammer",
         "type": "Support (Tool)",
         "rarity": "U",
-        "ability": "The <Tsunomaki Watame> with this tool attached gets Arts+20. ◆Additional ability if attached to 2nd <Tsunomaki Watame> ■[Center Position Only]This holomem gets Arts+30. ■[Center Position Only]When this holomem uses Arts, roll a die once. If it is 3 or 5, deal 50 special damage to 1 of your other holomem. Only 1 tool can be attached to each of your holomem."
+        "ability": "The <Tsunomaki Watame> with this tool attached gets Arts+20. ◆Additional ability if attached to 2nd <Tsunomaki Watame> ■[Center Position Only]This holomem gets Arts+30. ■[Center Position Only]When this holomem uses Arts, roll a die once. If it is 3 or 5, deal 50 special damage to 1 of your other holomem. Only 1 tool can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-103",
         "name": "Giraffe Stag Beetle",
         "type": "Support (Tool)",
         "rarity": "U",
-        "ability": "The <Momosuzu Nene> with this tool attached gets Arts+20. ◆Additional ability if attached to 1st or greater <Momosuzu Nene> This holomem's Arts damage cannot be reduced. Only 1 tool can be attached to each of your holomem."
+        "ability": "The <Momosuzu Nene> with this tool attached gets Arts+20. ◆Additional ability if attached to 1st or greater <Momosuzu Nene> This holomem's Arts damage cannot be reduced. Only 1 tool can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-104",
         "name": "Thorn",
         "type": "Support (Tool)",
         "rarity": "U",
-        "ability": "The <Elizabeth Rose Bloodflame> with this tool attached gets Arts+20. ◆Additional ability if attached to 2nd <Elizabeth Rose Bloodflame> While this holomem has reduced HP, this holomem gets Arts+20. Only 1 tool can be attached to each of your holomem."
+        "ability": "The <Elizabeth Rose Bloodflame> with this tool attached gets Arts+20. ◆Additional ability if attached to 2nd <Elizabeth Rose Bloodflame> While this holomem has reduced HP, this holomem gets Arts+20. Only 1 tool can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-105",
         "name": "BAZO",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "The holomem this mascot is attached to gets Arts+10. ◆Additional ability if attached to <Vestia Zeta> When this holomem uses Arts, return 1 fan from your archive to hand. Only 1 mascot can be attached to each of your holomem."
+        "ability": "The holomem this mascot is attached to gets Arts+10. ◆Additional ability if attached to <Vestia Zeta> When this holomem uses Arts, return 1 fan from your archive to hand. Only 1 mascot can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-106",
         "name": "Pigeotaurus",
         "type": "Support (Mascot)",
         "rarity": "U",
-        "ability": "The holomem this mascot is attached to gets +20 HP. ◆Additional ability if attached to <Ookami Mio> When this holomem collabs, you may return 1 <Pigeotaurus> attached to this holomem to the top of the deck:Return 1 holomem from your archive to hand. Only 1 mascot can be attached to each of your holomem."
+        "ability": "The holomem this mascot is attached to gets +20 HP. ◆Additional ability if attached to <Ookami Mio> When this holomem collabs, you may return 1 <Pigeotaurus> attached to this holomem to the top of the deck:Return 1 holomem from your archive to hand. Only 1 mascot can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-107",
         "name": "Boros",
         "type": "Support (Mascot)",
         "rarity": "U",
-        "ability": "The holomem this mascot is attached to gets +20 HP. ◆Additional ability if attached to <Ouro Kronii> If you have used your SP Oshi Skill \"Warden of Time\" this game, this holomem gets Arts+20. Only 1 mascot can be attached to each of your holomem."
+        "ability": "The holomem this mascot is attached to gets +20 HP. ◆Additional ability if attached to <Ouro Kronii> If you have used your SP Oshi Skill \"Warden of Time\" this game, this holomem gets Arts+20. Only 1 mascot can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-108",
         "name": "Zecretary",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "■If the holomem this fan is attached to would use Arts, if your Oshi holomem is <Vestia Zeta>, this fan is also regarded as a white cheer. ■During your opponent's turn, when the holomem this fan is attached to takes damage, archive this fan. You may only attach this fan to your <Vestia Zeta>, and you may attach any number of this fan per holomem."
+        "ability": "■If the holomem this fan is attached to would use Arts, if your Oshi holomem is <Vestia Zeta>, this fan is also regarded as a white cheer. ■During your opponent's turn, when the holomem this fan is attached to takes damage, archive this fan. You may only attach this fan to your <Vestia Zeta>, and you may attach any number of this fan per holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-109",
         "name": "Kronies",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "The holomem this fan is attached to gets Arts+10. You may only attach this fan to your <Ouro Kronii>, and you may attach any number of this fan per holomem."
+        "ability": "The holomem this fan is attached to gets Arts+10. You may only attach this fan to your <Ouro Kronii>, and you may attach any number of this fan per holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP07-110",
         "name": "Nekko",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "[1/Turn]When the bloom level of the holomem this fan is attached to increases, draw 1 card. You may only attach this fan to your <Momosuzu Nene>, and you may attach any number of this fan per holomem."
+        "ability": "[1/Turn]When the bloom level of the holomem this fan is attached to increases, draw 1 card. You may only attach this fan to your <Momosuzu Nene>, and you may attach any number of this fan per holomem.",
+        "hasFoils": true
     }
+
 ]
