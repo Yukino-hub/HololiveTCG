@@ -1233,6 +1233,7 @@
                 "dmg": "30"
             }
         ],
+        "hasHolomenRare": true,
         "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
