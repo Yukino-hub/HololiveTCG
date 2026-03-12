@@ -454,6 +454,7 @@
             }
         ],
         "hasHolomenRare": true,
+        "imageSet": "hBP07",
         "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
@@ -1233,7 +1234,8 @@
                 "dmg": "30"
             }
         ],
-        "hasHolomenRare": true,
+       "hasHolomenRare": true,
+        "imageSet": "hBP07",
         "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
