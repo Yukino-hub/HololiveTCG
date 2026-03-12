@@ -305,7 +305,7 @@
                 "dmg": "30+",
                 "description": "If you have used an event this turn, this Arts gets +30."
             }
-        ]
+        ],
         "hasFoils": true
     },
     {
@@ -1775,5 +1775,4 @@
     }
 
 ]
-
 
