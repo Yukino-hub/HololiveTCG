@@ -326,7 +326,7 @@
                 "description": "If this holomem has a mascot or fan attached, draw 1 card."
             }
         ],
-        "hasFullArt": true,
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP07-020",
@@ -1775,4 +1775,5 @@
     }
 
 ]
+
 
