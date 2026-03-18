@@ -52,6 +52,13 @@ document.addEventListener('DOMContentLoaded', function() {
                     metaHeader.textContent = 'Metagame Breakdown';
                     metagameContainer.appendChild(metaHeader);
 
+                    if (data.metagame.comment) {
+                        const commentP = document.createElement('p');
+                        commentP.textContent = data.metagame.comment;
+                        commentP.style.marginBottom = '20px';
+                        metagameContainer.appendChild(commentP);
+                    }
+
                     if (data.metagame.totalDecks) {
                          const totalDecksP = document.createElement('p');
                          totalDecksP.textContent = `Total Decks: ${data.metagame.totalDecks}`;
@@ -81,6 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         imagesContainer.classList.add('metagame-images');
                         // Add some basic styling here or in CSS
                         imagesContainer.style.display = 'flex';
+                        imagesContainer.style.flexWrap = 'wrap';
                         imagesContainer.style.gap = '20px';
                         imagesContainer.style.marginTop = '20px';
                         imagesContainer.style.justifyContent = 'center';
@@ -90,6 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             img.src = imgSrc;
                             img.classList.add('metagame-image');
                             img.style.maxWidth = '45%'; // Responsive
+                            img.style.minWidth = '300px';
                             img.style.height = 'auto';
                             imagesContainer.appendChild(img);
                         });

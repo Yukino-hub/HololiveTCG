@@ -1,0 +1,81 @@
+{
+    "tournamentName": "WGP25-26 Taiwan Venue",
+    "description": "The major official tournament leading to the Extreme Cup 25-26 Final hosted in Taiwan on March 16 2026. Individual tournament.",
+    "format": "Qualifying Round: BO1, Up to 8 rounds swiss, 35 min limit, top 16 cut based on Victory points, OMW%, OOMW%. Finals: BO1 Single elimination, 4 rounds.",
+    "prize": "Participation: PR Pack vol.3 x1. 4 wins in Qualifying: hBP01-042 Usada Pekora PR x1. 6 wins: hBP01-042 Usada Pekora PR x2. Top16: hBP04-013 Hakui Koyori PR, 'WGP Finalist' Title. Top4: hBP04-002 Juufuutei Raden PR. Runner-up: 'Runner-up' Title. Winner: 'Winner' Title, Exstreamer Cup 25-26 Final participation right.",
+    "link": "#",
+    "metagame": {
+        "comment": "Placeholder for general metagame comment.",
+        "images": [
+            "../images/WGP25-26/Taiwan/2026-03-14_PieChart.png",
+            "../images/WGP25-26/Taiwan/2026-03-14_Top8.png",
+            "../images/WGP25-26/Taiwan/2026-03-14_9thTo16.png"
+        ]
+    },
+    "topDecks": [
+        {
+            "rank": "1st",
+            "playerName": "oKIWlo",
+            "deckUrl": "https://decklog.bushiroad.com/view/35W6M",
+            "oshiCard": "Unknown",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "2nd",
+            "playerName": "大猫",
+            "deckUrl": "https://decklog.bushiroad.com/view/2Z75F",
+            "oshiCard": "Unknown",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "3rd",
+            "playerName": "minato",
+            "deckUrl": "https://decklog.bushiroad.com/view/1M8Y1",
+            "oshiCard": "Unknown",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "4th",
+            "playerName": "焔牙",
+            "deckUrl": "https://decklog.bushiroad.com/view/2W253",
+            "oshiCard": "Unknown",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "5th",
+            "playerName": "狸猫",
+            "deckUrl": "https://decklog.bushiroad.com/view/7U2PP",
+            "oshiCard": "Unknown",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "6th",
+            "playerName": "夢壹",
+            "deckUrl": "https://decklog.bushiroad.com/view/5LTZ3",
+            "oshiCard": "Unknown",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "7th",
+            "playerName": "Ayato",
+            "deckUrl": "https://decklog.bushiroad.com/view/49XU9",
+            "oshiCard": "Unknown",
+            "buildName": "-",
+            "imageUrl": ""
+        },
+        {
+            "rank": "8th",
+            "playerName": "Souten",
+            "deckUrl": "https://decklog.bushiroad.com/view/67FDP",
+            "oshiCard": "Unknown",
+            "buildName": "-",
+            "imageUrl": ""
+        }
+    ]
+}

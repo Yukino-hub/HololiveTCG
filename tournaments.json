@@ -18,5 +18,15 @@
         "location": "Chiba",
         "date": "2025-11-02",
         "metagame" : "Sui-Okayu Era (hBP05)"
+    },
+    {
+        "id": "wgp-taiwan",
+        "name": "WGP25-26 Taiwan Venue",
+        "jsonUrl": "tournaments/tournament-wgp-taiwan.json",
+        "htmlUrl": "tournaments/wgp-taiwan.html",
+        "image": "images/WGP.png",
+        "location": "Taiwan",
+        "date": "2026-03-16",
+        "metagame" : "Unknown Era (hBP06)"
     }
 ]
