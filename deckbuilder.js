@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Modal Elements
     const modal = document.getElementById('modal');
     const modalCloseIcon = document.getElementById('modalCloseIcon');
-    const modalImage = document.getElementById('modalImage');
     const modalCardName = document.getElementById('modalCardName');
     const modalAddBtn = document.getElementById('modalAddBtn');
 
