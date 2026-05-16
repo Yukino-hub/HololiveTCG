@@ -2,11 +2,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const tournamentId = document.body.dataset.tournamentId;
     if (tournamentId) {
         fetch(`tournament-${tournamentId}.json`)
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                return response.json();
+            })
             .then(data => {
-                document.getElementById('tournamentName').textContent = data.tournamentName;
+                const tournamentNameEl = document.getElementById('tournamentName');
+                if (tournamentNameEl) tournamentNameEl.textContent = data.tournamentName;
                 const tableBody = document.querySelector('#decksTable tbody');
                 const container = document.querySelector('.container');
+                if (!tableBody || !container) return;
 
                 if (data.description || data.format || data.prize) {
                     const infoContainer = document.createElement('div');
@@ -110,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
                      container.insertBefore(metagameContainer, table);
                 }
 
-                data.topDecks.forEach(deck => {
+                (data.topDecks || []).forEach(deck => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
                         <td>${deck.rank}</td>
