@@ -55,51 +55,19 @@
                     <button id="clearButton">Clear</button>
                 </div>
 
-                <!-- Filters (Simplified or same as index.html) -->
-                <div class="dropdown-container">
-                    <label for="seriesFilter">Series:</label>
-                    <select id="seriesFilter">
-                        <option value="">Select Series</option>
-                        <!-- Boosters -->
-                        <optgroup label="Boosters">
-                            <option value="hBP01">hBP01</option>
-                            <option value="hBP02">hBP02</option>
-                            <option value="hBP03">hBP03</option>
-                            <option value="hBP04">hBP04</option>
-                            <option value="hBP05">hBP05</option>
-                            <option value="hBP06">hBP06</option>
-                            <option value="hBP07">hBP07</option>
-                        </optgroup>
-                        <!-- Starter Sets -->
-                        <optgroup label="Starter Sets">
-                            <option value="hSD01">hSD01</option>
-                            <option value="hSD02">hSD02</option>
-                            <option value="hSD03">hSD03</option>
-                            <option value="hSD04">hSD04</option>
-                            <option value="hSD05">hSD05</option>
-                            <option value="hSD06">hSD06</option>
-                            <option value="hSD07">hSD07</option>
-                            <option value="hSD08">hSD08</option>
-                            <option value="hSD09">hSD09</option>
-                            <option value="hSD10">hSD10</option>
-                            <option value="hSD11">hSD11</option>
-                            <option value="hSD12">hSD12</option>
-                            <option value="hSD13">hSD13</option>
-                            <option value="hSD14">hSD14</option>
-                            <option value="hSD15">hSD15</option>
-                            <option value="hSD16">hSD16</option>
-                            <option value="hSD17">hSD17</option>
-                            <option value="hSD18">hSD18</option>
-                            <option value="hSD19">hSD19</option>
-                        </optgroup>
-                        <!-- Others -->
-                        <optgroup label="Others">
-                            <option value="hPR">hPR</option>
-                            <option value="hY">hY</option>
-                            <option value="hBD">hBD</option>
-                        </optgroup>
-                    </select>
+                <!-- Series Filter: two-level -->
+                <div class="series-filter-section">
+                    <div class="series-category-row">
+                        <button class="series-btn active" data-category="all">All</button>
+                        <button class="series-btn" data-category="boosters">Booster Packs</button>
+                        <button class="series-btn" data-category="starters">Starter Decks</button>
+                        <button class="series-btn" data-category="promos">Promos</button>
+                    </div>
+                    <div class="series-set-row" id="seriesSetRow"></div>
+                </div>
 
+                <!-- Rarity + Type dropdowns -->
+                <div class="dropdown-container">
                     <label for="rarityFilter">Rarity:</label>
                     <select id="rarityFilter">
                         <option value="">Select Rarity</option>
@@ -113,9 +81,10 @@
                         <option value="SY">AltArt-Cheer {SY}</option>
                     </select>
 
-                    <label for="bloomTypeFilter">Bloom/Support:</label>
+                    <label for="bloomTypeFilter">Type:</label>
                     <select id="bloomTypeFilter">
-                        <option value="">Select Bloom Level or Support</option>
+                        <option value="">All Types</option>
+                        <option value="Oshi">Oshi</option>
                         <option value="Debut">Debut</option>
                         <option value="1st">1st</option>
                         <option value="2nd">2nd</option>
@@ -131,11 +100,16 @@
                     </select>
                 </div>
 
-                <!-- Checkboxs (Reduced set for deck building maybe? Keep them for now) -->
-                <div>
-                    <input type="checkbox" id="foilCheckbox"> <label for="foilCheckbox">Foil</label>
-                    <input type="checkbox" id="altArtCheckbox"> <label for="altArtCheckbox">Alt Art</label>
-                </div>
+                <!-- Variants (collapsed by default) -->
+                <details class="variants-section">
+                    <summary>Variants ▾</summary>
+                    <div class="variants-inner">
+                        <input type="checkbox" id="foilCheckbox">
+                        <label for="foilCheckbox">Foil</label>
+                        <input type="checkbox" id="altArtCheckbox">
+                        <label for="altArtCheckbox">Alt Art</label>
+                    </div>
+                </details>
 
                 <!-- Loading indicator -->
                 <div id="loadingIndicator">Loading...</div>

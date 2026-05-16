@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const contentContainer = document.getElementById('contentContainer');
     const loadingIndicator = document.getElementById('loadingIndicator');
     const searchBar = document.getElementById('searchBar');
-    const seriesFilter = document.getElementById('seriesFilter');
     const rarityFilter = document.getElementById('rarityFilter');
     const bloomTypeFilter = document.getElementById('bloomTypeFilter');
     const altArtCheckbox = document.getElementById('altArtCheckbox');
@@ -22,6 +21,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let allCardData = [];
     let filteredCardData = [];
+
+    let selectedSeriesCategory = 'all';
+    let selectedSeriesPrefix = '';
+
+    const SERIES_SETS = {
+        boosters: ['hBP01','hBP02','hBP03','hBP04','hBP05','hBP06','hBP07'].map(p => ({ label: p, prefix: p })),
+        starters: Array.from({ length: 19 }, (_, i) => { const s = `hSD${String(i + 1).padStart(2, '0')}`; return { label: s, prefix: s }; }),
+        promos:   [{ label: 'hPR', prefix: 'hPR' }, { label: 'hBD', prefix: 'hBD' }, { label: 'hY', prefix: 'hY' }, { label: 'hYS', prefix: 'hYS' }],
+    };
+    const CATEGORY_PREFIXES = {
+        all:      [],
+        boosters: SERIES_SETS.boosters.map(s => s.prefix),
+        starters: SERIES_SETS.starters.map(s => s.prefix),
+        promos:   SERIES_SETS.promos.map(s => s.prefix),
+    };
 
     /**
      * Constructs the image URL for a card based on a priority system.
@@ -158,7 +172,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function filterCards() {
         const searchText = searchBar.value.toLowerCase();
-        const selectedSeries = seriesFilter.value;
         const selectedRarity = rarityFilter.value;
         const selectedBloomType = bloomTypeFilter.value;
         const checkboxState = {
@@ -172,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         filteredCardData = allCardData.filter(card => {
             return matchesSearchText(card, searchText) &&
-                matchesSeries(card, selectedSeries) &&
+                matchesSeries(card, selectedSeriesCategory, selectedSeriesPrefix) &&
                 matchesRarity(card, selectedRarity) &&
                 matchesBloomType(card, selectedBloomType) &&
                 matchesCheckboxes(card, checkboxState);
@@ -198,8 +211,10 @@ document.addEventListener('DOMContentLoaded', function() {
         return card.searchString.includes(searchText);
     }
 
-    function matchesSeries(card, selectedSeries) {
-        return !selectedSeries || card.cardNumber.startsWith(selectedSeries);
+    function matchesSeries(card, category, prefix) {
+        if (category === 'all') return true;
+        if (prefix) return card.cardNumber.startsWith(prefix);
+        return CATEGORY_PREFIXES[category].some(p => card.cardNumber.startsWith(p));
     }
 
     function matchesRarity(card, selectedRarity) {
@@ -207,7 +222,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function matchesBloomType(card, selectedBloomType) {
-        return !selectedBloomType || card.bloomLevel === selectedBloomType || card.type === selectedBloomType;
+        if (!selectedBloomType) return true;
+        if (selectedBloomType === 'Oshi') return card.lives !== undefined;
+        return card.bloomLevel === selectedBloomType || card.type === selectedBloomType;
     }
 
     function matchesCheckboxes(card, state) {
@@ -254,7 +271,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Consolidated event listeners for all filter controls
     const filterControls = [
         altArtCheckbox, signedCheckbox, foilCheckbox, fullArtCheckbox, grandprixCheckbox, holomenRareCheckbox,
-        seriesFilter, rarityFilter, bloomTypeFilter
+        rarityFilter, bloomTypeFilter
     ];
 
     filterControls.forEach(control => {
@@ -264,8 +281,50 @@ document.addEventListener('DOMContentLoaded', function() {
     // Apply debounce to the search bar input to improve performance
     searchBar.addEventListener('input', debounce(filterCards, 300));
 
+    // Series filter button wiring
+    const seriesSetRow = document.getElementById('seriesSetRow');
+    const categoryBtns = document.querySelectorAll('.series-btn[data-category]');
+
+    function renderSetButtons(category) {
+        seriesSetRow.innerHTML = '';
+        if (category === 'all') { seriesSetRow.classList.remove('visible'); return; }
+        (SERIES_SETS[category] || []).forEach(set => {
+            const btn = document.createElement('button');
+            btn.className = 'series-btn';
+            btn.textContent = set.label;
+            btn.addEventListener('click', () => {
+                if (selectedSeriesPrefix === set.prefix) {
+                    selectedSeriesPrefix = '';
+                    btn.classList.remove('active');
+                } else {
+                    seriesSetRow.querySelectorAll('.series-btn').forEach(b => b.classList.remove('active'));
+                    selectedSeriesPrefix = set.prefix;
+                    btn.classList.add('active');
+                }
+                filterCards();
+            });
+            seriesSetRow.appendChild(btn);
+        });
+        seriesSetRow.classList.add('visible');
+    }
+
+    categoryBtns.forEach(btn => btn.addEventListener('click', () => {
+        categoryBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        selectedSeriesCategory = btn.dataset.category;
+        selectedSeriesPrefix = '';
+        renderSetButtons(selectedSeriesCategory);
+        filterCards();
+    }));
+
     clearButton.addEventListener('click', () => {
         searchBar.value = '';
+        // Reset series
+        selectedSeriesCategory = 'all';
+        selectedSeriesPrefix = '';
+        categoryBtns.forEach(b => b.classList.remove('active'));
+        document.querySelector('.series-btn[data-category="all"]').classList.add('active');
+        renderSetButtons('all');
         filterCards();
     });
 

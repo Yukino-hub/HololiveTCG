@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const contentContainer = document.getElementById('contentContainer');
     const loadingIndicator = document.getElementById('loadingIndicator');
     const searchBar = document.getElementById('searchBar');
-    const seriesFilter = document.getElementById('seriesFilter');
     const rarityFilter = document.getElementById('rarityFilter');
     const bloomTypeFilter = document.getElementById('bloomTypeFilter');
 
@@ -76,6 +75,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const exportDeckBtn = document.getElementById('exportDeckBtn');
 
     let allCardData = [];
+
+    let selectedSeriesCategory = 'all';
+    let selectedSeriesPrefix = '';
+
+    const SERIES_SETS = {
+        boosters: ['hBP01','hBP02','hBP03','hBP04','hBP05','hBP06','hBP07'].map(p => ({ label: p, prefix: p })),
+        starters: Array.from({ length: 19 }, (_, i) => { const s = `hSD${String(i + 1).padStart(2, '0')}`; return { label: s, prefix: s }; }),
+        promos:   [{ label: 'hPR', prefix: 'hPR' }, { label: 'hBD', prefix: 'hBD' }, { label: 'hY', prefix: 'hY' }, { label: 'hYS', prefix: 'hYS' }],
+    };
+    const CATEGORY_PREFIXES = {
+        all:      [],
+        boosters: SERIES_SETS.boosters.map(s => s.prefix),
+        starters: SERIES_SETS.starters.map(s => s.prefix),
+        promos:   SERIES_SETS.promos.map(s => s.prefix),
+    };
     let filteredCardData = [];
 
     // Variable to track currently selected card for modal
@@ -177,18 +191,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function filterCards() {
         const searchText = searchBar.value.toLowerCase();
-        const selectedSeries = seriesFilter.value;
         const selectedRarity = rarityFilter.value;
         const selectedBloomType = bloomTypeFilter.value;
 
         filteredCardData = allCardData.filter(card => {
-             const matchesSearch = !searchText || card.searchString.includes(searchText);
+            const matchesSearch = !searchText || card.searchString.includes(searchText);
 
-             const matchesSeries = !selectedSeries || card.cardNumber.startsWith(selectedSeries);
-             const matchesRarity = !selectedRarity || card.rarity === selectedRarity;
-             const matchesBloom = !selectedBloomType || card.bloomLevel === selectedBloomType || card.type === selectedBloomType;
+            let matchesSeries;
+            if (selectedSeriesCategory === 'all') {
+                matchesSeries = true;
+            } else if (selectedSeriesPrefix) {
+                matchesSeries = card.cardNumber.startsWith(selectedSeriesPrefix);
+            } else {
+                matchesSeries = CATEGORY_PREFIXES[selectedSeriesCategory].some(p => card.cardNumber.startsWith(p));
+            }
 
-             return matchesSearch && matchesSeries && matchesRarity && matchesBloom;
+            const matchesRarity = !selectedRarity || card.rarity === selectedRarity;
+
+            let matchesBloom;
+            if (!selectedBloomType) {
+                matchesBloom = true;
+            } else if (selectedBloomType === 'Oshi') {
+                matchesBloom = card.lives !== undefined;
+            } else {
+                matchesBloom = card.bloomLevel === selectedBloomType || card.type === selectedBloomType;
+            }
+
+            return matchesSearch && matchesSeries && matchesRarity && matchesBloom;
         });
         displayCards(filteredCardData);
     }
@@ -417,11 +446,59 @@ document.addEventListener('DOMContentLoaded', function() {
         exportDeckBtn.addEventListener('click', exportDeck);
     }
 
+    // Series filter button wiring
+    const seriesSetRow = document.getElementById('seriesSetRow');
+    const categoryBtns = document.querySelectorAll('.series-btn[data-category]');
+
+    function renderSetButtons(category) {
+        seriesSetRow.innerHTML = '';
+        if (category === 'all') { seriesSetRow.classList.remove('visible'); return; }
+        (SERIES_SETS[category] || []).forEach(set => {
+            const btn = document.createElement('button');
+            btn.className = 'series-btn';
+            btn.textContent = set.label;
+            btn.addEventListener('click', () => {
+                if (selectedSeriesPrefix === set.prefix) {
+                    selectedSeriesPrefix = '';
+                    btn.classList.remove('active');
+                } else {
+                    seriesSetRow.querySelectorAll('.series-btn').forEach(b => b.classList.remove('active'));
+                    selectedSeriesPrefix = set.prefix;
+                    btn.classList.add('active');
+                }
+                filterCards();
+            });
+            seriesSetRow.appendChild(btn);
+        });
+        seriesSetRow.classList.add('visible');
+    }
+
+    categoryBtns.forEach(btn => btn.addEventListener('click', () => {
+        categoryBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        selectedSeriesCategory = btn.dataset.category;
+        selectedSeriesPrefix = '';
+        renderSetButtons(selectedSeriesCategory);
+        filterCards();
+    }));
+
     // Event Listeners
     searchBar.addEventListener('input', debounce(filterCards, 300));
-    seriesFilter.addEventListener('change', filterCards);
     rarityFilter.addEventListener('change', filterCards);
     bloomTypeFilter.addEventListener('change', filterCards);
+
+    const clearButton = document.getElementById('clearButton');
+    if (clearButton) {
+        clearButton.addEventListener('click', () => {
+            searchBar.value = '';
+            selectedSeriesCategory = 'all';
+            selectedSeriesPrefix = '';
+            categoryBtns.forEach(b => b.classList.remove('active'));
+            document.querySelector('.series-btn[data-category="all"]').classList.add('active');
+            renderSetButtons('all');
+            filterCards();
+        });
+    }
 
     if (modalCloseIcon) {
         modalCloseIcon.addEventListener('click', closeModal);
