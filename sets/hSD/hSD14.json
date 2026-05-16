@@ -1,0 +1,164 @@
+[
+    {
+        "cardNumber": "hSD14-001",
+        "name": "Shirakami Fubuki",
+        "rarity": "OC",
+        "lives": 4,
+        "color": "White",
+        "oshiSkill": {
+            "name": "みんな一緒にいくぞぉおっ",
+            "power": 2,
+            "description": "[1/Turn]Choose 1 of your <Shirakami Fubuki> with mascot attached. During this turn, the chosen holomem gets Arts+20."
+        },
+        "spOshiSkill": {
+            "name": "マスコッツ、アッセンブル!!",
+            "power": 2,
+            "description": "[1/Game]Reveal 1~2 mascots from your deck, and add them to hand. Then, shuffle the deck."
+        }
+    },
+    {
+        "cardNumber": "hSD14-002",
+        "name": "Shirakami Fubuki",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "White",
+        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "skills": [
+            {
+                "name": "はじまんぼう！",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD14-003",
+        "name": "Shirakami Fubuki",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 70,
+        "color": "White",
+        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "skills": [
+            {
+                "name": "今日もあなたのそばに -フブキ-",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD14-004",
+        "name": "Shirakami Fubuki",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "color": "White",
+        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "collabEffect": "白上のとこにおいでー : If you went second and it is your first turn, reveal 1 mascot from your deck, and add it to hand. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "ハイ　フレンズ！",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD14-005",
+        "name": "Shirakami Fubuki",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "White",
+        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "collabEffect": "いっちにー、さんしー : Choose your center holomem. During this turn, the chosen holomem gets Arts+10.",
+        "skills": [
+            {
+                "name": "いつでもいけるよ！",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD14-006",
+        "name": "Shirakami Fubuki",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "White",
+        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "skills": [
+            {
+                "name": "ようやくキミに会えた！！！",
+                "dmg": 30
+            },
+            {
+                "name": "キラキラなきーつね！",
+                "dmg": 50
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD14-007",
+        "name": "Shirakami Fubuki",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 130,
+        "color": "White",
+        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "bloomEffect": "Message for You -フブキ- : Choose your center holomem. During this turn, the chosen holomem gets Arts+10.",
+        "skills": [
+            {
+                "name": "あーまいーこのきーもちー",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD14-008",
+        "name": "Shirakami Fubuki",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "White",
+        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "collabEffect": "大丈夫ですよ！ : Attach 1 mascot from your archive to this holomem.",
+        "skills": [
+            {
+                "name": "一緒に行こう(??????)??",
+                "dmg": "20+",
+                "description": "[Collab Position Only]If a mascot is attached to this holomem, this Arts gets +20."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD14-009",
+        "name": "Shirakami Fubuki",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 170,
+        "color": "White",
+        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "giftEffect": "私は倒れちゃいけないな : During your opponent's turn, when this holomem is downed, if this holomem has a mascot attached, draw 1 card.",
+        "skills": [
+            {
+                "name": "胸を張って歌い続けるよ",
+                "dmg": "90, +30 vs red"
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD14-010",
+        "name": "holoAN",
+        "type": "Support (Staff)",
+        "rarity": "C",
+        "limited": true,
+        "ability": ": Only one can be used per turn.Draw 3 cards."
+    },
+    {
+        "cardNumber": "hSD14-011",
+        "name": "Ari Yori no Alligator",
+        "type": "Support (Mascot)",
+        "rarity": "C",
+        "ability": "The holomem this mascot is attached to gets +10 HP.◆Additional ability if attached to <Shirakami Fubuki> When this holomem downs your opponent's holomem, send the top card of your cheer deck to your holomem.Only 1 mascot can be attached to each of your holomem."
+    }
+]

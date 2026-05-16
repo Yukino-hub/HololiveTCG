@@ -1,0 +1,150 @@
+[
+    {
+        "cardNumber": "hSD18-001",
+        "name": "Mori Calliope",
+        "rarity": "OC",
+        "lives": 4,
+        "color": "Purple",
+        "oshiSkill": {
+            "name": "ライミング",
+            "power": 2,
+            "description": "[1/Turn]Archive the top 2 cards of your deck. Draw 1 card."
+        },
+        "spOshiSkill": {
+            "name": "世界を繋げるラップ",
+            "power": 2,
+            "description": "[1/Game]If you have 6 or more holomem in your archive, during this turn, all <Mori Calliope> on your stage get Arts+30."
+        }
+    },
+    {
+        "cardNumber": "hSD18-002",
+        "name": "Mori Calliope",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "Purple",
+        "tag": "#EN #Myth #Singing",
+        "skills": [
+            {
+                "name": "Nice to reap you",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD18-003",
+        "name": "Mori Calliope",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 70,
+        "color": "Purple",
+        "tag": "#EN #Myth #Singing",
+        "skills": [
+            {
+                "name": "今日もあなたのそばに -カリオペ-",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD18-004",
+        "name": "Mori Calliope",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "color": "Purple",
+        "tag": "#EN #Myth #Singing",
+        "collabEffect": "みーなさんっ : If you went second and it is your first turn, archive the top card of your deck. Then, draw 1 card.",
+        "skills": [
+            {
+                "name": "あたためて貰えますか…？",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD18-005",
+        "name": "Mori Calliope",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "Purple",
+        "tag": "#EN #Myth #Singing",
+        "collabEffect": "死神式ストレッチ : If you have a holomem with tool attached, deal 10 special damage to your opponent's center holomem.",
+        "skills": [
+            {
+                "name": "一緒に、どう？",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD18-006",
+        "name": "Mori Calliope",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "Purple",
+        "tag": "#EN #Myth #Singing",
+        "skills": [
+            {
+                "name": "これから、頑張る。",
+                "dmg": 30
+            },
+            {
+                "name": "負けない。諦めない。",
+                "dmg": 50
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD18-007",
+        "name": "Mori Calliope",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 130,
+        "color": "Purple",
+        "tag": "#EN #Myth #Singing",
+        "giftEffect": "ちょっとした特別なプレゼント : During your opponent's turn, when this holomem is downed, archive the top card of your deck.",
+        "skills": [
+            {
+                "name": "手伝ってもらって助かるよ",
+                "dmg": "30+",
+                "description": "If a tool is attached to this holomem, this Arts gets +10."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD18-008",
+        "name": "Mori Calliope",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "Purple",
+        "tag": "#EN #Myth #Singing",
+        "bloomEffect": "ロックンロールリッパー : Archive the top card of your deck.",
+        "skills": [
+            {
+                "name": "OK、もう一曲行こう！",
+                "dmg": 40,
+                "description": "[Center Position Only]Return 1 tool from your archive to hand."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD18-009",
+        "name": "Mori Calliope",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 160,
+        "color": "Purple",
+        "tag": "#EN #Myth #Singing",
+        "collabEffect": "ペイルライダー : If you have 6 or more holomem in your archive, deal 20 special damage to your opponent's center holomem.",
+        "skills": [
+            {
+                "name": "刻むぞ冥界のビート",
+                "dmg": "90, +30 vs green"
+            }
+        ]
+    }
+]

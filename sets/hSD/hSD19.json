@@ -1,0 +1,157 @@
+[
+    {
+        "cardNumber": "hSD19-001",
+        "name": "Oozora Subaru",
+        "rarity": "OC",
+        "lives": 4,
+        "color": "Yellow",
+        "oshiSkill": {
+            "name": "ごめんｹﾄﾞ",
+            "power": 3,
+            "description": "[1/Turn]Return 1 holomem from your archive to hand."
+        },
+        "spOshiSkill": {
+            "name": "おさんぽスバル",
+            "power": 2,
+            "description": "[1/Game]Send 1 cheer each from your archive to 1~2 of your <Oozora Subaru>."
+        }
+    },
+    {
+        "cardNumber": "hSD19-002",
+        "name": "Oozora Subaru",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "color": "Yellow",
+        "tag": "#JP #Gen 2 #Bird",
+        "skills": [
+            {
+                "name": "あじまるあじまる～",
+                "dmg": 10
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD19-003",
+        "name": "Oozora Subaru",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "Yellow",
+        "tag": "#JP #Gen 2 #Bird",
+        "skills": [
+            {
+                "name": "今日もあなたのそばに -スバル-",
+                "dmg": "20+",
+                "description": "If your life is 2 or less, this Arts gets +10."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD19-004",
+        "name": "Oozora Subaru",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "Yellow",
+        "tag": "#JP #Gen 2 #Bird",
+        "collabEffect": "大空スマイル : If you went second and it is your first turn, reveal 1 Debut holomem from your deck, and place it on stage. Then, shuffle the deck.",
+        "skills": [
+            {
+                "name": "しゅばぁ",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD19-005",
+        "name": "Oozora Subaru",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "Yellow",
+        "tag": "#JP #Gen 2 #Bird",
+        "giftEffect": "ダンスレッスンなんですｹｰﾄﾞ : This holomem takes -10 damage from your opponent's center holomem.",
+        "skills": [
+            {
+                "name": "いっちにー、ホワッ、ホワッ！",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD19-006",
+        "name": "Oozora Subaru",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Yellow",
+        "tag": "#JP #Gen 2 #Bird",
+        "skills": [
+            {
+                "name": "いっぱい頑張る！",
+                "dmg": 20
+            },
+            {
+                "name": "いっぱい楽しむ！",
+                "dmg": 40
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD19-007",
+        "name": "Oozora Subaru",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "Yellow",
+        "tag": "#JP #Gen 2 #Bird",
+        "bloomEffect": "青春エール : Send 1 cheer from your archive to this holomem.",
+        "skills": [
+            {
+                "name": "忘れてなんかやるもんか",
+                "dmg": "30+",
+                "description": "If 2 or more cheers are attached to this holomem, this Arts gets +20."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD19-008",
+        "name": "Oozora Subaru",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "Yellow",
+        "tag": "#JP #Gen 2 #Bird",
+        "skills": [
+            {
+                "name": "萌え萌えギュン",
+                "dmg": "20+",
+                "description": "[Collab Position Only]If there is a 2nd holomem on your opponent's stage, this Arts gets +20."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD19-009",
+        "name": "Oozora Subaru",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 180,
+        "color": "Yellow",
+        "tag": "#JP #Gen 2 #Bird",
+        "skills": [
+            {
+                "name": "ダンシング・プレアデス",
+                "dmg": "80+, +30 vs white",
+                "description": "If your life is 2 or less, this Arts gets +10."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD19-010",
+        "name": "Good Mood Curry",
+        "type": "Support (Event)",
+        "rarity": "C",
+        "ability": "Restore 30 HP to your holomem."
+    }
+]

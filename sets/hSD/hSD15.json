@@ -1,0 +1,156 @@
+[
+    {
+        "cardNumber": "hSD15-001",
+        "name": "Juufuutei Raden",
+        "rarity": "OC",
+        "lives": 4,
+        "color": "Green",
+        "oshiSkill": {
+            "name": "ちょっとまつたけ～♪",
+            "power": 2,
+            "description": "[1/Turn]Reveal 1 event with #Mushroom from your deck, and add it to hand. Then, shuffle the deck."
+        },
+        "spOshiSkill": {
+            "name": "あなたの世界を広げに行こう",
+            "power": 2,
+            "description": "[1/Game]Send the top card of your cheer deck to your <Juufuutei Raden>. Return 1 card with #Mushroom from your archive to hand."
+        }
+    },
+    {
+        "cardNumber": "hSD15-002",
+        "name": "Juufuutei Raden",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 80,
+        "color": "Green",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
+        "skills": [
+            {
+                "name": "寄ってらっしゃい見てらっしゃい",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD15-003",
+        "name": "Juufuutei Raden",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 70,
+        "color": "Green",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
+        "skills": [
+            {
+                "name": "今日もあなたのそばに -らでん-",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD15-004",
+        "name": "Juufuutei Raden",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 90,
+        "color": "Green",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
+        "collabEffect": "一服朝っぱらでん : If you went second and it is your first turn, send the top card of your cheer deck to your back holomem.",
+        "skills": [
+            {
+                "name": "散歩でもいかがですかな？",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD15-005",
+        "name": "Juufuutei Raden",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 100,
+        "color": "Green",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
+        "giftEffect": "体力作り頑張るぞー！！！！！ : During your opponent's turn, when this holomem is downed, you may reattach 1 of this holomem's cheers to your other holomem.",
+        "skills": [
+            {
+                "name": "そろそろ始めちゃいますか",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD15-006",
+        "name": "Juufuutei Raden",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "Green",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
+        "skills": [
+            {
+                "name": "世界を彩る -らでん-",
+                "dmg": 40
+            },
+            {
+                "name": "ちょいと一席付き合ってみませんか？",
+                "dmg": 60
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD15-007",
+        "name": "Juufuutei Raden",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 130,
+        "color": "Green",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
+        "collabEffect": "旅の前日 : Archive the top card of your deck. You may place 1 Debut holomem from your archive on stage.",
+        "skills": [
+            {
+                "name": "この博物館おもしろそう！",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD15-008",
+        "name": "Juufuutei Raden",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 140,
+        "color": "Green",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
+        "giftEffect": "薄明 : When this holomem downed your opponent's holomem, restore 20 HP to this holomem.",
+        "skills": [
+            {
+                "name": "きのこ狩り",
+                "dmg": "40+",
+                "description": "If you have used an event with #Mushroom this turn, this Arts gets +10."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD15-009",
+        "name": "Juufuutei Raden",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 170,
+        "color": "Green",
+        "tag": "#DEV_IS #ReGLOSS #Alcohol",
+        "bloomEffect": "ザ・破天荒 : [Center Position Only]During this turn, this holomem gets Arts+20.",
+        "skills": [
+            {
+                "name": "伝統と革新をあなたに",
+                "dmg": "90, +30 vs blue"
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD15-010",
+        "name": "Matsutake Dance",
+        "type": "Support (Event)",
+        "rarity": "C",
+        "ability": "Choose 1 <Juufuutei Raden> on your stage. During this turn, the chosen holomem gets Arts+10. If the chosen holomem has 3 or more cheers, that holomem gets Arts+20 instead."
+    }
+]
