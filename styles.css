@@ -277,6 +277,16 @@ header a:hover {
         width: 100%; /* Full width for each dropdown on small screens */
         margin-bottom: 10px; /* Space between dropdowns */
     }
+
+    .series-category-row,
+    .series-set-row {
+        justify-content: flex-start;
+    }
+
+    .series-btn {
+        font-size: 13px;
+        padding: 5px 8px;
+    }
 }
 html {
     scroll-behavior: smooth;
@@ -391,4 +401,61 @@ img.lazy-load[src] {
 .tournament-image {
     width: 100px;
     height: auto;
+}
+
+/* ---- Series two-level button filter ---- */
+.series-filter-section { margin-bottom: 12px; }
+
+.series-category-row,
+.series-set-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.series-set-row {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease;
+}
+
+.series-set-row.visible { max-height: 200px; }
+
+.series-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    background: #2C2C2C;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.series-btn:hover { background: #3a3a3a; }
+.series-btn.active { background: #1E90FF; border-color: #1E90FF; }
+
+/* ---- Variants collapsible ---- */
+.variants-section { margin-bottom: 12px; }
+
+.variants-section summary {
+    cursor: pointer;
+    font-size: 14px;
+    color: #ccc;
+    user-select: none;
+    list-style: none;
+    display: inline-block;
+    padding: 4px 0;
+}
+
+.variants-section summary::-webkit-details-marker { display: none; }
+
+.variants-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    padding: 8px 4px 0;
+    align-items: center;
 }

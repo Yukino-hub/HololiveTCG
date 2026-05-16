@@ -23,55 +23,19 @@
             <input type="text" id="searchBar" placeholder="Search by Card Name/Numbers/Tags/Text ... Ex: Sora or Hbp01 or #Gen0 or bloom: or collab:" aria-label="Search">
             <button id="clearButton">Clear</button>
         </div>
-        <br><br>
-        
-        <!-- Dropdown Filters -->
+        <!-- Series Filter: two-level -->
+        <div class="series-filter-section">
+            <div class="series-category-row">
+                <button class="series-btn active" data-category="all">All</button>
+                <button class="series-btn" data-category="boosters">Booster Packs</button>
+                <button class="series-btn" data-category="starters">Starter Decks</button>
+                <button class="series-btn" data-category="promos">Promos</button>
+            </div>
+            <div class="series-set-row" id="seriesSetRow"></div>
+        </div>
+
+        <!-- Rarity + Type dropdowns -->
         <div class="dropdown-container">
-            <!-- Series Filter -->
-            <label for="seriesFilter">Series:</label>
-            <select id="seriesFilter">
-                <option value="">Select Series</option>
-                 <!-- Boosters -->
-                <optgroup label="Boosters">
-                    <option value="hBP01">hBP01</option>
-                    <option value="hBP02">hBP02</option>
-                    <option value="hBP03">hBP03</option>
-                    <option value="hBP04">hBP04</option>
-                    <option value="hBP05">hBP05</option>
-                    <option value="hBP06">hBP06</option>
-                    <option value="hBP07">hBP07</option>
-                </optgroup>
-                <!-- Starter Sets -->
-                <optgroup label="Starter Sets">
-                    <option value="hSD01">hSD01</option>
-                    <option value="hSD02">hSD02</option>
-                    <option value="hSD03">hSD03</option>
-                    <option value="hSD04">hSD04</option>
-                    <option value="hSD05">hSD05</option>
-                    <option value="hSD06">hSD06</option>
-                    <option value="hSD07">hSD07</option>
-                    <option value="hSD08">hSD08</option>
-                    <option value="hSD09">hSD09</option>
-                    <option value="hSD10">hSD10</option>
-                    <option value="hSD11">hSD11</option>
-                    <option value="hSD12">hSD12</option>
-                    <option value="hSD13">hSD13</option>
-                    <option value="hSD14">hSD14</option>
-                    <option value="hSD15">hSD15</option>
-                    <option value="hSD16">hSD16</option>
-                    <option value="hSD17">hSD17</option>
-                    <option value="hSD18">hSD18</option>
-                    <option value="hSD19">hSD19</option>
-                </optgroup>
-                <!-- Others -->
-                <optgroup label="Others">
-                    <option value="hPR">hPR</option>
-                    <option value="hY">hY</option>
-                    <option value="hBD">hBD</option>
-                </optgroup>
-            </select>
-            
-            <!-- Rarity Filter -->
             <label for="rarityFilter">Rarity:</label>
             <select id="rarityFilter">
                 <option value="">Select Rarity</option>
@@ -80,20 +44,19 @@
                 <option value="R">Rare {R}</option>
                 <option value="RR">Double Rare {RR}</option>
                 <option value="OSR">Oshi Super Rare {OSR}</option>
-                 <option value="HR">Holomen Rare {HR}</option>
+                <option value="HR">Holomen Rare {HR}</option>
                 <option value="P">Promo {P}</option>
                 <option value="SY">AltArt-Cheer {SY}</option>
             </select>
-            
-            <!-- Bloom Type Filter -->
-            <label for="bloomTypeFilter">Bloom/Support:</label>
+
+            <label for="bloomTypeFilter">Type:</label>
             <select id="bloomTypeFilter">
-                <option value="">Select Bloom Level or Support</option>
+                <option value="">All Types</option>
+                <option value="Oshi">Oshi</option>
                 <option value="Debut">Debut</option>
                 <option value="1st">1st</option>
                 <option value="2nd">2nd</option>
                 <option value="Spot">Spot</option>
-                <!-- Others -->
                 <optgroup label="Support">
                     <option value="Support (Item)">Support (Item)</option>
                     <option value="Support (Tool)">Support (Tool)</option>
@@ -104,35 +67,31 @@
                 </optgroup>
             </select>
         </div>
-        
-        <!-- Checkboxs for Alternative Arts -->
-        <div>
 
-    <input type="checkbox" id="foilCheckbox">
-    <label for="foilCheckbox">Show Foiled {S}</label>
-            
-    <input type="checkbox" id="fullArtCheckbox">
-    <label for="fullArtCheckbox">Show FullArt {SR}</label>
-  
-    <input type="checkbox" id="altArtCheckbox">
-    <label for="altArtCheckbox">Show Alternative Arts {OUR/UR}</label>
-
-    <input type="checkbox" id="signedCheckbox">
-    <label for="signedCheckbox">Show Signed {SEC}</label>
-
-    <input type="checkbox" id="grandprixCheckbox">
-    <label for="grandprixCheckbox">Show GrandPrix</label>
-            
-    <input type="checkbox" id="holomenRareCheckbox">
-    <label for="holomenRareCheckbox">Show Holomen Rare {HR}</label>
-    </div>
+        <!-- Variants (collapsed by default) -->
+        <details class="variants-section">
+            <summary>Variants ▾</summary>
+            <div class="variants-inner">
+                <input type="checkbox" id="foilCheckbox">
+                <label for="foilCheckbox">Show Foiled {S}</label>
+                <input type="checkbox" id="fullArtCheckbox">
+                <label for="fullArtCheckbox">Show FullArt {SR}</label>
+                <input type="checkbox" id="altArtCheckbox">
+                <label for="altArtCheckbox">Show Alternative Arts {OUR/UR}</label>
+                <input type="checkbox" id="signedCheckbox">
+                <label for="signedCheckbox">Show Signed {SEC}</label>
+                <input type="checkbox" id="grandprixCheckbox">
+                <label for="grandprixCheckbox">Show GrandPrix</label>
+                <input type="checkbox" id="holomenRareCheckbox">
+                <label for="holomenRareCheckbox">Show Holomen Rare {HR}</label>
+            </div>
+        </details>
 
         <!-- Tag display section -->
-        <div class="tags-section">
-            <label class="tags-label">Available Tags:</label>
-            <button id="toggleTagsBtn">Show</button>
-            <div id="tagsContainer" class="hidden"></div>
-        </div>
+        <details class="variants-section">
+            <summary>Available Tags ▾</summary>
+            <div id="tagsContainer" class="variants-inner"></div>
+        </details>
         
     <!-- Content container for dynamically loaded cards -->
         <div id="contentContainer">
