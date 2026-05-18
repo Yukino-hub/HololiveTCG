@@ -304,3 +304,9 @@ function renderSetButtons(category, seriesSetRow, seriesFilter, filterCards) {
     });
     seriesSetRow.classList.add('visible');
 }
+
+function registerEscapeToClose(modal, closeFn) {
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.style.display !== 'none') closeFn();
+    });
+}

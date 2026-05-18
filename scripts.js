@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const imageUrl = getImageUrl(card);
 
         cardElement.innerHTML = `
-            <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load">
+            <img data-src="${imageUrl}" alt="${card.name}" class="lazy-load" onerror="this.removeAttribute('src');this.classList.add('img-error');">
             <p><strong>${card.name}</strong></p>
             <p>Card Number: ${card.cardNumber}</p>
             <p>Rarity: ${card.rarity}</p>
@@ -148,6 +148,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function displayCards(cardsToShow) {
         contentContainer.innerHTML = '';
+        if (cardsToShow.length === 0) {
+            const empty = document.createElement('div');
+            empty.className = 'empty-state';
+            empty.textContent = 'No cards found. Try adjusting your filters.';
+            contentContainer.appendChild(empty);
+            return;
+        }
         const fragment = document.createDocumentFragment();
         cardsToShow.forEach(card => {
             fragment.appendChild(createCardElement(card));
@@ -199,6 +206,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const primaryImage = document.createElement('img');
         primaryImage.src = imageUrl;
         primaryImage.alt = card.name;
+        primaryImage.onerror = () => { primaryImage.removeAttribute('src'); primaryImage.classList.add('img-error'); };
         modalImageContainer.appendChild(primaryImage);
 
         // Use shared population function from utils.js
@@ -220,6 +228,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (modalCloseIcon) {
         modalCloseIcon.addEventListener('click', closeModal);
     }
+    registerEscapeToClose(modal, closeModal);
 
     // Consolidated event listeners for all filter controls
     const filterControls = [

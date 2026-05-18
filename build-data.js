@@ -3,11 +3,11 @@ const path = require('path');
 
 const setsDir = path.join(__dirname, 'sets');
 const outputFile = path.join(__dirname, 'sets', 'all_cards.json');
+const validateOnly = process.argv.includes('--validate');
 
-/**
- * Generates a comprehensive search string for a card.
- * Includes name, card number, tags, abilities, effects, and skill descriptions.
- */
+const EXPECTED_BOOL_FIELDS = ['hasAlternativeArt', 'hasSigned', 'hasFoils', 'hasFullArt', 'hasGrandPrix', 'hasHolomenRare'];
+const TYPO_FIELDS = { hasFullart: 'hasFullArt', hasAlternateArt: 'hasAlternativeArt' };
+
 function generateSearchString(card) {
     const fields = [
         card.name,
@@ -25,11 +25,28 @@ function generateSearchString(card) {
         card.spOshiSkill?.description,
         ...(card.skills?.map(s => (s.name || '') + " " + (s.description || '')) || [])
     ];
-    // Filter out null/undefined/empty strings and join
     return fields.filter(Boolean).join(" ").toLowerCase();
 }
 
-function processDirectory(dir, allCards) {
+function validateCard(card, file, issues) {
+    const loc = `${file} → ${card.cardNumber || '(no cardNumber)'}`;
+    if (!card.cardNumber) issues.push(`MISSING cardNumber in ${file}`);
+    if (!card.name) issues.push(`MISSING name: ${loc}`);
+
+    for (const [typo, correct] of Object.entries(TYPO_FIELDS)) {
+        if (Object.prototype.hasOwnProperty.call(card, typo)) {
+            issues.push(`FIELD TYPO "${typo}" should be "${correct}": ${loc}`);
+        }
+    }
+
+    if (card.skills) {
+        card.skills.forEach((skill, i) => {
+            if (!skill.name) issues.push(`MISSING skill[${i}].name: ${loc}`);
+        });
+    }
+}
+
+function processDirectory(dir, allCards, seenNumbers, issues) {
     const files = fs.readdirSync(dir);
 
     for (const file of files) {
@@ -37,15 +54,30 @@ function processDirectory(dir, allCards) {
         const stat = fs.statSync(fullPath);
 
         if (stat.isDirectory()) {
-            processDirectory(fullPath, allCards);
+            processDirectory(fullPath, allCards, seenNumbers, issues);
         } else if (file.endsWith('.json') && file !== 'all_cards.json') {
             try {
                 const fileContent = fs.readFileSync(fullPath, 'utf-8');
                 const cards = JSON.parse(fileContent);
+
+                if (!Array.isArray(cards)) {
+                    issues.push(`NOT AN ARRAY: ${file}`);
+                    continue;
+                }
+
                 const setName = path.basename(file, '.json');
 
                 for (const card of cards) {
-                    // Inject metadata into the card object
+                    if (validateOnly) validateCard(card, file, issues);
+
+                    if (card.cardNumber) {
+                        if (seenNumbers.has(card.cardNumber)) {
+                            issues.push(`DUPLICATE cardNumber "${card.cardNumber}" in ${file}`);
+                        } else {
+                            seenNumbers.add(card.cardNumber);
+                        }
+                    }
+
                     card.setName = setName;
                     card.searchString = generateSearchString(card);
                     allCards.push(card);
@@ -59,15 +91,31 @@ function processDirectory(dir, allCards) {
 }
 
 function buildData() {
-    console.log('Starting data consolidation...');
+    if (validateOnly) console.log('Running in --validate mode (no output will be written)...\n');
+    else console.log('Starting data consolidation...');
+
     const allCards = [];
-    
+    const seenNumbers = new Set();
+    const issues = [];
+
     if (!fs.existsSync(setsDir)) {
         console.error(`Directory not found: ${setsDir}`);
         return;
     }
 
-    processDirectory(setsDir, allCards);
+    processDirectory(setsDir, allCards, seenNumbers, issues);
+
+    if (issues.length > 0) {
+        console.warn(`\n⚠  ${issues.length} issue(s) found:`);
+        issues.forEach(i => console.warn('  •', i));
+    } else {
+        console.log('\n✓ No data issues found.');
+    }
+
+    if (validateOnly) {
+        console.log(`\nValidated ${allCards.length} cards. all_cards.json was NOT modified.`);
+        return;
+    }
 
     try {
         fs.writeFileSync(outputFile, JSON.stringify(allCards, null, 2), 'utf-8');

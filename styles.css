@@ -84,22 +84,6 @@ header a:hover {
     border: 1px solid #444;
 }
 
-#seriesFilter,
-#rarityFilter,
-#bloomTypeFilter {
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 16px;
-    background-color: #2C2C2C;
-    color: white;
-    border: 1px solid #444;
-}
-
-#cardList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .card {
     border: 1px solid #333;
@@ -254,11 +238,6 @@ header a:hover {
         object-fit: contain; /* Ensure the image fits within its container */
     }
 
-    #cardList {
-        flex-direction: column; /* Stack cards vertically on small screens */
-        align-items: center; /* Center cards */
-    }
-
     .card {
         max-width: 90%; /* Increase card width on small screens */
     }
@@ -376,31 +355,27 @@ img.lazy-load[src] {
     background-color: #777;
 }
 
-/* Tournament Page Styles */
-.tournament {
-    background-color: #1E1E1E;
+
+/* ---- Empty state ---- */
+.empty-state {
+    width: 100%;
+    padding: 60px 20px;
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+}
+
+/* ---- Image error placeholder ---- */
+.img-error {
+    display: block;
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    background-color: #1e1e1e;
+    background-image: repeating-linear-gradient(
+        45deg, #252525 0px, #252525 6px, #1e1e1e 6px, #1e1e1e 12px
+    );
     border: 1px solid #333;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.tournament h3 {
-    margin-top: 0;
-}
-
-.tournament ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.tournament li {
-    padding: 5px 0;
-}
-
-.tournament-image {
-    width: 100px;
-    height: auto;
+    border-radius: 4px;
 }
 
 /* ---- Series two-level button filter ---- */
