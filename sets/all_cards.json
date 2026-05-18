@@ -779,7 +779,7 @@
         "dmg": 30
       }
     ],
-    "hasFullart": true,
+    "hasFullArt": true,
     "setName": "hBP01",
     "searchString": "usada pekora hbp01-041 #jp #gen3 #kemomimi 成長した兎田べこらを: send the top card of your cheer deck to your center holomen or collab holomen. 見逃しちゃだめべこだよ! "
   },
@@ -2499,7 +2499,7 @@
         "dmg": "30"
       }
     ],
-    "hasFullart": true,
+    "hasFullArt": true,
     "setName": "hBP02",
     "searchString": "shirogane noel hbp02-016 #jp #gen3 #alcohol ノエちゃんの勇姿……: if bloomed from debut, reveal 1 [debut holomem, 1st holomem or spot holomem] with #gen 3 from your deck, and add it to hand. then, shuffle the deck. 目に焼き付けるんだゾ♡ "
   },
@@ -2799,7 +2799,7 @@
         "dmg": "30"
       }
     ],
-    "hasFullart": true,
+    "hasFullArt": true,
     "imageSet": "hBP06",
     "setName": "hBP02",
     "searchString": "houshou marine hbp02-031 #jp #gen3 #painting #sea キミたちの声が船長の支えです！ deal 20 special damage to your opponent's collab holomem. いっしょに出航しましょう！（健全) "
@@ -16586,7 +16586,7 @@
         "dmg": 40
       }
     ],
-    "hasFullart": true,
+    "hasFullArt": true,
     "imageSet": "hBP06",
     "setName": "hSD07",
     "searchString": "shiranui flare hsd07-007 #jp #gen3 #half-elf また一つ成長した私を　 : [back position only] if your collab holomem has 70 of less hp remaining, you may switch this holomem with your collab holomem. キミに見てほしいな！ "

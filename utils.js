@@ -5,6 +5,18 @@ const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardli
 // Data is now consolidated into a single file by build-data.js
 const consolidatedDataFile = "sets/all_cards.json";
 
+const SERIES_SETS = {
+    boosters: ['hBP01','hBP02','hBP03','hBP04','hBP05','hBP06','hBP07'].map(p => ({ label: p, prefix: p })),
+    starters: Array.from({ length: 19 }, (_, i) => { const s = `hSD${String(i + 1).padStart(2, '0')}`; return { label: s, prefix: s }; }),
+    promos:   [{ label: 'hPR', prefix: 'hPR' }, { label: 'hBD', prefix: 'hBD' }, { label: 'hY', prefix: 'hY' }, { label: 'hYS', prefix: 'hYS' }],
+};
+const CATEGORY_PREFIXES = {
+    all:      [],
+    boosters: SERIES_SETS.boosters.map(s => s.prefix),
+    starters: SERIES_SETS.starters.map(s => s.prefix),
+    promos:   SERIES_SETS.promos.map(s => s.prefix),
+};
+
 /**
  * Debounce function to delay execution of a function until after a specified wait time
  * has elapsed since the last time it was invoked.
@@ -36,63 +48,20 @@ function getBaseImageUrl(card) {
 }
 
 /**
- * Generates a comprehensive search string for a card.
- * Includes name, card number, tags, abilities, effects, and skill descriptions.
- * @param {object} card - The card object.
- * @returns {string} The lowercase search string.
- */
-function generateSearchString(card) {
-    const fields = [
-        card.name,
-        card.cardNumber,
-        card.tag,
-        card.ability,
-        card.collabEffect,
-        card.bloomEffect,
-        card.giftEffect,
-        card.extraEffect,
-        card.oshiStageSkill,
-        card.oshiSkill?.name,
-        card.oshiSkill?.description,
-        card.spOshiSkill?.name,
-        card.spOshiSkill?.description,
-        ...(card.skills?.map(s => (s.name || '') + " " + (s.description || '')) || [])
-    ];
-    // Filter out null/undefined/empty strings and join
-    return fields.filter(Boolean).join(" ").toLowerCase();
-}
-
-/**
- * Fetches card data from the configured series files.
+ * Fetches all card data from the consolidated file produced by build-data.js.
+ * Cards already have setName and searchString injected at build time.
  * @returns {Promise<Array>} A promise that resolves to the flat array of all card data.
  */
 function fetchCardData() {
-    return Promise.all(seriesFiles.map(file => {
-        const setName = file.split('/').pop().split('.')[0];
-        return fetch(file)
-            .then(response => {
-                if (!response.ok) {
-                    return { setName, data: [] };
-                }
-                return response.json().then(data => ({ setName, data }));
-            })
-            .catch(error => {
-                console.error(`Error loading or parsing ${file}:`, error);
-                return { setName, data: [] };
-            });
-    }))
-    .then(results => {
-        return results.flatMap(result => {
-            return result.data.map(card => {
-                // Add setName and pre-computed searchString to each card
-                return {
-                    ...card,
-                    setName: result.setName,
-                    searchString: generateSearchString(card)
-                };
-            });
+    return fetch(consolidatedDataFile)
+        .then(response => {
+            if (!response.ok) throw new Error(`Failed to load ${consolidatedDataFile}`);
+            return response.json();
+        })
+        .catch(error => {
+            console.error('Error loading card data:', error);
+            return [];
         });
-    });
 }
 
 /**
@@ -276,4 +245,68 @@ function initializeLazyLoading() {
         });
     });
     lazyImages.forEach(image => observer.observe(image));
+}
+
+// --- Shared filter helpers ---
+
+function matchesSearchText(card, searchText) {
+    if (!searchText) return true;
+    if (searchText.startsWith('bloom:')) {
+        const term = searchText.substring(6).trim();
+        return card.bloomEffect && card.bloomEffect.toLowerCase().includes(term);
+    }
+    if (searchText.startsWith('collab:')) {
+        const term = searchText.substring(7).trim();
+        return card.collabEffect && card.collabEffect.toLowerCase().includes(term);
+    }
+    return card.searchString.includes(searchText);
+}
+
+function matchesSeries(card, category, prefix) {
+    if (category === 'all') return true;
+    if (prefix) return card.cardNumber.startsWith(prefix);
+    return CATEGORY_PREFIXES[category].some(p => card.cardNumber.startsWith(p));
+}
+
+function matchesRarity(card, selectedRarity) {
+    return !selectedRarity || card.rarity === selectedRarity;
+}
+
+function matchesBloomType(card, selectedBloomType) {
+    if (!selectedBloomType) return true;
+    if (selectedBloomType === 'Oshi') return card.lives !== undefined;
+    return card.bloomLevel === selectedBloomType || card.type === selectedBloomType;
+}
+
+/**
+ * Renders the per-set buttons inside seriesSetRow for the given category.
+ * seriesFilter is a shared mutable object { category, prefix } owned by the caller.
+ */
+function renderSetButtons(category, seriesSetRow, seriesFilter, filterCards) {
+    seriesSetRow.innerHTML = '';
+    if (category === 'all') { seriesSetRow.classList.remove('visible'); return; }
+    (SERIES_SETS[category] || []).forEach(set => {
+        const btn = document.createElement('button');
+        btn.className = 'series-btn';
+        btn.textContent = set.label;
+        btn.addEventListener('click', () => {
+            if (seriesFilter.prefix === set.prefix) {
+                seriesFilter.prefix = '';
+                btn.classList.remove('active');
+            } else {
+                seriesSetRow.querySelectorAll('.series-btn').forEach(b => b.classList.remove('active'));
+                seriesFilter.prefix = set.prefix;
+                btn.classList.add('active');
+            }
+            filterCards();
+        });
+        seriesSetRow.appendChild(btn);
+    });
+    seriesSetRow.classList.add('visible');
+}
+
+function registerEscapeToClose(modal, closeFn) {
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.style.display !== 'none') closeFn();
+    });
 }
