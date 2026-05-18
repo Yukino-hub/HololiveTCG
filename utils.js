@@ -2,13 +2,8 @@
 
 // Constants
 const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardlist/";
-const seriesFiles = [
-    ...Array.from({ length: 19 }, (_, i) => `sets/hSD/hSD${(i + 1).toString().padStart(2, '0')}.json`),
-    ...Array.from({ length: 7 }, (_, i) => `sets/hBP/hBP${(i + 1).toString().padStart(2, '0')}.json`),
-    'sets/hPR.json',
-    'sets/hY01.json',
-    'sets/hY.json'
-];
+// Data is now consolidated into a single file by build-data.js
+const consolidatedDataFile = "sets/all_cards.json";
 
 /**
  * Debounce function to delay execution of a function until after a specified wait time
