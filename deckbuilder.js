@@ -1,60 +1,23 @@
 document.addEventListener('DOMContentLoaded', function() {
+    injectModalHtml(true);
+
     const contentContainer = document.getElementById('contentContainer');
     const loadingIndicator = document.getElementById('loadingIndicator');
     const searchBar = document.getElementById('searchBar');
     const rarityFilter = document.getElementById('rarityFilter');
     const bloomTypeFilter = document.getElementById('bloomTypeFilter');
+    const altArtCheckbox = document.getElementById('altArtCheckbox');
+    const fullArtCheckbox = document.getElementById('fullArtCheckbox');
+    const foilCheckbox = document.getElementById('foilCheckbox');
+    const signedCheckbox = document.getElementById('signedCheckbox');
+    const grandprixCheckbox = document.getElementById('grandprixCheckbox');
+    const holomenRareCheckbox = document.getElementById('holomenRareCheckbox');
 
     // Modal Elements
     const modal = document.getElementById('modal');
     const modalCloseIcon = document.getElementById('modalCloseIcon');
     const modalCardName = document.getElementById('modalCardName');
     const modalAddBtn = document.getElementById('modalAddBtn');
-
-    // Modal Detail Elements
-    const modalCardNumberContainer = document.getElementById('modalCardNumberContainer');
-    const modalCardTagsContainer = document.getElementById('modalCardTagsContainer');
-    const modalRarityContainer = document.getElementById('modalRarityContainer');
-    const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
-    const modalHPContainer = document.getElementById('modalHPContainer');
-    const modalColorContainer = document.getElementById('modalColorContainer');
-    const modalLivesContainer = document.getElementById('modalLivesContainer');
-    const modalBuzzContainer = document.getElementById('modalBuzzContainer');
-    const modalTypeContainer = document.getElementById('modalTypeContainer');
-    const modalAbilityContainer = document.getElementById('modalAbilityContainer');
-    const modalCollabEffectContainer = document.getElementById('modalCollabEffectContainer');
-    const modalBloomEffectContainer = document.getElementById('modalBloomEffectContainer');
-    const modalGiftEffectContainer = document.getElementById('modalGiftEffectContainer');
-    const modalExtraEffectContainer = document.getElementById('modalExtraEffectContainer');
-    const modalSourcesContainer = document.getElementById('modalSourcesContainer');
-
-    const modalCardNumber = document.getElementById('modalCardNumber');
-    const modalCardTags = document.getElementById('modalCardTags');
-    const modalRarity = document.getElementById('modalRarity');
-    const modalBloomLevel = document.getElementById('modalBloomLevel');
-    const modalHP = document.getElementById('modalHP');
-    const modalColor = document.getElementById('modalColor');
-    const modalLives = document.getElementById('modalLives');
-    const modalBuzz = document.getElementById('modalBuzz');
-    const modalType = document.getElementById('modalType');
-    const modalAbility = document.getElementById('modalAbility');
-    const modalCollabEffect = document.getElementById('modalCollabEffect');
-    const modalBloomEffect = document.getElementById('modalBloomEffect');
-    const modalGiftEffect = document.getElementById('modalGiftEffect');
-    const modalExtraEffect = document.getElementById('modalExtraEffect');
-    const modalSources = document.getElementById('modalSources');
-
-    const modalOshiSkill = document.getElementById('modalOshiSkill');
-    const modalOshiSkillName = document.getElementById('modalOshiSkillName');
-    const modalOshiSkillPower = document.getElementById('modalOshiSkillPower');
-    const modalOshiSkillDescription = document.getElementById('modalOshiSkillDescription');
-
-    const modalSpOshiSkill = document.getElementById('modalSpOshiSkill');
-    const modalSpOshiSkillName = document.getElementById('modalSpOshiSkillName');
-    const modalSpOshiSkillPower = document.getElementById('modalSpOshiSkillPower');
-    const modalSpOshiSkillDescription = document.getElementById('modalSpOshiSkillDescription');
-
-    const modalSkills = document.getElementById('modalSkills');
 
     // Deck State
     const deck = {
@@ -73,6 +36,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const cheerDeckListEl = document.getElementById('cheerDeckList');
     const clearDeckBtn = document.getElementById('clearDeckBtn');
     const exportDeckBtn = document.getElementById('exportDeckBtn');
+    const importDeckBtn = document.getElementById('importDeckBtn');
+    const importDeckInput = document.getElementById('importDeckInput');
 
     let allCardData = [];
 
@@ -187,12 +152,21 @@ document.addEventListener('DOMContentLoaded', function() {
         const searchText = searchBar.value.toLowerCase();
         const selectedRarity = rarityFilter.value;
         const selectedBloomType = bloomTypeFilter.value;
+        const checkboxState = {
+            altArt: altArtCheckbox?.checked,
+            fullArt: fullArtCheckbox?.checked,
+            foil: foilCheckbox?.checked,
+            signed: signedCheckbox?.checked,
+            grandprix: grandprixCheckbox?.checked,
+            holomenRare: holomenRareCheckbox?.checked,
+        };
 
         filteredCardData = allCardData.filter(card =>
             matchesSearchText(card, searchText) &&
             matchesSeries(card, seriesFilter.category, seriesFilter.prefix) &&
             matchesRarity(card, selectedRarity) &&
-            matchesBloomType(card, selectedBloomType)
+            matchesBloomType(card, selectedBloomType) &&
+            matchesCheckboxes(card, checkboxState)
         );
         displayCards(filteredCardData);
     }
@@ -425,8 +399,50 @@ document.addEventListener('DOMContentLoaded', function() {
         downloadAnchorNode.remove();
     }
 
+    function importDeck(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            let data;
+            try { data = JSON.parse(e.target.result); } catch {
+                alert('Invalid JSON file.'); return;
+            }
+            if (!data.oshi && !data.deck && !data.cheer_deck) {
+                alert('Unrecognized deck format.'); return;
+            }
+            deck.oshi = []; deck.main = []; deck.cheer = [];
+            if (data.oshi) {
+                const oshiCard = allCardData.find(c => c.cardNumber === data.oshi);
+                if (oshiCard) deck.oshi.push(oshiCard);
+            }
+            if (data.deck) {
+                for (const [num, count] of Object.entries(data.deck)) {
+                    const card = allCardData.find(c => c.cardNumber === num);
+                    if (card) for (let i = 0; i < count; i++) deck.main.push(card);
+                }
+            }
+            if (data.cheer_deck) {
+                for (const [num, count] of Object.entries(data.cheer_deck)) {
+                    const card = allCardData.find(c => c.cardNumber === num);
+                    if (card) for (let i = 0; i < count; i++) deck.cheer.push(card);
+                }
+            }
+            updateDeckUI();
+            filteredCardData.forEach(c => updateCardGridQuantity(c));
+            event.target.value = '';
+        };
+        reader.readAsText(file);
+    }
+
     if (exportDeckBtn) {
         exportDeckBtn.addEventListener('click', exportDeck);
+    }
+    if (importDeckBtn) {
+        importDeckBtn.addEventListener('click', () => importDeckInput.click());
+    }
+    if (importDeckInput) {
+        importDeckInput.addEventListener('change', importDeck);
     }
 
     // Series filter button wiring
@@ -446,6 +462,8 @@ document.addEventListener('DOMContentLoaded', function() {
     searchBar.addEventListener('input', debounce(filterCards, 300));
     rarityFilter.addEventListener('change', filterCards);
     bloomTypeFilter.addEventListener('change', filterCards);
+    [altArtCheckbox, fullArtCheckbox, foilCheckbox, signedCheckbox, grandprixCheckbox, holomenRareCheckbox]
+        .forEach(cb => cb?.addEventListener('change', filterCards));
 
     const clearButton = document.getElementById('clearButton');
     if (clearButton) {

@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+    injectModalHtml(false);
+
     const contentContainer = document.getElementById('contentContainer');
     const loadingIndicator = document.getElementById('loadingIndicator');
     const searchBar = document.getElementById('searchBar');
@@ -187,15 +189,6 @@ document.addEventListener('DOMContentLoaded', function() {
         displayCards(filteredCardData);
     }
 
-    function matchesCheckboxes(card, state) {
-        return (!state.altArt || card.hasAlternativeArt) &&
-            (!state.fullArt || card.hasFullArt) &&
-            (!state.foil || card.hasFoils) &&
-            (!state.signed || card.hasSigned) &&
-            (!state.grandprix || card.hasGrandPrix) &&
-            (!state.holomenRare || card.hasHolomenRare);
-    }
-
     function openModal(card) {
         const modalImageContainer = document.getElementById('modalImageContainer');
         modalImageContainer.innerHTML = '';
@@ -228,6 +221,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (modalCloseIcon) {
         modalCloseIcon.addEventListener('click', closeModal);
     }
+    modal.addEventListener('click', e => { if (e.target === modal) closeModal(e); });
     registerEscapeToClose(modal, closeModal);
 
     // Consolidated event listeners for all filter controls

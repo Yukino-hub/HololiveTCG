@@ -278,6 +278,65 @@ function matchesBloomType(card, selectedBloomType) {
     return card.bloomLevel === selectedBloomType || card.type === selectedBloomType;
 }
 
+function matchesCheckboxes(card, state) {
+    return (!state.altArt || card.hasAlternativeArt) &&
+        (!state.fullArt || card.hasFullArt) &&
+        (!state.foil || card.hasFoils) &&
+        (!state.signed || card.hasSigned) &&
+        (!state.grandprix || card.hasGrandPrix) &&
+        (!state.holomenRare || card.hasHolomenRare);
+}
+
+function injectModalHtml(includeAddBtn) {
+    const addBtnHtml = includeAddBtn
+        ? '<button id="modalAddBtn" class="add-btn" style="margin-bottom: 10px;">Add to Deck</button>'
+        : '';
+    const modal = document.createElement('div');
+    modal.id = 'modal';
+    modal.className = 'modal';
+    modal.innerHTML = `
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span id="modalCloseIcon" class="modal-close">&times;</span>
+            <div id="modalImageContainer" class="image-scroll">
+                <img id="modalImage" data-src="" alt="" class="lazy-load" loading="lazy">
+            </div>
+            <div id="modalText">
+                <h3 id="modalCardName"></h3>
+                ${addBtnHtml}
+                <p id="modalCardNumberContainer"><strong>Card Number:</strong> <span id="modalCardNumber"></span></p>
+                <p id="modalCardTagsContainer"><strong>Tags:</strong> <span id="modalCardTags"></span></p>
+                <p id="modalRarityContainer"><strong>Rarity:</strong> <span id="modalRarity"></span></p>
+                <p id="modalBloomLevelContainer"><strong>Bloom Level:</strong> <span id="modalBloomLevel"></span></p>
+                <p id="modalHPContainer"><strong>HP:</strong> <span id="modalHP"></span></p>
+                <p id="modalColorContainer"><strong>Color:</strong> <span id="modalColor"></span></p>
+                <p id="modalLivesContainer"><strong>Lives:</strong> <span id="modalLives"></span></p>
+                <p id="modalBuzzContainer"><strong>Buzz:</strong> <span id="modalBuzz"></span></p>
+                <p id="modalTypeContainer"><strong>Type:</strong> <span id="modalType"></span></p>
+                <p id="modalAbilityContainer"><strong>Ability:</strong> <span id="modalAbility"></span></p>
+                <p id="modalCollabEffectContainer"><strong>Collab Effect:</strong> <span id="modalCollabEffect"></span></p>
+                <p id="modalBloomEffectContainer"><strong>Bloom Effect:</strong> <span id="modalBloomEffect"></span></p>
+                <p id="modalGiftEffectContainer"><strong>Gift:</strong> <span id="modalGiftEffect"></span></p>
+                <p id="modalOshiStageSkillContainer" class="hidden"><strong>Oshi Stage Skill:</strong> <span id="modalOshiStageSkill"></span></p>
+                <div id="modalOshiSkill" class="hidden">
+                    <p><strong>Oshi Skill Name:</strong> <span id="modalOshiSkillName"></span></p>
+                    <p><strong>Power Cost:</strong> <span id="modalOshiSkillPower"></span></p>
+                    <p><strong>Description:</strong> <span id="modalOshiSkillDescription"></span></p>
+                </div>
+                <div id="modalSpOshiSkill" class="hidden">
+                    <p><strong>SP Oshi Skill Name:</strong> <span id="modalSpOshiSkillName"></span></p>
+                    <p><strong>Power Cost:</strong> <span id="modalSpOshiSkillPower"></span></p>
+                    <p><strong>Description:</strong> <span id="modalSpOshiSkillDescription"></span></p>
+                </div>
+                <div id="modalSkills" class="skills hidden">
+                    <h3>Skills</h3>
+                </div>
+                <p id="modalExtraEffectContainer"><strong>Extra Effect:</strong> <span id="modalExtraEffect"></span></p>
+                <p id="modalSourcesContainer"><strong>Sources:</strong> <span id="modalSources"></span></p>
+            </div>
+        </div>`;
+    document.body.appendChild(modal);
+}
+
 /**
  * Renders the per-set buttons inside seriesSetRow for the given category.
  * seriesFilter is a shared mutable object { category, prefix } owned by the caller.
