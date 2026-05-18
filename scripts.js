@@ -21,20 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let allCardData = [];
     let filteredCardData = [];
 
-    let selectedSeriesCategory = 'all';
-    let selectedSeriesPrefix = '';
-
-    const SERIES_SETS = {
-        boosters: ['hBP01','hBP02','hBP03','hBP04','hBP05','hBP06','hBP07'].map(p => ({ label: p, prefix: p })),
-        starters: Array.from({ length: 19 }, (_, i) => { const s = `hSD${String(i + 1).padStart(2, '0')}`; return { label: s, prefix: s }; }),
-        promos:   [{ label: 'hPR', prefix: 'hPR' }, { label: 'hBD', prefix: 'hBD' }, { label: 'hY', prefix: 'hY' }, { label: 'hYS', prefix: 'hYS' }],
-    };
-    const CATEGORY_PREFIXES = {
-        all:      [],
-        boosters: SERIES_SETS.boosters.map(s => s.prefix),
-        starters: SERIES_SETS.starters.map(s => s.prefix),
-        promos:   SERIES_SETS.promos.map(s => s.prefix),
-    };
+    const seriesFilter = { category: 'all', prefix: '' };
 
     /**
      * Constructs the image URL for a card based on a priority system.
@@ -182,48 +169,15 @@ document.addEventListener('DOMContentLoaded', function() {
             holomenRare: holomenRareCheckbox.checked
         };
 
-        filteredCardData = allCardData.filter(card => {
-            return matchesSearchText(card, searchText) &&
-                matchesSeries(card, selectedSeriesCategory, selectedSeriesPrefix) &&
-                matchesRarity(card, selectedRarity) &&
-                matchesBloomType(card, selectedBloomType) &&
-                matchesCheckboxes(card, checkboxState);
-        });
+        filteredCardData = allCardData.filter(card =>
+            matchesSearchText(card, searchText) &&
+            matchesSeries(card, seriesFilter.category, seriesFilter.prefix) &&
+            matchesRarity(card, selectedRarity) &&
+            matchesBloomType(card, selectedBloomType) &&
+            matchesCheckboxes(card, checkboxState)
+        );
 
         displayCards(filteredCardData);
-    }
-
-    function matchesSearchText(card, searchText) {
-        if (!searchText) return true;
-
-        if (searchText.startsWith('bloom:')) {
-            const term = searchText.substring(6).trim();
-            return card.bloomEffect && card.bloomEffect.toLowerCase().includes(term);
-        }
-
-        if (searchText.startsWith('collab:')) {
-            const term = searchText.substring(7).trim();
-            return card.collabEffect && card.collabEffect.toLowerCase().includes(term);
-        }
-
-        // Optimized search using pre-computed string from utils.js
-        return card.searchString.includes(searchText);
-    }
-
-    function matchesSeries(card, category, prefix) {
-        if (category === 'all') return true;
-        if (prefix) return card.cardNumber.startsWith(prefix);
-        return CATEGORY_PREFIXES[category].some(p => card.cardNumber.startsWith(p));
-    }
-
-    function matchesRarity(card, selectedRarity) {
-        return !selectedRarity || card.rarity === selectedRarity;
-    }
-
-    function matchesBloomType(card, selectedBloomType) {
-        if (!selectedBloomType) return true;
-        if (selectedBloomType === 'Oshi') return card.lives !== undefined;
-        return card.bloomLevel === selectedBloomType || card.type === selectedBloomType;
     }
 
     function matchesCheckboxes(card, state) {
@@ -284,46 +238,22 @@ document.addEventListener('DOMContentLoaded', function() {
     const seriesSetRow = document.getElementById('seriesSetRow');
     const categoryBtns = document.querySelectorAll('.series-btn[data-category]');
 
-    function renderSetButtons(category) {
-        seriesSetRow.innerHTML = '';
-        if (category === 'all') { seriesSetRow.classList.remove('visible'); return; }
-        (SERIES_SETS[category] || []).forEach(set => {
-            const btn = document.createElement('button');
-            btn.className = 'series-btn';
-            btn.textContent = set.label;
-            btn.addEventListener('click', () => {
-                if (selectedSeriesPrefix === set.prefix) {
-                    selectedSeriesPrefix = '';
-                    btn.classList.remove('active');
-                } else {
-                    seriesSetRow.querySelectorAll('.series-btn').forEach(b => b.classList.remove('active'));
-                    selectedSeriesPrefix = set.prefix;
-                    btn.classList.add('active');
-                }
-                filterCards();
-            });
-            seriesSetRow.appendChild(btn);
-        });
-        seriesSetRow.classList.add('visible');
-    }
-
     categoryBtns.forEach(btn => btn.addEventListener('click', () => {
         categoryBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        selectedSeriesCategory = btn.dataset.category;
-        selectedSeriesPrefix = '';
-        renderSetButtons(selectedSeriesCategory);
+        seriesFilter.category = btn.dataset.category;
+        seriesFilter.prefix = '';
+        renderSetButtons(seriesFilter.category, seriesSetRow, seriesFilter, filterCards);
         filterCards();
     }));
 
     clearButton.addEventListener('click', () => {
         searchBar.value = '';
-        // Reset series
-        selectedSeriesCategory = 'all';
-        selectedSeriesPrefix = '';
+        seriesFilter.category = 'all';
+        seriesFilter.prefix = '';
         categoryBtns.forEach(b => b.classList.remove('active'));
         document.querySelector('.series-btn[data-category="all"]').classList.add('active');
-        renderSetButtons('all');
+        renderSetButtons('all', seriesSetRow, seriesFilter, filterCards);
         filterCards();
     });
 

@@ -76,20 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let allCardData = [];
 
-    let selectedSeriesCategory = 'all';
-    let selectedSeriesPrefix = '';
-
-    const SERIES_SETS = {
-        boosters: ['hBP01','hBP02','hBP03','hBP04','hBP05','hBP06','hBP07'].map(p => ({ label: p, prefix: p })),
-        starters: Array.from({ length: 19 }, (_, i) => { const s = `hSD${String(i + 1).padStart(2, '0')}`; return { label: s, prefix: s }; }),
-        promos:   [{ label: 'hPR', prefix: 'hPR' }, { label: 'hBD', prefix: 'hBD' }, { label: 'hY', prefix: 'hY' }, { label: 'hYS', prefix: 'hYS' }],
-    };
-    const CATEGORY_PREFIXES = {
-        all:      [],
-        boosters: SERIES_SETS.boosters.map(s => s.prefix),
-        starters: SERIES_SETS.starters.map(s => s.prefix),
-        promos:   SERIES_SETS.promos.map(s => s.prefix),
-    };
+    const seriesFilter = { category: 'all', prefix: '' };
     let filteredCardData = [];
 
     // Variable to track currently selected card for modal
@@ -194,31 +181,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const selectedRarity = rarityFilter.value;
         const selectedBloomType = bloomTypeFilter.value;
 
-        filteredCardData = allCardData.filter(card => {
-            const matchesSearch = !searchText || card.searchString.includes(searchText);
-
-            let matchesSeries;
-            if (selectedSeriesCategory === 'all') {
-                matchesSeries = true;
-            } else if (selectedSeriesPrefix) {
-                matchesSeries = card.cardNumber.startsWith(selectedSeriesPrefix);
-            } else {
-                matchesSeries = CATEGORY_PREFIXES[selectedSeriesCategory].some(p => card.cardNumber.startsWith(p));
-            }
-
-            const matchesRarity = !selectedRarity || card.rarity === selectedRarity;
-
-            let matchesBloom;
-            if (!selectedBloomType) {
-                matchesBloom = true;
-            } else if (selectedBloomType === 'Oshi') {
-                matchesBloom = card.lives !== undefined;
-            } else {
-                matchesBloom = card.bloomLevel === selectedBloomType || card.type === selectedBloomType;
-            }
-
-            return matchesSearch && matchesSeries && matchesRarity && matchesBloom;
-        });
+        filteredCardData = allCardData.filter(card =>
+            matchesSearchText(card, searchText) &&
+            matchesSeries(card, seriesFilter.category, seriesFilter.prefix) &&
+            matchesRarity(card, selectedRarity) &&
+            matchesBloomType(card, selectedBloomType)
+        );
         displayCards(filteredCardData);
     }
 
@@ -450,35 +418,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const seriesSetRow = document.getElementById('seriesSetRow');
     const categoryBtns = document.querySelectorAll('.series-btn[data-category]');
 
-    function renderSetButtons(category) {
-        seriesSetRow.innerHTML = '';
-        if (category === 'all') { seriesSetRow.classList.remove('visible'); return; }
-        (SERIES_SETS[category] || []).forEach(set => {
-            const btn = document.createElement('button');
-            btn.className = 'series-btn';
-            btn.textContent = set.label;
-            btn.addEventListener('click', () => {
-                if (selectedSeriesPrefix === set.prefix) {
-                    selectedSeriesPrefix = '';
-                    btn.classList.remove('active');
-                } else {
-                    seriesSetRow.querySelectorAll('.series-btn').forEach(b => b.classList.remove('active'));
-                    selectedSeriesPrefix = set.prefix;
-                    btn.classList.add('active');
-                }
-                filterCards();
-            });
-            seriesSetRow.appendChild(btn);
-        });
-        seriesSetRow.classList.add('visible');
-    }
-
     categoryBtns.forEach(btn => btn.addEventListener('click', () => {
         categoryBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        selectedSeriesCategory = btn.dataset.category;
-        selectedSeriesPrefix = '';
-        renderSetButtons(selectedSeriesCategory);
+        seriesFilter.category = btn.dataset.category;
+        seriesFilter.prefix = '';
+        renderSetButtons(seriesFilter.category, seriesSetRow, seriesFilter, filterCards);
         filterCards();
     }));
 
@@ -491,11 +436,11 @@ document.addEventListener('DOMContentLoaded', function() {
     if (clearButton) {
         clearButton.addEventListener('click', () => {
             searchBar.value = '';
-            selectedSeriesCategory = 'all';
-            selectedSeriesPrefix = '';
+            seriesFilter.category = 'all';
+            seriesFilter.prefix = '';
             categoryBtns.forEach(b => b.classList.remove('active'));
             document.querySelector('.series-btn[data-category="all"]').classList.add('active');
-            renderSetButtons('all');
+            renderSetButtons('all', seriesSetRow, seriesFilter, filterCards);
             filterCards();
         });
     }
