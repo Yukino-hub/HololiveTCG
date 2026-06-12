@@ -84,7 +84,7 @@ function processDirectory(dir, allCards, seenNumbers, issues) {
                 }
                 console.log(`Processed ${file} (${cards.length} cards)`);
             } catch (error) {
-                console.error(`Error processing ${file}:`, error);
+                issues.push(`PARSE ERROR in ${file}: ${error.message}`);
             }
         }
     }
@@ -112,9 +112,16 @@ function buildData() {
         console.log('\n✓ No data issues found.');
     }
 
+    const fatal = issues.some(i => i.startsWith('PARSE ERROR') || i.startsWith('NOT AN ARRAY'));
+
     if (validateOnly) {
         console.log(`\nValidated ${allCards.length} cards. all_cards.json was NOT modified.`);
-        return;
+        process.exit(issues.length ? 1 : 0);
+    }
+
+    if (fatal) {
+        console.error('\n✗ Aborting: source files are broken; all_cards.json was NOT regenerated.');
+        process.exit(1);
     }
 
     try {
@@ -122,6 +129,15 @@ function buildData() {
         console.log(`\nSuccess! Consolidated ${allCards.length} cards into sets/all_cards.json`);
     } catch (error) {
         console.error('Error writing all_cards.json:', error);
+        process.exit(1);
+    }
+
+    try {
+        JSON.parse(fs.readFileSync(outputFile, 'utf-8'));
+        console.log('✓ all_cards.json re-parsed OK.');
+    } catch (error) {
+        console.error('✗ all_cards.json is not valid JSON after write:', error.message);
+        process.exit(1);
     }
 }
 
