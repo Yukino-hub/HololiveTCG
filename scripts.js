@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
             directory: card.imageSet || card.setName,
             suffix: 'SEC'
         }, {
-            condition: holomenRareCheckbox.checked && card.hasHolomenRare,
+            condition: (holomenRareCheckbox.checked || rarityFilter.value === 'HR') && card.hasHolomenRare,
             directory: card.imageSet || card.setName,
             suffix: 'HR'
         }, {
