@@ -26,7 +26,7 @@
         "tag": "#JP #Gen2 #Cooking",
         "skills": [
             {
-                "name": "",
+                "name": "魔界の保健医",
                 "dmg": 30
             }
         ],
@@ -43,7 +43,7 @@
         "collabEffect": "If your Oshi holomem is Purple, draw 1 card from your Deck.",
         "skills": [
             {
-                "name": "",
+                "name": "マイキュ～トスチュ～デ～ンツ",
                 "dmg": 30
             }
         ]
@@ -59,7 +59,7 @@
         "collabEffect": "You may Archive 1 card from your hand for the following effect: reveal an Event with #Food from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
-                "name": "",
+                "name": "いっぱい食べてね♡",
                 "dmg": 20
             }
         ]
@@ -74,11 +74,11 @@
         "tag": "#JP #Gen2 #Cooking",
         "skills": [
             {
-                "name": "",
+                "name": "おつかれいと……",
                 "dmg": 20
             },
             {
-                "name": "",
+                "name": "あ～む（ﾁｭｯ）",
                 "dmg": 40
             }
         ]
@@ -93,7 +93,7 @@
         "tag": "#JP #Gen2 #Cooking",
         "skills": [
             {
-                "name": "",
+                "name": "禁断のキッス",
                 "dmg": 30
             }
         ]
@@ -109,7 +109,7 @@
         "bloomEffect": "You may return a non-LIMITED Event card from your Archive to your hand.",
         "skills": [
             {
-                "name": "",
+                "name": "大好き！ちゅっ♡",
                 "dmg": 30,
                 "description": "Restore 20HP to one of your Back holomems."
             }
@@ -126,11 +126,11 @@
         "tag": "#JP #Gen2 #Cooking",
         "skills": [
             {
-                "name": "",
+                "name": "がんばってつくったよ",
                 "dmg": 40
             },
             {
-                "name": "",
+                "name": "召し上がれ",
                 "dmg": "60+",
                 "description": "You may return one Event with #Food from your Archive to your hand: if you do, this Art gains +20 power."
             }
@@ -147,11 +147,11 @@
         "tag": "#JP #Gen2 #Cooking",
         "skills": [
             {
-                "name": "",
+                "name": "33… 22… 11…",
                 "dmg": 50
             },
             {
-                "name": "",
+                "name": "あくとっ",
                 "dmg": 60,
                 "description": "For each Event card you've played during this turn, this Art gains +40 power."
             }
@@ -170,7 +170,7 @@
         "collabEffect": "If your Center holomem is Yuzuki Choco, you may send one Cheer from your Archive to any of your holomems.",
         "skills": [
             {
-                "name": "",
+                "name": "地獄くじ引き、引かせるぞっ",
                 "dmg": 20
             }
         ],
@@ -187,7 +187,7 @@
         "collabEffect": " Look at your holo power cards, reveal one, and put it into your hand. Then put a card from your hand into your holo power.",
         "skills": [
             {
-                "name": "",
+                "name": "んな～～～～～～～～",
                 "dmg": 10
             }
         ],
