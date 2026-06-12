@@ -14,7 +14,8 @@
             "name": "HOPE and DESPAIR",
             "power": 2,
             "description": "[1/Game] Draw 1 card for each cheer attached to all of your <IRyS>. Put 1 card from the top of your deck to holo Power for each purple cheer attached to all of your <IRyS>."
-        }
+        },
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-002",
@@ -27,7 +28,8 @@
             "name": "SPIN TO WIN!",
             "power": 2,
             "description": "[1/Turn] Send the top 2 cards of your cheer deck divided as you choose to your resting <Cecilia Immergreen>. Then, set all holomem who received cheers from this ability to active."
-        }
+        },
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-003",
@@ -40,7 +42,9 @@
             "name": "みんなの笑顔はモココが守る!",
             "power": 2,
             "description": "[1/Turn] If you have red cheer on your stage, return 1 holomem with #Advent from your archive to hand. If you have blue cheer on your stage, send 1 cheer from your archive to your holomem with #Advent."
-        }
+        },
+        "hasSigned": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-004",
@@ -57,7 +61,9 @@
             "name": "いけいけどんどん！",
             "power": 2,
             "description": "[1/Game] Deal the same amount of special damage to 1 of your opponent's back holomem as the amount of damage taken by your opponent's center holomem."
-        }
+        },
+        "hasSigned": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-005",
@@ -70,7 +76,9 @@
             "name": "ホイサホイサ",
             "power": 2,
             "description": "[1/Turn] Archive 2 cards from your hand. If you archived 2 cards with this ability, deal 50 special damage to your opponent's [center holomem and collab holomem] other than Debut.\n\n[OUR is the same as SEC but without the signature]"
-        }
+        },
+        "hasSigned": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-006",
@@ -83,7 +91,9 @@
             "name": "Ina'nisの色彩",
             "power": "X",
             "description": "[1/Turn] For each holo Power archived for this ability, choose 1 holomem on your opponent's stage. During this turn, the chosen holomem are regarded as holomem with all colors."
-        }
+        },
+        "hasSigned": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-007",
@@ -100,7 +110,9 @@
             "name": "ぱちぱちありがとう！",
             "power": 1,
             "description": "[1/Game] Send the top 3 cards of your cheer deck to your center holomem <Otonose Kanade>. At the end of this turn, archive 3 cheers on your stage."
-        }
+        },
+        "hasSigned": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-008",
@@ -132,7 +144,8 @@
                 "name": "あたしはもっと深いところを見てるの",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-010",
@@ -148,7 +161,8 @@
                 "name": "I am Lightning Speed",
                 "dmg": 40
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-011",
@@ -165,7 +179,8 @@
                 "dmg": 30,
                 "description": "If a purple cheer is attached to this holomem, draw 1 card."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-012",
@@ -182,7 +197,8 @@
                 "dmg": 50,
                 "description": "If a purple cheer is attached to this holomem, deal 20 special damage to your opponent's center holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-013",
@@ -199,7 +215,8 @@
                 "dmg": "70+, +50 vs purple",
                 "description": "If this holomem has purple cheer attached, this Arts gets +50."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-014",
@@ -216,7 +233,9 @@
                 "dmg": "130+, +50 vs red",
                 "description": "During this turn, all holomem on your stage get Arts+20 for each purple cheer attached to this holomem."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-015",
@@ -232,7 +251,8 @@
                 "name": "ナインダーツ",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-016",
@@ -252,7 +272,8 @@
                 "name": "あの時の空へ…",
                 "dmg": 90
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-017",
@@ -269,7 +290,8 @@
                 "dmg": "40+",
                 "description": "If you have a 2nd holomem with #Gen 0 on your stage, this Arts gets +20."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-018",
@@ -286,7 +308,9 @@
                 "dmg": "150, +50 vs red",
                 "description": "If your Oshi holomem is Tokino Sora, choose 1 other <Tokino Sora> on your stage. During this turn, you may also target your opponent's back 2nd holomem with the chosen holomem's Arts."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-019",
@@ -307,7 +331,8 @@
                 "dmg": 10,
                 "description": "If this holomem does not have <Chattino> attached, attach 1 <Chattino> from your deck to this holomem. Then, shuffle the deck."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-020",
@@ -324,7 +349,8 @@
                 "dmg": "110+, +50 vs red",
                 "description": "If you have archived 3 cards from your deck this turn, this Arts gets +40."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-021",
@@ -356,7 +382,8 @@
                 "name": "エレガントに行くのです",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-023",
@@ -372,7 +399,8 @@
                 "name": "とってもとっても特別！",
                 "dmg": 40
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-024",
@@ -389,7 +417,8 @@
                 "dmg": 60,
                 "description": "Rest this holomem."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-025",
@@ -405,7 +434,8 @@
                 "name": "休憩も大事でしょ？",
                 "dmg": 30
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-026",
@@ -421,7 +451,8 @@
                 "name": "奏楽のヴィンデ",
                 "dmg": "90, +50 vs blue"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-027",
@@ -438,7 +469,9 @@
                 "dmg": "200, +50 vs yellow",
                 "description": "Draw 1 card for each of your resting holomem with #Justice. Then, rest this holomem."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-028",
@@ -456,7 +489,8 @@
                 "dmg": 50,
                 "description": "Restore 30 HP to 1 of your holomem with tool attached."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-029",
@@ -472,7 +506,8 @@
                 "name": "極秘任務遂行中でござる",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-030",
@@ -488,7 +523,8 @@
                 "name": "以後　お見知りおきを…",
                 "dmg": 10
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-031",
@@ -507,7 +543,8 @@
                 "dmg": 60,
                 "description": "Archive the top card of your cheer deck. For every cheer color on your stage, restore 10 HP to 1 of your holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-032",
@@ -524,7 +561,8 @@
                 "dmg": "80+, +50 vs blue",
                 "description": "If you have a holomem with #ID Gen 2 other than <Pavolia Reine> with purple cheer or yellow cheer attached, this Arts gets +70."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-033",
@@ -541,7 +579,9 @@
                 "dmg": "140, +50 vs blue",
                 "description": "Send 1~2 cheers from your archive to 1 of your <Pavolia Reine>."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-034",
@@ -573,7 +613,8 @@
                 "dmg": "10+",
                 "description": "If a blue cheer is attached to this holomem, this Arts gets +30."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-036",
@@ -589,7 +630,8 @@
                 "name": "ふたりは“BAU” DOL☆★",
                 "dmg": 40
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-037",
@@ -606,7 +648,8 @@
                 "dmg": 30,
                 "description": "If 2 blue cheers are attached to this holomem, send the top card of your cheer deck to your <Fuwawa Abyssgard>."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-038",
@@ -622,7 +665,8 @@
                 "name": "勝つのはモココだよ！",
                 "dmg": "100, +50 vs green"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-039",
@@ -639,7 +683,9 @@
                 "dmg": "90+, +50 vs purple",
                 "description": "For each blue cheer attached to this holomem, this Arts gets +20. Then, choose any number of blue cheers attached to this holomem, and reattach them to 1 of your <Fuwawa Abyssgard>."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-040",
@@ -658,7 +704,8 @@
                 "dmg": "30+",
                 "description": "This Arts gets +10 for each red cheer in your archive."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-041",
@@ -675,7 +722,8 @@
                 "dmg": 20,
                 "description": "Archive the top card of your deck."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-042",
@@ -691,7 +739,8 @@
                 "name": "キワワとチョンカーズ＆スムージー",
                 "dmg": 40
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-043",
@@ -710,7 +759,8 @@
                 "dmg": 50,
                 "description": "If all holomem on your stage have #Myth, put the top card of your deck to holo Power."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-044",
@@ -727,7 +777,9 @@
                 "dmg": "100, +50 vs purple",
                 "description": "Archive 1~3 cards from the top of your deck."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-045",
@@ -744,7 +796,8 @@
                 "dmg": "50+, +50 vs green",
                 "description": "Choose 1 holomem on your stage and roll a die once. During this turn, the chosen holomem gets Arts+10x the result."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-046",
@@ -760,7 +813,8 @@
                 "name": "スイートトゥース",
                 "dmg": 30
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-047",
@@ -792,7 +846,8 @@
                 "name": "つよい。でかい。大きい。",
                 "dmg": 30
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-049",
@@ -808,7 +863,8 @@
                 "name": "君さえよかったらもっとはなそ",
                 "dmg": 50
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-050",
@@ -825,7 +881,8 @@
                 "dmg": 20,
                 "description": "Send 1 cheer from your archive to your holomem."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-051",
@@ -842,7 +899,8 @@
                 "dmg": 40,
                 "description": "Send the top card of your cheer deck to your <Mizumiya Su>."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-052",
@@ -862,7 +920,8 @@
                 "name": "グミうまい",
                 "dmg": "180, +50 vs red"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-053",
@@ -879,7 +938,9 @@
                 "dmg": "50, +50 vs white",
                 "description": "If your opponent's center holomem requires 5 or more colorless cheers for its baton pass, deal 100 special damage to 1 of your opponent's holomem other than Debut."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-054",
@@ -896,7 +957,8 @@
                 "dmg": "130, +50 vs red",
                 "description": "You may archive 3 cheers from this holomem: Draw 3 cards."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-055",
@@ -913,7 +975,8 @@
                 "dmg": 20,
                 "description": "If a red cheer is attached to this holomem, draw 1 card."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-056",
@@ -929,7 +992,8 @@
                 "name": "思いっきりやってくるよ！",
                 "dmg": 40
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-057",
@@ -946,7 +1010,8 @@
                 "dmg": "30+",
                 "description": "If a red cheer is attached to this holomem, this Arts gets +20."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-058",
@@ -967,7 +1032,8 @@
                 "dmg": "160, +50 vs white",
                 "description": "If your Oshi holomem is blue <FUWAMOCO>, you may archive 2 cheers from this holomem: Deal 50 special damage to 1 of your opponent's holomem other than Debut."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-059",
@@ -984,7 +1050,9 @@
                 "dmg": "80+, +50 vs white",
                 "description": "If your <Mococo Abyssgard> used Arts this turn, this Arts gets +50. Then, choose any number of red cheers attached to this holomem, and reattach them to 1 of your <Mococo Abyssgard>."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-060",
@@ -1002,7 +1070,8 @@
                 "dmg": 50,
                 "description": "If your Oshi holomem is blue <FUWAMOCO>, put the top card of your deck to holo Power."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-061",
@@ -1035,7 +1104,8 @@
                 "name": "ダウンさせる意志",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-063",
@@ -1051,7 +1121,8 @@
                 "name": "どう似合ってる？？？",
                 "dmg": 40
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-064",
@@ -1068,7 +1139,8 @@
                 "dmg": 20,
                 "description": "Attach 1 <Lui-tomo> from your deck to 1 of your holomem. Then, shuffle the deck."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-065",
@@ -1085,7 +1157,8 @@
                 "dmg": "50+",
                 "description": "If your hand has 2 or less cards, this Arts gets +30."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-066",
@@ -1102,7 +1175,8 @@
                 "dmg": "60+, +50 vs yellow",
                 "description": "You may archive 1~2 cards from your hand: This Arts gets +20 for each card archived."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-067",
@@ -1119,7 +1193,9 @@
                 "dmg": "130+, +50 vs green",
                 "description": "If your hand has 2 or less cards, this Arts gets +50. If your hand has no cards, this Arts gets +70 instead."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-068",
@@ -1152,7 +1228,8 @@
                 "name": "うまくいったでしょ、もっといけるよ",
                 "dmg": 30
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-070",
@@ -1169,7 +1246,8 @@
                 "dmg": 30,
                 "description": "Restore 10 HP to 1 of your holomem with #Myth for each holomem on your opponent's stage with a different color to their Oshi holomem."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-071",
@@ -1185,7 +1263,8 @@
                 "name": "Bonk!",
                 "dmg": 50
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-072",
@@ -1202,7 +1281,8 @@
                 "dmg": "30+",
                 "description": "The Arts gets +10 for each holomem on your opponent's stage with a different color to their Oshi holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-073",
@@ -1218,7 +1298,8 @@
                 "name": "おやつのクッキー抜きだよ！",
                 "dmg": "90, +50 vs blue"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-074",
@@ -1235,7 +1316,9 @@
                 "dmg": "110, +50 vs yellow",
                 "description": "You may archive 1~3 cards from your hand: Choose 1 of your opponent's holomem for each card archived with this ability. During this turn, the chosen holomem are regarded as holomem with all colors."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-075",
@@ -1252,7 +1335,8 @@
                 "dmg": "110+, +50 vs yellow",
                 "description": "This Arts gets +20 for each <Roboser> attached to this holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-076",
@@ -1269,7 +1353,8 @@
                 "dmg": "120, +50 vs blue",
                 "description": "If you have 3 or more events with #Food in your archive, restore 100 HP to this holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-077",
@@ -1301,7 +1386,8 @@
                 "name": "れろれろれろれろ",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-079",
@@ -1318,7 +1404,8 @@
                 "dmg": 10,
                 "description": "You may send 1 cheer from your archive to your center holomem with #ReGLOSS."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-080",
@@ -1335,7 +1422,8 @@
                 "name": "奏ストラクション",
                 "dmg": 20
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-081",
@@ -1352,7 +1440,8 @@
                 "dmg": "40+",
                 "description": "[Center Position Only] If you have 1 more cheer on your stage than your opponent, this Arts gets +20. If you have 2 or more, this Arts gets +40 instead."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-082",
@@ -1368,7 +1457,8 @@
                 "name": "涙が止まらないよ～",
                 "dmg": "100, +50 vs white"
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-083",
@@ -1385,7 +1475,9 @@
                 "dmg": "120+, +50 vs blue",
                 "description": "If the number of cheers on your stage is more than your opponent's, this Arts gets +20 for each cheer more."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-084",
@@ -1402,7 +1494,8 @@
                 "dmg": "30+",
                 "description": "If there is a 2nd holomem with #Gen 1 on your stage, this Arts gets +30."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-085",
@@ -1418,7 +1511,8 @@
                 "name": "テレ隠しが下手ですな～",
                 "dmg": 10
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-086",
@@ -1435,7 +1529,8 @@
                 "dmg": "20+",
                 "description": "If your center holomem is a 2nd holomem, this Arts gets +30."
             }
-        ]
+        ],
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-087",
@@ -1451,7 +1546,8 @@
                 "name": "夢から醒めたら",
                 "dmg": "90, +50 vs blue"
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-088",
@@ -1468,7 +1564,9 @@
                 "dmg": "140+, +50 vs white",
                 "description": "[Collab Position Only] If your center holomem is a holomem with #Gen 3, this Arts gets +30."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hBP08-089",
@@ -1485,7 +1583,8 @@
                 "dmg": 30,
                 "description": "Send 1 cheer from your archive to your holomem with #Justice."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hBP08-090",
@@ -1493,14 +1592,16 @@
         "type": "Support (Item)",
         "rarity": "C",
         "limited": true,
-        "ability": ": Only one can be used per turn.\n\nReturn 1~3 [mascots and fans] from your archive to the deck and shuffle it. Draw 2 cards."
+        "ability": ": Only one can be used per turn.\n\nReturn 1~3 [mascots and fans] from your archive to the deck and shuffle it. Draw 2 cards.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-091",
         "name": "Creator PC",
         "type": "Support (Item)",
         "rarity": "U",
-        "ability": "Place 1 Debut holomem with Extra \"You may include any number of this holomem in the deck\" from your deck on stage. Then, shuffle the deck. Place 1 Debut holomem from your archive on stage."
+        "ability": "Place 1 Debut holomem with Extra \"You may include any number of this holomem in the deck\" from your deck on stage. Then, shuffle the deck. Place 1 Debut holomem from your archive on stage.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-092",
@@ -1515,7 +1616,8 @@
         "name": "Choco's Eggplant Yukhoe",
         "type": "Support (Event)",
         "rarity": "U",
-        "ability": "This card can only be used if all holomem on your stage are <Yuzuki Choco> and your life is 3 or less.\n\nDuring this turn, all [Debut holomem and 1st holomem] on your stage get Arts+20. Then, all 2nd holomem on your stage get Arts+60.\n\nYou may only use the card <Choco's Eggplant Yukhoe> once per turn."
+        "ability": "This card can only be used if all holomem on your stage are <Yuzuki Choco> and your life is 3 or less.\n\nDuring this turn, all [Debut holomem and 1st holomem] on your stage get Arts+20. Then, all 2nd holomem on your stage get Arts+60.\n\nYou may only use the card <Choco's Eggplant Yukhoe> once per turn.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-094",
@@ -1531,7 +1633,8 @@
         "type": "Support (Event)",
         "rarity": "C",
         "limited": true,
-        "ability": ": Only one can be used per turn.\n\nThis card can only be used if all holomem on your stage have #EN and you have 3 or less life.\n\nDeal 50 special damage to both players' center holomem and collab holomem. However, a player's life does not reduce even if downed."
+        "ability": ": Only one can be used per turn.\n\nThis card can only be used if all holomem on your stage have #EN and you have 3 or less life.\n\nDeal 50 special damage to both players' center holomem and collab holomem. However, a player's life does not reduce even if downed.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-096",
@@ -1539,14 +1642,16 @@
         "type": "Support (Event)",
         "rarity": "U",
         "limited": true,
-        "ability": ": Only one can be used per turn.\n\nThis card can only be used if your Oshi holomem is <Ichijou Ririka>.\n\nReveal 1 [<Ichijou Ririka> and/or <Struggle Meal>] each from your deck, and add them to hand. Then, shuffle the deck. If there are 3 or more <Struggle Meal> in your archive, during this turn, all <Ichijou Ririka> on your stage get Arts+50."
+        "ability": ": Only one can be used per turn.\n\nThis card can only be used if your Oshi holomem is <Ichijou Ririka>.\n\nReveal 1 [<Ichijou Ririka> and/or <Struggle Meal>] each from your deck, and add them to hand. Then, shuffle the deck. If there are 3 or more <Struggle Meal> in your archive, during this turn, all <Ichijou Ririka> on your stage get Arts+50.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-097",
         "name": "Rich Chocolat's Hamburg Steak",
         "type": "Support (Event)",
         "rarity": "C",
-        "ability": "Choose 1 holomem on your stage. Restore 20 HP to the chosen holomem. If you have 2 or more events with #Food in your archive, send 1 cheer from your archive to that holomem.\n\nYou may only use the card <Rich Chocolat's Hamburg Steak> once per turn."
+        "ability": "Choose 1 holomem on your stage. Restore 20 HP to the chosen holomem. If you have 2 or more events with #Food in your archive, send 1 cheer from your archive to that holomem.\n\nYou may only use the card <Rich Chocolat's Hamburg Steak> once per turn.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-098",
@@ -1554,14 +1659,16 @@
         "type": "Support (Event)",
         "rarity": "U",
         "limited": true,
-        "ability": ": Only one can be used per turn\n\nThis card can only be used if all holomem on your stage have #Myth.\n\nReveal the top 4 cards of your deck. Add 2 of them to hand. Then, archive the remaining cards."
+        "ability": ": Only one can be used per turn\n\nThis card can only be used if all holomem on your stage have #Myth.\n\nReveal the top 4 cards of your deck. Add 2 of them to hand. Then, archive the remaining cards.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-099",
         "name": "HOLOTORI",
         "type": "Support (Event)",
         "rarity": "U",
-        "ability": "Choose 1 of the following abilities to use.\n\n■Archive 1 cheer from your holomem with #Bird. If you archived a cheer, draw 2 cards, and return 1 card from your hand to the bottom of the deck.\n■Send 1 cheer from your archive to your holomem with #Bird.\n\nYou may only use the card <HOLOTORI> once per turn."
+        "ability": "Choose 1 of the following abilities to use.\n\n■Archive 1 cheer from your holomem with #Bird. If you archived a cheer, draw 2 cards, and return 1 card from your hand to the bottom of the deck.\n■Send 1 cheer from your archive to your holomem with #Bird.\n\nYou may only use the card <HOLOTORI> once per turn.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-100",
@@ -1569,7 +1676,8 @@
         "type": "Support (Event)",
         "rarity": "U",
         "limited": true,
-        "ability": ": Only one can be used per turn.\n\nThis card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of holomem with #Myth from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order."
+        "ability": ": Only one can be used per turn.\n\nThis card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of holomem with #Myth from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-101",
@@ -1577,69 +1685,79 @@
         "type": "Support (Event)",
         "rarity": "U",
         "limited": true,
-        "ability": ": Only one can be used per turn\n\nThis card can only be used if all holomem on your stage have #ReGLOSS.\n\nReveal 2 holomem with #ReGLOSS from your deck, and add them to hand. Then, shuffle the deck. If you have fewer holomem on stage than your opponent, draw 1 card, and archive 1 card from your hand."
+        "ability": ": Only one can be used per turn\n\nThis card can only be used if all holomem on your stage have #ReGLOSS.\n\nReveal 2 holomem with #ReGLOSS from your deck, and add them to hand. Then, shuffle the deck. If you have fewer holomem on stage than your opponent, draw 1 card, and archive 1 card from your hand.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-102",
         "name": "Cool Hoodie",
         "type": "Support (Tool)",
         "rarity": "C",
-        "ability": "The holomem with this tool attached gets Arts+10.\n\n◆Additional ability if attached to a Buzz holomem\n[1/Turn]When this holomem downs your opponent's holomem, draw 2 cards.\n\nOnly 1 tool can be attached to each of your holomem."
+        "ability": "The holomem with this tool attached gets Arts+10.\n\n◆Additional ability if attached to a Buzz holomem\n[1/Turn]When this holomem downs your opponent's holomem, draw 2 cards.\n\nOnly 1 tool can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-103",
         "name": "holoCape",
         "type": "Support (Tool)",
         "rarity": "U",
-        "ability": "■The holomem with this tool attached gets +50 HP.\n■If the holomem with this tool attached is downed, you get life-1.\n\nOnly 1 tool can be attached to each of your holomem."
+        "ability": "■The holomem with this tool attached gets +50 HP.\n■If the holomem with this tool attached is downed, you get life-1.\n\nOnly 1 tool can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-104",
         "name": "Aura",
         "type": "Support (Tool)",
         "rarity": "C",
-        "ability": "◆Additional ability if attached to <Mizumiya Su>\n■[Center Position・Collab Position Only] Your opponent's center holomem requires +1 colorless for its baton pass.\n■When this holomem's bloom level increases, draw 1 card.\n\nOnly 1 tool can be attached to each of your holomem."
+        "ability": "◆Additional ability if attached to <Mizumiya Su>\n■[Center Position・Collab Position Only] Your opponent's center holomem requires +1 colorless for its baton pass.\n■When this holomem's bloom level increases, draw 1 card.\n\nOnly 1 tool can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-105",
         "name": "Bloom&Gloom",
         "type": "Support (Mascot)",
         "rarity": "C",
-        "ability": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <IRyS>\nWhile this holomem has white cheer and purple cheer attached, this holomem gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem."
+        "ability": "The holomem this mascot is attached to gets +20 HP.\n\n◆Additional ability if attached to <IRyS>\nWhile this holomem has white cheer and purple cheer attached, this holomem gets Arts+20.\n\nOnly 1 mascot can be attached to each of your holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-106",
         "name": "GuyRyS",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "During your opponent's turn, if the holomem this fan is attached to is downed, reattach 1 cheer from the holomem this fan is attached to to your other holomem.\n\nYou may only attach this fan to your <IRyS>, and you may attach any number of this fan per holomem."
+        "ability": "During your opponent's turn, if the holomem this fan is attached to is downed, reattach 1 cheer from the holomem this fan is attached to to your other holomem.\n\nYou may only attach this fan to your <IRyS>, and you may attach any number of this fan per holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-107",
         "name": "Otomo",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "The holomem this fan is attached to gets Arts+10.\n\nWhen this fan is attached to holomem from hand or archive, the holomem this fan is attached to is set to either active or resting.\n\nYou may only attach this fan to your <Cecilia Immergreen>, and you may attach any number of this fan per holomem."
+        "ability": "The holomem this fan is attached to gets Arts+10.\n\nWhen this fan is attached to holomem from hand or archive, the holomem this fan is attached to is set to either active or resting.\n\nYou may only attach this fan to your <Cecilia Immergreen>, and you may attach any number of this fan per holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-108",
         "name": "Mischievous Ruffians",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "The holomem this fan is attached to gets +10 HP.\n\nDuring your opponent's turn, if the holomem this fan is attached to is downed, if that holomem has red cheer attached, draw 1 card.\n\nYou may only attach this fan to your <Fuwawa Abyssgard> or <Mococo Abyssgard>, and you may attach any number of this fan per holomem."
+        "ability": "The holomem this fan is attached to gets +10 HP.\n\nDuring your opponent's turn, if the holomem this fan is attached to is downed, if that holomem has red cheer attached, draw 1 card.\n\nYou may only attach this fan to your <Fuwawa Abyssgard> or <Mococo Abyssgard>, and you may attach any number of this fan per holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-109",
         "name": "Lui-tomo",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "The holomem this fan is attached to gets Arts+10.\n\nDuring your opponent's turn, if the holomem this fan is attached to is downed, reattach 1 [red cheer or purple cheer] from the holomem this fan is attached to to your other holomem.\n\nYou may only attach this fan to your <Takane Lui>, and you may attach any number of this fan per holomem."
+        "ability": "The holomem this fan is attached to gets Arts+10.\n\nDuring your opponent's turn, if the holomem this fan is attached to is downed, reattach 1 [red cheer or purple cheer] from the holomem this fan is attached to to your other holomem.\n\nYou may only attach this fan to your <Takane Lui>, and you may attach any number of this fan per holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP08-110",
         "name": "Takodachi",
         "type": "Support (Fan)",
         "rarity": "C",
-        "ability": "The holomem this fan is attached to gets Arts+10.\n\n[Center Position Only] Your opponent's center holomem and collab holomem are regarded as holomem with all colors.\n\nYou may only attach this fan to your <Ninomae Ina'nis>, and you may attach any number of this fan per holomem."
+        "ability": "The holomem this fan is attached to gets Arts+10.\n\n[Center Position Only] Your opponent's center holomem and collab holomem are regarded as holomem with all colors.\n\nYou may only attach this fan to your <Ninomae Ina'nis>, and you may attach any number of this fan per holomem.",
+        "hasFoils": true
     }
 ]
