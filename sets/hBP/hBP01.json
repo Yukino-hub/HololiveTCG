@@ -699,7 +699,8 @@
                 "dmg": 30
             }
         ],  
-        "hasFullArt": true
+        "hasFullArt": true,
+        "imageSet": "hBP06"
     },
     {
         "cardNumber": "hBP01-042",

@@ -1,6 +1,5 @@
 [
-    
-      {
+    {
         "cardNumber": "hBP05-001",
         "name": "Shirogane Noel",
         "rarity": "OSR",
@@ -18,7 +17,6 @@
         },
         "hasAlternativeArt": true
     },
-    
     {
         "name": "Airani Iofifteen",
         "cardNumber": "hBP05-002",
@@ -36,8 +34,7 @@
             "description": "[Once Per Game] Archive 2 cheers from your stage to reveal 2 holomem with #IDGen1 from your deck, and add them to hand. Then, shuffle the deck."
         },
         "hasAlternativeArt": true,
-        "hasSigned" : true
-
+        "hasSigned": true
     },
     {
         "name": "Omaru Polka",
@@ -45,7 +42,7 @@
         "rarity": "OSR",
         "color": "Red",
         "lives": 5,
-         "oshiSkill": {
+        "oshiSkill": {
             "name": "ポルカの伝説",
             "power": 2,
             "description": "[Once Per Turn] Draw cards from your deck until the number of cards in your hand is the same as the number of <Zain> on your stage. However, you can draw a maximum of 4 cards."
@@ -56,7 +53,7 @@
             "description": "[Once Per Game] Look at the top 7 cards of your deck. From among them, reveal one of each [<Omaru Polka> and Staff], and add the revealed [<Omaru Polka> and Staff] to your hand. Then, archive the remaining cards."
         },
         "hasAlternativeArt": true,
-        "hasSigned" : true
+        "hasSigned": true
     },
     {
         "name": "Nekomata Okayu",
@@ -64,7 +61,7 @@
         "rarity": "OSR",
         "color": "Blue",
         "lives": 5,
-         "oshiSkill": {
+        "oshiSkill": {
             "name": "いっくよー",
             "power": 2,
             "description": "[Once Per Turn] Usable if your center holomem is <Nekomata Okayu>:Deal 10 Special Damage to 1 of your opponent's holomem."
@@ -82,7 +79,7 @@
         "rarity": "OSR",
         "color": "Purple",
         "lives": 5,
-         "oshiSkill": {
+        "oshiSkill": {
             "name": "ちょこまみれになっちゃえっ！",
             "power": 1,
             "description": "[Once Per Turn] Reveal 1 event card with #Food from your deck, and add it to hand. Then, shuffle the deck."
@@ -93,7 +90,7 @@
             "description": "[Once per game] Return 1~4 events cards with #Food from your archive to hand. Then, for the rest of this turn, all of your holomem with #Cooking gets Arts+40."
         },
         "hasAlternativeArt": true,
-        "hasSigned" : true
+        "hasSigned": true
     },
     {
         "name": "Nerissa Ravencroft",
@@ -101,7 +98,7 @@
         "rarity": "OSR",
         "color": "Purple",
         "lives": 5,
-         "oshiSkill": {
+        "oshiSkill": {
             "name": "Liebesträume",
             "power": 1,
             "description": "[Once Per Turn] During this turn, your [Center holomem and Collab holomem] with #Singing get Arts+10."
@@ -119,7 +116,7 @@
         "rarity": "OSR",
         "color": "Yellow",
         "lives": 5,
-         "oshiSkill": {
+        "oshiSkill": {
             "name": "キミの力になりたいから",
             "power": 2,
             "description": "[Once Per Turn] Switch your collab [Debut holomem, 1st holomem, or Spot holomem] with 1 of your back <Shiranui Flare>."
@@ -264,7 +261,7 @@
                 "description": "You may roll a die once:If it is even, draw 1 card from your deck."
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Usada Pekora",
@@ -288,7 +285,7 @@
                 "description": "If your Oshi holomem's color is white, draw 1 card from your deck."
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Usada Pekora",
@@ -307,11 +304,10 @@
                 "description": "You may roll a die once for each Holomen card stacked under this Holomen: For each 1 of the total result from the roll(s), this Arts gets +10."
             }
         ],
-        "hasFullArt" : true,
-         "hasAlternativeArt": true,
-         "hasSigned" : true
+        "hasFullArt": true,
+        "hasAlternativeArt": true,
+        "hasSigned": true
     },
-    
     {
         "name": "Himemori Luna",
         "tag": "#JP #Gen4 #Baby",
@@ -336,7 +332,7 @@
                 "description": "[Collab position only ]For each <Luknight> attached to your center holomem, reduce the cheer cost of this Arts by 1 colorless cheer."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Vestia Zeta",
@@ -361,7 +357,7 @@
                 "description": "If your opponent's holomem is downed by this Arts, reveal 1 1st holomem with #IDGen3 from your deck,and add it to hand. Then, shuffle the deck."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Airani Iofifteen",
@@ -379,7 +375,7 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Airani Iofifteen",
@@ -397,7 +393,7 @@
                 "dmg": "10"
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Airani Iofifteen",
@@ -415,7 +411,7 @@
                 "dmg": "40"
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Airani Iofifteen",
@@ -433,7 +429,7 @@
                 "dmg": "50"
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Airani Iofifteen",
@@ -452,8 +448,8 @@
                 "description": "[Center position only]If your Oshi holomem is <Airani Iofifteen>, this Arts gets +20 for every 3 cheers on your stage."
             }
         ],
-        "hasFullArt" : true,        
-         "hasAlternativeArt": true
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "AZKi",
@@ -479,7 +475,7 @@
                 "description": "If your Oshi holomem is <AZKi>, this Arts gets +20 for each cheer attached to this holomem."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Aki Rosenthal",
@@ -496,7 +492,7 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Aki Rosenthal",
@@ -514,7 +510,7 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Aki Rosenthal",
@@ -533,8 +529,8 @@
                 "description": "If your opponent's holomem is downed by this Arts, draw 1 card from your deck. Then, if your Oshi holomem is <Aki Rosenthal>, restore 20 HP to all of your holomem."
             }
         ],
-        "hasFullArt" : true,
-         "hasAlternativeArt": true
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Shishiro Botan",
@@ -555,7 +551,7 @@
                 "description": "You may archive 1 cheer from your <Shishiro Botan>:Deal 30 Special Damage to your opponent's center holomem."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Juufuutei Raden",
@@ -580,7 +576,7 @@
                 "description": "If a 2nd holomem with #ReGLOSS is on your stage, this Arts gets +40."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Omaru Polka",
@@ -593,12 +589,12 @@
         "collabEffect": "まばゆい日常を君と ;During this turn, your center holomem with a fan attached gets Arts+10.",
         "skills": [
             {
-                "name": "",
+                "name": "うたたねの記念日",
                 "cost": "1 red",
                 "dmg": "20"
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Omaru Polka",
@@ -616,7 +612,7 @@
                 "description": "If you are going second and this is your first turn, reveal 1 <Troupe Member> from your deck, and add it to hand. Then, shuffle your deck."
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Omaru Polka",
@@ -635,7 +631,7 @@
                 "description": "You may archive 1 card from your hand:Deal 10 damage to your opponent's center holomem or collab holomem."
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Omaru Polka",
@@ -659,7 +655,7 @@
                 "description": "This Arts gets +10 for each <Troupe Member> attached to this holomem."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Omaru Polka",
@@ -678,8 +674,8 @@
                 "description": "If your oshi holomem is <Omaru Polka>, this Arts gets +30 for every 10 cards in your archive."
             }
         ],
-        "hasFullArt" : true,
-         "hasAlternativeArt": true
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Sakura Miko",
@@ -692,13 +688,13 @@
         "giftEffect": "今のはちょっとね、練習で… [Center position/collab position only]Usable during your opponent's turn if 1 of your <Sakura Miko> is downed:Reveal 1 <MiOreHaji> from your deck, and add it to hand. Then, shuffle the deck.",
         "skills": [
             {
-                "name": "",
+                "name": "あえんびえん",
                 "cost": "2 red",
                 "dmg": "90, +50 vs yellow",
                 "description": "You may archive 2 cards from your hand:Deal 50 Special Damage to your opponent's center holomem or collab holomem. If there is a <35P> on your stage, draw 1 card from your deck."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Hoshimachi Suisei",
@@ -716,7 +712,7 @@
                 "description": "If any of your opponent's back holomem are damaged, this Arts gets +20."
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Hoshimachi Suisei",
@@ -740,8 +736,8 @@
                 "description": "Archive all cheers attached to this holomem."
             }
         ],
-        "hasFullArt" : true,
-         "hasAlternativeArt": true
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Mococo Abyssgard",
@@ -760,7 +756,7 @@
                 "description": "If your center holomem is <Fuwawa Abyssgard>, this Arts can be used with no cheer requirement."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Ichijou Ririka",
@@ -785,7 +781,7 @@
                 "description": "If the target of this Arts is a 1st or greater collab holomem, this Arts gets +70."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "miComet",
@@ -805,7 +801,7 @@
                 "description": "You may reattach 1 cheer from this holomem to your back holomem."
             }
         ],
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Nekomata Okayu",
@@ -823,7 +819,7 @@
                 "description": "Deal 10 Special Damage to your opponent's center holomem."
             }
         ],
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Nekomata Okayu",
@@ -841,7 +837,7 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Nekomata Okayu",
@@ -860,7 +856,7 @@
                 "description": "You may archive 1 blue cheer from this holomem:Deal 10 Special Damage to your opponent's center holomem and 1 of your opponent's back holomem."
             }
         ],
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Nekomata Okayu",
@@ -879,7 +875,7 @@
                 "description": "Deal 10 Special Damage to 1 of your opponent's holomem."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Nekomata Okayu",
@@ -898,8 +894,8 @@
                 "description": "Deal 20 Special Damage to 1 of your opponent's holomem. Then, you may send 1 Cheer from your archive to your back holomem with #Gamers."
             }
         ],
-        "hasFullArt" : true,
-         "hasAlternativeArt": true
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Yukihana Lamy",
@@ -918,7 +914,7 @@
                 "description": "If a 2nd holomem with #Gen5 is on your stage, deal 20 Special Damage to 1 of your opponent's holomem."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Kobo Kanaeru",
@@ -936,7 +932,7 @@
                 "description": "Deal 10 Special Damage to 1 of your opponent's back holomem."
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Kobo Kanaeru",
@@ -955,7 +951,7 @@
                 "description": "Deal 10 Special Damage to 2 of your opponent's back holomem."
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Kobo Kanaeru",
@@ -979,8 +975,8 @@
                 "description": "You may archive 2 cheers from this holomem:Deal 30 Special Damage to all of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
             }
         ],
-        "hasFullArt" :true,
-         "hasAlternativeArt": true
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Fuwawa Abyssgard",
@@ -1001,7 +997,7 @@
                 "description": "If your <Mococo Abyssgard> has performed Arts this turn, this Arts gets +40. If you have also used your Oshi skill \"Moco-chan!\" this turn, this Arts gets +30."
             }
         ],
-        "hasFullArt" :true
+        "hasFullArt": true
     },
     {
         "name": "Hiodoshi Ao",
@@ -1020,7 +1016,7 @@
                 "description": "If there are 3 or more holomem with #Alcohol on your stage, you may send 1 cheer from your archive to your back holomem with #Alcohol."
             }
         ],
-        "hasFullArt" :true
+        "hasFullArt": true
     },
     {
         "name": "Yuzuki Choco",
@@ -1038,7 +1034,7 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Yuzuki Choco",
@@ -1056,7 +1052,7 @@
                 "dmg": "10"
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Yuzuki Choco",
@@ -1074,7 +1070,7 @@
                 "description": "If you have used 2 or more events with #Food this turn, this Arts can be used with no cheer requirement."
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Yuzuki Choco",
@@ -1092,7 +1088,7 @@
                 "dmg": "30"
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Yuzuki Choco",
@@ -1116,8 +1112,8 @@
                 "description": "You may archive 2 cards from your hand:Return 1 holomem with #Cooking from your archive to hand."
             }
         ],
-        "hasFullArt" : true,
-         "hasAlternativeArt": true
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Nerissa Ravencroft",
@@ -1135,7 +1131,7 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Nerissa Ravencroft",
@@ -1153,7 +1149,7 @@
                 "dmg": "10"
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Nerissa Ravencroft",
@@ -1176,7 +1172,7 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Nerissa Ravencroft",
@@ -1195,7 +1191,7 @@
                 "description": "You may archive 1 card from your hand:Deal 20 Special Damage to your opponent's center holomem or collab holomem."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Nerissa Ravencroft",
@@ -1214,8 +1210,8 @@
                 "description": "You may archive 1~3 cards from your hand:During this turn, 1 of your holomem with #Singing gets Arts+20 for each card archived."
             }
         ],
-        "hasFullArt" : true,
-         "hasAlternativeArt": true
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Tokoyami Towa",
@@ -1235,7 +1231,7 @@
                 "description": "Deal 20 Special Damage for each of your 1st holomem with #Singing to your opponent's center holomem or collab holomem."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Shiranui Flare",
@@ -1253,7 +1249,7 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Shiranui Flare",
@@ -1271,7 +1267,7 @@
                 "dmg": "10"
             }
         ],
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Shiranui Flare",
@@ -1289,7 +1285,7 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Shiranui Flare",
@@ -1308,7 +1304,7 @@
                 "description": "This Arts gets +10 for each differently-named holomem with #Gen3 on your stage."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Shiranui Flare",
@@ -1327,8 +1323,8 @@
                 "description": "You may roll a die once:If it is greater than or equal to your current Life, the Arts gets +60. If it is less than or equal to your current Life, draw 1 card from your deck."
             }
         ],
-        "hasFullArt" : true,
-         "hasAlternativeArt": true
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Shirakami Fubuki",
@@ -1346,7 +1342,7 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Shirakami Fubuki",
@@ -1365,7 +1361,7 @@
                 "description": "You may send the top card of your cheer deck to this holomem."
             }
         ],
-        "hasFoils" : true
+        "hasFoils": true
     },
     {
         "name": "Shirakami Fubuki",
@@ -1389,8 +1385,8 @@
                 "description": "If [your Oshi holomem is <Shirakami Fubuki> or your Oshi holomem's color is yellow], and there are 4 or more [tools, mascots, and fans] on your stage, this Arts gets +100."
             }
         ],
-        "hasFullArt" : true,
-         "hasAlternativeArt": true
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "name": "Inugami Korone",
@@ -1410,7 +1406,7 @@
                 "description": "During this turn, 1 of your holomem with #Gamers gets Arts+30."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Tsunomaki Watame",
@@ -1436,7 +1432,7 @@
                 "description": "If your Oshi holomem is <Tsunomaki Watame>, you may send the top card of your cheer deck to your <Tsunomaki Watame>."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Ayunda Risu",
@@ -1455,7 +1451,7 @@
                 "description": "If your Oshi holomem is <Ayunda Risu>, this Arts gets +10 for each cheer attached to your holomem with #IDGen1. However, only up to 10 cheers are counted."
             }
         ],
-        "hasFullArt" : true
+        "hasFullArt": true
     },
     {
         "name": "Friendly PC",
@@ -1463,7 +1459,7 @@
         "rarity": "C",
         "type": "Support (Item)",
         "ability": "Reveal 1 to 2 Debut HoloMen from your deck that have the Extra Ability 「You may include any number of this holomem in the deck」and put them onto the stage. Then, shuffle your deck. If you put 2 Debut Holomen onto the stage, you must also place 1 card from your hand at the bottom of your deck.",
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Gyudon",
@@ -1472,7 +1468,7 @@
         "rarity": "C",
         "type": "Support (Event)",
         "ability": "Choose 1 of your holomem. During this turn, the Baton Pass cheer cost of the chosen holomem is reduced by 2 colorless cheer. Then, restore 20 HP to the chosen holomem.",
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Choco's Beef Stroganoff",
@@ -1481,7 +1477,7 @@
         "rarity": "U",
         "type": "Support (Event)",
         "ability": "During this turn, 1 of your holomem gets Arts+10. Then, during this turn, 1 of your 2nd <Yuzuki Choco> gets Arts+10.",
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Bakatare Circus",
@@ -1490,7 +1486,7 @@
         "type": "Support (Event)",
         "limited": true,
         "ability": "This card can only be used if you have 6 or less cards in hand excluding this card. Look at the top 4 cards of your deck. Reveal any number of <Shirakami Fubuki>, <Shiranui Flare>, <Tsunomaki Watame>, and or <Omaru Polka> from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order.",
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Drinking stream",
@@ -1499,7 +1495,7 @@
         "type": "Support (Event)",
         "limited": true,
         "ability": "This card can only be used if you have 6 or less cards in hand excluding this card. Look at the top 4 cards of your deck. Reveal any number of holomem with #Alcohol from among them, and add the revealed holomem to hand. Then, return the remaining cards to the bottom of the deck in any order.",
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "MiOreHaji",
@@ -1508,7 +1504,7 @@
         "type": "Support (Event)",
         "limited": true,
         "ability": "Draw 2 cards. If your holomem was downed during your opponent's previous turn, and you have less Life than your opponent, send 1 cheer from your archive to your holomem.",
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "SorAZ Celebration",
@@ -1517,8 +1513,8 @@
         "type": "Support (Event)",
         "limited": true,
         "ability": "Draw 2 cards from your deck. Then, look at the top 5 cards of your deck. Reveal 1 1st holomem from among them, and add the revealed card to hand. Then, return the remaining cards to the bottom of the deck in any order.",
-        "hasFullArt" :true,
-        "hasSigned" : true
+        "hasFullArt": true,
+        "hasSigned": true
     },
     {
         "name": "Shirogane Noel's Mace",
@@ -1526,7 +1522,7 @@
         "rarity": "U",
         "type": "Support (Tool)",
         "ability": "The holomem this tool is attached to gets Arts+10. ◆Additional ability if attached to a 1st or greater <Shirogane Noel> If the holomem this tool is attached to has 3 or more cheers attached, this holomem gets Arts+20. Only 1 tool can be attached to each of your holomem.",
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Aki Rosenthal's Axe",
@@ -1534,7 +1530,7 @@
         "rarity": "U",
         "type": "Support (Tool)",
         "ability": "This card can only be used if you archive 1 card from your hand or 1 <Stone Axe> from your stage. The holomem this tool is attached to gets Arts+10. ◆Additional ability if attached to a 2nd or greater <Aki Rosenthal> The holomem this tool is attached to gets Arts+40. Only 1 tool can be attached to each of your holomem. Extra: This tool is also regarded as <Stone Axe>",
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Nerissa Ravencroft's Staff",
@@ -1542,7 +1538,7 @@
         "rarity": "U",
         "type": "Support (Tool)",
         "ability": "The holomem this tool is attached to gets Arts+10. ◆Additional ability if attached to a 2nd or greater <Nerissa Ravencroft> [Center/collab position only][once per turn]When the holomem this tool is attached to archives cards from your hand by its ability, deal 20 Special Damage to your opponent's center holomem or collab holomem. Only 1 tool can be attached to each of your holomem.",
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Tsunomaki Watame's Harp",
@@ -1550,7 +1546,7 @@
         "rarity": "U",
         "type": "Support (Tool)",
         "ability": "The holomem this tool is attached to gets Arts+10. ◆Additional ability if attached to a 2nd or greater <Tsunomaki Watame> While there is a <Watamate> on your stage, the holomem this tool is attached to gets Arts+10. ■When the holomem this tool is attached to uses Arts, you may send 1 cheer from your archive to your <Tsunomaki Watame>. Only 1 tool can be attached to each of your holomem.",
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Mikodanye",
@@ -1558,7 +1554,7 @@
         "rarity": "C",
         "type": "Support (Mascot)",
         "ability": "The holomem this mascot is attached to gets +10 HP. ◆Additional ability if attached to <Sakura Miko> During your opponent's turn, if the holomem this mascot is attached to is downed, your opponent archives 1 card from their hand. Only 1 mascot can be attached to each of your holomem.",
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Cilus",
@@ -1566,7 +1562,7 @@
         "rarity": "C",
         "type": "Support (Mascot)",
         "ability": "The holomem this mascot is attached to gets +20 HP. ◆Additional ability if attached to <Kobo Kanaeru> [Center position only][once per turn]If your opponent's back holomem is downed, draw 1 card from your deck. Only 1 mascot can be attached to each of your holomem.",
-        "hasFoils" :true
+        "hasFoils": true
     },
     {
         "name": "Jailbird",
@@ -1574,11 +1570,6 @@
         "rarity": "U",
         "type": "Support (Fan)",
         "ability": "During your opponent's turn, if the holomem this fan is attached to is downed, reattach 1 cheer from the holomem this fan is attached to to your other holomem with #Singing. You may only attach this fan to your <Nerissa Ravencroft>, and you may attach any number of this fan per holomem.",
-        "hasFoils" :true
+        "hasFoils": true
     }
 ]
-
-
-
-
-

@@ -780,6 +780,7 @@
       }
     ],
     "hasFullArt": true,
+    "imageSet": "hBP06",
     "setName": "hBP01",
     "searchString": "usada pekora hbp01-041 #jp #gen3 #kemomimi 成長した兎田べこらを: send the top card of your cheer deck to your center holomen or collab holomen. 見逃しちゃだめべこだよ! "
   },
@@ -2500,6 +2501,7 @@
       }
     ],
     "hasFullArt": true,
+    "imageSet": "hBP06",
     "setName": "hBP02",
     "searchString": "shirogane noel hbp02-016 #jp #gen3 #alcohol ノエちゃんの勇姿……: if bloomed from debut, reveal 1 [debut holomem, 1st holomem or spot holomem] with #gen 3 from your deck, and add it to hand. then, shuffle the deck. 目に焼き付けるんだゾ♡ "
   },
@@ -8689,14 +8691,14 @@
     "collabEffect": "まばゆい日常を君と ;During this turn, your center holomem with a fan attached gets Arts+10.",
     "skills": [
       {
-        "name": "",
+        "name": "うたたねの記念日",
         "cost": "1 red",
         "dmg": "20"
       }
     ],
     "hasFoils": true,
     "setName": "hBP05",
-    "searchString": "omaru polka hbp05-030 #jp #gen5 #kemomimi まばゆい日常を君と ;during this turn, your center holomem with a fan attached gets arts+10.  "
+    "searchString": "omaru polka hbp05-030 #jp #gen5 #kemomimi まばゆい日常を君と ;during this turn, your center holomem with a fan attached gets arts+10. うたたねの記念日 "
   },
   {
     "name": "Omaru Polka",
@@ -8798,7 +8800,7 @@
     "giftEffect": "今のはちょっとね、練習で… [Center position/collab position only]Usable during your opponent's turn if 1 of your <Sakura Miko> is downed:Reveal 1 <MiOreHaji> from your deck, and add it to hand. Then, shuffle the deck.",
     "skills": [
       {
-        "name": "",
+        "name": "あえんびえん",
         "cost": "2 red",
         "dmg": "90, +50 vs yellow",
         "description": "You may archive 2 cards from your hand:Deal 50 Special Damage to your opponent's center holomem or collab holomem. If there is a <35P> on your stage, draw 1 card from your deck."
@@ -8806,7 +8808,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP05",
-    "searchString": "sakura miko hbp05-035 #jp #gen0 #baby 今のはちょっとね、練習で… [center position/collab position only]usable during your opponent's turn if 1 of your <sakura miko> is downed:reveal 1 <miorehaji> from your deck, and add it to hand. then, shuffle the deck.  you may archive 2 cards from your hand:deal 50 special damage to your opponent's center holomem or collab holomem. if there is a <35p> on your stage, draw 1 card from your deck."
+    "searchString": "sakura miko hbp05-035 #jp #gen0 #baby 今のはちょっとね、練習で… [center position/collab position only]usable during your opponent's turn if 1 of your <sakura miko> is downed:reveal 1 <miorehaji> from your deck, and add it to hand. then, shuffle the deck. あえんびえん you may archive 2 cards from your hand:deal 50 special damage to your opponent's center holomem or collab holomem. if there is a <35p> on your stage, draw 1 card from your deck."
   },
   {
     "name": "Hoshimachi Suisei",
@@ -11784,82 +11786,6 @@
     "hasFoils": true,
     "setName": "hBP06",
     "searchString": "subatomo hbp06-104 during your opponent's turn, if the holomem this fan is attached to is downed, send the top card of your cheer deck to your <oozora subaru>. you may only attach this fan to your <oozora subaru>, and you may attach any number of this fan per holomem."
-  },
-  {
-    "cardNumber": "hBP01-041",
-    "name": "Usada Pekora",
-    "rarity": "SR",
-    "bloomLevel": "1st",
-    "hp": 90,
-    "color": "Green",
-    "tag": "#JP #Gen3 #Kemomimi",
-    "bloomEffect": "成長した兎田ぺこらを: Send the top card of your cheer deck to your center Holomen or collab Holomen.",
-    "skills": [
-      {
-        "name": "見逃しちゃだめぺこだよ!",
-        "dmg": 30
-      }
-    ],
-    "hasFullArt": true,
-    "setName": "hBP06",
-    "searchString": "usada pekora hbp01-041 #jp #gen3 #kemomimi 成長した兎田ぺこらを: send the top card of your cheer deck to your center holomen or collab holomen. 見逃しちゃだめぺこだよ! "
-  },
-  {
-    "cardNumber": "hBP02-016",
-    "name": "Shirogane Noel",
-    "rarity": "SR",
-    "bloomLevel": "1st",
-    "hp": 130,
-    "color": "White",
-    "tag": "#JP #Gen3 #Alcohol",
-    "bloomEffect": "ノエちゃんの勇姿……: If bloomed from Debut, reveal 1 [Debut holomem, 1st holomem or Spot holomem] with #Gen 3 from your deck, and add it to hand. Then, shuffle the deck.",
-    "skills": [
-      {
-        "name": "目に焼き付けるんだゾ♡",
-        "dmg": 30
-      }
-    ],
-    "hasFullArt": true,
-    "setName": "hBP06",
-    "searchString": "shirogane noel hbp02-016 #jp #gen3 #alcohol ノエちゃんの勇姿……: if bloomed from debut, reveal 1 [debut holomem, 1st holomem or spot holomem] with #gen 3 from your deck, and add it to hand. then, shuffle the deck. 目に焼き付けるんだゾ♡ "
-  },
-  {
-    "cardNumber": "hBP02-031",
-    "name": "Houshou Marine",
-    "rarity": "SR",
-    "bloomLevel": "1st",
-    "hp": 130,
-    "color": "Red",
-    "tag": "#JP #Gen3 #Painting #Sea",
-    "bloomEffect": "キミたちの声が船長の支えです！: Deal 20 special damage to your opponent's Collab holomem.",
-    "skills": [
-      {
-        "name": "いっしょに出航しましょう！（健全)",
-        "dmg": 30
-      }
-    ],
-    "hasFullArt": true,
-    "setName": "hBP06",
-    "searchString": "houshou marine hbp02-031 #jp #gen3 #painting #sea キミたちの声が船長の支えです！: deal 20 special damage to your opponent's collab holomem. いっしょに出航しましょう！（健全) "
-  },
-  {
-    "cardNumber": "hSD07-007",
-    "name": "Shiranui Flare",
-    "rarity": "SR",
-    "bloomLevel": "1st",
-    "hp": 150,
-    "color": "Yellow",
-    "tag": "#JP #Gen3 #Half-Elf",
-    "bloomEffect": "また一つ成長した私を　 : [Back position only] If your collab holomem has 70 or less HP remaining, you may Switch this holomem with your Collab holomem.",
-    "skills": [
-      {
-        "name": "キミに見てほしいな！",
-        "dmg": 40
-      }
-    ],
-    "hasFullArt": true,
-    "setName": "hBP06",
-    "searchString": "shiranui flare hsd07-007 #jp #gen3 #half-elf また一つ成長した私を　 : [back position only] if your collab holomem has 70 or less hp remaining, you may switch this holomem with your collab holomem. キミに見てほしいな！ "
   },
   {
     "cardNumber": "hBP07-001",
@@ -17221,12 +17147,12 @@
     "bloomEffect": "You may Archive 1 card from your hand for the following effect: deal 20 special damage to your opponent's Center or Collab holomem.",
     "skills": [
       {
-        "name": "",
+        "name": "一緒にお祝い",
         "dmg": 30
       }
     ],
     "setName": "hSD02",
-    "searchString": "nakiri ayame hsd02-006 #jp #gen2 #shooter you may archive 1 card from your hand for the following effect: deal 20 special damage to your opponent's center or collab holomem.  "
+    "searchString": "nakiri ayame hsd02-006 #jp #gen2 #shooter you may archive 1 card from your hand for the following effect: deal 20 special damage to your opponent's center or collab holomem. 一緒にお祝い "
   },
   {
     "cardNumber": "hSD02-007",
@@ -17239,12 +17165,12 @@
     "bloomEffect": "When this Blooms from a Debut holomem, look at the top 2 cards of your deck, reveal 1 and put it into your hand and Archive the other..",
     "skills": [
       {
-        "name": "",
+        "name": "輝いた余を見逃さないでね～～！！",
         "dmg": 30
       }
     ],
     "setName": "hSD02",
-    "searchString": "nakiri ayame hsd02-007 #jp #gen2 #shooter when this blooms from a debut holomem, look at the top 2 cards of your deck, reveal 1 and put it into your hand and archive the other..  "
+    "searchString": "nakiri ayame hsd02-007 #jp #gen2 #shooter when this blooms from a debut holomem, look at the top 2 cards of your deck, reveal 1 and put it into your hand and archive the other.. 輝いた余を見逃さないでね～～！！ "
   },
   {
     "cardNumber": "hSD02-008",
@@ -17257,18 +17183,18 @@
     "tag": "#JP #Gen2 #Shooter",
     "skills": [
       {
-        "name": "",
-        "dmg": 60
+        "name": "ファンシーバースデー",
+        "dmg": 40
       },
       {
-        "name": "",
+        "name": "プレゼント何かな？",
         "dmg": 50,
         "description": "You may Archive one card from your hand for the following effect: deal 50 special damage to your opponent's Center or Collab holomem."
       }
     ],
     "extraEffect": "If this holomem is downed, you get Life-2.",
     "setName": "hSD02",
-    "searchString": "nakiri ayame hsd02-008 #jp #gen2 #shooter if this holomem is downed, you get life-2.    you may archive one card from your hand for the following effect: deal 50 special damage to your opponent's center or collab holomem."
+    "searchString": "nakiri ayame hsd02-008 #jp #gen2 #shooter if this holomem is downed, you get life-2. ファンシーバースデー  プレゼント何かな？ you may archive one card from your hand for the following effect: deal 50 special damage to your opponent's center or collab holomem."
   },
   {
     "cardNumber": "hSD02-009",
@@ -17280,11 +17206,11 @@
     "tag": "#JP #Gen2 #Shooter",
     "skills": [
       {
-        "name": "",
+        "name": "あやふぶみの「あや」担当",
         "dmg": 60
       },
       {
-        "name": "",
+        "name": "余ーだ余",
         "dmg": 40,
         "description": "You may Archive 1-3 cards from your hand for the following effect: deal 40 special damage for each card Archived to your opponent's Center holomem."
       }
@@ -17292,7 +17218,7 @@
     "imageSet": "hBP02",
     "hasFullArt": true,
     "setName": "hSD02",
-    "searchString": "nakiri ayame hsd02-009 #jp #gen2 #shooter    you may archive 1-3 cards from your hand for the following effect: deal 40 special damage for each card archived to your opponent's center holomem."
+    "searchString": "nakiri ayame hsd02-009 #jp #gen2 #shooter あやふぶみの「あや」担当  余ーだ余 you may archive 1-3 cards from your hand for the following effect: deal 40 special damage for each card archived to your opponent's center holomem."
   },
   {
     "cardNumber": "hSD02-010",
@@ -17305,13 +17231,13 @@
     "collabEffect": "You may return 1 Mascot from your Archive to your hand.",
     "skills": [
       {
-        "name": "",
+        "name": "あやふぶみの「ふぶ」担当",
         "dmg": 20
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "setName": "hSD02",
-    "searchString": "shirakami fubuki hsd02-010 #jp #gen1 #gamers #kemomimi #painting you may return 1 mascot from your archive to your hand. this holomem cannot bloom.  "
+    "searchString": "shirakami fubuki hsd02-010 #jp #gen1 #gamers #kemomimi #painting you may return 1 mascot from your archive to your hand. this holomem cannot bloom. あやふぶみの「ふぶ」担当 "
   },
   {
     "cardNumber": "hSD02-011",
@@ -17324,13 +17250,13 @@
     "collabEffect": "You may Archive 1 holomem from your hand for the following effect: send the top card of your Cheer Deck to one of your Debut holomems.",
     "skills": [
       {
-        "name": "",
+        "name": "あやふぶみの「み」担当",
         "dmg": 10
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "setName": "hSD02",
-    "searchString": "ookami mio hsd02-011 #jp #gamers #kemomimi #cooking you may archive 1 holomem from your hand for the following effect: send the top card of your cheer deck to one of your debut holomems. this holomem cannot bloom.  "
+    "searchString": "ookami mio hsd02-011 #jp #gamers #kemomimi #cooking you may archive 1 holomem from your hand for the following effect: send the top card of your cheer deck to one of your debut holomems. this holomem cannot bloom. あやふぶみの「み」担当 "
   },
   {
     "cardNumber": "hSD02-012",
@@ -17389,13 +17315,13 @@
     "tag": "#JP #Gamers #Kemomimi",
     "skills": [
       {
-        "name": "",
+        "name": "もぐもぐ～おかゆ～",
         "dmg": 30
       }
     ],
     "extraEffect": "You may include any number of this holomem in the deck.",
     "setName": "hSD03",
-    "searchString": "nekomata okayu hsd03-002 #jp #gamers #kemomimi you may include any number of this holomem in the deck.  "
+    "searchString": "nekomata okayu hsd03-002 #jp #gamers #kemomimi you may include any number of this holomem in the deck. もぐもぐ～おかゆ～ "
   },
   {
     "cardNumber": "hSD03-003",
@@ -17408,12 +17334,12 @@
     "collabEffect": "If your Center holomem has #Gamers, deal 10 special damage to your opponent's Center holomem and one of their Back holomems. holomems Downed with this effect do not reduce LIFE.",
     "skills": [
       {
-        "name": "",
+        "name": "僕をお家に入れてください",
         "dmg": 10
       }
     ],
     "setName": "hSD03",
-    "searchString": "nekomata okayu hsd03-003 #jp #gamers #kemomimi if your center holomem has #gamers, deal 10 special damage to your opponent's center holomem and one of their back holomems. holomems downed with this effect do not reduce life.  "
+    "searchString": "nekomata okayu hsd03-003 #jp #gamers #kemomimi if your center holomem has #gamers, deal 10 special damage to your opponent's center holomem and one of their back holomems. holomems downed with this effect do not reduce life. 僕をお家に入れてください "
   },
   {
     "cardNumber": "hSD03-004",
@@ -17426,12 +17352,12 @@
     "collabEffect": "You may reveal one card from the top of your deck. If that card is a Debut or Spot holomem, send the top card of your Cheer Deck to this holomem. Then put that card on the bottom of your deck.",
     "skills": [
       {
-        "name": "",
+        "name": "学生猫",
         "dmg": 20
       }
     ],
     "setName": "hSD03",
-    "searchString": "nekomata okayu hsd03-004 #jp #gamers #kemomimi you may reveal one card from the top of your deck. if that card is a debut or spot holomem, send the top card of your cheer deck to this holomem. then put that card on the bottom of your deck.  "
+    "searchString": "nekomata okayu hsd03-004 #jp #gamers #kemomimi you may reveal one card from the top of your deck. if that card is a debut or spot holomem, send the top card of your cheer deck to this holomem. then put that card on the bottom of your deck. 学生猫 "
   },
   {
     "cardNumber": "hSD03-005",
@@ -17443,16 +17369,16 @@
     "tag": "#JP #Gamers #Kemomimi",
     "skills": [
       {
-        "name": "",
+        "name": "ぎゅ～ってしてよね♡",
         "dmg": 30
       },
       {
-        "name": "",
+        "name": "えへへないたずら",
         "dmg": 50
       }
     ],
     "setName": "hSD03",
-    "searchString": "nekomata okayu hsd03-005 #jp #gamers #kemomimi    "
+    "searchString": "nekomata okayu hsd03-005 #jp #gamers #kemomimi ぎゅ～ってしてよね♡  えへへないたずら "
   },
   {
     "cardNumber": "hSD03-006",
@@ -17464,17 +17390,17 @@
     "tag": "#JP #Gamers #Kemomimi",
     "skills": [
       {
-        "name": "",
+        "name": "猫かぶり",
         "dmg": 30
       },
       {
-        "name": "",
+        "name": "しゃー",
         "dmg": 40,
         "description": "You may Archive 1 Blue Cheer from this holomem for the following effect: deal 10 special damage to your opponent's Center holomem and one of their Back holomems."
       }
     ],
     "setName": "hSD03",
-    "searchString": "nekomata okayu hsd03-006 #jp #gamers #kemomimi    you may archive 1 blue cheer from this holomem for the following effect: deal 10 special damage to your opponent's center holomem and one of their back holomems."
+    "searchString": "nekomata okayu hsd03-006 #jp #gamers #kemomimi 猫かぶり  しゃー you may archive 1 blue cheer from this holomem for the following effect: deal 10 special damage to your opponent's center holomem and one of their back holomems."
   },
   {
     "cardNumber": "hSD03-007",
@@ -17487,12 +17413,12 @@
     "bloomEffect": "Send a Cheer from your Archive to one of your holomems with #Gamers.",
     "skills": [
       {
-        "name": "",
+        "name": "全力で僕なりの歌、お届けします！",
         "dmg": 20
       }
     ],
     "setName": "hSD03",
-    "searchString": "nekomata okayu hsd03-007 #jp #gamers #kemomimi send a cheer from your archive to one of your holomems with #gamers.  "
+    "searchString": "nekomata okayu hsd03-007 #jp #gamers #kemomimi send a cheer from your archive to one of your holomems with #gamers. 全力で僕なりの歌、お届けします！ "
   },
   {
     "cardNumber": "hSD03-008",
@@ -17506,13 +17432,13 @@
     "giftEffect": "(Center position only) Your Takane Lui, Ookami Mio, Shirakami Fubuki, La+ Darknesss, and Inugami Korone's Arts gain +20 power.",
     "skills": [
       {
-        "name": "",
+        "name": "いちばんえらい猫又おかゆ～",
         "dmg": 60
       }
     ],
     "extraEffect": "If this holomem is downed, you get Life-2.",
     "setName": "hSD03",
-    "searchString": "nekomata okayu hsd03-008 #jp #gamers #kemomimi (center position only) your takane lui, ookami mio, shirakami fubuki, la+ darknesss, and inugami korone's arts gain +20 power. if this holomem is downed, you get life-2.  "
+    "searchString": "nekomata okayu hsd03-008 #jp #gamers #kemomimi (center position only) your takane lui, ookami mio, shirakami fubuki, la+ darknesss, and inugami korone's arts gain +20 power. if this holomem is downed, you get life-2. いちばんえらい猫又おかゆ～ "
   },
   {
     "cardNumber": "hSD03-009",
@@ -17524,11 +17450,11 @@
     "tag": "#JP #Gamers #Kemomimi",
     "skills": [
       {
-        "name": "",
+        "name": "MOGMOG",
         "dmg": 60
       },
       {
-        "name": "",
+        "name": "おかゆ～",
         "dmg": 100,
         "description": "You may Archive 2 Blue Cheers from this holomem for the following effect: deal 30 special damage to your opponent's Center holomem and one of their Back holomems."
       }
@@ -17536,7 +17462,7 @@
     "imageSet": "hBP02",
     "hasFullArt": true,
     "setName": "hSD03",
-    "searchString": "nekomata okayu hsd03-009 #jp #gamers #kemomimi    you may archive 2 blue cheers from this holomem for the following effect: deal 30 special damage to your opponent's center holomem and one of their back holomems."
+    "searchString": "nekomata okayu hsd03-009 #jp #gamers #kemomimi mogmog  おかゆ～ you may archive 2 blue cheers from this holomem for the following effect: deal 30 special damage to your opponent's center holomem and one of their back holomems."
   },
   {
     "cardNumber": "hSD03-010",
@@ -17549,13 +17475,13 @@
     "collabEffect": "If your Center holomem is Nekomata Okayu, reveal 1 Fan or Mascot from your Deck and put it into your hand. Then shuffle your Deck.",
     "skills": [
       {
-        "name": "",
+        "name": "おらよ～",
         "dmg": 30
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "setName": "hSD03",
-    "searchString": "inugami korone hsd03-010 jp #gamers #kemomimi if your center holomem is nekomata okayu, reveal 1 fan or mascot from your deck and put it into your hand. then shuffle your deck. this holomem cannot bloom.  "
+    "searchString": "inugami korone hsd03-010 jp #gamers #kemomimi if your center holomem is nekomata okayu, reveal 1 fan or mascot from your deck and put it into your hand. then shuffle your deck. this holomem cannot bloom. おらよ～ "
   },
   {
     "cardNumber": "hSD03-011",
@@ -17567,18 +17493,18 @@
     "tag": "JP #HoloX #Shooter",
     "skills": [
       {
-        "name": "",
+        "name": "泥棒建設農業大臣",
         "dmg": 10
       },
       {
-        "name": "",
+        "name": "絶対、食わせてみせるわ",
         "dmg": 20,
         "description": "If you have 2 or less cards in your hand, draw from your Deck until you have 3 cards in your hand."
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "setName": "hSD03",
-    "searchString": "la+ darknesss hsd03-011 jp #holox #shooter this holomem cannot bloom.    if you have 2 or less cards in your hand, draw from your deck until you have 3 cards in your hand."
+    "searchString": "la+ darknesss hsd03-011 jp #holox #shooter this holomem cannot bloom. 泥棒建設農業大臣  絶対、食わせてみせるわ if you have 2 or less cards in your hand, draw from your deck until you have 3 cards in your hand."
   },
   {
     "cardNumber": "hSD03-012",
@@ -17637,13 +17563,13 @@
     "tag": "#JP #Gen2 #Cooking",
     "skills": [
       {
-        "name": "",
+        "name": "魔界の保健医",
         "dmg": 30
       }
     ],
     "extraEffect": "You may include any number of this holomem in the deck.",
     "setName": "hSD04",
-    "searchString": "yuzuki choco hsd04-002 #jp #gen2 #cooking you may include any number of this holomem in the deck.  "
+    "searchString": "yuzuki choco hsd04-002 #jp #gen2 #cooking you may include any number of this holomem in the deck. 魔界の保健医 "
   },
   {
     "cardNumber": "hSD04-003",
@@ -17656,12 +17582,12 @@
     "collabEffect": "If your Oshi holomem is Purple, draw 1 card from your Deck.",
     "skills": [
       {
-        "name": "",
+        "name": "マイキュ～トスチュ～デ～ンツ",
         "dmg": 30
       }
     ],
     "setName": "hSD04",
-    "searchString": "yuzuki choco hsd04-003 #jp #gen2 #cooking if your oshi holomem is purple, draw 1 card from your deck.  "
+    "searchString": "yuzuki choco hsd04-003 #jp #gen2 #cooking if your oshi holomem is purple, draw 1 card from your deck. マイキュ～トスチュ～デ～ンツ "
   },
   {
     "cardNumber": "hSD04-004",
@@ -17674,12 +17600,12 @@
     "collabEffect": "You may Archive 1 card from your hand for the following effect: reveal an Event with #Food from your Deck and put it into your hand. Then shuffle your Deck.",
     "skills": [
       {
-        "name": "",
+        "name": "いっぱい食べてね♡",
         "dmg": 20
       }
     ],
     "setName": "hSD04",
-    "searchString": "yuzuki choco hsd04-004 #jp #gen2 #cooking you may archive 1 card from your hand for the following effect: reveal an event with #food from your deck and put it into your hand. then shuffle your deck.  "
+    "searchString": "yuzuki choco hsd04-004 #jp #gen2 #cooking you may archive 1 card from your hand for the following effect: reveal an event with #food from your deck and put it into your hand. then shuffle your deck. いっぱい食べてね♡ "
   },
   {
     "cardNumber": "hSD04-005",
@@ -17691,16 +17617,16 @@
     "tag": "#JP #Gen2 #Cooking",
     "skills": [
       {
-        "name": "",
+        "name": "おつかれいと……",
         "dmg": 20
       },
       {
-        "name": "",
+        "name": "あ～む（ﾁｭｯ）",
         "dmg": 40
       }
     ],
     "setName": "hSD04",
-    "searchString": "yuzuki choco hsd04-005 #jp #gen2 #cooking    "
+    "searchString": "yuzuki choco hsd04-005 #jp #gen2 #cooking おつかれいと……  あ～む（ﾁｭｯ） "
   },
   {
     "cardNumber": "hSD04-006",
@@ -17712,12 +17638,12 @@
     "tag": "#JP #Gen2 #Cooking",
     "skills": [
       {
-        "name": "",
+        "name": "禁断のキッス",
         "dmg": 30
       }
     ],
     "setName": "hSD04",
-    "searchString": "yuzuki choco hsd04-006 #jp #gen2 #cooking  "
+    "searchString": "yuzuki choco hsd04-006 #jp #gen2 #cooking 禁断のキッス "
   },
   {
     "cardNumber": "hSD04-007",
@@ -17730,13 +17656,13 @@
     "bloomEffect": "You may return a non-LIMITED Event card from your Archive to your hand.",
     "skills": [
       {
-        "name": "",
+        "name": "大好き！ちゅっ♡",
         "dmg": 30,
         "description": "Restore 20HP to one of your Back holomems."
       }
     ],
     "setName": "hSD04",
-    "searchString": "yuzuki choco hsd04-007 #jp #gen2 #cooking you may return a non-limited event card from your archive to your hand.  restore 20hp to one of your back holomems."
+    "searchString": "yuzuki choco hsd04-007 #jp #gen2 #cooking you may return a non-limited event card from your archive to your hand. 大好き！ちゅっ♡ restore 20hp to one of your back holomems."
   },
   {
     "cardNumber": "hSD04-008",
@@ -17749,18 +17675,18 @@
     "tag": "#JP #Gen2 #Cooking",
     "skills": [
       {
-        "name": "",
+        "name": "がんばってつくったよ",
         "dmg": 40
       },
       {
-        "name": "",
+        "name": "召し上がれ",
         "dmg": "60+",
         "description": "You may return one Event with #Food from your Archive to your hand: if you do, this Art gains +20 power."
       }
     ],
     "extraEffect": "If this holomem is downed, you get Life-2.",
     "setName": "hSD04",
-    "searchString": "yuzuki choco hsd04-008 #jp #gen2 #cooking if this holomem is downed, you get life-2.    you may return one event with #food from your archive to your hand: if you do, this art gains +20 power."
+    "searchString": "yuzuki choco hsd04-008 #jp #gen2 #cooking if this holomem is downed, you get life-2. がんばってつくったよ  召し上がれ you may return one event with #food from your archive to your hand: if you do, this art gains +20 power."
   },
   {
     "cardNumber": "hSD04-009",
@@ -17772,11 +17698,11 @@
     "tag": "#JP #Gen2 #Cooking",
     "skills": [
       {
-        "name": "",
+        "name": "33… 22… 11…",
         "dmg": 50
       },
       {
-        "name": "",
+        "name": "あくとっ",
         "dmg": 60,
         "description": "For each Event card you've played during this turn, this Art gains +40 power."
       }
@@ -17784,7 +17710,7 @@
     "imageSet": "hBP02",
     "hasFullArt": true,
     "setName": "hSD04",
-    "searchString": "yuzuki choco hsd04-009 #jp #gen2 #cooking    for each event card you've played during this turn, this art gains +40 power."
+    "searchString": "yuzuki choco hsd04-009 #jp #gen2 #cooking 33… 22… 11…  あくとっ for each event card you've played during this turn, this art gains +40 power."
   },
   {
     "cardNumber": "hSD04-010",
@@ -17797,13 +17723,13 @@
     "collabEffect": "If your Center holomem is Yuzuki Choco, you may send one Cheer from your Archive to any of your holomems.",
     "skills": [
       {
-        "name": "",
+        "name": "地獄くじ引き、引かせるぞっ",
         "dmg": 20
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "setName": "hSD04",
-    "searchString": "oozora subaru hsd04-010 #jp #gen2 if your center holomem is yuzuki choco, you may send one cheer from your archive to any of your holomems. this holomem cannot bloom.  "
+    "searchString": "oozora subaru hsd04-010 #jp #gen2 if your center holomem is yuzuki choco, you may send one cheer from your archive to any of your holomems. this holomem cannot bloom. 地獄くじ引き、引かせるぞっ "
   },
   {
     "cardNumber": "hSD04-011",
@@ -17816,13 +17742,13 @@
     "collabEffect": " Look at your holo power cards, reveal one, and put it into your hand. Then put a card from your hand into your holo power.",
     "skills": [
       {
-        "name": "",
+        "name": "んな～～～～～～～～",
         "dmg": 10
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "setName": "hSD04",
-    "searchString": "himemori luna hsd04-011 #jp #gen4  look at your holo power cards, reveal one, and put it into your hand. then put a card from your hand into your holo power. this holomem cannot bloom.  "
+    "searchString": "himemori luna hsd04-011 #jp #gen4  look at your holo power cards, reveal one, and put it into your hand. then put a card from your hand into your holo power. this holomem cannot bloom. んな～～～～～～～～ "
   },
   {
     "cardNumber": "hSD04-012",
