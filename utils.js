@@ -6,7 +6,7 @@ const baseUrl = "https://hololive-official-cardgame.com/wp-content/images/cardli
 const consolidatedDataFile = "sets/all_cards.json";
 
 const SERIES_SETS = {
-    boosters: ['hBP01','hBP02','hBP03','hBP04','hBP05','hBP06','hBP07'].map(p => ({ label: p, prefix: p })),
+    boosters: ['hBP01','hBP02','hBP03','hBP04','hBP05','hBP06','hBP07','hBP08'].map(p => ({ label: p, prefix: p })),
     starters: Array.from({ length: 19 }, (_, i) => { const s = `hSD${String(i + 1).padStart(2, '0')}`; return { label: s, prefix: s }; }),
     promos:   [{ label: 'hPR', prefix: 'hPR' }, { label: 'hBD', prefix: 'hBD' }, { label: 'hY', prefix: 'hY' }, { label: 'hYS', prefix: 'hYS' }],
 };
@@ -269,7 +269,10 @@ function matchesSeries(card, category, prefix) {
 }
 
 function matchesRarity(card, selectedRarity) {
-    return !selectedRarity || card.rarity === selectedRarity;
+    if (!selectedRarity) return true;
+    // HR (Holomen Rare) is stored as a variant flag, not a rarity value.
+    if (selectedRarity === 'HR') return !!card.hasHolomenRare;
+    return card.rarity === selectedRarity;
 }
 
 function matchesBloomType(card, selectedBloomType) {
