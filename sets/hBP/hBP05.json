@@ -760,7 +760,7 @@
     },
     {
         "name": "Ichijou Ririka",
-        "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
+        "tag": "#DEV_IS #ReGLOSS #Cooking #Language",
         "cardNumber": "hBP05-039",
         "rarity": "R",
         "color": "Red",
@@ -805,7 +805,7 @@
     },
     {
         "name": "Nekomata Okayu",
-        "tag": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "cardNumber": "hBP05-041",
         "rarity": "U",
         "color": "Blue",
@@ -823,7 +823,7 @@
     },
     {
         "name": "Nekomata Okayu",
-        "tag": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "cardNumber": "hBP05-042",
         "rarity": "C",
         "color": "Blue",
@@ -841,7 +841,7 @@
     },
     {
         "name": "Nekomata Okayu",
-        "tag": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "cardNumber": "hBP05-043",
         "rarity": "U",
         "color": "Blue",
@@ -860,7 +860,7 @@
     },
     {
         "name": "Nekomata Okayu",
-        "tag": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "cardNumber": "hBP05-044",
         "rarity": "R",
         "color": "Blue",
@@ -879,7 +879,7 @@
     },
     {
         "name": "Nekomata Okayu",
-        "tag": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "cardNumber": "hBP05-045",
         "rarity": "RR",
         "color": "Blue",
@@ -1328,7 +1328,7 @@
     },
     {
         "name": "Shirakami Fubuki",
-        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "cardNumber": "hBP05-068",
         "rarity": "C",
         "color": "Yellow",
@@ -1346,7 +1346,7 @@
     },
     {
         "name": "Shirakami Fubuki",
-        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "cardNumber": "hBP05-069",
         "rarity": "U",
         "color": "Yellow",
@@ -1365,7 +1365,7 @@
     },
     {
         "name": "Shirakami Fubuki",
-        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "cardNumber": "hBP05-070",
         "rarity": "RR",
         "color": "Yellow",
@@ -1390,7 +1390,7 @@
     },
     {
         "name": "Inugami Korone",
-        "tag": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "cardNumber": "hBP05-071",
         "rarity": "R",
         "color": "Yellow",
@@ -1410,7 +1410,7 @@
     },
     {
         "name": "Tsunomaki Watame",
-        "tag": "#JP #gen4 #Kemomimi #Singing",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
         "cardNumber": "hBP05-072",
         "rarity": "R",
         "color": "Yellow",
@@ -1436,7 +1436,7 @@
     },
     {
         "name": "Ayunda Risu",
-        "tag": "#ID #IDgen1 #Kemomimi #Singing",
+        "tag": "#ID #IDGen1 #Kemomimi #Singing",
         "cardNumber": "hBP05-073",
         "rarity": "R",
         "color": "Yellow",

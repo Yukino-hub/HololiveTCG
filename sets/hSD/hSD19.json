@@ -23,7 +23,7 @@
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "Yellow",
-        "tag": "#JP #Gen 2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "skills": [
             {
                 "name": "あじまるあじまる～",
@@ -38,7 +38,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Yellow",
-        "tag": "#JP #Gen 2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "skills": [
             {
                 "name": "今日もあなたのそばに -スバル-",
@@ -54,7 +54,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Yellow",
-        "tag": "#JP #Gen 2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "collabEffect": "大空スマイル : If you went second and it is your first turn, reveal 1 Debut holomem from your deck, and place it on stage. Then, shuffle the deck.",
         "skills": [
             {
@@ -70,7 +70,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Yellow",
-        "tag": "#JP #Gen 2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "giftEffect": "ダンスレッスンなんですｹｰﾄﾞ : This holomem takes -10 damage from your opponent's center holomem.",
         "skills": [
             {
@@ -86,7 +86,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Yellow",
-        "tag": "#JP #Gen 2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "skills": [
             {
                 "name": "いっぱい頑張る！",
@@ -105,7 +105,7 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Yellow",
-        "tag": "#JP #Gen 2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "bloomEffect": "青春エール : Send 1 cheer from your archive to this holomem.",
         "skills": [
             {
@@ -122,7 +122,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Yellow",
-        "tag": "#JP #Gen 2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "skills": [
             {
                 "name": "萌え萌えギュン",
@@ -138,7 +138,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "Yellow",
-        "tag": "#JP #Gen 2 #Bird",
+        "tag": "#JP #Gen2 #Bird",
         "skills": [
             {
                 "name": "ダンシング・プレアデス",
