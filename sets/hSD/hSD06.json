@@ -28,9 +28,11 @@
         "skills": [
             {
                 "name": "いえす！ｼﾞｬｷﾝｼﾞｬｷﾝ！！",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD06-003",
@@ -43,10 +45,12 @@
         "skills": [
             {
                 "name": "一刀両断叩き斬る",
+                "cost": "1 Green",
                 "dmg": "30+",
                 "description": "If your Center holomem is damaged, this Art gains +10 power."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD06-004",
@@ -59,9 +63,11 @@
         "skills": [
             {
                 "name": "照れ屋な用心棒",
+                "cost": "1 Green, 1 any color",
                 "dmg": 60
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD06-005",
@@ -75,9 +81,11 @@
         "skills": [
             {
                 "name": "かざまといっしょ！",
+                "cost": "1 Green",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD06-006",
@@ -92,10 +100,12 @@
         "skills": [
             {
                 "name": "刀の錆になるでござる！",
+                "cost": "1 Green, 1 any color",
                 "dmg": 50
             }
         ],
-        "extraEffect": "If this holomem is downed, you get Life-2."
+        "extraEffect": "If this holomem is downed, you get Life-2.",
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD06-007",
@@ -130,9 +140,11 @@
         "skills": [
             {
                 "name": "どやぁ",
+                "cost": "1 any color",
                 "dmg": 10
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD06-009",
@@ -145,10 +157,12 @@
         "skills": [
             {
                 "name": "頼れる女幹部",
+                "cost": "1 any color",
                 "dmg": 20,
                 "description": "You may return 1 Debut holomem with $HoloX from your Archive to your hand."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD06-010",
@@ -162,10 +176,12 @@
         "skills": [
             {
                 "name": "世界一かわいいよ",
-                "dmg": 20,
+                "cost": "1 any color",
+                "dmg": "30+",
                 "description": "[Collab position only] If you have used your SP Oshi Skill during this turn's Main Step, this Art gains +50 power."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD06-011",

@@ -1,5 +1,5 @@
 [
-     {
+    {
         "cardNumber": "hSD09-001",
         "name": "Houshou Marine",
         "rarity": "OC",
@@ -28,9 +28,11 @@
         "skills": [
             {
                 "name": "船長も一緒にい・か・が？",
+                "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Houshou Marine",
@@ -45,9 +47,11 @@
         "skills": [
             {
                 "name": "マリンに任せろってマジで",
+                "cost": "1 Red, 1 any color",
                 "dmg": "50"
             }
-        ]
+        ],
+        "batonTouch": 2
     },
     {
         "name": "Houshou Marine",
@@ -60,15 +64,18 @@
         "skills": [
             {
                 "name": "3期生の絆",
+                "cost": "1 Red",
                 "dmg": "60, +50 vs Yellow",
                 "description": "If your stage has a holomem with #Gen3 other than <Houshou Marine>, draw 1 card from your deck."
             },
             {
                 "name": "キミたちと水平線の向こう側へ",
+                "cost": "2 Red, 1 any color",
                 "dmg": "120, +50 vs yellow",
                 "description": "Deal 10 Special Damage for each differently-named holomem with #Gen3 on your stage to your opponent's center holomem and collab holomem."
             }
-        ]
+        ],
+        "batonTouch": 2
     },
     {
         "name": "Shirogane Noel",
@@ -82,9 +89,11 @@
         "skills": [
             {
                 "name": "夏が来たぞー！",
+                "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Usada Pekora",
@@ -98,9 +107,11 @@
         "skills": [
             {
                 "name": "◇ご注文のかき氷ぺこ！",
+                "cost": "1 any color",
                 "dmg": "10"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Shiranui Flare",
@@ -114,10 +125,10 @@
         "skills": [
             {
                 "name": "冷たいものお待ちどうさま♪",
+                "cost": "3 any color",
                 "dmg": "80"
             }
-        ]
+        ],
+        "batonTouch": 1
     }
-
 ]
-

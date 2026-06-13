@@ -343,14 +343,11 @@
         "hp": 120,
         "color": "White",
         "tag": "#EN #Justice #Kemomimi #Painting",
-        "giftEffect": "ボナペティート -楽しい食事- : ■While this holomem does not have <Chattino> attached, this holomem requires -1 white cheer for its Arts.\n■While this holomem has <Chattino> attached, this holomem gets +30 HP.",
+        "giftEffect": "Buon Appetito -Enjoy Your Meal- ■While this holomem does not have <Chattino> attached, this holomem requires -1 white cheer for its Arts. ■While this holomem has <Chattino> attached, this holomem gets +30 HP.",
         "skills": [
             {
                 "name": "この幸せをシェアしよう",
-                "description": "■While this holomem has <Chattino> attached, this holomem gets +30 HP."
-            },
-            {
-                "name": "Let's Share This Happiness",
+                "cost": "1 White",
                 "dmg": 10,
                 "description": "If this holomem does not have <Chattino> attached, attach 1 <Chattino> from your deck to this holomem. Then, shuffle the deck."
             }

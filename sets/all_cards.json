@@ -174,11 +174,13 @@
     "skills": [
       {
         "name": "こんかなた〜",
+        "cost": "1 White",
         "dmg": "40",
         "description": "This Arts can only target the opponent's center holomem."
       }
     ],
     "extraEffect": "You may include any number of this holomem in the deck.",
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "amane kanata hbp01-009 #jp #gen4 #singing you may include any number of this holomem in the deck. こんかなた〜 this arts can only target the opponent's center holomem."
   },
@@ -194,9 +196,11 @@
     "skills": [
       {
         "name": "行ってきまーす",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "amane kanata hbp01-010 #jp #gen4 #singing お出かけ天使 : during this turn, your center holomem gets arts+10. then, if your center holomem has #gen 4, your center holomem gets arts+20. 行ってきまーす "
   },
@@ -211,9 +215,11 @@
     "skills": [
       {
         "name": "塩対応かなたそ",
+        "cost": "1 White",
         "dmg": "20"
       }
     ],
+    "batonTouch": 0,
     "setName": "hBP01",
     "searchString": "amane kanata hbp01-011 #jp #gen4 #singing 塩対応かなたそ "
   },
@@ -229,9 +235,11 @@
     "skills": [
       {
         "name": "い~っぱい応援して!",
+        "cost": "1 any color",
         "dmg": "40"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "amane kanata hbp01-012 #jp #gen4 #singing アイドルかなたそを : you may roll a die once:if it is 3 or less, reveal 1 mascot from your deck, and attach it to your holomem. then, shuffle the deck. い~っぱい応援して! "
   },
@@ -247,9 +255,11 @@
     "skills": [
       {
         "name": "エンジェルステージ",
+        "cost": "1 White, 1 any color",
         "dmg": "50"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "amane kanata hbp01-013 #jp #gen4 #singing 天使のお仕事 :deal 30 special damage to your opponent's center holomem. however, your opponent's life does not reduce even if downed. エンジェルステージ "
   },
@@ -265,11 +275,13 @@
     "skills": [
       {
         "name": "+漆黒の翼+",
+        "cost": "3 White",
         "dmg": "100",
         "description": "If your opponent's holomem is downed by this Arts, and the dealt Damage was greater than the remaining HP by 50 or more, your opponent gets Life-1.."
       }
     ],
     "hasAlternativeArt": true,
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "amane kanata hbp01-014 #jp #gen4 #singing 堕ちた天使 : deal 50 special damage to your opponent's center holomem. +漆黒の翼+ if your opponent's holomem is downed by this arts, and the dealt damage was greater than the remaining hp by 50 or more, your opponent gets life-1.."
   },
@@ -284,10 +296,12 @@
     "skills": [
       {
         "name": "Oh, Hi",
+        "cost": "1 White",
         "dmg": "10+",
         "description": "If you have used a Support Card this turn, this Arts gets +20.0"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "nanashi mumei hbp01-015 #en #promise #bird #painting oh, hi if you have used a support card this turn, this arts gets +20.0"
   },
@@ -303,9 +317,11 @@
     "skills": [
       {
         "name": "リラックスタイム",
+        "cost": "1 any color",
         "dmg": "10"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "nanashi mumei hbp01-016 #en #promise #bird #painting 白いキャンバス: if your center holomem has #promise, draw 1 card from your deck. リラックスタイム "
   },
@@ -320,13 +336,16 @@
     "skills": [
       {
         "name": "一緒にお出かけ",
+        "cost": "1 White",
         "dmg": "20"
       },
       {
         "name": "コーヒーブレイク",
+        "cost": "1 White, 1 any color",
         "dmg": "60"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "nanashi mumei hbp01-017 #en #promise #bird #painting 一緒にお出かけ  コーヒーブレイク "
   },
@@ -341,10 +360,12 @@
     "skills": [
       {
         "name": "思い出の欠片",
+        "cost": "1 White",
         "dmg": "20+",
         "description": "You may reveal the top card of your deck:If the revealed card has #Promise, this Arts gets +20. Then, add the revealed card to hand."
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "nanashi mumei hbp01-018 #en #promise #bird #painting 思い出の欠片 you may reveal the top card of your deck:if the revealed card has #promise, this arts gets +20. then, add the revealed card to hand."
   },
@@ -360,9 +381,11 @@
     "skills": [
       {
         "name": "いつも応援してくれてありがとう!",
+        "cost": "1 any color",
         "dmg": "30"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "nanashi mumei hbp01-019 #en #promise #bird #painting みんなと歌って踊りたい! : if bloomed from debut, reveal 1 [debut holomem or 1st holomem] other than buzz from your deck with #promise, and add it to hand. then, shuffle the deck. いつも応援してくれてありがとう! "
   },
@@ -378,10 +401,12 @@
     "skills": [
       {
         "name": "みんな一緒に",
+        "cost": "1 White, 2 any color",
         "dmg": "70",
         "description": "During this turn, your center holomem and collab holomem get Arts+10 for each of your back holomem.."
       }
     ],
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "nanashi mumei hbp01-020 #en #promise #bird #painting あの日の約束 : reveal 1 holomem with #promise from your deck, and add it to hand. then, shuffle the deck. みんな一緒に during this turn, your center holomem and collab holomem get arts+10 for each of your back holomem.."
   },
@@ -396,6 +421,7 @@
     "skills": [
       {
         "name": "みんな～こんそめ～",
+        "cost": "1 White",
         "dmg": "30"
       }
     ],
@@ -415,9 +441,11 @@
     "skills": [
       {
         "name": "みんな～こんそめ～",
-        "dmg": "30"
+        "cost": "1 any color",
+        "dmg": "40"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "tokino sora hbp01-022 #jp #gen0 #singing 楽しむ準備はできてる！？ : draw 1 card from your deck. みんな～こんそめ～ "
   },
@@ -433,11 +461,13 @@
     "skills": [
       {
         "name": "止まらねえぞ",
+        "cost": "2 White, 1 any color",
         "dmg": "80",
         "description": "You may roll a die once:If it is odd, use this Arts once more on the same holomem (This Arts may be repeated until that holomem is downed)."
       }
     ],
     "hasAlternativeArt": true,
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "tokino sora hbp01-023 #jp #gen0 #singing 私たちは前に向かって･･!: draw 2 cards from your deck. 止まらねえぞ you may roll a die once:if it is odd, use this arts once more on the same holomem (this arts may be repeated until that holomem is downed)."
   },
@@ -474,13 +504,16 @@
     "skills": [
       {
         "name": "温泉は飲まないでね！",
+        "cost": "1 White",
         "dmg": "40"
       },
       {
         "name": "温泉でくつろぐ一日を",
+        "cost": "1 White, 1 any color",
         "dmg": "60"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "vestia zeta hbp01-025 #id #idgen3 温泉は飲まないでね！  温泉でくつろぐ一日を "
   },
@@ -496,9 +529,11 @@
     "skills": [
       {
         "name": "ステージみんな「私のもの」",
+        "cost": "1 any color",
         "dmg": "30"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "vestia zeta hbp01-026 #id #idgen3 新たな運命: if bloomed from debut, reveal 1 [debut holomem or 1st holomem] other than buzz from your deck with #id gen 3, and add it to hand. then, shuffle the deck. ステージみんな「私のもの」 "
   },
@@ -515,12 +550,14 @@
     "skills": [
       {
         "name": "アクセスコード: ID",
+        "cost": "1 White, 2 any color",
         "dmg": "70+",
         "description": "If you Center holomem has #ID, this Art gains +50 power."
       }
     ],
     "extraEffect": "When this holomem is downed, your life is reduced by 2.",
     "hasAlternativeArt": true,
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "vestia zeta hbp01-027 #id #idgen3 v.7: [once per turn] [collab position only]if your holomem would take damage from your opponent, you may roll a die once:if it is odd, that damage is not taken. when this holomem is downed, your life is reduced by 2. アクセスコード: id if you center holomem has #id, this art gains +50 power."
   },
@@ -555,9 +592,11 @@
     "skills": [
       {
         "name": "清楚なネフィリムです！",
+        "cost": "1 White, 1 any color",
         "dmg": "50"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "irys hbp01-029 #en #promise #singing 清楚なネフィリムです！ "
   },
@@ -573,9 +612,11 @@
     "skills": [
       {
         "name": "一生懸命歌うから見ててね!",
+        "cost": "1 any color",
         "dmg": "40"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "irys hbp01-030 #en #promise #singing ステージを希望で包もう！: during this turn, your [center holomem and collab holomem] with #promise get arts+30.. 一生懸命歌うから見ててね! "
   },
@@ -591,10 +632,12 @@
     "skills": [
       {
         "name": "約束の力",
+        "cost": "1 White, 2 any color",
         "dmg": "50",
         "description": "This Arts gets +20 for each of your holomem with #Promise."
       }
     ],
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "irys hbp01-031 #en #promise #singing 希望の庭園: look at your holo power. reveal 1 card from among them, and add it to hand. then, put the top card of your deck to holo power. 約束の力 this arts gets +20 for each of your holomem with #promise."
   },
@@ -632,9 +675,11 @@
     "skills": [
       {
         "name": "アフターパーティ",
+        "cost": "1 Green",
         "dmg": "20"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "aki rosenthal hbp01-033 #jp #gen1 #half-elf #alcohol ヒーリングランウェイ: you may roll a die once:if it is odd, restore 20 hp to 1 of your green holomem.. アフターパーティ "
   },
@@ -649,13 +694,16 @@
     "skills": [
       {
         "name": "あらあら",
+        "cost": "1 Green",
         "dmg": "30"
       },
       {
         "name": "むぎゅむぎゅ雑談",
+        "cost": "1 Green, 1 any color",
         "dmg": "50"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "aki rosenthal hbp01-034 #jp #gen1 #half-elf #alcohol あらあら  むぎゅむぎゅ雑談 "
   },
@@ -671,10 +719,12 @@
     "skills": [
       {
         "name": "アキロゼ幻想曲",
+        "cost": "1 Green",
         "dmg": "40",
         "description": "If a tool is attached to this holomem, send the top card of your cheer deck to your holomem."
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "aki rosenthal hbp01-035 #jp #gen1 #half-elf #alcohol ブレーメンの音楽祭: you may attach 1 tool from your archive to your holomem. アキロゼ幻想曲 if a tool is attached to this holomem, send the top card of your cheer deck to your holomem."
   },
@@ -690,9 +740,11 @@
     "skills": [
       {
         "name": "今日もがんばローゼ!",
+        "cost": "1 any color",
         "dmg": "30"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "aki rosenthal hbp01-036 #jp #gen1 #half-elf #alcohol ロゼ隊のみんな応援しててね!: restore 20 hp to 1 of your holomem. 今日もがんばローゼ! "
   },
@@ -708,10 +760,12 @@
     "skills": [
       {
         "name": "秘密の合鍵",
+        "cost": "3 Green",
         "dmg": "70+",
         "description": "If a tool is attached to this holomem, this Arts gets +50.."
       }
     ],
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "aki rosenthal hbp01-037 #jp #gen1 #half-elf #alcohol ゴシックドール: send the top card of your cheer deck to your holomem. if a tool is attached to this holomem, restore 40 hp to this holomem. 秘密の合鍵 if a tool is attached to this holomem, this arts gets +50.."
   },
@@ -748,10 +802,12 @@
     "skills": [
       {
         "name": "こんぺこー!",
-        "dmg": "20+",
+        "cost": "1 any color",
+        "dmg": "30",
         "description": "Roll a die once: If the result is even, this art gains +20"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "usada pekora hbp01-039 #jp #gen3 #kemomimi ギャラクシーアイドル　: if your oshi holomem is 〈usada pekora〉, you may roll a die once:if it is even, send the top card of your cheer deck to your holomem. こんぺこー! roll a die once: if the result is even, this art gains +20"
   },
@@ -766,9 +822,11 @@
     "skills": [
       {
         "name": "無重力ジャンプ!",
-        "dmg": 30
+        "cost": "1 Green, 1 any color",
+        "dmg": "60"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "usada pekora hbp01-040 #jp #gen3 #kemomimi 無重力ジャンプ! "
   },
@@ -805,14 +863,17 @@
     "skills": [
       {
         "name": "白い砂浜と兎少女",
+        "cost": "1 Green",
         "dmg": 40
       },
       {
         "name": "きtらあああ",
+        "cost": "2 Green",
         "dmg": "50+",
         "description": "You may roll a die once:This Arts gets +10x the number rolled."
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "usada pekora hbp01-042 #jp #gen3 #kemomimi 白い砂浜と兎少女  きtらあああ you may roll a die once:this arts gets +10x the number rolled."
   },
@@ -828,11 +889,13 @@
     "skills": [
       {
         "name": "全人類兎化計画",
+        "cost": "3 Green, 1 any color",
         "dmg": "60+",
         "description": "Roll a die three times, for each total of 1 on the rolled dice, this art +10."
       }
     ],
     "hasAlternativeArt": true,
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "usada pekora hbp01-043 #jp #gen3 #kemomimi ラプリンセスドレス: restore 50 hp to this holomen. 全人類兎化計画 roll a die three times, for each total of 1 on the rolled dice, this art +10."
   },
@@ -870,9 +933,11 @@
     "skills": [
       {
         "name": "海辺の街できみと～!",
+        "cost": "1 Green",
         "dmg": "20"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "azki hbp01-045 #jp #gen0 #singing while your life is 3 or less, you may ignore bloom level and bloom this holomem to your hand's 2nd 〈azki〉. 海辺の街できみと～! "
   },
@@ -888,10 +953,12 @@
     "skills": [
       {
         "name": "こんな素敵な世界に来れました!",
+        "cost": "1 any color",
         "dmg": "30",
         "description": "Roll a die three times, for each total of 1 on the rolled dice, this art +10."
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "azki hbp01-046 #jp #gen0 #singing 開拓者のみんながいたから: you may choose 1~3 cheers from your stage, and reattach them to your holomem as you choose. こんな素敵な世界に来れました! roll a die three times, for each total of 1 on the rolled dice, this art +10."
   },
@@ -907,10 +974,12 @@
     "skills": [
       {
         "name": "新たな地図!",
+        "cost": "3 Green, 1 any color",
         "dmg": "120"
       }
     ],
     "hasAlternativeArt": true,
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "azki hbp01-047 #jp #gen0 #singing いのちの軌跡: restore 40 hp to this holomem. you may roll a die once:if it is odd, you may send 1~3 green cheers from your archive to this holomem. 新たな地図! "
   },
@@ -945,13 +1014,16 @@
     "skills": [
       {
         "name": "とれたてナス",
+        "cost": "1 Green",
         "dmg": "30"
       },
       {
         "name": "おひとついかがでござるか？",
-        "dmg": "350"
+        "cost": "1 Green, 1 any color",
+        "dmg": "50"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "kazama iroha hbp01-049 #jp #holox とれたてナス  おひとついかがでござるか？ "
   },
@@ -967,10 +1039,12 @@
     "skills": [
       {
         "name": "元気を全力でお届けします!",
+        "cost": "1 Green, 1 any color",
         "dmg": "20",
         "description": "Send the top card of your cheer deck to your holomem with #HoloX other than 〈Kazama Iroha〉."
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "kazama iroha hbp01-050 #jp #holox 用心棒: [collab position only], your opponent's holomem's arts can only target your collab holomem. however, it excludes special damage. 元気を全力でお届けします! send the top card of your cheer deck to your holomem with #holox other than 〈kazama iroha〉."
   },
@@ -986,16 +1060,19 @@
     "skills": [
       {
         "name": "エールを束ねて",
+        "cost": "1 Green, 1 any color",
         "dmg": "50+",
         "description": "[Collab Position only] This Arts gets +20 for each of this holomem's cheer. However, only up to 5 cheers are counted."
       },
       {
         "name": "風華の輝き",
+        "cost": "1 Green, 2 any color",
         "dmg": 70
       }
     ],
     "extraEffect": "When this holomem is downed, your life is reduced by 2.",
     "hasAlternativeArt": true,
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "kazama iroha hbp01-051 #jp #holox when this holomem is downed, your life is reduced by 2. エールを束ねて [collab position only] this arts gets +20 for each of this holomem's cheer. however, only up to 5 cheers are counted. 風華の輝き "
   },
@@ -1031,9 +1108,11 @@
     "skills": [
       {
         "name": "あなたの愛しの宇宙人",
+        "cost": "2 any color",
         "dmg": "50"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "airani iofifteen hbp01-053 #id #idgen1 #painting あなたの愛しの宇宙人 "
   },
@@ -1049,9 +1128,11 @@
     "skills": [
       {
         "name": "楽しみにしてるよ!!",
+        "cost": "1 any color",
         "dmg": "30"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "airani iofifteen hbp01-054 #id #idgen1 #painting 緑の光が広がる海: send the top card of your cheer deck to your holomem with #id other than 〈airani iofifteen〉. 楽しみにしてるよ!! "
   },
@@ -1067,10 +1148,12 @@
     "skills": [
       {
         "name": "リレーションスカイ",
+        "cost": "1 Green, 2 any color",
         "dmg": "100",
         "description": "IfIf your stage has a holomem with #ID other than 〈Airani Iofifteen〉, this Arts gets +50."
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "airani iofifteen hbp01-055 #id #idgen1 #painting area 15: you may send 1 cheer each from your archive to 1~3 of your holomem with #id. リレーションスカイ ifif your stage has a holomem with #id other than 〈airani iofifteen〉, this arts gets +50."
   },
@@ -1106,10 +1189,12 @@
     "skills": [
       {
         "name": "漆黒の翼で誘おう",
+        "cost": "1 Red",
         "dmg": "20",
         "description": "Deal 10 Special Damage to your opponent's collab holomem."
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "takane lui hbp01-057 #jp #holox #bird #alcohol アポイント: deal 10 special damage to your opponent's collab holomem. 漆黒の翼で誘おう deal 10 special damage to your opponent's collab holomem."
   },
@@ -1124,13 +1209,16 @@
     "skills": [
       {
         "name": "こんルイルイ",
+        "cost": "1 Red",
         "dmg": "30"
       },
       {
         "name": "おつルイルイ",
+        "cost": "1 Red, 1 any color",
         "dmg": "50"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "takane lui hbp01-058 #jp #holox #bird #alcohol こんルイルイ  おつルイルイ "
   },
@@ -1145,14 +1233,17 @@
     "skills": [
       {
         "name": "パーティーへようこそ",
+        "cost": "1 Red",
         "dmg": 30
       },
       {
         "name": "Lui's Party",
+        "cost": "2 Red",
         "dmg": 50,
         "description": "You may archive 1 card from your hand:Reveal 1 1st holomem other than Buzz from your deck, and add it to hand. Then, shuffle the deck."
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "takane lui hbp01-059 #jp #holox #bird #alcohol パーティーへようこそ  lui's party you may archive 1 card from your hand:reveal 1 1st holomem other than buzz from your deck, and add it to hand. then, shuffle the deck."
   },
@@ -1168,9 +1259,11 @@
     "skills": [
       {
         "name": "しっかりついてきてよね!!",
+        "cost": "1 any color",
         "dmg": "40"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "takane lui hbp01-060 #jp #holox #bird #alcohol 本当にみんなのおかげ!!: if bloomed from debut, you may archive 1 card from your hand:draw 2 cards from your deck. しっかりついてきてよね!! "
   },
@@ -1186,10 +1279,12 @@
     "skills": [
       {
         "name": "ホークレイヴ",
+        "cost": "2 Red, 1 any color",
         "dmg": "60",
         "description": "You may archive 1~5 cards from your hand:Deal 20 Special Damage for each archived card to your opponent's center holomem or collab holomem.."
       }
     ],
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "takane lui hbp01-061 #jp #holox #bird #alcohol 組織の司令塔: you may return 1~2 holomem with #holox from your archive to hand. ホークレイヴ you may archive 1~5 cards from your hand:deal 20 special damage for each archived card to your opponent's center holomem or collab holomem.."
   },
@@ -1226,9 +1321,11 @@
     "skills": [
       {
         "name": "もふもふタイム",
+        "cost": "1 Red",
         "dmg": "20"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "takanashi kiara hbp01-063 #en #myth #bird if your center holomem has #bird, you may archive 1 card from your hand:reveal 1 mascot from your deck, and add it to hand. then, shuffle the deck. もふもふタイム "
   },
@@ -1243,9 +1340,11 @@
     "skills": [
       {
         "name": "auf Wiedersehen",
+        "cost": "1 Red",
         "dmg": "20"
       }
     ],
+    "batonTouch": 0,
     "setName": "hBP01",
     "searchString": "takanashi kiara hbp01-064 #en #myth #bird auf wiedersehen "
   },
@@ -1261,9 +1360,11 @@
     "skills": [
       {
         "name": "盛り上げたいとおもいます！",
+        "cost": "1 any color",
         "dmg": "40"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "takanashi kiara hbp01-065 #en #myth #bird look at the top three cards of your deck. reveal one that is a holomem and put it into your hand. then archive the remaining cards. 盛り上げたいとおもいます！ "
   },
@@ -1278,14 +1379,17 @@
     "skills": [
       {
         "name": "不死鳥の剣姫",
+        "cost": "1 Red",
         "dmg": "50"
       },
       {
         "name": "跪きなさい。",
+        "cost": "2 Red",
         "dmg": "40",
         "description": "You may archive 1 holomem that is stacked to this holomem:Deal 40 Special Damage to your opponent's collab holomem."
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "takanashi kiara hbp01-066 #en #myth #bird 不死鳥の剣姫  跪きなさい。 you may archive 1 holomem that is stacked to this holomem:deal 40 special damage to your opponent's collab holomem."
   },
@@ -1300,15 +1404,18 @@
     "skills": [
       {
         "name": "焔色の導き",
+        "cost": "2 Red",
         "dmg": "70"
       },
       {
         "name": "マジェスティック・フェニックス",
+        "cost": "3 Red",
         "dmg": "80+",
         "description": "This Arts gets +10 for each holomem in your archive. Then, return 6 holomem from your archive to deck and shuffle it."
       }
     ],
     "hasAlternativeArt": true,
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "takanashi kiara hbp01-067 #en #myth #bird 焔色の導き  マジェスティック・フェニックス this arts gets +10 for each holomem in your archive. then, return 6 holomem from your archive to deck and shuffle it."
   },
@@ -1345,13 +1452,16 @@
     "skills": [
       {
         "name": "おはぽる",
+        "cost": "1 Red",
         "dmg": "20"
       },
       {
         "name": "おそぽる",
+        "cost": "1 Red, 1 any color",
         "dmg": "40"
       }
     ],
+    "batonTouch": 0,
     "setName": "hBP01",
     "searchString": "omaru polka hbp01-069 #jp #gen5 #kemomimi おはぽる  おそぽる "
   },
@@ -1367,10 +1477,12 @@
     "skills": [
       {
         "name": "共依存",
+        "cost": "1 Red, 1 any color",
         "dmg": "70",
         "description": "This Arts can only be used if a 〈Zain〉is attached to this holomem."
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "omaru polka hbp01-070 #jp #gen5 #kemomimi 宴の始まりだ!: reveal 1 fan from your deck, and add it to hand. then, shuffle the deck. 共依存 this arts can only be used if a 〈zain〉is attached to this holomem."
   },
@@ -1387,12 +1499,14 @@
     "skills": [
       {
         "name": "ポルカサーカス",
-        "dmg": "60+",
+        "cost": "1 Red, 1 any color",
+        "dmg": "50+",
         "description": "This Arts gets +20 for each fan attached to all of your holomem."
       }
     ],
     "extraEffect": "When this holomem is downed, your life is reduced by 2.",
     "hasAlternativeArt": true,
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "omaru polka hbp01-071 #jp #gen5 #kemomimi ポルカイリュージョン!: you may return 1〈zain〉from your archive to hand. when this holomem is downed, your life is reduced by 2. ポルカサーカス this arts gets +20 for each fan attached to all of your holomem."
   },
@@ -1428,9 +1542,11 @@
     "skills": [
       {
         "name": "WITNESS ME!!",
+        "cost": "1 Red, 1 any color",
         "dmg": "60"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "hakos baelz hbp01-073 #en #promise #kemomimi witness me!! "
   },
@@ -1446,9 +1562,11 @@
     "skills": [
       {
         "name": "楽しい時間の始まりだ!",
+        "cost": "1 any color",
         "dmg": "30"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "hakos baelz hbp01-074 #en #promise #kemomimi ネズミアイドルがいよいよ登場!: if bloomed from debut, you may return 1 [debut holomem or 1st holomem] from archive to hand:if the returned card has #en, deal 20 special damage to your opponent's collab holomem. 楽しい時間の始まりだ! "
   },
@@ -1464,9 +1582,11 @@
     "skills": [
       {
         "name": "Disorder!",
+        "cost": "1 Red, 1 any color",
         "dmg": "100"
       }
     ],
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "hakos baelz hbp01-075 #en #promise #kemomimi カオスシャッフル: each player returns all cards from their hand to the bottom of their deck in any order. next, each player draws 1 card from their deck for each card returned to the deck. disorder! "
   },
@@ -1505,9 +1625,11 @@
     "skills": [
       {
         "name": "新しい衣装",
+        "cost": "1 Blue",
         "dmg": "30"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "hoshimachi suisei hbp01-077 #jp #gen0 #singing 煌きのワードローブ　: if your oshi holomem is 〈hoshimachi suisei〉, you may archive 1 blue cheer from this holomem:draw 2 cards from your deck. 新しい衣装 "
   },
@@ -1522,13 +1644,16 @@
     "skills": [
       {
         "name": "ストリートスナップ",
+        "cost": "1 Blue",
         "dmg": "30"
       },
       {
         "name": "木漏れ日のひと時",
+        "cost": "1 Blue, 1 any color",
         "dmg": "50"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "hoshimachi suisei hbp01-078 #jp #gen0 #singing ストリートスナップ  木漏れ日のひと時 "
   },
@@ -1544,9 +1669,11 @@
     "skills": [
       {
         "name": "すいちゃんはーー今日もかわいいーー！！",
+        "cost": "2 any color",
         "dmg": "50"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "hoshimachi suisei hbp01-079 #jp #gen0 #singing あっと驚かせるから見逃さないでね！ : deal 20 special damage to 1 of your opponent's back holomem. however, your opponent's life does not reduce even if downed. すいちゃんはーー今日もかわいいーー！！ "
   },
@@ -1562,9 +1689,11 @@
     "skills": [
       {
         "name": "戦うメイドさん",
+        "cost": "2 Blue",
         "dmg": "70"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "hoshimachi suisei hbp01-080 #jp #gen0 #singing 雪山の記憶 : you may roll a die once:if it is odd, down 1 of your opponent's back holomem whose hp is reduced by 40 or more. however, your opponent's life does not reduce even if downed. 戦うメイドさん "
   },
@@ -1580,11 +1709,13 @@
     "skills": [
       {
         "name": "輝く彗星",
+        "cost": "3 Blue, 1 any color",
         "dmg": "60+",
         "description": "You may archive 2 blue cheers from this holomem:This Arts gets +60 for each holomem that is stacked to this holomem (This Arts can target your opponent's back holomem too)."
       }
     ],
     "hasAlternativeArt": true,
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "hoshimachi suisei hbp01-081 #jp #gen0 #singing 空を駆ける光 : send the top card of your cheer deck to your blue holomem. 輝く彗星 you may archive 2 blue cheers from this holomem:this arts gets +60 for each holomem that is stacked to this holomem (this arts can target your opponent's back holomem too)."
   },
@@ -1619,9 +1750,11 @@
     "skills": [
       {
         "name": "波だ~! 泳げ~!",
+        "cost": "1 any color",
         "dmg": "10"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "kobo kanaeru hbp01-083 #id #idgen3 ほを海に連れて!: if your center holomem has #id, you may roll a die once:if it is 3 or greater, send the top card of your cheer deck to your holomem. 波だ~! 泳げ~! "
   },
@@ -1636,9 +1769,11 @@
     "skills": [
       {
         "name": "になる～　",
+        "cost": "1 Blue, 1 any color",
         "dmg": "50"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "kobo kanaeru hbp01-084 #id #idgen3 になる～　 "
   },
@@ -1653,14 +1788,17 @@
     "skills": [
       {
         "name": "perayaan",
+        "cost": "1 Blue",
         "dmg": "40"
       },
       {
         "name": "レインドロップス",
+        "cost": "1 Blue, 1 any color",
         "dmg": "50",
         "description": "Deal 10 Special Damage to 3 of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "kobo kanaeru hbp01-085 #id #idgen3 perayaan  レインドロップス deal 10 special damage to 3 of your opponent's back holomem. however, your opponent's life does not reduce even if downed."
   },
@@ -1676,9 +1814,11 @@
     "skills": [
       {
         "name": "OnAeru",
+        "cost": "1 any color",
         "dmg": "40"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "kobo kanaeru hbp01-086 #id #idgen3 バーチャルマーケティング: you may archive 1 cheer from your holomem with #id:deal 10 special damage to all of your opponent's back holomem. however, your opponent's life does not reduce even if downed. onaeru "
   },
@@ -1693,15 +1833,18 @@
     "skills": [
       {
         "name": "雨のマントラ",
+        "cost": "1 Blue, 1 any color",
         "dmg": "40",
         "description": "You may archive 1 cheer from this holomem:Deal 20 Special Damage to all of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
       },
       {
         "name": "波のマントラ",
+        "cost": "2 Blue, 1 any color",
         "dmg": 40,
         "description": "You may archive 2 cheers from this holomem:Deal the same amount of Special Damage to the opponent's center holomem as the total number of Damage taken by all of your opponent's back holomem."
       }
     ],
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "kobo kanaeru hbp01-087 #id #idgen3 雨のマントラ you may archive 1 cheer from this holomem:deal 20 special damage to all of your opponent's back holomem. however, your opponent's life does not reduce even if downed. 波のマントラ you may archive 2 cheers from this holomem:deal the same amount of special damage to the opponent's center holomem as the total number of damage taken by all of your opponent's back holomem."
   },
@@ -1737,9 +1880,11 @@
     "skills": [
       {
         "name": "おつムーナ",
+        "cost": "1 Blue, 1 any color",
         "dmg": "60"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "moona hoshinova hbp01-089 #id #idgen1 #singing おつムーナ "
   },
@@ -1755,9 +1900,11 @@
     "skills": [
       {
         "name": "楽しみにしてて!!",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "moona hoshinova hbp01-090 #id #idgen1 #singing ラピスラズリ: reveal 1 [green cheer or blue cheer] from your cheer deck, and send it to your holomem. then, shuffle the cheer deck. 楽しみにしてて!! "
   },
@@ -1773,16 +1920,19 @@
     "skills": [
       {
         "name": "月は夜に。",
+        "cost": "2 any color",
         "dmg": "50"
       },
       {
         "name": "ムーンナイトディーパ",
+        "cost": "1 Blue, 2 any color",
         "dmg": 80,
         "description": "You may archive 1 [green cheer or blue cheer] from this holomem:Deal 30 Special Damage to 1 of your opponent's back holomem."
       }
     ],
     "extraEffect": "When this holomem is downed, your life is reduced by 2.",
     "hasAlternativeArt": true,
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "moona hoshinova hbp01-091 #id #idgen1 #singing when this holomem is downed, your life is reduced by 2. 月は夜に。  ムーンナイトディーパ you may archive 1 [green cheer or blue cheer] from this holomem:deal 30 special damage to 1 of your opponent's back holomem."
   },
@@ -1820,13 +1970,16 @@
     "skills": [
       {
         "name": "クロやすみ～",
+        "cost": "1 any color",
         "dmg": "40"
       },
       {
         "name": "お休みクロタイム",
+        "cost": "1 Blue, 1 any color",
         "dmg": "60"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "ouro kronii hbp01-093 #en #promise クロやすみ～  お休みクロタイム "
   },
@@ -1842,9 +1995,11 @@
     "skills": [
       {
         "name": "忘れられないfesにしよう!!",
+        "cost": "1 any color",
         "dmg": "40"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "ouro kronii hbp01-094 #en #promise クロにちは!: reveal 1 cheer from your cheer deck with the same color as 1 of your holomem with #promise, and send it to your holomem with #promise. then, shuffle the cheer deck. 忘れられないfesにしよう!! "
   },
@@ -1860,10 +2015,12 @@
     "skills": [
       {
         "name": "早送り",
+        "cost": "1 Blue, 2 any color",
         "dmg": "60",
         "description": "You may Bloom a 1st holomem from your hand on 1 of your Debut back holomem placed this turn"
       }
     ],
+    "batonTouch": 2,
     "setName": "hBP01",
     "searchString": "ouro kronii hbp01-095 #en #promise 巻き戻し: return 1 of your opponent's back holomem to debut holomem (after removing damage, 1 debut holomem and all of the cheers remain, and return all other cards to hand). 早送り you may bloom a 1st holomem from your hand on 1 of your debut back holomem placed this turn"
   },
@@ -1879,10 +2036,12 @@
     "skills": [
       {
         "name": "ぺこら~扉の向こう側へ~",
+        "cost": "1 any color",
         "dmg": 10
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "usada pekora hbp01-096 #jp #gen3 #kemomimi それは「冒険」: you may roll a die once:if it is even, reveal a buzz holomem from your deck, and add it to hand. then, shuffle the deck. this holomem cannot bloom. ぺこら~扉の向こう側へ~ "
   },
@@ -1898,10 +2057,12 @@
     "skills": [
       {
         "name": "フレア~扉の向こう側へ~",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "shiranui flare hbp01-097 #jp #gen3 #half-elf それは「愛と絆の物語」: exchange your center holomem with 1 non-resting back holomem. this holomem cannot bloom. フレア~扉の向こう側へ~ "
   },
@@ -1917,10 +2078,12 @@
     "skills": [
       {
         "name": "ノエル~扉の向こう側へ~",
+        "cost": "2 any color",
         "dmg": 20
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "shirogane noel hbp01-098 #jp #gen3 #alcohol それは「俺」: you may send 1 cheer from your archive to your holomem. this holomem cannot bloom. ノエル~扉の向こう側へ~ "
   },
@@ -1936,10 +2099,12 @@
     "skills": [
       {
         "name": "マリン~扉の向こう側へ~",
+        "cost": "1 any color",
         "dmg": 10
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "houshou marine hbp01-099 #jp #gen3 #painting #sea それは「エジンバラ城」: you may roll a die once:if it is odd, exchange your opponent's center holomem with 1 back holomem. this holomem cannot bloom. マリン~扉の向こう側へ~ "
   },
@@ -1955,10 +2120,12 @@
     "skills": [
       {
         "name": "ソウルご案内",
+        "cost": "1 any color",
         "dmg": 30
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "mori calliope hbp01-100 #en #myth #singing ソウル収穫　: you may return 1~3 cheers from your archive to the cheer deck. then, shuffle the cheer deck. this holomem cannot bloom. ソウルご案内 "
   },
@@ -1974,10 +2141,12 @@
     "skills": [
       {
         "name": "初歩的なことなんでしょう？",
+        "cost": "2 any color",
         "dmg": 20
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hBP01",
     "searchString": "watson amelia hbp01-101 #en #myth ソウル収穫　: you may return 1 item from your archive to hand. this holomem cannot bloom. 初歩的なことなんでしょう？ "
   },
@@ -2389,9 +2558,11 @@
     "skills": [
       {
         "name": "Otsu-kon-deshita",
+        "cost": "1 White",
         "dmg": "20"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "shirakami fubuki hbp02-009 #jp #gen1 #gamers #kemomimi #painting おはこんきーつね！:[collab position only]all of your holomem with mascot attached get arts+10. otsu-kon-deshita "
   },
@@ -2406,14 +2577,17 @@
     "skills": [
       {
         "name": "キンモクセイの花フブキ",
+        "cost": "1 White",
         "dmg": "40"
       },
       {
         "name": "Thank You Friends♥",
+        "cost": "1 White, 1 any color",
         "dmg": "60"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "shirakami fubuki hbp02-010 #jp #gen1 #gamers #kemomimi #painting キンモクセイの花フブキ  thank you friends♥ "
   },
@@ -2429,10 +2603,12 @@
     "skills": [
       {
         "name": "ダメですよっ！",
+        "cost": "1 any color",
         "dmg": "40"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "shirakami fubuki hbp02-011 #jp #gen1 #gamers #kemomimi #painting 白上から目をそらしちゃ: reveal 1 card with #shirakamicharacter from your deck, and add it to hand. then, shuffle the deck. ダメですよっ！ "
   },
@@ -2448,11 +2624,13 @@
     "skills": [
       {
         "name": "力をかしてくださいね",
+        "cost": "1 White, 1 any color",
         "dmg": "50+",
         "description": "During this turn, your [center holomem and collab holomem] with mascot attached get Arts+20."
       }
     ],
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "shirakami fubuki hbp02-012 #jp #gen1 #gamers #kemomimi #painting ちょっと動かしますね : you may reattach 1 mascot from your stage to your holomem. 力をかしてくださいね during this turn, your [center holomem and collab holomem] with mascot attached get arts+20."
   },
@@ -2468,12 +2646,14 @@
     "skills": [
       {
         "name": "マスコットたちの舞宴",
+        "cost": "2 White, 1 any color",
         "dmg": "80+",
         "description": "This Arts gets +20 for each mascot on your stage."
       }
     ],
     "hasAlternativeArt": true,
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "shirakami fubuki hbp02-013 #jp #gen1 #gamers #kemomimi #painting みんなと一緒! you may attach up to 2 mascots with different card names to this holomem. マスコットたちの舞宴 this arts gets +20 for each mascot on your stage."
   },
@@ -2510,14 +2690,17 @@
     "skills": [
       {
         "name": "おはまっする〜!",
+        "cost": "1 any color",
         "dmg": "30"
       },
       {
         "name": "おつまっする~",
+        "cost": "1 White, 1 any color",
         "dmg": "60"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "shirogane noel hbp02-015 #jp #gen3 #alcohol おはまっする〜!  おつまっする~ "
   },
@@ -2555,10 +2738,12 @@
     "skills": [
       {
         "name": "ゆるふわ脳筋女騎士",
+        "cost": "2 any color",
         "dmg": "50"
       },
       {
         "name": "3期生ぱわー",
+        "cost": "1 White, 2 any color",
         "dmg": "60+",
         "description": "(Collab position only) For each other Holomen on your stage with the #Gen3 tag, this Arts gets +20. However, the number of Holomen counted is limited to 4.."
       }
@@ -2566,6 +2751,7 @@
     "extraEffect": "If this holomem is downed, you get Life-2",
     "hasAlternativeArt": true,
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "shirogane noel hbp02-017 #jp #gen3 #alcohol if this holomem is downed, you get life-2 ゆるふわ脳筋女騎士  3期生ぱわー (collab position only) for each other holomen on your stage with the #gen3 tag, this arts gets +20. however, the number of holomen counted is limited to 4.."
   },
@@ -2601,10 +2787,12 @@
     "skills": [
       {
         "name": "Very Easy",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "pavolia reine hbp02-019 #id #idgen2 #bird #painting 友達をhaluにさせる方法 : you may send 1 cheer from your archive to your holomem. very easy "
   },
@@ -2619,10 +2807,12 @@
     "skills": [
       {
         "name": "Royal Halu Sleepover",
+        "cost": "1 Green, 1 any color",
         "dmg": "50"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "pavolia reine hbp02-020 #id #idgen2 #bird #painting royal halu sleepover "
   },
@@ -2638,11 +2828,13 @@
     "skills": [
       {
         "name": "だから見ててね！大好き！",
+        "cost": "1 any color",
         "dmg": "20",
         "description": "You may send 1 Cheer from your Archive to any of your holomems."
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "pavolia reine hbp02-021 #id #idgen2 #bird #painting 心を込めて歌って、踊ります。 restore 10 hp to 1 of your holomem for each cheer color on your stage. だから見ててね！大好き！ you may send 1 cheer from your archive to any of your holomems."
   },
@@ -2658,11 +2850,13 @@
     "skills": [
       {
         "name": "Spicy Night",
+        "cost": "1 Green, 1 any color",
         "dmg": "40+",
         "description": "If your stage has 2 or more cheer colors, this Arts gets +20."
       }
     ],
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "pavolia reine hbp02-022 #id #idgen2 #bird #painting what are you waiting for?: reveal 1 〈tatang〉 from your deck, and add it to hand. then, shuffle the deck. spicy night if your stage has 2 or more cheer colors, this arts gets +20."
   },
@@ -2678,12 +2872,14 @@
     "skills": [
       {
         "name": "孔雀の舞",
+        "cost": "1 Green, 3 any color",
         "dmg": "100+",
         "description": "This Arts gets +20 for every cheer color on your stage."
       }
     ],
     "hasAlternativeArt": true,
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "pavolia reine hbp02-023 #id #idgen2 #bird #painting kanjeng : reveal 1 cheer from your cheer deck, and send it to your holomem. then, shuffle the cheer deck. 孔雀の舞 this arts gets +20 for every cheer color on your stage."
   },
@@ -2719,14 +2915,17 @@
     "skills": [
       {
         "name": "おはみぉーん",
+        "cost": "1 any color",
         "dmg": "30"
       },
       {
         "name": "おつみぉーん",
+        "cost": "1 Green, 1 any color",
         "dmg": "50"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "ookami mio hbp02-025 #jp #gamers #kemomimi #cooking おはみぉーん  おつみぉーん "
   },
@@ -2742,10 +2941,12 @@
     "skills": [
       {
         "name": "今年も見守っててね！",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "ookami mio hbp02-026 #jp #gamers #kemomimi #cooking アイドルとして成長した姿 : reveal 1 cheer from your cheer deck with the same color as 1 of your holomem with #gamers on stage, and send it to your holomem. then, shuffle the cheer deck. 今年も見守っててね！ "
   },
@@ -2760,6 +2961,7 @@
     "skills": [
       {
         "name": "タロットの導き",
+        "cost": "1 Green, 1 any color",
         "dmg": "60+",
         "description": "You may archive the top card of your deck:If the archived card is a holomem, this Arts gets +20. If it is a support card, this Arts gets +50."
       }
@@ -2767,6 +2969,7 @@
     "extraEffect": "If this holomem is downed, you get Life-2",
     "hasAlternativeArt": true,
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "ookami mio hbp02-027 #jp #gamers #kemomimi #cooking if this holomem is downed, you get life-2 タロットの導き you may archive the top card of your deck:if the archived card is a holomem, this arts gets +20. if it is a support card, this arts gets +50."
   },
@@ -2781,10 +2984,12 @@
     "skills": [
       {
         "name": "宝鐘海賊団船長の宝鐘マリンですぅー!",
+        "cost": "1 any color",
         "dmg": "30"
       }
     ],
     "extraEffect": "You may include any number of this holomem in the deck.",
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "houshou marine hbp02-028 #jp #gen3 #painting #sea you may include any number of this holomem in the deck. 宝鐘海賊団船長の宝鐘マリンですぅー! "
   },
@@ -2800,9 +3005,11 @@
     "skills": [
       {
         "name": "マリン“船長”だろぉぉん！？",
+        "cost": "1 Red, 1 any color",
         "dmg": "30"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "houshou marine hbp02-029 #jp #gen3 #painting #sea #alcohol マリンと宅飲み: deal 20 special damage to your opponent's collab holomem. マリン“船長”だろぉぉん！？ "
   },
@@ -2817,14 +3024,17 @@
     "skills": [
       {
         "name": "船長、何されちゃうのかな？",
+        "cost": "1 Red",
         "dmg": "40"
       },
       {
         "name": "もう、どスケベ♥",
+        "cost": "1 Red, 1 any color",
         "dmg": "60"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "houshou marine hbp02-030 #jp #gen3 #painting #sea 船長、何されちゃうのかな？  もう、どスケベ♥ "
   },
@@ -2862,10 +3072,12 @@
     "skills": [
       {
         "name": "ヨーソロー",
+        "cost": "2 any color",
         "dmg": "50"
       }
     ],
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "houshou marine hbp02-032 #jp #gen3 #painting #sea 宝鐘の海賊団: reveal a card named houshou marine from your deck and put it into your hand. then shuffle your deck. you may only use the bloom effect 「宝鐘の海賊団」 once per turn. ヨーソロー "
   },
@@ -2881,12 +3093,14 @@
     "skills": [
       {
         "name": "キミたち～？: 船長、かわいい？",
+        "cost": "1 Red, 2 any color",
         "dmg": "80+",
         "description": "This Arts gets +20 for each holomem stacked to this holomem."
       }
     ],
     "hasAlternativeArt": true,
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "houshou marine hbp02-033 #jp #gen3 #painting #sea ゴシッククィーン: you may return 1 holomem from your archive to hand. if 3 or more holomem are stacked to this holomem, deal 50 special damage to your opponent's center holomem or collab holomem. キミたち～？: 船長、かわいい？ this arts gets +20 for each holomem stacked to this holomem."
   },
@@ -2902,10 +3116,12 @@
     "skills": [
       {
         "name": "余は草",
+        "cost": "1 Red, 1 any color",
         "dmg": "50"
       },
       {
         "name": "オーガニックショット",
+        "cost": "1 Red, 2 any color",
         "dmg": "80",
         "description": "If a tool or mascot is attached to this holomem, deal 30 special damage to your opponent's center holomem or collab holomem."
       }
@@ -2913,6 +3129,7 @@
     "extraEffect": "If this holomem is downed, you get Life-2",
     "hasAlternativeArt": true,
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "nakiri ayame hbp02-034 #jp #gen2 #shooter if this holomem is downed, you get life-2 余は草  オーガニックショット if a tool or mascot is attached to this holomem, deal 30 special damage to your opponent's center holomem or collab holomem."
   },
@@ -2927,10 +3144,12 @@
     "skills": [
       {
         "name": "ばっくばっくばく～ん",
+        "cost": "1 any color",
         "dmg": "30"
       }
     ],
     "extraEffect": "You may include any number of this holomem in the deck.",
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "sakamata chloe hbp02-035 #jp #holox #sea you may include any number of this holomem in the deck. ばっくばっくばく～ん "
   },
@@ -2946,10 +3165,12 @@
     "skills": [
       {
         "name": "吐いて捨てるような現実を！",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "sakamata chloe hbp02-036 #jp #holox #sea 掃除屋でインターン: look at the top 3 cards of your deck. reveal 1 2nd holomem with #holox from among them, and add it to hand. then, return the remaining cards to the bottom of the deck in any order. 吐いて捨てるような現実を！ "
   },
@@ -2964,10 +3185,12 @@
     "skills": [
       {
         "name": "ふたりじめビーチ",
+        "cost": "1 Blue, 1 any color",
         "dmg": "60"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "sakamata chloe hbp02-037 #jp #holox #sea ふたりじめビーチ "
   },
@@ -2983,10 +3206,12 @@
     "skills": [
       {
         "name": "(ここ喜ぶ所です）",
+        "cost": "1 any color",
         "dmg": "30"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "sakamata chloe hbp02-038 #jp #holox #sea 君の心をばっくばっくばく～んしちゃうぞ♡: look at the top 3 cards of your cheer deck. reveal 1 cheer from among them, and send it to your holomem. then, return the remaining cheers to the bottom of the cheer deck in any order. (ここ喜ぶ所です） "
   },
@@ -3002,11 +3227,13 @@
     "skills": [
       {
         "name": "ホロックスロット",
+        "cost": "1 Blue, 1 any color",
         "dmg": "20+",
         "description": "You may reveal the top 3 cards of your deck:This Arts gets +20 for each holomem revealed. Then, archive the revealed cards."
       }
     ],
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "sakamata chloe hbp02-039 #jp #holox #sea ぷいぷいぷい～: (once per turn) when you reveal cards with this holomem's art 「ホロックスロット」, you may put 1 of them that is a support card into your hand instead of archiving it. ホロックスロット you may reveal the top 3 cards of your deck:this arts gets +20 for each holomem revealed. then, archive the revealed cards."
   },
@@ -3022,12 +3249,14 @@
     "skills": [
       {
         "name": "ホロックスロット",
+        "cost": "2 Blue, 1 any color",
         "dmg": "100+",
         "description": "You may reveal the top 3 cards of your deck:This Arts gets +20 for each holomem revealed. Then, archive the revealed cards."
       }
     ],
     "hasAlternativeArt": true,
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "sakamata chloe hbp02-040 #jp #holox #sea 最高に激アツ～(once per turn) when you reveal cards with this holomem's art 「ホロックスロット」, if the three revealed cards are all holomems with the same bloom level, your opponent loses 1 life. ホロックスロット you may reveal the top 3 cards of your deck:this arts gets +20 for each holomem revealed. then, archive the revealed cards."
   },
@@ -3044,6 +3273,7 @@
     "skills": [
       {
         "name": "ぽいずん猫",
+        "cost": "1 Blue, 2 any color",
         "dmg": "50",
         "description": "You may archive 1 ▲blue▲ cheer from this holomem:Deal 20 special damage to your opponent's center holomem and 1 of their back holomem."
       }
@@ -3051,6 +3281,7 @@
     "extraEffect": "If this holomem is downed, you get Life-2",
     "hasAlternativeArt": true,
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "nekomata okayu hbp02-041 #jp #gamers #kemomimi #singing 毒の愛:(center position only) all 〈nekomata okayu〉on your stage deal +20 special damage to your opponent's center holomem. if this holomem is downed, you get life-2 ぽいずん猫 you may archive 1 ▲blue▲ cheer from this holomem:deal 20 special damage to your opponent's center holomem and 1 of their back holomem."
   },
@@ -3065,10 +3296,12 @@
     "skills": [
       {
         "name": "どうも～",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
     "extraEffect": "You may include any number of this holomem in the deck.",
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "murasaki shion hbp02-042 #jp #gen2 you may include any number of this holomem in the deck. どうも～ "
   },
@@ -3084,9 +3317,11 @@
     "skills": [
       {
         "name": "一緒に行こう",
+        "cost": "1 Purple",
         "dmg": "30"
       }
     ],
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "murasaki shion hbp02-043 #jp #gen2 魔法見せてあげる: you may roll a die once:if it is 4 or greater, reveal a card with #magic from your deck, and add it to hand. then, shuffle the deck. 一緒に行こう "
   },
@@ -3101,14 +3336,17 @@
     "skills": [
       {
         "name": "照れくさ",
+        "cost": "1 any color",
         "dmg": "30"
       },
       {
         "name": "やだ、もー",
+        "cost": "1 Purple, 1 any color",
         "dmg": "60"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "murasaki shion hbp02-044 #jp #gen2 照れくさ  やだ、もー "
   },
@@ -3124,10 +3362,12 @@
     "skills": [
       {
         "name": "最高にハッピーです！！",
+        "cost": "1 any color",
         "dmg": "40"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "murasaki shion hbp02-045 #jp #gen2 久しぶりの全体ライブーっ！！: look at the top 3 cards of your deck. reveal 1 [blue holomem or purple holomem] from among them, and add it to hand. then, return the remaining cards to the bottom of the deck in any order. 最高にハッピーです！！ "
   },
@@ -3143,11 +3383,13 @@
     "skills": [
       {
         "name": "チェンジ・ザ・エール",
+        "cost": "2 Purple",
         "dmg": "30",
         "description": "You may roll a die once:If it is 5 or greater, reattach 1 of your opponent's cheers from stage to your opponent's holomem."
       }
     ],
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "murasaki shion hbp02-046 #jp #gen2 れ替えの魔法: you may archive 1 card from your hand:return 1 card with #magic from your archive to hand. チェンジ・ザ・エール you may roll a die once:if it is 5 or greater, reattach 1 of your opponent's cheers from stage to your opponent's holomem."
   },
@@ -3163,6 +3405,7 @@
     "skills": [
       {
         "name": "ヴァイオレットマジック",
+        "cost": "2 Purple, 1 any color",
         "dmg": "80",
         "description": "Deal 20 special damage for each of your opponent's center holomem's cheers to your opponent's center holomem and collab holomem."
       }
@@ -3171,6 +3414,7 @@
     "hasFullArt": true,
     "hasGrandPrix": true,
     "source": "Top 8 WGP2025",
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "murasaki shion hbp02-047 #jp #gen2 いたずらの魔法:you may roll a die once:if it is 4 or greater, reattach 1 cheer from your opponent's stage to your opponent's holomem. ヴァイオレットマジック deal 20 special damage for each of your opponent's center holomem's cheers to your opponent's center holomem and collab holomem."
   },
@@ -3185,10 +3429,12 @@
     "skills": [
       {
         "name": "ゾンばんは！",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
     "extraEffect": "You may include any number of this holomem in the deck.",
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "kureiji ollie hbp02-048 #id #idgen2 #language you may include any number of this holomem in the deck. ゾンばんは！ "
   },
@@ -3204,10 +3450,12 @@
     "skills": [
       {
         "name": "おつクレイジー！",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "kureiji ollie hbp02-049 #id #idgen2 #language オリーがいつも見てるよ: draw 1 card, and archive 1 card from hand. おつクレイジー！ "
   },
@@ -3222,14 +3470,17 @@
     "skills": [
       {
         "name": "君を大好きな後輩",
+        "cost": "1 any color",
         "dmg": "20"
       },
       {
         "name": "きゃ～！先輩ごめ～ん！",
-        "dmg": "20"
+        "cost": "1 Purple, 1 any color",
+        "dmg": "60"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "kureiji ollie hbp02-050 #id #idgen2 #language 君を大好きな後輩  きゃ～！先輩ごめ～ん！ "
   },
@@ -3245,10 +3496,12 @@
     "skills": [
       {
         "name": "推しを見て叫びまくるぞ！！",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "kureiji ollie hbp02-051 #id #idgen2 #language 限界化！！: you may bloom one of your debut holomems with #idgen2 using a holomem from your archive. you may only use the bloom effect 「限界化！！」 once per turn. 推しを見て叫びまくるぞ！！ "
   },
@@ -3264,11 +3517,13 @@
     "skills": [
       {
         "name": "推しを見て叫びまくるぞ！！",
-        "dmg": "20",
+        "cost": "2 any color",
+        "dmg": "40+",
         "description": "If a non-purple cheer is attached to this holomem, this Arts gets +20."
       }
     ],
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "kureiji ollie hbp02-052 #id #idgen2 #language 真実一路: draw a card from your deck. 推しを見て叫びまくるぞ！！ if a non-purple cheer is attached to this holomem, this arts gets +20."
   },
@@ -3284,12 +3539,14 @@
     "skills": [
       {
         "name": "計算された戦術",
+        "cost": "1 Purple, 2 any color",
         "dmg": "100+",
         "description": "If you have 2 or more 2nd holomem with #IDGen2 on your stage, this Arts gets +40."
       }
     ],
     "hasAlternativeArt": true,
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "kureiji ollie hbp02-053 #id #idgen2 #language 蘇りしゾンビ: you may archive 2 cards from your hand:during this turn, this holomem gets arts+40. 計算された戦術 if you have 2 or more 2nd holomem with #idgen2 on your stage, this arts gets +40."
   },
@@ -3328,10 +3585,12 @@
     "skills": [
       {
         "name": "マイステージ",
+        "cost": "2 Purple",
         "dmg": "20"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "mori calliope hbp02-055 #en #myth #singing ショータイム: you may archive 1 holomem from your hand:during this turn, 1 of your holomem with #myth on stage gets arts+20. マイステージ "
   },
@@ -3346,10 +3605,12 @@
     "skills": [
       {
         "name": "Cash-Money",
+        "cost": "1 Purple",
         "dmg": "50"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "mori calliope hbp02-056 #en #myth #singing cash-money "
   },
@@ -3365,10 +3626,12 @@
     "skills": [
       {
         "name": "一緒にブチアガろうぜ！",
+        "cost": "1 Purple, 1 any color",
         "dmg": "50"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "mori calliope hbp02-057 #en #myth #singing みんなで作る最高のfes :you may archive 2 holomem with the same tag from your hand:draw 2 cards. 一緒にブチアガろうぜ！ "
   },
@@ -3384,11 +3647,13 @@
     "skills": [
       {
         "name": "Dead Beat",
+        "cost": "1 Purple, 1 any color",
         "dmg": "30+",
         "description": "If this holomem has a Tool or a Mascot attached, this Art gains +30 power."
       }
     ],
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "mori calliope hbp02-058 #en #myth #singing what's up?: you may return 1 [〈mori calliope's scythe〉 or 〈death-sensei〉] from your archive to hand. dead beat if this holomem has a tool or a mascot attached, this art gains +30 power."
   },
@@ -3404,12 +3669,14 @@
     "skills": [
       {
         "name": "Featuring Myth",
+        "cost": "2 Purple, 1 any color",
         "dmg": "80+",
         "description": "If you have 4 or more holomem with #Myth in your archive, this Arts gets +40. Then, if you have 8 or more, this Arts gets +40."
       }
     ],
     "hasAlternativeArt": true,
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "mori calliope hbp02-059 #en #myth #singing soul voice: reveal 1 card from your deck, and archive it. then, shuffle the deck. featuring myth if you have 4 or more holomem with #myth in your archive, this arts gets +40. then, if you have 8 or more, this arts gets +40."
   },
@@ -3425,11 +3692,13 @@
     "skills": [
       {
         "name": "隠しきれない魅力",
+        "cost": "1 Purple, 2 any color",
         "dmg": "80+"
       }
     ],
     "extraEffect": "If this holomem is downed, you get Life-2",
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "yuzuki choco hbp02-060 #jp #gen2 #cooking 誘惑の視線: you may restore 50 hp to 1 of your back holomem:deal 10 special damage to your opponent's center holomem for every 10 hp restored. if this holomem is downed, you get life-2 隠しきれない魅力 "
   },
@@ -3464,10 +3733,12 @@
     "skills": [
       {
         "name": "君とタコグラム",
+        "cost": "2 Purple",
         "dmg": "60"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "ninomae ina'nis hbp02-062 #en #myth #painting #sea 君とタコグラム "
   },
@@ -3483,10 +3754,12 @@
     "skills": [
       {
         "name": "楽しんでいこう！！！",
+        "cost": "1 any color",
         "dmg": "30"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "ninomae ina'nis hbp02-063 #en #myth #painting #sea みんな「wah」の準備はいいかー！restore 20 hp to 1 of your holomem with #myth. 楽しんでいこう！！！ "
   },
@@ -3502,6 +3775,7 @@
     "skills": [
       {
         "name": "アルカイックスマイル",
+        "cost": "1 Purple, 1 any color",
         "dmg": "60+",
         "description": "If you have 5 or more holomem with #Myth in your archive, you may reattach 1 cheer from this holomem to your other holomem. Then, if you have 10 or more, this Arts gets +50."
       }
@@ -3509,6 +3783,7 @@
     "extraEffect": "If this holomem is downed, you get Life-2",
     "hasAlternativeArt": true,
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "ninomae ina'nis hbp02-064 #en #myth #painting #sea if this holomem is downed, you get life-2 アルカイックスマイル if you have 5 or more holomem with #myth in your archive, you may reattach 1 cheer from this holomem to your other holomem. then, if you have 10 or more, this arts gets +50."
   },
@@ -3546,14 +3821,17 @@
     "skills": [
       {
         "name": "良い響きですね",
+        "cost": "1 any color",
         "dmg": "30"
       },
       {
         "name": "アイドルソングというものは",
+        "cost": "1 Purple, 1 any color",
         "dmg": "60"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "nerissa ravencroft hbp02-066 #en #advent #singing #bird 良い響きですね  アイドルソングというものは "
   },
@@ -3569,10 +3847,12 @@
     "skills": [
       {
         "name": "コーヒーよりも紅茶です",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
     "hasFoils": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "nerissa ravencroft hbp02-067 #en #advent #singing #bird ネリッサとお茶会: look at the top 3 cards of your deck. reveal 1 holomem with #singing from among them, and add it to hand. then, return the remaining cards to the bottom of the deck in any order. コーヒーよりも紅茶です "
   },
@@ -3588,10 +3868,12 @@
     "skills": [
       {
         "name": "歌に宿りし愛情",
+        "cost": "1 Purple, 2 any color",
         "dmg": "80"
       }
     ],
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hBP02",
     "searchString": "nerissa ravencroft hbp02-068 #en #advent #singing #bird 音の魔人: during this turn, your [center holomem and collab holomem] with #singing get arts+30. 歌に宿りし愛情 "
   },
@@ -3607,11 +3889,13 @@
     "skills": [
       {
         "name": "『巫女』の『ホロ』！",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "magical girl miko hbp02-069 #holowitch #gen0 #magic みんなの願いを咲かせる祈り！: you may roll a die once:if it is odd, reveal 1 [red cheer or blue cheer] from your cheer deck, and send it to your back holomem. then, shuffle the cheer deck. this holomem cannot bloom. 『巫女』の『ホロ』！ "
   },
@@ -3627,11 +3911,13 @@
     "skills": [
       {
         "name": "『天使』の『ホロ』！",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "magical girl kanata hbp02-070 #holowitch #gen4 #magic この手を差し伸べ、つかんで握る！: you may roll a die once:if it is odd, reveal 1 [white cheer or green cheer] from your cheer deck, and send it to your back holomem. then, shuffle the cheer deck. this holomem cannot bloom. 『天使』の『ホロ』！ "
   },
@@ -3647,11 +3933,13 @@
     "skills": [
       {
         "name": "『姫』の『ホロ』！",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "magical girl luna hbp02-071 #holowitch #gen4 #magic 甘～い幸せ、おすそわけ！: you may roll a die once:if it is odd, reveal 1 [purple cheer or yellow cheer] from your cheer deck, and send it to your back holomem. then, shuffle the cheer deck. this holomem cannot bloom. 『姫』の『ホロ』！ "
   },
@@ -3667,11 +3955,13 @@
     "skills": [
       {
         "name": "『魔女』の『ホロ』！",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "magical girl shion hbp02-072 #holowitch #gen2 #magic 眠れる神秘を我が物に！: you may roll a die once:if it is even, reveal 1 event from your deck, and add it to hand. then, shuffle the deck. this holomem cannot bloom. 『魔女』の『ホロ』！ "
   },
@@ -3687,11 +3977,13 @@
     "skills": [
       {
         "name": "『海賊』の『ホロ』！",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "magical girl marine hbp02-073 #holowitch #gen3 #magic きらめくお宝、ロックオン！: you may roll a die once:if it is even, reveal 1 fan from your deck, and add it to hand. then, shuffle the deck. this holomem cannot bloom. 『海賊』の『ホロ』！ "
   },
@@ -3707,11 +3999,13 @@
     "skills": [
       {
         "name": "『シャチ』の『ホロ』！",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hBP02",
     "searchString": "magical girl chloe hbp02-074 #holowitch #holox #magic 荒波をゆく奔放の牙！！:you may roll a die once:if it is even, reveal 1 tool from your deck, and add it to hand. then, shuffle the deck. this holomem cannot bloom. 『シャチ』の『ホロ』！ "
   },
@@ -14774,14 +15068,11 @@
     "hp": 120,
     "color": "White",
     "tag": "#EN #Justice #Kemomimi #Painting",
-    "giftEffect": "ボナペティート -楽しい食事- : ■While this holomem does not have <Chattino> attached, this holomem requires -1 white cheer for its Arts.\n■While this holomem has <Chattino> attached, this holomem gets +30 HP.",
+    "giftEffect": "Buon Appetito -Enjoy Your Meal- ■While this holomem does not have <Chattino> attached, this holomem requires -1 white cheer for its Arts. ■While this holomem has <Chattino> attached, this holomem gets +30 HP.",
     "skills": [
       {
         "name": "この幸せをシェアしよう",
-        "description": "■While this holomem has <Chattino> attached, this holomem gets +30 HP."
-      },
-      {
-        "name": "Let's Share This Happiness",
+        "cost": "1 White",
         "dmg": 10,
         "description": "If this holomem does not have <Chattino> attached, attach 1 <Chattino> from your deck to this holomem. Then, shuffle the deck."
       }
@@ -14789,7 +15080,7 @@
     "hasFoils": true,
     "batonTouch": 1,
     "setName": "hBP08",
-    "searchString": "raora panthera hbp08-019 #en #justice #kemomimi #painting ボナペティート -楽しい食事- : ■while this holomem does not have <chattino> attached, this holomem requires -1 white cheer for its arts.\n■while this holomem has <chattino> attached, this holomem gets +30 hp. この幸せをシェアしよう ■while this holomem has <chattino> attached, this holomem gets +30 hp. let's share this happiness if this holomem does not have <chattino> attached, attach 1 <chattino> from your deck to this holomem. then, shuffle the deck."
+    "searchString": "raora panthera hbp08-019 #en #justice #kemomimi #painting buon appetito -enjoy your meal- ■while this holomem does not have <chattino> attached, this holomem requires -1 white cheer for its arts. ■while this holomem has <chattino> attached, this holomem gets +30 hp. この幸せをシェアしよう if this holomem does not have <chattino> attached, attach 1 <chattino> from your deck to this holomem. then, shuffle the deck."
   },
   {
     "cardNumber": "hBP08-020",
@@ -17642,9 +17933,11 @@
     "skills": [
       {
         "name": "ぬんぬん",
+        "cost": "1 any color",
         "dmg": 30
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD01",
     "searchString": "tokino sora hsd01-003 #jp #gen0 #singing ぬんぬん "
   },
@@ -17660,9 +17953,11 @@
     "skills": [
       {
         "name": "オンステージ!",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD01",
     "searchString": "tokino sora hsd01-004 #jp #gen0 #singing レッツダンス!: for the duration of this turn, your center holomen's art gains +20. オンステージ! "
   },
@@ -17677,13 +17972,16 @@
     "skills": [
       {
         "name": "ぬんぬんしよう",
+        "cost": "1 White",
         "dmg": 30
       },
       {
         "name": "あなたの心は･･･くもりのち晴れ!",
+        "cost": "1 White, 1 any color",
         "dmg": 50
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD01",
     "searchString": "tokino sora hsd01-005 #jp #gen0 #singing ぬんぬんしよう  あなたの心は･･･くもりのち晴れ! "
   },
@@ -17699,15 +17997,18 @@
     "skills": [
       {
         "name": "ドリームライブ",
+        "cost": "1 White, 1 any color",
         "dmg": 50
       },
       {
         "name": "SorAZ シンパシー",
+        "cost": "1 White, 1 Green, 1 any color",
         "dmg": "60+",
         "description": "When you have the Holomen 'AZKi' on your stage, this art gains +50."
       }
     ],
     "extraEffect": "If this holomem is downed, you get Life-2.",
+    "batonTouch": 2,
     "setName": "hSD01",
     "searchString": "tokino sora hsd01-006 #jp #gen0 #singing if this holomem is downed, you get life-2. ドリームライブ  soraz シンパシー when you have the holomen 'azki' on your stage, this art gains +50."
   },
@@ -17723,9 +18024,11 @@
     "skills": [
       {
         "name": "希望の化身",
+        "cost": "1 White",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD01",
     "searchString": "irys hsd01-007 #en #promise #singing hope!: look at your holopower. reveal one card from among them and add it to your hand. then, choose one card from your hand and turn it into holopower. 希望の化身 "
   },
@@ -17740,9 +18043,11 @@
     "skills": [
       {
         "name": "がんばれてえらい!",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD01",
     "searchString": "azki hsd01-008 #jp #gen0 #singing がんばれてえらい! "
   },
@@ -17758,9 +18063,11 @@
     "skills": [
       {
         "name": "ほいでほいで",
+        "cost": "1 any color",
         "dmg": 10
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD01",
     "searchString": "azki hsd01-009 #jp #gen0 #singing 広がる地図: you can roll a die once: if the result is 4 or lower, send the top card of your cheer deck to your back holomen. if the result is 1, you may also move this holomen to the back position. ほいでほいで "
   },
@@ -17775,9 +18082,11 @@
     "skills": [
       {
         "name": "きみとあてのない旅",
+        "cost": "1 Green, 1 any color",
         "dmg": 50
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD01",
     "searchString": "azki hsd01-010 #jp #gen0 #singing きみとあてのない旅 "
   },
@@ -17792,15 +18101,18 @@
     "skills": [
       {
         "name": "SorAZ グラビティ",
+        "cost": "1 Green",
         "dmg": 60,
         "description": "When the Holomen 'Tokino Sora' is on your stage, send the top card of your cheer deck to one of your Holomen."
       },
       {
         "name": "デスティニーソング",
+        "cost": "2 Green, 1 any color",
         "dmg": "100+",
         "description": "You can roll a die once: If the result is odd, this art gains +50. If the result is 1, this art gains an additional +50."
       }
     ],
+    "batonTouch": 2,
     "setName": "hSD01",
     "searchString": "azki hsd01-011 #jp #gen0 #singing soraz グラビティ when the holomen 'tokino sora' is on your stage, send the top card of your cheer deck to one of your holomen. デスティニーソング you can roll a die once: if the result is odd, this art gains +50. if the result is 1, this art gains an additional +50."
   },
@@ -17816,9 +18128,11 @@
     "skills": [
       {
         "name": "お絵かきたのしー!",
+        "cost": "1 Green",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD01",
     "searchString": "airani iofifteen hsd01-012 #id #idgen1 #painting 一緒にお絵かき!: you may send one white or green cheer card from your archive to your center holomen. お絵かきたのしー! "
   },
@@ -17833,11 +18147,13 @@
     "skills": [
       {
         "name": "越えたい未来",
+        "cost": "2 any color",
         "dmg": 50,
         "description": "You may roll a die once: If the result is odd, send the top card of your cheer deck to this Holomen. If the result is even, draw one card from your deck."
       }
     ],
     "extraEffect": "This Holomen is also treated as 'Tokino Sora' and 'AZKi'",
+    "batonTouch": 1,
     "setName": "hSD01",
     "searchString": "soraz hsd01-013 #jp #gen0 #singing this holomen is also treated as 'tokino sora' and 'azki' 越えたい未来 you may roll a die once: if the result is odd, send the top card of your cheer deck to this holomen. if the result is even, draw one card from your deck."
   },
@@ -17852,10 +18168,12 @@
     "skills": [
       {
         "name": "へい",
+        "cost": "1 White, 1 Green",
         "dmg": 30
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hSD01",
     "searchString": "amane kanata hsd01-014 #jp #gen4 #singing this holomem cannot bloom. へい "
   },
@@ -17871,10 +18189,12 @@
     "skills": [
       {
         "name": "ピュアピュアピュア~",
+        "cost": "1 any color",
         "dmg": 10
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hSD01",
     "searchString": "hakui koyori hsd01-015 #jp #holox #kemomimi soazko: when collaborating with 'tokino sora,' draw one card from your deck. when collaborating with 'azki,' send the top card of your cheer deck to your center holomen this holomem cannot bloom. ピュアピュアピュア~ "
   },
@@ -17990,9 +18310,11 @@
     "skills": [
       {
         "name": "Shiranui",
+        "cost": "1 any color",
         "dmg": 30
       }
     ],
+    "batonTouch": 0,
     "setName": "hSD02",
     "searchString": "nakiri ayame hsd02-003 #jp #gen2 #shooter karma : deal 10 special damage to your opponent's collab holomem. shiranui "
   },
@@ -18008,9 +18330,11 @@
     "skills": [
       {
         "name": "Delicious dangos",
+        "cost": "1 Red",
         "dmg": 30
       }
     ],
+    "batonTouch": 0,
     "setName": "hSD02",
     "searchString": "nakiri ayame hsd02-004 #jp #gen2 #shooter ayame's first anniversary : if this holomem has a poyoyo attached, your center holomem's arts gain +20 power this turn. delicious dangos "
   },
@@ -18025,13 +18349,16 @@
     "skills": [
       {
         "name": "Sleepy yo~",
+        "cost": "1 any color",
         "dmg": 20
       },
       {
         "name": "Otsunakiri",
+        "cost": "1 Red, 1 any color",
         "dmg": 60
       }
     ],
+    "batonTouch": 0,
     "setName": "hSD02",
     "searchString": "nakiri ayame hsd02-005 #jp #gen2 #shooter sleepy yo~  otsunakiri "
   },
@@ -18047,9 +18374,11 @@
     "skills": [
       {
         "name": "一緒にお祝い",
+        "cost": "1 Red",
         "dmg": 30
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD02",
     "searchString": "nakiri ayame hsd02-006 #jp #gen2 #shooter you may archive 1 card from your hand for the following effect: deal 20 special damage to your opponent's center or collab holomem. 一緒にお祝い "
   },
@@ -18065,9 +18394,11 @@
     "skills": [
       {
         "name": "輝いた余を見逃さないでね～～！！",
+        "cost": "1 any color",
         "dmg": 30
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD02",
     "searchString": "nakiri ayame hsd02-007 #jp #gen2 #shooter when this blooms from a debut holomem, look at the top 2 cards of your deck, reveal 1 and put it into your hand and archive the other.. 輝いた余を見逃さないでね～～！！ "
   },
@@ -18083,15 +18414,18 @@
     "skills": [
       {
         "name": "ファンシーバースデー",
+        "cost": "1 Red, 1 any color",
         "dmg": 40
       },
       {
         "name": "プレゼント何かな？",
+        "cost": "2 Red, 1 any color",
         "dmg": 50,
         "description": "You may Archive one card from your hand for the following effect: deal 50 special damage to your opponent's Center or Collab holomem."
       }
     ],
     "extraEffect": "If this holomem is downed, you get Life-2.",
+    "batonTouch": 1,
     "setName": "hSD02",
     "searchString": "nakiri ayame hsd02-008 #jp #gen2 #shooter if this holomem is downed, you get life-2. ファンシーバースデー  プレゼント何かな？ you may archive one card from your hand for the following effect: deal 50 special damage to your opponent's center or collab holomem."
   },
@@ -18106,16 +18440,19 @@
     "skills": [
       {
         "name": "あやふぶみの「あや」担当",
+        "cost": "1 Red",
         "dmg": 60
       },
       {
         "name": "余ーだ余",
+        "cost": "2 Red, 1 any color",
         "dmg": 40,
         "description": "You may Archive 1-3 cards from your hand for the following effect: deal 40 special damage for each card Archived to your opponent's Center holomem."
       }
     ],
     "imageSet": "hBP02",
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hSD02",
     "searchString": "nakiri ayame hsd02-009 #jp #gen2 #shooter あやふぶみの「あや」担当  余ーだ余 you may archive 1-3 cards from your hand for the following effect: deal 40 special damage for each card archived to your opponent's center holomem."
   },
@@ -18131,10 +18468,12 @@
     "skills": [
       {
         "name": "あやふぶみの「ふぶ」担当",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hSD02",
     "searchString": "shirakami fubuki hsd02-010 #jp #gen1 #gamers #kemomimi #painting you may return 1 mascot from your archive to your hand. this holomem cannot bloom. あやふぶみの「ふぶ」担当 "
   },
@@ -18150,10 +18489,12 @@
     "skills": [
       {
         "name": "あやふぶみの「み」担当",
+        "cost": "1 any color",
         "dmg": 10
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hSD02",
     "searchString": "ookami mio hsd02-011 #jp #gamers #kemomimi #cooking you may archive 1 holomem from your hand for the following effect: send the top card of your cheer deck to one of your debut holomems. this holomem cannot bloom. あやふぶみの「み」担当 "
   },
@@ -18236,9 +18577,11 @@
     "skills": [
       {
         "name": "僕をお家に入れてください",
+        "cost": "1 Blue",
         "dmg": 10
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD03",
     "searchString": "nekomata okayu hsd03-003 #jp #gamers #kemomimi if your center holomem has #gamers, deal 10 special damage to your opponent's center holomem and one of their back holomems. holomems downed with this effect do not reduce life. 僕をお家に入れてください "
   },
@@ -18254,9 +18597,11 @@
     "skills": [
       {
         "name": "学生猫",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD03",
     "searchString": "nekomata okayu hsd03-004 #jp #gamers #kemomimi you may reveal one card from the top of your deck. if that card is a debut or spot holomem, send the top card of your cheer deck to this holomem. then put that card on the bottom of your deck. 学生猫 "
   },
@@ -18271,13 +18616,16 @@
     "skills": [
       {
         "name": "ぎゅ～ってしてよね♡",
+        "cost": "1 any color",
         "dmg": 30
       },
       {
         "name": "えへへないたずら",
+        "cost": "1 Blue, 1 any color",
         "dmg": 50
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD03",
     "searchString": "nekomata okayu hsd03-005 #jp #gamers #kemomimi ぎゅ～ってしてよね♡  えへへないたずら "
   },
@@ -18292,14 +18640,17 @@
     "skills": [
       {
         "name": "猫かぶり",
+        "cost": "1 Blue",
         "dmg": 30
       },
       {
         "name": "しゃー",
+        "cost": "1 Blue, 1 any color",
         "dmg": 40,
         "description": "You may Archive 1 Blue Cheer from this holomem for the following effect: deal 10 special damage to your opponent's Center holomem and one of their Back holomems."
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD03",
     "searchString": "nekomata okayu hsd03-006 #jp #gamers #kemomimi 猫かぶり  しゃー you may archive 1 blue cheer from this holomem for the following effect: deal 10 special damage to your opponent's center holomem and one of their back holomems."
   },
@@ -18315,9 +18666,11 @@
     "skills": [
       {
         "name": "全力で僕なりの歌、お届けします！",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD03",
     "searchString": "nekomata okayu hsd03-007 #jp #gamers #kemomimi send a cheer from your archive to one of your holomems with #gamers. 全力で僕なりの歌、お届けします！ "
   },
@@ -18334,10 +18687,12 @@
     "skills": [
       {
         "name": "いちばんえらい猫又おかゆ～",
+        "cost": "1 Blue, 1 any color",
         "dmg": 60
       }
     ],
     "extraEffect": "If this holomem is downed, you get Life-2.",
+    "batonTouch": 2,
     "setName": "hSD03",
     "searchString": "nekomata okayu hsd03-008 #jp #gamers #kemomimi (center position only) your takane lui, ookami mio, shirakami fubuki, la+ darknesss, and inugami korone's arts gain +20 power. if this holomem is downed, you get life-2. いちばんえらい猫又おかゆ～ "
   },
@@ -18352,16 +18707,19 @@
     "skills": [
       {
         "name": "MOGMOG",
+        "cost": "1 Blue, 1 any color",
         "dmg": 60
       },
       {
         "name": "おかゆ～",
+        "cost": "2 Blue, 2 any color",
         "dmg": 100,
         "description": "You may Archive 2 Blue Cheers from this holomem for the following effect: deal 30 special damage to your opponent's Center holomem and one of their Back holomems."
       }
     ],
     "imageSet": "hBP02",
     "hasFullArt": true,
+    "batonTouch": 2,
     "setName": "hSD03",
     "searchString": "nekomata okayu hsd03-009 #jp #gamers #kemomimi mogmog  おかゆ～ you may archive 2 blue cheers from this holomem for the following effect: deal 30 special damage to your opponent's center holomem and one of their back holomems."
   },
@@ -18377,10 +18735,12 @@
     "skills": [
       {
         "name": "おらよ～",
+        "cost": "1 any color",
         "dmg": 30
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hSD03",
     "searchString": "inugami korone hsd03-010 #jp #gamers #kemomimi if your center holomem is nekomata okayu, reveal 1 fan or mascot from your deck and put it into your hand. then shuffle your deck. this holomem cannot bloom. おらよ～ "
   },
@@ -18395,15 +18755,18 @@
     "skills": [
       {
         "name": "泥棒建設農業大臣",
+        "cost": "1 any color",
         "dmg": 10
       },
       {
         "name": "絶対、食わせてみせるわ",
+        "cost": "2 any color",
         "dmg": 20,
         "description": "If you have 2 or less cards in your hand, draw from your Deck until you have 3 cards in your hand."
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hSD03",
     "searchString": "la+ darknesss hsd03-011 #jp #holox #shooter this holomem cannot bloom. 泥棒建設農業大臣  絶対、食わせてみせるわ if you have 2 or less cards in your hand, draw from your deck until you have 3 cards in your hand."
   },
@@ -18486,9 +18849,11 @@
     "skills": [
       {
         "name": "マイキュ～トスチュ～デ～ンツ",
+        "cost": "1 Purple, 1 any color",
         "dmg": 30
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD04",
     "searchString": "yuzuki choco hsd04-003 #jp #gen2 #cooking if your oshi holomem is purple, draw 1 card from your deck. マイキュ～トスチュ～デ～ンツ "
   },
@@ -18504,9 +18869,11 @@
     "skills": [
       {
         "name": "いっぱい食べてね♡",
+        "cost": "1 Purple",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD04",
     "searchString": "yuzuki choco hsd04-004 #jp #gen2 #cooking you may archive 1 card from your hand for the following effect: reveal an event with #food from your deck and put it into your hand. then shuffle your deck. いっぱい食べてね♡ "
   },
@@ -18521,13 +18888,16 @@
     "skills": [
       {
         "name": "おつかれいと……",
+        "cost": "1 Purple",
         "dmg": 20
       },
       {
         "name": "あ～む（ﾁｭｯ）",
+        "cost": "1 Purple, 1 any color",
         "dmg": 40
       }
     ],
+    "batonTouch": 0,
     "setName": "hSD04",
     "searchString": "yuzuki choco hsd04-005 #jp #gen2 #cooking おつかれいと……  あ～む（ﾁｭｯ） "
   },
@@ -18542,9 +18912,11 @@
     "skills": [
       {
         "name": "禁断のキッス",
+        "cost": "1 Purple, 1 any color",
         "dmg": 30
       }
     ],
+    "batonTouch": 0,
     "setName": "hSD04",
     "searchString": "yuzuki choco hsd04-006 #jp #gen2 #cooking 禁断のキッス "
   },
@@ -18560,10 +18932,12 @@
     "skills": [
       {
         "name": "大好き！ちゅっ♡",
+        "cost": "2 any color",
         "dmg": 30,
         "description": "Restore 20HP to one of your Back holomems."
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD04",
     "searchString": "yuzuki choco hsd04-007 #jp #gen2 #cooking you may return a non-limited event card from your archive to your hand. 大好き！ちゅっ♡ restore 20hp to one of your back holomems."
   },
@@ -18579,15 +18953,18 @@
     "skills": [
       {
         "name": "がんばってつくったよ",
+        "cost": "1 Purple, 1 any color",
         "dmg": 40
       },
       {
         "name": "召し上がれ",
+        "cost": "2 Purple, 1 any color",
         "dmg": "60+",
         "description": "You may return one Event with #Food from your Archive to your hand: if you do, this Art gains +20 power."
       }
     ],
     "extraEffect": "If this holomem is downed, you get Life-2.",
+    "batonTouch": 1,
     "setName": "hSD04",
     "searchString": "yuzuki choco hsd04-008 #jp #gen2 #cooking if this holomem is downed, you get life-2. がんばってつくったよ  召し上がれ you may return one event with #food from your archive to your hand: if you do, this art gains +20 power."
   },
@@ -18602,16 +18979,19 @@
     "skills": [
       {
         "name": "33… 22… 11…",
+        "cost": "1 Purple, 1 any color",
         "dmg": 50
       },
       {
         "name": "あくとっ",
+        "cost": "2 Purple, 1 any color",
         "dmg": 60,
         "description": "For each Event card you've played during this turn, this Art gains +40 power."
       }
     ],
     "imageSet": "hBP02",
     "hasFullArt": true,
+    "batonTouch": 1,
     "setName": "hSD04",
     "searchString": "yuzuki choco hsd04-009 #jp #gen2 #cooking 33… 22… 11…  あくとっ for each event card you've played during this turn, this art gains +40 power."
   },
@@ -18627,10 +19007,12 @@
     "skills": [
       {
         "name": "地獄くじ引き、引かせるぞっ",
+        "cost": "2 any color",
         "dmg": 20
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hSD04",
     "searchString": "oozora subaru hsd04-010 #jp #gen2 if your center holomem is yuzuki choco, you may send one cheer from your archive to any of your holomems. this holomem cannot bloom. 地獄くじ引き、引かせるぞっ "
   },
@@ -18646,10 +19028,12 @@
     "skills": [
       {
         "name": "んな～～～～～～～～",
+        "cost": "1 any color",
         "dmg": 10
       }
     ],
     "extraEffect": "This holomem cannot Bloom.",
+    "batonTouch": 1,
     "setName": "hSD04",
     "searchString": "himemori luna hsd04-011 #jp #gen4  look at your holo power cards, reveal one, and put it into your hand. then put a card from your hand into your holo power. this holomem cannot bloom. んな～～～～～～～～ "
   },
@@ -18711,10 +19095,12 @@
     "skills": [
       {
         "name": "ぶんぶんぶーん！",
+        "cost": "1 any color",
         "dmg": 30
       }
     ],
     "extraEffect": "You may include any number of this holomem in the deck.",
+    "batonTouch": 1,
     "setName": "hSD05",
     "searchString": "todoroki hajime hsd05-002 #dev_is #regloss #baby you may include any number of this holomem in the deck. ぶんぶんぶーん！ "
   },
@@ -18730,9 +19116,11 @@
     "skills": [
       {
         "name": "お洒落番長",
+        "cost": "1 any color",
         "dmg": 30
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD05",
     "searchString": "todoroki hajime hsd05-003 #dev_is #regloss #baby こんちくわ: during this turn, your center holomem with #regloss gains +10 arts. お洒落番長 "
   },
@@ -18747,9 +19135,11 @@
     "skills": [
       {
         "name": "ReGLOSSの番長",
+        "cost": "1 White, 1 any color",
         "dmg": 40
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD05",
     "searchString": "todoroki hajime hsd05-004 #dev_is #regloss #baby reglossの番長 "
   },
@@ -18764,13 +19154,16 @@
     "skills": [
       {
         "name": "夜路紫駆！",
+        "cost": "1 White",
         "dmg": 40
       },
       {
         "name": "うぃー！",
+        "cost": "2 any color",
         "dmg": 60
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD05",
     "searchString": "todoroki hajime hsd05-005 #dev_is #regloss #baby 夜路紫駆！  うぃー！ "
   },
@@ -18785,14 +19178,17 @@
     "skills": [
       {
         "name": "足取り軽め、轟はじめ",
+        "cost": "1 any color",
         "dmg": 30
       },
       {
         "name": "ありあとりゃあすっ",
+        "cost": "1 White, 1 any color",
         "dmg": "50+",
         "description": "If you have 3 or more Holomems with different card names with #ReGLOSS on your stage, this arts gains +20."
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD05",
     "searchString": "todoroki hajime hsd05-006 #dev_is #regloss #baby 足取り軽め、轟はじめ  ありあとりゃあすっ if you have 3 or more holomems with different card names with #regloss on your stage, this arts gains +20."
   },
@@ -18808,9 +19204,11 @@
     "skills": [
       {
         "name": "度胸、愛嬌、最強",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD05",
     "searchString": "todoroki hajime hsd05-007 #dev_is #regloss #baby 宇宙一の番長を目指すなんでも屋 : draw 1 card from your deck. 度胸、愛嬌、最強 "
   },
@@ -18826,11 +19224,13 @@
     "skills": [
       {
         "name": "……なんか、番長っぽくなってきたかも！",
+        "cost": "2 White",
         "dmg": 50,
         "description": "During this turn, the arts of one Debut Holomem with #ReGLOSS on your stage gains +40."
       }
     ],
     "extraEffect": "If this holomem is downed, you get Life-2.",
+    "batonTouch": 2,
     "setName": "hSD05",
     "searchString": "todoroki hajime hsd05-008 #dev_is #regloss #baby if this holomem is downed, you get life-2. ……なんか、番長っぽくなってきたかも！ during this turn, the arts of one debut holomem with #regloss on your stage gains +40."
   },
@@ -18868,10 +19268,12 @@
     "skills": [
       {
         "name": "ちょいと一席",
+        "cost": "1 any color",
         "dmg": 20,
         "description": "You may send 1 Cheer from your Archive to your Holomem with #ReGLOSS."
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD05",
     "searchString": "juufuutei raden hsd05-010 #dev_is #regloss #alcohol ちょいと一席 you may send 1 cheer from your archive to your holomem with #regloss."
   },
@@ -18886,9 +19288,11 @@
     "skills": [
       {
         "name": "任せておきなさい！",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD05",
     "searchString": "ichijou ririka hsd05-011 #dev_is #regloss #cooking 任せておきなさい！ "
   },
@@ -18904,9 +19308,11 @@
     "skills": [
       {
         "name": "世界一かわいいよ",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD05",
     "searchString": "hiodoshi ao hsd05-012 #dev_is #regloss #painting ドーンッ！: deal 10 special damage to your opponent's center holomem or one of their back holomems. 世界一かわいいよ "
   },
@@ -18922,9 +19328,11 @@
     "skills": [
       {
         "name": "任せておきなさい！",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD05",
     "searchString": "otonose kanade hsd05-013 #dev_is #regloss #singing クレッシェンドな日々　:you may move 1 cheer on your stage to one of your holomems other than this holomem. 任せておきなさい！ "
   },
@@ -18968,9 +19376,11 @@
     "skills": [
       {
         "name": "いえす！ｼﾞｬｷﾝｼﾞｬｷﾝ！！",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD06",
     "searchString": "kazama iroha hsd06-002 #jp #holox のっと！ﾆﾝﾆﾝ！！ restore 10hp to one of your holomems. いえす！ｼﾞｬｷﾝｼﾞｬｷﾝ！！ "
   },
@@ -18985,10 +19395,12 @@
     "skills": [
       {
         "name": "一刀両断叩き斬る",
+        "cost": "1 Green",
         "dmg": "30+",
         "description": "If your Center holomem is damaged, this Art gains +10 power."
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD06",
     "searchString": "kazama iroha hsd06-003 #jp #holox 一刀両断叩き斬る if your center holomem is damaged, this art gains +10 power."
   },
@@ -19003,9 +19415,11 @@
     "skills": [
       {
         "name": "照れ屋な用心棒",
+        "cost": "1 Green, 1 any color",
         "dmg": 60
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD06",
     "searchString": "kazama iroha hsd06-004 #jp #holox 照れ屋な用心棒 "
   },
@@ -19021,9 +19435,11 @@
     "skills": [
       {
         "name": "かざまといっしょ！",
+        "cost": "1 Green",
         "dmg": 30
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD06",
     "searchString": "kazama iroha hsd06-005 #jp #holox かざまとおでかけ : send the top card of your cheer deck to your holomem with $holox かざまといっしょ！ "
   },
@@ -19040,10 +19456,12 @@
     "skills": [
       {
         "name": "刀の錆になるでござる！",
+        "cost": "1 Green, 1 any color",
         "dmg": 50
       }
     ],
     "extraEffect": "If this holomem is downed, you get Life-2.",
+    "batonTouch": 2,
     "setName": "hSD06",
     "searchString": "kazama iroha hsd06-006 #jp #holox サムライ少女　: reveal 1 <chakimaru> or <pokobe> from your deck and put it into your hand. then shuffle your deck. if this holomem is downed, you get life-2. 刀の錆になるでござる！ "
   },
@@ -19082,9 +19500,11 @@
     "skills": [
       {
         "name": "どやぁ",
+        "cost": "1 any color",
         "dmg": 10
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD06",
     "searchString": "hakui koyori hsd06-008 #jp #holox #kemomimi ずのー！　: if your center holomem has $holox and you have 5 or fewer cards in your hand, draw 1 card from your deck. どやぁ "
   },
@@ -19099,10 +19519,12 @@
     "skills": [
       {
         "name": "頼れる女幹部",
+        "cost": "1 any color",
         "dmg": 20,
         "description": "You may return 1 Debut holomem with $HoloX from your Archive to your hand."
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD06",
     "searchString": "takane lui hsd06-009 #jp #holox #bird #alcohol 頼れる女幹部 you may return 1 debut holomem with $holox from your archive to your hand."
   },
@@ -19118,10 +19540,12 @@
     "skills": [
       {
         "name": "世界一かわいいよ",
-        "dmg": 20,
+        "cost": "1 any color",
+        "dmg": "30+",
         "description": "[Collab position only] If you have used your SP Oshi Skill during this turn's Main Step, this Art gains +50 power."
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD06",
     "searchString": "la+ darknesss hsd06-010 #jp #holox #shooter ドーンッ！: deal 10 special damage to your opponent's center holomem or one of their back holomems. 世界一かわいいよ [collab position only] if you have used your sp oshi skill during this turn's main step, this art gains +50 power."
   },
@@ -19201,9 +19625,11 @@
     "skills": [
       {
         "name": "キミといっしょにお出かけ",
+        "cost": "1 Yellow",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD07",
     "searchString": "shiranui flare hsd07-003 #jp #gen3 #half-elf 大切な仲間たちと: if there are 5 or fewer holomems on your stage, you may reveal a debut <omaru polka>, <sakura miko>, <hoshimachi suisei>, or <shirogane noel> from your deck and put it onto your stage. then shuffle your deck. キミといっしょにお出かけ "
   },
@@ -19218,10 +19644,12 @@
     "skills": [
       {
         "name": "ワンダフルライフ",
+        "cost": "1 Yellow",
         "dmg": "30+",
         "description": "If you have fewer cards in hand than your opponent, this Art gains +10 power."
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD07",
     "searchString": "shiranui flare hsd07-004 #jp #gen3 #half-elf ワンダフルライフ if you have fewer cards in hand than your opponent, this art gains +10 power."
   },
@@ -19236,13 +19664,16 @@
     "skills": [
       {
         "name": "私からキミへ",
+        "cost": "1 Yellow",
         "dmg": 30
       },
       {
         "name": "キミとティータイム",
+        "cost": "1 Yellow, 1 any color",
         "dmg": 50
       }
     ],
+    "batonTouch": 2,
     "setName": "hSD07",
     "searchString": "shiranui flare hsd07-005 #jp #gen3 #half-elf 私からキミへ  キミとティータイム "
   },
@@ -19258,17 +19689,14 @@
     "skills": [
       {
         "name": "キミを1番好きなのはわたしぃ～♡",
+        "cost": "1 any color",
         "dmg": "30+",
         "description": "If you have 3 or less LIFE, this Art gains +30 power."
-      },
-      {
-        "name": "ありあとりゃあすっ",
-        "dmg": "50+",
-        "description": "If you have 3 or more Holomems with different card names with #ReGLOSS on your stage, this arts gains +20."
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD07",
-    "searchString": "shiranui flare hsd07-006 #jp #gen3 #half-elf エルフレンドのさえずり: reveal 1 <elfriend> from your deck and put it into your hand. then shuffle your deck. キミを1番好きなのはわたしぃ～♡ if you have 3 or less life, this art gains +30 power. ありあとりゃあすっ if you have 3 or more holomems with different card names with #regloss on your stage, this arts gains +20."
+    "searchString": "shiranui flare hsd07-006 #jp #gen3 #half-elf エルフレンドのさえずり: reveal 1 <elfriend> from your deck and put it into your hand. then shuffle your deck. キミを1番好きなのはわたしぃ～♡ if you have 3 or less life, this art gains +30 power."
   },
   {
     "cardNumber": "hSD07-007",
@@ -19304,11 +19732,13 @@
     "skills": [
       {
         "name": "エルフレパーティー",
+        "cost": "1 Yellow, 1 any color",
         "dmg": 50,
         "description": "You may attach 1 Elfriend from your Archive to this holomem."
       }
     ],
     "extraEffect": "If this holomem is downed, you get Life-2.",
+    "batonTouch": 2,
     "setName": "hSD07",
     "searchString": "shiranui flare hsd07-008 #jp #gen3 #half-elf if this holomem is downed, you get life-2. エルフレパーティー you may attach 1 elfriend from your archive to this holomem."
   },
@@ -19347,9 +19777,11 @@
     "skills": [
       {
         "name": "いっぱい建築したいです",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD07",
     "searchString": "shirogane noel hsd07-010 #jp #gen3 #alcohol 大物の確証: your center holomem's arts gain +10 power until the end of this turn. いっぱい建築したいです "
   },
@@ -19365,9 +19797,11 @@
     "skills": [
       {
         "name": "魔王軍は無くなりました",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD07",
     "searchString": "sakura miko hsd07-011 #jp #gen0 #baby バーニン♪ バーニン♪: deal 10 special damage to your opponent's center holomem. 魔王軍は無くなりました "
   },
@@ -19383,9 +19817,11 @@
     "skills": [
       {
         "name": "骨を埋める覚悟　",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 0,
     "setName": "hSD07",
     "searchString": "omaru polka hsd07-012 #jp #gen5 #kemomimi 僕らに水を: if your center holomem is shiranui flare and you have fewer cards in hand than your opponent, draw 1 card from your deck. 骨を埋める覚悟　 "
   },
@@ -19401,9 +19837,11 @@
     "skills": [
       {
         "name": "任せて雇ってください‼",
+        "cost": "1 any color",
         "dmg": 20
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD07",
     "searchString": "hoshimachi suisei hsd07-013 #dev_is #regloss #singing 飯が底をつきそう……:if your center holomem is shiranui flare, you may send 1 cheer from your archive to any of your holomems other than this one. 任せて雇ってください‼ "
   },
@@ -19457,9 +19895,11 @@
     "skills": [
       {
         "name": "浴衣似合うでしょ",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD08",
     "searchString": "amane kanata hsd08-002 #jp #gen4 #singing #summer ホロサマー: look at the top 5 cards of your deck. reveal 1 debut holomem with #summer from among them, and add the revealed card to hand. then, return the remaining cards to the bottom of the deck in any order. 浴衣似合うでしょ "
   },
@@ -19475,10 +19915,12 @@
     "skills": [
       {
         "name": "みんなのスパダリ",
+        "cost": "1 White, 2 any color",
         "dmg": "100+, +50 vs green",
         "description": "This Arts gets +10 for each of your holomem with #Summer."
       }
     ],
+    "batonTouch": 2,
     "setName": "hSD08",
     "searchString": "amane kanata hsd08-003 #jp #gen4 #singing 相談のるよ: reveal 1 debut holomem with #gen4 from your deck, and add it to hand. then, shuffle the deck. みんなのスパダリ this arts gets +10 for each of your holomem with #summer."
   },
@@ -19494,10 +19936,12 @@
     "skills": [
       {
         "name": "きみの背中に追いつけるように",
+        "cost": "2 White, 1 any color",
         "dmg": "120, +50 vs red",
         "description": "[Once per turn] If your opponent's center holomem is downed by this Arts, deal 40 Special Damage to 1 of your opponent's 2nd holomem."
       }
     ],
+    "batonTouch": 2,
     "setName": "hSD08",
     "searchString": "amane kanata hsd08-004 #jp #gen4 #singing エンジェルウィンド : [center position only] your collab debut holomem with #gen4 gets arts+40. きみの背中に追いつけるように [once per turn] if your opponent's center holomem is downed by this arts, deal 40 special damage to 1 of your opponent's 2nd holomem."
   },
@@ -19513,9 +19957,11 @@
     "skills": [
       {
         "name": "お祭りなのら",
+        "cost": "1 any color",
         "dmg": "30"
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD08",
     "searchString": "himemori luna hsd08-005 #jp #gen4 #baby #summer なんでも入る巾着: [collab position only]if your holomem is downed during your opponent's turn, if you have equal or less life than your opponent, your may return 1 item with \"pc\" in its name from your archive to hand. お祭りなのら "
   },
@@ -19531,9 +19977,11 @@
     "skills": [
       {
         "name": "トワに見惚れちゃった？",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD08",
     "searchString": "tokoyami towa hsd08-006 #jp #gen4 #singing #shooter #summer 花火見ていく？: deal 10 special damage to your opponent's center holomem. if you are going second and this is your first turn, deal 20 special damage instead. トワに見惚れちゃった？ "
   },
@@ -19549,9 +19997,11 @@
     "skills": [
       {
         "name": "わたあめおいしいねぇ",
+        "cost": "1 any color",
         "dmg": "10"
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD08",
     "searchString": "tsunomaki watame hsd08-007 #jp #gen4 #animalears #singing #summer みんなと夏祭り: you may send 1 cheer from your archive to your 2nd holomem with #gen4. わたあめおいしいねぇ "
   },
@@ -19586,9 +20036,11 @@
     "skills": [
       {
         "name": "船長も一緒にい・か・が？",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD09",
     "searchString": "houshou marine hsd09-002 #jp #gen3 #painting #sea #summer ホロサマー: look at the top 5 cards of your deck. reveal 1 debut holomem with #summer from among them, and add the revealed card to hand. then, return the remaining cards to the bottom of the deck in any order. 船長も一緒にい・か・が？ "
   },
@@ -19605,9 +20057,11 @@
     "skills": [
       {
         "name": "マリンに任せろってマジで",
+        "cost": "1 Red, 1 any color",
         "dmg": "50"
       }
     ],
+    "batonTouch": 2,
     "setName": "hSD09",
     "searchString": "houshou marine hsd09-003 #jp #gen3 #painting #sea みんな優勝するぞ: deal 10 special damage for each differently-named holomem with #gen3 on your stage to your opponent's center holomem. マリンに任せろってマジで "
   },
@@ -19622,15 +20076,18 @@
     "skills": [
       {
         "name": "3期生の絆",
+        "cost": "1 Red",
         "dmg": "60, +50 vs Yellow",
         "description": "If your stage has a holomem with #Gen3 other than <Houshou Marine>, draw 1 card from your deck."
       },
       {
         "name": "キミたちと水平線の向こう側へ",
+        "cost": "2 Red, 1 any color",
         "dmg": "120, +50 vs yellow",
         "description": "Deal 10 Special Damage for each differently-named holomem with #Gen3 on your stage to your opponent's center holomem and collab holomem."
       }
     ],
+    "batonTouch": 2,
     "setName": "hSD09",
     "searchString": "houshou marine hsd09-004 #jp #gen3 #painting #sea 3期生の絆 if your stage has a holomem with #gen3 other than <houshou marine>, draw 1 card from your deck. キミたちと水平線の向こう側へ deal 10 special damage for each differently-named holomem with #gen3 on your stage to your opponent's center holomem and collab holomem."
   },
@@ -19646,9 +20103,11 @@
     "skills": [
       {
         "name": "夏が来たぞー！",
+        "cost": "1 any color",
         "dmg": "20"
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD09",
     "searchString": "shirogane noel hsd09-005 #jp #gen3 #alcohol #summer 3期生の海の家: your center 2nd holomem gets arts+10 for each of your differently-named holomem with #gen3. 夏が来たぞー！ "
   },
@@ -19664,9 +20123,11 @@
     "skills": [
       {
         "name": "◇ご注文のかき氷ぺこ！",
+        "cost": "1 any color",
         "dmg": "10"
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD09",
     "searchString": "usada pekora hsd09-006 #jp #gen3 #kemomimi #summer あんたたち働くぺこー！: if you are going second and this is your first turn, send the top card of your cheer deck to your holomem with #gen3. ◇ご注文のかき氷ぺこ！ "
   },
@@ -19682,9 +20143,11 @@
     "skills": [
       {
         "name": "冷たいものお待ちどうさま♪",
+        "cost": "3 any color",
         "dmg": "80"
       }
     ],
+    "batonTouch": 1,
     "setName": "hSD09",
     "searchString": "shiranui flare hsd09-007 #jp #gen3 #half-elf #summer クールダウンしよ: [collab position only]if this holomem is downed during your opponent's turn, if you have less life than your opponent, you take -1 life damage. 冷たいものお待ちどうさま♪ "
   },

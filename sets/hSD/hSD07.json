@@ -53,9 +53,11 @@
         "skills": [
             {
                 "name": "キミといっしょにお出かけ",
+                "cost": "1 Yellow",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-004",
@@ -68,10 +70,12 @@
         "skills": [
             {
                 "name": "ワンダフルライフ",
+                "cost": "1 Yellow",
                 "dmg": "30+",
                 "description": "If you have fewer cards in hand than your opponent, this Art gains +10 power."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-005",
@@ -84,13 +88,16 @@
         "skills": [
             {
                 "name": "私からキミへ",
+                "cost": "1 Yellow",
                 "dmg": 30
             },
             {
                 "name": "キミとティータイム",
+                "cost": "1 Yellow, 1 any color",
                 "dmg": 50
             }
-        ]
+        ],
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD07-006",
@@ -104,15 +111,12 @@
         "skills": [
             {
                 "name": "キミを1番好きなのはわたしぃ～♡",
+                "cost": "1 any color",
                 "dmg": "30+",
                 "description": "If you have 3 or less LIFE, this Art gains +30 power."
-            },
-            {
-                "name": "ありあとりゃあすっ",
-                "dmg": "50+",
-                "description": "If you have 3 or more Holomems with different card names with #ReGLOSS on your stage, this arts gains +20."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-007",
@@ -146,11 +150,13 @@
         "skills": [
             {
                 "name": "エルフレパーティー",
+                "cost": "1 Yellow, 1 any color",
                 "dmg": 50,
                 "description": "You may attach 1 Elfriend from your Archive to this holomem."
             }
         ],
-        "extraEffect": "If this holomem is downed, you get Life-2."
+        "extraEffect": "If this holomem is downed, you get Life-2.",
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD07-009",
@@ -185,9 +191,11 @@
         "skills": [
             {
                 "name": "いっぱい建築したいです",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-011",
@@ -201,9 +209,11 @@
         "skills": [
             {
                 "name": "魔王軍は無くなりました",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-012",
@@ -217,9 +227,11 @@
         "skills": [
             {
                 "name": "骨を埋める覚悟　",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 0
     },
     {
         "cardNumber": "hSD07-013",
@@ -233,9 +245,11 @@
         "skills": [
             {
                 "name": "任せて雇ってください‼",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-014",

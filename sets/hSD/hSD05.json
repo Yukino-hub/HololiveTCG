@@ -27,10 +27,12 @@
         "skills": [
             {
                 "name": "ぶんぶんぶーん！",
+                "cost": "1 any color",
                 "dmg": 30
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD05-003",
@@ -44,9 +46,11 @@
         "skills": [
             {
                 "name": "お洒落番長",
+                "cost": "1 any color",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD05-004",
@@ -59,9 +63,11 @@
         "skills": [
             {
                 "name": "ReGLOSSの番長",
+                "cost": "1 White, 1 any color",
                 "dmg": 40
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD05-005",
@@ -74,13 +80,16 @@
         "skills": [
             {
                 "name": "夜路紫駆！",
+                "cost": "1 White",
                 "dmg": 40
             },
             {
                 "name": "うぃー！",
+                "cost": "2 any color",
                 "dmg": 60
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD05-006",
@@ -93,14 +102,17 @@
         "skills": [
             {
                 "name": "足取り軽め、轟はじめ",
+                "cost": "1 any color",
                 "dmg": 30
             },
             {
                 "name": "ありあとりゃあすっ",
+                "cost": "1 White, 1 any color",
                 "dmg": "50+",
                 "description": "If you have 3 or more Holomems with different card names with #ReGLOSS on your stage, this arts gains +20."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD05-007",
@@ -114,9 +126,11 @@
         "skills": [
             {
                 "name": "度胸、愛嬌、最強",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD05-008",
@@ -130,11 +144,13 @@
         "skills": [
             {
                 "name": "……なんか、番長っぽくなってきたかも！",
+                "cost": "2 White",
                 "dmg": 50,
                 "description": "During this turn, the arts of one Debut Holomem with #ReGLOSS on your stage gains +40."
             }
         ],
-        "extraEffect": "If this holomem is downed, you get Life-2."
+        "extraEffect": "If this holomem is downed, you get Life-2.",
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD05-009",
@@ -168,10 +184,12 @@
         "skills": [
             {
                 "name": "ちょいと一席",
+                "cost": "1 any color",
                 "dmg": 20,
                 "description": "You may send 1 Cheer from your Archive to your Holomem with #ReGLOSS."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD05-011",
@@ -184,9 +202,11 @@
         "skills": [
             {
                 "name": "任せておきなさい！",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD05-012",
@@ -200,9 +220,11 @@
         "skills": [
             {
                 "name": "世界一かわいいよ",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD05-013",
@@ -216,9 +238,11 @@
         "skills": [
             {
                 "name": "任せておきなさい！",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD05-014",
