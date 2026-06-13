@@ -36,6 +36,11 @@ document.addEventListener('DOMContentLoaded', function() {
             return getBaseImageUrl(card);
         }
 
+        // Per-card HR image override (non-standard HR filename, e.g. _02_HR)
+        if ((holomenRareCheckbox.checked || rarityFilter.value === 'HR') && card.hasHolomenRare && card.manualUrlHR) {
+            return card.manualUrlHR;
+        }
+
         const imageTypeConfigs = [{
             condition: signedCheckbox.checked && card.hasSigned,
             directory: card.imageSet || card.setName,

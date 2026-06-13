@@ -168,7 +168,7 @@
         "cardNumber": "hBP03-010",
         "name": "Himemori Luna",
         "rarity": "U",
-        "bloomLevel": "",
+        "bloomLevel": "Debut",
         "hp": 80,
         "color": "White",
         "tag": "#JP #Gen4 #Baby",
@@ -427,7 +427,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Green",
-        "tag": "#JP #HoloX",
+        "tag": "#JP #holoX",
         "bloomEffect": "風真が護る:　You may send 1 cheer each from your archive to 1 each of your [〈Kazama Iroha〉 and 〈Hoshimachi Suisei〉].",
         "skills": [
             {
@@ -455,6 +455,7 @@
         ],
         "hasHolomenRare": true,
         "imageSet": "hBP07",
+        "manualUrlHR": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP03-025_02_HR.png",
         "extraEffect": "You may include any number of this holomem in the deck."
     },
     {
@@ -629,7 +630,7 @@
         "bloomLevel": "1st",
         "hp": 240,
         "color": "Red",
-        "tag": "#JP #HoloX #Bird #Alcohol",
+        "tag": "#JP #holoX #Bird #Alcohol",
         "buzz": true,
         "skills": [
             {
@@ -794,7 +795,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Blue",
-        "tag": "#JP #Gen0 #singing",
+        "tag": "#JP #Gen0 #Singing",
         "bloomEffect": "プラネットステージ: Look at the top 4 cards of your deck. Reveal 1 〈Hoshimachi Suisei〉 from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order.",
         "skills": [
             {
@@ -931,7 +932,7 @@
         "bloomLevel": "Debut",
         "hp": 110,
         "color": "Purple",
-        "tag": "#JP #Gen4 #singing #Shooter",
+        "tag": "#JP #Gen4 #Singing #Shooter",
         "skills": [
             {
                 "name": "こんやっぴー",
@@ -947,7 +948,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Purple",
-        "tag": "#JP #Gen4 #singing #Shooter",
+        "tag": "#JP #Gen4 #Singing #Shooter",
         "skills": [
             {
                 "name": "そういう感じなんだ",
@@ -964,7 +965,7 @@
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Purple",
-        "tag": "#JP #Gen4 #singing #Shooter",
+        "tag": "#JP #Gen4 #Singing #Shooter",
         "skills": [
             {
                 "name": "おつやっぴー　",
@@ -984,7 +985,7 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Purple",
-        "tag": "#JP #Gen4 #singing #Shooter",
+        "tag": "#JP #Gen4 #Singing #Shooter",
         "collabEffect": "トワにしか出せない色: Deal 20 special damage to your Opponent's Center or Collab holomem.",
         "skills": [
             {
@@ -1002,7 +1003,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Purple",
-        "tag": "#JP #Gen4 #singing #Shooter",
+        "tag": "#JP #Gen4 #Singing #Shooter",
         "skills": [
             {
                 "name": "トワとお家デートしたっていい",
@@ -1023,7 +1024,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Purple",
-        "tag": "#JP #Gen4 #singing #Shooter",
+        "tag": "#JP #Gen4 #Singing #Shooter",
         "skills": [
             {
                 "name": "私を縛る固定概念を壊せ",
@@ -1116,7 +1117,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Yellow",
-        "tag": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "skills": [
             {
                 "name": "ぉぁよ～",
@@ -1136,7 +1137,7 @@
         "bloomLevel": "1st",
         "hp": 100,
         "color": "Yellow",
-        "tag": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "collabEffect": "ころねダイナー:　You may Archive 1 Cheer from this holomem for the following effect: reveal a Debut holomem with #Gamers from your Deck and put it into your hand. Then shuffle your Deck.",
         "skills": [
             {
@@ -1153,7 +1154,7 @@
         "bloomLevel": "1st",
         "hp": 200,
         "color": "Yellow",
-        "tag": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "skills": [
             {
                 "name": "つころ～ん",
@@ -1169,7 +1170,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Yellow",
-        "tag": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "skills": [
             {
                 "name": "ぶるぁあああああ!!!!!!!!!!!!!!",
@@ -1190,7 +1191,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Yellow",
-        "tag": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "giftEffect": "ボクシングスタイル:　[Collab Position only] During your opponent's main phase, the HP of your center holomem 〈Inugami Korone〉 cannot be reduced or changed by your opponent's abilities.",
         "skills": [
             {
@@ -1208,7 +1209,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "Yellow",
-        "tag": "#JP #Gamers #Kemomimi",
+        "tag": "#JP #GAMERS #Kemomimi",
         "giftEffect": "わんだふぉ～♡: When this holomem is downed, send the top card of your cheer deck to your 〈Inugami Korone〉..",
         "skills": [
             {
@@ -1227,14 +1228,14 @@
         "bloomLevel": "Debut",
         "hp": 110,
         "color": "Yellow",
-        "tag": "#JP #Gen4 #Kemomimi #singing",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
         "skills": [
             {
                 "name": "こんばんドドド～！",
                 "dmg": "30"
             }
         ],
-       "hasHolomenRare": true,
+        "hasHolomenRare": true,
         "imageSet": "hBP07",
         "extraEffect": "You may include any number of this holomem in the deck."
     },
@@ -1245,7 +1246,7 @@
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "Yellow",
-        "tag": "#JP #Gen4 #Kemomimi #singing",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
         "skills": [
             {
                 "name": "わためのうた",
@@ -1262,7 +1263,7 @@
         "bloomLevel": "1st",
         "hp": 190,
         "color": "Yellow",
-        "tag": "#JP #Gen4 #Kemomimi #singing",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
         "skills": [
             {
                 "name": "癒しのひととき",
@@ -1282,7 +1283,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Yellow",
-        "tag": "#JP #Gen4 #Kemomimi #singing",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
         "bloomEffect": "めいっぱい歌って踊ります！:If there are 5 or fewer holomems on your Stage, you may reveal a Debut <Tsunomaki Watame> from your Deck and put it onto your Stage. Then shuffle your deck.",
         "skills": [
             {
@@ -1300,7 +1301,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Yellow",
-        "tag": "#JP #Gen4 #Kemomimi #singing",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
         "bloomEffect": "Member sheep おかえり～: You may return 1 〈Watamates〉 from your archive to hand.",
         "skills": [
             {
@@ -1318,7 +1319,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Yellow",
-        "tag": "#JP #Gen4 #Kemomimi #singing",
+        "tag": "#JP #Gen4 #Kemomimi #Singing",
         "giftEffect": "まだまだいくよー！: When this holomem is downed, you may reattach 1 cheer from this holomem to your other 〈Tsunomaki Watame〉..",
         "skills": [
             {
@@ -1337,7 +1338,7 @@
         "bloomLevel": "Debut",
         "hp": 110,
         "color": "Yellow",
-        "tag": "#ID #IDGen1 #Kemomimi #singing",
+        "tag": "#ID #IDGen1 #Kemomimi #Singing",
         "skills": [
             {
                 "name": "こんリス",
@@ -1358,7 +1359,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Yellow",
-        "tag": "#ID #IDGen1 #Kemomimi #singing",
+        "tag": "#ID #IDGen1 #Kemomimi #Singing",
         "skills": [
             {
                 "name": "繋がる願い",
@@ -1375,7 +1376,7 @@
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Yellow",
-        "tag": "#ID #IDGen1 #Kemomimi #singing",
+        "tag": "#ID #IDGen1 #Kemomimi #Singing",
         "skills": [
             {
                 "name": "おつリスー",
@@ -1395,7 +1396,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Yellow",
-        "tag": "#ID #IDGen1 #Kemomimi #singing",
+        "tag": "#ID #IDGen1 #Kemomimi #Singing",
         "bloomEffect": "いやっほー！ みんな元気？: Reveal 1 [green cheer or yellow cheer] from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck.",
         "skills": [
             {
@@ -1412,7 +1413,7 @@
         "bloomLevel": "1st",
         "hp": 250,
         "color": "Yellow",
-        "tag": "#ID #IDGen1 #Kemomimi #singing",
+        "tag": "#ID #IDGen1 #Kemomimi #Singing",
         "bloomEffect": "同期の絆:If there are 5 or fewer holomems on your Stage, you may reveal a Debut holomem with #IDGen1 from your Deck and put it onto your Stage. Then shuffle your deck.",
         "skills": [
             {
@@ -1429,7 +1430,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Yellow",
-        "tag": "#ID #IDGen1 #Kemomimi #singing",
+        "tag": "#ID #IDGen1 #Kemomimi #Singing",
         "bloomEffect": "マジカルサポート:　You may reattach 1 cheer from your holomem with #ID Gen 1 to your other holomem.",
         "skills": [
             {
@@ -1467,7 +1468,7 @@
         "bloomLevel": "Debut",
         "hp": 130,
         "color": "Yellow",
-        "tag": "#DEV_IS #ReGLOSS #singing",
+        "tag": "#DEV_IS #ReGLOSS #Singing",
         "skills": [
             {
                 "name": "ドレミファソラシド～！",
@@ -1487,7 +1488,7 @@
         "bloomLevel": "1st",
         "hp": 180,
         "color": "Yellow",
-        "tag": "#DEV_IS #ReGLOSS #singing",
+        "tag": "#DEV_IS #ReGLOSS #Singing",
         "skills": [
             {
                 "name": "明日は月曜日～っ♪",
@@ -1503,7 +1504,7 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Yellow",
-        "tag": "#DEV_IS #ReGLOSS #singing",
+        "tag": "#DEV_IS #ReGLOSS #Singing",
         "bloomEffect": "ここが私のステージだから！:　You may reattach 1~2 cheers from your stage to this holomem.",
         "skills": [
             {
@@ -1521,7 +1522,7 @@
         "hp": 250,
         "buzz": true,
         "color": "Yellow",
-        "tag": "#DEV_IS #ReGLOSS #singing",
+        "tag": "#DEV_IS #ReGLOSS #Singing",
         "giftEffect": "なんちゅーこった: At the end of your opponent's performance phase, if your life was reduced during that performance phase, you may send 1 cheer from your archive to this holomem.",
         "skills": [
             {
@@ -1688,8 +1689,8 @@
         "name": "Futoinu",
         "type": "Support (Fan)",
         "rarity": "U",
-         "ability": "The Arts of the holomem with this Mascot attached gain +10 power.If this is attached to <Inugami Korone>, it gains the following effect: when the holomem with this Mascot attached collabs, you may send 1 Yellow Cheer from your Archive to this holomem.You may only attach 1 Mascot to a holomem.",
-       "hasFoils": true
+        "ability": "The Arts of the holomem with this Mascot attached gain +10 power.If this is attached to <Inugami Korone>, it gains the following effect: when the holomem with this Mascot attached collabs, you may send 1 Yellow Cheer from your Archive to this holomem.You may only attach 1 Mascot to a holomem.",
+        "hasFoils": true
     },
     {
         "cardNumber": "hBP03-103",

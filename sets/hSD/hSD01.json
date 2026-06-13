@@ -48,8 +48,7 @@
             }
         ]
     },
-
-        {
+    {
         "cardNumber": "hSD01-004",
         "name": "Tokino Sora",
         "rarity": "R",
@@ -64,7 +63,7 @@
                 "dmg": 20
             }
         ]
-    },    
+    },
     {
         "cardNumber": "hSD01-005",
         "name": "Tokino Sora",
@@ -106,8 +105,7 @@
         ],
         "extraEffect": "If this holomem is downed, you get Life-2."
     },
-
-      {
+    {
         "cardNumber": "hSD01-007",
         "name": "IRyS",
         "rarity": "C",
@@ -115,7 +113,7 @@
         "hp": 50,
         "color": "White",
         "tag": "#EN #Promise #Singing",
-        "collabEffect": "HOPE!: Look at your Holopower. Reveal one card from among them and add it to your hand. Then, choose one card from your hand and turn it into Holopower.",  
+        "collabEffect": "HOPE!: Look at your Holopower. Reveal one card from among them and add it to your hand. Then, choose one card from your hand and turn it into Holopower.",
         "skills": [
             {
                 "name": "希望の化身",
@@ -123,7 +121,6 @@
             }
         ]
     },
-    
     {
         "cardNumber": "hSD01-008",
         "name": "AZKi",
@@ -139,7 +136,7 @@
             }
         ]
     },
-  {
+    {
         "cardNumber": "hSD01-009",
         "name": "AZKi",
         "rarity": "R",
@@ -147,7 +144,7 @@
         "hp": 60,
         "color": "Green",
         "tag": "#JP #Gen0 #Singing",
-        "collabEffect": "広がる地図: You can roll a die once: If the result is 4 or lower, send the top card of your cheer deck to your back Holomen. If the result is 1, you may also move this Holomen to the back position.", 
+        "collabEffect": "広がる地図: You can roll a die once: If the result is 4 or lower, send the top card of your cheer deck to your back Holomen. If the result is 1, you may also move this Holomen to the back position.",
         "skills": [
             {
                 "name": "ほいでほいで",
@@ -155,7 +152,6 @@
             }
         ]
     },
-    
     {
         "cardNumber": "hSD01-010",
         "name": "AZKi",
@@ -171,14 +167,14 @@
             }
         ]
     },
-     {
+    {
         "cardNumber": "hSD01-011",
         "name": "AZKi",
         "rarity": "RR",
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Green",
-         "tag": "#JP #Gen0 #Singing",
+        "tag": "#JP #Gen0 #Singing",
         "skills": [
             {
                 "name": "SorAZ グラビティ",
@@ -192,15 +188,15 @@
             }
         ]
     },
-   {
+    {
         "cardNumber": "hSD01-012",
         "name": "Airani Iofifteen",
         "rarity": "C",
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Green",
-       "tag": "#ID #IDGen1 #Painting",
-        "collabEffect": "一緒にお絵かき!: You may send one White or Green cheer card from your archive to your center Holomen.", 
+        "tag": "#ID #IDGen1 #Painting",
+        "collabEffect": "一緒にお絵かき!: You may send one White or Green cheer card from your archive to your center Holomen.",
         "skills": [
             {
                 "name": "お絵かきたのしー!",
@@ -208,7 +204,6 @@
             }
         ]
     },
-    
     {
         "cardNumber": "hSD01-013",
         "name": "SorAZ",
@@ -249,7 +244,7 @@
         "hp": 50,
         "color": "Colorless",
         "bloomLevel": "Spot",
-        "tag": "#JP #HoloX #Kemomimi",
+        "tag": "#JP #holoX #Kemomimi",
         "collabEffect": "SoAzKo: When collaborating with 'Tokino Sora,' draw one card from your deck. When collaborating with 'AZKi,' send the top card of your cheer deck to your center Holomen",
         "skills": [
             {
@@ -266,7 +261,7 @@
         "type": "Support (Staff)",
         "limited": true,
         "ability": "Draw 3 cards from your Deck",
-        "manualUrl" : "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD08/hSD01-016_02_C.png"
+        "manualUrl": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD08/hSD01-016_02_C.png"
     },
     {
         "cardNumber": "hSD01-017",
@@ -303,7 +298,7 @@
         "name": "First Gravity",
         "rarity": "C",
         "type": "Support (Event)",
-        "limited" : true,
+        "limited": true,
         "ability": "You can only use this card if you have 6 or fewer cards in your hand, excluding this one. Look at the top 4 cards of your deck. Reveal any number of 'Tokino Sora' and 'AZKi' cards from among them and add the revealed Holomen to your hand. Then, return the remaining cards to the bottom of your deck in any order."
     }
 ]

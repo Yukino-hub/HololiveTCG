@@ -23,7 +23,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Red",
-        "tag": "#JP #Gen 0 #Baby",
+        "tag": "#JP #Gen0 #Baby",
         "skills": [
             {
                 "name": "さくらみこだよ～",
@@ -38,7 +38,7 @@
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "Red",
-        "tag": "#JP #Gen 0 #Baby",
+        "tag": "#JP #Gen0 #Baby",
         "skills": [
             {
                 "name": "エリート巫女アイドル！ さくらみこだよ～",
@@ -53,7 +53,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Red",
-        "tag": "#JP #Gen 0 #Baby",
+        "tag": "#JP #Gen0 #Baby",
         "collabEffect": "後攻なんですｹｰﾄﾞ : If you went second and it is your first turn, reveal 1 <35P> from your deck, and attach it to this holomem. Then, shuffle the deck.",
         "skills": [
             {
@@ -69,7 +69,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Red",
-        "tag": "#JP #Gen 0 #Baby",
+        "tag": "#JP #Gen0 #Baby",
         "skills": [
             {
                 "name": "桜風ランニング",
@@ -85,7 +85,7 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Red",
-        "tag": "#JP #Gen 0 #Baby",
+        "tag": "#JP #Gen0 #Baby",
         "skills": [
             {
                 "name": "みんなみててにぇ",
@@ -104,7 +104,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Red",
-        "tag": "#JP #Gen 0 #Baby",
+        "tag": "#JP #Gen0 #Baby",
         "giftEffect": "みこの膝にごろーんってして : During your opponent's turn, when this holomem is downed, draw 1 card.",
         "skills": [
             {
@@ -121,7 +121,7 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "Red",
-        "tag": "#JP #Gen 0 #Baby",
+        "tag": "#JP #Gen0 #Baby",
         "collabEffect": "待ってたにぇ : Roll a die once. If it is 3 or 5, return 1 <35P> from your archive to hand.",
         "skills": [
             {
@@ -137,7 +137,7 @@
         "bloomLevel": "2nd",
         "hp": 170,
         "color": "Red",
-        "tag": "#JP #Gen 0 #Baby",
+        "tag": "#JP #Gen0 #Baby",
         "bloomEffect": "35P、ありがとうだよー！ : During this turn, for each <35P> on your stage, this holomem gets Arts+10.",
         "skills": [
             {

@@ -909,7 +909,7 @@
     "bloomLevel": "Debut",
     "hp": 120,
     "color": "Green",
-    "tag": "#JP #HoloX",
+    "tag": "#JP #holoX",
     "skills": [
       {
         "name": "皆殿、風真いろはでござる-",
@@ -927,7 +927,7 @@
     "bloomLevel": "Debut",
     "hp": 180,
     "color": "Green",
-    "tag": "#JP #HoloX",
+    "tag": "#JP #holoX",
     "skills": [
       {
         "name": "とれたてナス",
@@ -948,7 +948,7 @@
     "bloomLevel": "1st",
     "hp": 140,
     "color": "Green",
-    "tag": "#JP #HoloX",
+    "tag": "#JP #holoX",
     "giftEffect": "用心棒: [Collab Position only], Your opponent's holomem's Arts can only target your collab holomem. However, it excludes Special Damage.",
     "skills": [
       {
@@ -968,7 +968,7 @@
     "buzz": true,
     "hp": 250,
     "color": "Green",
-    "tag": "#JP #HoloX",
+    "tag": "#JP #holoX",
     "skills": [
       {
         "name": "エールを束ねて",
@@ -1065,7 +1065,7 @@
     "bloomLevel": "Debut",
     "hp": 100,
     "color": "Red",
-    "tag": "#JP #HoloX #Bird #Alcohol",
+    "tag": "#JP #holoX #Bird #Alcohol",
     "skills": [
       {
         "name": "皆さん、待っ鷹ね?",
@@ -1083,7 +1083,7 @@
     "bloomLevel": "Debut",
     "hp": 60,
     "color": "Red",
-    "tag": "#JP #HoloX #Bird #Alcohol",
+    "tag": "#JP #holoX #Bird #Alcohol",
     "collabEffect": "アポイント: Deal 10 Special Damage to your opponent's collab holomem.",
     "skills": [
       {
@@ -1102,7 +1102,7 @@
     "bloomLevel": "1st",
     "hp": 170,
     "color": "Red",
-    "tag": "#JP #HoloX #Bird #Alcohol",
+    "tag": "#JP #holoX #Bird #Alcohol",
     "skills": [
       {
         "name": "こんルイルイ",
@@ -1123,7 +1123,7 @@
     "bloomLevel": "1st",
     "hp": 130,
     "color": "Red",
-    "tag": "#JP #HoloX #Bird #Alcohol",
+    "tag": "#JP #holoX #Bird #Alcohol",
     "skills": [
       {
         "name": "パーティーへようこそ",
@@ -1145,7 +1145,7 @@
     "bloomLevel": "2nd",
     "hp": 100,
     "color": "Red",
-    "tag": "#JP #HoloX #Bird #Alcohol",
+    "tag": "#JP #holoX #Bird #Alcohol",
     "bloomEffect": "本当にみんなのおかげ!!: If Bloomed from Debut, you may archive 1 card from your hand:Draw 2 cards from your deck.",
     "skills": [
       {
@@ -1163,7 +1163,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Red",
-    "tag": "#JP #HoloX #Bird #Alcohol",
+    "tag": "#JP #holoX #Bird #Alcohol",
     "bloomEffect": "組織の司令塔: You may return 1~2 holomem with #HoloX from your archive to hand.",
     "skills": [
       {
@@ -2332,7 +2332,7 @@
     "bloomLevel": "Debut",
     "hp": 100,
     "color": "White",
-    "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "skills": [
       {
         "name": "こんこんきーつね！",
@@ -2350,7 +2350,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "White",
-    "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "giftEffect": "おはこんきーつね！:[Collab Position Only]All of your holomem with mascot attached get Arts+10.",
     "skills": [
       {
@@ -2365,10 +2365,10 @@
     "cardNumber": "hBP02-010",
     "name": "Shirakami Fubuki",
     "rarity": "C",
-    "bloomLevel": "1ST",
+    "bloomLevel": "1st",
     "hp": 150,
     "color": "White",
-    "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "skills": [
       {
         "name": "キンモクセイの花フブキ",
@@ -2390,7 +2390,7 @@
     "bloomLevel": "1st",
     "hp": 120,
     "color": "White",
-    "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "bloomEffect": "白上から目をそらしちゃ: Reveal 1 card with #ShirakamiCharacter from your deck, and add it to hand. Then, shuffle the deck.",
     "skills": [
       {
@@ -2409,7 +2409,7 @@
     "bloomLevel": "1st",
     "hp": 100,
     "color": "White",
-    "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "bloomEffect": "ちょっと動かしますね : You may reattach 1 mascot from your stage to your holomem.",
     "skills": [
       {
@@ -2429,7 +2429,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "White",
-    "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "giftEffect": "みんなと一緒! You may attach up to 2 mascots with different card names to this holomem.",
     "skills": [
       {
@@ -2654,7 +2654,7 @@
     "bloomLevel": "Debut",
     "hp": 90,
     "color": "Green",
-    "tag": "#JP #Gamers #Kemomimi #Cooking",
+    "tag": "#JP #GAMERS #Kemomimi #Cooking",
     "skills": [
       {
         "name": "うちうち、うちだよ～大神ミオだよ～",
@@ -2673,7 +2673,7 @@
     "bloomLevel": "1st",
     "hp": 160,
     "color": "Green",
-    "tag": "#JP #Gamers #Kemomimi #Cooking",
+    "tag": "#JP #GAMERS #Kemomimi #Cooking",
     "skills": [
       {
         "name": "おはみぉーん",
@@ -2695,7 +2695,7 @@
     "bloomLevel": "1st",
     "hp": 120,
     "color": "Green",
-    "tag": "#JP #Gamers #Kemomimi #Cooking",
+    "tag": "#JP #GAMERS #Kemomimi #Cooking",
     "bloomEffect": "アイドルとして成長した姿 : Reveal 1 cheer from your cheer deck with the same color as 1 of your holomem with #GAMERS on stage, and send it to your holomem. Then, shuffle the cheer deck.",
     "skills": [
       {
@@ -2714,7 +2714,7 @@
     "bloomLevel": "1st",
     "hp": 240,
     "color": "Green",
-    "tag": "#JP #Gamers #Kemomimi #Cooking",
+    "tag": "#JP #GAMERS #Kemomimi #Cooking",
     "skills": [
       {
         "name": "タロットの導き",
@@ -2995,7 +2995,7 @@
     "hp": 230,
     "buzz": true,
     "color": "Blue",
-    "tag": "#JP #Gamers #Kemomimi #Singing",
+    "tag": "#JP #GAMERS #Kemomimi #Singing",
     "giftEffect": "毒の愛:(Center position only) All 〈Nekomata Okayu〉on your stage deal +20 special damage to your opponent's center holomem.",
     "skills": [
       {
@@ -3137,7 +3137,7 @@
     "bloomLevel": "Debut",
     "hp": 120,
     "color": "Purple",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "skills": [
       {
         "name": "ゾンばんは！",
@@ -3146,7 +3146,7 @@
     ],
     "extraEffect": "You may include any number of this holomem in the deck.",
     "setName": "hBP02",
-    "searchString": "kureiji ollie hbp02-048 #id #idgen2 #languages you may include any number of this holomem in the deck. ゾンばんは！ "
+    "searchString": "kureiji ollie hbp02-048 #id #idgen2 #language you may include any number of this holomem in the deck. ゾンばんは！ "
   },
   {
     "cardNumber": "hBP02-049",
@@ -3155,7 +3155,7 @@
     "bloomLevel": "Debut",
     "hp": 60,
     "color": "Purple",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "collabEffect": "オリーがいつも見てるよ: Draw 1 card, and archive 1 card from hand.",
     "skills": [
       {
@@ -3165,7 +3165,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP02",
-    "searchString": "kureiji ollie hbp02-049 #id #idgen2 #languages オリーがいつも見てるよ: draw 1 card, and archive 1 card from hand. おつクレイジー！ "
+    "searchString": "kureiji ollie hbp02-049 #id #idgen2 #language オリーがいつも見てるよ: draw 1 card, and archive 1 card from hand. おつクレイジー！ "
   },
   {
     "cardNumber": "hBP02-050",
@@ -3174,7 +3174,7 @@
     "bloomLevel": "1st",
     "hp": 160,
     "color": "Purple",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "skills": [
       {
         "name": "君を大好きな後輩",
@@ -3187,7 +3187,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP02",
-    "searchString": "kureiji ollie hbp02-050 #id #idgen2 #languages 君を大好きな後輩  きゃ～！先輩ごめ～ん！ "
+    "searchString": "kureiji ollie hbp02-050 #id #idgen2 #language 君を大好きな後輩  きゃ～！先輩ごめ～ん！ "
   },
   {
     "cardNumber": "hBP02-051",
@@ -3196,7 +3196,7 @@
     "bloomLevel": "1st",
     "hp": 130,
     "color": "Purple",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "bloomEffect": "限界化！！: You may Bloom one of your Debut holomems with #IDGen2 using a holomem from your Archive. You may only use the Bloom Effect 「限界化！！」 once per turn.",
     "skills": [
       {
@@ -3206,7 +3206,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP02",
-    "searchString": "kureiji ollie hbp02-051 #id #idgen2 #languages 限界化！！: you may bloom one of your debut holomems with #idgen2 using a holomem from your archive. you may only use the bloom effect 「限界化！！」 once per turn. 推しを見て叫びまくるぞ！！ "
+    "searchString": "kureiji ollie hbp02-051 #id #idgen2 #language 限界化！！: you may bloom one of your debut holomems with #idgen2 using a holomem from your archive. you may only use the bloom effect 「限界化！！」 once per turn. 推しを見て叫びまくるぞ！！ "
   },
   {
     "cardNumber": "hBP02-052",
@@ -3215,7 +3215,7 @@
     "bloomLevel": "1st",
     "hp": 120,
     "color": "Purple",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "bloomEffect": "真実一路: Draw a card from your deck.",
     "skills": [
       {
@@ -3226,7 +3226,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP02",
-    "searchString": "kureiji ollie hbp02-052 #id #idgen2 #languages 真実一路: draw a card from your deck. 推しを見て叫びまくるぞ！！ if a non-purple cheer is attached to this holomem, this arts gets +20."
+    "searchString": "kureiji ollie hbp02-052 #id #idgen2 #language 真実一路: draw a card from your deck. 推しを見て叫びまくるぞ！！ if a non-purple cheer is attached to this holomem, this arts gets +20."
   },
   {
     "cardNumber": "hBP02-053",
@@ -3235,7 +3235,7 @@
     "bloomLevel": "2nd",
     "hp": 120,
     "color": "Purple",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "bloomEffect": "蘇りしゾンビ: You may archive 2 cards from your hand:During this turn, this holomem gets Arts+40.",
     "skills": [
       {
@@ -3247,7 +3247,7 @@
     "hasAlternativeArt": true,
     "hasFullArt": true,
     "setName": "hBP02",
-    "searchString": "kureiji ollie hbp02-053 #id #idgen2 #languages 蘇りしゾンビ: you may archive 2 cards from your hand:during this turn, this holomem gets arts+40. 計算された戦術 if you have 2 or more 2nd holomem with #idgen2 on your stage, this arts gets +40."
+    "searchString": "kureiji ollie hbp02-053 #id #idgen2 #language 蘇りしゾンビ: you may archive 2 cards from your hand:during this turn, this holomem gets arts+40. 計算された戦術 if you have 2 or more 2nd holomem with #idgen2 on your stage, this arts gets +40."
   },
   {
     "cardNumber": "hBP02-054",
@@ -3757,11 +3757,11 @@
     "name": "魔法のタンス (Magic Dresser)",
     "type": "Support (Event)",
     "rarity": "U",
-    "tag": "Magic",
+    "tag": "#Magic",
     "ability": "is card can only be used if you archive 1 of your holo Power. Send 1 purple cheer from your archive to your 〈Murasaki Shion〉. Only 1 of your event with #Magic can be used each turn.",
     "hasFoils": true,
     "setName": "hBP02",
-    "searchString": "魔法のタンス (magic dresser) hbp02-083 magic is card can only be used if you archive 1 of your holo power. send 1 purple cheer from your archive to your 〈murasaki shion〉. only 1 of your event with #magic can be used each turn."
+    "searchString": "魔法のタンス (magic dresser) hbp02-083 #magic is card can only be used if you archive 1 of your holo power. send 1 purple cheer from your archive to your 〈murasaki shion〉. only 1 of your event with #magic can be used each turn."
   },
   {
     "cardNumber": "hBP02-084",
@@ -4148,7 +4148,7 @@
     "cardNumber": "hBP03-010",
     "name": "Himemori Luna",
     "rarity": "U",
-    "bloomLevel": "",
+    "bloomLevel": "Debut",
     "hp": 80,
     "color": "White",
     "tag": "#JP #Gen4 #Baby",
@@ -4435,7 +4435,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Green",
-    "tag": "#JP #HoloX",
+    "tag": "#JP #holoX",
     "bloomEffect": "風真が護る:　You may send 1 cheer each from your archive to 1 each of your [〈Kazama Iroha〉 and 〈Hoshimachi Suisei〉].",
     "skills": [
       {
@@ -4465,6 +4465,7 @@
     ],
     "hasHolomenRare": true,
     "imageSet": "hBP07",
+    "manualUrlHR": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP03-025_02_HR.png",
     "extraEffect": "You may include any number of this holomem in the deck.",
     "setName": "hBP03",
     "searchString": "sakura miko hbp03-025 #jp #gen0 #baby you may include any number of this holomem in the deck. にゃっはろ～ "
@@ -4659,7 +4660,7 @@
     "bloomLevel": "1st",
     "hp": 240,
     "color": "Red",
-    "tag": "#JP #HoloX #Bird #Alcohol",
+    "tag": "#JP #holoX #Bird #Alcohol",
     "buzz": true,
     "skills": [
       {
@@ -4842,7 +4843,7 @@
     "bloomLevel": "1st",
     "hp": 150,
     "color": "Blue",
-    "tag": "#JP #Gen0 #singing",
+    "tag": "#JP #Gen0 #Singing",
     "bloomEffect": "プラネットステージ: Look at the top 4 cards of your deck. Reveal 1 〈Hoshimachi Suisei〉 from among them, and add it to hand. Then, return the remaining cards to the bottom of the deck in any order.",
     "skills": [
       {
@@ -4993,7 +4994,7 @@
     "bloomLevel": "Debut",
     "hp": 110,
     "color": "Purple",
-    "tag": "#JP #Gen4 #singing #Shooter",
+    "tag": "#JP #Gen4 #Singing #Shooter",
     "skills": [
       {
         "name": "こんやっぴー",
@@ -5011,7 +5012,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "Purple",
-    "tag": "#JP #Gen4 #singing #Shooter",
+    "tag": "#JP #Gen4 #Singing #Shooter",
     "skills": [
       {
         "name": "そういう感じなんだ",
@@ -5030,7 +5031,7 @@
     "bloomLevel": "1st",
     "hp": 170,
     "color": "Purple",
-    "tag": "#JP #Gen4 #singing #Shooter",
+    "tag": "#JP #Gen4 #Singing #Shooter",
     "skills": [
       {
         "name": "おつやっぴー　",
@@ -5052,7 +5053,7 @@
     "bloomLevel": "1st",
     "hp": 140,
     "color": "Purple",
-    "tag": "#JP #Gen4 #singing #Shooter",
+    "tag": "#JP #Gen4 #Singing #Shooter",
     "collabEffect": "トワにしか出せない色: Deal 20 special damage to your Opponent's Center or Collab holomem.",
     "skills": [
       {
@@ -5072,7 +5073,7 @@
     "bloomLevel": "1st",
     "hp": 130,
     "color": "Purple",
-    "tag": "#JP #Gen4 #singing #Shooter",
+    "tag": "#JP #Gen4 #Singing #Shooter",
     "skills": [
       {
         "name": "トワとお家デートしたっていい",
@@ -5095,7 +5096,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Purple",
-    "tag": "#JP #Gen4 #singing #Shooter",
+    "tag": "#JP #Gen4 #Singing #Shooter",
     "skills": [
       {
         "name": "私を縛る固定概念を壊せ",
@@ -5198,7 +5199,7 @@
     "bloomLevel": "Debut",
     "hp": 100,
     "color": "Yellow",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "skills": [
       {
         "name": "ぉぁよ～",
@@ -5220,7 +5221,7 @@
     "bloomLevel": "1st",
     "hp": 100,
     "color": "Yellow",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "collabEffect": "ころねダイナー:　You may Archive 1 Cheer from this holomem for the following effect: reveal a Debut holomem with #Gamers from your Deck and put it into your hand. Then shuffle your Deck.",
     "skills": [
       {
@@ -5239,7 +5240,7 @@
     "bloomLevel": "1st",
     "hp": 200,
     "color": "Yellow",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "skills": [
       {
         "name": "つころ～ん",
@@ -5257,7 +5258,7 @@
     "bloomLevel": "1st",
     "hp": 160,
     "color": "Yellow",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "skills": [
       {
         "name": "ぶるぁあああああ!!!!!!!!!!!!!!",
@@ -5280,7 +5281,7 @@
     "bloomLevel": "1st",
     "hp": 150,
     "color": "Yellow",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "giftEffect": "ボクシングスタイル:　[Collab Position only] During your opponent's main phase, the HP of your center holomem 〈Inugami Korone〉 cannot be reduced or changed by your opponent's abilities.",
     "skills": [
       {
@@ -5300,7 +5301,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Yellow",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "giftEffect": "わんだふぉ～♡: When this holomem is downed, send the top card of your cheer deck to your 〈Inugami Korone〉..",
     "skills": [
       {
@@ -5321,7 +5322,7 @@
     "bloomLevel": "Debut",
     "hp": 110,
     "color": "Yellow",
-    "tag": "#JP #Gen4 #Kemomimi #singing",
+    "tag": "#JP #Gen4 #Kemomimi #Singing",
     "skills": [
       {
         "name": "こんばんドドド～！",
@@ -5341,7 +5342,7 @@
     "bloomLevel": "Debut",
     "hp": 90,
     "color": "Yellow",
-    "tag": "#JP #Gen4 #Kemomimi #singing",
+    "tag": "#JP #Gen4 #Kemomimi #Singing",
     "skills": [
       {
         "name": "わためのうた",
@@ -5360,7 +5361,7 @@
     "bloomLevel": "1st",
     "hp": 190,
     "color": "Yellow",
-    "tag": "#JP #Gen4 #Kemomimi #singing",
+    "tag": "#JP #Gen4 #Kemomimi #Singing",
     "skills": [
       {
         "name": "癒しのひととき",
@@ -5382,7 +5383,7 @@
     "bloomLevel": "1st",
     "hp": 130,
     "color": "Yellow",
-    "tag": "#JP #Gen4 #Kemomimi #singing",
+    "tag": "#JP #Gen4 #Kemomimi #Singing",
     "bloomEffect": "めいっぱい歌って踊ります！:If there are 5 or fewer holomems on your Stage, you may reveal a Debut <Tsunomaki Watame> from your Deck and put it onto your Stage. Then shuffle your deck.",
     "skills": [
       {
@@ -5402,7 +5403,7 @@
     "bloomLevel": "1st",
     "hp": 160,
     "color": "Yellow",
-    "tag": "#JP #Gen4 #Kemomimi #singing",
+    "tag": "#JP #Gen4 #Kemomimi #Singing",
     "bloomEffect": "Member sheep おかえり～: You may return 1 〈Watamates〉 from your archive to hand.",
     "skills": [
       {
@@ -5422,7 +5423,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Yellow",
-    "tag": "#JP #Gen4 #Kemomimi #singing",
+    "tag": "#JP #Gen4 #Kemomimi #Singing",
     "giftEffect": "まだまだいくよー！: When this holomem is downed, you may reattach 1 cheer from this holomem to your other 〈Tsunomaki Watame〉..",
     "skills": [
       {
@@ -5443,7 +5444,7 @@
     "bloomLevel": "Debut",
     "hp": 110,
     "color": "Yellow",
-    "tag": "#ID #IDGen1 #Kemomimi #singing",
+    "tag": "#ID #IDGen1 #Kemomimi #Singing",
     "skills": [
       {
         "name": "こんリス",
@@ -5466,7 +5467,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "Yellow",
-    "tag": "#ID #IDGen1 #Kemomimi #singing",
+    "tag": "#ID #IDGen1 #Kemomimi #Singing",
     "skills": [
       {
         "name": "繋がる願い",
@@ -5485,7 +5486,7 @@
     "bloomLevel": "1st",
     "hp": 170,
     "color": "Yellow",
-    "tag": "#ID #IDGen1 #Kemomimi #singing",
+    "tag": "#ID #IDGen1 #Kemomimi #Singing",
     "skills": [
       {
         "name": "おつリスー",
@@ -5507,7 +5508,7 @@
     "bloomLevel": "1st",
     "hp": 150,
     "color": "Yellow",
-    "tag": "#ID #IDGen1 #Kemomimi #singing",
+    "tag": "#ID #IDGen1 #Kemomimi #Singing",
     "bloomEffect": "いやっほー！ みんな元気？: Reveal 1 [green cheer or yellow cheer] from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck.",
     "skills": [
       {
@@ -5526,7 +5527,7 @@
     "bloomLevel": "1st",
     "hp": 250,
     "color": "Yellow",
-    "tag": "#ID #IDGen1 #Kemomimi #singing",
+    "tag": "#ID #IDGen1 #Kemomimi #Singing",
     "bloomEffect": "同期の絆:If there are 5 or fewer holomems on your Stage, you may reveal a Debut holomem with #IDGen1 from your Deck and put it onto your Stage. Then shuffle your deck.",
     "skills": [
       {
@@ -5545,7 +5546,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Yellow",
-    "tag": "#ID #IDGen1 #Kemomimi #singing",
+    "tag": "#ID #IDGen1 #Kemomimi #Singing",
     "bloomEffect": "マジカルサポート:　You may reattach 1 cheer from your holomem with #ID Gen 1 to your other holomem.",
     "skills": [
       {
@@ -5587,7 +5588,7 @@
     "bloomLevel": "Debut",
     "hp": 130,
     "color": "Yellow",
-    "tag": "#DEV_IS #ReGLOSS #singing",
+    "tag": "#DEV_IS #ReGLOSS #Singing",
     "skills": [
       {
         "name": "ドレミファソラシド～！",
@@ -5609,7 +5610,7 @@
     "bloomLevel": "1st",
     "hp": 180,
     "color": "Yellow",
-    "tag": "#DEV_IS #ReGLOSS #singing",
+    "tag": "#DEV_IS #ReGLOSS #Singing",
     "skills": [
       {
         "name": "明日は月曜日～っ♪",
@@ -5627,7 +5628,7 @@
     "bloomLevel": "1st",
     "hp": 150,
     "color": "Yellow",
-    "tag": "#DEV_IS #ReGLOSS #singing",
+    "tag": "#DEV_IS #ReGLOSS #Singing",
     "bloomEffect": "ここが私のステージだから！:　You may reattach 1~2 cheers from your stage to this holomem.",
     "skills": [
       {
@@ -5647,7 +5648,7 @@
     "hp": 250,
     "buzz": true,
     "color": "Yellow",
-    "tag": "#DEV_IS #ReGLOSS #singing",
+    "tag": "#DEV_IS #ReGLOSS #Singing",
     "giftEffect": "なんちゅーこった: At the end of your opponent's performance phase, if your life was reduced during that performance phase, you may send 1 cheer from your archive to this holomem.",
     "skills": [
       {
@@ -6113,7 +6114,7 @@
   },
   {
     "name": "Hakui Koyori",
-    "tag": "#JP #HoloX #Kemomimi",
+    "tag": "#JP #holoX #Kemomimi",
     "cardNumber": "hBP04-008",
     "rarity": "C",
     "color": "White",
@@ -6132,7 +6133,7 @@
   },
   {
     "name": "Hakui Koyori",
-    "tag": "#JP #HoloX #Kemomimi",
+    "tag": "#JP #holoX #Kemomimi",
     "cardNumber": "hBP04-009",
     "rarity": "U",
     "color": "White",
@@ -6152,7 +6153,7 @@
   },
   {
     "name": "Hakui Koyori",
-    "tag": "#JP #HoloX #Kemomimi",
+    "tag": "#JP #holoX #Kemomimi",
     "cardNumber": "hBP04-010",
     "rarity": "C",
     "color": "White",
@@ -6176,7 +6177,7 @@
   },
   {
     "name": "Hakui Koyori",
-    "tag": "#JP #HoloX #Kemomimi",
+    "tag": "#JP #holoX #Kemomimi",
     "cardNumber": "hBP04-011",
     "rarity": "U",
     "color": "White",
@@ -6196,7 +6197,7 @@
   },
   {
     "name": "Hakui Koyori",
-    "tag": "#JP #HoloX #Kemomimi",
+    "tag": "#JP #holoX #Kemomimi",
     "cardNumber": "hBP04-012",
     "rarity": "R",
     "color": "White",
@@ -6217,7 +6218,7 @@
   },
   {
     "name": "Hakui Koyori",
-    "tag": "#JP #HoloX #Kemomimi",
+    "tag": "#JP #holoX #Kemomimi",
     "cardNumber": "hBP04-013",
     "rarity": "RR",
     "color": "White",
@@ -6239,7 +6240,7 @@
   },
   {
     "name": "Shirakami Fubuki",
-    "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "cardNumber": "hBP04-014",
     "rarity": "R",
     "color": "White",
@@ -6493,7 +6494,7 @@
   },
   {
     "name": "Ookami Mio",
-    "tag": "#JP #Gamers #Kemomimi #Cooking",
+    "tag": "#JP #GAMERS #Kemomimi #Cooking",
     "cardNumber": "hBP04-026",
     "rarity": "R",
     "color": "Green",
@@ -6534,7 +6535,7 @@
   },
   {
     "name": "Cecilia Immergreen",
-    "tag": "#EN #Justice #Languages",
+    "tag": "#EN #Justice #Language",
     "cardNumber": "hBP04-028",
     "rarity": "C",
     "color": "Green",
@@ -6549,11 +6550,11 @@
       }
     ],
     "setName": "hBP04",
-    "searchString": "cecilia immergreen hbp04-028 #en #justice #languages you may include any number of this holomem in the deck. 正義の調べ "
+    "searchString": "cecilia immergreen hbp04-028 #en #justice #language you may include any number of this holomem in the deck. 正義の調べ "
   },
   {
     "name": "Cecilia Immergreen",
-    "tag": "#EN #Justice #Languages",
+    "tag": "#EN #Justice #Language",
     "cardNumber": "hBP04-029",
     "rarity": "C",
     "color": "Green",
@@ -6568,11 +6569,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP04",
-    "searchString": "cecilia immergreen hbp04-029 #en #justice #languages 『古代自動人形』 "
+    "searchString": "cecilia immergreen hbp04-029 #en #justice #language 『古代自動人形』 "
   },
   {
     "name": "Cecilia Immergreen",
-    "tag": "#EN #Justice #Languages",
+    "tag": "#EN #Justice #Language",
     "cardNumber": "hBP04-030",
     "rarity": "U",
     "color": "Green",
@@ -6588,11 +6589,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP04",
-    "searchString": "cecilia immergreen hbp04-030 #en #justice #languages こんな旋律思いついたの: you may choose any 1-2 cheers on your stage, and move them between your holomem in any way you like. 聞いてくれる？ "
+    "searchString": "cecilia immergreen hbp04-030 #en #justice #language こんな旋律思いついたの: you may choose any 1-2 cheers on your stage, and move them between your holomem in any way you like. 聞いてくれる？ "
   },
   {
     "name": "Cecilia Immergreen",
-    "tag": "#EN #Justice #Languages",
+    "tag": "#EN #Justice #Language",
     "cardNumber": "hBP04-031",
     "rarity": "R",
     "color": "Green",
@@ -6609,11 +6610,11 @@
     ],
     "hasFullArt": true,
     "setName": "hBP04",
-    "searchString": "cecilia immergreen hbp04-031 #en #justice #languages 海を越えたお茶会 : if there are any holomem on your opponent's stage with #jp or #id, this holomem's arts gain +30 power. マルチリンガル choose one of your back holomem with the #language. you may reveal one cheer card of the same color as the chosen holomem from your cheer deck and attach it to that holomem. then, shuffle your cheer deck."
+    "searchString": "cecilia immergreen hbp04-031 #en #justice #language 海を越えたお茶会 : if there are any holomem on your opponent's stage with #jp or #id, this holomem's arts gain +30 power. マルチリンガル choose one of your back holomem with the #language. you may reveal one cheer card of the same color as the chosen holomem from your cheer deck and attach it to that holomem. then, shuffle your cheer deck."
   },
   {
     "name": "Ichijou Ririka",
-    "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
+    "tag": "#DEV_IS #ReGLOSS #Cooking #Language",
     "cardNumber": "hBP04-032",
     "rarity": "C",
     "color": "Red",
@@ -6628,11 +6629,11 @@
       }
     ],
     "setName": "hBP04",
-    "searchString": "ichijou ririka hbp04-032 #dev_is #regloss #cooking #languages you may include any number of this holomem in the deck. こんりり "
+    "searchString": "ichijou ririka hbp04-032 #dev_is #regloss #cooking #language you may include any number of this holomem in the deck. こんりり "
   },
   {
     "name": "Ichijou Ririka",
-    "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
+    "tag": "#DEV_IS #ReGLOSS #Cooking #Language",
     "cardNumber": "hBP04-033",
     "rarity": "U",
     "color": "Red",
@@ -6653,11 +6654,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP04",
-    "searchString": "ichijou ririka hbp04-033 #dev_is #regloss #cooking #languages 莉々華スタンバイ  リミットオーバー if you have used <genkai-meshi> this turn, deal 20 special damage to the opponent's collab holomem."
+    "searchString": "ichijou ririka hbp04-033 #dev_is #regloss #cooking #language 莉々華スタンバイ  リミットオーバー if you have used <genkai-meshi> this turn, deal 20 special damage to the opponent's collab holomem."
   },
   {
     "name": "Ichijou Ririka",
-    "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
+    "tag": "#DEV_IS #ReGLOSS #Cooking #Language",
     "cardNumber": "hBP04-034",
     "rarity": "C",
     "color": "Red",
@@ -6677,11 +6678,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP04",
-    "searchString": "ichijou ririka hbp04-034 #dev_is #regloss #cooking #languages let's dance  subscribe or die! "
+    "searchString": "ichijou ririka hbp04-034 #dev_is #regloss #cooking #language let's dance  subscribe or die! "
   },
   {
     "name": "Ichijou Ririka",
-    "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
+    "tag": "#DEV_IS #ReGLOSS #Cooking #Language",
     "cardNumber": "hBP04-035",
     "rarity": "U",
     "color": "Red",
@@ -6698,11 +6699,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP04",
-    "searchString": "ichijou ririka hbp04-035 #dev_is #regloss #cooking #languages 限界飯料理人 : you may return 1 struggle meal from your archive to hand. 社長パンチ deal 20 special damage to your opponent's collab holomem."
+    "searchString": "ichijou ririka hbp04-035 #dev_is #regloss #cooking #language 限界飯料理人 : you may return 1 struggle meal from your archive to hand. 社長パンチ deal 20 special damage to your opponent's collab holomem."
   },
   {
     "name": "Ichijou Ririka",
-    "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
+    "tag": "#DEV_IS #ReGLOSS #Cooking #Language",
     "cardNumber": "hBP04-036",
     "rarity": "R",
     "color": "Red",
@@ -6719,11 +6720,11 @@
     ],
     "hasFullArt": true,
     "setName": "hBP04",
-    "searchString": "ichijou ririka hbp04-036 #dev_is #regloss #cooking #languages おいしいもの独り占め : deal 20 special damage to your opponent's collab holomem. いひひっ if this art is targeting your opponent's collab holomem, draw 1 card."
+    "searchString": "ichijou ririka hbp04-036 #dev_is #regloss #cooking #language おいしいもの独り占め : deal 20 special damage to your opponent's collab holomem. いひひっ if this art is targeting your opponent's collab holomem, draw 1 card."
   },
   {
     "name": "Ichijou Ririka",
-    "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
+    "tag": "#DEV_IS #ReGLOSS #Cooking #Language",
     "cardNumber": "hBP04-037",
     "rarity": "RR",
     "color": "Red",
@@ -6741,7 +6742,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP04",
-    "searchString": "ichijou ririka hbp04-037 #dev_is #regloss #cooking #languages kpg : you may roll a dice: if the result is 4 or more, and your opponent has no collab holomem, they choose one of their back holomem and move it to the collab position (this is not treated as collabing). お？ 喧嘩する？ deal 50 special damage to the opponent's center holomem. afterwards, if you have used <genkai-meshi> this turn, deal 30 special damage to the opponent's center holomem or collab holomem."
+    "searchString": "ichijou ririka hbp04-037 #dev_is #regloss #cooking #language kpg : you may roll a dice: if the result is 4 or more, and your opponent has no collab holomem, they choose one of their back holomem and move it to the collab position (this is not treated as collabing). お？ 喧嘩する？ deal 50 special damage to the opponent's center holomem. afterwards, if you have used <genkai-meshi> this turn, deal 30 special damage to the opponent's center holomem or collab holomem."
   },
   {
     "name": "Houshou Marine",
@@ -7098,7 +7099,7 @@
   },
   {
     "name": "La+ Darknesss",
-    "tag": "#JP #HoloX #Shooter",
+    "tag": "#JP #holoX #Shooter",
     "cardNumber": "hBP04-054",
     "rarity": "C",
     "color": "Purple",
@@ -7120,7 +7121,7 @@
   },
   {
     "name": "La+ Darknesss",
-    "tag": "#JP #HoloX #Shooter",
+    "tag": "#JP #holoX #Shooter",
     "cardNumber": "hBP04-055",
     "rarity": "U",
     "color": "Purple",
@@ -7141,7 +7142,7 @@
   },
   {
     "name": "La+ Darknesss",
-    "tag": "#JP #HoloX #Shooter",
+    "tag": "#JP #holoX #Shooter",
     "cardNumber": "hBP04-056",
     "rarity": "C",
     "color": "Purple",
@@ -7165,7 +7166,7 @@
   },
   {
     "name": "La+ Darknesss",
-    "tag": "#JP #HoloX #Shooter",
+    "tag": "#JP #holoX #Shooter",
     "cardNumber": "hBP04-057",
     "rarity": "U",
     "color": "Purple",
@@ -7185,7 +7186,7 @@
   },
   {
     "name": "La+ Darknesss",
-    "tag": "#JP #HoloX #Shooter",
+    "tag": "#JP #holoX #Shooter",
     "cardNumber": "hBP04-058",
     "rarity": "R",
     "color": "Purple",
@@ -7205,7 +7206,7 @@
   },
   {
     "name": "La+ Darknesss",
-    "tag": "#JP #HoloX #Shooter",
+    "tag": "#JP #holoX #Shooter",
     "cardNumber": "hBP04-059",
     "rarity": "RR",
     "color": "Purple",
@@ -7250,7 +7251,7 @@
   },
   {
     "name": "Kureiji Ollie",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "cardNumber": "hBP04-061",
     "rarity": "R",
     "color": "Purple",
@@ -7267,7 +7268,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP04",
-    "searchString": "kureiji ollie hbp04-061 #id #idgen2 #languages オリーを見てください！: when you bloom with your sp oshi skill <蘇るオリー>, fully recover the hp of one of your <kureiji ollie>. holoroの魂 this arts gets +20 for each other 2nd holomem with the #id2ndgen on your stage."
+    "searchString": "kureiji ollie hbp04-061 #id #idgen2 #language オリーを見てください！: when you bloom with your sp oshi skill <蘇るオリー>, fully recover the hp of one of your <kureiji ollie>. holoroの魂 this arts gets +20 for each other 2nd holomem with the #id2ndgen on your stage."
   },
   {
     "name": "Mori Calliope",
@@ -7513,7 +7514,7 @@
   },
   {
     "name": "Anya Melfissa",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "cardNumber": "hBP04-073",
     "rarity": "C",
     "color": "Yellow",
@@ -7528,11 +7529,11 @@
       }
     ],
     "setName": "hBP04",
-    "searchString": "anya melfissa hbp04-073 #id #idgen2 #languages you may include any number of this holomem in the deck. おはよー！ "
+    "searchString": "anya melfissa hbp04-073 #id #idgen2 #language you may include any number of this holomem in the deck. おはよー！ "
   },
   {
     "name": "Anya Melfissa",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "cardNumber": "hBP04-074",
     "rarity": "U",
     "color": "Yellow",
@@ -7548,11 +7549,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP04",
-    "searchString": "anya melfissa hbp04-074 #id #idgen2 #languages a day at the café : [center position only] damage taken by this holomem and your collab holomem is reduced by 10. 隣座りますか？ "
+    "searchString": "anya melfissa hbp04-074 #id #idgen2 #language a day at the café : [center position only] damage taken by this holomem and your collab holomem is reduced by 10. 隣座りますか？ "
   },
   {
     "name": "Anya Melfissa",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "cardNumber": "hBP04-075",
     "rarity": "C",
     "color": "Yellow",
@@ -7572,11 +7573,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP04",
-    "searchString": "anya melfissa hbp04-075 #id #idgen2 #languages 悪魔の招待  悪魔の囁き "
+    "searchString": "anya melfissa hbp04-075 #id #idgen2 #language 悪魔の招待  悪魔の囁き "
   },
   {
     "name": "Anya Melfissa",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "cardNumber": "hBP04-076",
     "rarity": "U",
     "color": "Yellow",
@@ -7592,11 +7593,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP04",
-    "searchString": "anya melfissa hbp04-076 #id #idgen2 #languages 私から皆さんへの歌 : you may attach 1 ancient weapon from your archive to one of your <anya melfissa>. 応援、よろしくね！ "
+    "searchString": "anya melfissa hbp04-076 #id #idgen2 #language 私から皆さんへの歌 : you may attach 1 ancient weapon from your archive to one of your <anya melfissa>. 応援、よろしくね！ "
   },
   {
     "name": "Anya Melfissa",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "cardNumber": "hBP04-077",
     "rarity": "R",
     "color": "Yellow",
@@ -7612,11 +7613,11 @@
     ],
     "hasFullArt": true,
     "setName": "hBP04",
-    "searchString": "anya melfissa hbp04-077 #id #idgen2 #languages ガラス越しの庭園 : during your opponent's turn, when this holomem is downed, return one card from among the holomem stacked here (including this card) to your hand. 黄色い薔薇 "
+    "searchString": "anya melfissa hbp04-077 #id #idgen2 #language ガラス越しの庭園 : during your opponent's turn, when this holomem is downed, return one card from among the holomem stacked here (including this card) to your hand. 黄色い薔薇 "
   },
   {
     "name": "Anya Melfissa",
-    "tag": "#ID #IDGen2 #Languages",
+    "tag": "#ID #IDGen2 #Language",
     "cardNumber": "hBP04-078",
     "rarity": "RR",
     "color": "Yellow",
@@ -7633,7 +7634,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP04",
-    "searchString": "anya melfissa hbp04-078 #id #idgen2 #languages 宝物みつけた: [center position / collab position only] the yellow (黄) cost required for the arts of your center holomem <anya melfissa> that has <ancient weapon> attached is reduced by 1. ダンジョンアドベンチャー "
+    "searchString": "anya melfissa hbp04-078 #id #idgen2 #language 宝物みつけた: [center position / collab position only] the yellow (黄) cost required for the arts of your center holomem <anya melfissa> that has <ancient weapon> attached is reduced by 1. ダンジョンアドベンチャー "
   },
   {
     "name": "Natsuiro Matsuri",
@@ -8880,7 +8881,7 @@
   },
   {
     "name": "Ichijou Ririka",
-    "tag": "#DEV_IS #ReGLOSS #Cooking #Languages",
+    "tag": "#DEV_IS #ReGLOSS #Cooking #Language",
     "cardNumber": "hBP05-039",
     "rarity": "R",
     "color": "Red",
@@ -8903,7 +8904,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP05",
-    "searchString": "ichijou ririka hbp05-039 #dev_is #regloss #cooking #languages 人生に手遅れとかないか if you have used a <struggle meal> this turn, deal 20 special damage to your opponent's center holomem and collab holomem. いつでも軌道修正できる if the target of this arts is a 1st or greater collab holomem, this arts gets +70."
+    "searchString": "ichijou ririka hbp05-039 #dev_is #regloss #cooking #language 人生に手遅れとかないか if you have used a <struggle meal> this turn, deal 20 special damage to your opponent's center holomem and collab holomem. いつでも軌道修正できる if the target of this arts is a 1st or greater collab holomem, this arts gets +70."
   },
   {
     "name": "miComet",
@@ -8929,7 +8930,7 @@
   },
   {
     "name": "Nekomata Okayu",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "cardNumber": "hBP05-041",
     "rarity": "U",
     "color": "Blue",
@@ -8949,7 +8950,7 @@
   },
   {
     "name": "Nekomata Okayu",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "cardNumber": "hBP05-042",
     "rarity": "C",
     "color": "Blue",
@@ -8969,7 +8970,7 @@
   },
   {
     "name": "Nekomata Okayu",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "cardNumber": "hBP05-043",
     "rarity": "U",
     "color": "Blue",
@@ -8990,7 +8991,7 @@
   },
   {
     "name": "Nekomata Okayu",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "cardNumber": "hBP05-044",
     "rarity": "R",
     "color": "Blue",
@@ -9011,7 +9012,7 @@
   },
   {
     "name": "Nekomata Okayu",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "cardNumber": "hBP05-045",
     "rarity": "RR",
     "color": "Blue",
@@ -9506,7 +9507,7 @@
   },
   {
     "name": "Shirakami Fubuki",
-    "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "cardNumber": "hBP05-068",
     "rarity": "C",
     "color": "Yellow",
@@ -9526,7 +9527,7 @@
   },
   {
     "name": "Shirakami Fubuki",
-    "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "cardNumber": "hBP05-069",
     "rarity": "U",
     "color": "Yellow",
@@ -9547,7 +9548,7 @@
   },
   {
     "name": "Shirakami Fubuki",
-    "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "cardNumber": "hBP05-070",
     "rarity": "RR",
     "color": "Yellow",
@@ -9574,7 +9575,7 @@
   },
   {
     "name": "Inugami Korone",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "cardNumber": "hBP05-071",
     "rarity": "R",
     "color": "Yellow",
@@ -9596,7 +9597,7 @@
   },
   {
     "name": "Tsunomaki Watame",
-    "tag": "#JP #gen4 #Kemomimi #Singing",
+    "tag": "#JP #Gen4 #Kemomimi #Singing",
     "cardNumber": "hBP05-072",
     "rarity": "R",
     "color": "Yellow",
@@ -9624,7 +9625,7 @@
   },
   {
     "name": "Ayunda Risu",
-    "tag": "#ID #IDgen1 #Kemomimi #Singing",
+    "tag": "#ID #IDGen1 #Kemomimi #Singing",
     "cardNumber": "hBP05-073",
     "rarity": "R",
     "color": "Yellow",
@@ -10084,7 +10085,7 @@
   },
   {
     "name": "Isaki Riona",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "cardNumber": "hBP06-015",
     "rarity": "C",
     "color": "White",
@@ -10101,11 +10102,11 @@
     "hasHolomenRare": true,
     "imageSet": "hBP06",
     "setName": "hBP06",
-    "searchString": "isaki riona hbp06-015 #dev_is #flow glow you may include any number of this holomem in the deck okae-riona~ "
+    "searchString": "isaki riona hbp06-015 #dev_is #flowglow you may include any number of this holomem in the deck okae-riona~ "
   },
   {
     "name": "Isaki Riona",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "cardNumber": "hBP06-016",
     "rarity": "U",
     "color": "White",
@@ -10120,11 +10121,11 @@
       }
     ],
     "setName": "hBP06",
-    "searchString": "isaki riona hbp06-016 #dev_is #flow glow 一緒に共闘しよ: if you are going second and this is your first turn, reveal 1 [holomem with a collab effect and #flow glow] from your deck, and add it to hand. then, shuffle the deck. おつりおなああああ！ "
+    "searchString": "isaki riona hbp06-016 #dev_is #flowglow 一緒に共闘しよ: if you are going second and this is your first turn, reveal 1 [holomem with a collab effect and #flow glow] from your deck, and add it to hand. then, shuffle the deck. おつりおなああああ！ "
   },
   {
     "name": "Isaki Riona",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "cardNumber": "hBP06-017",
     "rarity": "C",
     "color": "White",
@@ -10144,11 +10145,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "isaki riona hbp06-017 #dev_is #flow glow 夢はアリーナでするライブ  タイフーン起こすこのホロライブ "
+    "searchString": "isaki riona hbp06-017 #dev_is #flowglow 夢はアリーナでするライブ  タイフーン起こすこのホロライブ "
   },
   {
     "name": "Isaki Riona",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "cardNumber": "hBP06-018",
     "rarity": "U",
     "color": "White",
@@ -10165,11 +10166,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "isaki riona hbp06-018 #dev_is #flow glow tflow glowのリーダー: during this turn, 1 of your holomem with #flow glow gets arts+20. brr! brr! archive the top card of your deck."
+    "searchString": "isaki riona hbp06-018 #dev_is #flowglow tflow glowのリーダー: during this turn, 1 of your holomem with #flow glow gets arts+20. brr! brr! archive the top card of your deck."
   },
   {
     "name": "Isaki Riona",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "cardNumber": "hBP06-019",
     "rarity": "R",
     "color": "White",
@@ -10186,11 +10187,11 @@
     ],
     "hasFullArt": true,
     "setName": "hBP06",
-    "searchString": "isaki riona hbp06-019 #dev_is #flow glow ストイック負けず嫌い王: nif your oshi holomem is <isaki riona>, you may archive the top card of your deck:draw 1 card. 意外と熱血タイプ？ archive the top card of your deck."
+    "searchString": "isaki riona hbp06-019 #dev_is #flowglow ストイック負けず嫌い王: nif your oshi holomem is <isaki riona>, you may archive the top card of your deck:draw 1 card. 意外と熱血タイプ？ archive the top card of your deck."
   },
   {
     "name": "Isaki Riona",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "cardNumber": "hBP06-020",
     "rarity": "RR",
     "color": "White",
@@ -10208,11 +10209,11 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP06",
-    "searchString": "isaki riona hbp06-020 #dev_is #flow glow 意志の指揮者　: if this holomem is downed during your opponent's turn, you may archive the top 2 cards of your deck. if you do, draw 1 card from your deck for each differently-named holomem with #flow glow on your stage. レゾナンスロア archive 1~3 cards from the top of your deck. this arts gets +20 for each card archived."
+    "searchString": "isaki riona hbp06-020 #dev_is #flowglow 意志の指揮者　: if this holomem is downed during your opponent's turn, you may archive the top 2 cards of your deck. if you do, draw 1 card from your deck for each differently-named holomem with #flow glow on your stage. レゾナンスロア archive 1~3 cards from the top of your deck. this arts gets +20 for each card archived."
   },
   {
     "name": "Hakui Koyori",
-    "tag": "#JP #HoloX #Kemomimi",
+    "tag": "#JP #holoX #Kemomimi",
     "cardNumber": "hBP06-021",
     "rarity": "R",
     "color": "White",
@@ -10233,7 +10234,7 @@
   },
   {
     "name": "Kazama Iroha",
-    "tag": "#JP #HoloX",
+    "tag": "#JP #holoX",
     "cardNumber": "hBP06-022",
     "rarity": "C",
     "color": "Green",
@@ -10252,7 +10253,7 @@
   },
   {
     "name": "Kazama Iroha",
-    "tag": "#JP #HoloX",
+    "tag": "#JP #holoX",
     "cardNumber": "hBP06-023",
     "rarity": "U",
     "color": "Green",
@@ -10272,7 +10273,7 @@
   },
   {
     "name": "Kazama Iroha",
-    "tag": "#JP #HoloX",
+    "tag": "#JP #holoX",
     "cardNumber": "hBP06-024",
     "rarity": "C",
     "color": "Green",
@@ -10291,7 +10292,7 @@
   },
   {
     "name": "Kazama Iroha",
-    "tag": "#JP #HoloX",
+    "tag": "#JP #holoX",
     "cardNumber": "hBP06-025",
     "rarity": "U",
     "color": "Green",
@@ -10311,7 +10312,7 @@
   },
   {
     "name": "Kazama Iroha",
-    "tag": "#JP #HoloX",
+    "tag": "#JP #holoX",
     "cardNumber": "hBP06-026",
     "rarity": "R",
     "color": "Green",
@@ -10333,7 +10334,7 @@
   },
   {
     "name": "Kazama Iroha",
-    "tag": "#JP #HoloX",
+    "tag": "#JP #holoX",
     "cardNumber": "hBP06-027",
     "rarity": "RR",
     "color": "Green",
@@ -10356,7 +10357,7 @@
   },
   {
     "name": "Himemori Luna",
-    "tag": "#JP #Gen 4 #Baby",
+    "tag": "#JP #Gen4 #Baby",
     "cardNumber": "hBP06-028",
     "rarity": "C",
     "color": "Green",
@@ -10371,11 +10372,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "himemori luna hbp06-028 #jp #gen 4 #baby んなあああああい "
+    "searchString": "himemori luna hbp06-028 #jp #gen4 #baby んなあああああい "
   },
   {
     "name": "Himemori Luna",
-    "tag": "#JP #Gen 4 #Baby",
+    "tag": "#JP #Gen4 #Baby",
     "cardNumber": "hBP06-029",
     "rarity": "U",
     "color": "Green",
@@ -10396,11 +10397,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "himemori luna hbp06-029 #jp #gen 4 #baby 祝祭 if there is a fan attached to your holomem, you may send the top card of your cheer deck to this holomem. ロイヤル・フラワーブーケ "
+    "searchString": "himemori luna hbp06-029 #jp #gen4 #baby 祝祭 if there is a fan attached to your holomem, you may send the top card of your cheer deck to this holomem. ロイヤル・フラワーブーケ "
   },
   {
     "name": "Himemori Luna",
-    "tag": "#JP #Gen 4 #Baby",
+    "tag": "#JP #Gen4 #Baby",
     "cardNumber": "hBP06-030",
     "rarity": "R",
     "color": "Green",
@@ -10417,11 +10418,11 @@
     ],
     "hasFullArt": true,
     "setName": "hBP06",
-    "searchString": "himemori luna hbp06-030 #jp #gen 4 #baby みんなへ感謝の気持ち: [collab position only]during your opponent's turn, when you would archive a <lu-knights> attached to your center holomem, you may reattach it to your back <himemori luna> instead. 届けたいのら！ you may attach 1 <lu-knights> from your archive to your <himemori luna>."
+    "searchString": "himemori luna hbp06-030 #jp #gen4 #baby みんなへ感謝の気持ち: [collab position only]during your opponent's turn, when you would archive a <lu-knights> attached to your center holomem, you may reattach it to your back <himemori luna> instead. 届けたいのら！ you may attach 1 <lu-knights> from your archive to your <himemori luna>."
   },
   {
     "name": "Himemori Luna",
-    "tag": "#JP #Gen 4 #Baby",
+    "tag": "#JP #Gen4 #Baby",
     "cardNumber": "hBP06-031",
     "rarity": "RR",
     "color": "Green",
@@ -10439,7 +10440,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP06",
-    "searchString": "himemori luna hbp06-031 #jp #gen 4 #baby んなっしょい！: if your oshi holomem is <himemori luna>, you may archive 1~2 <lu-knights> on your stage:for each card archived, send the top card of your cheer deck to 1 of your <himemori luna>. ずっと一緒なのらね if 2 or more <lu-knights> are attached to this holomem, this arts gets +50."
+    "searchString": "himemori luna hbp06-031 #jp #gen4 #baby んなっしょい！: if your oshi holomem is <himemori luna>, you may archive 1~2 <lu-knights> on your stage:for each card archived, send the top card of your cheer deck to 1 of your <himemori luna>. ずっと一緒なのらね if 2 or more <lu-knights> are attached to this holomem, this arts gets +50."
   },
   {
     "name": "Cecilia Immergreen",
@@ -10484,7 +10485,7 @@
   },
   {
     "name": "Nakiri Ayame",
-    "tag": "#JP #Gen 2 #Shooter",
+    "tag": "#JP #Gen2 #Shooter",
     "cardNumber": "hBP06-034",
     "rarity": "C",
     "color": "Red",
@@ -10500,11 +10501,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "nakiri ayame hbp06-034 #jp #gen 2 #shooter 夏の海でドキドキデート you may archive 1 card from your hand:your center <nakiri ayame> gets arts+30."
+    "searchString": "nakiri ayame hbp06-034 #jp #gen2 #shooter 夏の海でドキドキデート you may archive 1 card from your hand:your center <nakiri ayame> gets arts+30."
   },
   {
     "name": "Nakiri Ayame",
-    "tag": "#JP #Gen 2 #Shooter",
+    "tag": "#JP #Gen2 #Shooter",
     "cardNumber": "hBP06-035",
     "rarity": "U",
     "color": "Red",
@@ -10519,11 +10520,11 @@
       }
     ],
     "setName": "hBP06",
-    "searchString": "nakiri ayame hbp06-035 #jp #gen 2 #shooter かわ余: if you are going second and this is your first turn, reveal 1 [tool, mascot, or fan] from your deck and attach it to your <nakiri ayame>. then, shuffle the deck. …二度寝する(:3_ヽ)_ "
+    "searchString": "nakiri ayame hbp06-035 #jp #gen2 #shooter かわ余: if you are going second and this is your first turn, reveal 1 [tool, mascot, or fan] from your deck and attach it to your <nakiri ayame>. then, shuffle the deck. …二度寝する(:3_ヽ)_ "
   },
   {
     "name": "Nakiri Ayame",
-    "tag": "#JP #Gen 2 #Shooter",
+    "tag": "#JP #Gen2 #Shooter",
     "cardNumber": "hBP06-036",
     "rarity": "C",
     "color": "Red",
@@ -10540,11 +10541,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "nakiri ayame hbp06-036 #jp #gen 2 #shooter まったり夜桜温泉デート: reveal 1 [<asura & rakshasa>, <demonic sword \"asura\">, or <poyoyo>] from your deck, and add it to hand. then, shuffle the deck. お風呂上がりの幸せな時間 you may archive the top card of your cheer deck:draw 1 card."
+    "searchString": "nakiri ayame hbp06-036 #jp #gen2 #shooter まったり夜桜温泉デート: reveal 1 [<asura & rakshasa>, <demonic sword \"asura\">, or <poyoyo>] from your deck, and add it to hand. then, shuffle the deck. お風呂上がりの幸せな時間 you may archive the top card of your cheer deck:draw 1 card."
   },
   {
     "name": "Nakiri Ayame",
-    "tag": "#JP #Gen 2 #Shooter",
+    "tag": "#JP #Gen2 #Shooter",
     "cardNumber": "hBP06-037",
     "rarity": "U",
     "color": "Red",
@@ -10561,11 +10562,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "nakiri ayame hbp06-037 #jp #gen 2 #shooter お参りデート:you may return 2 red cheers from your archive to the bottom of your cheer deck in any order. ずっと元気でいられますように…. you may archive the top card of your cheer deck:deal 30 damage to your opponent's center holomem or collab holomem."
+    "searchString": "nakiri ayame hbp06-037 #jp #gen2 #shooter お参りデート:you may return 2 red cheers from your archive to the bottom of your cheer deck in any order. ずっと元気でいられますように…. you may archive the top card of your cheer deck:deal 30 damage to your opponent's center holomem or collab holomem."
   },
   {
     "name": "Nakiri Ayame",
-    "tag": "#JP #Gen 2 #Shooter",
+    "tag": "#JP #Gen2 #Shooter",
     "cardNumber": "hBP06-038",
     "rarity": "R",
     "color": "Red",
@@ -10582,11 +10583,11 @@
     ],
     "hasFullArt": true,
     "setName": "hBP06",
-    "searchString": "nakiri ayame hbp06-038 #jp #gen 2 #shooter たまに増える余: you may archive the top card of your cheer deck:return 1 <nakiri ayame> from your archive to hand. では参る！ you may archive the top card of your cheer deck:deal 20 special damage to your opponent's center holomem or collab holomem."
+    "searchString": "nakiri ayame hbp06-038 #jp #gen2 #shooter たまに増える余: you may archive the top card of your cheer deck:return 1 <nakiri ayame> from your archive to hand. では参る！ you may archive the top card of your cheer deck:deal 20 special damage to your opponent's center holomem or collab holomem."
   },
   {
     "name": "Nakiri Ayame",
-    "tag": "#JP #Gen 2 #Shooter",
+    "tag": "#JP #Gen2 #Shooter",
     "cardNumber": "hBP06-039",
     "rarity": "RR",
     "color": "Red",
@@ -10604,7 +10605,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP06",
-    "searchString": "nakiri ayame hbp06-039 #jp #gen 2 #shooter 余、なんも聞いとらんかった。: [center position only]if you have a collab holomem and your opponent does not have a collab holomem, all of your holomem take no arts damage from your opponent. 百鬼乱舞 -朧月- if your oshi holomem is <nakiri ayame>, you may archive 1~3 cards from the top of your cheer deck:this arts gets +40 for each card archived. this arts may not be used from the collab position unless your life is 2 or less."
+    "searchString": "nakiri ayame hbp06-039 #jp #gen2 #shooter 余、なんも聞いとらんかった。: [center position only]if you have a collab holomem and your opponent does not have a collab holomem, all of your holomem take no arts damage from your opponent. 百鬼乱舞 -朧月- if your oshi holomem is <nakiri ayame>, you may archive 1~3 cards from the top of your cheer deck:this arts gets +40 for each card archived. this arts may not be used from the collab position unless your life is 2 or less."
   },
   {
     "name": "Hakos Baelz",
@@ -10740,7 +10741,7 @@
   },
   {
     "name": "Takane Lui",
-    "tag": "#JP #HoloX #Bird #Alcohol",
+    "tag": "#JP #holoX #Bird #Alcohol",
     "cardNumber": "hBP06-046",
     "rarity": "R",
     "color": "Red",
@@ -10916,7 +10917,7 @@
   },
   {
     "name": "Yukihana Lamy",
-    "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
+    "tag": "#JP #Gen5 #Half-Elf #Alcohol",
     "cardNumber": "hBP06-054",
     "rarity": "R",
     "color": "Blue",
@@ -10933,11 +10934,11 @@
     ],
     "hasFullArt": true,
     "setName": "hBP06",
-    "searchString": "yukihana lamy hbp06-054 #jp #gen 5 #half-elf #alcohol 有言実行！！: if this holomem has a <yukimin> attached, deal 20 special damage to your opponent's center holomem and draw 1 card. if this holomem has 3 or more <yukimin> attached, draw 2 cards instead. 暖かい誕生日とその先へ this arts gets +10 for each <yukimin> attached to this holomem."
+    "searchString": "yukihana lamy hbp06-054 #jp #gen5 #half-elf #alcohol 有言実行！！: if this holomem has a <yukimin> attached, deal 20 special damage to your opponent's center holomem and draw 1 card. if this holomem has 3 or more <yukimin> attached, draw 2 cards instead. 暖かい誕生日とその先へ this arts gets +10 for each <yukimin> attached to this holomem."
   },
   {
     "name": "Sakamata Chloe",
-    "tag": "#JP #HoloX #Sea",
+    "tag": "#JP #holoX #Sea",
     "cardNumber": "hBP06-055",
     "rarity": "R",
     "color": "Blue",
@@ -10958,7 +10959,7 @@
   },
   {
     "name": "Sakamata Chloe",
-    "tag": "#JP #HoloX #Sea",
+    "tag": "#JP #holoX #Sea",
     "cardNumber": "hBP06-056",
     "rarity": "R",
     "color": "Blue",
@@ -11067,7 +11068,7 @@
   },
   {
     "name": "Robocosan",
-    "tag": "#JP #Gen 0 #Shooter",
+    "tag": "#JP #Gen0 #Shooter",
     "cardNumber": "hBP06-061",
     "rarity": "C",
     "color": "Purple",
@@ -11083,11 +11084,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "robocosan hbp06-061 #jp #gen 0 #shooter ボクと過ごす甘いひと if a <roboser> is attached to this holomem, deal 20 special damage to your opponent's center holomem."
+    "searchString": "robocosan hbp06-061 #jp #gen0 #shooter ボクと過ごす甘いひと if a <roboser> is attached to this holomem, deal 20 special damage to your opponent's center holomem."
   },
   {
     "name": "Robocosan",
-    "tag": "#JP #Gen 0 #Shooter",
+    "tag": "#JP #Gen0 #Shooter",
     "cardNumber": "hBP06-062",
     "rarity": "U",
     "color": "Purple",
@@ -11102,11 +11103,11 @@
       }
     ],
     "setName": "hBP06",
-    "searchString": "robocosan hbp06-062 #jp #gen 0 #shooter ロボ子と一緒にあそぼ: if you are going second and this is your first turn, reveal 2 <roboser> from your deck, and add them to hand. then, shuffle the deck. ひとりじゃないよ "
+    "searchString": "robocosan hbp06-062 #jp #gen0 #shooter ロボ子と一緒にあそぼ: if you are going second and this is your first turn, reveal 2 <roboser> from your deck, and add them to hand. then, shuffle the deck. ひとりじゃないよ "
   },
   {
     "name": "Robocosan",
-    "tag": "#JP #Gen 0 #Shooter",
+    "tag": "#JP #Gen0 #Shooter",
     "cardNumber": "hBP06-063",
     "rarity": "C",
     "color": "Purple",
@@ -11122,11 +11123,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "robocosan hbp06-063 #jp #gen 0 #shooter プリンとお子様オムライス: if there is a <roboser> attached to your holomem, deal 20 special damage to your opponent's center holomem. んーーーおいしい[๑´ڡ`๑]♡ "
+    "searchString": "robocosan hbp06-063 #jp #gen0 #shooter プリンとお子様オムライス: if there is a <roboser> attached to your holomem, deal 20 special damage to your opponent's center holomem. んーーーおいしい[๑´ڡ`๑]♡ "
   },
   {
     "name": "Robocosan",
-    "tag": "#JP #Gen 0 #Shooter",
+    "tag": "#JP #Gen0 #Shooter",
     "cardNumber": "hBP06-064",
     "rarity": "U",
     "color": "Purple",
@@ -11142,11 +11143,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "robocosan hbp06-064 #jp #gen 0 #shooter いたずらしちゃうぞ～！: if your oshi holomem is <robocosan>, you may archive 1~2 cards from your hand:for each card archived, return 1 <roboser> from your archive to hand. がおー！！......ビックリした？ "
+    "searchString": "robocosan hbp06-064 #jp #gen0 #shooter いたずらしちゃうぞ～！: if your oshi holomem is <robocosan>, you may archive 1~2 cards from your hand:for each card archived, return 1 <roboser> from your archive to hand. がおー！！......ビックリした？ "
   },
   {
     "name": "Robocosan",
-    "tag": "#JP #Gen 0 #Shooter",
+    "tag": "#JP #Gen0 #Shooter",
     "cardNumber": "hBP06-065",
     "rarity": "R",
     "color": "Purple",
@@ -11165,11 +11166,11 @@
     ],
     "hasFullArt": true,
     "setName": "hBP06",
-    "searchString": "robocosan hbp06-065 #jp #gen 0 #shooter 一言芳恩:when this holomem uses arts, if this holomem has bloomed from a 1st holomem, deal 50 special damage to your opponent's center holomem or collab holomem. if this holomem is downed, you get life-2 かけがえのない日々 if your holomem was downed on your opponent's last turn, this arts cheer cost is reduced by 1 colorless cheer."
+    "searchString": "robocosan hbp06-065 #jp #gen0 #shooter 一言芳恩:when this holomem uses arts, if this holomem has bloomed from a 1st holomem, deal 50 special damage to your opponent's center holomem or collab holomem. if this holomem is downed, you get life-2 かけがえのない日々 if your holomem was downed on your opponent's last turn, this arts cheer cost is reduced by 1 colorless cheer."
   },
   {
     "name": "Robocosan",
-    "tag": "#JP #Gen 0 #Shooter",
+    "tag": "#JP #Gen0 #Shooter",
     "cardNumber": "hBP06-066",
     "rarity": "RR",
     "color": "Purple",
@@ -11187,7 +11188,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP06",
-    "searchString": "robocosan hbp06-066 #jp #gen 0 #shooter どり～む_コネクト.zero: [center position only]when your collab holomem with #gen 0 uses arts, reveal 1 card from your deck and archive it. then, shuffle the deck. ＜封印＞ ダークブライダル if this holomem has 3 or more <roboser> attached, deal 70 special damage to your opponent's center holomem or collab holomem."
+    "searchString": "robocosan hbp06-066 #jp #gen0 #shooter どり～む_コネクト.zero: [center position only]when your collab holomem with #gen 0 uses arts, reveal 1 card from your deck and archive it. then, shuffle the deck. ＜封印＞ ダークブライダル if this holomem has 3 or more <roboser> attached, deal 70 special damage to your opponent's center holomem or collab holomem."
   },
   {
     "name": "Inugami Korone",
@@ -11275,7 +11276,7 @@
   },
   {
     "name": "La+ Darknesss",
-    "tag": "#JP #HoloX #Shooter",
+    "tag": "#JP #holoX #Shooter",
     "cardNumber": "hBP06-071",
     "rarity": "R",
     "color": "Purple",
@@ -11301,7 +11302,7 @@
   },
   {
     "name": "Natsuiro Matsuri",
-    "tag": "#JP #Gen 1 #Shooter",
+    "tag": "#JP #Gen1 #Shooter",
     "cardNumber": "hBP06-072",
     "rarity": "C",
     "color": "Yellow",
@@ -11317,11 +11318,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "natsuiro matsuri hbp06-072 #jp #gen 1 #shooter 勝てると思った？ this holomem takes -30 arts damage from your opponent's 1st holomem. ざんね～ん "
+    "searchString": "natsuiro matsuri hbp06-072 #jp #gen1 #shooter 勝てると思った？ this holomem takes -30 arts damage from your opponent's 1st holomem. ざんね～ん "
   },
   {
     "name": "Natsuiro Matsuri",
-    "tag": "#JP #Gen 1 #Shooter",
+    "tag": "#JP #Gen1 #Shooter",
     "cardNumber": "hBP06-073",
     "rarity": "U",
     "color": "Yellow",
@@ -11336,11 +11337,11 @@
       }
     ],
     "setName": "hBP06",
-    "searchString": "natsuiro matsuri hbp06-073 #jp #gen 1 #shooter いっしょに居てくれる…？: if you are going second, this is your first turn, and your oshi holomem is <natsuiro matsuri>, reveal 1 limited support card from your deck and add it to hand. then, shuffle the deck. ありがとっ "
+    "searchString": "natsuiro matsuri hbp06-073 #jp #gen1 #shooter いっしょに居てくれる…？: if you are going second, this is your first turn, and your oshi holomem is <natsuiro matsuri>, reveal 1 limited support card from your deck and add it to hand. then, shuffle the deck. ありがとっ "
   },
   {
     "name": "Natsuiro Matsuri",
-    "tag": "#JP #Gen 1 #Shooter",
+    "tag": "#JP #Gen1 #Shooter",
     "cardNumber": "hBP06-074",
     "rarity": "C",
     "color": "Yellow",
@@ -11356,11 +11357,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "natsuiro matsuri hbp06-074 #jp #gen 1 #shooter 天使界隈: during this turn, your center holomem gets arts+10 for each support card you used this turn. however, only up to 3 cards are counted. cure pale "
+    "searchString": "natsuiro matsuri hbp06-074 #jp #gen1 #shooter 天使界隈: during this turn, your center holomem gets arts+10 for each support card you used this turn. however, only up to 3 cards are counted. cure pale "
   },
   {
     "name": "Natsuiro Matsuri",
-    "tag": "#JP #Gen 1 #Shooter",
+    "tag": "#JP #Gen1 #Shooter",
     "cardNumber": "hBP06-075",
     "rarity": "U",
     "color": "Yellow",
@@ -11381,11 +11382,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "natsuiro matsuri hbp06-075 #jp #gen 1 #shooter 今夜はdance the night!  ダンスレッスン頑張るぞ！ roll a die once for every [mascot and fan] on your stage. this arts gets +10 for each time it is 4 or greater. however, the die can be rolled only up to 4 times."
+    "searchString": "natsuiro matsuri hbp06-075 #jp #gen1 #shooter 今夜はdance the night!  ダンスレッスン頑張るぞ！ roll a die once for every [mascot and fan] on your stage. this arts gets +10 for each time it is 4 or greater. however, the die can be rolled only up to 4 times."
   },
   {
     "name": "Natsuiro Matsuri",
-    "tag": "#JP #Gen 1 #Shooter",
+    "tag": "#JP #Gen1 #Shooter",
     "cardNumber": "hBP06-076",
     "rarity": "R",
     "color": "Yellow",
@@ -11404,11 +11405,11 @@
     ],
     "hasFullArt": true,
     "setName": "hBP06",
-    "searchString": "natsuiro matsuri hbp06-076 #jp #gen 1 #shooter レッツパフォーミング　: reveal 1 [<ebifrion> or <matsurisu>] from your deck, and add it to hand. then, shuffle the deck. if this holomem is downed, you get life-2 まつりちゃんにメロメロになれよ❤︎ if the target of this arts is your opponent's 2nd holomem, and you have used a limited event this turn, this arts gets +70."
+    "searchString": "natsuiro matsuri hbp06-076 #jp #gen1 #shooter レッツパフォーミング　: reveal 1 [<ebifrion> or <matsurisu>] from your deck, and add it to hand. then, shuffle the deck. if this holomem is downed, you get life-2 まつりちゃんにメロメロになれよ❤︎ if the target of this arts is your opponent's 2nd holomem, and you have used a limited event this turn, this arts gets +70."
   },
   {
     "name": "Natsuiro Matsuri",
-    "tag": "#JP #Gen 1 #Shooter",
+    "tag": "#JP #Gen1 #Shooter",
     "cardNumber": "hBP06-077",
     "rarity": "RR",
     "color": "Yellow",
@@ -11426,11 +11427,11 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP06",
-    "searchString": "natsuiro matsuri hbp06-077 #jp #gen 1 #shooter re:start: if your life is equal to or less than your opponent's life, you may send the top card of your cheer deck to your <natsuiro matsuri>. never give up!! 夏色魂 the arts gets +30 for each limited support card you used this turn."
+    "searchString": "natsuiro matsuri hbp06-077 #jp #gen1 #shooter re:start: if your life is equal to or less than your opponent's life, you may send the top card of your cheer deck to your <natsuiro matsuri>. never give up!! 夏色魂 the arts gets +30 for each limited support card you used this turn."
   },
   {
     "name": "Oozora Subaru",
-    "tag": "#JP #Gen 2 #Bird",
+    "tag": "#JP #Gen2 #Bird",
     "cardNumber": "hBP06-078",
     "rarity": "C",
     "color": "Yellow",
@@ -11446,11 +11447,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "oozora subaru hbp06-078 #jp #gen 2 #bird 地球&テラ:you may archive 1 cheer from this holomem:reveal 1 debut holomem with the same name as your oshi holomem from your deck, and add it to hand. then, shuffle the deck. 取り敢えずpowerで頑張るっす！！！！ "
+    "searchString": "oozora subaru hbp06-078 #jp #gen2 #bird 地球&テラ:you may archive 1 cheer from this holomem:reveal 1 debut holomem with the same name as your oshi holomem from your deck, and add it to hand. then, shuffle the deck. 取り敢えずpowerで頑張るっす！！！！ "
   },
   {
     "name": "Oozora Subaru",
-    "tag": "#JP #Gen 2 #Bird",
+    "tag": "#JP #Gen2 #Bird",
     "cardNumber": "hBP06-079",
     "rarity": "U",
     "color": "Yellow",
@@ -11466,11 +11467,11 @@
     ],
     "hasFoils": true,
     "setName": "hBP06",
-    "searchString": "oozora subaru hbp06-079 #jp #gen 2 #bird subaru duck dance: you may send 1 cheer from your archive to this holomem. さ゛さ゛な゛み゛の゛音゛ "
+    "searchString": "oozora subaru hbp06-079 #jp #gen2 #bird subaru duck dance: you may send 1 cheer from your archive to this holomem. さ゛さ゛な゛み゛の゛音゛ "
   },
   {
     "name": "Oozora Subaru",
-    "tag": "#JP #Gen 2 #Bird",
+    "tag": "#JP #Gen2 #Bird",
     "cardNumber": "hBP06-080",
     "rarity": "R",
     "color": "Yellow",
@@ -11487,11 +11488,11 @@
     ],
     "hasFullArt": true,
     "setName": "hBP06",
-    "searchString": "oozora subaru hbp06-080 #jp #gen 2 #bird 手を繋ごう: reveal 1 [<subarudo duck> or <subatomo>] from your deck, and add it to hand. then, shuffle the deck. どこへだって行ける this arts gets +20 for every <subatomo> attached to this holomem."
+    "searchString": "oozora subaru hbp06-080 #jp #gen2 #bird 手を繋ごう: reveal 1 [<subarudo duck> or <subatomo>] from your deck, and add it to hand. then, shuffle the deck. どこへだって行ける this arts gets +20 for every <subatomo> attached to this holomem."
   },
   {
     "name": "Oozora Subaru",
-    "tag": "#JP #Gen 2 #Bird",
+    "tag": "#JP #Gen2 #Bird",
     "cardNumber": "hBP06-081",
     "rarity": "RR",
     "color": "Yellow",
@@ -11509,11 +11510,11 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP06",
-    "searchString": "oozora subaru hbp06-081 #jp #gen 2 #bird 出動！ ドタバタ大空警察!!: if your oshi holomem is <oozora subaru>, you may archive 1 cheer from your stage:reveal 1 <oozora subaru> from your deck, and add it to hand. then, shuffle the deck. guilty or innocent if your life is 3 or less, for each of this holomem's cheers, send the top card of your cheer deck to 1 of your yellow holomem."
+    "searchString": "oozora subaru hbp06-081 #jp #gen2 #bird 出動！ ドタバタ大空警察!!: if your oshi holomem is <oozora subaru>, you may archive 1 cheer from your stage:reveal 1 <oozora subaru> from your deck, and add it to hand. then, shuffle the deck. guilty or innocent if your life is 3 or less, for each of this holomem's cheers, send the top card of your cheer deck to 1 of your yellow holomem."
   },
   {
     "name": "Anya Melfissa",
-    "tag": "#ID #ID Gen 2 #Language",
+    "tag": "#ID #IDGen2 #Language",
     "cardNumber": "hBP06-082",
     "rarity": "R",
     "color": "Yellow",
@@ -11530,11 +11531,11 @@
     ],
     "hasFullArt": true,
     "setName": "hBP06",
-    "searchString": "anya melfissa hbp06-082 #id #id gen 2 #language 眠らない街:　[collab position only]if your oshi holomem is <anya melfissa>, your [center holomem and collab holomem] with an <ancient weapon> attached take -30 arts damage. 奇妙な来客 if you used your oshi skill \"mystical ritual\" this turn, you may return 1~3 <anya melfissa> from your archive to hand."
+    "searchString": "anya melfissa hbp06-082 #id #idgen2 #language 眠らない街:　[collab position only]if your oshi holomem is <anya melfissa>, your [center holomem and collab holomem] with an <ancient weapon> attached take -30 arts damage. 奇妙な来客 if you used your oshi skill \"mystical ritual\" this turn, you may return 1~3 <anya melfissa> from your archive to hand."
   },
   {
     "name": "LAMBDUCK",
-    "tag": "#JP #Gen 2 #Gen 4 #Bird #Kemomimi #Singing",
+    "tag": "#JP #Gen2 #Gen4 #Bird #Kemomimi #Singing",
     "cardNumber": "hBP06-083",
     "rarity": "R",
     "color": "Yellow",
@@ -11552,11 +11553,11 @@
     ],
     "hasFullArt": true,
     "setName": "hBP06",
-    "searchString": "lambduck hbp06-083 #jp #gen 2 #gen 4 #bird #kemomimi #singing おしまいのあじまり: you may reveal 1 <oozora subaru> from your hand and return it to the bottom of your deck:return 1 <tsunomaki watame> or <oozora subaru> from your archive to hand. this holomem is also regarded as <tsunomaki watame> <oozora subaru> i am スバル＆わため！ yeah！！ [collab position only]if your oshi holomem is <tsunomaki watame> or <oozora subaru>, the cheer cost of this arts is reduced by 1 yellow cheer. if your center holomem is a 2nd <tsunomaki watame>, the cheer cost of this arts is reduced by 3 yellow cheer instead."
+    "searchString": "lambduck hbp06-083 #jp #gen2 #gen4 #bird #kemomimi #singing おしまいのあじまり: you may reveal 1 <oozora subaru> from your hand and return it to the bottom of your deck:return 1 <tsunomaki watame> or <oozora subaru> from your archive to hand. this holomem is also regarded as <tsunomaki watame> <oozora subaru> i am スバル＆わため！ yeah！！ [collab position only]if your oshi holomem is <tsunomaki watame> or <oozora subaru>, the cheer cost of this arts is reduced by 1 yellow cheer. if your center holomem is a 2nd <tsunomaki watame>, the cheer cost of this arts is reduced by 3 yellow cheer instead."
   },
   {
     "name": "AI Koyori",
-    "tag": "#JP #HoloX #Kemomimi",
+    "tag": "#JP #holoX #Kemomimi",
     "cardNumber": "hBP06-084",
     "rarity": "U",
     "bloomLevel": "Spot",
@@ -12380,7 +12381,7 @@
     "hp": 240,
     "buzz": true,
     "color": "Green",
-    "tag": "#ID #ID Gen 1 #Painting",
+    "tag": "#ID #IDGen1 #Painting",
     "bloomEffect": "この輝きが私達！ : You may archive the top 2 cards of your holo Power:Draw 2 cards.",
     "extraEffect": "If this holomem is downed, you get life-2",
     "skills": [
@@ -12392,7 +12393,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP07",
-    "searchString": "airani iofifteen hbp07-031 #id #id gen 1 #painting この輝きが私達！ : you may archive the top 2 cards of your holo power:draw 2 cards. if this holomem is downed, you get life-2 ひとつになる声 if your oshi holomem is green, blue or yellow, put the top card of your deck as holo power."
+    "searchString": "airani iofifteen hbp07-031 #id #idgen1 #painting この輝きが私達！ : you may archive the top 2 cards of your holo power:draw 2 cards. if this holomem is downed, you get life-2 ひとつになる声 if your oshi holomem is green, blue or yellow, put the top card of your deck as holo power."
   },
   {
     "cardNumber": "hBP07-032",
@@ -12401,7 +12402,7 @@
     "bloomLevel": "Debut",
     "hp": 130,
     "color": "Green",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "collabEffect": "ドライブ行こうよ : If you went second and it is your first turn, reveal 1 [1st holomem <Rindo Chihaya> and/or <Fugutaro>] each from your deck, and add them to hand. Then, shuffle the deck.",
     "skills": [
       {
@@ -12410,7 +12411,7 @@
       }
     ],
     "setName": "hBP07",
-    "searchString": "rindo chihaya hbp07-032 #dev_is #flow glow ドライブ行こうよ : if you went second and it is your first turn, reveal 1 [1st holomem <rindo chihaya> and/or <fugutaro>] each from your deck, and add them to hand. then, shuffle the deck. 一陣の夜風 "
+    "searchString": "rindo chihaya hbp07-032 #dev_is #flowglow ドライブ行こうよ : if you went second and it is your first turn, reveal 1 [1st holomem <rindo chihaya> and/or <fugutaro>] each from your deck, and add them to hand. then, shuffle the deck. 一陣の夜風 "
   },
   {
     "cardNumber": "hBP07-033",
@@ -12419,7 +12420,7 @@
     "bloomLevel": "1st",
     "hp": 160,
     "color": "Green",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "bloomEffect": "ティールマーメイド : Choose 1 of your holomem with #FLOW GLOW that has bloomed this turn. During this turn, the chosen holomem gets Arts+30.",
     "skills": [
       {
@@ -12429,7 +12430,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP07",
-    "searchString": "rindo chihaya hbp07-033 #dev_is #flow glow ティールマーメイド : choose 1 of your holomem with #flow glow that has bloomed this turn. during this turn, the chosen holomem gets arts+30. ～something blue～ 千速 "
+    "searchString": "rindo chihaya hbp07-033 #dev_is #flowglow ティールマーメイド : choose 1 of your holomem with #flow glow that has bloomed this turn. during this turn, the chosen holomem gets arts+30. ～something blue～ 千速 "
   },
   {
     "cardNumber": "hBP07-034",
@@ -12438,7 +12439,7 @@
     "bloomLevel": "1st",
     "hp": 190,
     "color": "Green",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "bloomEffect": "ぶいぶい走らせるぞ！！！ : You may archive 1 cheer from your stage:Reveal 1 [Debut holomem, 1st holomem or Spot holomem] with #FLOW GLOW from your deck, and add it to hand. Then, shuffle the deck.",
     "skills": [
       {
@@ -12449,7 +12450,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP07",
-    "searchString": "rindo chihaya hbp07-034 #dev_is #flow glow ぶいぶい走らせるぞ！！！ : you may archive 1 cheer from your stage:reveal 1 [debut holomem, 1st holomem or spot holomem] with #flow glow from your deck, and add it to hand. then, shuffle the deck. どっちが速いｶﾅ？！？！？！ if <fugutaro> is attached to this holomem, this arts gets +10."
+    "searchString": "rindo chihaya hbp07-034 #dev_is #flowglow ぶいぶい走らせるぞ！！！ : you may archive 1 cheer from your stage:reveal 1 [debut holomem, 1st holomem or spot holomem] with #flow glow from your deck, and add it to hand. then, shuffle the deck. どっちが速いｶﾅ？！？！？！ if <fugutaro> is attached to this holomem, this arts gets +10."
   },
   {
     "cardNumber": "hBP07-035",
@@ -12458,7 +12459,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Green",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "collabEffect": "Give Me Hype!! : Send the top card of your cheer deck to this holomem for each time your holomem with #FLOW GLOW bloomed this turn.",
     "skills": [
       {
@@ -12470,7 +12471,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP07",
-    "searchString": "rindo chihaya hbp07-035 #dev_is #flow glow give me hype!! : send the top card of your cheer deck to this holomem for each time your holomem with #flow glow bloomed this turn. サージングエキゾースト count the number of cheers attached to this holomem, and return all cheers attached to this holomem to the bottom of your cheer deck in any order. draw cards until your hand has the same number of cards as the number of cheers returned."
+    "searchString": "rindo chihaya hbp07-035 #dev_is #flowglow give me hype!! : send the top card of your cheer deck to this holomem for each time your holomem with #flow glow bloomed this turn. サージングエキゾースト count the number of cheers attached to this holomem, and return all cheers attached to this holomem to the bottom of your cheer deck in any order. draw cards until your hand has the same number of cards as the number of cheers returned."
   },
   {
     "cardNumber": "hBP07-036",
@@ -13504,7 +13505,7 @@
     "bloomLevel": "Debut",
     "hp": 120,
     "color": "Yellow",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "collabEffect": "ニコたん出動！ : If you went second and it is your first turn, you may archive the top 2 cards of your cheer deck:Choose 1 holomem with #FLOW GLOW on your stage. During this turn, the chosen holomem gets Arts+20.",
     "skills": [
       {
@@ -13513,7 +13514,7 @@
       }
     ],
     "setName": "hBP07",
-    "searchString": "koganei niko hbp07-087 #dev_is #flow glow ニコたん出動！ : if you went second and it is your first turn, you may archive the top 2 cards of your cheer deck:choose 1 holomem with #flow glow on your stage. during this turn, the chosen holomem gets arts+20. 現行犯逮捕だ "
+    "searchString": "koganei niko hbp07-087 #dev_is #flowglow ニコたん出動！ : if you went second and it is your first turn, you may archive the top 2 cards of your cheer deck:choose 1 holomem with #flow glow on your stage. during this turn, the chosen holomem gets arts+20. 現行犯逮捕だ "
   },
   {
     "cardNumber": "hBP07-088",
@@ -13522,7 +13523,7 @@
     "bloomLevel": "1st",
     "hp": 160,
     "color": "Yellow",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "giftEffect": "虎の威 : All of your 1st holomem in the back position with #FLOW GLOW do not take special damage from your opponent.",
     "skills": [
       {
@@ -13533,7 +13534,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP07",
-    "searchString": "koganei niko hbp07-088 #dev_is #flow glow 虎の威 : all of your 1st holomem in the back position with #flow glow do not take special damage from your opponent. みんなが居るから幸せだ！ if cheer has been archived from your stage this turn, this arts gets +30."
+    "searchString": "koganei niko hbp07-088 #dev_is #flowglow 虎の威 : all of your 1st holomem in the back position with #flow glow do not take special damage from your opponent. みんなが居るから幸せだ！ if cheer has been archived from your stage this turn, this arts gets +30."
   },
   {
     "cardNumber": "hBP07-089",
@@ -13542,7 +13543,7 @@
     "bloomLevel": "1st",
     "hp": 180,
     "color": "Yellow",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "bloomEffect": "っしゃ反撃抜刀 : If your holomem with #FLOW GLOW was downed during your opponent's previous turn, draw 2 cards. You may only use Bloom Effect \"Swift Riposte!\" once per turn.",
     "skills": [
       {
@@ -13552,7 +13553,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP07",
-    "searchString": "koganei niko hbp07-089 #dev_is #flow glow っしゃ反撃抜刀 : if your holomem with #flow glow was downed during your opponent's previous turn, draw 2 cards. you may only use bloom effect \"swift riposte!\" once per turn. スッゲーワクワクするしょ！！ "
+    "searchString": "koganei niko hbp07-089 #dev_is #flowglow っしゃ反撃抜刀 : if your holomem with #flow glow was downed during your opponent's previous turn, draw 2 cards. you may only use bloom effect \"swift riposte!\" once per turn. スッゲーワクワクするしょ！！ "
   },
   {
     "cardNumber": "hBP07-090",
@@ -13561,7 +13562,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Yellow",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "collabEffect": "ここで終わっちゃう虎じゃないんだ！ : You may send 2 cheers from your archive to 1 of your holomem with #FLOW GLOW.",
     "skills": [
       {
@@ -13573,7 +13574,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP07",
-    "searchString": "koganei niko hbp07-090 #dev_is #flow glow ここで終わっちゃう虎じゃないんだ！ : you may send 2 cheers from your archive to 1 of your holomem with #flow glow. ぶち上げる気合いだ！ this arts gets +20 for each of this holomem's cheers."
+    "searchString": "koganei niko hbp07-090 #dev_is #flowglow ここで終わっちゃう虎じゃないんだ！ : you may send 2 cheers from your archive to 1 of your holomem with #flow glow. ぶち上げる気合いだ！ this arts gets +20 for each of this holomem's cheers."
   },
   {
     "cardNumber": "hBP07-091",
@@ -14054,7 +14055,7 @@
     "bloomLevel": "Debut",
     "hp": 120,
     "color": "White",
-    "tag": "#JP #Gen 0 #Singing",
+    "tag": "#JP #Gen0 #Singing",
     "giftEffect": "私に勝てるかな？ : This holomem takes -10 Arts damage from your opponent's holomem.",
     "skills": [
       {
@@ -14064,7 +14065,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP08",
-    "searchString": "tokino sora hbp08-015 #jp #gen 0 #singing 私に勝てるかな？ : this holomem takes -10 arts damage from your opponent's holomem. ナインダーツ "
+    "searchString": "tokino sora hbp08-015 #jp #gen0 #singing 私に勝てるかな？ : this holomem takes -10 arts damage from your opponent's holomem. ナインダーツ "
   },
   {
     "cardNumber": "hBP08-016",
@@ -14073,7 +14074,7 @@
     "bloomLevel": "1st",
     "hp": 180,
     "color": "White",
-    "tag": "#JP #Gen 0 #Singing",
+    "tag": "#JP #Gen0 #Singing",
     "skills": [
       {
         "name": "Stairway to the Stars",
@@ -14087,7 +14088,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP08",
-    "searchString": "tokino sora hbp08-016 #jp #gen 0 #singing stairway to the stars if there are 3 or more <tokino sora> on your stage, draw 1 card. あの時の空へ… "
+    "searchString": "tokino sora hbp08-016 #jp #gen0 #singing stairway to the stars if there are 3 or more <tokino sora> on your stage, draw 1 card. あの時の空へ… "
   },
   {
     "cardNumber": "hBP08-017",
@@ -14096,7 +14097,7 @@
     "bloomLevel": "1st",
     "hp": 170,
     "color": "White",
-    "tag": "#JP #Gen 0 #Singing",
+    "tag": "#JP #Gen0 #Singing",
     "collabEffect": "「ヴァ！」 : Reveal 1 <Ankimo> from your deck, and add it to hand. Then, shuffle the deck.",
     "skills": [
       {
@@ -14107,7 +14108,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP08",
-    "searchString": "tokino sora hbp08-017 #jp #gen 0 #singing 「ヴァ！」 : reveal 1 <ankimo> from your deck, and add it to hand. then, shuffle the deck. みんな、ぬんぬん進んでいこーう if you have a 2nd holomem with #gen 0 on your stage, this arts gets +20."
+    "searchString": "tokino sora hbp08-017 #jp #gen0 #singing 「ヴァ！」 : reveal 1 <ankimo> from your deck, and add it to hand. then, shuffle the deck. みんな、ぬんぬん進んでいこーう if you have a 2nd holomem with #gen 0 on your stage, this arts gets +20."
   },
   {
     "cardNumber": "hBP08-018",
@@ -14116,7 +14117,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "White",
-    "tag": "#JP #Gen 0 #Singing",
+    "tag": "#JP #Gen0 #Singing",
     "bloomEffect": "アイドルになりたいわたし : [Center Position・Collab Position Only] Draw 2 cards.",
     "skills": [
       {
@@ -14128,7 +14129,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP08",
-    "searchString": "tokino sora hbp08-018 #jp #gen 0 #singing アイドルになりたいわたし : [center position・collab position only] draw 2 cards. 盛り上がってくれたらうれしいな！ if your oshi holomem is tokino sora, choose 1 other <tokino sora> on your stage. during this turn, you may also target your opponent's back 2nd holomem with the chosen holomem's arts."
+    "searchString": "tokino sora hbp08-018 #jp #gen0 #singing アイドルになりたいわたし : [center position・collab position only] draw 2 cards. 盛り上がってくれたらうれしいな！ if your oshi holomem is tokino sora, choose 1 other <tokino sora> on your stage. during this turn, you may also target your opponent's back 2nd holomem with the chosen holomem's arts."
   },
   {
     "cardNumber": "hBP08-019",
@@ -14161,7 +14162,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "White",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "collabEffect": "セクシーダンスクィーン : You may archive 1~2 cards from the top of your deck: Draw 1 card for each card archived.",
     "skills": [
       {
@@ -14172,7 +14173,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP08",
-    "searchString": "isaki riona hbp08-020 #dev_is #flow glow セクシーダンスクィーン : you may archive 1~2 cards from the top of your deck: draw 1 card for each card archived. 挑戦のまなざし if you have archived 3 cards from your deck this turn, this arts gets +40."
+    "searchString": "isaki riona hbp08-020 #dev_is #flowglow セクシーダンスクィーン : you may archive 1~2 cards from the top of your deck: draw 1 card for each card archived. 挑戦のまなざし if you have archived 3 cards from your deck this turn, this arts gets +40."
   },
   {
     "cardNumber": "hBP08-021",
@@ -14316,7 +14317,7 @@
     "bloomLevel": "1st",
     "hp": 170,
     "color": "Green",
-    "tag": "#JP #Gen 1 #Half-Elf #Alcohol #Summer",
+    "tag": "#JP #Gen1 #Half-Elf #Alcohol #Summer",
     "bloomEffect": "ホロナツ大盛りパフェ : Choose 1 of your <Aki Rosenthal> with tool attached. During this turn, the chosen holomem gets Arts+20. If the chosen holomem is a Buzz holomem or 2nd holomem, that holomem gets Arts+50 instead.",
     "extraEffect": "Large Parfait\nChoose 1 of your <Aki Rosenthal> with tool attached. During this turn, the chosen holomem gets Arts+20. If the chosen holomem is a Buzz holomem or 2nd holomem, that holomem gets Arts+50 instead.",
     "skills": [
@@ -14328,7 +14329,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP08",
-    "searchString": "aki rosenthal hbp08-028 #jp #gen 1 #half-elf #alcohol #summer ホロナツ大盛りパフェ : choose 1 of your <aki rosenthal> with tool attached. during this turn, the chosen holomem gets arts+20. if the chosen holomem is a buzz holomem or 2nd holomem, that holomem gets arts+50 instead. large parfait\nchoose 1 of your <aki rosenthal> with tool attached. during this turn, the chosen holomem gets arts+20. if the chosen holomem is a buzz holomem or 2nd holomem, that holomem gets arts+50 instead. 一口食べる？ restore 30 hp to 1 of your holomem with tool attached."
+    "searchString": "aki rosenthal hbp08-028 #jp #gen1 #half-elf #alcohol #summer ホロナツ大盛りパフェ : choose 1 of your <aki rosenthal> with tool attached. during this turn, the chosen holomem gets arts+20. if the chosen holomem is a buzz holomem or 2nd holomem, that holomem gets arts+50 instead. large parfait\nchoose 1 of your <aki rosenthal> with tool attached. during this turn, the chosen holomem gets arts+20. if the chosen holomem is a buzz holomem or 2nd holomem, that holomem gets arts+50 instead. 一口食べる？ restore 30 hp to 1 of your holomem with tool attached."
   },
   {
     "cardNumber": "hBP08-029",
@@ -14356,7 +14357,7 @@
     "bloomLevel": "Debut",
     "hp": 130,
     "color": "Green",
-    "tag": "#ID #ID Gen 2 #Bird #Painting",
+    "tag": "#ID #IDGen2 #Bird #Painting",
     "collabEffect": "一歩ずつ : You may archive 1 holomem with #ID Gen 2 from your hand: Send the top card of your cheer deck to your back holomem.",
     "skills": [
       {
@@ -14366,7 +14367,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP08",
-    "searchString": "pavolia reine hbp08-030 #id #id gen 2 #bird #painting 一歩ずつ : you may archive 1 holomem with #id gen 2 from your hand: send the top card of your cheer deck to your back holomem. 以後　お見知りおきを… "
+    "searchString": "pavolia reine hbp08-030 #id #idgen2 #bird #painting 一歩ずつ : you may archive 1 holomem with #id gen 2 from your hand: send the top card of your cheer deck to your back holomem. 以後　お見知りおきを… "
   },
   {
     "cardNumber": "hBP08-031",
@@ -14376,7 +14377,7 @@
     "hp": 250,
     "buzz": true,
     "color": "Green",
-    "tag": "#ID #ID Gen 2 #Bird #Painting",
+    "tag": "#ID #IDGen2 #Bird #Painting",
     "giftEffect": "SPY-C1000 : [Center Position・Collab Position Only][1/Turn] During your turn, when your cheer is moved to archive, draw 1 card.",
     "extraEffect": "If this holomem is downed, you get life-2",
     "skills": [
@@ -14388,7 +14389,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP08",
-    "searchString": "pavolia reine hbp08-031 #id #id gen 2 #bird #painting spy-c1000 : [center position・collab position only][1/turn] during your turn, when your cheer is moved to archive, draw 1 card. if this holomem is downed, you get life-2 gws+ archive the top card of your cheer deck. for every cheer color on your stage, restore 10 hp to 1 of your holomem."
+    "searchString": "pavolia reine hbp08-031 #id #idgen2 #bird #painting spy-c1000 : [center position・collab position only][1/turn] during your turn, when your cheer is moved to archive, draw 1 card. if this holomem is downed, you get life-2 gws+ archive the top card of your cheer deck. for every cheer color on your stage, restore 10 hp to 1 of your holomem."
   },
   {
     "cardNumber": "hBP08-032",
@@ -14397,7 +14398,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "Green",
-    "tag": "#ID #ID Gen 2 #Bird #Painting",
+    "tag": "#ID #IDGen2 #Bird #Painting",
     "bloomEffect": "新しい旅へ : Choose 1 2nd holomem [<Kureiji Ollie> or <Anya Melfissa>] on your stage. During this turn, the chosen holomem gets Arts+70.",
     "skills": [
       {
@@ -14408,7 +14409,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP08",
-    "searchString": "pavolia reine hbp08-032 #id #id gen 2 #bird #painting 新しい旅へ : choose 1 2nd holomem [<kureiji ollie> or <anya melfissa>] on your stage. during this turn, the chosen holomem gets arts+70. ストラクチュラル・カラー if you have a holomem with #id gen 2 other than <pavolia reine> with purple cheer or yellow cheer attached, this arts gets +70."
+    "searchString": "pavolia reine hbp08-032 #id #idgen2 #bird #painting 新しい旅へ : choose 1 2nd holomem [<kureiji ollie> or <anya melfissa>] on your stage. during this turn, the chosen holomem gets arts+70. ストラクチュラル・カラー if you have a holomem with #id gen 2 other than <pavolia reine> with purple cheer or yellow cheer attached, this arts gets +70."
   },
   {
     "cardNumber": "hBP08-033",
@@ -14417,7 +14418,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Green",
-    "tag": "#ID #ID Gen 2 #Bird #Painting",
+    "tag": "#ID #IDGen2 #Bird #Painting",
     "collabEffect": "監視者の眼差し : Send 1 cheer from your cheer deck to your holomem with #ID. Then, shuffle the cheer deck.",
     "skills": [
       {
@@ -14429,7 +14430,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP08",
-    "searchString": "pavolia reine hbp08-033 #id #id gen 2 #bird #painting 監視者の眼差し : send 1 cheer from your cheer deck to your holomem with #id. then, shuffle the cheer deck. ノックアウト・ツイスト send 1~2 cheers from your archive to 1 of your <pavolia reine>."
+    "searchString": "pavolia reine hbp08-033 #id #idgen2 #bird #painting 監視者の眼差し : send 1 cheer from your cheer deck to your holomem with #id. then, shuffle the cheer deck. ノックアウト・ツイスト send 1~2 cheers from your archive to 1 of your <pavolia reine>."
   },
   {
     "cardNumber": "hBP08-034",
@@ -14555,7 +14556,7 @@
     "hp": 220,
     "buzz": true,
     "color": "Red",
-    "tag": "#JP #Gen 2 #Shooter",
+    "tag": "#JP #Gen2 #Shooter",
     "collabEffect": "桜の気配に誘われて : If this holomem has <Demon Blade Asura> attached, and your opponent has no collab holomem, your opponent moves 1 of their back holomem to the collab position (Moving is not regarded as collab).",
     "extraEffect": "If this holomem is downed, you get life-2",
     "skills": [
@@ -14567,7 +14568,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP08",
-    "searchString": "nakiri ayame hbp08-040 #jp #gen 2 #shooter 桜の気配に誘われて : if this holomem has <demon blade asura> attached, and your opponent has no collab holomem, your opponent moves 1 of their back holomem to the collab position (moving is not regarded as collab). if this holomem is downed, you get life-2 お花見デート this arts gets +10 for each red cheer in your archive."
+    "searchString": "nakiri ayame hbp08-040 #jp #gen2 #shooter 桜の気配に誘われて : if this holomem has <demon blade asura> attached, and your opponent has no collab holomem, your opponent moves 1 of their back holomem to the collab position (moving is not regarded as collab). if this holomem is downed, you get life-2 お花見デート this arts gets +10 for each red cheer in your archive."
   },
   {
     "cardNumber": "hBP08-041",
@@ -14697,7 +14698,7 @@
     "bloomLevel": "Debut",
     "hp": 120,
     "color": "Blue",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "collabEffect": "はい、天才！ : If you went second and it is your first turn, draw 1 card, and draw 1 more card for each colorless required for your opponent's center holomem's baton pass.",
     "skills": [
       {
@@ -14706,7 +14707,7 @@
       }
     ],
     "setName": "hBP08",
-    "searchString": "mizumiya su hbp08-047 #dev_is #flow glow はい、天才！ : if you went second and it is your first turn, draw 1 card, and draw 1 more card for each colorless required for your opponent's center holomem's baton pass. すうの充電たりてる？ "
+    "searchString": "mizumiya su hbp08-047 #dev_is #flowglow はい、天才！ : if you went second and it is your first turn, draw 1 card, and draw 1 more card for each colorless required for your opponent's center holomem's baton pass. すうの充電たりてる？ "
   },
   {
     "cardNumber": "hBP08-048",
@@ -14715,7 +14716,7 @@
     "bloomLevel": "Debut",
     "hp": 110,
     "color": "Blue",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "collabEffect": "けはいあり183cm : You may archive 1 cheer from your stage: Reveal 1 <Aura> from your deck, and add it to hand. Then, shuffle the deck.",
     "skills": [
       {
@@ -14725,7 +14726,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP08",
-    "searchString": "mizumiya su hbp08-048 #dev_is #flow glow けはいあり183cm : you may archive 1 cheer from your stage: reveal 1 <aura> from your deck, and add it to hand. then, shuffle the deck. つよい。でかい。大きい。 "
+    "searchString": "mizumiya su hbp08-048 #dev_is #flowglow けはいあり183cm : you may archive 1 cheer from your stage: reveal 1 <aura> from your deck, and add it to hand. then, shuffle the deck. つよい。でかい。大きい。 "
   },
   {
     "cardNumber": "hBP08-049",
@@ -14734,7 +14735,7 @@
     "bloomLevel": "1st",
     "hp": 140,
     "color": "Blue",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "giftEffect": "君との電話ひとりじめ : [Collab Position Only]While you have a center holomem with #FLOW GLOW, your opponent's holomem's Arts can only target your collab holomem. However, it excludes special damage.",
     "skills": [
       {
@@ -14744,7 +14745,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP08",
-    "searchString": "mizumiya su hbp08-049 #dev_is #flow glow 君との電話ひとりじめ : [collab position only]while you have a center holomem with #flow glow, your opponent's holomem's arts can only target your collab holomem. however, it excludes special damage. 君さえよかったらもっとはなそ "
+    "searchString": "mizumiya su hbp08-049 #dev_is #flowglow 君との電話ひとりじめ : [collab position only]while you have a center holomem with #flow glow, your opponent's holomem's arts can only target your collab holomem. however, it excludes special damage. 君さえよかったらもっとはなそ "
   },
   {
     "cardNumber": "hBP08-050",
@@ -14753,7 +14754,7 @@
     "bloomLevel": "1st",
     "hp": 160,
     "color": "Blue",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "giftEffect": "君に任せちゃおうかな？ : During your opponent's turn, when this holomem is downed, send the top card of your cheer deck to your back holomem.",
     "skills": [
       {
@@ -14764,7 +14765,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP08",
-    "searchString": "mizumiya su hbp08-050 #dev_is #flow glow 君に任せちゃおうかな？ : during your opponent's turn, when this holomem is downed, send the top card of your cheer deck to your back holomem. 雪だるまつくろっ send 1 cheer from your archive to your holomem."
+    "searchString": "mizumiya su hbp08-050 #dev_is #flowglow 君に任せちゃおうかな？ : during your opponent's turn, when this holomem is downed, send the top card of your cheer deck to your back holomem. 雪だるまつくろっ send 1 cheer from your archive to your holomem."
   },
   {
     "cardNumber": "hBP08-051",
@@ -14773,7 +14774,7 @@
     "bloomLevel": "1st",
     "hp": 170,
     "color": "Blue",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "giftEffect": "愛のエゴサ : [Center Position Only] When your <Mizumiya Su> collabs, choose your opponent's center holomem. Until the end of your opponent's next turn, the chosen holomem requires +1 colorless for its baton pass.",
     "skills": [
       {
@@ -14784,7 +14785,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP08",
-    "searchString": "mizumiya su hbp08-051 #dev_is #flow glow 愛のエゴサ : [center position only] when your <mizumiya su> collabs, choose your opponent's center holomem. until the end of your opponent's next turn, the chosen holomem requires +1 colorless for its baton pass. 8時間35分 send the top card of your cheer deck to your <mizumiya su>."
+    "searchString": "mizumiya su hbp08-051 #dev_is #flowglow 愛のエゴサ : [center position only] when your <mizumiya su> collabs, choose your opponent's center holomem. until the end of your opponent's next turn, the chosen holomem requires +1 colorless for its baton pass. 8時間35分 send the top card of your cheer deck to your <mizumiya su>."
   },
   {
     "cardNumber": "hBP08-052",
@@ -14793,7 +14794,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Blue",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "skills": [
       {
         "name": "元気の出るグミ",
@@ -14807,7 +14808,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP08",
-    "searchString": "mizumiya su hbp08-052 #dev_is #flow glow 元気の出るグミ if your opponent's center holomem requires 5 or more colorless cheers for its baton pass, send the top card of your cheer deck to your <mizumiya su>. グミうまい "
+    "searchString": "mizumiya su hbp08-052 #dev_is #flowglow 元気の出るグミ if your opponent's center holomem requires 5 or more colorless cheers for its baton pass, send the top card of your cheer deck to your <mizumiya su>. グミうまい "
   },
   {
     "cardNumber": "hBP08-053",
@@ -14816,7 +14817,7 @@
     "bloomLevel": "2nd",
     "hp": 160,
     "color": "Blue",
-    "tag": "#DEV_IS #FLOW GLOW",
+    "tag": "#DEV_IS #FLOWGLOW",
     "giftEffect": "しゅぴしゅわ～～っ！！！！ : [Center Position Only] While your opponent's center holomem requires 5 or more colorless cheers for its baton pass, your opponent's center holomem requires +2 colorless cheers for its Arts.",
     "skills": [
       {
@@ -14828,7 +14829,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP08",
-    "searchString": "mizumiya su hbp08-053 #dev_is #flow glow しゅぴしゅわ～～っ！！！！ : [center position only] while your opponent's center holomem requires 5 or more colorless cheers for its baton pass, your opponent's center holomem requires +2 colorless cheers for its arts. 届け、この愛 if your opponent's center holomem requires 5 or more colorless cheers for its baton pass, deal 100 special damage to 1 of your opponent's holomem other than debut."
+    "searchString": "mizumiya su hbp08-053 #dev_is #flowglow しゅぴしゅわ～～っ！！！！ : [center position only] while your opponent's center holomem requires 5 or more colorless cheers for its baton pass, your opponent's center holomem requires +2 colorless cheers for its arts. 届け、この愛 if your opponent's center holomem requires 5 or more colorless cheers for its baton pass, deal 100 special damage to 1 of your opponent's holomem other than debut."
   },
   {
     "cardNumber": "hBP08-054",
@@ -14837,7 +14838,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Blue",
-    "tag": "#ID #ID Gen 1 #Singing",
+    "tag": "#ID #IDGen1 #Singing",
     "bloomEffect": "この絆が私達！ : If your Oshi holomem's color is green, blue or yellow, send 1 blue cheer each from your archive to 1~3 of your holomem with #ID Gen 1.",
     "skills": [
       {
@@ -14848,7 +14849,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP08",
-    "searchString": "moona hoshinova hbp08-054 #id #id gen 1 #singing この絆が私達！ : if your oshi holomem's color is green, blue or yellow, send 1 blue cheer each from your archive to 1~3 of your holomem with #id gen 1. ひとりじゃない、今は共に you may archive 3 cheers from this holomem: draw 3 cards."
+    "searchString": "moona hoshinova hbp08-054 #id #idgen1 #singing この絆が私達！ : if your oshi holomem's color is green, blue or yellow, send 1 blue cheer each from your archive to 1~3 of your holomem with #id gen 1. ひとりじゃない、今は共に you may archive 3 cheers from this holomem: draw 3 cards."
   },
   {
     "cardNumber": "hBP08-055",
@@ -15257,7 +15258,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Purple",
-    "tag": "#JP #Gen 0 #Shooter",
+    "tag": "#JP #Gen0 #Shooter",
     "bloomEffect": "ロボ子さん↔ろぼさー : Reveal 1 <Roboser> from your deck, and add it to hand. Then, shuffle the deck.",
     "skills": [
       {
@@ -15268,7 +15269,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP08",
-    "searchString": "robocosan hbp08-075 #jp #gen 0 #shooter ロボ子さん↔ろぼさー : reveal 1 <roboser> from your deck, and add it to hand. then, shuffle the deck. 一緒に外に行こうよ this arts gets +20 for each <roboser> attached to this holomem."
+    "searchString": "robocosan hbp08-075 #jp #gen0 #shooter ロボ子さん↔ろぼさー : reveal 1 <roboser> from your deck, and add it to hand. then, shuffle the deck. 一緒に外に行こうよ this arts gets +20 for each <roboser> attached to this holomem."
   },
   {
     "cardNumber": "hBP08-076",
@@ -15277,7 +15278,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Purple",
-    "tag": "#JP #Gen 2 #Cooking",
+    "tag": "#JP #Gen2 #Cooking",
     "collabEffect": "おいしいごはんの夢 : Look at the top 3 cards of your deck. Reveal 1 [holomem with #Cooking and/or event with #Food] each from among them, and add the revealed ccards to hand. Then, return the remaining cards to the bottom of the deck in any order.",
     "skills": [
       {
@@ -15288,7 +15289,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP08",
-    "searchString": "yuzuki choco hbp08-076 #jp #gen 2 #cooking おいしいごはんの夢 : look at the top 3 cards of your deck. reveal 1 [holomem with #cooking and/or event with #food] each from among them, and add the revealed ccards to hand. then, return the remaining cards to the bottom of the deck in any order. ごはんをいっぱい食べたあとには…… if you have 3 or more events with #food in your archive, restore 100 hp to this holomem."
+    "searchString": "yuzuki choco hbp08-076 #jp #gen2 #cooking おいしいごはんの夢 : look at the top 3 cards of your deck. reveal 1 [holomem with #cooking and/or event with #food] each from among them, and add the revealed ccards to hand. then, return the remaining cards to the bottom of the deck in any order. ごはんをいっぱい食べたあとには…… if you have 3 or more events with #food in your archive, restore 100 hp to this holomem."
   },
   {
     "cardNumber": "hBP08-077",
@@ -15434,7 +15435,7 @@
     "bloomLevel": "1st",
     "hp": 190,
     "color": "Yellow",
-    "tag": "#JP #Gen 1 #Shooter",
+    "tag": "#JP #Gen1 #Shooter",
     "collabEffect": "優雅なてぃーたいむ！ : If your life is 3 or less, during this turn, all holomem with #Gen 1 on your stage get Arts+20.",
     "skills": [
       {
@@ -15445,7 +15446,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP08",
-    "searchString": "natsuiro matsuri hbp08-084 #jp #gen 1 #shooter 優雅なてぃーたいむ！ : if your life is 3 or less, during this turn, all holomem with #gen 1 on your stage get arts+20. まちゅだってお姫さま♡ if there is a 2nd holomem with #gen 1 on your stage, this arts gets +30."
+    "searchString": "natsuiro matsuri hbp08-084 #jp #gen1 #shooter 優雅なてぃーたいむ！ : if your life is 3 or less, during this turn, all holomem with #gen 1 on your stage get arts+20. まちゅだってお姫さま♡ if there is a 2nd holomem with #gen 1 on your stage, this arts gets +30."
   },
   {
     "cardNumber": "hBP08-085",
@@ -15454,7 +15455,7 @@
     "bloomLevel": "Debut",
     "hp": 120,
     "color": "Yellow",
-    "tag": "#JP #Gen 3 #Half-Elf",
+    "tag": "#JP #Gen3 #Half-Elf",
     "collabEffect": "手、繋いでいると温かいね : You may archive 1 card from your hand: Return 1 [Debut holomem, 1st holomem or Spot holomem] from your archive to hand.",
     "skills": [
       {
@@ -15464,7 +15465,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP08",
-    "searchString": "shiranui flare hbp08-085 #jp #gen 3 #half-elf 手、繋いでいると温かいね : you may archive 1 card from your hand: return 1 [debut holomem, 1st holomem or spot holomem] from your archive to hand. テレ隠しが下手ですな～ "
+    "searchString": "shiranui flare hbp08-085 #jp #gen3 #half-elf 手、繋いでいると温かいね : you may archive 1 card from your hand: return 1 [debut holomem, 1st holomem or spot holomem] from your archive to hand. テレ隠しが下手ですな～ "
   },
   {
     "cardNumber": "hBP08-086",
@@ -15473,7 +15474,7 @@
     "bloomLevel": "1st",
     "hp": 160,
     "color": "Yellow",
-    "tag": "#JP #Gen 3 #Half-Elf",
+    "tag": "#JP #Gen3 #Half-Elf",
     "bloomEffect": "俺のイナー！ : You may send the top card of your cheer deck to your [<Shiranui Flare> or holomem with #EN].",
     "skills": [
       {
@@ -15484,7 +15485,7 @@
     ],
     "hasFoils": true,
     "setName": "hBP08",
-    "searchString": "shiranui flare hbp08-086 #jp #gen 3 #half-elf 俺のイナー！ : you may send the top card of your cheer deck to your [<shiranui flare> or holomem with #en]. 最高のともだち if your center holomem is a 2nd holomem, this arts gets +30."
+    "searchString": "shiranui flare hbp08-086 #jp #gen3 #half-elf 俺のイナー！ : you may send the top card of your cheer deck to your [<shiranui flare> or holomem with #en]. 最高のともだち if your center holomem is a 2nd holomem, this arts gets +30."
   },
   {
     "cardNumber": "hBP08-087",
@@ -15493,7 +15494,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Yellow",
-    "tag": "#JP #Gen 3 #Half-Elf",
+    "tag": "#JP #Gen3 #Half-Elf",
     "collabEffect": "ドリーミングエール : You may send 1~2 cheers from your archive to your [<Shiranui Flare> or holomem with #EN] center holomem.",
     "skills": [
       {
@@ -15503,7 +15504,7 @@
     ],
     "hasFullArt": true,
     "setName": "hBP08",
-    "searchString": "shiranui flare hbp08-087 #jp #gen 3 #half-elf ドリーミングエール : you may send 1~2 cheers from your archive to your [<shiranui flare> or holomem with #en] center holomem. 夢から醒めたら "
+    "searchString": "shiranui flare hbp08-087 #jp #gen3 #half-elf ドリーミングエール : you may send 1~2 cheers from your archive to your [<shiranui flare> or holomem with #en] center holomem. 夢から醒めたら "
   },
   {
     "cardNumber": "hBP08-088",
@@ -15512,7 +15513,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Yellow",
-    "tag": "#JP #Gen 3 #Half-Elf",
+    "tag": "#JP #Gen3 #Half-Elf",
     "giftEffect": "メロゥ・フラワリー : [1/Turn] During your turn, when this holomem moves to the collab position, deal 20 special damage to your opponent's center holomem and collab holomem.",
     "skills": [
       {
@@ -15524,7 +15525,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP08",
-    "searchString": "shiranui flare hbp08-088 #jp #gen 3 #half-elf メロゥ・フラワリー : [1/turn] during your turn, when this holomem moves to the collab position, deal 20 special damage to your opponent's center holomem and collab holomem. リレーションファンタジー [collab position only] if your center holomem is a holomem with #gen 3, this arts gets +30."
+    "searchString": "shiranui flare hbp08-088 #jp #gen3 #half-elf メロゥ・フラワリー : [1/turn] during your turn, when this holomem moves to the collab position, deal 20 special damage to your opponent's center holomem and collab holomem. リレーションファンタジー [collab position only] if your center holomem is a holomem with #gen 3, this arts gets +30."
   },
   {
     "cardNumber": "hBP08-089",
@@ -17087,7 +17088,7 @@
     "hp": 50,
     "color": "Colorless",
     "bloomLevel": "Spot",
-    "tag": "#JP #HoloX #Kemomimi",
+    "tag": "#JP #holoX #Kemomimi",
     "collabEffect": "SoAzKo: When collaborating with 'Tokino Sora,' draw one card from your deck. When collaborating with 'AZKi,' send the top card of your cheer deck to your center Holomen",
     "skills": [
       {
@@ -17345,7 +17346,7 @@
     "bloomLevel": "Spot",
     "hp": 80,
     "color": "Colorless",
-    "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "collabEffect": "You may return 1 Mascot from your Archive to your hand.",
     "skills": [
       {
@@ -17364,7 +17365,7 @@
     "bloomLevel": "Spot",
     "hp": 50,
     "color": "Colorless",
-    "tag": "#JP #Gamers #Kemomimi #Cooking",
+    "tag": "#JP #GAMERS #Kemomimi #Cooking",
     "collabEffect": "You may Archive 1 holomem from your hand for the following effect: send the top card of your Cheer Deck to one of your Debut holomems.",
     "skills": [
       {
@@ -17430,7 +17431,7 @@
     "bloomLevel": "Debut",
     "hp": 100,
     "color": "Blue",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "skills": [
       {
         "name": "もぐもぐ～おかゆ～",
@@ -17448,7 +17449,7 @@
     "bloomLevel": "Debut",
     "hp": 70,
     "color": "Blue",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "collabEffect": "If your Center holomem has #Gamers, deal 10 special damage to your opponent's Center holomem and one of their Back holomems. holomems Downed with this effect do not reduce LIFE.",
     "skills": [
       {
@@ -17466,7 +17467,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "Blue",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "collabEffect": "You may reveal one card from the top of your deck. If that card is a Debut or Spot holomem, send the top card of your Cheer Deck to this holomem. Then put that card on the bottom of your deck.",
     "skills": [
       {
@@ -17484,7 +17485,7 @@
     "bloomLevel": "1st",
     "hp": 170,
     "color": "Blue",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "skills": [
       {
         "name": "ぎゅ～ってしてよね♡",
@@ -17505,7 +17506,7 @@
     "bloomLevel": "1st",
     "hp": 140,
     "color": "Blue",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "skills": [
       {
         "name": "猫かぶり",
@@ -17527,7 +17528,7 @@
     "bloomLevel": "1st",
     "hp": 120,
     "color": "Blue",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "bloomEffect": "Send a Cheer from your Archive to one of your holomems with #Gamers.",
     "skills": [
       {
@@ -17546,7 +17547,7 @@
     "buzz": "true",
     "hp": 240,
     "color": "Blue",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "giftEffect": "(Center position only) Your Takane Lui, Ookami Mio, Shirakami Fubuki, La+ Darknesss, and Inugami Korone's Arts gain +20 power.",
     "skills": [
       {
@@ -17565,7 +17566,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "Blue",
-    "tag": "#JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "skills": [
       {
         "name": "MOGMOG",
@@ -17589,7 +17590,7 @@
     "bloomLevel": "Spot",
     "hp": 70,
     "color": "Colorless",
-    "tag": "JP #Gamers #Kemomimi",
+    "tag": "#JP #GAMERS #Kemomimi",
     "collabEffect": "If your Center holomem is Nekomata Okayu, reveal 1 Fan or Mascot from your Deck and put it into your hand. Then shuffle your Deck.",
     "skills": [
       {
@@ -17599,7 +17600,7 @@
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "setName": "hSD03",
-    "searchString": "inugami korone hsd03-010 jp #gamers #kemomimi if your center holomem is nekomata okayu, reveal 1 fan or mascot from your deck and put it into your hand. then shuffle your deck. this holomem cannot bloom. おらよ～ "
+    "searchString": "inugami korone hsd03-010 #jp #gamers #kemomimi if your center holomem is nekomata okayu, reveal 1 fan or mascot from your deck and put it into your hand. then shuffle your deck. this holomem cannot bloom. おらよ～ "
   },
   {
     "cardNumber": "hSD03-011",
@@ -17608,7 +17609,7 @@
     "bloomLevel": "Spot",
     "hp": 60,
     "color": "Colorless",
-    "tag": "JP #HoloX #Shooter",
+    "tag": "#JP #holoX #Shooter",
     "skills": [
       {
         "name": "泥棒建設農業大臣",
@@ -17622,7 +17623,7 @@
     ],
     "extraEffect": "This holomem cannot Bloom.",
     "setName": "hSD03",
-    "searchString": "la+ darknesss hsd03-011 jp #holox #shooter this holomem cannot bloom. 泥棒建設農業大臣  絶対、食わせてみせるわ if you have 2 or less cards in your hand, draw from your deck until you have 3 cards in your hand."
+    "searchString": "la+ darknesss hsd03-011 #jp #holox #shooter this holomem cannot bloom. 泥棒建設農業大臣  絶対、食わせてみせるわ if you have 2 or less cards in your hand, draw from your deck until you have 3 cards in your hand."
   },
   {
     "cardNumber": "hSD03-012",
@@ -18176,7 +18177,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "Green",
-    "tag": "#JP $HoloX",
+    "tag": "#JP #holoX",
     "collabEffect": "のっと！ﾆﾝﾆﾝ！！ Restore 10HP to one of your holomems.",
     "skills": [
       {
@@ -18185,7 +18186,7 @@
       }
     ],
     "setName": "hSD06",
-    "searchString": "kazama iroha hsd06-002 #jp $holox のっと！ﾆﾝﾆﾝ！！ restore 10hp to one of your holomems. いえす！ｼﾞｬｷﾝｼﾞｬｷﾝ！！ "
+    "searchString": "kazama iroha hsd06-002 #jp #holox のっと！ﾆﾝﾆﾝ！！ restore 10hp to one of your holomems. いえす！ｼﾞｬｷﾝｼﾞｬｷﾝ！！ "
   },
   {
     "cardNumber": "hSD06-003",
@@ -18194,7 +18195,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "Green",
-    "tag": "#JP $HoloX",
+    "tag": "#JP #holoX",
     "skills": [
       {
         "name": "一刀両断叩き斬る",
@@ -18203,7 +18204,7 @@
       }
     ],
     "setName": "hSD06",
-    "searchString": "kazama iroha hsd06-003 #jp $holox 一刀両断叩き斬る if your center holomem is damaged, this art gains +10 power."
+    "searchString": "kazama iroha hsd06-003 #jp #holox 一刀両断叩き斬る if your center holomem is damaged, this art gains +10 power."
   },
   {
     "cardNumber": "hSD06-004",
@@ -18212,7 +18213,7 @@
     "bloomLevel": "1st",
     "hp": 160,
     "color": "Green",
-    "tag": "#JP $HoloX",
+    "tag": "#JP #holoX",
     "skills": [
       {
         "name": "照れ屋な用心棒",
@@ -18220,7 +18221,7 @@
       }
     ],
     "setName": "hSD06",
-    "searchString": "kazama iroha hsd06-004 #jp $holox 照れ屋な用心棒 "
+    "searchString": "kazama iroha hsd06-004 #jp #holox 照れ屋な用心棒 "
   },
   {
     "cardNumber": "hSD06-005",
@@ -18229,7 +18230,7 @@
     "bloomLevel": "1st",
     "hp": 120,
     "color": "Green",
-    "tag": "#JP $HoloX",
+    "tag": "#JP #holoX",
     "bloomEffect": "かざまとおでかけ : Send the top card of your Cheer Deck to your Holomem with $HoloX",
     "skills": [
       {
@@ -18238,7 +18239,7 @@
       }
     ],
     "setName": "hSD06",
-    "searchString": "kazama iroha hsd06-005 #jp $holox かざまとおでかけ : send the top card of your cheer deck to your holomem with $holox かざまといっしょ！ "
+    "searchString": "kazama iroha hsd06-005 #jp #holox かざまとおでかけ : send the top card of your cheer deck to your holomem with $holox かざまといっしょ！ "
   },
   {
     "cardNumber": "hSD06-006",
@@ -18248,7 +18249,7 @@
     "buzz": "true",
     "hp": 220,
     "color": "Green",
-    "tag": "#JP $HoloX",
+    "tag": "#JP #holoX",
     "bloomEffect": "サムライ少女　: Reveal 1 <Chakimaru> or <Pokobe> from your deck and put it into your hand. Then shuffle your deck.",
     "skills": [
       {
@@ -18258,7 +18259,7 @@
     ],
     "extraEffect": "If this holomem is downed, you get Life-2.",
     "setName": "hSD06",
-    "searchString": "kazama iroha hsd06-006 #jp $holox サムライ少女　: reveal 1 <chakimaru> or <pokobe> from your deck and put it into your hand. then shuffle your deck. if this holomem is downed, you get life-2. 刀の錆になるでござる！ "
+    "searchString": "kazama iroha hsd06-006 #jp #holox サムライ少女　: reveal 1 <chakimaru> or <pokobe> from your deck and put it into your hand. then shuffle your deck. if this holomem is downed, you get life-2. 刀の錆になるでござる！ "
   },
   {
     "cardNumber": "hSD06-007",
@@ -18267,7 +18268,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "Green",
-    "tag": "#JP $HoloX",
+    "tag": "#JP #holoX",
     "bloomEffect": "元気をお届け : Restore 30 HP to one of your holomems with $HoloX.",
     "skills": [
       {
@@ -18279,7 +18280,7 @@
     "imageSet": "hBP03",
     "hasFullArt": true,
     "setName": "hSD06",
-    "searchString": "kazama iroha hsd06-007 #jp $holox 元気をお届け : restore 30 hp to one of your holomems with $holox. 天才では？ if there are at least 5 cheers on your stage, this art gains +50 power."
+    "searchString": "kazama iroha hsd06-007 #jp #holox 元気をお届け : restore 30 hp to one of your holomems with $holox. 天才では？ if there are at least 5 cheers on your stage, this art gains +50 power."
   },
   {
     "cardNumber": "hSD06-008",
@@ -18288,7 +18289,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "White",
-    "tag": "#JP $HoloX #Kemomimi",
+    "tag": "#JP #holoX #Kemomimi",
     "collabEffect": "ずのー！　: If your Center holomem has $HoloX and you have 5 or fewer cards in your hand, draw 1 card from your Deck.",
     "skills": [
       {
@@ -18297,7 +18298,7 @@
       }
     ],
     "setName": "hSD06",
-    "searchString": "hakui koyori hsd06-008 #jp $holox #kemomimi ずのー！　: if your center holomem has $holox and you have 5 or fewer cards in your hand, draw 1 card from your deck. どやぁ "
+    "searchString": "hakui koyori hsd06-008 #jp #holox #kemomimi ずのー！　: if your center holomem has $holox and you have 5 or fewer cards in your hand, draw 1 card from your deck. どやぁ "
   },
   {
     "cardNumber": "hSD06-009",
@@ -18306,7 +18307,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "Red",
-    "tag": "#JP $HoloX #Bird #Alcohol",
+    "tag": "#JP #holoX #Bird #Alcohol",
     "skills": [
       {
         "name": "頼れる女幹部",
@@ -18315,7 +18316,7 @@
       }
     ],
     "setName": "hSD06",
-    "searchString": "takane lui hsd06-009 #jp $holox #bird #alcohol 頼れる女幹部 you may return 1 debut holomem with $holox from your archive to your hand."
+    "searchString": "takane lui hsd06-009 #jp #holox #bird #alcohol 頼れる女幹部 you may return 1 debut holomem with $holox from your archive to your hand."
   },
   {
     "cardNumber": "hSD06-010",
@@ -18324,7 +18325,7 @@
     "bloomLevel": "Debut",
     "hp": 60,
     "color": "Purple",
-    "tag": "#JP $HoloX #Shooter",
+    "tag": "#JP #holoX #Shooter",
     "collabEffect": "ドーンッ！: Deal 10 special damage to your opponent's Center holomem or one of their Back holomems.",
     "skills": [
       {
@@ -18334,7 +18335,7 @@
       }
     ],
     "setName": "hSD06",
-    "searchString": "la+ darknesss hsd06-010 #jp $holox #shooter ドーンッ！: deal 10 special damage to your opponent's center holomem or one of their back holomems. 世界一かわいいよ [collab position only] if you have used your sp oshi skill during this turn's main step, this art gains +50 power."
+    "searchString": "la+ darknesss hsd06-010 #jp #holox #shooter ドーンッ！: deal 10 special damage to your opponent's center holomem or one of their back holomems. 世界一かわいいよ [collab position only] if you have used your sp oshi skill during this turn's main step, this art gains +50 power."
   },
   {
     "cardNumber": "hSD06-011",
@@ -19961,7 +19962,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "White",
-    "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "skills": [
       {
         "name": "はじまんぼう！",
@@ -19969,7 +19970,7 @@
       }
     ],
     "setName": "hSD14",
-    "searchString": "shirakami fubuki hsd14-002 #jp #gen 1 #gamers #kemomimi #painting はじまんぼう！ "
+    "searchString": "shirakami fubuki hsd14-002 #jp #gen1 #gamers #kemomimi #painting はじまんぼう！ "
   },
   {
     "cardNumber": "hSD14-003",
@@ -19978,7 +19979,7 @@
     "bloomLevel": "Debut",
     "hp": 70,
     "color": "White",
-    "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "skills": [
       {
         "name": "今日もあなたのそばに -フブキ-",
@@ -19986,7 +19987,7 @@
       }
     ],
     "setName": "hSD14",
-    "searchString": "shirakami fubuki hsd14-003 #jp #gen 1 #gamers #kemomimi #painting 今日もあなたのそばに -フブキ- "
+    "searchString": "shirakami fubuki hsd14-003 #jp #gen1 #gamers #kemomimi #painting 今日もあなたのそばに -フブキ- "
   },
   {
     "cardNumber": "hSD14-004",
@@ -19995,7 +19996,7 @@
     "bloomLevel": "Debut",
     "hp": 90,
     "color": "White",
-    "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "collabEffect": "白上のとこにおいでー : If you went second and it is your first turn, reveal 1 mascot from your deck, and add it to hand. Then, shuffle the deck.",
     "skills": [
       {
@@ -20004,7 +20005,7 @@
       }
     ],
     "setName": "hSD14",
-    "searchString": "shirakami fubuki hsd14-004 #jp #gen 1 #gamers #kemomimi #painting 白上のとこにおいでー : if you went second and it is your first turn, reveal 1 mascot from your deck, and add it to hand. then, shuffle the deck. ハイ　フレンズ！ "
+    "searchString": "shirakami fubuki hsd14-004 #jp #gen1 #gamers #kemomimi #painting 白上のとこにおいでー : if you went second and it is your first turn, reveal 1 mascot from your deck, and add it to hand. then, shuffle the deck. ハイ　フレンズ！ "
   },
   {
     "cardNumber": "hSD14-005",
@@ -20013,7 +20014,7 @@
     "bloomLevel": "Debut",
     "hp": 100,
     "color": "White",
-    "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "collabEffect": "いっちにー、さんしー : Choose your center holomem. During this turn, the chosen holomem gets Arts+10.",
     "skills": [
       {
@@ -20022,7 +20023,7 @@
       }
     ],
     "setName": "hSD14",
-    "searchString": "shirakami fubuki hsd14-005 #jp #gen 1 #gamers #kemomimi #painting いっちにー、さんしー : choose your center holomem. during this turn, the chosen holomem gets arts+10. いつでもいけるよ！ "
+    "searchString": "shirakami fubuki hsd14-005 #jp #gen1 #gamers #kemomimi #painting いっちにー、さんしー : choose your center holomem. during this turn, the chosen holomem gets arts+10. いつでもいけるよ！ "
   },
   {
     "cardNumber": "hSD14-006",
@@ -20031,7 +20032,7 @@
     "bloomLevel": "1st",
     "hp": 140,
     "color": "White",
-    "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "skills": [
       {
         "name": "ようやくキミに会えた！！！",
@@ -20043,7 +20044,7 @@
       }
     ],
     "setName": "hSD14",
-    "searchString": "shirakami fubuki hsd14-006 #jp #gen 1 #gamers #kemomimi #painting ようやくキミに会えた！！！  キラキラなきーつね！ "
+    "searchString": "shirakami fubuki hsd14-006 #jp #gen1 #gamers #kemomimi #painting ようやくキミに会えた！！！  キラキラなきーつね！ "
   },
   {
     "cardNumber": "hSD14-007",
@@ -20052,7 +20053,7 @@
     "bloomLevel": "1st",
     "hp": 130,
     "color": "White",
-    "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "bloomEffect": "Message for You -フブキ- : Choose your center holomem. During this turn, the chosen holomem gets Arts+10.",
     "skills": [
       {
@@ -20061,7 +20062,7 @@
       }
     ],
     "setName": "hSD14",
-    "searchString": "shirakami fubuki hsd14-007 #jp #gen 1 #gamers #kemomimi #painting message for you -フブキ- : choose your center holomem. during this turn, the chosen holomem gets arts+10. あーまいーこのきーもちー "
+    "searchString": "shirakami fubuki hsd14-007 #jp #gen1 #gamers #kemomimi #painting message for you -フブキ- : choose your center holomem. during this turn, the chosen holomem gets arts+10. あーまいーこのきーもちー "
   },
   {
     "cardNumber": "hSD14-008",
@@ -20070,7 +20071,7 @@
     "bloomLevel": "1st",
     "hp": 140,
     "color": "White",
-    "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "collabEffect": "大丈夫ですよ！ : Attach 1 mascot from your archive to this holomem.",
     "skills": [
       {
@@ -20080,7 +20081,7 @@
       }
     ],
     "setName": "hSD14",
-    "searchString": "shirakami fubuki hsd14-008 #jp #gen 1 #gamers #kemomimi #painting 大丈夫ですよ！ : attach 1 mascot from your archive to this holomem. 一緒に行こう(??????)?? [collab position only]if a mascot is attached to this holomem, this arts gets +20."
+    "searchString": "shirakami fubuki hsd14-008 #jp #gen1 #gamers #kemomimi #painting 大丈夫ですよ！ : attach 1 mascot from your archive to this holomem. 一緒に行こう(??????)?? [collab position only]if a mascot is attached to this holomem, this arts gets +20."
   },
   {
     "cardNumber": "hSD14-009",
@@ -20089,7 +20090,7 @@
     "bloomLevel": "2nd",
     "hp": 170,
     "color": "White",
-    "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+    "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "giftEffect": "私は倒れちゃいけないな : During your opponent's turn, when this holomem is downed, if this holomem has a mascot attached, draw 1 card.",
     "skills": [
       {
@@ -20098,7 +20099,7 @@
       }
     ],
     "setName": "hSD14",
-    "searchString": "shirakami fubuki hsd14-009 #jp #gen 1 #gamers #kemomimi #painting 私は倒れちゃいけないな : during your opponent's turn, when this holomem is downed, if this holomem has a mascot attached, draw 1 card. 胸を張って歌い続けるよ "
+    "searchString": "shirakami fubuki hsd14-009 #jp #gen1 #gamers #kemomimi #painting 私は倒れちゃいけないな : during your opponent's turn, when this holomem is downed, if this holomem has a mascot attached, draw 1 card. 胸を張って歌い続けるよ "
   },
   {
     "cardNumber": "hSD14-010",
@@ -20319,7 +20320,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "Red",
-    "tag": "#JP #Gen 0 #Baby",
+    "tag": "#JP #Gen0 #Baby",
     "skills": [
       {
         "name": "さくらみこだよ～",
@@ -20327,7 +20328,7 @@
       }
     ],
     "setName": "hSD16",
-    "searchString": "sakura miko hsd16-002 #jp #gen 0 #baby さくらみこだよ～ "
+    "searchString": "sakura miko hsd16-002 #jp #gen0 #baby さくらみこだよ～ "
   },
   {
     "cardNumber": "hSD16-003",
@@ -20336,7 +20337,7 @@
     "bloomLevel": "Debut",
     "hp": 70,
     "color": "Red",
-    "tag": "#JP #Gen 0 #Baby",
+    "tag": "#JP #Gen0 #Baby",
     "skills": [
       {
         "name": "エリート巫女アイドル！ さくらみこだよ～",
@@ -20344,7 +20345,7 @@
       }
     ],
     "setName": "hSD16",
-    "searchString": "sakura miko hsd16-003 #jp #gen 0 #baby エリート巫女アイドル！ さくらみこだよ～ "
+    "searchString": "sakura miko hsd16-003 #jp #gen0 #baby エリート巫女アイドル！ さくらみこだよ～ "
   },
   {
     "cardNumber": "hSD16-004",
@@ -20353,7 +20354,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "Red",
-    "tag": "#JP #Gen 0 #Baby",
+    "tag": "#JP #Gen0 #Baby",
     "collabEffect": "後攻なんですｹｰﾄﾞ : If you went second and it is your first turn, reveal 1 <35P> from your deck, and attach it to this holomem. Then, shuffle the deck.",
     "skills": [
       {
@@ -20362,7 +20363,7 @@
       }
     ],
     "setName": "hSD16",
-    "searchString": "sakura miko hsd16-004 #jp #gen 0 #baby 後攻なんですｹｰﾄﾞ : if you went second and it is your first turn, reveal 1 <35p> from your deck, and attach it to this holomem. then, shuffle the deck. でゃまれ！ "
+    "searchString": "sakura miko hsd16-004 #jp #gen0 #baby 後攻なんですｹｰﾄﾞ : if you went second and it is your first turn, reveal 1 <35p> from your deck, and attach it to this holomem. then, shuffle the deck. でゃまれ！ "
   },
   {
     "cardNumber": "hSD16-005",
@@ -20371,7 +20372,7 @@
     "bloomLevel": "Debut",
     "hp": 100,
     "color": "Red",
-    "tag": "#JP #Gen 0 #Baby",
+    "tag": "#JP #Gen0 #Baby",
     "skills": [
       {
         "name": "桜風ランニング",
@@ -20380,7 +20381,7 @@
       }
     ],
     "setName": "hSD16",
-    "searchString": "sakura miko hsd16-005 #jp #gen 0 #baby 桜風ランニング roll a die once. if it is 3 or 5, draw 1 card."
+    "searchString": "sakura miko hsd16-005 #jp #gen0 #baby 桜風ランニング roll a die once. if it is 3 or 5, draw 1 card."
   },
   {
     "cardNumber": "hSD16-006",
@@ -20389,7 +20390,7 @@
     "bloomLevel": "1st",
     "hp": 140,
     "color": "Red",
-    "tag": "#JP #Gen 0 #Baby",
+    "tag": "#JP #Gen0 #Baby",
     "skills": [
       {
         "name": "みんなみててにぇ",
@@ -20401,7 +20402,7 @@
       }
     ],
     "setName": "hSD16",
-    "searchString": "sakura miko hsd16-006 #jp #gen 0 #baby みんなみててにぇ  いっくぞぉおおおお "
+    "searchString": "sakura miko hsd16-006 #jp #gen0 #baby みんなみててにぇ  いっくぞぉおおおお "
   },
   {
     "cardNumber": "hSD16-007",
@@ -20410,7 +20411,7 @@
     "bloomLevel": "1st",
     "hp": 130,
     "color": "Red",
-    "tag": "#JP #Gen 0 #Baby",
+    "tag": "#JP #Gen0 #Baby",
     "giftEffect": "みこの膝にごろーんってして : During your opponent's turn, when this holomem is downed, draw 1 card.",
     "skills": [
       {
@@ -20420,7 +20421,7 @@
       }
     ],
     "setName": "hSD16",
-    "searchString": "sakura miko hsd16-007 #jp #gen 0 #baby みこの膝にごろーんってして : during your opponent's turn, when this holomem is downed, draw 1 card. みこの耳かきスキルに蕩けちゃえ [center position only]roll a die once. if it is 3 or 5, this arts gets +10."
+    "searchString": "sakura miko hsd16-007 #jp #gen0 #baby みこの膝にごろーんってして : during your opponent's turn, when this holomem is downed, draw 1 card. みこの耳かきスキルに蕩けちゃえ [center position only]roll a die once. if it is 3 or 5, this arts gets +10."
   },
   {
     "cardNumber": "hSD16-008",
@@ -20429,7 +20430,7 @@
     "bloomLevel": "1st",
     "hp": 140,
     "color": "Red",
-    "tag": "#JP #Gen 0 #Baby",
+    "tag": "#JP #Gen0 #Baby",
     "collabEffect": "待ってたにぇ : Roll a die once. If it is 3 or 5, return 1 <35P> from your archive to hand.",
     "skills": [
       {
@@ -20438,7 +20439,7 @@
       }
     ],
     "setName": "hSD16",
-    "searchString": "sakura miko hsd16-008 #jp #gen 0 #baby 待ってたにぇ : roll a die once. if it is 3 or 5, return 1 <35p> from your archive to hand. いっぱい遊ぼっ "
+    "searchString": "sakura miko hsd16-008 #jp #gen0 #baby 待ってたにぇ : roll a die once. if it is 3 or 5, return 1 <35p> from your archive to hand. いっぱい遊ぼっ "
   },
   {
     "cardNumber": "hSD16-009",
@@ -20447,7 +20448,7 @@
     "bloomLevel": "2nd",
     "hp": 170,
     "color": "Red",
-    "tag": "#JP #Gen 0 #Baby",
+    "tag": "#JP #Gen0 #Baby",
     "bloomEffect": "35P、ありがとうだよー！ : During this turn, for each <35P> on your stage, this holomem gets Arts+10.",
     "skills": [
       {
@@ -20456,7 +20457,7 @@
       }
     ],
     "setName": "hSD16",
-    "searchString": "sakura miko hsd16-009 #jp #gen 0 #baby 35p、ありがとうだよー！ : during this turn, for each <35p> on your stage, this holomem gets arts+10. この瞬間を見せてあげたいなって "
+    "searchString": "sakura miko hsd16-009 #jp #gen0 #baby 35p、ありがとうだよー！ : during this turn, for each <35p> on your stage, this holomem gets arts+10. この瞬間を見せてあげたいなって "
   },
   {
     "cardNumber": "hSD17-001",
@@ -20484,7 +20485,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "Blue",
-    "tag": "#JP #Gen 0 #Singing",
+    "tag": "#JP #Gen0 #Singing",
     "skills": [
       {
         "name": "バーチャルアイドル・星街すいせい",
@@ -20492,7 +20493,7 @@
       }
     ],
     "setName": "hSD17",
-    "searchString": "hoshimachi suisei hsd17-002 #jp #gen 0 #singing バーチャルアイドル・星街すいせい "
+    "searchString": "hoshimachi suisei hsd17-002 #jp #gen0 #singing バーチャルアイドル・星街すいせい "
   },
   {
     "cardNumber": "hSD17-003",
@@ -20501,7 +20502,7 @@
     "bloomLevel": "Debut",
     "hp": 70,
     "color": "Blue",
-    "tag": "#JP #Gen 0 #Singing",
+    "tag": "#JP #Gen0 #Singing",
     "skills": [
       {
         "name": "今日もあなたのそばに -すいせい-",
@@ -20509,7 +20510,7 @@
       }
     ],
     "setName": "hSD17",
-    "searchString": "hoshimachi suisei hsd17-003 #jp #gen 0 #singing 今日もあなたのそばに -すいせい- "
+    "searchString": "hoshimachi suisei hsd17-003 #jp #gen0 #singing 今日もあなたのそばに -すいせい- "
   },
   {
     "cardNumber": "hSD17-004",
@@ -20518,7 +20519,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "Blue",
-    "tag": "#JP #Gen 0 #Singing",
+    "tag": "#JP #Gen0 #Singing",
     "collabEffect": "ファーストスター : If you went second and it is your first turn, deal 20 special damage to 1 of your opponent's back holomem.",
     "skills": [
       {
@@ -20527,7 +20528,7 @@
       }
     ],
     "setName": "hSD17",
-    "searchString": "hoshimachi suisei hsd17-004 #jp #gen 0 #singing ファーストスター : if you went second and it is your first turn, deal 20 special damage to 1 of your opponent's back holomem. 私だけの輝き "
+    "searchString": "hoshimachi suisei hsd17-004 #jp #gen0 #singing ファーストスター : if you went second and it is your first turn, deal 20 special damage to 1 of your opponent's back holomem. 私だけの輝き "
   },
   {
     "cardNumber": "hSD17-005",
@@ -20536,7 +20537,7 @@
     "bloomLevel": "Debut",
     "hp": 100,
     "color": "Blue",
-    "tag": "#JP #Gen 0 #Singing",
+    "tag": "#JP #Gen0 #Singing",
     "skills": [
       {
         "name": "よーし、レッスン開始だー！",
@@ -20545,7 +20546,7 @@
       }
     ],
     "setName": "hSD17",
-    "searchString": "hoshimachi suisei hsd17-005 #jp #gen 0 #singing よーし、レッスン開始だー！ deal 10 special damage to 1 of your opponent's back holomem."
+    "searchString": "hoshimachi suisei hsd17-005 #jp #gen0 #singing よーし、レッスン開始だー！ deal 10 special damage to 1 of your opponent's back holomem."
   },
   {
     "cardNumber": "hSD17-006",
@@ -20554,7 +20555,7 @@
     "bloomLevel": "1st",
     "hp": 140,
     "color": "Blue",
-    "tag": "#JP #Gen 0 #Singing",
+    "tag": "#JP #Gen0 #Singing",
     "skills": [
       {
         "name": "そろそろ始まるよ！",
@@ -20566,7 +20567,7 @@
       }
     ],
     "setName": "hSD17",
-    "searchString": "hoshimachi suisei hsd17-006 #jp #gen 0 #singing そろそろ始まるよ！  みんな準備はできてる？ "
+    "searchString": "hoshimachi suisei hsd17-006 #jp #gen0 #singing そろそろ始まるよ！  みんな準備はできてる？ "
   },
   {
     "cardNumber": "hSD17-007",
@@ -20575,7 +20576,7 @@
     "bloomLevel": "1st",
     "hp": 130,
     "color": "Blue",
-    "tag": "#JP #Gen 0 #Singing",
+    "tag": "#JP #Gen0 #Singing",
     "bloomEffect": "Message for You -すいせい- : [Back Position Only]Deal 10 special damage to 1 of your opponent's back holomem.",
     "skills": [
       {
@@ -20584,7 +20585,7 @@
       }
     ],
     "setName": "hSD17",
-    "searchString": "hoshimachi suisei hsd17-007 #jp #gen 0 #singing message for you -すいせい- : [back position only]deal 10 special damage to 1 of your opponent's back holomem. バレンタイン……か…… "
+    "searchString": "hoshimachi suisei hsd17-007 #jp #gen0 #singing message for you -すいせい- : [back position only]deal 10 special damage to 1 of your opponent's back holomem. バレンタイン……か…… "
   },
   {
     "cardNumber": "hSD17-008",
@@ -20593,7 +20594,7 @@
     "bloomLevel": "1st",
     "hp": 140,
     "color": "Blue",
-    "tag": "#JP #Gen 0 #Singing",
+    "tag": "#JP #Gen0 #Singing",
     "giftEffect": "明日への歌 : During your opponent's turn, when this holomem is downed, draw 1 card.",
     "skills": [
       {
@@ -20603,7 +20604,7 @@
       }
     ],
     "setName": "hSD17",
-    "searchString": "hoshimachi suisei hsd17-008 #jp #gen 0 #singing 明日への歌 : during your opponent's turn, when this holomem is downed, draw 1 card. あなたの一番星 deal 10 special damage to 1 of your opponent's back holomem."
+    "searchString": "hoshimachi suisei hsd17-008 #jp #gen0 #singing 明日への歌 : during your opponent's turn, when this holomem is downed, draw 1 card. あなたの一番星 deal 10 special damage to 1 of your opponent's back holomem."
   },
   {
     "cardNumber": "hSD17-009",
@@ -20612,7 +20613,7 @@
     "bloomLevel": "2nd",
     "hp": 170,
     "color": "Blue",
-    "tag": "#JP #Gen 0 #Singing",
+    "tag": "#JP #Gen0 #Singing",
     "collabEffect": "踊ったもん勝ち！ : During this turn, this holomem gets Arts+20.",
     "skills": [
       {
@@ -20621,7 +20622,7 @@
       }
     ],
     "setName": "hSD17",
-    "searchString": "hoshimachi suisei hsd17-009 #jp #gen 0 #singing 踊ったもん勝ち！ : during this turn, this holomem gets arts+20. キラキラの向こう側へ "
+    "searchString": "hoshimachi suisei hsd17-009 #jp #gen0 #singing 踊ったもん勝ち！ : during this turn, this holomem gets arts+20. キラキラの向こう側へ "
   },
   {
     "cardNumber": "hSD17-010",
@@ -20824,7 +20825,7 @@
     "bloomLevel": "Debut",
     "hp": 90,
     "color": "Yellow",
-    "tag": "#JP #Gen 2 #Bird",
+    "tag": "#JP #Gen2 #Bird",
     "skills": [
       {
         "name": "あじまるあじまる～",
@@ -20832,7 +20833,7 @@
       }
     ],
     "setName": "hSD19",
-    "searchString": "oozora subaru hsd19-002 #jp #gen 2 #bird あじまるあじまる～ "
+    "searchString": "oozora subaru hsd19-002 #jp #gen2 #bird あじまるあじまる～ "
   },
   {
     "cardNumber": "hSD19-003",
@@ -20841,7 +20842,7 @@
     "bloomLevel": "Debut",
     "hp": 80,
     "color": "Yellow",
-    "tag": "#JP #Gen 2 #Bird",
+    "tag": "#JP #Gen2 #Bird",
     "skills": [
       {
         "name": "今日もあなたのそばに -スバル-",
@@ -20850,7 +20851,7 @@
       }
     ],
     "setName": "hSD19",
-    "searchString": "oozora subaru hsd19-003 #jp #gen 2 #bird 今日もあなたのそばに -スバル- if your life is 2 or less, this arts gets +10."
+    "searchString": "oozora subaru hsd19-003 #jp #gen2 #bird 今日もあなたのそばに -スバル- if your life is 2 or less, this arts gets +10."
   },
   {
     "cardNumber": "hSD19-004",
@@ -20859,7 +20860,7 @@
     "bloomLevel": "Debut",
     "hp": 100,
     "color": "Yellow",
-    "tag": "#JP #Gen 2 #Bird",
+    "tag": "#JP #Gen2 #Bird",
     "collabEffect": "大空スマイル : If you went second and it is your first turn, reveal 1 Debut holomem from your deck, and place it on stage. Then, shuffle the deck.",
     "skills": [
       {
@@ -20868,7 +20869,7 @@
       }
     ],
     "setName": "hSD19",
-    "searchString": "oozora subaru hsd19-004 #jp #gen 2 #bird 大空スマイル : if you went second and it is your first turn, reveal 1 debut holomem from your deck, and place it on stage. then, shuffle the deck. しゅばぁ "
+    "searchString": "oozora subaru hsd19-004 #jp #gen2 #bird 大空スマイル : if you went second and it is your first turn, reveal 1 debut holomem from your deck, and place it on stage. then, shuffle the deck. しゅばぁ "
   },
   {
     "cardNumber": "hSD19-005",
@@ -20877,7 +20878,7 @@
     "bloomLevel": "Debut",
     "hp": 100,
     "color": "Yellow",
-    "tag": "#JP #Gen 2 #Bird",
+    "tag": "#JP #Gen2 #Bird",
     "giftEffect": "ダンスレッスンなんですｹｰﾄﾞ : This holomem takes -10 damage from your opponent's center holomem.",
     "skills": [
       {
@@ -20886,7 +20887,7 @@
       }
     ],
     "setName": "hSD19",
-    "searchString": "oozora subaru hsd19-005 #jp #gen 2 #bird ダンスレッスンなんですｹｰﾄﾞ : this holomem takes -10 damage from your opponent's center holomem. いっちにー、ホワッ、ホワッ！ "
+    "searchString": "oozora subaru hsd19-005 #jp #gen2 #bird ダンスレッスンなんですｹｰﾄﾞ : this holomem takes -10 damage from your opponent's center holomem. いっちにー、ホワッ、ホワッ！ "
   },
   {
     "cardNumber": "hSD19-006",
@@ -20895,7 +20896,7 @@
     "bloomLevel": "1st",
     "hp": 160,
     "color": "Yellow",
-    "tag": "#JP #Gen 2 #Bird",
+    "tag": "#JP #Gen2 #Bird",
     "skills": [
       {
         "name": "いっぱい頑張る！",
@@ -20907,7 +20908,7 @@
       }
     ],
     "setName": "hSD19",
-    "searchString": "oozora subaru hsd19-006 #jp #gen 2 #bird いっぱい頑張る！  いっぱい楽しむ！ "
+    "searchString": "oozora subaru hsd19-006 #jp #gen2 #bird いっぱい頑張る！  いっぱい楽しむ！ "
   },
   {
     "cardNumber": "hSD19-007",
@@ -20916,7 +20917,7 @@
     "bloomLevel": "1st",
     "hp": 140,
     "color": "Yellow",
-    "tag": "#JP #Gen 2 #Bird",
+    "tag": "#JP #Gen2 #Bird",
     "bloomEffect": "青春エール : Send 1 cheer from your archive to this holomem.",
     "skills": [
       {
@@ -20926,7 +20927,7 @@
       }
     ],
     "setName": "hSD19",
-    "searchString": "oozora subaru hsd19-007 #jp #gen 2 #bird 青春エール : send 1 cheer from your archive to this holomem. 忘れてなんかやるもんか if 2 or more cheers are attached to this holomem, this arts gets +20."
+    "searchString": "oozora subaru hsd19-007 #jp #gen2 #bird 青春エール : send 1 cheer from your archive to this holomem. 忘れてなんかやるもんか if 2 or more cheers are attached to this holomem, this arts gets +20."
   },
   {
     "cardNumber": "hSD19-008",
@@ -20935,7 +20936,7 @@
     "bloomLevel": "1st",
     "hp": 150,
     "color": "Yellow",
-    "tag": "#JP #Gen 2 #Bird",
+    "tag": "#JP #Gen2 #Bird",
     "skills": [
       {
         "name": "萌え萌えギュン",
@@ -20944,7 +20945,7 @@
       }
     ],
     "setName": "hSD19",
-    "searchString": "oozora subaru hsd19-008 #jp #gen 2 #bird 萌え萌えギュン [collab position only]if there is a 2nd holomem on your opponent's stage, this arts gets +20."
+    "searchString": "oozora subaru hsd19-008 #jp #gen2 #bird 萌え萌えギュン [collab position only]if there is a 2nd holomem on your opponent's stage, this arts gets +20."
   },
   {
     "cardNumber": "hSD19-009",
@@ -20953,7 +20954,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "Yellow",
-    "tag": "#JP #Gen 2 #Bird",
+    "tag": "#JP #Gen2 #Bird",
     "skills": [
       {
         "name": "ダンシング・プレアデス",
@@ -20962,7 +20963,7 @@
       }
     ],
     "setName": "hSD19",
-    "searchString": "oozora subaru hsd19-009 #jp #gen 2 #bird ダンシング・プレアデス if your life is 2 or less, this arts gets +10."
+    "searchString": "oozora subaru hsd19-009 #jp #gen2 #bird ダンシング・プレアデス if your life is 2 or less, this arts gets +10."
   },
   {
     "cardNumber": "hSD19-010",

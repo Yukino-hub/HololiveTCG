@@ -23,7 +23,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "White",
-        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "skills": [
             {
                 "name": "はじまんぼう！",
@@ -38,7 +38,7 @@
         "bloomLevel": "Debut",
         "hp": 70,
         "color": "White",
-        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "skills": [
             {
                 "name": "今日もあなたのそばに -フブキ-",
@@ -53,7 +53,7 @@
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "White",
-        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "collabEffect": "白上のとこにおいでー : If you went second and it is your first turn, reveal 1 mascot from your deck, and add it to hand. Then, shuffle the deck.",
         "skills": [
             {
@@ -69,7 +69,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "White",
-        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "collabEffect": "いっちにー、さんしー : Choose your center holomem. During this turn, the chosen holomem gets Arts+10.",
         "skills": [
             {
@@ -85,7 +85,7 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "White",
-        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "skills": [
             {
                 "name": "ようやくキミに会えた！！！",
@@ -104,7 +104,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "White",
-        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "bloomEffect": "Message for You -フブキ- : Choose your center holomem. During this turn, the chosen holomem gets Arts+10.",
         "skills": [
             {
@@ -120,7 +120,7 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "White",
-        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "collabEffect": "大丈夫ですよ！ : Attach 1 mascot from your archive to this holomem.",
         "skills": [
             {
@@ -137,7 +137,7 @@
         "bloomLevel": "2nd",
         "hp": 170,
         "color": "White",
-        "tag": "#JP #Gen 1 #GAMERS #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "giftEffect": "私は倒れちゃいけないな : During your opponent's turn, when this holomem is downed, if this holomem has a mascot attached, draw 1 card.",
         "skills": [
             {

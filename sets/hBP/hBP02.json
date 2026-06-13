@@ -135,7 +135,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "skills": [
             {
                 "name": "こんこんきーつね！",
@@ -151,7 +151,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "giftEffect": "おはこんきーつね！:[Collab Position Only]All of your holomem with mascot attached get Arts+10.",
         "skills": [
             {
@@ -164,10 +164,10 @@
         "cardNumber": "hBP02-010",
         "name": "Shirakami Fubuki",
         "rarity": "C",
-        "bloomLevel": "1ST",
+        "bloomLevel": "1st",
         "hp": 150,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "skills": [
             {
                 "name": "キンモクセイの花フブキ",
@@ -187,7 +187,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "bloomEffect": "白上から目をそらしちゃ: Reveal 1 card with #ShirakamiCharacter from your deck, and add it to hand. Then, shuffle the deck.",
         "skills": [
             {
@@ -204,7 +204,7 @@
         "bloomLevel": "1st",
         "hp": 100,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "bloomEffect": "ちょっと動かしますね : You may reattach 1 mascot from your stage to your holomem.",
         "skills": [
             {
@@ -222,7 +222,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "White",
-        "tag": "#JP #Gen1 #Gamers #Kemomimi #Painting",
+        "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "giftEffect": "みんなと一緒! You may attach up to 2 mascots with different card names to this holomem.",
         "skills": [
             {
@@ -286,7 +286,7 @@
                 "name": "目に焼き付けるんだゾ♡",
                 "dmg": "30"
             }
-        ],  
+        ],
         "hasFullArt": true,
         "imageSet": "hBP06"
     },
@@ -425,7 +425,7 @@
         "bloomLevel": "Debut",
         "hp": 90,
         "color": "Green",
-        "tag": "#JP #Gamers #Kemomimi #Cooking",
+        "tag": "#JP #GAMERS #Kemomimi #Cooking",
         "skills": [
             {
                 "name": "うちうち、うちだよ～大神ミオだよ～",
@@ -442,7 +442,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Green",
-        "tag": "#JP #Gamers #Kemomimi #Cooking",
+        "tag": "#JP #GAMERS #Kemomimi #Cooking",
         "skills": [
             {
                 "name": "おはみぉーん",
@@ -462,7 +462,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Green",
-        "tag": "#JP #Gamers #Kemomimi #Cooking",
+        "tag": "#JP #GAMERS #Kemomimi #Cooking",
         "bloomEffect": "アイドルとして成長した姿 : Reveal 1 cheer from your cheer deck with the same color as 1 of your holomem with #GAMERS on stage, and send it to your holomem. Then, shuffle the cheer deck.",
         "skills": [
             {
@@ -479,7 +479,7 @@
         "bloomLevel": "1st",
         "hp": 240,
         "color": "Green",
-        "tag": "#JP #Gamers #Kemomimi #Cooking",
+        "tag": "#JP #GAMERS #Kemomimi #Cooking",
         "skills": [
             {
                 "name": "タロットの導き",
@@ -557,7 +557,7 @@
                 "name": "いっしょに出航しましょう！（健全)",
                 "dmg": "30"
             }
-        ],  
+        ],
         "hasFullArt": true,
         "imageSet": "hBP06"
     },
@@ -732,7 +732,7 @@
         "hp": 230,
         "buzz": true,
         "color": "Blue",
-        "tag": "#JP #Gamers #Kemomimi #Singing",
+        "tag": "#JP #GAMERS #Kemomimi #Singing",
         "giftEffect": "毒の愛:(Center position only) All 〈Nekomata Okayu〉on your stage deal +20 special damage to your opponent's center holomem.",
         "skills": [
             {
@@ -860,7 +860,7 @@
         "bloomLevel": "Debut",
         "hp": 120,
         "color": "Purple",
-        "tag": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Language",
         "skills": [
             {
                 "name": "ゾンばんは！",
@@ -876,7 +876,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Purple",
-        "tag": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Language",
         "collabEffect": "オリーがいつも見てるよ: Draw 1 card, and archive 1 card from hand.",
         "skills": [
             {
@@ -893,7 +893,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Purple",
-        "tag": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Language",
         "skills": [
             {
                 "name": "君を大好きな後輩",
@@ -913,7 +913,7 @@
         "bloomLevel": "1st",
         "hp": 130,
         "color": "Purple",
-        "tag": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Language",
         "bloomEffect": "限界化！！: You may Bloom one of your Debut holomems with #IDGen2 using a holomem from your Archive. You may only use the Bloom Effect 「限界化！！」 once per turn.",
         "skills": [
             {
@@ -930,7 +930,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Purple",
-        "tag": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Language",
         "bloomEffect": "真実一路: Draw a card from your deck.",
         "skills": [
             {
@@ -948,7 +948,7 @@
         "bloomLevel": "2nd",
         "hp": 120,
         "color": "Purple",
-        "tag": "#ID #IDGen2 #Languages",
+        "tag": "#ID #IDGen2 #Language",
         "bloomEffect": "蘇りしゾンビ: You may archive 2 cards from your hand:During this turn, this holomem gets Arts+40.",
         "skills": [
             {
@@ -1165,7 +1165,7 @@
             {
                 "name": "Hiya darlings!",
                 "dmg": "30",
-                "description" : "If a red cheer is attached to this holomem, this Arts gets +10."
+                "description": "If a red cheer is attached to this holomem, this Arts gets +10."
             }
         ],
         "extraEffect": "You may include any number of this holomem in the deck.",
@@ -1410,7 +1410,7 @@
         "name": "魔法のタンス (Magic Dresser)",
         "type": "Support (Event)",
         "rarity": "U",
-        "tag": "Magic",
+        "tag": "#Magic",
         "ability": "is card can only be used if you archive 1 of your holo Power. Send 1 purple cheer from your archive to your 〈Murasaki Shion〉. Only 1 of your event with #Magic can be used each turn.",
         "hasFoils": true
     },

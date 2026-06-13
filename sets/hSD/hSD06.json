@@ -23,7 +23,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Green",
-        "tag":  "#JP $HoloX",
+        "tag": "#JP #holoX",
         "collabEffect": "のっと！ﾆﾝﾆﾝ！！ Restore 10HP to one of your holomems.",
         "skills": [
             {
@@ -39,7 +39,7 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Green",
-        "tag":  "#JP $HoloX",
+        "tag": "#JP #holoX",
         "skills": [
             {
                 "name": "一刀両断叩き斬る",
@@ -55,7 +55,7 @@
         "bloomLevel": "1st",
         "hp": 160,
         "color": "Green",
-        "tag":  "#JP $HoloX",
+        "tag": "#JP #holoX",
         "skills": [
             {
                 "name": "照れ屋な用心棒",
@@ -70,8 +70,8 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Green",
-        "tag":  "#JP $HoloX",
-        "bloomEffect" : "かざまとおでかけ : Send the top card of your Cheer Deck to your Holomem with $HoloX",
+        "tag": "#JP #holoX",
+        "bloomEffect": "かざまとおでかけ : Send the top card of your Cheer Deck to your Holomem with $HoloX",
         "skills": [
             {
                 "name": "かざまといっしょ！",
@@ -87,8 +87,8 @@
         "buzz": "true",
         "hp": 220,
         "color": "Green",
-        "tag":  "#JP $HoloX",
-        "bloomEffect" :"サムライ少女　: Reveal 1 <Chakimaru> or <Pokobe> from your deck and put it into your hand. Then shuffle your deck.",
+        "tag": "#JP #holoX",
+        "bloomEffect": "サムライ少女　: Reveal 1 <Chakimaru> or <Pokobe> from your deck and put it into your hand. Then shuffle your deck.",
         "skills": [
             {
                 "name": "刀の錆になるでござる！",
@@ -104,7 +104,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "Green",
-        "tag":  "#JP $HoloX",
+        "tag": "#JP #holoX",
         "bloomEffect": "元気をお届け : Restore 30 HP to one of your holomems with $HoloX.",
         "skills": [
             {
@@ -123,8 +123,8 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "White",
-        "tag": "#JP $HoloX #Kemomimi",
-        "collabEffect" : "ずのー！　: If your Center holomem has $HoloX and you have 5 or fewer cards in your hand, draw 1 card from your Deck.",
+        "tag": "#JP #holoX #Kemomimi",
+        "collabEffect": "ずのー！　: If your Center holomem has $HoloX and you have 5 or fewer cards in your hand, draw 1 card from your Deck.",
         "skills": [
             {
                 "name": "どやぁ",
@@ -139,12 +139,12 @@
         "bloomLevel": "Debut",
         "hp": 80,
         "color": "Red",
-        "tag": "#JP $HoloX #Bird #Alcohol",
+        "tag": "#JP #holoX #Bird #Alcohol",
         "skills": [
             {
                 "name": "頼れる女幹部",
                 "dmg": 20,
-                "description" : "You may return 1 Debut holomem with $HoloX from your Archive to your hand."
+                "description": "You may return 1 Debut holomem with $HoloX from your Archive to your hand."
             }
         ]
     },
@@ -155,13 +155,13 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Purple",
-        "tag": "#JP $HoloX #Shooter",
-        "collabEffect" : "ドーンッ！: Deal 10 special damage to your opponent's Center holomem or one of their Back holomems.",
+        "tag": "#JP #holoX #Shooter",
+        "collabEffect": "ドーンッ！: Deal 10 special damage to your opponent's Center holomem or one of their Back holomems.",
         "skills": [
             {
                 "name": "世界一かわいいよ",
                 "dmg": 20,
-                "description" : "[Collab position only] If you have used your SP Oshi Skill during this turn's Main Step, this Art gains +50 power."
+                "description": "[Collab position only] If you have used your SP Oshi Skill during this turn's Main Step, this Art gains +50 power."
             }
         ]
     },
