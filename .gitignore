@@ -1,4 +1,5 @@
 *.md
 *.sql
 claude-docs/
+tools/
 
