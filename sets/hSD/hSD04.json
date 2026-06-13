@@ -27,10 +27,12 @@
         "skills": [
             {
                 "name": "魔界の保健医",
+                "cost": "1 any color",
                 "dmg": 30
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD04-003",
@@ -44,9 +46,11 @@
         "skills": [
             {
                 "name": "マイキュ～トスチュ～デ～ンツ",
+                "cost": "1 Purple, 1 any color",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD04-004",
@@ -60,9 +64,11 @@
         "skills": [
             {
                 "name": "いっぱい食べてね♡",
+                "cost": "1 Purple",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD04-005",
@@ -75,13 +81,16 @@
         "skills": [
             {
                 "name": "おつかれいと……",
+                "cost": "1 Purple",
                 "dmg": 20
             },
             {
                 "name": "あ～む（ﾁｭｯ）",
+                "cost": "1 Purple, 1 any color",
                 "dmg": 40
             }
-        ]
+        ],
+        "batonTouch": 0
     },
     {
         "cardNumber": "hSD04-006",
@@ -94,9 +103,11 @@
         "skills": [
             {
                 "name": "禁断のキッス",
+                "cost": "1 Purple, 1 any color",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 0
     },
     {
         "cardNumber": "hSD04-007",
@@ -110,10 +121,12 @@
         "skills": [
             {
                 "name": "大好き！ちゅっ♡",
+                "cost": "2 any color",
                 "dmg": 30,
                 "description": "Restore 20HP to one of your Back holomems."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD04-008",
@@ -127,15 +140,18 @@
         "skills": [
             {
                 "name": "がんばってつくったよ",
+                "cost": "1 Purple, 1 any color",
                 "dmg": 40
             },
             {
                 "name": "召し上がれ",
+                "cost": "2 Purple, 1 any color",
                 "dmg": "60+",
                 "description": "You may return one Event with #Food from your Archive to your hand: if you do, this Art gains +20 power."
             }
         ],
-        "extraEffect": "If this holomem is downed, you get Life-2."
+        "extraEffect": "If this holomem is downed, you get Life-2.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD04-009",
@@ -148,16 +164,19 @@
         "skills": [
             {
                 "name": "33… 22… 11…",
+                "cost": "1 Purple, 1 any color",
                 "dmg": 50
             },
             {
                 "name": "あくとっ",
+                "cost": "2 Purple, 1 any color",
                 "dmg": 60,
                 "description": "For each Event card you've played during this turn, this Art gains +40 power."
             }
         ],
         "imageSet": "hBP02",
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD04-010",
@@ -171,10 +190,12 @@
         "skills": [
             {
                 "name": "地獄くじ引き、引かせるぞっ",
+                "cost": "2 any color",
                 "dmg": 20
             }
         ],
-        "extraEffect": "This holomem cannot Bloom."
+        "extraEffect": "This holomem cannot Bloom.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD04-011",
@@ -188,10 +209,12 @@
         "skills": [
             {
                 "name": "んな～～～～～～～～",
+                "cost": "1 any color",
                 "dmg": 10
             }
         ],
-        "extraEffect": "This holomem cannot Bloom."
+        "extraEffect": "This holomem cannot Bloom.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD04-012",

@@ -27,9 +27,11 @@
         "skills": [
             {
                 "name": "さくらみこだよ～",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD16-003",
@@ -42,9 +44,11 @@
         "skills": [
             {
                 "name": "エリート巫女アイドル！ さくらみこだよ～",
+                "cost": "1 Red",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD16-004",
@@ -58,9 +62,11 @@
         "skills": [
             {
                 "name": "でゃまれ！",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD16-005",
@@ -73,10 +79,12 @@
         "skills": [
             {
                 "name": "桜風ランニング",
+                "cost": "1 any color",
                 "dmg": 20,
                 "description": "Roll a die once. If it is 3 or 5, draw 1 card."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD16-006",
@@ -89,13 +97,16 @@
         "skills": [
             {
                 "name": "みんなみててにぇ",
+                "cost": "1 any color",
                 "dmg": 20
             },
             {
                 "name": "いっくぞぉおおおお",
+                "cost": "1 Red, 1 any color",
                 "dmg": 50
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD16-007",
@@ -109,10 +120,12 @@
         "skills": [
             {
                 "name": "みこの耳かきスキルに蕩けちゃえ",
+                "cost": "1 any color",
                 "dmg": "30+",
                 "description": "[Center Position Only]Roll a die once. If it is 3 or 5, this Arts gets +10."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD16-008",
@@ -126,9 +139,11 @@
         "skills": [
             {
                 "name": "いっぱい遊ぼっ",
+                "cost": "1 any color",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD16-009",
@@ -142,8 +157,10 @@
         "skills": [
             {
                 "name": "この瞬間を見せてあげたいなって",
+                "cost": "1 Red, 2 any color",
                 "dmg": "100, +30 vs yellow"
             }
-        ]
+        ],
+        "batonTouch": 2
     }
 ]

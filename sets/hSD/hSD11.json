@@ -31,7 +31,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Koganei Niko",
@@ -126,7 +127,8 @@
                 "dmg": "20",
                 "description": "Until the end of your opponent's next turn, the Baton Pass cheer cost of the holomem currently in your opponent's center position is increased by +1 colorless cheer."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Mizumiya Su",
@@ -165,4 +167,3 @@
         ]
     }
 ]
-

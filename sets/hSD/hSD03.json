@@ -27,10 +27,12 @@
         "skills": [
             {
                 "name": "もぐもぐ～おかゆ～",
+                "cost": "1 any color",
                 "dmg": 30
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD03-003",
@@ -44,9 +46,11 @@
         "skills": [
             {
                 "name": "僕をお家に入れてください",
+                "cost": "1 Blue",
                 "dmg": 10
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD03-004",
@@ -60,9 +64,11 @@
         "skills": [
             {
                 "name": "学生猫",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD03-005",
@@ -75,13 +81,16 @@
         "skills": [
             {
                 "name": "ぎゅ～ってしてよね♡",
+                "cost": "1 any color",
                 "dmg": 30
             },
             {
                 "name": "えへへないたずら",
+                "cost": "1 Blue, 1 any color",
                 "dmg": 50
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD03-006",
@@ -94,14 +103,17 @@
         "skills": [
             {
                 "name": "猫かぶり",
+                "cost": "1 Blue",
                 "dmg": 30
             },
             {
                 "name": "しゃー",
+                "cost": "1 Blue, 1 any color",
                 "dmg": 40,
                 "description": "You may Archive 1 Blue Cheer from this holomem for the following effect: deal 10 special damage to your opponent's Center holomem and one of their Back holomems."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD03-007",
@@ -115,9 +127,11 @@
         "skills": [
             {
                 "name": "全力で僕なりの歌、お届けします！",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD03-008",
@@ -132,10 +146,12 @@
         "skills": [
             {
                 "name": "いちばんえらい猫又おかゆ～",
+                "cost": "1 Blue, 1 any color",
                 "dmg": 60
             }
         ],
-        "extraEffect": "If this holomem is downed, you get Life-2."
+        "extraEffect": "If this holomem is downed, you get Life-2.",
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD03-009",
@@ -148,16 +164,19 @@
         "skills": [
             {
                 "name": "MOGMOG",
+                "cost": "1 Blue, 1 any color",
                 "dmg": 60
             },
             {
                 "name": "おかゆ～",
+                "cost": "2 Blue, 2 any color",
                 "dmg": 100,
                 "description": "You may Archive 2 Blue Cheers from this holomem for the following effect: deal 30 special damage to your opponent's Center holomem and one of their Back holomems."
             }
         ],
         "imageSet": "hBP02",
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD03-010",
@@ -171,10 +190,12 @@
         "skills": [
             {
                 "name": "おらよ～",
+                "cost": "1 any color",
                 "dmg": 30
             }
         ],
-        "extraEffect": "This holomem cannot Bloom."
+        "extraEffect": "This holomem cannot Bloom.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD03-011",
@@ -187,15 +208,18 @@
         "skills": [
             {
                 "name": "泥棒建設農業大臣",
+                "cost": "1 any color",
                 "dmg": 10
             },
             {
                 "name": "絶対、食わせてみせるわ",
+                "cost": "2 any color",
                 "dmg": 20,
                 "description": "If you have 2 or less cards in your hand, draw from your Deck until you have 3 cards in your hand."
             }
         ],
-        "extraEffect": "This holomem cannot Bloom."
+        "extraEffect": "This holomem cannot Bloom.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD03-012",

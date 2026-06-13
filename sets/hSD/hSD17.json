@@ -27,9 +27,11 @@
         "skills": [
             {
                 "name": "バーチャルアイドル・星街すいせい",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD17-003",
@@ -42,9 +44,11 @@
         "skills": [
             {
                 "name": "今日もあなたのそばに -すいせい-",
+                "cost": "1 Blue",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD17-004",
@@ -58,9 +62,11 @@
         "skills": [
             {
                 "name": "私だけの輝き",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD17-005",
@@ -73,10 +79,12 @@
         "skills": [
             {
                 "name": "よーし、レッスン開始だー！",
+                "cost": "1 any color",
                 "dmg": 20,
                 "description": "Deal 10 special damage to 1 of your opponent's back holomem."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD17-006",
@@ -89,13 +97,16 @@
         "skills": [
             {
                 "name": "そろそろ始まるよ！",
+                "cost": "1 any color",
                 "dmg": 30
             },
             {
                 "name": "みんな準備はできてる？",
+                "cost": "1 Blue, 1 any color",
                 "dmg": 50
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD17-007",
@@ -109,9 +120,11 @@
         "skills": [
             {
                 "name": "バレンタイン……か……",
+                "cost": "1 any color",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD17-008",
@@ -125,10 +138,12 @@
         "skills": [
             {
                 "name": "あなたの一番星",
+                "cost": "1 Blue, 1 any color",
                 "dmg": 40,
                 "description": "Deal 10 special damage to 1 of your opponent's back holomem."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD17-009",
@@ -142,9 +157,11 @@
         "skills": [
             {
                 "name": "キラキラの向こう側へ",
+                "cost": "2 Blue, 1 any color",
                 "dmg": "110, +30 vs purple"
             }
-        ]
+        ],
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD17-010",

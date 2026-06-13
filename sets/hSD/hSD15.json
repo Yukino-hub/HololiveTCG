@@ -27,9 +27,11 @@
         "skills": [
             {
                 "name": "寄ってらっしゃい見てらっしゃい",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD15-003",
@@ -42,9 +44,11 @@
         "skills": [
             {
                 "name": "今日もあなたのそばに -らでん-",
+                "cost": "1 Green",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD15-004",
@@ -58,9 +62,11 @@
         "skills": [
             {
                 "name": "散歩でもいかがですかな？",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD15-005",
@@ -74,9 +80,11 @@
         "skills": [
             {
                 "name": "そろそろ始めちゃいますか",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD15-006",
@@ -89,13 +97,16 @@
         "skills": [
             {
                 "name": "世界を彩る -らでん-",
+                "cost": "1 Green, 1 any color",
                 "dmg": 40
             },
             {
                 "name": "ちょいと一席付き合ってみませんか？",
+                "cost": "1 Green, 2 any color",
                 "dmg": 60
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD15-007",
@@ -109,9 +120,11 @@
         "skills": [
             {
                 "name": "この博物館おもしろそう！",
+                "cost": "1 any color",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD15-008",
@@ -125,10 +138,12 @@
         "skills": [
             {
                 "name": "きのこ狩り",
+                "cost": "1 Green, 1 any color",
                 "dmg": "40+",
                 "description": "If you have used an event with #Mushroom this turn, this Arts gets +10."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD15-009",
@@ -142,9 +157,11 @@
         "skills": [
             {
                 "name": "伝統と革新をあなたに",
+                "cost": "1 Green, 2 any color",
                 "dmg": "90, +30 vs blue"
             }
-        ]
+        ],
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD15-010",

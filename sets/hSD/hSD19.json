@@ -27,9 +27,11 @@
         "skills": [
             {
                 "name": "あじまるあじまる～",
+                "cost": "1 any color",
                 "dmg": 10
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD19-003",
@@ -42,10 +44,12 @@
         "skills": [
             {
                 "name": "今日もあなたのそばに -スバル-",
+                "cost": "1 Yellow",
                 "dmg": "20+",
                 "description": "If your life is 2 or less, this Arts gets +10."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD19-004",
@@ -59,9 +63,11 @@
         "skills": [
             {
                 "name": "しゅばぁ",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD19-005",
@@ -75,9 +81,11 @@
         "skills": [
             {
                 "name": "いっちにー、ホワッ、ホワッ！",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD19-006",
@@ -90,13 +98,16 @@
         "skills": [
             {
                 "name": "いっぱい頑張る！",
+                "cost": "1 any color",
                 "dmg": 20
             },
             {
                 "name": "いっぱい楽しむ！",
+                "cost": "1 Yellow, 1 any color",
                 "dmg": 40
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD19-007",
@@ -110,10 +121,12 @@
         "skills": [
             {
                 "name": "忘れてなんかやるもんか",
+                "cost": "1 any color",
                 "dmg": "30+",
                 "description": "If 2 or more cheers are attached to this holomem, this Arts gets +20."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD19-008",
@@ -126,10 +139,12 @@
         "skills": [
             {
                 "name": "萌え萌えギュン",
+                "cost": "1 any color",
                 "dmg": "20+",
                 "description": "[Collab Position Only]If there is a 2nd holomem on your opponent's stage, this Arts gets +20."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD19-009",
@@ -142,10 +157,12 @@
         "skills": [
             {
                 "name": "ダンシング・プレアデス",
+                "cost": "2 Yellow",
                 "dmg": "80+, +30 vs white",
                 "description": "If your life is 2 or less, this Arts gets +10."
             }
-        ]
+        ],
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD19-010",

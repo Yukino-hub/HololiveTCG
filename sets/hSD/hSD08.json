@@ -1,5 +1,5 @@
 [
-   {
+    {
         "cardNumber": "hSD08-001",
         "name": "Amane Kanata",
         "rarity": "OC",
@@ -28,9 +28,11 @@
         "skills": [
             {
                 "name": "浴衣似合うでしょ",
+                "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Amane Kanata",
@@ -44,10 +46,12 @@
         "skills": [
             {
                 "name": "みんなのスパダリ",
+                "cost": "1 White, 2 any color",
                 "dmg": "100+, +50 vs green",
                 "description": "This Arts gets +10 for each of your holomem with #Summer."
             }
-        ]
+        ],
+        "batonTouch": 2
     },
     {
         "name": "Amane Kanata",
@@ -61,10 +65,12 @@
         "skills": [
             {
                 "name": "きみの背中に追いつけるように",
+                "cost": "2 White, 1 any color",
                 "dmg": "120, +50 vs red",
                 "description": "[Once per turn] If your opponent's center holomem is downed by this Arts, deal 40 Special Damage to 1 of your opponent's 2nd holomem."
             }
-        ]
+        ],
+        "batonTouch": 2
     },
     {
         "name": "Himemori Luna",
@@ -78,9 +84,11 @@
         "skills": [
             {
                 "name": "お祭りなのら",
+                "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Tokoyami Towa",
@@ -94,9 +102,11 @@
         "skills": [
             {
                 "name": "トワに見惚れちゃった？",
+                "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Tsunomaki Watame",
@@ -110,10 +120,10 @@
         "skills": [
             {
                 "name": "わたあめおいしいねぇ",
+                "cost": "1 any color",
                 "dmg": "10"
             }
-        ]
+        ],
+        "batonTouch": 1
     }
-
 ]
-

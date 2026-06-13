@@ -129,9 +129,11 @@
         "skills": [
             {
                 "name": "スプリングシープ",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-009",
@@ -144,11 +146,13 @@
         "skills": [
             {
                 "name": "ガブガブ！",
+                "cost": "1 White",
                 "dmg": "20+",
                 "description": "[Center Position Only]This Arts gets +20."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-010",
@@ -162,10 +166,12 @@
         "skills": [
             {
                 "name": "みんなの声聞けるかなー？？？？？？？",
+                "cost": "1 White",
                 "dmg": 40
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-011",
@@ -179,11 +185,13 @@
         "skills": [
             {
                 "name": "これボタン弾けちゃうよぉ",
+                "cost": "3 any color",
                 "dmg": 70,
                 "description": "If this holomem has 2 white cheers attached, this Arts requires -1 colorless."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-012",
@@ -197,11 +205,13 @@
         "skills": [
             {
                 "name": "わたキャノンもだ！",
+                "cost": "1 any color",
                 "dmg": 20,
                 "description": "Draw 1 card."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-013",
@@ -215,11 +225,13 @@
         "skills": [
             {
                 "name": "センキューオーバーシープ！",
+                "cost": "2 any color",
                 "dmg": "90+, +50 vs purple",
                 "description": "This Arts gets +50 for each <Watamates> attached to this holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-014",
@@ -233,12 +245,14 @@
         "skills": [
             {
                 "name": "脳天直撃わためハンマー！",
+                "cost": "2 White, 1 any color",
                 "dmg": "160, +50 vs red",
                 "description": "[Center Position Only]If your opponent's holomem is downed by this Arts, and the dealt damage was greater than the remaining HP, deal special damage to 1 of your opponent's 2nd holomem equal to the excess damage."
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-015",
@@ -252,9 +266,11 @@
         "skills": [
             {
                 "name": "ノラネコ見つけた~",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-016",
@@ -268,10 +284,12 @@
         "skills": [
             {
                 "name": "So, Tell Me Your Secrets?",
+                "cost": "1 White",
                 "dmg": 20
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-017",
@@ -285,10 +303,12 @@
         "skills": [
             {
                 "name": "みんなと一緒にいる時間が好き",
+                "cost": "2 any color",
                 "dmg": 50
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-018",
@@ -302,11 +322,13 @@
         "skills": [
             {
                 "name": "うまみ～うまみ～♪",
+                "cost": "1 White",
                 "dmg": "30+",
                 "description": "If you have used an event this turn, this Arts gets +30."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-019",
@@ -322,11 +344,13 @@
         "skills": [
             {
                 "name": "ホロライブID初代ダンスクイーン",
+                "cost": "1 White, 1 any color",
                 "dmg": 50,
                 "description": "If this holomem has a mascot or fan attached, draw 1 card."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-020",
@@ -340,10 +364,12 @@
         "skills": [
             {
                 "name": "もっとパフォーマンスしたい！",
+                "cost": "2 White",
                 "dmg": "100, +50 vs red"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-021",
@@ -357,12 +383,14 @@
         "skills": [
             {
                 "name": "最高のシークレットエージェント",
+                "cost": "2 White, 2 any color",
                 "dmg": "160+, +50 vs purple",
                 "description": "If you have a Buzz holomem with #IDGen3 on your stage, this Arts gets +40."
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-022",
@@ -376,11 +404,13 @@
         "skills": [
             {
                 "name": "元気もりもりさんでーまっする",
+                "cost": "1 White",
                 "dmg": "50, +50 vs purple",
                 "description": "Choose 1 of your holomem with #Gen3. During this turn, the chosen holomem requires -1 colorless for its Arts. If that holomem is a 2nd <Shirogane Noel>, it requires -2 colorless for its Arts instead."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-023",
@@ -394,9 +424,11 @@
         "skills": [
             {
                 "name": "MIOON!",
+                "cost": "1 any color",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-024",
@@ -410,11 +442,13 @@
         "skills": [
             {
                 "name": "今日もいっぱい笑っていこう",
+                "cost": "1 Green",
                 "dmg": "10+",
                 "description": "You may archive the top card of your deck. If the archived card is a support card, this Arts gets +30."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-025",
@@ -428,11 +462,13 @@
         "skills": [
             {
                 "name": "ゲーマーズカフェへようこそ",
+                "cost": "1 any color",
                 "dmg": 20,
                 "description": "Send 1 cheer from your archive to 1 of your holomem with #GAMERS."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-026",
@@ -446,10 +482,12 @@
         "skills": [
             {
                 "name": "ちょっとお洒落な感じでしょ？",
+                "cost": "1 any color",
                 "dmg": 40
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-027",
@@ -463,11 +501,13 @@
         "skills": [
             {
                 "name": "女王陛下と呼びなさい",
+                "cost": "2 Green",
                 "dmg": 70,
                 "description": "[Center Position Only]When this Arts downed your opponent's holomem, draw 1 card."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-028",
@@ -481,11 +521,13 @@
         "skills": [
             {
                 "name": "天まで届け、みんなの願い",
+                "cost": "1 Green, 1 any color",
                 "dmg": "90+, +50 vs blue",
                 "description": "You may archive the top card of your deck. If the archived card is a support card, this Arts gets +50."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-029",
@@ -499,12 +541,14 @@
         "skills": [
             {
                 "name": "Upright Leading",
+                "cost": "3 any color",
                 "dmg": "130+, +50 vs yellow",
                 "description": "You may archive the top card of your deck:If the archived card is a holomem, send the top card of your cheer deck to your holomem. If it is a support card, this Arts gets +50."
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-030",
@@ -518,11 +562,13 @@
         "skills": [
             {
                 "name": "たくさんの宝物",
+                "cost": "2 Green",
                 "dmg": "100, +50 vs yellow",
                 "description": "You may archive 2 cheers from this holomem:Draw 2 cards."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-031",
@@ -538,11 +584,13 @@
         "skills": [
             {
                 "name": "ひとつになる声",
+                "cost": "1 Green, 1 any color",
                 "dmg": 50,
                 "description": "If your oshi holomem is green, blue or yellow, put the top card of your deck as holo Power."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-032",
@@ -556,9 +604,11 @@
         "skills": [
             {
                 "name": "一陣の夜風",
+                "cost": "1 any color",
                 "dmg": 10
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-033",
@@ -572,10 +622,12 @@
         "skills": [
             {
                 "name": "～Something blue～ 千速",
+                "cost": "1 Green, 1 any color",
                 "dmg": 50
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-034",
@@ -589,11 +641,13 @@
         "skills": [
             {
                 "name": "どっちが速いｶﾅ？！？！？！",
+                "cost": "1 any color",
                 "dmg": "20+",
                 "description": "If <Fugutaro> is attached to this holomem, this Arts gets +10."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-035",
@@ -607,12 +661,14 @@
         "skills": [
             {
                 "name": "サージングエキゾースト",
+                "cost": "2 Green, 2 any color",
                 "dmg": "160, +50 vs blue",
                 "description": "Count the number of cheers attached to this holomem, and return all cheers attached to this holomem to the bottom of your cheer deck in any order. Draw cards until your hand has the same number of cards as the number of cheers returned."
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-036",
@@ -626,9 +682,11 @@
         "skills": [
             {
                 "name": "どちらがお好き？♡",
+                "cost": "1 any color",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 0
     },
     {
         "cardNumber": "hBP07-037",
@@ -642,10 +700,12 @@
         "skills": [
             {
                 "name": "旅はまだ、始まったばかり。",
+                "cost": "1 any color",
                 "dmg": 20
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-038",
@@ -659,11 +719,13 @@
         "skills": [
             {
                 "name": "hololiveEN0",
+                "cost": "1 any color",
                 "dmg": 30,
                 "description": "During this turn, all holomem on your stage with #EN get Arts+20."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-039",
@@ -677,11 +739,13 @@
         "skills": [
             {
                 "name": "俺の名は〝ちゃまお〟漢の中の漢だ！",
+                "cost": "1 Red, 1 any color",
                 "dmg": 50,
                 "description": "Deal 20 special damage to your opponent's center holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-040",
@@ -695,10 +759,12 @@
         "skills": [
             {
                 "name": "当店自慢のはあとんバーガー！",
+                "cost": "1 Red",
                 "dmg": 40
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-041",
@@ -712,11 +778,13 @@
         "skills": [
             {
                 "name": "万物に愛されちゃま計画",
+                "cost": "1 Red, 1 any color",
                 "dmg": "80+, +50 vs green",
                 "description": "If all cheers on your stage are red cheers, this Arts gets +20."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-042",
@@ -729,17 +797,20 @@
         "skills": [
             {
                 "name": "純心タランテラ",
+                "cost": "2 Red",
                 "dmg": "80, +50 vs purple",
                 "description": "Deal 40 special damage to your opponent's center holomem and collab holomem."
             },
             {
                 "name": "幸せへの旅路",
+                "cost": "1 Red, 2 any color",
                 "dmg": "140+, +50 vs purple",
                 "description": "If your holomem returned from your stage to deck this turn, this Arts gets +50."
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-043",
@@ -753,11 +824,13 @@
         "skills": [
             {
                 "name": "桜は花に顕る",
+                "cost": "3 Red, 1 any color",
                 "dmg": "70+, +50 vs purple",
                 "description": "For each <35P> attached to this holomem, this Arts gets +70 and you draw 1 card."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-044",
@@ -771,11 +844,13 @@
         "skills": [
             {
                 "name": "スタッフファーストです！",
+                "cost": "2 Red",
                 "dmg": "120, +50 vs purple",
                 "description": "Archive the top 2 cards of your deck. You may return 1 staff from your archive to hand."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-045",
@@ -791,11 +866,13 @@
         "skills": [
             {
                 "name": "キミがいないと楽しくないもん",
+                "cost": "1 Red, 1 any color",
                 "dmg": "20+",
                 "description": "This Arts gets +20 for each card in your hand."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-046",
@@ -809,9 +886,11 @@
         "skills": [
             {
                 "name": "Onwards and Upwards!",
+                "cost": "1 any color",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-047",
@@ -825,10 +904,12 @@
         "skills": [
             {
                 "name": "さあ、かかってくるといい",
+                "cost": "1 Red",
                 "dmg": 50
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-048",
@@ -844,11 +925,13 @@
         "skills": [
             {
                 "name": "Because I love people's voices",
+                "cost": "1 Red, 1 any color",
                 "dmg": 60,
                 "description": "Return 1 holomem with #EN from your archive to hand."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 3
     },
     {
         "cardNumber": "hBP07-049",
@@ -862,12 +945,14 @@
         "skills": [
             {
                 "name": "不撓のコンチェルタート",
+                "cost": "1 Red, 2 any color",
                 "dmg": "130+, +50 vs yellow",
                 "description": "If your life is 4 or less, this Arts gets +30. If your life is 2 or less, this Arts gets +60 instead."
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 3
     },
     {
         "cardNumber": "hBP07-050",
@@ -881,9 +966,11 @@
         "skills": [
             {
                 "name": "金色のルアー",
+                "cost": "1 any color",
                 "dmg": 10
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-051",
@@ -897,10 +984,12 @@
         "skills": [
             {
                 "name": "Check This Out Yo 🕶️",
+                "cost": "1 any color",
                 "dmg": 30
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-052",
@@ -914,11 +1003,13 @@
         "skills": [
             {
                 "name": "私の新キャッチフレーズ。どうだい？",
+                "cost": "1 any color",
                 "dmg": "30+",
                 "description": "If your stage has a holomem with #Promise other than <Ouro Kronii>, this Arts gets +10."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-053",
@@ -932,11 +1023,13 @@
         "skills": [
             {
                 "name": "Everlasting Flower",
+                "cost": "1 Blue, 1 any color",
                 "dmg": 50,
                 "description": "Send the top card of your cheer deck to your holomem with #Promise."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-054",
@@ -951,11 +1044,13 @@
         "skills": [
             {
                 "name": "I'm pretty shy…uwu",
+                "cost": "1 Blue",
                 "dmg": 50,
                 "description": "Send the top card of your cheer deck to your Buzz holomem with #Promise."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-055",
@@ -969,10 +1064,12 @@
         "skills": [
             {
                 "name": "Life Goes On",
+                "cost": "1 Blue, 1 any color",
                 "dmg": "90, +50 vs white"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-056",
@@ -986,12 +1083,14 @@
         "skills": [
             {
                 "name": "You're not ready for me.",
+                "cost": "2 Blue, 2 any color",
                 "dmg": "80+, +50 vs red",
                 "description": "You may reattach 1 cheer from this holomem to your other holomem with #Promise. If your Oshi holomem is <Ouro Kronii>, this Arts gets +100."
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-057",
@@ -1005,11 +1104,13 @@
         "skills": [
             {
                 "name": "おりゃー！！油断したでしょ～",
+                "cost": "2 Blue, 1 any color",
                 "dmg": "100, +50 vs red",
                 "description": "If your Oshi holomem is <Nekomata Okayu> and your opponent has a back holomem which has taken 100 or more damage, deal 50 special damage to 1 of your opponent's holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-058",
@@ -1023,11 +1124,13 @@
         "skills": [
             {
                 "name": "MANTAP LEE!!",
+                "cost": "1 Blue, 2 any color",
                 "dmg": 60,
                 "description": "If your opponent has 3 or more back holomem with reduced HP, draw 2 cards."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-059",
@@ -1041,10 +1144,12 @@
         "skills": [
             {
                 "name": "A Cozy, Spooky Night Together",
+                "cost": "1 any color",
                 "dmg": 10,
                 "description": "Deal 10 special damage to 1 of your opponent's holomem."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-060",
@@ -1057,15 +1162,18 @@
         "skills": [
             {
                 "name": "食料解剖",
+                "cost": "1 any color",
                 "dmg": 10
             },
             {
                 "name": "Don't Let Her Cook!",
+                "cost": "1 Blue",
                 "dmg": 50,
                 "description": "This Arts may not be used unless you have 4 or more support cards in your archive."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-061",
@@ -1079,11 +1187,13 @@
         "skills": [
             {
                 "name": "逃がす訳がないでしょう？",
+                "cost": "1 Blue",
                 "dmg": 20,
                 "description": "Deal 20 special damage to 1 of your opponent's back holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-062",
@@ -1097,12 +1207,14 @@
         "skills": [
             {
                 "name": "解き放たれた禁断の知識",
+                "cost": "1 Blue",
                 "dmg": "60+, +50 vs red",
                 "description": "Send 1 cheer from your archive to your holomem with #Advent. If your Oshi holomem is <Shiori Novella> and 4 or more cheers are attached to this holomem, this Arts gets +100."
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-063",
@@ -1116,9 +1228,11 @@
         "skills": [
             {
                 "name": "君とぴったり密着空間",
+                "cost": "1 any color",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-064",
@@ -1131,11 +1245,13 @@
         "skills": [
             {
                 "name": "ゆっくりしにおいで♡",
+                "cost": "1 any color",
                 "dmg": 20,
                 "description": "Reveal 1 <Pioneers> from your deck, and attach it to your <AZKi>. Then, shuffle the deck."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-065",
@@ -1148,15 +1264,18 @@
         "skills": [
             {
                 "name": "盛り上がっていこう！",
+                "cost": "1 any color",
                 "dmg": 30,
                 "description": "Draw 1 card, and archive 1 card from your hand."
             },
             {
                 "name": "みんなの声聞かせてええええええ！！！",
+                "cost": "1 Purple, 3 any color",
                 "dmg": 120
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-066",
@@ -1170,10 +1289,12 @@
         "skills": [
             {
                 "name": "音楽と歌うことが大好き！",
+                "cost": "1 any color",
                 "dmg": 40
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-067",
@@ -1187,11 +1308,13 @@
         "skills": [
             {
                 "name": "君と二人きりの夜",
+                "cost": "1 Purple, 1 any color",
                 "dmg": 40,
                 "description": "You may archive 1 card from your hand:Deal 20 special damage to your opponent's center holomem or collab holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-068",
@@ -1206,10 +1329,12 @@
         "skills": [
             {
                 "name": "ホワイトデーのお返し、待ってるね",
+                "cost": "2 any color",
                 "dmg": "100, +50 vs yellow"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-069",
@@ -1222,17 +1347,20 @@
         "skills": [
             {
                 "name": "君と新たな開拓の地へ",
+                "cost": "1 Purple, 2 any color",
                 "dmg": "140, +50 vs green",
                 "description": "Draw 2 cards."
             },
             {
                 "name": "紡いだ軌跡 すべてに捧ぐ歌",
+                "cost": "3 Purple, 1 any color",
                 "dmg": "200, +50 vs green",
                 "description": "If your Oshi holomem is <AZKi>, you may archive 4 of your holo Power:If you have 4 <Frontier Spirit> in your archive, your opponent gets life-1."
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-070",
@@ -1246,11 +1374,13 @@
         "skills": [
             {
                 "name": "がんばって美味しいの作るね♡",
+                "cost": "1 Purple",
                 "dmg": 30,
                 "description": "Choose 1 of your holomem with #Cooking. During this turn, for each event with #Food you used this turn, the chosen holomem requires -1 colorless for its Arts."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-071",
@@ -1264,10 +1394,12 @@
         "skills": [
             {
                 "name": "手作りの朝ごはんを要求する",
+                "cost": "1 Purple",
                 "dmg": 30
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 0
     },
     {
         "cardNumber": "hBP07-072",
@@ -1281,10 +1413,12 @@
         "skills": [
             {
                 "name": "吾輩との秘密だぞ",
+                "cost": "1 Purple, 1 any color",
                 "dmg": 60
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-073",
@@ -1298,11 +1432,13 @@
         "skills": [
             {
                 "name": "吾輩の歌聴いてくれる奴いるううう！？！？",
+                "cost": "2 any color",
                 "dmg": 30,
                 "description": "Reveal 1 <La+ Darknesss> from your deck, and add it to hand. Then, shuffle the deck."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-074",
@@ -1316,12 +1452,14 @@
         "skills": [
             {
                 "name": "吾輩の歌を聴けえええええええ！！！！",
+                "cost": "1 Purple, 2 any color",
                 "dmg": "110+, +50 vs green",
                 "description": "If your center holomem is purple, this Arts gets +40."
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-075",
@@ -1335,11 +1473,13 @@
         "skills": [
             {
                 "name": "CODE:81800",
+                "cost": "1 Purple",
                 "dmg": "70+, +50 vs blue",
                 "description": "If 3 or more cheers are attached to this holomem, this Arts gets +10 for each cheer in both players' archive."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-076",
@@ -1355,11 +1495,13 @@
         "skills": [
             {
                 "name": "あら、捕まえられちゃった！",
+                "cost": "1 Purple, 1 any color",
                 "dmg": "50+",
                 "description": "You may archive 1 of your holo Power:This Arts gets +30."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-077",
@@ -1373,9 +1515,11 @@
         "skills": [
             {
                 "name": "ねね、酔っちゃった～",
+                "cost": "1 any color",
                 "dmg": 10
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-078",
@@ -1389,10 +1533,12 @@
         "skills": [
             {
                 "name": "ねねと一緒に楽しもう！！",
+                "cost": "1 any color",
                 "dmg": 20
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-079",
@@ -1406,11 +1552,13 @@
         "skills": [
             {
                 "name": "ご自由にお使いください！",
+                "cost": "1 any color",
                 "dmg": 30,
                 "description": "Reveal 1 <Yamena> from your deck, and attach it to your holomem. Then, shuffle the deck."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-080",
@@ -1424,10 +1572,12 @@
         "skills": [
             {
                 "name": "さいくーにくぅわいい",
+                "cost": "1 Yellow",
                 "dmg": 40
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-081",
@@ -1441,11 +1591,13 @@
         "skills": [
             {
                 "name": "君のハートをブルロック！",
+                "cost": "2 Yellow",
                 "dmg": 30,
                 "description": "If this holomem has <Giraffe Stag Beetle> attached, this Arts damage is dealt to your opponent's center holomem and collab holomem, instead of only the holomem targeted by this Arts."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-082",
@@ -1459,10 +1611,12 @@
         "skills": [
             {
                 "name": "アチョ～～～！",
+                "cost": "1 any color",
                 "dmg": "50, +50 vs blue"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-083",
@@ -1476,12 +1630,14 @@
         "skills": [
             {
                 "name": "オーバーチアリーディング",
+                "cost": "1 Yellow, 2 any color",
                 "dmg": "100, +50 vs red",
                 "description": "Return 1 cheer from your opponent's [center holomem or collab holomem] to the bottom of the cheer deck."
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-084",
@@ -1495,11 +1651,13 @@
         "skills": [
             {
                 "name": "やっぱり、FPSとか？",
+                "cost": "1 Yellow, 1 any color",
                 "dmg": "90, +50 vs blue",
                 "description": "Send 1 cheer from your archive to your holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-085",
@@ -1513,11 +1671,13 @@
         "skills": [
             {
                 "name": "元気いっぱいカラフルパフェ",
+                "cost": "1 Yellow",
                 "dmg": "20+",
                 "description": "If your Oshi holomem is <Shiranui Flare>, choose 1 of your <Shiranui Flare>. During this turn, the chosen holomem gets Arts+20 for each of the chosen holomem's cheers."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-086",
@@ -1531,11 +1691,13 @@
         "skills": [
             {
                 "name": "追撃のライオット",
+                "cost": "2 Yellow, 1 any color",
                 "dmg": "160+, +50 vs blue",
                 "description": "If the target of this Arts is a holomem with reduced HP, this Arts gets +30."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-087",
@@ -1549,9 +1711,11 @@
         "skills": [
             {
                 "name": "現行犯逮捕だ",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-088",
@@ -1565,11 +1729,13 @@
         "skills": [
             {
                 "name": "みんなが居るから幸せだ！",
+                "cost": "1 Yellow, 1 any color",
                 "dmg": "50+",
                 "description": "If cheer has been archived from your stage this turn, this Arts gets +30."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-089",
@@ -1583,10 +1749,12 @@
         "skills": [
             {
                 "name": "スッゲーワクワクするしょ！！",
+                "cost": "1 Yellow",
                 "dmg": 50
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP07-090",
@@ -1600,12 +1768,14 @@
         "skills": [
             {
                 "name": "ぶち上げる気合いだ！",
+                "cost": "2 Yellow",
                 "dmg": "80+, +50 vs white",
                 "description": "This Arts gets +20 for each of this holomem's cheers."
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP07-091",

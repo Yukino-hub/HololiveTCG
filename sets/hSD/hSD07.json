@@ -23,20 +23,23 @@
         "bloomLevel": "Debut",
         "hp": 110,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #Half-Elf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "skills": [
             {
                 "name": "こんぬいー！",
+                "cost": "1 any color",
                 "dmg": 20
             },
             {
                 "name": "不知火フレアだよ！",
+                "cost": "3 any color",
                 "dmg": 60
             }
         ],
         "extraEffect": "You may include any number of this holomem in the deck.",
         "hasHolomenRare": true,
-        "imageSet": "hBP05"
+        "imageSet": "hBP05",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-003",
@@ -45,14 +48,16 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #Half-Elf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "collabEffect": "大切な仲間たちと: If there are 5 or fewer holomems on your Stage, you may reveal a Debut <Omaru Polka>, <Sakura Miko>, <Hoshimachi Suisei>, or <Shirogane Noel> from your Deck and put it onto your Stage. Then shuffle your deck.",
         "skills": [
             {
                 "name": "キミといっしょにお出かけ",
+                "cost": "1 Yellow",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-004",
@@ -61,14 +66,16 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #Half-Elf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "skills": [
             {
                 "name": "ワンダフルライフ",
+                "cost": "1 Yellow",
                 "dmg": "30+",
-                "description" : "If you have fewer cards in hand than your opponent, this Art gains +10 power."
+                "description": "If you have fewer cards in hand than your opponent, this Art gains +10 power."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-005",
@@ -77,17 +84,20 @@
         "bloomLevel": "1st",
         "hp": 170,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #Half-Elf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "skills": [
             {
                 "name": "私からキミへ",
+                "cost": "1 Yellow",
                 "dmg": 30
             },
             {
                 "name": "キミとティータイム",
+                "cost": "1 Yellow, 1 any color",
                 "dmg": 50
             }
-        ]
+        ],
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD07-006",
@@ -96,20 +106,17 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #Half-Elf",
-        "bloomEffect" : "エルフレンドのさえずり: Reveal 1 <Elfriend> from your deck and put it into your hand. Then shuffle your deck.",
+        "tag": "#JP #Gen3 #Half-Elf",
+        "bloomEffect": "エルフレンドのさえずり: Reveal 1 <Elfriend> from your deck and put it into your hand. Then shuffle your deck.",
         "skills": [
             {
                 "name": "キミを1番好きなのはわたしぃ～♡",
+                "cost": "1 any color",
                 "dmg": "30+",
                 "description": "If you have 3 or less LIFE, this Art gains +30 power."
-            },
-            {
-                "name": "ありあとりゃあすっ",
-                "dmg": "50+",
-                "description": "If you have 3 or more Holomems with different card names with #ReGLOSS on your stage, this arts gains +20."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-007",
@@ -118,16 +125,18 @@
         "bloomLevel": "1st",
         "hp": 150,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #Half-Elf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "bloomEffect": "また一つ成長した私を　 : [Back position only] If your collab holomem has 70 of less HP remaining, you may Switch this holomem with your Collab holomem.",
         "skills": [
             {
                 "name": "キミに見てほしいな！",
+                "cost": "1 Yellow, 1 any color",
                 "dmg": 40
             }
-        ],  
+        ],
         "hasFullArt": true,
-        "imageSet": "hBP06"
+        "imageSet": "hBP06",
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD07-008",
@@ -137,15 +146,17 @@
         "buzz": "true",
         "hp": 250,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #Half-Elf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "skills": [
             {
                 "name": "エルフレパーティー",
+                "cost": "1 Yellow, 1 any color",
                 "dmg": 50,
                 "description": "You may attach 1 Elfriend from your Archive to this holomem."
             }
         ],
-        "extraEffect": "If this holomem is downed, you get Life-2."
+        "extraEffect": "If this holomem is downed, you get Life-2.",
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD07-009",
@@ -154,17 +165,19 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Yellow",
-        "tag":  "#JP #Gen3 #Half-Elf",
+        "tag": "#JP #Gen3 #Half-Elf",
         "giftEffect": "疲れ知らず : [Center position only] Whenever this holomem takes damage, it takes -10 damage.",
         "skills": [
             {
                 "name": "情熱ステージ",
+                "cost": "1 Yellow, 2 any color",
                 "dmg": "70+",
                 "description": "If you have 3 or less LIFE, this Art gains +70 power."
             }
         ],
         "imageSet": "hBP03",
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD07-010",
@@ -174,13 +187,15 @@
         "hp": 70,
         "color": "White",
         "tag": "#JP #Gen3 #Alcohol",
-        "collabEffect" : "大物の確証: Your Center holomem's Arts gain +10 power until the end of this turn.",
+        "collabEffect": "大物の確証: Your Center holomem's Arts gain +10 power until the end of this turn.",
         "skills": [
             {
                 "name": "いっぱい建築したいです",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-011",
@@ -190,13 +205,15 @@
         "hp": 60,
         "color": "Red",
         "tag": "#JP #Gen0 #Baby",
-        "collabEffect" : "バーニン♪ バーニン♪: Deal 10 special damage to your opponent's Center holomem.",
+        "collabEffect": "バーニン♪ バーニン♪: Deal 10 special damage to your opponent's Center holomem.",
         "skills": [
             {
                 "name": "魔王軍は無くなりました",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-012",
@@ -206,13 +223,15 @@
         "hp": 50,
         "color": "Red",
         "tag": "#JP #Gen5 #Kemomimi",
-        "collabEffect" : "僕らに水を: If your Center holomem is Shiranui Flare and you have fewer cards in hand than your opponent, draw 1 card from your Deck.",
+        "collabEffect": "僕らに水を: If your Center holomem is Shiranui Flare and you have fewer cards in hand than your opponent, draw 1 card from your Deck.",
         "skills": [
             {
                 "name": "骨を埋める覚悟　",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 0
     },
     {
         "cardNumber": "hSD07-013",
@@ -222,13 +241,15 @@
         "hp": 70,
         "color": "Yellow",
         "tag": "#DEV_IS #ReGLOSS #Singing",
-        "collabEffect" :"飯が底をつきそう……:If your Center holomem is Shiranui Flare, you may send 1 Cheer from your Archive to any of your holomems other than this one.",
+        "collabEffect": "飯が底をつきそう……:If your Center holomem is Shiranui Flare, you may send 1 Cheer from your Archive to any of your holomems other than this one.",
         "skills": [
             {
                 "name": "任せて雇ってください‼",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD07-014",
