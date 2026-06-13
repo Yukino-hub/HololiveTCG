@@ -31,7 +31,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Rindo Chihaya",
@@ -205,7 +206,4 @@
         "type": "Support (Tool)",
         "ability": "The holomem with #FLOWGLOW this tool is attached to gets Arts+10. ◆Additional ability if attached to a holomem with #FLOWGLOW Usable at the start of your end phase, if the holomem this tool is attached to has used Arts this turn: Reveal 1 [Debut holomem or Spot holomem] with #FLOWGLOW from your deck, and place it on stage. Then, shuffle the deck. Then, return this tool to the bottom of the deck. Only 1 tool can be attached to each of your holomem."
     }
-
 ]
-
-

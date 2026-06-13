@@ -27,9 +27,11 @@
         "skills": [
             {
                 "name": "はじまんぼう！",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD14-003",
@@ -42,9 +44,11 @@
         "skills": [
             {
                 "name": "今日もあなたのそばに -フブキ-",
+                "cost": "1 White",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD14-004",
@@ -58,9 +62,11 @@
         "skills": [
             {
                 "name": "ハイ　フレンズ！",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD14-005",
@@ -74,9 +80,11 @@
         "skills": [
             {
                 "name": "いつでもいけるよ！",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD14-006",
@@ -89,13 +97,16 @@
         "skills": [
             {
                 "name": "ようやくキミに会えた！！！",
+                "cost": "1 any color",
                 "dmg": 30
             },
             {
                 "name": "キラキラなきーつね！",
+                "cost": "1 White, 1 any color",
                 "dmg": 50
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD14-007",
@@ -109,9 +120,11 @@
         "skills": [
             {
                 "name": "あーまいーこのきーもちー",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD14-008",
@@ -125,10 +138,12 @@
         "skills": [
             {
                 "name": "一緒に行こう(??????)??",
+                "cost": "1 any color",
                 "dmg": "20+",
                 "description": "[Collab Position Only]If a mascot is attached to this holomem, this Arts gets +20."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD14-009",
@@ -142,9 +157,11 @@
         "skills": [
             {
                 "name": "胸を張って歌い続けるよ",
+                "cost": "1 White, 1 any color",
                 "dmg": "90, +30 vs red"
             }
-        ]
+        ],
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD14-010",

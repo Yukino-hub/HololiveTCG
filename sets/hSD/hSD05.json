@@ -23,7 +23,7 @@
         "bloomLevel": "Debut",
         "hp": 100,
         "color": "White",
-        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "tag": "#DEV_IS #ReGLOSS #Baby",
         "skills": [
             {
                 "name": "ぶんぶんぶーん！",
@@ -39,7 +39,7 @@
         "bloomLevel": "Debut",
         "hp": 60,
         "color": "White",
-        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "tag": "#DEV_IS #ReGLOSS #Baby",
         "collabEffect": "こんちくわ: During this turn, your center Holomem with #ReGLOSS gains +10 Arts.",
         "skills": [
             {
@@ -55,7 +55,7 @@
         "bloomLevel": "Debut",
         "hp": 120,
         "color": "White",
-        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "tag": "#DEV_IS #ReGLOSS #Baby",
         "skills": [
             {
                 "name": "ReGLOSSの番長",
@@ -70,7 +70,7 @@
         "bloomLevel": "1st",
         "hp": 140,
         "color": "White",
-        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "tag": "#DEV_IS #ReGLOSS #Baby",
         "skills": [
             {
                 "name": "夜路紫駆！",
@@ -89,7 +89,7 @@
         "bloomLevel": "1st",
         "hp": 100,
         "color": "White",
-        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "tag": "#DEV_IS #ReGLOSS #Baby",
         "skills": [
             {
                 "name": "足取り軽め、轟はじめ",
@@ -109,7 +109,7 @@
         "bloomLevel": "1st",
         "hp": 120,
         "color": "White",
-        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "tag": "#DEV_IS #ReGLOSS #Baby",
         "bloomEffect": "宇宙一の番長を目指すなんでも屋 : Draw 1 card from your Deck.",
         "skills": [
             {
@@ -126,7 +126,7 @@
         "buzz": "true",
         "hp": 230,
         "color": "White",
-        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "tag": "#DEV_IS #ReGLOSS #Baby",
         "skills": [
             {
                 "name": "……なんか、番長っぽくなってきたかも！",
@@ -143,17 +143,19 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "White",
-        "tag":  "#DEV_IS #ReGLOSS #Baby",
+        "tag": "#DEV_IS #ReGLOSS #Baby",
         "bloomEffect": "ダンスでこの世界に彩を！ : Reveal 1 Debut Holomem or 1st Holomem card with #ReGLOSS from your deck and add it to your hand. Then, shuffle your deck.",
         "skills": [
             {
                 "name": "滅紫の雷",
+                "cost": "2 White, 1 any color",
                 "dmg": "80+",
                 "description": "If you have a Holomem with #ReGLOSS other than <Todoroki Hajime> on your Stage, this arts gains +30."
             }
         ],
         "imageSet": "hBP03",
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD05-010",
@@ -166,7 +168,7 @@
         "skills": [
             {
                 "name": "ちょいと一席",
-                "dmg": 20, 
+                "dmg": 20,
                 "description": "You may send 1 Cheer from your Archive to your Holomem with #ReGLOSS."
             }
         ]
@@ -194,7 +196,7 @@
         "hp": 70,
         "color": "Blue",
         "tag": "#DEV_IS #ReGLOSS #Painting",
-        "collabEffect" : "ドーンッ！: Deal 10 special damage to your opponent's Center holomem or one of their Back holomems.",
+        "collabEffect": "ドーンッ！: Deal 10 special damage to your opponent's Center holomem or one of their Back holomems.",
         "skills": [
             {
                 "name": "世界一かわいいよ",
@@ -210,7 +212,7 @@
         "hp": 90,
         "color": "Yellow",
         "tag": "#DEV_IS #ReGLOSS #Singing",
-        "collabEffect" :"クレッシェンドな日々　:You may move 1 Cheer on your Stage to one of your holomems other than this holomem.",
+        "collabEffect": "クレッシェンドな日々　:You may move 1 Cheer on your Stage to one of your holomems other than this holomem.",
         "skills": [
             {
                 "name": "任せておきなさい！",

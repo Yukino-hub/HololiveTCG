@@ -27,12 +27,14 @@
         "skills": [
             {
                 "name": "Konnakiri~",
+                "cost": "1 Red",
                 "dmg": 30
             }
         ],
         "extraEffect": "You may include any number of this holomem in the deck.",
         "hasHolomenRare": true,
-        "imageSet": "hBP06"
+        "imageSet": "hBP06",
+        "batonTouch": 0
     },
     {
         "cardNumber": "hSD02-003",

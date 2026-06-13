@@ -139,10 +139,12 @@
         "skills": [
             {
                 "name": "こんこんきーつね！",
+                "cost": "1 any color",
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP02-009",
@@ -245,12 +247,14 @@
         "skills": [
             {
                 "name": "こんまっする〜!",
+                "cost": "1 any color",
                 "dmg": "20"
             }
         ],
         "extraEffect": "You may include any number of this holomem in the deck.",
         "hasHolomenRare": true,
-        "imageSet": "hBP05"
+        "imageSet": "hBP05",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP02-015",
@@ -284,11 +288,13 @@
         "skills": [
             {
                 "name": "目に焼き付けるんだゾ♡",
+                "cost": "2 any color",
                 "dmg": "30"
             }
         ],
         "hasFullArt": true,
-        "imageSet": "hBP06"
+        "imageSet": "hBP06",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP02-017",
@@ -325,10 +331,12 @@
         "skills": [
             {
                 "name": "ペルハティアン！",
+                "cost": "1 any color",
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP02-019",
@@ -429,11 +437,13 @@
         "skills": [
             {
                 "name": "うちうち、うちだよ～大神ミオだよ～",
+                "cost": "1 any color",
                 "dmg": "10",
                 "description": "You may reattach 1 cheer from your stage to your holomem with #JP."
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 2
     },
     {
         "cardNumber": "hBP02-025",
@@ -555,11 +565,13 @@
         "skills": [
             {
                 "name": "いっしょに出航しましょう！（健全)",
+                "cost": "1 any color",
                 "dmg": "30"
             }
         ],
         "hasFullArt": true,
-        "imageSet": "hBP06"
+        "imageSet": "hBP06",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP02-032",
@@ -971,13 +983,15 @@
         "skills": [
             {
                 "name": "グリム・リーパーの第一弟子",
+                "cost": "1 any color",
                 "dmg": "30+",
                 "description": "If your archive has holomem, this Arts gets +10."
             }
         ],
         "extraEffect": "You may include any number of this holomem in the deck.",
         "hasHolomenRare": true,
-        "imageSet": "hBP06"
+        "imageSet": "hBP06",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP02-055",
@@ -1095,10 +1109,12 @@
         "skills": [
             {
                 "name": "WAH!",
+                "cost": "1 any color",
                 "dmg": "10"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP02-062",
@@ -1164,13 +1180,15 @@
         "skills": [
             {
                 "name": "Hiya darlings!",
+                "cost": "1 any color",
                 "dmg": "30",
                 "description": "If a red cheer is attached to this holomem, this Arts gets +10."
             }
         ],
         "extraEffect": "You may include any number of this holomem in the deck.",
         "hasHolomenRare": true,
-        "imageSet": "hBP05"
+        "imageSet": "hBP05",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP02-066",

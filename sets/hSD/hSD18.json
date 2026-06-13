@@ -27,9 +27,11 @@
         "skills": [
             {
                 "name": "Nice to reap you",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD18-003",
@@ -42,9 +44,11 @@
         "skills": [
             {
                 "name": "今日もあなたのそばに -カリオペ-",
+                "cost": "1 Purple",
                 "dmg": 30
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD18-004",
@@ -58,9 +62,11 @@
         "skills": [
             {
                 "name": "あたためて貰えますか…？",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD18-005",
@@ -74,9 +80,11 @@
         "skills": [
             {
                 "name": "一緒に、どう？",
+                "cost": "1 any color",
                 "dmg": 20
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD18-006",
@@ -89,13 +97,16 @@
         "skills": [
             {
                 "name": "これから、頑張る。",
+                "cost": "1 any color",
                 "dmg": 30
             },
             {
                 "name": "負けない。諦めない。",
+                "cost": "1 Purple, 1 any color",
                 "dmg": 50
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD18-007",
@@ -109,10 +120,12 @@
         "skills": [
             {
                 "name": "手伝ってもらって助かるよ",
+                "cost": "1 any color",
                 "dmg": "30+",
                 "description": "If a tool is attached to this holomem, this Arts gets +10."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD18-008",
@@ -126,10 +139,12 @@
         "skills": [
             {
                 "name": "OK、もう一曲行こう！",
+                "cost": "1 Purple, 1 any color",
                 "dmg": 40,
                 "description": "[Center Position Only]Return 1 tool from your archive to hand."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD18-009",
@@ -143,8 +158,10 @@
         "skills": [
             {
                 "name": "刻むぞ冥界のビート",
+                "cost": "2 Purple",
                 "dmg": "90, +30 vs green"
             }
-        ]
+        ],
+        "batonTouch": 2
     }
 ]

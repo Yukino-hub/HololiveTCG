@@ -27,10 +27,12 @@
         "skills": [
             {
                 "name": "もぐもぐ～おかゆ～",
+                "cost": "1 any color",
                 "dmg": 30
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hSD03-003",

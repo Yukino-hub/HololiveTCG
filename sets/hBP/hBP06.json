@@ -163,7 +163,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Raora Panthera",
@@ -180,7 +181,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Raora Panthera",
@@ -198,7 +200,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Raora Panthera",
@@ -221,7 +224,8 @@
                 "description": "Draw 2 cards."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "name": "Raora Panthera",
@@ -241,7 +245,8 @@
                 "description": "[Center position only]During this turn, your collab holomem with #Painting gets Arts+20."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Raora Panthera",
@@ -261,7 +266,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Isaki Riona",
@@ -280,7 +286,8 @@
             }
         ],
         "hasHolomenRare": true,
-        "imageSet": "hBP06"
+        "imageSet": "hBP06",
+        "batonTouch": 1
     },
     {
         "name": "Isaki Riona",
@@ -297,7 +304,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Isaki Riona",
@@ -319,7 +327,8 @@
                 "dmg": "60"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Isaki Riona",
@@ -338,7 +347,8 @@
                 "description": "Archive the top card of your deck."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Isaki Riona",
@@ -357,7 +367,8 @@
                 "description": "Archive the top card of your deck."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Isaki Riona",
@@ -377,7 +388,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Hakui Koyori",
@@ -396,7 +408,8 @@
                 "description": "You may return a Support card with #KoyoLabo from your archive to the bottom of your deck:This Arts gets +40."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Kazama Iroha",
@@ -413,7 +426,8 @@
                 "dmg": "10"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Kazama Iroha",
@@ -431,7 +445,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Kazama Iroha",
@@ -448,7 +463,8 @@
                 "dmg": "80"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "name": "Kazama Iroha",
@@ -466,7 +482,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Kazama Iroha",
@@ -486,7 +503,8 @@
                 "dmg": "60"
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Kazama Iroha",
@@ -507,7 +525,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Himemori Luna",
@@ -524,7 +543,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Himemori Luna",
@@ -547,7 +567,8 @@
                 "dmg": "80"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Himemori Luna",
@@ -566,7 +587,8 @@
                 "description": "You may attach 1 <Lu-knights> from your archive to your <Himemori Luna>."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Himemori Luna",
@@ -586,7 +608,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Cecilia Immergreen",
@@ -604,7 +627,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Juufuutei Raden",
@@ -623,7 +647,8 @@
                 "description": "You may send 1 cheer from your archive to your holomem with #ReGLOSS."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Nakiri Ayame",
@@ -641,7 +666,8 @@
                 "description": "You may archive 1 card from your hand:Your center <Nakiri Ayame> gets Arts+30."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 0
     },
     {
         "name": "Nakiri Ayame",
@@ -658,7 +684,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "batonTouch": 0
     },
     {
         "name": "Nakiri Ayame",
@@ -677,7 +704,8 @@
                 "description": "You may archive the top card of your cheer deck:Draw 1 card."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Nakiri Ayame",
@@ -696,7 +724,8 @@
                 "description": "You may archive the top card of your cheer deck:Deal 30 damage to your opponent's center holomem or collab holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Nakiri Ayame",
@@ -715,7 +744,8 @@
                 "description": "You may archive the top card of your cheer deck:Deal 20 special damage to your opponent's center holomem or collab holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Nakiri Ayame",
@@ -735,7 +765,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 0
     },
     {
         "name": "Hakos Baelz",
@@ -753,7 +784,8 @@
                 "description": "Roll a die once. If it is odd, deal 10 special damage to your opponent's center holomem and collab holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Hakos Baelz",
@@ -770,7 +802,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "batonTouch": 0
     },
     {
         "name": "Hakos Baelz",
@@ -789,7 +822,8 @@
                 "description": "You may archive 2 cards from your hand:This Arts gets +20."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Hakos Baelz",
@@ -807,7 +841,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Hakos Baelz",
@@ -830,7 +865,8 @@
                 "dmg": "70"
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Hakos Baelz",
@@ -855,7 +891,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Takane Lui",
@@ -874,7 +911,8 @@
                 "description": "If your Oshi holomem is <Takane Lui>, you may archive 2 cards from your hand:Deal 50 special damage to your opponent's center holomem or collab holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Ichijou Ririka",
@@ -893,7 +931,8 @@
                 "description": "[Collab position only]Deal 50 damage to your opponent's collab holomem. If your opponent has no collab holomem, deal 50 damage to your opponent's center holomem instead."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Moona Hoshinova",
@@ -911,7 +950,8 @@
                 "description": "If a non-blue cheer is attached to this holomem, deal 10 special damage to 1 of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Moona Hoshinova",
@@ -928,7 +968,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Moona Hoshinova",
@@ -951,7 +992,8 @@
                 "dmg": "80"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Moona Hoshinova",
@@ -974,7 +1016,8 @@
                 "description": "If your Oshi holomem is <Moona Hoshinova>, you may archive 1 cheer from this holomem:Draw 1 card."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Moona Hoshinova",
@@ -995,7 +1038,8 @@
                 "description": "If your Oshi holomem is <Moona Hoshinova> and 4 or more cheers are attached to this holomem, this Arts gets +60."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Moona Hoshinova",
@@ -1015,7 +1059,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Yukihana Lamy",
@@ -1034,7 +1079,8 @@
                 "description": "This Arts gets +10 for each <Yukimin> attached to this holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Sakamata Chloe",
@@ -1053,7 +1099,8 @@
                 "description": "Reveal the top 4 cards of your deck. This Arts gets +20 for each holomem revealed. Then, archive the revealed cards. If there is an event among them, draw 2 cards."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Sakamata Chloe",
@@ -1072,7 +1119,8 @@
                 "description": "Reveal the top 6 cards of your deck. This Arts gets +20 for each holomem revealed. Then, archive the revealed cards."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Mori Calliope",
@@ -1090,7 +1138,8 @@
                 "description": "Draw 1 card, then archive 1 card from your hand."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Mori Calliope",
@@ -1109,7 +1158,8 @@
                 "description": "If a purple cheer is attached to this holomem, draw 1 card from your deck. Then, archive the top 2 cards of your deck."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Mori Calliope",
@@ -1127,7 +1177,8 @@
                 "dmg": "80"
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Mori Calliope",
@@ -1152,7 +1203,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Robocosan",
@@ -1170,7 +1222,8 @@
                 "description": "If a <Roboser> is attached to this holomem, deal 20 special damage to your opponent's center holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Robocosan",
@@ -1187,7 +1240,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Robocosan",
@@ -1205,7 +1259,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Robocosan",
@@ -1223,7 +1278,8 @@
                 "dmg": "40"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Robocosan",
@@ -1244,7 +1300,8 @@
                 "description": "If your holomem was downed on your opponent's last turn, this Arts cheer cost is reduced by 1 colorless cheer."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Robocosan",
@@ -1264,7 +1321,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Inugami Korone",
@@ -1282,7 +1340,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Inugami Korone",
@@ -1301,7 +1360,8 @@
                 "description": "If there is a support card attached to your holomem, draw 1 card, then archive 1 card from your hand."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Inugami Korone",
@@ -1320,7 +1380,8 @@
                 "description": "If this holomem was unrested this turn by your Oshi Skill \"Infinite Stamina\", this Arts gets +50."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Inugami Korone",
@@ -1340,7 +1401,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "La+ Darknesss",
@@ -1364,7 +1426,8 @@
                 "description": "Roll a die 5 times. For each odd number rolled, draw 1 card and deal 30 special damage to your opponent's center holomem and collab holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1382,7 +1445,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1399,7 +1463,8 @@
                 "cost": "1 any color",
                 "dmg": "10"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1417,7 +1482,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1440,7 +1506,8 @@
                 "description": "Roll a die once for every [mascot and fan] on your stage. This Arts gets +10 for each time it is 4 or greater. However, the die can be rolled only up to 4 times."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1461,7 +1528,8 @@
                 "description": "If the target of this Arts is your opponent's 2nd holomem, and you have used a Limited event this turn, this Arts gets +70."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1481,7 +1549,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Oozora Subaru",
@@ -1499,7 +1568,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Oozora Subaru",
@@ -1517,7 +1587,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Oozora Subaru",
@@ -1536,7 +1607,8 @@
                 "description": "This Arts gets +20 for every <Subatomo> attached to this holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Oozora Subaru",
@@ -1556,7 +1628,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Anya Melfissa",
@@ -1575,7 +1648,8 @@
                 "description": "If you used your Oshi skill \"Mystical Ritual\" this turn, you may return 1~3 <Anya Melfissa> from your archive to hand."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "LAMBDUCK",
@@ -1595,7 +1669,8 @@
                 "description": "[Collab position only]If your Oshi holomem is <Tsunomaki Watame> or <Oozora Subaru>, the cheer cost of this Arts is reduced by 1 yellow cheer. If your center holomem is a 2nd <Tsunomaki Watame>, the cheer cost of this Arts is reduced by 3 yellow cheer instead."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "AI Koyori",
@@ -1613,7 +1688,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 0
     },
     {
         "name": "Favorite PC",

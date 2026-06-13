@@ -109,12 +109,14 @@
         "skills": [
             {
                 "name": "天才では？",
+                "cost": "1 Green, 2 any color",
                 "dmg": "70+",
                 "description": "If there are at least 5 Cheers on your stage, this Art gains +50 power."
             }
         ],
         "imageSet": "hBP03",
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "cardNumber": "hSD06-008",

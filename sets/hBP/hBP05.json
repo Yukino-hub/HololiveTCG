@@ -144,7 +144,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Shirogane Noel",
@@ -162,7 +163,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Shirogane Noel",
@@ -181,7 +183,8 @@
                 "description": "If you have used a <Gyudon> this turn, this Arts gets +30."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Shirogane Noel",
@@ -200,7 +203,8 @@
                 "description": "For each Holomen on your stage with #Gen3 and a different card name, this Arts gets +10."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Shirogane Noel",
@@ -225,7 +229,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Tokino Sora",
@@ -243,7 +248,8 @@
                 "dmg": "90, +50 vs red"
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Usada Pekora",
@@ -261,7 +267,8 @@
                 "description": "You may roll a die once:If it is even, draw 1 card from your deck."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Usada Pekora",
@@ -285,7 +292,8 @@
                 "description": "If your Oshi holomem's color is white, draw 1 card from your deck."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Usada Pekora",
@@ -306,7 +314,8 @@
         ],
         "hasFullArt": true,
         "hasAlternativeArt": true,
-        "hasSigned": true
+        "hasSigned": true,
+        "batonTouch": 2
     },
     {
         "name": "Himemori Luna",
@@ -332,7 +341,8 @@
                 "description": "[Collab position only ]For each <Luknight> attached to your center holomem, reduce the cheer cost of this Arts by 1 colorless cheer."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Vestia Zeta",
@@ -357,7 +367,8 @@
                 "description": "If your opponent's holomem is downed by this Arts, reveal 1 1st holomem with #IDGen3 from your deck,and add it to hand. Then, shuffle the deck."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Airani Iofifteen",
@@ -375,7 +386,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Airani Iofifteen",
@@ -393,7 +405,8 @@
                 "dmg": "10"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Airani Iofifteen",
@@ -411,7 +424,8 @@
                 "dmg": "40"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Airani Iofifteen",
@@ -429,7 +443,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Airani Iofifteen",
@@ -449,7 +464,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "AZKi",
@@ -475,7 +491,8 @@
                 "description": "If your Oshi holomem is <AZKi>, this Arts gets +20 for each cheer attached to this holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Aki Rosenthal",
@@ -492,7 +509,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Aki Rosenthal",
@@ -510,7 +528,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Aki Rosenthal",
@@ -530,7 +549,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Shishiro Botan",
@@ -551,7 +571,8 @@
                 "description": "You may archive 1 cheer from your <Shishiro Botan>:Deal 30 Special Damage to your opponent's center holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Juufuutei Raden",
@@ -576,7 +597,8 @@
                 "description": "If a 2nd holomem with #ReGLOSS is on your stage, this Arts gets +40."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Omaru Polka",
@@ -594,7 +616,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Omaru Polka",
@@ -612,7 +635,8 @@
                 "description": "If you are going second and this is your first turn, reveal 1 <Troupe Member> from your deck, and add it to hand. Then, shuffle your deck."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Omaru Polka",
@@ -631,7 +655,8 @@
                 "description": "You may archive 1 card from your hand:Deal 10 damage to your opponent's center holomem or collab holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Omaru Polka",
@@ -655,7 +680,8 @@
                 "description": "This Arts gets +10 for each <Troupe Member> attached to this holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Omaru Polka",
@@ -675,7 +701,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Sakura Miko",
@@ -694,7 +721,8 @@
                 "description": "You may archive 2 cards from your hand:Deal 50 Special Damage to your opponent's center holomem or collab holomem. If there is a <35P> on your stage, draw 1 card from your deck."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Hoshimachi Suisei",
@@ -712,7 +740,8 @@
                 "description": "If any of your opponent's back holomem are damaged, this Arts gets +20."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Hoshimachi Suisei",
@@ -737,7 +766,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Mococo Abyssgard",
@@ -756,7 +786,8 @@
                 "description": "If your center holomem is <Fuwawa Abyssgard>, this Arts can be used with no cheer requirement."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Ichijou Ririka",
@@ -781,7 +812,8 @@
                 "description": "If the target of this Arts is a 1st or greater collab holomem, this Arts gets +70."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "miComet",
@@ -801,7 +833,8 @@
                 "description": "You may reattach 1 cheer from this holomem to your back holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Nekomata Okayu",
@@ -819,7 +852,8 @@
                 "description": "Deal 10 Special Damage to your opponent's center holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Nekomata Okayu",
@@ -837,7 +871,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Nekomata Okayu",
@@ -856,7 +891,8 @@
                 "description": "You may archive 1 blue cheer from this holomem:Deal 10 Special Damage to your opponent's center holomem and 1 of your opponent's back holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Nekomata Okayu",
@@ -875,7 +911,8 @@
                 "description": "Deal 10 Special Damage to 1 of your opponent's holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Nekomata Okayu",
@@ -895,7 +932,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Yukihana Lamy",
@@ -914,7 +952,8 @@
                 "description": "If a 2nd holomem with #Gen5 is on your stage, deal 20 Special Damage to 1 of your opponent's holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Kobo Kanaeru",
@@ -932,7 +971,8 @@
                 "description": "Deal 10 Special Damage to 1 of your opponent's back holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Kobo Kanaeru",
@@ -951,7 +991,8 @@
                 "description": "Deal 10 Special Damage to 2 of your opponent's back holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Kobo Kanaeru",
@@ -976,7 +1017,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Fuwawa Abyssgard",
@@ -997,7 +1039,8 @@
                 "description": "If your <Mococo Abyssgard> has performed Arts this turn, this Arts gets +40. If you have also used your Oshi skill \"Moco-chan!\" this turn, this Arts gets +30."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Hiodoshi Ao",
@@ -1016,7 +1059,8 @@
                 "description": "If there are 3 or more holomem with #Alcohol on your stage, you may send 1 cheer from your archive to your back holomem with #Alcohol."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Yuzuki Choco",
@@ -1034,7 +1078,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Yuzuki Choco",
@@ -1052,7 +1097,8 @@
                 "dmg": "10"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Yuzuki Choco",
@@ -1070,7 +1116,8 @@
                 "description": "If you have used 2 or more events with #Food this turn, this Arts can be used with no cheer requirement."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Yuzuki Choco",
@@ -1088,7 +1135,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 0
     },
     {
         "name": "Yuzuki Choco",
@@ -1113,7 +1161,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Nerissa Ravencroft",
@@ -1131,7 +1180,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Nerissa Ravencroft",
@@ -1149,7 +1199,8 @@
                 "dmg": "10"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 0
     },
     {
         "name": "Nerissa Ravencroft",
@@ -1172,7 +1223,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Nerissa Ravencroft",
@@ -1191,7 +1243,8 @@
                 "description": "You may archive 1 card from your hand:Deal 20 Special Damage to your opponent's center holomem or collab holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Nerissa Ravencroft",
@@ -1211,7 +1264,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Tokoyami Towa",
@@ -1231,7 +1285,8 @@
                 "description": "Deal 20 Special Damage for each of your 1st holomem with #Singing to your opponent's center holomem or collab holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Shiranui Flare",
@@ -1249,7 +1304,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Shiranui Flare",
@@ -1267,7 +1323,8 @@
                 "dmg": "10"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Shiranui Flare",
@@ -1285,7 +1342,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Shiranui Flare",
@@ -1304,7 +1362,8 @@
                 "description": "This Arts gets +10 for each differently-named holomem with #Gen3 on your stage."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Shiranui Flare",
@@ -1324,7 +1383,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Shirakami Fubuki",
@@ -1342,7 +1402,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Shirakami Fubuki",
@@ -1361,7 +1422,8 @@
                 "description": "You may send the top card of your cheer deck to this holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Shirakami Fubuki",
@@ -1386,7 +1448,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Inugami Korone",
@@ -1406,7 +1469,8 @@
                 "description": "During this turn, 1 of your holomem with #Gamers gets Arts+30."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Tsunomaki Watame",
@@ -1432,7 +1496,8 @@
                 "description": "If your Oshi holomem is <Tsunomaki Watame>, you may send the top card of your cheer deck to your <Tsunomaki Watame>."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Ayunda Risu",
@@ -1451,7 +1516,8 @@
                 "description": "If your Oshi holomem is <Ayunda Risu>, this Arts gets +10 for each cheer attached to your holomem with #IDGen1. However, only up to 10 cheers are counted."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Friendly PC",

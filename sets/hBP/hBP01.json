@@ -406,12 +406,14 @@
         "skills": [
             {
                 "name": "ミッションスタート",
+                "cost": "1 any color",
                 "dmg": "30"
             }
         ],
         "extraEffect": "You may include any number of this holomem in the deck",
         "hasHolomenRare": true,
-        "imageSet": "hBP07"
+        "imageSet": "hBP07",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-025",
@@ -479,10 +481,12 @@
         "skills": [
             {
                 "name": "ハイRyS！",
+                "cost": "1 any color",
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-029",
@@ -543,12 +547,14 @@
         "skills": [
             {
                 "name": "アロ～ナ！",
+                "cost": "1 any color",
                 "dmg": "30"
             }
         ],
         "extraEffect": "You may include any number of this holomem in the deck.",
         "hasHolomenRare": true,
-        "imageSet": "hBP05"
+        "imageSet": "hBP05",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-033",
@@ -646,11 +652,13 @@
         "skills": [
             {
                 "name": "こんぺこー!",
+                "cost": "1 Green",
                 "dmg": "20+",
                 "description": "Roll a die once: If the result is even, this art gains +20"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-039",
@@ -696,11 +704,13 @@
         "skills": [
             {
                 "name": "見逃しちゃだめべこだよ!",
+                "cost": "1 any color",
                 "dmg": 30
             }
         ],
         "hasFullArt": true,
-        "imageSet": "hBP06"
+        "imageSet": "hBP06",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-042",
@@ -751,12 +761,14 @@
         "skills": [
             {
                 "name": "こんあずき～!",
+                "cost": "1 any color",
                 "dmg": "20"
             }
         ],
         "hasHolomenRare": true,
         "imageSet": "hBP07",
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-045",
@@ -819,10 +831,12 @@
         "skills": [
             {
                 "name": "皆殿、風真いろはでござる-",
+                "cost": "1 any color",
                 "dmg": "20"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-049",
@@ -894,11 +908,13 @@
         "skills": [
             {
                 "name": "スラマッパギ!",
+                "cost": "1 any color",
                 "dmg": "10",
                 "description": "You may reattach 1 cheer from your stage to your holomem with #ID."
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-053",
@@ -959,10 +975,12 @@
         "skills": [
             {
                 "name": "皆さん、待っ鷹ね?",
+                "cost": "1 any color",
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-057",
@@ -1064,11 +1082,13 @@
         "skills": [
             {
                 "name": "キッケリキー!",
+                "cost": "1 any color",
                 "dmg": "20+",
                 "description": "You may archive 1 card from your hand:This Arts gets +20."
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-063",
@@ -1169,12 +1189,14 @@
         "skills": [
             {
                 "name": "ポルカおるよ！",
+                "cost": "1 any color",
                 "dmg": "20+"
             }
         ],
         "extraEffect": "You may include any number of this holomem in the deck.",
         "hasHolomenRare": true,
-        "imageSet": "hBP05"
+        "imageSet": "hBP05",
+        "batonTouch": 0
     },
     {
         "cardNumber": "hBP01-069",
@@ -1243,11 +1265,13 @@
         "skills": [
             {
                 "name": "WAZZUP!!",
+                "cost": "1 any color",
                 "dmg": "20",
                 "description": "If a red cheer is attached to this holomem, you may roll a die once:If it is odd, deal 20 Special Damage to your opponent's collab holomem.m"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck"
+        "extraEffect": "You may include any number of this holomem in the deck",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-073",
@@ -1307,13 +1331,15 @@
         "skills": [
             {
                 "name": "スターの原石",
+                "cost": "1 any color",
                 "dmg": "20",
                 "description": "Deal 10 Special Damage to 1 of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
             }
         ],
         "extraEffect": "You may include any number of this holomem in the deck.",
         "hasHolomenRare": true,
-        "imageSet": "hBP05"
+        "imageSet": "hBP05",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-077",
@@ -1410,10 +1436,12 @@
         "skills": [
             {
                 "name": "ぼこぼこぼこぼ",
+                "cost": "1 Blue",
                 "dmg": "30"
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-083",
@@ -1514,11 +1542,13 @@
         "skills": [
             {
                 "name": "ムーン　ムーン　ムーナだよ！",
+                "cost": "1 Blue",
                 "dmg": "10",
                 "description": "You may roll a die once:If it is even, deal 20 Special Damage to 1 of your opponent's back holomem. However, your opponent's Life does not reduce even if downed."
             }
         ],
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-089",
@@ -1585,13 +1615,15 @@
         "skills": [
             {
                 "name": "クロにちは~",
+                "cost": "1 Blue",
                 "dmg": "10",
                 "description": "You may reattach 1 cheer from this holomem to your other holomem with #Promise."
             }
         ],
         "hasHolomenRare": true,
         "imageSet": "hBP07",
-        "extraEffect": "You may include any number of this holomem in the deck."
+        "extraEffect": "You may include any number of this holomem in the deck.",
+        "batonTouch": 1
     },
     {
         "cardNumber": "hBP01-093",

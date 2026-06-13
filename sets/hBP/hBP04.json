@@ -144,7 +144,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Hakui Koyori",
@@ -162,7 +163,8 @@
                 "description": "Look at the top 3 cards of your deck. From among them, reveal one [Debut Holomem with the #HoloX or a Support card with the #KoyoLab] and add it to your hand. Then, return the remaining cards to the bottom of your deck in any order."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Hakui Koyori",
@@ -184,7 +186,8 @@
                 "dmg": "60"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Hakui Koyori",
@@ -202,7 +205,8 @@
                 "description": "You may attach a <Koyori's Assistant-kun> from your archive to one of your other holomem named <Hakui Koyori?."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Hakui Koyori",
@@ -221,7 +225,8 @@
                 "description": "If this holomem has <Koyori's Assistant-kun> attached, draw 1 card from top of deck."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Hakui Koyori",
@@ -241,7 +246,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Shirakami Fubuki",
@@ -260,7 +266,8 @@
                 "description": "If there are any holomem with #Gamers that are not named Shirakami Fubuki on your stage, this art gains +50 power."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "IRyS",
@@ -280,7 +287,8 @@
                 "description": "For each of your holomem with #Promise, this art gains +10 Power. The maximum number of holomem counted for this effect is 4."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Raora Panthera",
@@ -298,7 +306,8 @@
                 "dmg": "10",
                 "description": "If there are 5 or fewer holomem on your stage, you may reveal 1 Spot holomem with #Justice from your deck and put it onto your stage. Then shuffle your deck."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Raora Panthera",
@@ -315,7 +324,8 @@
                 "dmg": "40"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Raora Panthera",
@@ -333,7 +343,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Raora Panthera",
@@ -352,7 +363,8 @@
                 "description": "[Collab position only] If your center holomem has #Painting, this art gains +80 power."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Juufuutei Raden",
@@ -374,7 +386,8 @@
                 "cost": "1 Green, 1 any color",
                 "dmg": "40"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Juufuutei Raden",
@@ -392,7 +405,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Juufuutei Raden",
@@ -414,7 +428,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Juufuutei Raden",
@@ -432,7 +447,8 @@
                 "dmg": "40"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Juufuutei Raden",
@@ -451,7 +467,8 @@
                 "description": "You may send 1 cheer from your archive to this holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Juufuutei Raden",
@@ -471,7 +488,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Ookami Mio",
@@ -490,7 +508,8 @@
                 "description": "If there are any holomem with #Gamers that are not named Ookami Mio on your stage, this art gains +50 power."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Pavolia Reine",
@@ -508,7 +527,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Cecilia Immergreen",
@@ -525,7 +545,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Cecilia Immergreen",
@@ -542,7 +563,8 @@
                 "dmg": "60"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Cecilia Immergreen",
@@ -560,7 +582,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Cecilia Immergreen",
@@ -579,7 +602,8 @@
                 "description": "Choose one of your back Holomem with the #Language. You may reveal one cheer card of the same color as the chosen Holomem from your cheer Deck and attach it to that Holomem. Then, shuffle your cheer Deck."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Ichijou Ririka",
@@ -596,7 +620,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Ichijou Ririka",
@@ -619,7 +644,8 @@
                 "description": "If you have used <Genkai-Meshi> this turn, deal 20 special damage to the opponent's Collab Holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Ichijou Ririka",
@@ -641,7 +667,8 @@
                 "dmg": "60"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Ichijou Ririka",
@@ -660,7 +687,8 @@
                 "description": "Deal 20 special damage to your opponent's collab holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Ichijou Ririka",
@@ -679,7 +707,8 @@
                 "description": "If this art is targeting your opponent's collab holomem, draw 1 card."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Ichijou Ririka",
@@ -699,7 +728,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Houshou Marine",
@@ -718,7 +748,8 @@
                 "description": "For each holomem stacked under this one, this art gains +20 power."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Kaela Kovalskia",
@@ -735,7 +766,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Kaela Kovalskia",
@@ -757,7 +789,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Kaela Kovalskia",
@@ -775,7 +808,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Kaela Kovalskia",
@@ -802,7 +836,8 @@
             }
         ],
         "hasAlternativeArt": true,
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Yukihana Lamy",
@@ -822,7 +857,8 @@
             }
         ],
         "hasHolomenRare": true,
-        "imageSet": "hBP06"
+        "imageSet": "hBP06",
+        "batonTouch": 1
     },
     {
         "name": "Yukihana Lamy",
@@ -840,7 +876,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Yukihana Lamy",
@@ -862,7 +899,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Yukihana Lamy",
@@ -880,7 +918,8 @@
                 "description": "If there are any holomem on your stage with a Fan attached, deal 10 special damage to any of your opponent's holomem."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Yukihana Lamy",
@@ -898,7 +937,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Yukihana Lamy",
@@ -918,7 +958,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Moona Hoshinova",
@@ -941,7 +982,8 @@
                 "description": "Deal 20 special damage to one of your opponent's back Holomem. If you have a Holomem with a different color than this one on your stage, this Arts gets an additional +50."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Shiori Novella",
@@ -958,7 +1000,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Shiori Novella",
@@ -980,7 +1023,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Shiori Novella",
@@ -998,7 +1042,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Shiori Novella",
@@ -1020,7 +1065,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "La+ Darknesss",
@@ -1040,7 +1086,8 @@
         ],
         "hasHolomenRare": true,
         "imageSet": "hBP07",
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 0
     },
     {
         "name": "La+ Darknesss",
@@ -1059,7 +1106,8 @@
                 "description": "This art gains +10 power for each of your opponent's holomem who are resting."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 0
     },
     {
         "name": "La+ Darknesss",
@@ -1081,7 +1129,8 @@
                 "dmg": "70"
             }
         ],
-        "manualUrl": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-056_C_02.png"
+        "manualUrl": "https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-056_C_02.png",
+        "batonTouch": 1
     },
     {
         "name": "La+ Darknesss",
@@ -1099,7 +1148,8 @@
                 "dmg": "40"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 0
     },
     {
         "name": "La+ Darknesss",
@@ -1117,7 +1167,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 0
     },
     {
         "name": "La+ Darknesss",
@@ -1137,7 +1188,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Murasaki Shion",
@@ -1158,7 +1210,8 @@
                 "description": "Deal 10 special damage to the opponent's center Holomem and Collab Holomem for each cheer attached to the opponent's center Holomem."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Kureiji Ollie",
@@ -1177,7 +1230,8 @@
                 "description": "This Arts gets +20 for each other 2nd Holomem with the #ID2ndGen on your stage."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Mori Calliope",
@@ -1198,7 +1252,8 @@
                 "description": "Look at the top 2 cards of your deck. Archive 1 of them and place the remaining card on top of your deck."
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Koseki Bijou",
@@ -1216,7 +1271,8 @@
                 "cost": "1 any color",
                 "dmg": "20"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Koseki Bijou",
@@ -1233,7 +1289,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "name": "Koseki Bijou",
@@ -1252,7 +1309,8 @@
                 "description": "If there are any red cheers in your archive, this art gains +20."
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Koseki Bijou",
@@ -1272,7 +1330,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Oozora Subaru",
@@ -1296,7 +1355,8 @@
             }
         ],
         "hasHolomenRare": true,
-        "imageSet": "hBP06"
+        "imageSet": "hBP06",
+        "batonTouch": 1
     },
     {
         "name": "Oozora Subaru",
@@ -1314,7 +1374,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Oozora Subaru",
@@ -1336,7 +1397,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "name": "Oozora Subaru",
@@ -1354,7 +1416,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Oozora Subaru",
@@ -1377,7 +1440,8 @@
                 "dmg": "90"
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 1
     },
     {
         "name": "Oozora Subaru",
@@ -1397,7 +1461,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Anya Melfissa",
@@ -1414,7 +1479,8 @@
                 "cost": "1 any color",
                 "dmg": "30"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Anya Melfissa",
@@ -1432,7 +1498,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Anya Melfissa",
@@ -1454,7 +1521,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "name": "Anya Melfissa",
@@ -1472,7 +1540,8 @@
                 "dmg": "30"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Anya Melfissa",
@@ -1490,7 +1559,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Anya Melfissa",
@@ -1509,7 +1579,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1527,7 +1598,8 @@
                 "cost": "1 any color",
                 "dmg": "10"
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1549,7 +1621,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1567,7 +1640,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Natsuiro Matsuri",
@@ -1587,7 +1661,8 @@
             }
         ],
         "hasFullArt": true,
-        "hasAlternativeArt": true
+        "hasAlternativeArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Momosuzu Nene",
@@ -1605,7 +1680,8 @@
                 "dmg": "10",
                 "description": "If there are 5 or fewer holomem on your stage, you may reveal 1 Debut holomem with #Gen5 from your deck and put it onto your stage. Then shuffle your deck."
             }
-        ]
+        ],
+        "batonTouch": 1
     },
     {
         "name": "Momosuzu Nene",
@@ -1627,7 +1703,8 @@
                 "dmg": "50"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 2
     },
     {
         "name": "Momosuzu Nene",
@@ -1645,7 +1722,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Momosuzu Nene",
@@ -1669,7 +1747,8 @@
             }
         ],
         "hasAlternativeArt": true,
-        "hasFullArt": true
+        "hasFullArt": true,
+        "batonTouch": 2
     },
     {
         "name": "Elizabeth Rose Bloodflame",
@@ -1687,7 +1766,8 @@
                 "dmg": "20"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 1
     },
     {
         "name": "Gigi Murin",
@@ -1705,7 +1785,8 @@
                 "dmg": "10"
             }
         ],
-        "hasFoils": true
+        "hasFoils": true,
+        "batonTouch": 0
     },
     {
         "name": "Two-tone PC",
