@@ -954,13 +954,12 @@
       {
         "name": "こんな素敵な世界に来れました!",
         "cost": "1 any color",
-        "dmg": "30",
-        "description": "Roll a die three times, for each total of 1 on the rolled dice, this art +10."
+        "dmg": "30"
       }
     ],
     "batonTouch": 1,
     "setName": "hBP01",
-    "searchString": "azki hbp01-046 #jp #gen0 #singing 開拓者のみんながいたから: you may choose 1~3 cheers from your stage, and reattach them to your holomem as you choose. こんな素敵な世界に来れました! roll a die three times, for each total of 1 on the rolled dice, this art +10."
+    "searchString": "azki hbp01-046 #jp #gen0 #singing 開拓者のみんながいたから: you may choose 1~3 cheers from your stage, and reattach them to your holomem as you choose. こんな素敵な世界に来れました! "
   },
   {
     "cardNumber": "hBP01-047",
@@ -1735,8 +1734,9 @@
     ],
     "extraEffect": "You may include any number of this holomem in the deck.",
     "batonTouch": 1,
+    "tag": "#ID #IDGen3",
     "setName": "hBP01",
-    "searchString": "kobo kanaeru hbp01-082 you may include any number of this holomem in the deck. ぼこぼこぼこぼ "
+    "searchString": "kobo kanaeru hbp01-082 #id #idgen3 you may include any number of this holomem in the deck. ぼこぼこぼこぼ "
   },
   {
     "cardNumber": "hBP01-083",
@@ -20620,11 +20620,12 @@
       {
         "name": "アデュー、親愛なる聞き手様",
         "cost": "1 any color",
-        "power": "20"
+        "dmg": "20"
       }
     ],
+    "tag": "#EN #Advent",
     "setName": "hSD12",
-    "searchString": "shiori novella hsd12-003 パレ・モンローズのお話をお聞きになったことは？ : deal 10 special damage to 1 of your opponent's back holomem. アデュー、親愛なる聞き手様 "
+    "searchString": "shiori novella hsd12-003 #en #advent パレ・モンローズのお話をお聞きになったことは？ : deal 10 special damage to 1 of your opponent's back holomem. アデュー、親愛なる聞き手様 "
   },
   {
     "name": "Shiori Novella",
@@ -20638,18 +20639,19 @@
       {
         "name": "不穏な忠告",
         "cost": "1 any color",
-        "power": "20",
-        "description": "This Arts may also target your opponent's back holomem."
+        "description": "This Arts may also target your opponent's back holomem.",
+        "dmg": "20"
       },
       {
         "name": "Just a Humble, Kind Witch",
         "cost": "1 blue",
-        "power": "30",
-        "description": "If you have 4 or more support cards in your archive, send the top card of your cheer deck to your holomem with #Advent."
+        "description": "If you have 4 or more support cards in your archive, send the top card of your cheer deck to your holomem with #Advent.",
+        "dmg": "30"
       }
     ],
+    "tag": "#EN #Advent",
     "setName": "hSD12",
-    "searchString": "shiori novella hsd12-004 不穏な忠告 this arts may also target your opponent's back holomem. just a humble, kind witch if you have 4 or more support cards in your archive, send the top card of your cheer deck to your holomem with #advent."
+    "searchString": "shiori novella hsd12-004 #en #advent 不穏な忠告 this arts may also target your opponent's back holomem. just a humble, kind witch if you have 4 or more support cards in your archive, send the top card of your cheer deck to your holomem with #advent."
   },
   {
     "name": "Shiori Novella",
@@ -20664,11 +20666,12 @@
       {
         "name": "車窓から見える星がとてもきれいよ",
         "cost": "1 any color",
-        "power": "40"
+        "dmg": "40"
       }
     ],
+    "tag": "#EN #Advent",
     "setName": "hSD12",
-    "searchString": "shiori novella hsd12-005 『異世界への旅立ちと幸せ』: send 1 cheer from your archive to your holomem with #advent. 車窓から見える星がとてもきれいよ "
+    "searchString": "shiori novella hsd12-005 #en #advent 『異世界への旅立ちと幸せ』: send 1 cheer from your archive to your holomem with #advent. 車窓から見える星がとてもきれいよ "
   },
   {
     "name": "Shiori Novella",
@@ -20685,12 +20688,13 @@
       {
         "name": "初歩的なことよ",
         "cost": "1 blue, 1 any color",
-        "power": "40",
-        "description": "Deal 20 special damage to 1 of your opponent's holomem."
+        "description": "Deal 20 special damage to 1 of your opponent's holomem.",
+        "dmg": "40"
       }
     ],
+    "tag": "#EN #Advent",
     "setName": "hSD12",
-    "searchString": "shiori novella hsd12-006 a study in advent : you may archive 1 support card from your hand:reveal 1 [debut holomem or 1st holomem] from your deck with #advent, and add it to hand. then, shuffle the deck. if this holomem is downed, you get life-2 初歩的なことよ deal 20 special damage to 1 of your opponent's holomem."
+    "searchString": "shiori novella hsd12-006 #en #advent a study in advent : you may archive 1 support card from your hand:reveal 1 [debut holomem or 1st holomem] from your deck with #advent, and add it to hand. then, shuffle the deck. if this holomem is downed, you get life-2 初歩的なことよ deal 20 special damage to 1 of your opponent's holomem."
   },
   {
     "name": "Shiori Novella",
@@ -20705,12 +20709,13 @@
       {
         "name": "私達を見くびらないで貰える？",
         "cost": "1 blue, 2 any color",
-        "power": "110, +50 vs white",
-        "description": "Deal 10 special damage for each holomem with #Advent on your stage to 1 of your opponent's holomem other than Debut."
+        "description": "Deal 10 special damage for each holomem with #Advent on your stage to 1 of your opponent's holomem other than Debut.",
+        "dmg": "110, +50 vs white"
       }
     ],
+    "tag": "#EN #Advent",
     "setName": "hSD12",
-    "searchString": "shiori novella hsd12-007 どんな知識が得られるかしら : [1/turn]when this holomem downed your opponent's holomem, return 1 support card other than limited from your archive to hand. 私達を見くびらないで貰える？ deal 10 special damage for each holomem with #advent on your stage to 1 of your opponent's holomem other than debut."
+    "searchString": "shiori novella hsd12-007 #en #advent どんな知識が得られるかしら : [1/turn]when this holomem downed your opponent's holomem, return 1 support card other than limited from your archive to hand. 私達を見くびらないで貰える？ deal 10 special damage for each holomem with #advent on your stage to 1 of your opponent's holomem other than debut."
   },
   {
     "name": "Koseki Bijou",
@@ -20725,11 +20730,12 @@
       {
         "name": "私……この頃よく夢を見るの。",
         "cost": "1 any color",
-        "power": "30"
+        "dmg": "30"
       }
     ],
+    "tag": "#EN #Advent #Baby",
     "setName": "hSD12",
-    "searchString": "koseki bijou hsd12-008 花売りの少女: if you went second and it is your first turn, draw 1 card for each cheer on both players' stage. 私……この頃よく夢を見るの。 "
+    "searchString": "koseki bijou hsd12-008 #en #advent #baby 花売りの少女: if you went second and it is your first turn, draw 1 card for each cheer on both players' stage. 私……この頃よく夢を見るの。 "
   },
   {
     "name": "Koseki Bijou",
@@ -20744,11 +20750,12 @@
       {
         "name": "とっても感謝してるの",
         "cost": "1 any color",
-        "power": "30"
+        "dmg": "30"
       }
     ],
+    "tag": "#EN #Advent #Baby",
     "setName": "hSD12",
-    "searchString": "koseki bijou hsd12-009 賑やかな家族 : look at the top 3 cards of your deck. reveal 1 holomem with #advent from among them, and add it to hand. then, return the remaining cards to the bottom of the deck in any order. とっても感謝してるの "
+    "searchString": "koseki bijou hsd12-009 #en #advent #baby 賑やかな家族 : look at the top 3 cards of your deck. reveal 1 holomem with #advent from among them, and add it to hand. then, return the remaining cards to the bottom of the deck in any order. とっても感謝してるの "
   },
   {
     "name": "Koseki Bijou",
@@ -20762,17 +20769,18 @@
       {
         "name": "滲んでいく輝き",
         "cost": "1 any color",
-        "power": "30"
+        "dmg": "30"
       },
       {
         "name": "Your Princess AWAKENS!",
         "cost": "1 purple, 1 any color",
-        "power": "50",
-        "description": "You may archive 1 non-purple cheer from this holomem:Return 1 holomem from your archive to hand."
+        "description": "You may archive 1 non-purple cheer from this holomem:Return 1 holomem from your archive to hand.",
+        "dmg": "50"
       }
     ],
+    "tag": "#EN #Advent #Baby",
     "setName": "hSD12",
-    "searchString": "koseki bijou hsd12-010 滲んでいく輝き  your princess awakens! you may archive 1 non-purple cheer from this holomem:return 1 holomem from your archive to hand."
+    "searchString": "koseki bijou hsd12-010 #en #advent #baby 滲んでいく輝き  your princess awakens! you may archive 1 non-purple cheer from this holomem:return 1 holomem from your archive to hand."
   },
   {
     "name": "Koseki Bijou",
@@ -20787,12 +20795,13 @@
       {
         "name": "キラキラぜーんぶ受け止めて！",
         "cost": "1 purple, 3 any color",
-        "power": "110, +50 vs yellow",
-        "description": "For each color of cheer in both players' archive, this Arts requires -1 colorless."
+        "description": "For each color of cheer in both players' archive, this Arts requires -1 colorless.",
+        "dmg": "110, +50 vs yellow"
       }
     ],
+    "tag": "#EN #Advent #Baby",
     "setName": "hSD12",
-    "searchString": "koseki bijou hsd12-011 ビブーと遊んでいかない？ : draw 1 card. you may archive 1 cheer from your stage. if you archived cheer, choose 1 holomem on your stage. during this turn, the chosen holomem gets arts+40. キラキラぜーんぶ受け止めて！ for each color of cheer in both players' archive, this arts requires -1 colorless."
+    "searchString": "koseki bijou hsd12-011 #en #advent #baby ビブーと遊んでいかない？ : draw 1 card. you may archive 1 cheer from your stage. if you archived cheer, choose 1 holomem on your stage. during this turn, the chosen holomem gets arts+40. キラキラぜーんぶ受け止めて！ for each color of cheer in both players' archive, this arts requires -1 colorless."
   },
   {
     "name": "Nerissa Ravencroft",
@@ -20806,12 +20815,13 @@
       {
         "name": "綾なす想いは、儚きブルー",
         "cost": "1 purple, 3 any color",
-        "power": "80",
-        "description": "If your life is 3 or less, this Arts requires -2 colorless."
+        "description": "If your life is 3 or less, this Arts requires -2 colorless.",
+        "dmg": "80"
       }
     ],
+    "tag": "#EN #Advent #Singing #Bird",
     "setName": "hSD12",
-    "searchString": "nerissa ravencroft hsd12-012 綾なす想いは、儚きブルー if your life is 3 or less, this arts requires -2 colorless."
+    "searchString": "nerissa ravencroft hsd12-012 #en #advent #singing #bird 綾なす想いは、儚きブルー if your life is 3 or less, this arts requires -2 colorless."
   },
   {
     "name": "Mococo Abyssgard",
@@ -20826,11 +20836,12 @@
       {
         "name": "ほんまにほんま～！！",
         "cost": "1 any color",
-        "power": "30"
+        "dmg": "30"
       }
     ],
+    "tag": "#EN #Advent #Kemomimi",
     "setName": "hSD12",
-    "searchString": "mococo abyssgard hsd12-013 ハッピー☆パピー -mococo- : if all holomem on your stage have #advent, you may return 1 debut holomem from your back position to the bottom of your deck:draw 2 cards. ほんまにほんま～！！ "
+    "searchString": "mococo abyssgard hsd12-013 #en #advent #kemomimi ハッピー☆パピー -mococo- : if all holomem on your stage have #advent, you may return 1 debut holomem from your back position to the bottom of your deck:draw 2 cards. ほんまにほんま～！！ "
   },
   {
     "name": "Fuwawa Abyssgard",
@@ -20845,11 +20856,12 @@
       {
         "name": "ほんまにほんまだよ！",
         "cost": "1 any color",
-        "power": "30"
+        "dmg": "30"
       }
     ],
+    "tag": "#EN #Advent #Kemomimi",
     "setName": "hSD12",
-    "searchString": "fuwawa abyssgard hsd12-014 ハッピー☆パピー -fuwawa- : if all holomem on your stage have #advent, you may return 1 debut holomem from your back position to the bottom of your deck:send the top card of your cheer deck to your holomem. ほんまにほんまだよ！ "
+    "searchString": "fuwawa abyssgard hsd12-014 #en #advent #kemomimi ハッピー☆パピー -fuwawa- : if all holomem on your stage have #advent, you may return 1 debut holomem from your back position to the bottom of your deck:send the top card of your cheer deck to your holomem. ほんまにほんまだよ！ "
   },
   {
     "name": "The accomplices who achieved a jailbreak",
@@ -20920,11 +20932,12 @@
       {
         "name": "オーッホッホッホッ！",
         "cost": "1 any color",
-        "power": "30"
+        "dmg": "30"
       }
     ],
+    "tag": "#EN #Justice #Singing",
     "setName": "hSD13",
-    "searchString": "elizabeth rose bloodflame hsd13-003 you may include any number of this holomem in the deck オーッホッホッホッ！ "
+    "searchString": "elizabeth rose bloodflame hsd13-003 #en #justice #singing you may include any number of this holomem in the deck オーッホッホッホッ！ "
   },
   {
     "name": "Elizabeth Rose Bloodflame",
@@ -20938,16 +20951,17 @@
       {
         "name": "薔薇は赤い",
         "cost": "1 any color",
-        "power": "40"
+        "dmg": "40"
       },
       {
         "name": "私の心の炎は青い",
         "cost": "1 red, 3 any color",
-        "power": "140"
+        "dmg": "140"
       }
     ],
+    "tag": "#EN #Justice #Singing",
     "setName": "hSD13",
-    "searchString": "elizabeth rose bloodflame hsd13-004 薔薇は赤い  私の心の炎は青い "
+    "searchString": "elizabeth rose bloodflame hsd13-004 #en #justice #singing 薔薇は赤い  私の心の炎は青い "
   },
   {
     "name": "Elizabeth Rose Bloodflame",
@@ -20962,11 +20976,12 @@
       {
         "name": "Lovely to See You, to See You, Lovely～♡",
         "cost": "1 red, 1 any color",
-        "power": "50"
+        "dmg": "50"
       }
     ],
+    "tag": "#EN #Justice #Singing",
     "setName": "hSD13",
-    "searchString": "elizabeth rose bloodflame hsd13-005 for justice! -erb- : during your opponent's turn, when 1 of your holomem with #justice is downed, send the top card of your cheer deck to this holomem. you may only use gift \"for justice! -erb-\" once per turn. lovely to see you, to see you, lovely～♡ "
+    "searchString": "elizabeth rose bloodflame hsd13-005 #en #justice #singing for justice! -erb- : during your opponent's turn, when 1 of your holomem with #justice is downed, send the top card of your cheer deck to this holomem. you may only use gift \"for justice! -erb-\" once per turn. lovely to see you, to see you, lovely～♡ "
   },
   {
     "name": "Elizabeth Rose Bloodflame",
@@ -20981,11 +20996,12 @@
       {
         "name": "守護るべきもの",
         "cost": "1 any color",
-        "power": "30"
+        "dmg": "30"
       }
     ],
+    "tag": "#EN #Justice #Singing",
     "setName": "hSD13",
-    "searchString": "elizabeth rose bloodflame hsd13-006 bring it on! : choose 1 holomem with #justice on your stage. during this turn, the chosen holomem gets arts+20. 守護るべきもの "
+    "searchString": "elizabeth rose bloodflame hsd13-006 #en #justice #singing bring it on! : choose 1 holomem with #justice on your stage. during this turn, the chosen holomem gets arts+20. 守護るべきもの "
   },
   {
     "name": "Elizabeth Rose Bloodflame",
@@ -21000,12 +21016,13 @@
       {
         "name": "悪斬りのカデンツァ",
         "cost": "1 red, 2 any color",
-        "power": "100+, +50 vs purple",
-        "description": "This Arts gets +20 for each of this holomem's cheers. When this Arts downed your opponent's holomem, send the top card of your cheer deck to this holomem."
+        "description": "This Arts gets +20 for each of this holomem's cheers. When this Arts downed your opponent's holomem, send the top card of your cheer deck to this holomem.",
+        "dmg": "100+, +50 vs purple"
       }
     ],
+    "tag": "#EN #Justice #Singing",
     "setName": "hSD13",
-    "searchString": "elizabeth rose bloodflame hsd13-007 猛炎のウォークライ: this holomem gets +10 hp for each of this holomem's cheers. 悪斬りのカデンツァ this arts gets +20 for each of this holomem's cheers. when this arts downed your opponent's holomem, send the top card of your cheer deck to this holomem."
+    "searchString": "elizabeth rose bloodflame hsd13-007 #en #justice #singing 猛炎のウォークライ: this holomem gets +10 hp for each of this holomem's cheers. 悪斬りのカデンツァ this arts gets +20 for each of this holomem's cheers. when this arts downed your opponent's holomem, send the top card of your cheer deck to this holomem."
   },
   {
     "name": "Gigi Murin",
@@ -21021,11 +21038,12 @@
       {
         "name": "GI MURIN!!!!",
         "cost": "1 any color",
-        "power": "20"
+        "dmg": "20"
       }
     ],
+    "tag": "#EN #Justice",
     "setName": "hSD13",
-    "searchString": "gigi murin hsd13-008 for justice! -gg- : send 1 cheer from your archive to your holomem with #justice. you may include any number of this holomem in the deck gi murin!!!! "
+    "searchString": "gigi murin hsd13-008 #en #justice for justice! -gg- : send 1 cheer from your archive to your holomem with #justice. you may include any number of this holomem in the deck gi murin!!!! "
   },
   {
     "name": "Gigi Murin",
@@ -21040,11 +21058,12 @@
       {
         "name": "YIPPEEE",
         "cost": "1 any color",
-        "power": "20"
+        "dmg": "20"
       }
     ],
+    "tag": "#EN #Justice",
     "setName": "hSD13",
-    "searchString": "gigi murin hsd13-009 イタズラ増殖！: if you went second and it is your first turn, reveal 1 1st holomem with #justice from your deck, and place it on stage. then, shuffle the deck. yippeee "
+    "searchString": "gigi murin hsd13-009 #en #justice イタズラ増殖！: if you went second and it is your first turn, reveal 1 1st holomem with #justice from your deck, and place it on stage. then, shuffle the deck. yippeee "
   },
   {
     "name": "Gigi Murin",
@@ -21058,16 +21077,17 @@
       {
         "name": "周囲の頭痛の種",
         "cost": "1 yellow",
-        "power": "40"
+        "dmg": "40"
       },
       {
         "name": "悪戯好きのグレムリン",
         "cost": "1 yellow, 1 any color",
-        "power": "60"
+        "dmg": "60"
       }
     ],
+    "tag": "#EN #Justice",
     "setName": "hSD13",
-    "searchString": "gigi murin hsd13-010 周囲の頭痛の種  悪戯好きのグレムリン "
+    "searchString": "gigi murin hsd13-010 #en #justice 周囲の頭痛の種  悪戯好きのグレムリン "
   },
   {
     "name": "Gigi Murin",
@@ -21082,12 +21102,13 @@
       {
         "name": "すべての意味を追い求めて",
         "cost": "1 yellow, 1 any color",
-        "power": "40+",
-        "description": "If there are no holomem stacked to this holomem, this Arts gets +20."
+        "description": "If there are no holomem stacked to this holomem, this Arts gets +20.",
+        "dmg": "40+"
       }
     ],
+    "tag": "#EN #Justice",
     "setName": "hSD13",
-    "searchString": "gigi murin hsd13-011 i am gonathan g. : you may archive 1 debut holomem that is stacked to this holomem:deal 20 special damage to your opponent's collab holomem. すべての意味を追い求めて if there are no holomem stacked to this holomem, this arts gets +20."
+    "searchString": "gigi murin hsd13-011 #en #justice i am gonathan g. : you may archive 1 debut holomem that is stacked to this holomem:deal 20 special damage to your opponent's collab holomem. すべての意味を追い求めて if there are no holomem stacked to this holomem, this arts gets +20."
   },
   {
     "name": "Gigi Murin",
@@ -21102,11 +21123,12 @@
       {
         "name": "負けるわけにはいかない",
         "cost": "1 yellow, 1 any color",
-        "power": "60"
+        "dmg": "60"
       }
     ],
+    "tag": "#EN #Justice",
     "setName": "hSD13",
-    "searchString": "gigi murin hsd13-012 ご苦労さん！ : during your opponent's turn, when your back holomem would take special damage from your opponent, you may archive 1 holomem that is stacked to this holomem:during this turn, all of your back holomem do not take special damage. 負けるわけにはいかない "
+    "searchString": "gigi murin hsd13-012 #en #justice ご苦労さん！ : during your opponent's turn, when your back holomem would take special damage from your opponent, you may archive 1 holomem that is stacked to this holomem:during this turn, all of your back holomem do not take special damage. 負けるわけにはいかない "
   },
   {
     "name": "Gigi Murin",
@@ -21121,12 +21143,13 @@
       {
         "name": "殻破りのライオット",
         "cost": "1 yellow, 3 any color",
-        "power": "90+, +50 vs white",
-        "description": "If there are no holomem stacked to this holomem, this Arts gets +90."
+        "description": "If there are no holomem stacked to this holomem, this Arts gets +90.",
+        "dmg": "90+, +50 vs white"
       }
     ],
+    "tag": "#EN #Justice",
     "setName": "hSD13",
-    "searchString": "gigi murin hsd13-013 再起のストレングス : [1/turn]during your main phase, you may archive 1 holomem stacked to your <gigi murin>:send the top card of your cheer deck to this holomem. 殻破りのライオット if there are no holomem stacked to this holomem, this arts gets +90."
+    "searchString": "gigi murin hsd13-013 #en #justice 再起のストレングス : [1/turn]during your main phase, you may archive 1 holomem stacked to your <gigi murin>:send the top card of your cheer deck to this holomem. 殻破りのライオット if there are no holomem stacked to this holomem, this arts gets +90."
   },
   {
     "name": "Cecilia Immergreen",
@@ -21141,12 +21164,13 @@
       {
         "name": "紅茶をどうぞ！",
         "cost": "2 any color",
-        "power": "40",
-        "description": "Send the top card of your cheer deck to your holomem with #Justice."
+        "description": "Send the top card of your cheer deck to your holomem with #Justice.",
+        "dmg": "40"
       }
     ],
+    "tag": "#EN #Justice #Language",
     "setName": "hSD13",
-    "searchString": "cecilia immergreen hsd13-014 正義の旋律: [center position・collab position only][1/turn]when a [debut holomem or spot holomem] with #justice is placed on your stage, draw 1 card. this holomem cannot bloom 紅茶をどうぞ！ send the top card of your cheer deck to your holomem with #justice."
+    "searchString": "cecilia immergreen hsd13-014 #en #justice #language 正義の旋律: [center position・collab position only][1/turn]when a [debut holomem or spot holomem] with #justice is placed on your stage, draw 1 card. this holomem cannot bloom 紅茶をどうぞ！ send the top card of your cheer deck to your holomem with #justice."
   },
   {
     "name": "Raora Panthera",
@@ -21161,12 +21185,13 @@
       {
         "name": "コーヒーをどうぞ！",
         "cost": "1 any color",
-        "power": "30+",
-        "description": "If your [center holomem and collab holomem] with #Justice have cheers of different colors attached, this Arts gets +20."
+        "description": "If your [center holomem and collab holomem] with #Justice have cheers of different colors attached, this Arts gets +20.",
+        "dmg": "30+"
       }
     ],
+    "tag": "#EN #Justice #Kemomimi #Painting",
     "setName": "hSD13",
-    "searchString": "raora panthera hsd13-015 正義の諧調 : you may return 1 cheer from your stage to the bottom of your cheer deck. if you do, reveal 1 cheer from your cheer deck and send it to your holomem. then, shuffle the cheer deck. this holomem cannot bloom コーヒーをどうぞ！ if your [center holomem and collab holomem] with #justice have cheers of different colors attached, this arts gets +20."
+    "searchString": "raora panthera hsd13-015 #en #justice #kemomimi #painting 正義の諧調 : you may return 1 cheer from your stage to the bottom of your cheer deck. if you do, reveal 1 cheer from your cheer deck and send it to your holomem. then, shuffle the cheer deck. this holomem cannot bloom コーヒーをどうぞ！ if your [center holomem and collab holomem] with #justice have cheers of different colors attached, this arts gets +20."
   },
   {
     "name": "Justice",

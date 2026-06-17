@@ -46,9 +46,10 @@
             {
                 "name": "アデュー、親愛なる聞き手様",
                 "cost": "1 any color",
-                "power": "20"
+                "dmg": "20"
             }
-        ]
+        ],
+        "tag": "#EN #Advent"
     },
     {
         "name": "Shiori Novella",
@@ -62,16 +63,17 @@
             {
                 "name": "不穏な忠告",
                 "cost": "1 any color",
-                "power": "20",
-                "description": "This Arts may also target your opponent's back holomem."
+                "description": "This Arts may also target your opponent's back holomem.",
+                "dmg": "20"
             },
             {
                 "name": "Just a Humble, Kind Witch",
                 "cost": "1 blue",
-                "power": "30",
-                "description": "If you have 4 or more support cards in your archive, send the top card of your cheer deck to your holomem with #Advent."
+                "description": "If you have 4 or more support cards in your archive, send the top card of your cheer deck to your holomem with #Advent.",
+                "dmg": "30"
             }
-        ]
+        ],
+        "tag": "#EN #Advent"
     },
     {
         "name": "Shiori Novella",
@@ -86,9 +88,10 @@
             {
                 "name": "車窓から見える星がとてもきれいよ",
                 "cost": "1 any color",
-                "power": "40"
+                "dmg": "40"
             }
-        ]
+        ],
+        "tag": "#EN #Advent"
     },
     {
         "name": "Shiori Novella",
@@ -105,10 +108,11 @@
             {
                 "name": "初歩的なことよ",
                 "cost": "1 blue, 1 any color",
-                "power": "40",
-                "description": "Deal 20 special damage to 1 of your opponent's holomem."
+                "description": "Deal 20 special damage to 1 of your opponent's holomem.",
+                "dmg": "40"
             }
-        ]
+        ],
+        "tag": "#EN #Advent"
     },
     {
         "name": "Shiori Novella",
@@ -123,10 +127,11 @@
             {
                 "name": "私達を見くびらないで貰える？",
                 "cost": "1 blue, 2 any color",
-                "power": "110, +50 vs white",
-                "description": "Deal 10 special damage for each holomem with #Advent on your stage to 1 of your opponent's holomem other than Debut."
+                "description": "Deal 10 special damage for each holomem with #Advent on your stage to 1 of your opponent's holomem other than Debut.",
+                "dmg": "110, +50 vs white"
             }
-        ]
+        ],
+        "tag": "#EN #Advent"
     },
     {
         "name": "Koseki Bijou",
@@ -141,9 +146,10 @@
             {
                 "name": "私……この頃よく夢を見るの。",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             }
-        ]
+        ],
+        "tag": "#EN #Advent #Baby"
     },
     {
         "name": "Koseki Bijou",
@@ -158,9 +164,10 @@
             {
                 "name": "とっても感謝してるの",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             }
-        ]
+        ],
+        "tag": "#EN #Advent #Baby"
     },
     {
         "name": "Koseki Bijou",
@@ -174,15 +181,16 @@
             {
                 "name": "滲んでいく輝き",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             },
             {
                 "name": "Your Princess AWAKENS!",
                 "cost": "1 purple, 1 any color",
-                "power": "50",
-                "description": "You may archive 1 non-purple cheer from this holomem:Return 1 holomem from your archive to hand."
+                "description": "You may archive 1 non-purple cheer from this holomem:Return 1 holomem from your archive to hand.",
+                "dmg": "50"
             }
-        ]
+        ],
+        "tag": "#EN #Advent #Baby"
     },
     {
         "name": "Koseki Bijou",
@@ -197,10 +205,11 @@
             {
                 "name": "キラキラぜーんぶ受け止めて！",
                 "cost": "1 purple, 3 any color",
-                "power": "110, +50 vs yellow",
-                "description": "For each color of cheer in both players' archive, this Arts requires -1 colorless."
+                "description": "For each color of cheer in both players' archive, this Arts requires -1 colorless.",
+                "dmg": "110, +50 vs yellow"
             }
-        ]
+        ],
+        "tag": "#EN #Advent #Baby"
     },
     {
         "name": "Nerissa Ravencroft",
@@ -214,10 +223,11 @@
             {
                 "name": "綾なす想いは、儚きブルー",
                 "cost": "1 purple, 3 any color",
-                "power": "80",
-                "description": "If your life is 3 or less, this Arts requires -2 colorless."
+                "description": "If your life is 3 or less, this Arts requires -2 colorless.",
+                "dmg": "80"
             }
-        ]
+        ],
+        "tag": "#EN #Advent #Singing #Bird"
     },
     {
         "name": "Mococo Abyssgard",
@@ -232,9 +242,10 @@
             {
                 "name": "ほんまにほんま～！！",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             }
-        ]
+        ],
+        "tag": "#EN #Advent #Kemomimi"
     },
     {
         "name": "Fuwawa Abyssgard",
@@ -249,9 +260,10 @@
             {
                 "name": "ほんまにほんまだよ！",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             }
-        ]
+        ],
+        "tag": "#EN #Advent #Kemomimi"
     },
     {
         "name": "The accomplices who achieved a jailbreak",
