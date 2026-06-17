@@ -46,9 +46,10 @@
             {
                 "name": "オーッホッホッホッ！",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             }
-        ]
+        ],
+        "tag": "#EN #Justice #Singing"
     },
     {
         "name": "Elizabeth Rose Bloodflame",
@@ -62,14 +63,15 @@
             {
                 "name": "薔薇は赤い",
                 "cost": "1 any color",
-                "power": "40"
+                "dmg": "40"
             },
             {
                 "name": "私の心の炎は青い",
                 "cost": "1 red, 3 any color",
-                "power": "140"
+                "dmg": "140"
             }
-        ]
+        ],
+        "tag": "#EN #Justice #Singing"
     },
     {
         "name": "Elizabeth Rose Bloodflame",
@@ -84,9 +86,10 @@
             {
                 "name": "Lovely to See You, to See You, Lovely～♡",
                 "cost": "1 red, 1 any color",
-                "power": "50"
+                "dmg": "50"
             }
-        ]
+        ],
+        "tag": "#EN #Justice #Singing"
     },
     {
         "name": "Elizabeth Rose Bloodflame",
@@ -101,9 +104,10 @@
             {
                 "name": "守護るべきもの",
                 "cost": "1 any color",
-                "power": "30"
+                "dmg": "30"
             }
-        ]
+        ],
+        "tag": "#EN #Justice #Singing"
     },
     {
         "name": "Elizabeth Rose Bloodflame",
@@ -118,10 +122,11 @@
             {
                 "name": "悪斬りのカデンツァ",
                 "cost": "1 red, 2 any color",
-                "power": "100+, +50 vs purple",
-                "description": "This Arts gets +20 for each of this holomem's cheers. When this Arts downed your opponent's holomem, send the top card of your cheer deck to this holomem."
+                "description": "This Arts gets +20 for each of this holomem's cheers. When this Arts downed your opponent's holomem, send the top card of your cheer deck to this holomem.",
+                "dmg": "100+, +50 vs purple"
             }
-        ]
+        ],
+        "tag": "#EN #Justice #Singing"
     },
     {
         "name": "Gigi Murin",
@@ -137,9 +142,10 @@
             {
                 "name": "GI MURIN!!!!",
                 "cost": "1 any color",
-                "power": "20"
+                "dmg": "20"
             }
-        ]
+        ],
+        "tag": "#EN #Justice"
     },
     {
         "name": "Gigi Murin",
@@ -154,9 +160,10 @@
             {
                 "name": "YIPPEEE",
                 "cost": "1 any color",
-                "power": "20"
+                "dmg": "20"
             }
-        ]
+        ],
+        "tag": "#EN #Justice"
     },
     {
         "name": "Gigi Murin",
@@ -170,14 +177,15 @@
             {
                 "name": "周囲の頭痛の種",
                 "cost": "1 yellow",
-                "power": "40"
+                "dmg": "40"
             },
             {
                 "name": "悪戯好きのグレムリン",
                 "cost": "1 yellow, 1 any color",
-                "power": "60"
+                "dmg": "60"
             }
-        ]
+        ],
+        "tag": "#EN #Justice"
     },
     {
         "name": "Gigi Murin",
@@ -192,10 +200,11 @@
             {
                 "name": "すべての意味を追い求めて",
                 "cost": "1 yellow, 1 any color",
-                "power": "40+",
-                "description": "If there are no holomem stacked to this holomem, this Arts gets +20."
+                "description": "If there are no holomem stacked to this holomem, this Arts gets +20.",
+                "dmg": "40+"
             }
-        ]
+        ],
+        "tag": "#EN #Justice"
     },
     {
         "name": "Gigi Murin",
@@ -210,9 +219,10 @@
             {
                 "name": "負けるわけにはいかない",
                 "cost": "1 yellow, 1 any color",
-                "power": "60"
+                "dmg": "60"
             }
-        ]
+        ],
+        "tag": "#EN #Justice"
     },
     {
         "name": "Gigi Murin",
@@ -227,10 +237,11 @@
             {
                 "name": "殻破りのライオット",
                 "cost": "1 yellow, 3 any color",
-                "power": "90+, +50 vs white",
-                "description": "If there are no holomem stacked to this holomem, this Arts gets +90."
+                "description": "If there are no holomem stacked to this holomem, this Arts gets +90.",
+                "dmg": "90+, +50 vs white"
             }
-        ]
+        ],
+        "tag": "#EN #Justice"
     },
     {
         "name": "Cecilia Immergreen",
@@ -245,10 +256,11 @@
             {
                 "name": "紅茶をどうぞ！",
                 "cost": "2 any color",
-                "power": "40",
-                "description": "Send the top card of your cheer deck to your holomem with #Justice."
+                "description": "Send the top card of your cheer deck to your holomem with #Justice.",
+                "dmg": "40"
             }
-        ]
+        ],
+        "tag": "#EN #Justice #Language"
     },
     {
         "name": "Raora Panthera",
@@ -263,10 +275,11 @@
             {
                 "name": "コーヒーをどうぞ！",
                 "cost": "1 any color",
-                "power": "30+",
-                "description": "If your [center holomem and collab holomem] with #Justice have cheers of different colors attached, this Arts gets +20."
+                "description": "If your [center holomem and collab holomem] with #Justice have cheers of different colors attached, this Arts gets +20.",
+                "dmg": "30+"
             }
-        ]
+        ],
+        "tag": "#EN #Justice #Kemomimi #Painting"
     },
     {
         "name": "Justice",
