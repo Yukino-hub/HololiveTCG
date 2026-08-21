@@ -10,7 +10,9 @@
             "name": "ロマンスは突然に",
             "power": 4,
             "description": "[1/Turn] Choose 1 <Tokino Sora> on your stage. Bloom the chosen holomem using a <Tokino Sora> from your deck. Shuffle your deck. During this turn, the chosen holomem requires -1 colorless for its Arts."
-        }
+        },
+        "hasSigned": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hEB01-002",
@@ -23,7 +25,9 @@
             "name": "Uh～ 刺激的すぎたかナ～？",
             "power": 2,
             "description": "[1/Turn] Deal 50 special damage to 1 of your opponent's back holomem other than Debut. If 3 or more holomem are stacked to your center holomem, deal 50 special damage to 1 of your opponent's back holomem other than Debut."
-        }
+        },
+        "hasSigned": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hEB01-003",
@@ -36,7 +40,9 @@
             "name": "解析完了！ 二人だけの独占海域",
             "power": 2,
             "description": "[1/Turn] Reveal cards from the top of your deck equal to the number of cheers on your stage. If there are 3 or more holomem among the revealed cards, during this turn, all <Hakui Koyori> on your stage get Arts+30. Add all revealed holomem other than Debut to your hand, and archive the remaining cards."
-        }
+        },
+        "hasSigned": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hEB01-004",
@@ -52,7 +58,8 @@
                 "dmg": 20,
                 "description": "Draw 1 card."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-005",
@@ -68,7 +75,8 @@
                 "name": "いいよー！ 誘ってくれてうれしい！",
                 "dmg": 30
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-006",
@@ -85,7 +93,8 @@
                 "dmg": "50+",
                 "description": "If the target of this Arts is a 1st or greater holomem, this Arts gets +30."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-007",
@@ -101,7 +110,8 @@
                 "name": "よそ見しちゃダメだよ？",
                 "dmg": 30
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-008",
@@ -117,7 +127,8 @@
                 "name": "夏の熱気のせいにさせて",
                 "dmg": 70
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-009",
@@ -134,7 +145,8 @@
                 "dmg": "50, +50 vs purple",
                 "description": "Return 1~3 holomem from your archive to your deck and shuffle it. Then, draw 1 card."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-010",
@@ -151,7 +163,9 @@
                 "dmg": "100, +50 vs green",
                 "description": "You may rest 1 of your active back 2nd holomem <Tokino Sora>: After this holomem used Arts, use the same Arts once more."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hEB01-011",
@@ -167,7 +181,8 @@
                 "dmg": 20,
                 "description": "You may archive 1 cheer from this holomem: Reveal 1 <Houshou Marine> with #Summer from your deck, and add it to your hand. Then, shuffle your deck."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-012",
@@ -183,7 +198,8 @@
                 "name": "船長の水着見せつけちゃうゾ♡",
                 "dmg": 30
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-013",
@@ -199,7 +215,8 @@
                 "name": "人混み抜けて……二人きりになっちゃう？",
                 "dmg": 50
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-014",
@@ -215,7 +232,8 @@
                 "name": "遠慮しないで、マリンにぜーんぶ委ねちゃいな？",
                 "dmg": 30
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-015",
@@ -233,7 +251,8 @@
                 "dmg": 60,
                 "description": "If 2 or more holomem are stacked to this holomem, you may archive 1 cheer on your stage: Send the top card of your cheer deck to your holomem."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-016",
@@ -249,7 +268,8 @@
                 "dmg": "40+, +50 vs white",
                 "description": "If 3 or more holomem are stacked to this holomem, this Arts gets +50."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-017",
@@ -266,7 +286,9 @@
                 "dmg": "100+, +50 vs red",
                 "description": "If your Oshi holomem is <Houshou Marine>, you may archive all holomem stacked to this holomem: If you archived 1 or more, this Arts gets +100. If you archived 5 or more, deal 100 special damage to 1 of your opponent's back holomem other than Debut."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hEB01-018",
@@ -283,7 +305,8 @@
                 "dmg": "20+",
                 "description": "If a support card with #KOYO LABO is attached to this holomem, this Arts gets +20."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-019",
@@ -299,7 +322,8 @@
                 "name": "こよの水着、期待しててねっ♡",
                 "dmg": 10
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-020",
@@ -319,7 +343,8 @@
                 "dmg": "50+",
                 "description": "Reveal a number of cards from the top of your deck equal to the number of cheers on your stage. This Arts gets +10 for each holomem revealed among them. Then, return the revealed cards to deck and shuffle it."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-021",
@@ -335,7 +360,8 @@
                 "name": "捕まえちゃった！わおーん！",
                 "dmg": 30
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-022",
@@ -352,7 +378,8 @@
                 "dmg": "30+",
                 "description": "If there is a 2nd holomem on your stage, this Arts gets +20."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-023",
@@ -369,7 +396,8 @@
                 "dmg": "50, +50 vs white",
                 "description": "Draw cards until the number of cards in your hand is the same as the number of <Koyori's Assistants> on your stage."
             }
-        ]
+        ],
+        "hasFullArt": true
     },
     {
         "cardNumber": "hEB01-024",
@@ -386,7 +414,9 @@
                 "dmg": "120+, +50 vs white",
                 "description": "Reveal a number of cards from the top of your deck equal to the number of cheers on your stage. For each holomem revealed among them, this Arts gets +20 and restore 20 HP to 1 of your holomem. Then, return the revealed cards to deck and shuffle it."
             }
-        ]
+        ],
+        "hasFullArt": true,
+        "hasAlternativeArt": true
     },
     {
         "cardNumber": "hEB01-025",
