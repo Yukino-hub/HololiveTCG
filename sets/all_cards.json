@@ -16833,6 +16833,538 @@
     "searchString": "takodachi hbp08-110 the holomem this fan is attached to gets arts+10.\n\n[center position only] your opponent's center holomem and collab holomem are regarded as holomem with all colors.\n\nyou may only attach this fan to your <ninomae ina'nis>, and you may attach any number of this fan per holomem."
   },
   {
+    "cardNumber": "hEB01-001",
+    "name": "Tokino Sora",
+    "rarity": "OSR",
+    "lives": 5,
+    "color": "Red",
+    "oshiStageSkill": "浜辺のヴィーナス : At the end of your turn, if your center holomem and collab holomem are <Tokino Sora>, put the top card of your deck as holo Power. Additionally, if you have a 2nd holomem on your stage, draw 1 card.",
+    "oshiSkill": {
+      "name": "ロマンスは突然に",
+      "power": 4,
+      "description": "[1/Turn] Choose 1 <Tokino Sora> on your stage. Bloom the chosen holomem using a <Tokino Sora> from your deck. Shuffle your deck. During this turn, the chosen holomem requires -1 colorless for its Arts.\n\n[OUR is expected to be the same as SEC but without the written message]"
+    },
+    "setName": "hEB01",
+    "searchString": "tokino sora heb01-001 浜辺のヴィーナス : at the end of your turn, if your center holomem and collab holomem are <tokino sora>, put the top card of your deck as holo power. additionally, if you have a 2nd holomem on your stage, draw 1 card. ロマンスは突然に [1/turn] choose 1 <tokino sora> on your stage. bloom the chosen holomem using a <tokino sora> from your deck. shuffle your deck. during this turn, the chosen holomem requires -1 colorless for its arts.\n\n[our is expected to be the same as sec but without the written message]"
+  },
+  {
+    "cardNumber": "hEB01-002",
+    "name": "Houshou Marine",
+    "rarity": "OSR",
+    "lives": 5,
+    "color": "Blue",
+    "oshiStageSkill": "魔性の再演 : At the beginning of your performance phase, if you have a collab holomem, you may bloom your center holomem <Houshou Marine> that bloomed this turn once more using a blue holomem from your hand.",
+    "oshiSkill": {
+      "name": "Uh～ 刺激的すぎたかナ～？",
+      "power": 2,
+      "description": "[1/Turn] Deal 50 special damage to 1 of your opponent's back holomem other than Debut. If 3 or more holomem are stacked to your center holomem, deal 50 special damage to 1 of your opponent's back holomem other than Debut.\n\n[OUR is expected to be the same as SEC but without the written message]"
+    },
+    "setName": "hEB01",
+    "searchString": "houshou marine heb01-002 魔性の再演 : at the beginning of your performance phase, if you have a collab holomem, you may bloom your center holomem <houshou marine> that bloomed this turn once more using a blue holomem from your hand. uh～ 刺激的すぎたかナ～？ [1/turn] deal 50 special damage to 1 of your opponent's back holomem other than debut. if 3 or more holomem are stacked to your center holomem, deal 50 special damage to 1 of your opponent's back holomem other than debut.\n\n[our is expected to be the same as sec but without the written message]"
+  },
+  {
+    "cardNumber": "hEB01-003",
+    "name": "Hakui Koyori",
+    "rarity": "OSR",
+    "lives": 5,
+    "color": "Yellow",
+    "oshiStageSkill": "助手くん限定の『こよ色観測』 : Increase the number of cards revealed from the top of your deck by your Oshi Skill and the abilities of your yellow <Hakui Koyori> by +1 for each <Koyori's Assistants> on your stage.",
+    "oshiSkill": {
+      "name": "解析完了！ 二人だけの独占海域",
+      "power": 2,
+      "description": "[1/Turn] Reveal cards from the top of your deck equal to the number of cheers on your stage. If there are 3 or more holomem among the revealed cards, during this turn, all <Hakui Koyori> on your stage get Arts+30. Add all revealed holomem other than Debut to your hand, and archive the remaining cards.\n\n[OUR is expected to be the same as SEC but without the written message]"
+    },
+    "setName": "hEB01",
+    "searchString": "hakui koyori heb01-003 助手くん限定の『こよ色観測』 : increase the number of cards revealed from the top of your deck by your oshi skill and the abilities of your yellow <hakui koyori> by +1 for each <koyori's assistants> on your stage. 解析完了！ 二人だけの独占海域 [1/turn] reveal cards from the top of your deck equal to the number of cheers on your stage. if there are 3 or more holomem among the revealed cards, during this turn, all <hakui koyori> on your stage get arts+30. add all revealed holomem other than debut to your hand, and archive the remaining cards.\n\n[our is expected to be the same as sec but without the written message]"
+  },
+  {
+    "cardNumber": "hEB01-004",
+    "name": "Tokino Sora",
+    "rarity": "C",
+    "bloomLevel": "Debut",
+    "hp": 130,
+    "color": "Red",
+    "tag": "#JP #Gen 0 #Singing #Summer",
+    "skills": [
+      {
+        "name": "心地よい距離感",
+        "dmg": 20,
+        "description": "Draw 1 card."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "tokino sora heb01-004 #jp #gen 0 #singing #summer 心地よい距離感 draw 1 card."
+  },
+  {
+    "cardNumber": "hEB01-005",
+    "name": "Tokino Sora",
+    "rarity": "U",
+    "bloomLevel": "Debut",
+    "hp": 120,
+    "color": "Red",
+    "tag": "#JP #Gen 0 #Singing #Summer",
+    "collabEffect": "うんうん、今度海に行かないって？ : If you went second and it is your first turn, search 1~3 Debut holomem <Tokino Sora> with Extra from your deck, and place them on your stage. Shuffle your deck. If 3 Debut holomem were placed this way, return 1 card from your hand to the bottom of your deck.",
+    "skills": [
+      {
+        "name": "いいよー！ 誘ってくれてうれしい！",
+        "dmg": 30
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "tokino sora heb01-005 #jp #gen 0 #singing #summer うんうん、今度海に行かないって？ : if you went second and it is your first turn, search 1~3 debut holomem <tokino sora> with extra from your deck, and place them on your stage. shuffle your deck. if 3 debut holomem were placed this way, return 1 card from your hand to the bottom of your deck. いいよー！ 誘ってくれてうれしい！ "
+  },
+  {
+    "cardNumber": "hEB01-006",
+    "name": "Tokino Sora",
+    "rarity": "C",
+    "bloomLevel": "1st",
+    "hp": 150,
+    "color": "Red",
+    "tag": "#JP #Gen 0 #Singing #Summer",
+    "giftEffect": "私、浴衣……どうかな？ : During your opponent's turn, if this holomem is downed, you may return 1 support card attached to this holomem to your hand.",
+    "skills": [
+      {
+        "name": "はぐれないように、ね？",
+        "dmg": "50+",
+        "description": "If the target of this Arts is a 1st or greater holomem, this Arts gets +30."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "tokino sora heb01-006 #jp #gen 0 #singing #summer 私、浴衣……どうかな？ : during your opponent's turn, if this holomem is downed, you may return 1 support card attached to this holomem to your hand. はぐれないように、ね？ if the target of this arts is a 1st or greater holomem, this arts gets +30."
+  },
+  {
+    "cardNumber": "hEB01-007",
+    "name": "Tokino Sora",
+    "rarity": "U",
+    "bloomLevel": "1st",
+    "hp": 160,
+    "color": "Red",
+    "tag": "#JP #Gen 0 #Singing #Summer",
+    "bloomEffect": "ふたりだけの特別ツアー！ : Draw 1 card, and return 1 card from your hand to the bottom of your deck.",
+    "skills": [
+      {
+        "name": "よそ見しちゃダメだよ？",
+        "dmg": 30
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "tokino sora heb01-007 #jp #gen 0 #singing #summer ふたりだけの特別ツアー！ : draw 1 card, and return 1 card from your hand to the bottom of your deck. よそ見しちゃダメだよ？ "
+  },
+  {
+    "cardNumber": "hEB01-008",
+    "name": "Tokino Sora",
+    "rarity": "R",
+    "bloomLevel": "1st",
+    "hp": 150,
+    "color": "Red",
+    "tag": "#JP #Gen 0 #Singing #Summer",
+    "bloomEffect": "私の自信作、食べてみる？ : Reveal 1 <STAR STAR☆T> from your deck, and add it to your hand. Then, shuffle your deck.",
+    "skills": [
+      {
+        "name": "夏の熱気のせいにさせて",
+        "dmg": 70
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "tokino sora heb01-008 #jp #gen 0 #singing #summer 私の自信作、食べてみる？ : reveal 1 <star star☆t> from your deck, and add it to your hand. then, shuffle your deck. 夏の熱気のせいにさせて "
+  },
+  {
+    "cardNumber": "hEB01-009",
+    "name": "Tokino Sora",
+    "rarity": "R",
+    "bloomLevel": "2nd",
+    "hp": 210,
+    "color": "Red",
+    "tag": "#JP #Gen 0 #Singing #Summer",
+    "collabEffect": "この歌は、あなたのために。 : Reveal 1 2nd holomem <Tokino Sora> from your deck, and add it to your hand. Then, shuffle your deck.",
+    "skills": [
+      {
+        "name": "誰より、特別だって気づいてる？",
+        "dmg": "50, +50 vs purple",
+        "description": "Return 1~3 holomem from your archive to your deck and shuffle it. Then, draw 1 card."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "tokino sora heb01-009 #jp #gen 0 #singing #summer この歌は、あなたのために。 : reveal 1 2nd holomem <tokino sora> from your deck, and add it to your hand. then, shuffle your deck. 誰より、特別だって気づいてる？ return 1~3 holomem from your archive to your deck and shuffle it. then, draw 1 card."
+  },
+  {
+    "cardNumber": "hEB01-010",
+    "name": "Tokino Sora",
+    "rarity": "RR",
+    "bloomLevel": "2nd",
+    "hp": 210,
+    "color": "Red",
+    "tag": "#JP #Gen 0 #Singing #Summer",
+    "bloomEffect": "今日は、いつもの道も特別だね : [Center Position Only] You may roll a die once. If it's odd, choose 1 of your opponent's back holomem. Swap your opponent's center holomem and the chosen holomem.",
+    "skills": [
+      {
+        "name": "振り返れば、いつもあなたが。",
+        "dmg": "100, +50 vs green",
+        "description": "You may rest 1 of your active back 2nd holomem <Tokino Sora>: After this holomem used Arts, use the same Arts once more."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "tokino sora heb01-010 #jp #gen 0 #singing #summer 今日は、いつもの道も特別だね : [center position only] you may roll a die once. if it's odd, choose 1 of your opponent's back holomem. swap your opponent's center holomem and the chosen holomem. 振り返れば、いつもあなたが。 you may rest 1 of your active back 2nd holomem <tokino sora>: after this holomem used arts, use the same arts once more."
+  },
+  {
+    "cardNumber": "hEB01-011",
+    "name": "Houshou Marine",
+    "rarity": "C",
+    "bloomLevel": "Debut",
+    "hp": 120,
+    "color": "Blue",
+    "tag": "#JP #Gen 3 #Painting #Sea #Summer",
+    "skills": [
+      {
+        "name": "夏祭りってテンションあがるよナぁ～",
+        "dmg": 20,
+        "description": "You may archive 1 cheer from this holomem: Reveal 1 <Houshou Marine> with #Summer from your deck, and add it to your hand. Then, shuffle your deck."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "houshou marine heb01-011 #jp #gen 3 #painting #sea #summer 夏祭りってテンションあがるよナぁ～ you may archive 1 cheer from this holomem: reveal 1 <houshou marine> with #summer from your deck, and add it to your hand. then, shuffle your deck."
+  },
+  {
+    "cardNumber": "hEB01-012",
+    "name": "Houshou Marine",
+    "rarity": "U",
+    "bloomLevel": "Debut",
+    "hp": 120,
+    "color": "Blue",
+    "tag": "#JP #Gen 3 #Painting #Sea #Summer",
+    "collabEffect": "船長と海に行きたいって～？ : If you went second and it is your first turn, reveal 1 <Houshou Marine> with Bloom Effect from your deck, and add it to hand. Then, shuffle the deck.",
+    "skills": [
+      {
+        "name": "船長の水着見せつけちゃうゾ♡",
+        "dmg": 30
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "houshou marine heb01-012 #jp #gen 3 #painting #sea #summer 船長と海に行きたいって～？ : if you went second and it is your first turn, reveal 1 <houshou marine> with bloom effect from your deck, and add it to hand. then, shuffle the deck. 船長の水着見せつけちゃうゾ♡ "
+  },
+  {
+    "cardNumber": "hEB01-013",
+    "name": "Houshou Marine",
+    "rarity": "C",
+    "bloomLevel": "1st",
+    "hp": 160,
+    "color": "Blue",
+    "tag": "#JP #Gen 3 #Painting #Sea #Summer",
+    "collabEffect": "わざと隙、見せてるんだゾ？ : You may archive 1 holomem that is stacked to this holomem: Send the top card of your cheer deck to your holomem.",
+    "skills": [
+      {
+        "name": "人混み抜けて……二人きりになっちゃう？",
+        "dmg": 50
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "houshou marine heb01-013 #jp #gen 3 #painting #sea #summer わざと隙、見せてるんだゾ？ : you may archive 1 holomem that is stacked to this holomem: send the top card of your cheer deck to your holomem. 人混み抜けて……二人きりになっちゃう？ "
+  },
+  {
+    "cardNumber": "hEB01-014",
+    "name": "Houshou Marine",
+    "rarity": "U",
+    "bloomLevel": "1st",
+    "hp": 170,
+    "color": "Blue",
+    "tag": "#JP #Gen 3 #Painting #Sea #Summer",
+    "bloomEffect": "眩しいのは太陽？ それとも……マリン？ : Deal 10 special damage to 1 of your opponent's back holomem.",
+    "skills": [
+      {
+        "name": "遠慮しないで、マリンにぜーんぶ委ねちゃいな？",
+        "dmg": 30
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "houshou marine heb01-014 #jp #gen 3 #painting #sea #summer 眩しいのは太陽？ それとも……マリン？ : deal 10 special damage to 1 of your opponent's back holomem. 遠慮しないで、マリンにぜーんぶ委ねちゃいな？ "
+  },
+  {
+    "cardNumber": "hEB01-015",
+    "name": "Houshou Marine",
+    "rarity": "R",
+    "bloomLevel": "1st",
+    "hp": 250,
+    "buzz": true,
+    "color": "Blue",
+    "tag": "#JP #Gen 3 #Painting #Sea #Summer",
+    "extraEffect": "If this holomem is downed, you get life-2",
+    "skills": [
+      {
+        "name": "隣、空けて待ってるんだけど...",
+        "dmg": 60,
+        "description": "If 2 or more holomem are stacked to this holomem, you may archive 1 cheer on your stage: Send the top card of your cheer deck to your holomem."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "houshou marine heb01-015 #jp #gen 3 #painting #sea #summer if this holomem is downed, you get life-2 隣、空けて待ってるんだけど... if 2 or more holomem are stacked to this holomem, you may archive 1 cheer on your stage: send the top card of your cheer deck to your holomem."
+  },
+  {
+    "cardNumber": "hEB01-016",
+    "name": "Houshou Marine",
+    "rarity": "R",
+    "bloomLevel": "2nd",
+    "hp": 200,
+    "color": "Blue",
+    "tag": "#JP #Gen 3 #Painting #Sea #Summer",
+    "skills": [
+      {
+        "name": "一生、マリンのトリコでしょ？",
+        "dmg": "40+, +50 vs white",
+        "description": "If 3 or more holomem are stacked to this holomem, this Arts gets +50."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "houshou marine heb01-016 #jp #gen 3 #painting #sea #summer 一生、マリンのトリコでしょ？ if 3 or more holomem are stacked to this holomem, this arts gets +50."
+  },
+  {
+    "cardNumber": "hEB01-017",
+    "name": "Houshou Marine",
+    "rarity": "RR",
+    "bloomLevel": "2nd",
+    "hp": 200,
+    "color": "Blue",
+    "tag": "#JP #Gen 3 #Painting #Sea #Summer",
+    "bloomEffect": "キミにも一口、あげるゾ♡ : Send 1 cheer from your archive to this holomem.",
+    "skills": [
+      {
+        "name": "ねぇ、口元のチョコ……とって？♡",
+        "dmg": "100+, +50 vs red",
+        "description": "If your Oshi holomem is <Houshou Marine>, you may archive all holomem stacked to this holomem: If you archived 1 or more, this Arts gets +100. If you archived 5 or more, deal 100 special damage to 1 of your opponent's back holomem other than Debut."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "houshou marine heb01-017 #jp #gen 3 #painting #sea #summer キミにも一口、あげるゾ♡ : send 1 cheer from your archive to this holomem. ねぇ、口元のチョコ……とって？♡ if your oshi holomem is <houshou marine>, you may archive all holomem stacked to this holomem: if you archived 1 or more, this arts gets +100. if you archived 5 or more, deal 100 special damage to 1 of your opponent's back holomem other than debut."
+  },
+  {
+    "cardNumber": "hEB01-018",
+    "name": "Hakui Koyori",
+    "rarity": "C",
+    "bloomLevel": "Debut",
+    "hp": 120,
+    "color": "Yellow",
+    "tag": "#JP #holoX #Kemomimi #Summer",
+    "giftEffect": "こよを夏祭りに連れて行って？ : During your opponent's turn, if this holomem is downed, you may return 1 support card with #KOYO LABO attached to this holomem to hand.",
+    "skills": [
+      {
+        "name": "ドキドキしちゃうね♡",
+        "dmg": "20+",
+        "description": "If a support card with #KOYO LABO is attached to this holomem, this Arts gets +20."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "hakui koyori heb01-018 #jp #holox #kemomimi #summer こよを夏祭りに連れて行って？ : during your opponent's turn, if this holomem is downed, you may return 1 support card with #koyo labo attached to this holomem to hand. ドキドキしちゃうね♡ if a support card with #koyo labo is attached to this holomem, this arts gets +20."
+  },
+  {
+    "cardNumber": "hEB01-019",
+    "name": "Hakui Koyori",
+    "rarity": "U",
+    "bloomLevel": "Debut",
+    "hp": 140,
+    "color": "Yellow",
+    "tag": "#JP #holoX #Kemomimi #Summer",
+    "collabEffect": "え、今度のお休みの日に海に行こうって？ : If you went second and it is your first turn, reveal 1 [Debut holomem and/or support card with #KOYO LABO] each from your deck, and add them to your hand. Then, shuffle your deck.",
+    "skills": [
+      {
+        "name": "こよの水着、期待しててねっ♡",
+        "dmg": 10
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "hakui koyori heb01-019 #jp #holox #kemomimi #summer え、今度のお休みの日に海に行こうって？ : if you went second and it is your first turn, reveal 1 [debut holomem and/or support card with #koyo labo] each from your deck, and add them to your hand. then, shuffle your deck. こよの水着、期待しててねっ♡ "
+  },
+  {
+    "cardNumber": "hEB01-020",
+    "name": "Hakui Koyori",
+    "rarity": "C",
+    "bloomLevel": "1st",
+    "hp": 190,
+    "color": "Yellow",
+    "tag": "#JP #holoX #Kemomimi #Summer",
+    "skills": [
+      {
+        "name": "助手くんの好みを研究して、選んだ浴衣だよっ♡",
+        "dmg": 30
+      },
+      {
+        "name": "ドキッとさせる実験開始～！",
+        "dmg": "50+",
+        "description": "Reveal a number of cards from the top of your deck equal to the number of cheers on your stage. This Arts gets +10 for each holomem revealed among them. Then, return the revealed cards to deck and shuffle it."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "hakui koyori heb01-020 #jp #holox #kemomimi #summer 助手くんの好みを研究して、選んだ浴衣だよっ♡  ドキッとさせる実験開始～！ reveal a number of cards from the top of your deck equal to the number of cheers on your stage. this arts gets +10 for each holomem revealed among them. then, return the revealed cards to deck and shuffle it."
+  },
+  {
+    "cardNumber": "hEB01-021",
+    "name": "Hakui Koyori",
+    "rarity": "U",
+    "bloomLevel": "1st",
+    "hp": 170,
+    "color": "Yellow",
+    "tag": "#JP #holoX #Kemomimi #Summer",
+    "collabEffect": "助手くんの夏は、こよが独り占め♡ : Restore 20 HP to 1 of your holomem for each <Koyori's Assistants> on your stage.",
+    "skills": [
+      {
+        "name": "捕まえちゃった！わおーん！",
+        "dmg": 30
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "hakui koyori heb01-021 #jp #holox #kemomimi #summer 助手くんの夏は、こよが独り占め♡ : restore 20 hp to 1 of your holomem for each <koyori's assistants> on your stage. 捕まえちゃった！わおーん！ "
+  },
+  {
+    "cardNumber": "hEB01-022",
+    "name": "Hakui Koyori",
+    "rarity": "R",
+    "bloomLevel": "1st",
+    "hp": 140,
+    "color": "Yellow",
+    "tag": "#JP #holoX #Kemomimi #Summer",
+    "bloomEffect": "こよが掃除しに来たよ～！ : You may return 1~2 <Koyori's Assistants> from your archive to hand.",
+    "skills": [
+      {
+        "name": "助手くん、これ、なぁに？",
+        "dmg": "30+",
+        "description": "If there is a 2nd holomem on your stage, this Arts gets +20."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "hakui koyori heb01-022 #jp #holox #kemomimi #summer こよが掃除しに来たよ～！ : you may return 1~2 <koyori's assistants> from your archive to hand. 助手くん、これ、なぁに？ if there is a 2nd holomem on your stage, this arts gets +20."
+  },
+  {
+    "cardNumber": "hEB01-023",
+    "name": "Hakui Koyori",
+    "rarity": "R",
+    "bloomLevel": "2nd",
+    "hp": 200,
+    "color": "Yellow",
+    "tag": "#JP #holoX #Kemomimi #Summer",
+    "bloomEffect": "助手くんお待ちかね、こよの水着姿だよ！ : You may return 1~4 <Hakui Koyori> from your archive to the bottom of the deck in any order you like. If you returned 4 cards, you may attach 1 support card with #KOYO LABO from your archive to your <Hakui Koyori>.",
+    "skills": [
+      {
+        "name": "こよ以外見えなくしちゃった！♡",
+        "dmg": "50, +50 vs white",
+        "description": "Draw cards until the number of cards in your hand is the same as the number of <Koyori's Assistants> on your stage."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "hakui koyori heb01-023 #jp #holox #kemomimi #summer 助手くんお待ちかね、こよの水着姿だよ！ : you may return 1~4 <hakui koyori> from your archive to the bottom of the deck in any order you like. if you returned 4 cards, you may attach 1 support card with #koyo labo from your archive to your <hakui koyori>. こよ以外見えなくしちゃった！♡ draw cards until the number of cards in your hand is the same as the number of <koyori's assistants> on your stage."
+  },
+  {
+    "cardNumber": "hEB01-024",
+    "name": "Hakui Koyori",
+    "rarity": "RR",
+    "bloomLevel": "2nd",
+    "hp": 200,
+    "color": "Yellow",
+    "tag": "#JP #holoX #Kemomimi #Summer",
+    "giftEffect": "こよに溺れちゃえ～っ！ : For each <Koyori's Assistants> attached to this holomem, this holomem gets +10 HP and this holomem's Arts requires -1 colorless.",
+    "skills": [
+      {
+        "name": "皆にはナイショの、特別な時間…♡",
+        "dmg": "120+, +50 vs white",
+        "description": "Reveal a number of cards from the top of your deck equal to the number of cheers on your stage. For each holomem revealed among them, this Arts gets +20 and restore 20 HP to 1 of your holomem. Then, return the revealed cards to deck and shuffle it."
+      }
+    ],
+    "setName": "hEB01",
+    "searchString": "hakui koyori heb01-024 #jp #holox #kemomimi #summer こよに溺れちゃえ～っ！ : for each <koyori's assistants> attached to this holomem, this holomem gets +10 hp and this holomem's arts requires -1 colorless. 皆にはナイショの、特別な時間…♡ reveal a number of cards from the top of your deck equal to the number of cheers on your stage. for each holomem revealed among them, this arts gets +20 and restore 20 hp to 1 of your holomem. then, return the revealed cards to deck and shuffle it."
+  },
+  {
+    "cardNumber": "hEB01-025",
+    "name": "Summer PC",
+    "type": "Support (Item)",
+    "rarity": "C",
+    "ability": "If your life is 2 or more, search 1 Debut holomem with #Summer from your deck, and place it on your stage. Shuffle your deck. If your life is 1, reveal 1 holomem with #Summer from your deck, and add it to your hand. Shuffle your deck.",
+    "setName": "hEB01",
+    "searchString": "summer pc heb01-025 if your life is 2 or more, search 1 debut holomem with #summer from your deck, and place it on your stage. shuffle your deck. if your life is 1, reveal 1 holomem with #summer from your deck, and add it to your hand. shuffle your deck."
+  },
+  {
+    "cardNumber": "hEB01-026",
+    "name": "Bearine",
+    "type": "Support (Event)",
+    "rarity": "U",
+    "limited": true,
+    "ability": ": Only one can be used per turn.\n\nThis card can only be used if your Oshi holomem is <Houshou Marine>.\n\nDraw 2 cards. Then, you may reveal 1 <Houshou Marine> from your hand, and return it to the bottom of the deck. If returned, draw 2 cards.",
+    "setName": "hEB01",
+    "searchString": "bearine heb01-026 : only one can be used per turn.\n\nthis card can only be used if your oshi holomem is <houshou marine>.\n\ndraw 2 cards. then, you may reveal 1 <houshou marine> from your hand, and return it to the bottom of the deck. if returned, draw 2 cards."
+  },
+  {
+    "cardNumber": "hEB01-027",
+    "name": "Summer Live",
+    "type": "Support (Event)",
+    "rarity": "C",
+    "limited": true,
+    "ability": ": Only one can be used per turn.\n\nDuring this turn, all holomem on your stage with #Summer get Arts+30. Then, send 1 cheer from your archive to your holomem.",
+    "setName": "hEB01",
+    "searchString": "summer live heb01-027 : only one can be used per turn.\n\nduring this turn, all holomem on your stage with #summer get arts+30. then, send 1 cheer from your archive to your holomem."
+  },
+  {
+    "cardNumber": "hEB01-028",
+    "name": "Watermelon Smashing",
+    "type": "Support (Event)",
+    "rarity": "C",
+    "limited": true,
+    "ability": ": Only one can be used per turn.\n\nChoose 1 2nd holomem on your stage. During this turn, the chosen holomem gets Arts+30, and if that holomem downs your opponent's holomem using Arts damage, draw 2 cards.",
+    "setName": "hEB01",
+    "searchString": "watermelon smashing heb01-028 : only one can be used per turn.\n\nchoose 1 2nd holomem on your stage. during this turn, the chosen holomem gets arts+30, and if that holomem downs your opponent's holomem using arts damage, draw 2 cards."
+  },
+  {
+    "cardNumber": "hEB01-029",
+    "name": "Splash Shoot",
+    "type": "Support (Event)",
+    "rarity": "C",
+    "ability": "This card can only be used if your center holomem and collab holomem are holomem with #Summer.\n\nDeal 30 special damage to your opponent's center holomem or collab holomem.\n\nYou may only use <Splash Shoot> once per turn.",
+    "setName": "hEB01",
+    "searchString": "splash shoot heb01-029 this card can only be used if your center holomem and collab holomem are holomem with #summer.\n\ndeal 30 special damage to your opponent's center holomem or collab holomem.\n\nyou may only use <splash shoot> once per turn."
+  },
+  {
+    "cardNumber": "hEB01-030",
+    "name": "hololive Summer",
+    "type": "Support (Event)",
+    "rarity": "U",
+    "limited": true,
+    "ability": ": Only one can be used per turn.\n\nDraw 2 cards. Then, if there are 3 or more holomem with #Summer on your stage, look at the top 2 cards of your deck. Add 1 of them to hand. Then, archive the remaining cards.",
+    "setName": "hEB01",
+    "searchString": "hololive summer heb01-030 : only one can be used per turn.\n\ndraw 2 cards. then, if there are 3 or more holomem with #summer on your stage, look at the top 2 cards of your deck. add 1 of them to hand. then, archive the remaining cards."
+  },
+  {
+    "cardNumber": "hEB01-031",
+    "name": "Water Play",
+    "type": "Support (Event)",
+    "rarity": "C",
+    "ability": "Send 1 cheer from your archive to your holomem with #Summer.",
+    "setName": "hEB01",
+    "searchString": "water play heb01-031 send 1 cheer from your archive to your holomem with #summer."
+  },
+  {
+    "cardNumber": "hEB01-032",
+    "name": "STAR STAR☆T",
+    "type": "Support (Event)",
+    "rarity": "U",
+    "limited": true,
+    "ability": ": Only one can be used per turn.\n\nIf your Oshi holomem is <Tokino Sora>, this card can be used if you went first and it is your first turn.\n\nDraw 3 cards, and return 1 card from your hand to the bottom of the deck.",
+    "setName": "hEB01",
+    "searchString": "star star☆t heb01-032 : only one can be used per turn.\n\nif your oshi holomem is <tokino sora>, this card can be used if you went first and it is your first turn.\n\ndraw 3 cards, and return 1 card from your hand to the bottom of the deck."
+  },
+  {
+    "cardNumber": "hEB01-033",
+    "name": "Beach Ball",
+    "type": "Support (Tool)",
+    "rarity": "C",
+    "ability": "The holomem with #Summer this tool is attached to gets Arts+10.\n\nWhen this holomem this tool is attached to uses Arts, you may reattach this tool to your [center holomem or collab holomem] with #Summer.\n\nOnly 1 tool can be attached to each of your holomem.",
+    "setName": "hEB01",
+    "searchString": "beach ball heb01-033 the holomem with #summer this tool is attached to gets arts+10.\n\nwhen this holomem this tool is attached to uses arts, you may reattach this tool to your [center holomem or collab holomem] with #summer.\n\nonly 1 tool can be attached to each of your holomem."
+  },
+  {
+    "cardNumber": "hEB01-034",
+    "name": "Anything Can Be Exploded!",
+    "type": "Support (Tool)",
+    "rarity": "U",
+    "ability": "The holomem this tool is attached to gets Arts+10.\n\n◆Additional ability if attached to 2nd <Hakui Koyori>\n[Center Position・Collab Position Only] At the end of your performance phase, you may archive 1 <Anything Can Be Exploded!> attached to this holomem: Deal 30 special damage to your opponent's center holomem.\n\nOnly 1 tool can be attached to each of your holomem.",
+    "setName": "hEB01",
+    "searchString": "anything can be exploded! heb01-034 the holomem this tool is attached to gets arts+10.\n\n◆additional ability if attached to 2nd <hakui koyori>\n[center position・collab position only] at the end of your performance phase, you may archive 1 <anything can be exploded!> attached to this holomem: deal 30 special damage to your opponent's center holomem.\n\nonly 1 tool can be attached to each of your holomem."
+  },
+  {
     "cardNumber": "hPR-001",
     "name": "Sakura Miko",
     "rarity": "P",
