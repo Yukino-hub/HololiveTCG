@@ -9,7 +9,7 @@
         "oshiSkill": {
             "name": "ロマンスは突然に",
             "power": 4,
-            "description": "[1/Turn] Choose 1 <Tokino Sora> on your stage. Bloom the chosen holomem using a <Tokino Sora> from your deck. Shuffle your deck. During this turn, the chosen holomem requires -1 colorless for its Arts.\n\n[OUR is expected to be the same as SEC but without the written message]"
+            "description": "[1/Turn] Choose 1 <Tokino Sora> on your stage. Bloom the chosen holomem using a <Tokino Sora> from your deck. Shuffle your deck. During this turn, the chosen holomem requires -1 colorless for its Arts."
         }
     },
     {
@@ -22,7 +22,7 @@
         "oshiSkill": {
             "name": "Uh～ 刺激的すぎたかナ～？",
             "power": 2,
-            "description": "[1/Turn] Deal 50 special damage to 1 of your opponent's back holomem other than Debut. If 3 or more holomem are stacked to your center holomem, deal 50 special damage to 1 of your opponent's back holomem other than Debut.\n\n[OUR is expected to be the same as SEC but without the written message]"
+            "description": "[1/Turn] Deal 50 special damage to 1 of your opponent's back holomem other than Debut. If 3 or more holomem are stacked to your center holomem, deal 50 special damage to 1 of your opponent's back holomem other than Debut."
         }
     },
     {
@@ -35,7 +35,7 @@
         "oshiSkill": {
             "name": "解析完了！ 二人だけの独占海域",
             "power": 2,
-            "description": "[1/Turn] Reveal cards from the top of your deck equal to the number of cheers on your stage. If there are 3 or more holomem among the revealed cards, during this turn, all <Hakui Koyori> on your stage get Arts+30. Add all revealed holomem other than Debut to your hand, and archive the remaining cards.\n\n[OUR is expected to be the same as SEC but without the written message]"
+            "description": "[1/Turn] Reveal cards from the top of your deck equal to the number of cheers on your stage. If there are 3 or more holomem among the revealed cards, during this turn, all <Hakui Koyori> on your stage get Arts+30. Add all revealed holomem other than Debut to your hand, and archive the remaining cards."
         }
     },
     {
