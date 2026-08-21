@@ -16844,6 +16844,8 @@
       "power": 4,
       "description": "[1/Turn] Choose 1 <Tokino Sora> on your stage. Bloom the chosen holomem using a <Tokino Sora> from your deck. Shuffle your deck. During this turn, the chosen holomem requires -1 colorless for its Arts."
     },
+    "hasSigned": true,
+    "hasAlternativeArt": true,
     "setName": "hEB01",
     "searchString": "tokino sora heb01-001 浜辺のヴィーナス : at the end of your turn, if your center holomem and collab holomem are <tokino sora>, put the top card of your deck as holo power. additionally, if you have a 2nd holomem on your stage, draw 1 card. ロマンスは突然に [1/turn] choose 1 <tokino sora> on your stage. bloom the chosen holomem using a <tokino sora> from your deck. shuffle your deck. during this turn, the chosen holomem requires -1 colorless for its arts."
   },
@@ -16859,6 +16861,8 @@
       "power": 2,
       "description": "[1/Turn] Deal 50 special damage to 1 of your opponent's back holomem other than Debut. If 3 or more holomem are stacked to your center holomem, deal 50 special damage to 1 of your opponent's back holomem other than Debut."
     },
+    "hasSigned": true,
+    "hasAlternativeArt": true,
     "setName": "hEB01",
     "searchString": "houshou marine heb01-002 魔性の再演 : at the beginning of your performance phase, if you have a collab holomem, you may bloom your center holomem <houshou marine> that bloomed this turn once more using a blue holomem from your hand. uh～ 刺激的すぎたかナ～？ [1/turn] deal 50 special damage to 1 of your opponent's back holomem other than debut. if 3 or more holomem are stacked to your center holomem, deal 50 special damage to 1 of your opponent's back holomem other than debut."
   },
@@ -16874,6 +16878,8 @@
       "power": 2,
       "description": "[1/Turn] Reveal cards from the top of your deck equal to the number of cheers on your stage. If there are 3 or more holomem among the revealed cards, during this turn, all <Hakui Koyori> on your stage get Arts+30. Add all revealed holomem other than Debut to your hand, and archive the remaining cards."
     },
+    "hasSigned": true,
+    "hasAlternativeArt": true,
     "setName": "hEB01",
     "searchString": "hakui koyori heb01-003 助手くん限定の『こよ色観測』 : increase the number of cards revealed from the top of your deck by your oshi skill and the abilities of your yellow <hakui koyori> by +1 for each <koyori's assistants> on your stage. 解析完了！ 二人だけの独占海域 [1/turn] reveal cards from the top of your deck equal to the number of cheers on your stage. if there are 3 or more holomem among the revealed cards, during this turn, all <hakui koyori> on your stage get arts+30. add all revealed holomem other than debut to your hand, and archive the remaining cards."
   },
@@ -16892,6 +16898,7 @@
         "description": "Draw 1 card."
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "tokino sora heb01-004 #jp #gen 0 #singing #summer 心地よい距離感 draw 1 card."
   },
@@ -16910,6 +16917,7 @@
         "dmg": 30
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "tokino sora heb01-005 #jp #gen 0 #singing #summer うんうん、今度海に行かないって？ : if you went second and it is your first turn, search 1~3 debut holomem <tokino sora> with extra from your deck, and place them on your stage. shuffle your deck. if 3 debut holomem were placed this way, return 1 card from your hand to the bottom of your deck. いいよー！ 誘ってくれてうれしい！ "
   },
@@ -16929,6 +16937,7 @@
         "description": "If the target of this Arts is a 1st or greater holomem, this Arts gets +30."
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "tokino sora heb01-006 #jp #gen 0 #singing #summer 私、浴衣……どうかな？ : during your opponent's turn, if this holomem is downed, you may return 1 support card attached to this holomem to your hand. はぐれないように、ね？ if the target of this arts is a 1st or greater holomem, this arts gets +30."
   },
@@ -16947,6 +16956,7 @@
         "dmg": 30
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "tokino sora heb01-007 #jp #gen 0 #singing #summer ふたりだけの特別ツアー！ : draw 1 card, and return 1 card from your hand to the bottom of your deck. よそ見しちゃダメだよ？ "
   },
@@ -16965,6 +16975,7 @@
         "dmg": 70
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "tokino sora heb01-008 #jp #gen 0 #singing #summer 私の自信作、食べてみる？ : reveal 1 <star star☆t> from your deck, and add it to your hand. then, shuffle your deck. 夏の熱気のせいにさせて "
   },
@@ -16984,6 +16995,7 @@
         "description": "Return 1~3 holomem from your archive to your deck and shuffle it. Then, draw 1 card."
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "tokino sora heb01-009 #jp #gen 0 #singing #summer この歌は、あなたのために。 : reveal 1 2nd holomem <tokino sora> from your deck, and add it to your hand. then, shuffle your deck. 誰より、特別だって気づいてる？ return 1~3 holomem from your archive to your deck and shuffle it. then, draw 1 card."
   },
@@ -17003,6 +17015,8 @@
         "description": "You may rest 1 of your active back 2nd holomem <Tokino Sora>: After this holomem used Arts, use the same Arts once more."
       }
     ],
+    "hasFullArt": true,
+    "hasAlternativeArt": true,
     "setName": "hEB01",
     "searchString": "tokino sora heb01-010 #jp #gen 0 #singing #summer 今日は、いつもの道も特別だね : [center position only] you may roll a die once. if it's odd, choose 1 of your opponent's back holomem. swap your opponent's center holomem and the chosen holomem. 振り返れば、いつもあなたが。 you may rest 1 of your active back 2nd holomem <tokino sora>: after this holomem used arts, use the same arts once more."
   },
@@ -17021,6 +17035,7 @@
         "description": "You may archive 1 cheer from this holomem: Reveal 1 <Houshou Marine> with #Summer from your deck, and add it to your hand. Then, shuffle your deck."
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "houshou marine heb01-011 #jp #gen 3 #painting #sea #summer 夏祭りってテンションあがるよナぁ～ you may archive 1 cheer from this holomem: reveal 1 <houshou marine> with #summer from your deck, and add it to your hand. then, shuffle your deck."
   },
@@ -17039,6 +17054,7 @@
         "dmg": 30
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "houshou marine heb01-012 #jp #gen 3 #painting #sea #summer 船長と海に行きたいって～？ : if you went second and it is your first turn, reveal 1 <houshou marine> with bloom effect from your deck, and add it to hand. then, shuffle the deck. 船長の水着見せつけちゃうゾ♡ "
   },
@@ -17057,6 +17073,7 @@
         "dmg": 50
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "houshou marine heb01-013 #jp #gen 3 #painting #sea #summer わざと隙、見せてるんだゾ？ : you may archive 1 holomem that is stacked to this holomem: send the top card of your cheer deck to your holomem. 人混み抜けて……二人きりになっちゃう？ "
   },
@@ -17075,6 +17092,7 @@
         "dmg": 30
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "houshou marine heb01-014 #jp #gen 3 #painting #sea #summer 眩しいのは太陽？ それとも……マリン？ : deal 10 special damage to 1 of your opponent's back holomem. 遠慮しないで、マリンにぜーんぶ委ねちゃいな？ "
   },
@@ -17095,6 +17113,7 @@
         "description": "If 2 or more holomem are stacked to this holomem, you may archive 1 cheer on your stage: Send the top card of your cheer deck to your holomem."
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "houshou marine heb01-015 #jp #gen 3 #painting #sea #summer if this holomem is downed, you get life-2 隣、空けて待ってるんだけど... if 2 or more holomem are stacked to this holomem, you may archive 1 cheer on your stage: send the top card of your cheer deck to your holomem."
   },
@@ -17113,6 +17132,7 @@
         "description": "If 3 or more holomem are stacked to this holomem, this Arts gets +50."
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "houshou marine heb01-016 #jp #gen 3 #painting #sea #summer 一生、マリンのトリコでしょ？ if 3 or more holomem are stacked to this holomem, this arts gets +50."
   },
@@ -17132,6 +17152,8 @@
         "description": "If your Oshi holomem is <Houshou Marine>, you may archive all holomem stacked to this holomem: If you archived 1 or more, this Arts gets +100. If you archived 5 or more, deal 100 special damage to 1 of your opponent's back holomem other than Debut."
       }
     ],
+    "hasFullArt": true,
+    "hasAlternativeArt": true,
     "setName": "hEB01",
     "searchString": "houshou marine heb01-017 #jp #gen 3 #painting #sea #summer キミにも一口、あげるゾ♡ : send 1 cheer from your archive to this holomem. ねぇ、口元のチョコ……とって？♡ if your oshi holomem is <houshou marine>, you may archive all holomem stacked to this holomem: if you archived 1 or more, this arts gets +100. if you archived 5 or more, deal 100 special damage to 1 of your opponent's back holomem other than debut."
   },
@@ -17151,6 +17173,7 @@
         "description": "If a support card with #KOYO LABO is attached to this holomem, this Arts gets +20."
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "hakui koyori heb01-018 #jp #holox #kemomimi #summer こよを夏祭りに連れて行って？ : during your opponent's turn, if this holomem is downed, you may return 1 support card with #koyo labo attached to this holomem to hand. ドキドキしちゃうね♡ if a support card with #koyo labo is attached to this holomem, this arts gets +20."
   },
@@ -17169,6 +17192,7 @@
         "dmg": 10
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "hakui koyori heb01-019 #jp #holox #kemomimi #summer え、今度のお休みの日に海に行こうって？ : if you went second and it is your first turn, reveal 1 [debut holomem and/or support card with #koyo labo] each from your deck, and add them to your hand. then, shuffle your deck. こよの水着、期待しててねっ♡ "
   },
@@ -17191,6 +17215,7 @@
         "description": "Reveal a number of cards from the top of your deck equal to the number of cheers on your stage. This Arts gets +10 for each holomem revealed among them. Then, return the revealed cards to deck and shuffle it."
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "hakui koyori heb01-020 #jp #holox #kemomimi #summer 助手くんの好みを研究して、選んだ浴衣だよっ♡  ドキッとさせる実験開始～！ reveal a number of cards from the top of your deck equal to the number of cheers on your stage. this arts gets +10 for each holomem revealed among them. then, return the revealed cards to deck and shuffle it."
   },
@@ -17209,6 +17234,7 @@
         "dmg": 30
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "hakui koyori heb01-021 #jp #holox #kemomimi #summer 助手くんの夏は、こよが独り占め♡ : restore 20 hp to 1 of your holomem for each <koyori's assistants> on your stage. 捕まえちゃった！わおーん！ "
   },
@@ -17228,6 +17254,7 @@
         "description": "If there is a 2nd holomem on your stage, this Arts gets +20."
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "hakui koyori heb01-022 #jp #holox #kemomimi #summer こよが掃除しに来たよ～！ : you may return 1~2 <koyori's assistants> from your archive to hand. 助手くん、これ、なぁに？ if there is a 2nd holomem on your stage, this arts gets +20."
   },
@@ -17247,6 +17274,7 @@
         "description": "Draw cards until the number of cards in your hand is the same as the number of <Koyori's Assistants> on your stage."
       }
     ],
+    "hasFullArt": true,
     "setName": "hEB01",
     "searchString": "hakui koyori heb01-023 #jp #holox #kemomimi #summer 助手くんお待ちかね、こよの水着姿だよ！ : you may return 1~4 <hakui koyori> from your archive to the bottom of the deck in any order you like. if you returned 4 cards, you may attach 1 support card with #koyo labo from your archive to your <hakui koyori>. こよ以外見えなくしちゃった！♡ draw cards until the number of cards in your hand is the same as the number of <koyori's assistants> on your stage."
   },
@@ -17266,6 +17294,8 @@
         "description": "Reveal a number of cards from the top of your deck equal to the number of cheers on your stage. For each holomem revealed among them, this Arts gets +20 and restore 20 HP to 1 of your holomem. Then, return the revealed cards to deck and shuffle it."
       }
     ],
+    "hasFullArt": true,
+    "hasAlternativeArt": true,
     "setName": "hEB01",
     "searchString": "hakui koyori heb01-024 #jp #holox #kemomimi #summer こよに溺れちゃえ～っ！ : for each <koyori's assistants> attached to this holomem, this holomem gets +10 hp and this holomem's arts requires -1 colorless. 皆にはナイショの、特別な時間…♡ reveal a number of cards from the top of your deck equal to the number of cheers on your stage. for each holomem revealed among them, this arts gets +20 and restore 20 hp to 1 of your holomem. then, return the revealed cards to deck and shuffle it."
   },
