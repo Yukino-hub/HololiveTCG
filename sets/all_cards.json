@@ -16838,15 +16838,15 @@
     "rarity": "OSR",
     "lives": 5,
     "color": "White",
-    "oshiStageSkill": "鉄の胃袋大魔神 : All of your <Oozora Subaru> require -1 white for their Arts.",
+    "oshiStageSkill": "秩序を守る署長 : All of your <Oozora Subaru> require -1 white for their Arts.",
     "oshiSkill": {
-      "name": "あふれる牛丼愛",
+      "name": "大空警察出動！",
       "power": 2,
       "description": "[1/Turn] Choose 1 holomem on your opponent's stage. Reveal 1 holomem <Oozora Subaru> from your deck with the same bloom level as the chosen holomem, and place it on stage. Then, shuffle the deck."
     },
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "oozora subaru hbp09-001 鉄の胃袋大魔神 : all of your <oozora subaru> require -1 white for their arts. あふれる牛丼愛 [1/turn] choose 1 holomem on your opponent's stage. reveal 1 holomem <oozora subaru> from your deck with the same bloom level as the chosen holomem, and place it on stage. then, shuffle the deck."
+    "searchString": "oozora subaru hbp09-001 秩序を守る署長 : all of your <oozora subaru> require -1 white for their arts. 大空警察出動！ [1/turn] choose 1 holomem on your opponent's stage. reveal 1 holomem <oozora subaru> from your deck with the same bloom level as the chosen holomem, and place it on stage. then, shuffle the deck."
   },
   {
     "cardNumber": "hBP09-002",
@@ -16854,16 +16854,16 @@
     "rarity": "OSR",
     "lives": 5,
     "color": "White",
-    "oshiStageSkill": "TO THE FORGE NOW : [1/Turn] When your <Todoroki Hajime> uses baton pass, put the top card of your deck to holo Power.",
+    "oshiStageSkill": "目指せ、宇宙一の番長！ : [1/Turn] When your <Todoroki Hajime> uses baton pass, put the top card of your deck to holo Power.",
     "oshiSkill": {
-      "name": "レアアイテムを発見せよ！",
+      "name": "ウケたらなお好し、スベるも好し",
       "power": "X",
       "description": "[1/Turn] Choose your center <Todoroki Hajime>. During this turn, the chosen holomem gets Arts+10 for each holo Power archived for this ability. Additionally, if you archived 7 or more, during this turn, all <Todoroki Hajime> on your stage get Arts+100."
     },
     "hasSigned": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "todoroki hajime hbp09-002 to the forge now : [1/turn] when your <todoroki hajime> uses baton pass, put the top card of your deck to holo power. レアアイテムを発見せよ！ [1/turn] choose your center <todoroki hajime>. during this turn, the chosen holomem gets arts+10 for each holo power archived for this ability. additionally, if you archived 7 or more, during this turn, all <todoroki hajime> on your stage get arts+100."
+    "searchString": "todoroki hajime hbp09-002 目指せ、宇宙一の番長！ : [1/turn] when your <todoroki hajime> uses baton pass, put the top card of your deck to holo power. ウケたらなお好し、スベるも好し [1/turn] choose your center <todoroki hajime>. during this turn, the chosen holomem gets arts+10 for each holo power archived for this ability. additionally, if you archived 7 or more, during this turn, all <todoroki hajime> on your stage get arts+100."
   },
   {
     "cardNumber": "hBP09-003",
@@ -16871,16 +16871,16 @@
     "rarity": "OSR",
     "lives": 5,
     "color": "Green",
-    "oshiStageSkill": "魔弾の射手 : [1/Turn] When you use <Beef Bowl>, send the top card of your cheer deck to your <Shirogane Noel>. Additionally, if a 2nd holomem is on your stage, draw 1 card.",
+    "oshiStageSkill": "鉄の胃袋大魔神 : [1/Turn] When you use <Beef Bowl>, send the top card of your cheer deck to your <Shirogane Noel>. Additionally, if a 2nd holomem is on your stage, draw 1 card.",
     "oshiSkill": {
-      "name": "とびっきりオーバーなショット",
+      "name": "あふれる牛丼愛",
       "power": 2,
       "description": "[1/Turn] Send 1 cheer from your archive to your <Shirogane Noel>. If you have 3 or more <Beef Bowl> in your archive, send 1~2 cheers from your archive divided as you choose to your <Shirogane Noel> instead."
     },
     "hasSigned": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "shirogane noel hbp09-003 魔弾の射手 : [1/turn] when you use <beef bowl>, send the top card of your cheer deck to your <shirogane noel>. additionally, if a 2nd holomem is on your stage, draw 1 card. とびっきりオーバーなショット [1/turn] send 1 cheer from your archive to your <shirogane noel>. if you have 3 or more <beef bowl> in your archive, send 1~2 cheers from your archive divided as you choose to your <shirogane noel> instead."
+    "searchString": "shirogane noel hbp09-003 鉄の胃袋大魔神 : [1/turn] when you use <beef bowl>, send the top card of your cheer deck to your <shirogane noel>. additionally, if a 2nd holomem is on your stage, draw 1 card. あふれる牛丼愛 [1/turn] send 1 cheer from your archive to your <shirogane noel>. if you have 3 or more <beef bowl> in your archive, send 1~2 cheers from your archive divided as you choose to your <shirogane noel> instead."
   },
   {
     "cardNumber": "hBP09-004",
@@ -16890,14 +16890,14 @@
     "color": "Red",
     "oshiStageSkill": "TO THE FORGE NOW : [1/Turn] When you attach a tool with #Kaela's Arms to <Kaela Kovalskia>, draw 2 cards.",
     "oshiSkill": {
-      "name": "伝説の美（ヴィ）",
+      "name": "レアアイテムを発見せよ！",
       "power": 2,
       "description": "[1/Turn] Archive 2 tools with #Kaela's Arms on your stage. If you archived 2 cards this way, deal 100 special damage to your opponent's [center holomem or collab holomem] other than Debut."
     },
     "hasSigned": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "kaela kovalskia hbp09-004 to the forge now : [1/turn] when you attach a tool with #kaela's arms to <kaela kovalskia>, draw 2 cards. 伝説の美（ヴィ） [1/turn] archive 2 tools with #kaela's arms on your stage. if you archived 2 cards this way, deal 100 special damage to your opponent's [center holomem or collab holomem] other than debut."
+    "searchString": "kaela kovalskia hbp09-004 to the forge now : [1/turn] when you attach a tool with #kaela's arms to <kaela kovalskia>, draw 2 cards. レアアイテムを発見せよ！ [1/turn] archive 2 tools with #kaela's arms on your stage. if you archived 2 cards this way, deal 100 special damage to your opponent's [center holomem or collab holomem] other than debut."
   },
   {
     "cardNumber": "hBP09-005",
@@ -16905,15 +16905,15 @@
     "rarity": "OSR",
     "lives": 5,
     "color": "Blue",
-    "oshiStageSkill": "至福のひととき : [1/Turn] After your center <Tokoyami Towa> uses Arts, you may use another differently-named Arts from that holomem.",
+    "oshiStageSkill": "魔弾の射手 : [1/Turn] After your center <Tokoyami Towa> uses Arts, you may use another differently-named Arts from that holomem.",
     "oshiSkill": {
-      "name": "愛するものに囲まれて",
+      "name": "とびっきりオーバーなショット",
       "power": 2,
       "description": "[1/Turn] Usable at the end of your performance phase: Draw 1 card for each time your holomem with #Singing used Arts this turn."
     },
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "tokoyami towa hbp09-005 至福のひととき : [1/turn] after your center <tokoyami towa> uses arts, you may use another differently-named arts from that holomem. 愛するものに囲まれて [1/turn] usable at the end of your performance phase: draw 1 card for each time your holomem with #singing used arts this turn."
+    "searchString": "tokoyami towa hbp09-005 魔弾の射手 : [1/turn] after your center <tokoyami towa> uses arts, you may use another differently-named arts from that holomem. とびっきりオーバーなショット [1/turn] usable at the end of your performance phase: draw 1 card for each time your holomem with #singing used arts this turn."
   },
   {
     "cardNumber": "hBP09-006",
@@ -16922,19 +16922,19 @@
     "lives": 5,
     "color": "Purple",
     "oshiSkill": {
-      "name": "Legendary Beauty (V)",
+      "name": "伝説の美（ヴィ）",
       "power": 2,
       "description": "[1/Turn] Draw 3 cards, and your opponent draws 2 cards."
     },
     "spOshiSkill": {
-      "name": "Nice Vivi! Charming Vivi! Cool Vivi!",
+      "name": "ナイヴィヴィ！イケヴィヴィ！カッコヴィヴィ！",
       "power": 3,
       "description": "[1/Game] If your center holomem is a 2nd holomem <Kikirara Vivi>, return all cards in both players' hands and all holomem and support cards in both players' archives to the decks, and shuffle the decks. Then, both players draw 7 cards."
     },
     "hasSigned": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "kikirara vivi hbp09-006 legendary beauty (v) [1/turn] draw 3 cards, and your opponent draws 2 cards. nice vivi! charming vivi! cool vivi! [1/game] if your center holomem is a 2nd holomem <kikirara vivi>, return all cards in both players' hands and all holomem and support cards in both players' archives to the decks, and shuffle the decks. then, both players draw 7 cards."
+    "searchString": "kikirara vivi hbp09-006 伝説の美（ヴィ） [1/turn] draw 3 cards, and your opponent draws 2 cards. ナイヴィヴィ！イケヴィヴィ！カッコヴィヴィ！ [1/game] if your center holomem is a 2nd holomem <kikirara vivi>, return all cards in both players' hands and all holomem and support cards in both players' archives to the decks, and shuffle the decks. then, both players draw 7 cards."
   },
   {
     "cardNumber": "hBP09-007",
@@ -16942,15 +16942,15 @@
     "rarity": "OSR",
     "lives": 5,
     "color": "Yellow",
-    "oshiStageSkill": "A Moment of Bliss : All <Yukihana Lamy> on your stage get Arts+20. While you have 5 or more support card with #Lamy's Alcohol in your archive, all <Yukihana Lamy> on your stage get Arts+50 instead.",
+    "oshiStageSkill": "至福のひととき : All <Yukihana Lamy> on your stage get Arts+20. While you have 5 or more support card with #Lamy's Alcohol in your archive, all <Yukihana Lamy> on your stage get Arts+50 instead.",
     "oshiSkill": {
-      "name": "Surrounded By Things I Love",
+      "name": "愛するものに囲まれて",
       "power": 2,
       "description": "[1/Turn] Reveal 1~2 support cards with #Lamy's Alcohol from your deck, and add them to your hand. Then, shuffle the deck."
     },
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "yukihana lamy hbp09-007 a moment of bliss : all <yukihana lamy> on your stage get arts+20. while you have 5 or more support card with #lamy's alcohol in your archive, all <yukihana lamy> on your stage get arts+50 instead. surrounded by things i love [1/turn] reveal 1~2 support cards with #lamy's alcohol from your deck, and add them to your hand. then, shuffle the deck."
+    "searchString": "yukihana lamy hbp09-007 至福のひととき : all <yukihana lamy> on your stage get arts+20. while you have 5 or more support card with #lamy's alcohol in your archive, all <yukihana lamy> on your stage get arts+50 instead. 愛するものに囲まれて [1/turn] reveal 1~2 support cards with #lamy's alcohol from your deck, and add them to your hand. then, shuffle the deck."
   },
   {
     "cardNumber": "hBP09-008",
@@ -16960,16 +16960,16 @@
     "hp": 110,
     "color": "White",
     "tag": "#JP #Gen 2 #Bird",
-    "giftEffect": "Casual Subaru : [1/Turn] During your opponent's turn, when this holomem takes 40 or more Arts damage at once, deal 30 special damage to your opponent's center holomem.",
+    "giftEffect": "カジュアルスバル : [1/Turn] During your opponent's turn, when this holomem takes 40 or more Arts damage at once, deal 30 special damage to your opponent's center holomem.",
     "skills": [
       {
-        "name": "ここから盛り上がるっスよ！",
+        "name": "ロング、似合うっスか？",
         "dmg": 30
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "oozora subaru hbp09-008 #jp #gen 2 #bird casual subaru : [1/turn] during your opponent's turn, when this holomem takes 40 or more arts damage at once, deal 30 special damage to your opponent's center holomem. ここから盛り上がるっスよ！ "
+    "searchString": "oozora subaru hbp09-008 #jp #gen 2 #bird カジュアルスバル : [1/turn] during your opponent's turn, when this holomem takes 40 or more arts damage at once, deal 30 special damage to your opponent's center holomem. ロング、似合うっスか？ "
   },
   {
     "cardNumber": "hBP09-009",
@@ -16979,15 +16979,15 @@
     "hp": 130,
     "color": "White",
     "tag": "#JP #Gen 2 #Bird",
-    "collabEffect": "Girly Subaru : If you went second and it is your first turn, during your opponent's next turn, all of your <Oozora Subaru> take -100 Arts damage from your opponent's 1st holomem.",
+    "collabEffect": "ガーリースバル : If you went second and it is your first turn, during your opponent's next turn, all of your <Oozora Subaru> take -100 Arts damage from your opponent's 1st holomem.",
     "skills": [
       {
-        "name": "雨にも負けず風にも負けず",
+        "name": "柔らかな日差し",
         "dmg": 20
       }
     ],
     "setName": "hBP09",
-    "searchString": "oozora subaru hbp09-009 #jp #gen 2 #bird girly subaru : if you went second and it is your first turn, during your opponent's next turn, all of your <oozora subaru> take -100 arts damage from your opponent's 1st holomem. 雨にも負けず風にも負けず "
+    "searchString": "oozora subaru hbp09-009 #jp #gen 2 #bird ガーリースバル : if you went second and it is your first turn, during your opponent's next turn, all of your <oozora subaru> take -100 arts damage from your opponent's 1st holomem. 柔らかな日差し "
   },
   {
     "cardNumber": "hBP09-010",
@@ -16997,17 +16997,17 @@
     "hp": 170,
     "color": "White",
     "tag": "#JP #Gen 2 #Bird",
-    "collabEffect": "Increasing Tension : Draw 2 cards, and return 2 cards from your hand to the bottom of your deck in any order.",
+    "collabEffect": "高まるテンション : Draw 2 cards, and return 2 cards from your hand to the bottom of your deck in any order.",
     "skills": [
       {
-        "name": "もつのおかわりください",
+        "name": "ここから盛り上がるっスよ！",
         "dmg": 30,
         "description": "Archive 1 tool on your opponent's stage."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "oozora subaru hbp09-010 #jp #gen 2 #bird increasing tension : draw 2 cards, and return 2 cards from your hand to the bottom of your deck in any order. もつのおかわりください archive 1 tool on your opponent's stage."
+    "searchString": "oozora subaru hbp09-010 #jp #gen 2 #bird 高まるテンション : draw 2 cards, and return 2 cards from your hand to the bottom of your deck in any order. ここから盛り上がるっスよ！ archive 1 tool on your opponent's stage."
   },
   {
     "cardNumber": "hBP09-011",
@@ -17017,17 +17017,17 @@
     "hp": 180,
     "color": "White",
     "tag": "#JP #Gen 2 #Bird",
-    "giftEffect": "Sunshine In the Rain : [1/Turn] During your opponent's turn, when this holomem takes 100 or more Arts damage at once, draw 2 cards.",
+    "giftEffect": "雨中のお日様 : [1/Turn] During your opponent's turn, when this holomem takes 100 or more Arts damage at once, draw 2 cards.",
     "skills": [
       {
-        "name": "リラックスホリデー",
+        "name": "雨にも負けず風にも負けず",
         "dmg": 40,
         "description": "Draw 1 card."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "oozora subaru hbp09-011 #jp #gen 2 #bird sunshine in the rain : [1/turn] during your opponent's turn, when this holomem takes 100 or more arts damage at once, draw 2 cards. リラックスホリデー draw 1 card."
+    "searchString": "oozora subaru hbp09-011 #jp #gen 2 #bird 雨中のお日様 : [1/turn] during your opponent's turn, when this holomem takes 100 or more arts damage at once, draw 2 cards. 雨にも負けず風にも負けず draw 1 card."
   },
   {
     "cardNumber": "hBP09-012",
@@ -17037,17 +17037,17 @@
     "hp": 160,
     "color": "White",
     "tag": "#JP #Gen 2 #Bird",
-    "bloomEffect": "BIG3 Gathering side S : If your Oshi holomem is <Oozora Subaru> and your opponent has 2 or more cards in holo Power, put the top card of your deck as holo Power. You may only use Bloom Effect \"BIG3 Gathering side S\" once per turn.",
+    "bloomEffect": "BIG3懇親会 side S : If your Oshi holomem is <Oozora Subaru> and your opponent has 2 or more cards in holo Power, put the top card of your deck as holo Power. You may only use Bloom Effect \"BIG3 Gathering side S\" once per turn.",
     "skills": [
       {
-        "name": "沈まない太陽",
+        "name": "もつのおかわりください",
         "dmg": "80+",
         "description": "If your holomem was downed during your opponent's previous turn, this Arts gets +50."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "oozora subaru hbp09-012 #jp #gen 2 #bird big3 gathering side s : if your oshi holomem is <oozora subaru> and your opponent has 2 or more cards in holo power, put the top card of your deck as holo power. you may only use bloom effect \"big3 gathering side s\" once per turn. 沈まない太陽 if your holomem was downed during your opponent's previous turn, this arts gets +50."
+    "searchString": "oozora subaru hbp09-012 #jp #gen 2 #bird big3懇親会 side s : if your oshi holomem is <oozora subaru> and your opponent has 2 or more cards in holo power, put the top card of your deck as holo power. you may only use bloom effect \"big3 gathering side s\" once per turn. もつのおかわりください if your holomem was downed during your opponent's previous turn, this arts gets +50."
   },
   {
     "cardNumber": "hBP09-013",
@@ -17057,16 +17057,16 @@
     "hp": 190,
     "color": "White",
     "tag": "#JP #Gen 2 #Bird",
-    "collabEffect": "Chick-Style Roomwear : Reveal 1 [<Oozora Police> or <Speeding Violation>] from your deck, and add it to your hand. Shuffle your deck.",
+    "collabEffect": "ひよこお部屋着 : Reveal 1 [<Oozora Police> or <Speeding Violation>] from your deck, and add it to your hand. Shuffle your deck.",
     "skills": [
       {
-        "name": "軽やかなステップ",
+        "name": "リラックスホリデー",
         "dmg": "100, +50 vs red"
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "oozora subaru hbp09-013 #jp #gen 2 #bird chick-style roomwear : reveal 1 [<oozora police> or <speeding violation>] from your deck, and add it to your hand. shuffle your deck. 軽やかなステップ "
+    "searchString": "oozora subaru hbp09-013 #jp #gen 2 #bird ひよこお部屋着 : reveal 1 [<oozora police> or <speeding violation>] from your deck, and add it to your hand. shuffle your deck. リラックスホリデー "
   },
   {
     "cardNumber": "hBP09-014",
@@ -17076,10 +17076,10 @@
     "hp": 200,
     "color": "White",
     "tag": "#JP #Gen 2 #Bird",
-    "giftEffect": "I'm Confiscating That! : [1/Turn] During your opponent's turn, when this holomem takes 200 or more Arts damage at once, your opponent returns all of their center holomem's cheers to the bottom of their cheer deck in any order.",
+    "giftEffect": "それ、没収っスよ！ : [1/Turn] During your opponent's turn, when this holomem takes 200 or more Arts damage at once, your opponent returns all of their center holomem's cheers to the bottom of their cheer deck in any order.",
     "skills": [
       {
-        "name": "先陣を切る！",
+        "name": "沈まない太陽",
         "dmg": "160+, +50 vs purple",
         "description": "This Arts gets +40 for each of your holomem that was downed during your opponent's previous turn."
       }
@@ -17087,7 +17087,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "oozora subaru hbp09-014 #jp #gen 2 #bird i'm confiscating that! : [1/turn] during your opponent's turn, when this holomem takes 200 or more arts damage at once, your opponent returns all of their center holomem's cheers to the bottom of their cheer deck in any order. 先陣を切る！ this arts gets +40 for each of your holomem that was downed during your opponent's previous turn."
+    "searchString": "oozora subaru hbp09-014 #jp #gen 2 #bird それ、没収っスよ！ : [1/turn] during your opponent's turn, when this holomem takes 200 or more arts damage at once, your opponent returns all of their center holomem's cheers to the bottom of their cheer deck in any order. 沈まない太陽 this arts gets +40 for each of your holomem that was downed during your opponent's previous turn."
   },
   {
     "cardNumber": "hBP09-015",
@@ -17097,17 +17097,17 @@
     "hp": 130,
     "color": "White",
     "tag": "#DEV_IS #ReGLOSS #Baby",
-    "giftEffect": "喧騒の中の密事 : While there are 3 or more holomem on your stage, this holomem requires -1 colorless for its baton pass.",
+    "giftEffect": "たゆまぬダンストレーニング : While there are 3 or more holomem on your stage, this holomem requires -1 colorless for its baton pass.",
     "skills": [
       {
-        "name": "待ち合わせの角で",
+        "name": "軽やかなステップ",
         "dmg": "20+",
         "description": "If your holomem has used baton pass this turn, this Arts gets +20."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "todoroki hajime hbp09-015 #dev_is #regloss #baby 喧騒の中の密事 : while there are 3 or more holomem on your stage, this holomem requires -1 colorless for its baton pass. 待ち合わせの角で if your holomem has used baton pass this turn, this arts gets +20."
+    "searchString": "todoroki hajime hbp09-015 #dev_is #regloss #baby たゆまぬダンストレーニング : while there are 3 or more holomem on your stage, this holomem requires -1 colorless for its baton pass. 軽やかなステップ if your holomem has used baton pass this turn, this arts gets +20."
   },
   {
     "cardNumber": "hBP09-016",
@@ -17117,15 +17117,15 @@
     "hp": 110,
     "color": "White",
     "tag": "#DEV_IS #ReGLOSS #Baby",
-    "collabEffect": "Hajime's Competitive Spirit : If you went second and it is your first turn, reveal 2 <Todoroki Hajime> that each require 1 colorless for their baton pass from your deck, and add them to your hand. Then, shuffle your deck.",
+    "collabEffect": "はじめの負けん気 : If you went second and it is your first turn, reveal 2 <Todoroki Hajime> that each require 1 colorless for their baton pass from your deck, and add them to your hand. Then, shuffle your deck.",
     "skills": [
       {
-        "name": "おちょなびたふくそー",
+        "name": "先陣を切る！",
         "dmg": 30
       }
     ],
     "setName": "hBP09",
-    "searchString": "todoroki hajime hbp09-016 #dev_is #regloss #baby hajime's competitive spirit : if you went second and it is your first turn, reveal 2 <todoroki hajime> that each require 1 colorless for their baton pass from your deck, and add them to your hand. then, shuffle your deck. おちょなびたふくそー "
+    "searchString": "todoroki hajime hbp09-016 #dev_is #regloss #baby はじめの負けん気 : if you went second and it is your first turn, reveal 2 <todoroki hajime> that each require 1 colorless for their baton pass from your deck, and add them to your hand. then, shuffle your deck. 先陣を切る！ "
   },
   {
     "cardNumber": "hBP09-017",
@@ -17135,16 +17135,16 @@
     "hp": 160,
     "color": "White",
     "tag": "#DEV_IS #ReGLOSS #Baby",
-    "giftEffect": "A Secret amidst the Hustle and Bustle : This holomem takes -30 Arts damage.",
+    "giftEffect": "喧騒の中の密事 : This holomem takes -30 Arts damage.",
     "skills": [
       {
-        "name": "ぶんぶんばんちょー",
+        "name": "待ち合わせの角で",
         "dmg": 30
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "todoroki hajime hbp09-017 #dev_is #regloss #baby a secret amidst the hustle and bustle : this holomem takes -30 arts damage. ぶんぶんばんちょー "
+    "searchString": "todoroki hajime hbp09-017 #dev_is #regloss #baby 喧騒の中の密事 : this holomem takes -30 arts damage. 待ち合わせの角で "
   },
   {
     "cardNumber": "hBP09-018",
@@ -17154,17 +17154,17 @@
     "hp": 150,
     "color": "White",
     "tag": "#DEV_IS #ReGLOSS #Baby",
-    "bloomEffect": "Hajime’s Jacket : [Center Position Only] Draw 2 cards.",
+    "bloomEffect": "はじめのジャケット : [Center Position Only] Draw 2 cards.",
     "skills": [
       {
-        "name": "悟ればいいんだ！",
+        "name": "おちょなびたふくそー",
         "dmg": "30+",
         "description": "[Collab Position Only] This Arts gets +20."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "todoroki hajime hbp09-018 #dev_is #regloss #baby hajime’s jacket : [center position only] draw 2 cards. 悟ればいいんだ！ [collab position only] this arts gets +20."
+    "searchString": "todoroki hajime hbp09-018 #dev_is #regloss #baby はじめのジャケット : [center position only] draw 2 cards. おちょなびたふくそー [collab position only] this arts gets +20."
   },
   {
     "cardNumber": "hBP09-019",
@@ -17174,17 +17174,17 @@
     "hp": 170,
     "color": "White",
     "tag": "#DEV_IS #ReGLOSS #Baby",
-    "bloomEffect": "Hajime's Luv : [Back Position Only] Choose 1 holomem on your stage. During this turn, the chosen holomem requires -2 colorless for its baton pass.",
+    "bloomEffect": "はじめの愛チャ : [Back Position Only] Choose 1 holomem on your stage. During this turn, the chosen holomem requires -2 colorless for its baton pass.",
     "skills": [
       {
-        "name": "尽きることなき情熱",
+        "name": "ぶんぶんばんちょー",
         "dmg": "40+",
         "description": "[Center Position Only] If your holomem has used baton pass this turn, this Arts gets +20."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "todoroki hajime hbp09-019 #dev_is #regloss #baby hajime's luv : [back position only] choose 1 holomem on your stage. during this turn, the chosen holomem requires -2 colorless for its baton pass. 尽きることなき情熱 [center position only] if your holomem has used baton pass this turn, this arts gets +20."
+    "searchString": "todoroki hajime hbp09-019 #dev_is #regloss #baby はじめの愛チャ : [back position only] choose 1 holomem on your stage. during this turn, the chosen holomem requires -2 colorless for its baton pass. ぶんぶんばんちょー [center position only] if your holomem has used baton pass this turn, this arts gets +20."
   },
   {
     "cardNumber": "hBP09-020",
@@ -17194,17 +17194,17 @@
     "hp": 190,
     "color": "White",
     "tag": "#DEV_IS #ReGLOSS #Baby",
-    "giftEffect": "A Bizarre and Unexpected Board : This holomem does not rest during the Reset Phase.",
+    "giftEffect": "奇想天外な盤面 : This holomem does not rest during the Reset Phase.",
     "skills": [
       {
-        "name": "花がきれいだねぇ",
+        "name": "悟ればいいんだ！",
         "dmg": "60, +50 vs purple",
         "description": "[Collab Position Only] During this turn, your center holomem requires -1 white for its Arts."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "todoroki hajime hbp09-020 #dev_is #regloss #baby a bizarre and unexpected board : this holomem does not rest during the reset phase. 花がきれいだねぇ [collab position only] during this turn, your center holomem requires -1 white for its arts."
+    "searchString": "todoroki hajime hbp09-020 #dev_is #regloss #baby 奇想天外な盤面 : this holomem does not rest during the reset phase. 悟ればいいんだ！ [collab position only] during this turn, your center holomem requires -1 white for its arts."
   },
   {
     "cardNumber": "hBP09-021",
@@ -17214,10 +17214,10 @@
     "hp": 200,
     "color": "White",
     "tag": "#DEV_IS #ReGLOSS #Baby",
-    "giftEffect": "ゴシックゼータ : When this holomem downs your opponent's holomem, put the top card of your deck as holo Power.",
+    "giftEffect": "ストイックダンサー : When this holomem downs your opponent's holomem, put the top card of your deck as holo Power.",
     "skills": [
       {
-        "name": "漆黒の諜報",
+        "name": "尽きることなき情熱",
         "dmg": "80+, +50 vs red",
         "description": "If your holomem has used baton pass this turn, this Arts gets +80."
       }
@@ -17225,7 +17225,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "todoroki hajime hbp09-021 #dev_is #regloss #baby ゴシックゼータ : when this holomem downs your opponent's holomem, put the top card of your deck as holo power. 漆黒の諜報 if your holomem has used baton pass this turn, this arts gets +80."
+    "searchString": "todoroki hajime hbp09-021 #dev_is #regloss #baby ストイックダンサー : when this holomem downs your opponent's holomem, put the top card of your deck as holo power. 尽きることなき情熱 if your holomem has used baton pass this turn, this arts gets +80."
   },
   {
     "cardNumber": "hBP09-022",
@@ -17235,17 +17235,17 @@
     "hp": 210,
     "color": "White",
     "tag": "#JP #Gen 4 #Kemomimi #Singing",
-    "bloomEffect": "Watamate's Paradise : Choose 1 holomem on your opponent's stage. If you have 10 or more holo Power, during this turn, the chosen holomem is regarded as a 2nd holomem.",
+    "bloomEffect": "わためいとの楽園 : Choose 1 holomem on your opponent's stage. If you have 10 or more holo Power, during this turn, the chosen holomem is regarded as a 2nd holomem.",
     "skills": [
       {
-        "name": "リーダーへのお返し",
+        "name": "花がきれいだねぇ",
         "dmg": "100+, +50 vs purple",
         "description": "If you have 4 or more holo Power, this Arts gets +50."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "tsunomaki watame hbp09-022 #jp #gen 4 #kemomimi #singing watamate's paradise : choose 1 holomem on your opponent's stage. if you have 10 or more holo power, during this turn, the chosen holomem is regarded as a 2nd holomem. リーダーへのお返し if you have 4 or more holo power, this arts gets +50."
+    "searchString": "tsunomaki watame hbp09-022 #jp #gen 4 #kemomimi #singing わためいとの楽園 : choose 1 holomem on your opponent's stage. if you have 10 or more holo power, during this turn, the chosen holomem is regarded as a 2nd holomem. 花がきれいだねぇ if you have 4 or more holo power, this arts gets +50."
   },
   {
     "cardNumber": "hBP09-023",
@@ -17256,17 +17256,17 @@
     "buzz": true,
     "color": "White",
     "tag": "#ID #ID Gen 3",
-    "giftEffect": "カジュアルノエル : When this holomem downs your opponent's holomem, if your Oshi holomem is <Vestia Zeta>, roll a die twice. If the total rolled is equal to the total of both players' life, your opponent gets life-1.",
+    "giftEffect": "ゴシックゼータ : When this holomem downs your opponent's holomem, if your Oshi holomem is <Vestia Zeta>, roll a die twice. If the total rolled is equal to the total of both players' life, your opponent gets life-1.",
     "skills": [
       {
-        "name": "今日はプライベート！",
+        "name": "漆黒の諜報",
         "dmg": "120+",
         "description": "[Center Position Only] If you used your Oshi skill \"Good Luck, holoh3ro!\" this turn, this Arts gets +80."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "vestia zeta hbp09-023 #id #id gen 3 カジュアルノエル : when this holomem downs your opponent's holomem, if your oshi holomem is <vestia zeta>, roll a die twice. if the total rolled is equal to the total of both players' life, your opponent gets life-1. 今日はプライベート！ [center position only] if you used your oshi skill \"good luck, holoh3ro!\" this turn, this arts gets +80."
+    "searchString": "vestia zeta hbp09-023 #id #id gen 3 ゴシックゼータ : when this holomem downs your opponent's holomem, if your oshi holomem is <vestia zeta>, roll a die twice. if the total rolled is equal to the total of both players' life, your opponent gets life-1. 漆黒の諜報 [center position only] if you used your oshi skill \"good luck, holoh3ro!\" this turn, this arts gets +80."
   },
   {
     "cardNumber": "hBP09-024",
@@ -17277,18 +17277,18 @@
     "buzz": true,
     "color": "White",
     "tag": "#DEV_IS #FLOW GLOW",
-    "giftEffect": "A Shy Smile : [Center Position Only] All cheer colors required for the Arts of your collab holomem with #FLOW GLOW are set to colorless.",
+    "giftEffect": "照れ隠しの微笑 : [Center Position Only] All cheer colors required for the Arts of your collab holomem with #FLOW GLOW are set to colorless.",
     "extraEffect": "If this holomem is downed, you get life-2",
     "skills": [
       {
-        "name": "慈愛の鉄槌",
+        "name": "リーダーへのお返し",
         "dmg": "70+",
         "description": "[Center Position Only] If you have <Koganei Niko>, <Mizumiya Su>, <Rindo Chihaya> and <Kikirara Vivi> on your stage, this Arts gets +100."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "isaki riona hbp09-024 #dev_is #flow glow a shy smile : [center position only] all cheer colors required for the arts of your collab holomem with #flow glow are set to colorless. if this holomem is downed, you get life-2 慈愛の鉄槌 [center position only] if you have <koganei niko>, <mizumiya su>, <rindo chihaya> and <kikirara vivi> on your stage, this arts gets +100."
+    "searchString": "isaki riona hbp09-024 #dev_is #flow glow 照れ隠しの微笑 : [center position only] all cheer colors required for the arts of your collab holomem with #flow glow are set to colorless. if this holomem is downed, you get life-2 リーダーへのお返し [center position only] if you have <koganei niko>, <mizumiya su>, <rindo chihaya> and <kikirara vivi> on your stage, this arts gets +100."
   },
   {
     "cardNumber": "hBP09-025",
@@ -17298,16 +17298,16 @@
     "hp": 130,
     "color": "Green",
     "tag": "#JP #Gen 3 #Alcohol",
-    "giftEffect": "団長出陣！ : If your Oshi holomem has an Oshi Stage Skill, this holomem gets +20 HP.",
+    "giftEffect": "カジュアルノエル : If your Oshi holomem has an Oshi Stage Skill, this holomem gets +20 HP.",
     "skills": [
       {
-        "name": "優しくて力持ち！",
+        "name": "今日はプライベート！",
         "dmg": 20
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "shirogane noel hbp09-025 #jp #gen 3 #alcohol 団長出陣！ : if your oshi holomem has an oshi stage skill, this holomem gets +20 hp. 優しくて力持ち！ "
+    "searchString": "shirogane noel hbp09-025 #jp #gen 3 #alcohol カジュアルノエル : if your oshi holomem has an oshi stage skill, this holomem gets +20 hp. 今日はプライベート！ "
   },
   {
     "cardNumber": "hBP09-026",
@@ -17317,15 +17317,15 @@
     "hp": 140,
     "color": "Green",
     "tag": "#JP #Gen 3 #Alcohol",
-    "collabEffect": "Muscle Grace : If you went second and it is your first turn, reveal 1 [Debut holomem <Shirogane Noel> and/or <Beef Bowl>] each from your deck, and add them to your hand. Then, shuffle your deck.",
+    "collabEffect": "マッスル・グレイス : If you went second and it is your first turn, reveal 1 [Debut holomem <Shirogane Noel> and/or <Beef Bowl>] each from your deck, and add them to your hand. Then, shuffle your deck.",
     "skills": [
       {
-        "name": "銀聖騎士団集合！",
+        "name": "慈愛の鉄槌",
         "dmg": 20
       }
     ],
     "setName": "hBP09",
-    "searchString": "shirogane noel hbp09-026 #jp #gen 3 #alcohol muscle grace : if you went second and it is your first turn, reveal 1 [debut holomem <shirogane noel> and/or <beef bowl>] each from your deck, and add them to your hand. then, shuffle your deck. 銀聖騎士団集合！ "
+    "searchString": "shirogane noel hbp09-026 #jp #gen 3 #alcohol マッスル・グレイス : if you went second and it is your first turn, reveal 1 [debut holomem <shirogane noel> and/or <beef bowl>] each from your deck, and add them to your hand. then, shuffle your deck. 慈愛の鉄槌 "
   },
   {
     "cardNumber": "hBP09-027",
@@ -17335,16 +17335,16 @@
     "hp": 160,
     "color": "Green",
     "tag": "#JP #Gen 3 #Alcohol",
-    "giftEffect": "Commander Goes to Battle! : While this holomem's HP is not reduced, this holomem takes -50 Arts damage from your opponent's 1st holomem.",
+    "giftEffect": "団長出陣！ : While this holomem's HP is not reduced, this holomem takes -50 Arts damage from your opponent's 1st holomem.",
     "skills": [
       {
-        "name": "BIG3懇親会 side N",
+        "name": "優しくて力持ち！",
         "dmg": 40
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "shirogane noel hbp09-027 #jp #gen 3 #alcohol commander goes to battle! : while this holomem's hp is not reduced, this holomem takes -50 arts damage from your opponent's 1st holomem. big3懇親会 side n "
+    "searchString": "shirogane noel hbp09-027 #jp #gen 3 #alcohol 団長出陣！ : while this holomem's hp is not reduced, this holomem takes -50 arts damage from your opponent's 1st holomem. 優しくて力持ち！ "
   },
   {
     "cardNumber": "hBP09-028",
@@ -17354,16 +17354,16 @@
     "hp": 150,
     "color": "Green",
     "tag": "#JP #Gen 3 #Alcohol",
-    "bloomEffect": "Noel's Adventure : Reveal 1 <Beef Bowl> from your deck, and add it to your hand. Shuffle your deck.",
+    "bloomEffect": "ノエルの冒険 : Reveal 1 <Beef Bowl> from your deck, and add it to your hand. Shuffle your deck.",
     "skills": [
       {
-        "name": "頼もしき筋力",
+        "name": "銀聖騎士団集合！",
         "dmg": 30
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "shirogane noel hbp09-028 #jp #gen 3 #alcohol noel's adventure : reveal 1 <beef bowl> from your deck, and add it to your hand. shuffle your deck. 頼もしき筋力 "
+    "searchString": "shirogane noel hbp09-028 #jp #gen 3 #alcohol ノエルの冒険 : reveal 1 <beef bowl> from your deck, and add it to your hand. shuffle your deck. 銀聖騎士団集合！ "
   },
   {
     "cardNumber": "hBP09-029",
@@ -17376,14 +17376,14 @@
     "tag": "#JP #Gen 3 #Alcohol",
     "skills": [
       {
-        "name": "牛丼は～飲み物！",
+        "name": "BIG3懇親会 side N",
         "dmg": 100,
         "description": "Reveal 1 2nd <Shirogane Noel> from your deck, and add it to your hand. Shuffle your deck."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "shirogane noel hbp09-029 #jp #gen 3 #alcohol 牛丼は～飲み物！ reveal 1 2nd <shirogane noel> from your deck, and add it to your hand. shuffle your deck."
+    "searchString": "shirogane noel hbp09-029 #jp #gen 3 #alcohol big3懇親会 side n reveal 1 2nd <shirogane noel> from your deck, and add it to your hand. shuffle your deck."
   },
   {
     "cardNumber": "hBP09-030",
@@ -17393,17 +17393,17 @@
     "hp": 220,
     "color": "Green",
     "tag": "#JP #Gen 3 #Alcohol",
-    "collabEffect": "黒髪のケモミミ少女 : Restore 10 HP to 1 of your holomem for each <Beef Bowl> in your archive.",
+    "collabEffect": "白銀聖騎士団を背負う者 : Restore 10 HP to 1 of your holomem for each <Beef Bowl> in your archive.",
     "skills": [
       {
-        "name": "いってみぉーん",
+        "name": "頼もしき筋力",
         "dmg": "100+, +50 vs yellow",
         "description": "This Arts gets +10 for each <Beef Bowl> in your archive."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "shirogane noel hbp09-030 #jp #gen 3 #alcohol 黒髪のケモミミ少女 : restore 10 hp to 1 of your holomem for each <beef bowl> in your archive. いってみぉーん this arts gets +10 for each <beef bowl> in your archive."
+    "searchString": "shirogane noel hbp09-030 #jp #gen 3 #alcohol 白銀聖騎士団を背負う者 : restore 10 hp to 1 of your holomem for each <beef bowl> in your archive. 頼もしき筋力 this arts gets +10 for each <beef bowl> in your archive."
   },
   {
     "cardNumber": "hBP09-031",
@@ -17413,10 +17413,10 @@
     "hp": 220,
     "color": "Green",
     "tag": "#JP #Gen 3 #Alcohol",
-    "giftEffect": "Road to the Ultimate Beef Bowl : [1/Turn] This holomem restores +100 HP from the ability of <Beef Bowl>.",
+    "giftEffect": "究極の牛丼道 : [1/Turn] This holomem restores +100 HP from the ability of <Beef Bowl>.",
     "skills": [
       {
-        "name": "火照る湯あみ",
+        "name": "牛丼は～飲み物！",
         "dmg": "10+, +50 vs blue",
         "description": "If your Oshi holomem is <Shirogane Noel> and this holomem has 200 or more HP remaining, this Arts gets +200."
       }
@@ -17424,7 +17424,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "shirogane noel hbp09-031 #jp #gen 3 #alcohol road to the ultimate beef bowl : [1/turn] this holomem restores +100 hp from the ability of <beef bowl>. 火照る湯あみ if your oshi holomem is <shirogane noel> and this holomem has 200 or more hp remaining, this arts gets +200."
+    "searchString": "shirogane noel hbp09-031 #jp #gen 3 #alcohol 究極の牛丼道 : [1/turn] this holomem restores +100 hp from the ability of <beef bowl>. 牛丼は～飲み物！ if your oshi holomem is <shirogane noel> and this holomem has 200 or more hp remaining, this arts gets +200."
   },
   {
     "cardNumber": "hBP09-032",
@@ -17434,16 +17434,16 @@
     "hp": 100,
     "color": "Green",
     "tag": "#JP #GAMERS #Kemomimi #Cooking",
-    "collabEffect": "ミオしゃの行く道 : You may reveal 1 [Mascot or Fan] from your hand and return it to the top of your deck: Send the top card of your cheer deck to your holomem with #GAMERS.",
+    "collabEffect": "黒髪のケモミミ少女 : You may reveal 1 [Mascot or Fan] from your hand and return it to the top of your deck: Send the top card of your cheer deck to your holomem with #GAMERS.",
     "skills": [
       {
-        "name": "うちと一緒にいこう！",
+        "name": "いってみぉーん",
         "dmg": 20
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "ookami mio hbp09-032 #jp #gamers #kemomimi #cooking ミオしゃの行く道 : you may reveal 1 [mascot or fan] from your hand and return it to the top of your deck: send the top card of your cheer deck to your holomem with #gamers. うちと一緒にいこう！ "
+    "searchString": "ookami mio hbp09-032 #jp #gamers #kemomimi #cooking 黒髪のケモミミ少女 : you may reveal 1 [mascot or fan] from your hand and return it to the top of your deck: send the top card of your cheer deck to your holomem with #gamers. いってみぉーん "
   },
   {
     "cardNumber": "hBP09-033",
@@ -17453,16 +17453,16 @@
     "hp": 170,
     "color": "Green",
     "tag": "#JP #GAMERS #Kemomimi #Cooking",
-    "bloomEffect": "癒しの空間 : You may archive the top card of your deck: If the archived card is a support card, send the top card of your cheer deck to your holomem.",
+    "bloomEffect": "濡れ髪ミオしゃ : You may archive the top card of your deck: If the archived card is a support card, send the top card of your cheer deck to your holomem.",
     "skills": [
       {
-        "name": "料理は愛情",
+        "name": "火照る湯あみ",
         "dmg": 50
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "ookami mio hbp09-033 #jp #gamers #kemomimi #cooking 癒しの空間 : you may archive the top card of your deck: if the archived card is a support card, send the top card of your cheer deck to your holomem. 料理は愛情 "
+    "searchString": "ookami mio hbp09-033 #jp #gamers #kemomimi #cooking 濡れ髪ミオしゃ : you may archive the top card of your deck: if the archived card is a support card, send the top card of your cheer deck to your holomem. 火照る湯あみ "
   },
   {
     "cardNumber": "hBP09-034",
@@ -17473,17 +17473,17 @@
     "buzz": true,
     "color": "Green",
     "tag": "#JP #GAMERS #Kemomimi #Cooking",
-    "collabEffect": "百万一心 : You may return a total of 2 [mascot and fan] from your archive to the top of your deck in any order: Restore 100 HP to 1 of your holomem.",
+    "collabEffect": "ミオしゃの行く道 : You may return a total of 2 [mascot and fan] from your archive to the top of your deck in any order: Restore 100 HP to 1 of your holomem.",
     "extraEffect": "If this holomem is downed, you get life-2",
     "skills": [
       {
-        "name": "助太刀、感謝でござる！",
+        "name": "うちと一緒にいこう！",
         "dmg": 110
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "ookami mio hbp09-034 #jp #gamers #kemomimi #cooking 百万一心 : you may return a total of 2 [mascot and fan] from your archive to the top of your deck in any order: restore 100 hp to 1 of your holomem. if this holomem is downed, you get life-2 助太刀、感謝でござる！ "
+    "searchString": "ookami mio hbp09-034 #jp #gamers #kemomimi #cooking ミオしゃの行く道 : you may return a total of 2 [mascot and fan] from your archive to the top of your deck in any order: restore 100 hp to 1 of your holomem. if this holomem is downed, you get life-2 うちと一緒にいこう！ "
   },
   {
     "cardNumber": "hBP09-035",
@@ -17493,10 +17493,10 @@
     "hp": 210,
     "color": "Green",
     "tag": "#JP #GAMERS #Kemomimi #Cooking",
-    "bloomEffect": "Healing Space : If your Oshi holomem is <Ookami Mio>, draw 3 cards and return 2 cards from your hand to the top of your deck in any order.",
+    "bloomEffect": "癒しの空間 : If your Oshi holomem is <Ookami Mio>, draw 3 cards and return 2 cards from your hand to the top of your deck in any order.",
     "skills": [
       {
-        "name": "Victory Feast",
+        "name": "料理は愛情",
         "dmg": "180+, +50 vs blue",
         "description": "You may archive the top 2 cards of your deck: Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+30 for each support card archived."
       }
@@ -17504,7 +17504,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "ookami mio hbp09-035 #jp #gamers #kemomimi #cooking healing space : if your oshi holomem is <ookami mio>, draw 3 cards and return 2 cards from your hand to the top of your deck in any order. victory feast you may archive the top 2 cards of your deck: choose 1 holomem on your stage. during this turn, the chosen holomem gets arts+30 for each support card archived."
+    "searchString": "ookami mio hbp09-035 #jp #gamers #kemomimi #cooking 癒しの空間 : if your oshi holomem is <ookami mio>, draw 3 cards and return 2 cards from your hand to the top of your deck in any order. 料理は愛情 you may archive the top 2 cards of your deck: choose 1 holomem on your stage. during this turn, the chosen holomem gets arts+30 for each support card archived."
   },
   {
     "cardNumber": "hBP09-036",
@@ -17514,17 +17514,17 @@
     "hp": 160,
     "color": "Green",
     "tag": "#JP #holoX",
-    "collabEffect": "Blacksmith : Choose 1 <AZKi> on your stage. Send 1 cheer with the same color as the chosen holomem from your cheer deck to that holomem. Shuffle your cheer deck.",
+    "collabEffect": "百万一心 : Choose 1 <AZKi> on your stage. Send 1 cheer with the same color as the chosen holomem from your cheer deck to that holomem. Shuffle your cheer deck.",
     "skills": [
       {
-        "name": "鍛冶にかける想い",
+        "name": "助太刀、感謝でござる！",
         "dmg": "20+",
         "description": "This Arts gets +20 for each cheer attached to your center <AZKi>."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "kazama iroha hbp09-036 #jp #holox blacksmith : choose 1 <azki> on your stage. send 1 cheer with the same color as the chosen holomem from your cheer deck to that holomem. shuffle your cheer deck. 鍛冶にかける想い this arts gets +20 for each cheer attached to your center <azki>."
+    "searchString": "kazama iroha hbp09-036 #jp #holox 百万一心 : choose 1 <azki> on your stage. send 1 cheer with the same color as the chosen holomem from your cheer deck to that holomem. shuffle your cheer deck. 助太刀、感謝でござる！ this arts gets +20 for each cheer attached to your center <azki>."
   },
   {
     "cardNumber": "hBP09-037",
@@ -17537,14 +17537,14 @@
     "giftEffect": "Fantastic Driver : If this holomem downed your opponent's holomem, choose 1 of your back holomem with #FLOW GLOW. You may return all of the chosen holomem's stacked holomem including that holomem to your hand.",
     "skills": [
       {
-        "name": "資材集めはお任せ！",
+        "name": "Victory Feast",
         "dmg": "80+, +50 vs yellow",
         "description": "If your Oshi holomem is <Rindo Chihaya>, this Arts gets +30 for each holomem other than Debut on your stage."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "rindo chihaya hbp09-037 #dev_is #flow glow fantastic driver : if this holomem downed your opponent's holomem, choose 1 of your back holomem with #flow glow. you may return all of the chosen holomem's stacked holomem including that holomem to your hand. 資材集めはお任せ！ if your oshi holomem is <rindo chihaya>, this arts gets +30 for each holomem other than debut on your stage."
+    "searchString": "rindo chihaya hbp09-037 #dev_is #flow glow fantastic driver : if this holomem downed your opponent's holomem, choose 1 of your back holomem with #flow glow. you may return all of the chosen holomem's stacked holomem including that holomem to your hand. victory feast if your oshi holomem is <rindo chihaya>, this arts gets +30 for each holomem other than debut on your stage."
   },
   {
     "cardNumber": "hBP09-038",
@@ -17554,16 +17554,16 @@
     "hp": 110,
     "color": "Red",
     "tag": "#ID #ID Gen 3",
-    "collabEffect": "クレーバーな仕事人 : If this holomem has a tool attached, draw 1 card.",
+    "collabEffect": "Blacksmith : If this holomem has a tool attached, draw 1 card.",
     "skills": [
       {
-        "name": "終わらぬ探求",
+        "name": "鍛冶にかける想い",
         "dmg": 30
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "kaela kovalskia hbp09-038 #id #id gen 3 クレーバーな仕事人 : if this holomem has a tool attached, draw 1 card. 終わらぬ探求 "
+    "searchString": "kaela kovalskia hbp09-038 #id #id gen 3 blacksmith : if this holomem has a tool attached, draw 1 card. 鍛冶にかける想い "
   },
   {
     "cardNumber": "hBP09-039",
@@ -17573,15 +17573,15 @@
     "hp": 130,
     "color": "Red",
     "tag": "#ID #ID Gen 3",
-    "collabEffect": "Workaholic! : If you went second and it is your first turn, reveal 2 tools from your deck, and add them to your hand. Shuffle your deck.",
+    "collabEffect": "Workaholic！ : If you went second and it is your first turn, reveal 2 tools from your deck, and add them to your hand. Shuffle your deck.",
     "skills": [
       {
-        "name": "兼ね備えた冷静と熱意",
+        "name": "資材集めはお任せ！",
         "dmg": 20
       }
     ],
     "setName": "hBP09",
-    "searchString": "kaela kovalskia hbp09-039 #id #id gen 3 workaholic! : if you went second and it is your first turn, reveal 2 tools from your deck, and add them to your hand. shuffle your deck. 兼ね備えた冷静と熱意 "
+    "searchString": "kaela kovalskia hbp09-039 #id #id gen 3 workaholic！ : if you went second and it is your first turn, reveal 2 tools from your deck, and add them to your hand. shuffle your deck. 資材集めはお任せ！ "
   },
   {
     "cardNumber": "hBP09-040",
@@ -17591,16 +17591,16 @@
     "hp": 180,
     "color": "Red",
     "tag": "#ID #ID Gen 3",
-    "collabEffect": "Clever Professional : You may return 1 tool with #Kaela's Arms from your archive to your hand.",
+    "collabEffect": "クレーバーな仕事人 : You may return 1 tool with #Kaela's Arms from your archive to your hand.",
     "skills": [
       {
-        "name": "木立にひそむ神秘",
+        "name": "終わらぬ探求",
         "dmg": 40
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "kaela kovalskia hbp09-040 #id #id gen 3 clever professional : you may return 1 tool with #kaela's arms from your archive to your hand. 木立にひそむ神秘 "
+    "searchString": "kaela kovalskia hbp09-040 #id #id gen 3 クレーバーな仕事人 : you may return 1 tool with #kaela's arms from your archive to your hand. 終わらぬ探求 "
   },
   {
     "cardNumber": "hBP09-041",
@@ -17610,17 +17610,17 @@
     "hp": 170,
     "color": "Red",
     "tag": "#ID #ID Gen 3",
-    "giftEffect": "Artisan with Beautiful Attire : While this holomem has a tool with #Kaela's Arms attached, this holomem requires -1 red for its Arts.",
+    "giftEffect": "美しき装いの職人 : While this holomem has a tool with #Kaela's Arms attached, this holomem requires -1 red for its Arts.",
     "skills": [
       {
-        "name": "Vacation on Islands",
+        "name": "兼ね備えた冷静と熱意",
         "dmg": "30+",
         "description": "If your Buzz holomem or 2nd holomem has a tool with #Kaela's Arms attached, this Arts gets +20."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "kaela kovalskia hbp09-041 #id #id gen 3 artisan with beautiful attire : while this holomem has a tool with #kaela's arms attached, this holomem requires -1 red for its arts. vacation on islands if your buzz holomem or 2nd holomem has a tool with #kaela's arms attached, this arts gets +20."
+    "searchString": "kaela kovalskia hbp09-041 #id #id gen 3 美しき装いの職人 : while this holomem has a tool with #kaela's arms attached, this holomem requires -1 red for its arts. 兼ね備えた冷静と熱意 if your buzz holomem or 2nd holomem has a tool with #kaela's arms attached, this arts gets +20."
   },
   {
     "cardNumber": "hBP09-042",
@@ -17631,18 +17631,18 @@
     "buzz": true,
     "color": "Red",
     "tag": "#ID #ID Gen 3",
-    "giftEffect": "師から受け継ぎしもの : If this holomem downed your opponent's holomem, return 1 holomem from your archive to your hand.",
+    "giftEffect": "森の賢者 : If this holomem downed your opponent's holomem, return 1 holomem from your archive to your hand.",
     "extraEffect": "If this holomem is downed, you get life-2",
     "skills": [
       {
-        "name": "鍛冶屋の本懐",
+        "name": "木立にひそむ神秘",
         "dmg": 70,
         "description": "Attach 1 tool with #Kaela's Arms from your archive to this holomem."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "kaela kovalskia hbp09-042 #id #id gen 3 師から受け継ぎしもの : if this holomem downed your opponent's holomem, return 1 holomem from your archive to your hand. if this holomem is downed, you get life-2 鍛冶屋の本懐 attach 1 tool with #kaela's arms from your archive to this holomem."
+    "searchString": "kaela kovalskia hbp09-042 #id #id gen 3 森の賢者 : if this holomem downed your opponent's holomem, return 1 holomem from your archive to your hand. if this holomem is downed, you get life-2 木立にひそむ神秘 attach 1 tool with #kaela's arms from your archive to this holomem."
   },
   {
     "cardNumber": "hBP09-043",
@@ -17655,14 +17655,14 @@
     "collabEffect": "Happy Summer Days : If you have 2 or more tools with #Kaela's Arms on your stage, send 1 cheer from your archive to your holomem.",
     "skills": [
       {
-        "name": "おいしいお菓子を作る！",
+        "name": "Vacation on Islands",
         "dmg": "60, +50 vs yellow",
         "description": "Deal 30 special damage to your opponent's collab holomem."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "kaela kovalskia hbp09-043 #id #id gen 3 happy summer days : if you have 2 or more tools with #kaela's arms on your stage, send 1 cheer from your archive to your holomem. おいしいお菓子を作る！ deal 30 special damage to your opponent's collab holomem."
+    "searchString": "kaela kovalskia hbp09-043 #id #id gen 3 happy summer days : if you have 2 or more tools with #kaela's arms on your stage, send 1 cheer from your archive to your holomem. vacation on islands deal 30 special damage to your opponent's collab holomem."
   },
   {
     "cardNumber": "hBP09-044",
@@ -17672,10 +17672,10 @@
     "hp": 200,
     "color": "Red",
     "tag": "#ID #ID Gen 3",
-    "giftEffect": "What I Inherited from My Master : While this holomem has a tool attached, you may attach up to 1 additional tool with #Kaela's Arms to this holomem.",
+    "giftEffect": "師から受け継ぎしもの : While this holomem has a tool attached, you may attach up to 1 additional tool with #Kaela's Arms to this holomem.",
     "skills": [
       {
-        "name": "鬼の宴",
+        "name": "鍛冶屋の本懐",
         "dmg": "100+, +50 vs green",
         "description": "If a tool with #Kaela's Arms is attached to this holomem, this Arts gets +60."
       }
@@ -17683,7 +17683,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "kaela kovalskia hbp09-044 #id #id gen 3 what i inherited from my master : while this holomem has a tool attached, you may attach up to 1 additional tool with #kaela's arms to this holomem. 鬼の宴 if a tool with #kaela's arms is attached to this holomem, this arts gets +60."
+    "searchString": "kaela kovalskia hbp09-044 #id #id gen 3 師から受け継ぎしもの : while this holomem has a tool attached, you may attach up to 1 additional tool with #kaela's arms to this holomem. 鍛冶屋の本懐 if a tool with #kaela's arms is attached to this holomem, this arts gets +60."
   },
   {
     "cardNumber": "hBP09-045",
@@ -17693,17 +17693,17 @@
     "hp": 200,
     "color": "Red",
     "tag": "#JP #Gen 1 #Cooking",
-    "bloomEffect": "Sweet Haachama : Roll a die once. If it is odd, deal 30 special damage to your opponent's center holomem. If it is even, draw 2 cards.",
+    "bloomEffect": "スイートはあちゃま : Roll a die once. If it is odd, deal 30 special damage to your opponent's center holomem. If it is even, draw 2 cards.",
     "skills": [
       {
-        "name": "風船はいかが？",
+        "name": "おいしいお菓子を作る！",
         "dmg": "170, +50 vs yellow",
         "description": "Place 1 Debut <Akai Haato> from your archive on your stage."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "akai haato hbp09-045 #jp #gen 1 #cooking sweet haachama : roll a die once. if it is odd, deal 30 special damage to your opponent's center holomem. if it is even, draw 2 cards. 風船はいかが？ place 1 debut <akai haato> from your archive on your stage."
+    "searchString": "akai haato hbp09-045 #jp #gen 1 #cooking スイートはあちゃま : roll a die once. if it is odd, deal 30 special damage to your opponent's center holomem. if it is even, draw 2 cards. おいしいお菓子を作る！ place 1 debut <akai haato> from your archive on your stage."
   },
   {
     "cardNumber": "hBP09-046",
@@ -17713,16 +17713,16 @@
     "hp": 110,
     "color": "Red",
     "tag": "#JP #Gen 2 #Shooter",
-    "collabEffect": "Oni's Play : You may archive the top card of your cheer deck: Search 1 Debut holomem <Nakiri Ayame> from your deck, and place it on your stage. Shuffle your deck.",
+    "collabEffect": "鬼の戯れ : You may archive the top card of your cheer deck: Search 1 Debut holomem <Nakiri Ayame> from your deck, and place it on your stage. Shuffle your deck.",
     "skills": [
       {
-        "name": "ボクと楽しもうよ！",
+        "name": "鬼の宴",
         "dmg": 20
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "nakiri ayame hbp09-046 #jp #gen 2 #shooter oni's play : you may archive the top card of your cheer deck: search 1 debut holomem <nakiri ayame> from your deck, and place it on your stage. shuffle your deck. ボクと楽しもうよ！ "
+    "searchString": "nakiri ayame hbp09-046 #jp #gen 2 #shooter 鬼の戯れ : you may archive the top card of your cheer deck: search 1 debut holomem <nakiri ayame> from your deck, and place it on your stage. shuffle your deck. 鬼の宴 "
   },
   {
     "cardNumber": "hBP09-047",
@@ -17735,14 +17735,14 @@
     "collabEffect": "FUNNY RAT : If your center is <Oozora Subaru>, draw 1 card.",
     "skills": [
       {
-        "name": "しらばっくれるな！",
+        "name": "風船はいかが？",
         "dmg": "20+",
         "description": "If <Oozora Subaru> is on your stage, this Arts gets +20."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "hakos baelz hbp09-047 #en #promise #kemomimi funny rat : if your center is <oozora subaru>, draw 1 card. しらばっくれるな！ if <oozora subaru> is on your stage, this arts gets +20."
+    "searchString": "hakos baelz hbp09-047 #en #promise #kemomimi funny rat : if your center is <oozora subaru>, draw 1 card. 風船はいかが？ if <oozora subaru> is on your stage, this arts gets +20."
   },
   {
     "cardNumber": "hBP09-048",
@@ -17755,14 +17755,14 @@
     "bloomEffect": "CHAOTIC INVITATION : If your Oshi holomem is <Oozora Subaru>, reveal 1 1st holomem <Oozora Subaru> and 1 1st holomem <Hakos Baelz> from your deck, and add them to your hand. Shuffle your deck.",
     "skills": [
       {
-        "name": "ネズミの大捕り物",
+        "name": "ボクと楽しもうよ！",
         "dmg": 30,
         "description": "Roll a die once. If it is odd, deal 20 special damage to your opponent's collab holomem."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "hakos baelz hbp09-048 #en #promise #kemomimi chaotic invitation : if your oshi holomem is <oozora subaru>, reveal 1 1st holomem <oozora subaru> and 1 1st holomem <hakos baelz> from your deck, and add them to your hand. shuffle your deck. ネズミの大捕り物 roll a die once. if it is odd, deal 20 special damage to your opponent's collab holomem."
+    "searchString": "hakos baelz hbp09-048 #en #promise #kemomimi chaotic invitation : if your oshi holomem is <oozora subaru>, reveal 1 1st holomem <oozora subaru> and 1 1st holomem <hakos baelz> from your deck, and add them to your hand. shuffle your deck. ボクと楽しもうよ！ roll a die once. if it is odd, deal 20 special damage to your opponent's collab holomem."
   },
   {
     "cardNumber": "hBP09-049",
@@ -17772,17 +17772,17 @@
     "hp": 190,
     "color": "Red",
     "tag": "#EN #Promise #Kemomimi",
-    "giftEffect": "Heated Interrogation : If your Oshi holomem is <Oozora Subaru>, this holomem's Arts require -3 colorless.",
+    "giftEffect": "熱き取り調べ : If your Oshi holomem is <Oozora Subaru>, this holomem's Arts require -3 colorless.",
     "skills": [
       {
-        "name": "愛され系小悪魔",
+        "name": "しらばっくれるな！",
         "dmg": "80, +50 vs green",
         "description": "If your Oshi holomem is <Oozora Subaru>, return 1 [<Oozora Subaru> or <Hakos Baelz>] from your archive to your hand."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "hakos baelz hbp09-049 #en #promise #kemomimi heated interrogation : if your oshi holomem is <oozora subaru>, this holomem's arts require -3 colorless. 愛され系小悪魔 if your oshi holomem is <oozora subaru>, return 1 [<oozora subaru> or <hakos baelz>] from your archive to your hand."
+    "searchString": "hakos baelz hbp09-049 #en #promise #kemomimi 熱き取り調べ : if your oshi holomem is <oozora subaru>, this holomem's arts require -3 colorless. しらばっくれるな！ if your oshi holomem is <oozora subaru>, return 1 [<oozora subaru> or <hakos baelz>] from your archive to your hand."
   },
   {
     "cardNumber": "hBP09-050",
@@ -17792,10 +17792,10 @@
     "hp": 200,
     "color": "Red",
     "tag": "#EN #Promise #Kemomimi",
-    "collabEffect": "配信終わりのひととき : If your Oshi holomem is <Oozora Subaru>, choose 1 of your opponent's back holomem. Swap your opponent's collab holomem and the chosen holomem. If your opponent has no collab holomem, move the chosen holomem to the collab position instead.",
+    "collabEffect": "大空警察国際部代表 : If your Oshi holomem is <Oozora Subaru>, choose 1 of your opponent's back holomem. Swap your opponent's collab holomem and the chosen holomem. If your opponent has no collab holomem, move the chosen holomem to the collab position instead.",
     "skills": [
       {
-        "name": "この後なにしよっか？",
+        "name": "ネズミの大捕り物",
         "dmg": "100+, +50 vs purple",
         "description": "This Arts gets +20 for each <Oozora Subaru> on your stage."
       }
@@ -17803,7 +17803,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "hakos baelz hbp09-050 #en #promise #kemomimi 配信終わりのひととき : if your oshi holomem is <oozora subaru>, choose 1 of your opponent's back holomem. swap your opponent's collab holomem and the chosen holomem. if your opponent has no collab holomem, move the chosen holomem to the collab position instead. この後なにしよっか？ this arts gets +20 for each <oozora subaru> on your stage."
+    "searchString": "hakos baelz hbp09-050 #en #promise #kemomimi 大空警察国際部代表 : if your oshi holomem is <oozora subaru>, choose 1 of your opponent's back holomem. swap your opponent's collab holomem and the chosen holomem. if your opponent has no collab holomem, move the chosen holomem to the collab position instead. ネズミの大捕り物 this arts gets +20 for each <oozora subaru> on your stage."
   },
   {
     "cardNumber": "hBP09-051",
@@ -17815,18 +17815,18 @@
     "tag": "#JP #Gen 4 #Singing #Shooter",
     "skills": [
       {
-        "name": "ストリートトワ",
+        "name": "愛され系小悪魔",
         "dmg": 20
       },
       {
-        "name": "常闇眷属と過ごすひととき",
+        "name": "こういうのもいいでしょ？",
         "dmg": 30,
         "description": "You may reattach 1 cheer from this holomem to your back holomem with #Singing."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "tokoyami towa hbp09-051 #jp #gen 4 #singing #shooter ストリートトワ  常闇眷属と過ごすひととき you may reattach 1 cheer from this holomem to your back holomem with #singing."
+    "searchString": "tokoyami towa hbp09-051 #jp #gen 4 #singing #shooter 愛され系小悪魔  こういうのもいいでしょ？ you may reattach 1 cheer from this holomem to your back holomem with #singing."
   },
   {
     "cardNumber": "hBP09-052",
@@ -17836,15 +17836,15 @@
     "hp": 130,
     "color": "Blue",
     "tag": "#JP #Gen 4 #Singing #Shooter",
-    "collabEffect": "That Moment at the End of the Stream : If you went second and it is your first turn, send the top card of your cheer deck to your <Tokoyami Towa>.",
+    "collabEffect": "配信終わりのひととき : If you went second and it is your first turn, send the top card of your cheer deck to your <Tokoyami Towa>.",
     "skills": [
       {
-        "name": "情熱のパレット",
+        "name": "この後なにしよっか？",
         "dmg": 30
       }
     ],
     "setName": "hBP09",
-    "searchString": "tokoyami towa hbp09-052 #jp #gen 4 #singing #shooter that moment at the end of the stream : if you went second and it is your first turn, send the top card of your cheer deck to your <tokoyami towa>. 情熱のパレット "
+    "searchString": "tokoyami towa hbp09-052 #jp #gen 4 #singing #shooter 配信終わりのひととき : if you went second and it is your first turn, send the top card of your cheer deck to your <tokoyami towa>. この後なにしよっか？ "
   },
   {
     "cardNumber": "hBP09-053",
@@ -17856,17 +17856,17 @@
     "tag": "#JP #Gen 4 #Singing #Shooter",
     "skills": [
       {
-        "name": "小悪魔のほほ笑み",
+        "name": "ストリートトワ",
         "dmg": 30
       },
       {
-        "name": "今、寝てたでしょ～？",
+        "name": "常闇眷属と過ごすひととき",
         "dmg": 80
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "tokoyami towa hbp09-053 #jp #gen 4 #singing #shooter 小悪魔のほほ笑み  今、寝てたでしょ～？ "
+    "searchString": "tokoyami towa hbp09-053 #jp #gen 4 #singing #shooter ストリートトワ  常闇眷属と過ごすひととき "
   },
   {
     "cardNumber": "hBP09-054",
@@ -17876,17 +17876,17 @@
     "hp": 160,
     "color": "Blue",
     "tag": "#JP #Gen 4 #Singing #Shooter",
-    "bloomEffect": "Brilliant Violet : Send the top card of your cheer deck to your <Tokoyami Towa>.",
+    "bloomEffect": "華麗なバイオレット : Send the top card of your cheer deck to your <Tokoyami Towa>.",
     "skills": [
       {
-        "name": "闘志あふれるファイター",
+        "name": "情熱のパレット",
         "dmg": 30,
         "description": "If a 2nd holomem with #Singing is on your stage, deal 20 special damage to 1 of your opponent's holomem."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "tokoyami towa hbp09-054 #jp #gen 4 #singing #shooter brilliant violet : send the top card of your cheer deck to your <tokoyami towa>. 闘志あふれるファイター if a 2nd holomem with #singing is on your stage, deal 20 special damage to 1 of your opponent's holomem."
+    "searchString": "tokoyami towa hbp09-054 #jp #gen 4 #singing #shooter 華麗なバイオレット : send the top card of your cheer deck to your <tokoyami towa>. 情熱のパレット if a 2nd holomem with #singing is on your stage, deal 20 special damage to 1 of your opponent's holomem."
   },
   {
     "cardNumber": "hBP09-055",
@@ -17898,18 +17898,18 @@
     "tag": "#JP #Gen 4 #Singing #Shooter",
     "skills": [
       {
-        "name": "魔界学校の優等生",
+        "name": "小悪魔のほほ笑み",
         "dmg": 20
       },
       {
-        "name": "一人前の悪魔になるために",
+        "name": "今、寝てたでしょ～？",
         "dmg": 50,
         "description": "If this is the second Arts you have used this turn, you may reattach 1 of this holomem's cheers to your other holomem with #Singing."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "tokoyami towa hbp09-055 #jp #gen 4 #singing #shooter 魔界学校の優等生  一人前の悪魔になるために if this is the second arts you have used this turn, you may reattach 1 of this holomem's cheers to your other holomem with #singing."
+    "searchString": "tokoyami towa hbp09-055 #jp #gen 4 #singing #shooter 小悪魔のほほ笑み  今、寝てたでしょ～？ if this is the second arts you have used this turn, you may reattach 1 of this holomem's cheers to your other holomem with #singing."
   },
   {
     "cardNumber": "hBP09-056",
@@ -17921,19 +17921,19 @@
     "tag": "#JP #Gen 4 #Singing #Shooter",
     "skills": [
       {
-        "name": "猫とまどろむ夜",
+        "name": "闘志あふれるファイター",
         "dmg": "40, +50 vs red",
         "description": "Send 1 cheer from your archive to your holomem with #Singing."
       },
       {
-        "name": "Impact Achieved through Rigorous Training",
+        "name": "研鑽の果ての一撃",
         "dmg": "50, +50 vs red",
         "description": "If this is the second Arts you have used this turn, put the top card of your deck as holo Power."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "tokoyami towa hbp09-056 #jp #gen 4 #singing #shooter 猫とまどろむ夜 send 1 cheer from your archive to your holomem with #singing. impact achieved through rigorous training if this is the second arts you have used this turn, put the top card of your deck as holo power."
+    "searchString": "tokoyami towa hbp09-056 #jp #gen 4 #singing #shooter 闘志あふれるファイター send 1 cheer from your archive to your holomem with #singing. 研鑽の果ての一撃 if this is the second arts you have used this turn, put the top card of your deck as holo power."
   },
   {
     "cardNumber": "hBP09-057",
@@ -17945,12 +17945,12 @@
     "tag": "#JP #Gen 4 #Singing #Shooter",
     "skills": [
       {
-        "name": "魂揺らすシャウト",
+        "name": "魔界学校の優等生",
         "dmg": "70, +50 vs white",
         "description": "If this is the second Arts you have used this turn, look at the top four cards of your deck. Reveal 1 support card from among them, and add it to your hand. Return the remaining cards to the bottom of your deck in any order."
       },
       {
-        "name": "To Become a Full-Fledged Devil",
+        "name": "一人前の悪魔になるために",
         "dmg": "100, +50 vs white",
         "description": "If this is the third Arts you have used this turn, deal 50 special damage to 1 of your opponent's holomem."
       }
@@ -17958,7 +17958,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "tokoyami towa hbp09-057 #jp #gen 4 #singing #shooter 魂揺らすシャウト if this is the second arts you have used this turn, look at the top four cards of your deck. reveal 1 support card from among them, and add it to your hand. return the remaining cards to the bottom of your deck in any order. to become a full-fledged devil if this is the third arts you have used this turn, deal 50 special damage to 1 of your opponent's holomem."
+    "searchString": "tokoyami towa hbp09-057 #jp #gen 4 #singing #shooter 魔界学校の優等生 if this is the second arts you have used this turn, look at the top four cards of your deck. reveal 1 support card from among them, and add it to your hand. return the remaining cards to the bottom of your deck in any order. 一人前の悪魔になるために if this is the third arts you have used this turn, deal 50 special damage to 1 of your opponent's holomem."
   },
   {
     "cardNumber": "hBP09-058",
@@ -17968,17 +17968,17 @@
     "hp": 150,
     "color": "Blue",
     "tag": "#JP #GAMERS #Kemomimi",
-    "bloomEffect": "大人びた大学生 : If your Oshi holomem is <Nekomata Okayu>, send the top card of your cheer deck to your <Nekomata Okayu>.",
+    "bloomEffect": "ほろ酔いおかゆん : If your Oshi holomem is <Nekomata Okayu>, send the top card of your cheer deck to your <Nekomata Okayu>.",
     "skills": [
       {
-        "name": "今日はお姉さんモード",
+        "name": "猫とまどろむ夜",
         "dmg": 30,
         "description": "Deal 10 special damage to 1 of your opponent's holomem."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "nekomata okayu hbp09-058 #jp #gamers #kemomimi 大人びた大学生 : if your oshi holomem is <nekomata okayu>, send the top card of your cheer deck to your <nekomata okayu>. 今日はお姉さんモード deal 10 special damage to 1 of your opponent's holomem."
+    "searchString": "nekomata okayu hbp09-058 #jp #gamers #kemomimi ほろ酔いおかゆん : if your oshi holomem is <nekomata okayu>, send the top card of your cheer deck to your <nekomata okayu>. 猫とまどろむ夜 deal 10 special damage to 1 of your opponent's holomem."
   },
   {
     "cardNumber": "hBP09-059",
@@ -17988,16 +17988,16 @@
     "hp": 130,
     "color": "Blue",
     "tag": "#ID #ID Gen 1 #Singing",
-    "giftEffect": "Moon Singer : During your opponent's turn, if your <Moona Hoshinova> is downed, send the top card of your cheer deck to your back holomem with #ID Gen 1 other than this holomem. You may only use Gift \"Moon Singer\" once per turn.",
+    "giftEffect": "月の歌い手 : During your opponent's turn, if your <Moona Hoshinova> is downed, send the top card of your cheer deck to your back holomem with #ID Gen 1 other than this holomem. You may only use Gift \"Moon Singer\" once per turn.",
     "skills": [
       {
-        "name": "月影照らす道標",
+        "name": "魂揺らすシャウト",
         "dmg": 30
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "moona hoshinova hbp09-059 #id #id gen 1 #singing moon singer : during your opponent's turn, if your <moona hoshinova> is downed, send the top card of your cheer deck to your back holomem with #id gen 1 other than this holomem. you may only use gift \"moon singer\" once per turn. 月影照らす道標 "
+    "searchString": "moona hoshinova hbp09-059 #id #id gen 1 #singing 月の歌い手 : during your opponent's turn, if your <moona hoshinova> is downed, send the top card of your cheer deck to your back holomem with #id gen 1 other than this holomem. you may only use gift \"moon singer\" once per turn. 魂揺らすシャウト "
   },
   {
     "cardNumber": "hBP09-060",
@@ -18007,17 +18007,17 @@
     "hp": 140,
     "color": "Blue",
     "tag": "#ID #ID Gen 1 #Singing",
-    "bloomEffect": "Mature College Student : Look at the top 3 cards of your deck. Reveal 1 holomem with #ID Gen 1 from among them, and add it to your hand. Then, return the remaining cards to the bottom of your deck in any order.",
+    "bloomEffect": "大人びた大学生 : Look at the top 3 cards of your deck. Reveal 1 holomem with #ID Gen 1 from among them, and add it to your hand. Then, return the remaining cards to the bottom of your deck in any order.",
     "skills": [
       {
-        "name": "魅惑の佇まい",
+        "name": "今日はお姉さんモード",
         "dmg": 50,
         "description": "Deal 10 special damage to your opponent's center holomem and collab holomem."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "moona hoshinova hbp09-060 #id #id gen 1 #singing mature college student : look at the top 3 cards of your deck. reveal 1 holomem with #id gen 1 from among them, and add it to your hand. then, return the remaining cards to the bottom of your deck in any order. 魅惑の佇まい deal 10 special damage to your opponent's center holomem and collab holomem."
+    "searchString": "moona hoshinova hbp09-060 #id #id gen 1 #singing 大人びた大学生 : look at the top 3 cards of your deck. reveal 1 holomem with #id gen 1 from among them, and add it to your hand. then, return the remaining cards to the bottom of your deck in any order. 今日はお姉さんモード deal 10 special damage to your opponent's center holomem and collab holomem."
   },
   {
     "cardNumber": "hBP09-061",
@@ -18027,17 +18027,17 @@
     "hp": 180,
     "color": "Blue",
     "tag": "#ID #ID Gen 1 #Singing",
-    "collabEffect": "Moon Goddess : If your Oshi holomem is <Moona Hoshinova>, send the top card of your cheer deck to this holomem.",
+    "collabEffect": "月の女神 : If your Oshi holomem is <Moona Hoshinova>, send the top card of your cheer deck to this holomem.",
     "skills": [
       {
-        "name": "Let's Study Together!",
+        "name": "月影照らす道標",
         "dmg": 80,
         "description": "Reattach 2 of this holomem's cheers to 1 of your back holomem with #ID Gen 1."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "moona hoshinova hbp09-061 #id #id gen 1 #singing moon goddess : if your oshi holomem is <moona hoshinova>, send the top card of your cheer deck to this holomem. let's study together! reattach 2 of this holomem's cheers to 1 of your back holomem with #id gen 1."
+    "searchString": "moona hoshinova hbp09-061 #id #id gen 1 #singing 月の女神 : if your oshi holomem is <moona hoshinova>, send the top card of your cheer deck to this holomem. 月影照らす道標 reattach 2 of this holomem's cheers to 1 of your back holomem with #id gen 1."
   },
   {
     "cardNumber": "hBP09-062",
@@ -18047,10 +18047,10 @@
     "hp": 200,
     "color": "Blue",
     "tag": "#ID #ID Gen 1 #Singing",
-    "giftEffect": "Light That Illuminates the Night : When this holomem downs your opponent's holomem, if there are 5 or more holomem with #ID Gen 1 on your stage, deal 50 special damage to 1 of your opponent's holomem.",
+    "giftEffect": "夜を照らす光 : When this holomem downs your opponent's holomem, if there are 5 or more holomem with #ID Gen 1 on your stage, deal 50 special damage to 1 of your opponent's holomem.",
     "skills": [
       {
-        "name": "もう離せへんで～",
+        "name": "魅惑の佇まい",
         "dmg": "120+, +50 vs red",
         "description": "If your Oshi holomem is <Moona Hoshinova>, you may archive 5 blue cheers from this holomem: This Arts gets +20 for each holomem with #ID Gen 1 on your stage."
       }
@@ -18058,7 +18058,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "moona hoshinova hbp09-062 #id #id gen 1 #singing light that illuminates the night : when this holomem downs your opponent's holomem, if there are 5 or more holomem with #id gen 1 on your stage, deal 50 special damage to 1 of your opponent's holomem. もう離せへんで～ if your oshi holomem is <moona hoshinova>, you may archive 5 blue cheers from this holomem: this arts gets +20 for each holomem with #id gen 1 on your stage."
+    "searchString": "moona hoshinova hbp09-062 #id #id gen 1 #singing 夜を照らす光 : when this holomem downs your opponent's holomem, if there are 5 or more holomem with #id gen 1 on your stage, deal 50 special damage to 1 of your opponent's holomem. 魅惑の佇まい if your oshi holomem is <moona hoshinova>, you may archive 5 blue cheers from this holomem: this arts gets +20 for each holomem with #id gen 1 on your stage."
   },
   {
     "cardNumber": "hBP09-063",
@@ -18071,14 +18071,14 @@
     "bloomEffect": "Student of Time : Draw 1 card from the bottom of your deck. You may only use Bloom Effect \"Student of Time\" once per turn.",
     "skills": [
       {
-        "name": "喜んでくれたらヴィヴィもうれしい！",
+        "name": "Let's Study Together!",
         "dmg": 30,
         "description": "Search 1 [<Boros> or <Kronies>] from your deck, and attach it to your <Ouro Kronii>. Shuffle your deck."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "ouro kronii hbp09-063 #en #promise student of time : draw 1 card from the bottom of your deck. you may only use bloom effect \"student of time\" once per turn. 喜んでくれたらヴィヴィもうれしい！ search 1 [<boros> or <kronies>] from your deck, and attach it to your <ouro kronii>. shuffle your deck."
+    "searchString": "ouro kronii hbp09-063 #en #promise student of time : draw 1 card from the bottom of your deck. you may only use bloom effect \"student of time\" once per turn. let's study together! search 1 [<boros> or <kronies>] from your deck, and attach it to your <ouro kronii>. shuffle your deck."
   },
   {
     "cardNumber": "hBP09-064",
@@ -18090,14 +18090,14 @@
     "tag": "#DEV_IS #FLOW GLOW",
     "skills": [
       {
-        "name": "買い物つきあってー！",
+        "name": "もう離せへんで～",
         "dmg": "20+",
         "description": "If your opponent has 4 or more cards in their hand, this Arts gets +20."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "kikirara vivi hbp09-064 #dev_is #flow glow 買い物つきあってー！ if your opponent has 4 or more cards in their hand, this arts gets +20."
+    "searchString": "kikirara vivi hbp09-064 #dev_is #flow glow もう離せへんで～ if your opponent has 4 or more cards in their hand, this arts gets +20."
   },
   {
     "cardNumber": "hBP09-065",
@@ -18107,15 +18107,15 @@
     "hp": 120,
     "color": "Purple",
     "tag": "#DEV_IS #FLOW GLOW",
-    "collabEffect": "Sparkling Present : If you went second and it is your first turn, reveal 2 <Kikirara Vivi> from your deck, and add them to your hand. Shuffle your deck. Your opponent draws 1 card.",
+    "collabEffect": "キラキラなプレゼント : If you went second and it is your first turn, reveal 2 <Kikirara Vivi> from your deck, and add them to your hand. Shuffle your deck. Your opponent draws 1 card.",
     "skills": [
       {
-        "name": "早くこっちに来て～",
+        "name": "喜んでくれたらヴィヴィもうれしい！",
         "dmg": 20
       }
     ],
     "setName": "hBP09",
-    "searchString": "kikirara vivi hbp09-065 #dev_is #flow glow sparkling present : if you went second and it is your first turn, reveal 2 <kikirara vivi> from your deck, and add them to your hand. shuffle your deck. your opponent draws 1 card. 早くこっちに来て～ "
+    "searchString": "kikirara vivi hbp09-065 #dev_is #flow glow キラキラなプレゼント : if you went second and it is your first turn, reveal 2 <kikirara vivi> from your deck, and add them to your hand. shuffle your deck. your opponent draws 1 card. 喜んでくれたらヴィヴィもうれしい！ "
   },
   {
     "cardNumber": "hBP09-066",
@@ -18125,16 +18125,16 @@
     "hp": 160,
     "color": "Purple",
     "tag": "#DEV_IS #FLOW GLOW",
-    "collabEffect": "Lucky-ky Call : During this turn, this holomem gets Arts+20. If your opponent has 7 or more cards in their hand, during this turn, all <Kikirara Vivi> on your stage get Arts+20 instead.",
+    "collabEffect": "ラッキッキーな呼び出し : During this turn, this holomem gets Arts+20. If your opponent has 7 or more cards in their hand, during this turn, all <Kikirara Vivi> on your stage get Arts+20 instead.",
     "skills": [
       {
-        "name": "コスメへのこだわり",
+        "name": "買い物つきあってー！",
         "dmg": 20
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "kikirara vivi hbp09-066 #dev_is #flow glow lucky-ky call : during this turn, this holomem gets arts+20. if your opponent has 7 or more cards in their hand, during this turn, all <kikirara vivi> on your stage get arts+20 instead. コスメへのこだわり "
+    "searchString": "kikirara vivi hbp09-066 #dev_is #flow glow ラッキッキーな呼び出し : during this turn, this holomem gets arts+20. if your opponent has 7 or more cards in their hand, during this turn, all <kikirara vivi> on your stage get arts+20 instead. 買い物つきあってー！ "
   },
   {
     "cardNumber": "hBP09-067",
@@ -18144,16 +18144,16 @@
     "hp": 130,
     "color": "Purple",
     "tag": "#DEV_IS #FLOW GLOW",
-    "bloomEffect": "Sweet Vivi : If your Oshi holomem is <Kikirara Vivi>, draw 2 cards, and your opponent draws 1 card. You may only use Bloom Effect \"Sweet Vivi\" once per turn.",
+    "bloomEffect": "あまあまヴィヴィ : If your Oshi holomem is <Kikirara Vivi>, draw 2 cards, and your opponent draws 1 card. You may only use Bloom Effect \"Sweet Vivi\" once per turn.",
     "skills": [
       {
-        "name": "ヴィヴィはディフェンス推しやで！",
+        "name": "早くこっちに来て～",
         "dmg": 50
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "kikirara vivi hbp09-067 #dev_is #flow glow sweet vivi : if your oshi holomem is <kikirara vivi>, draw 2 cards, and your opponent draws 1 card. you may only use bloom effect \"sweet vivi\" once per turn. ヴィヴィはディフェンス推しやで！ "
+    "searchString": "kikirara vivi hbp09-067 #dev_is #flow glow あまあまヴィヴィ : if your oshi holomem is <kikirara vivi>, draw 2 cards, and your opponent draws 1 card. you may only use bloom effect \"sweet vivi\" once per turn. 早くこっちに来て～ "
   },
   {
     "cardNumber": "hBP09-068",
@@ -18165,18 +18165,18 @@
     "tag": "#DEV_IS #FLOW GLOW",
     "skills": [
       {
-        "name": "ヴィヴェイシャスヴィジョン",
+        "name": "コスメへのこだわり",
         "dmg": 40
       },
       {
-        "name": "Let's Try This One",
+        "name": "これ、試してみようかな",
         "dmg": 60,
         "description": "If <Makeup> is attached to this holomem, reveal 1 holomem with #FLOW GLOW from your deck, and add it to your hand. Shuffle your deck."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "kikirara vivi hbp09-068 #dev_is #flow glow ヴィヴェイシャスヴィジョン  let's try this one if <makeup> is attached to this holomem, reveal 1 holomem with #flow glow from your deck, and add it to your hand. shuffle your deck."
+    "searchString": "kikirara vivi hbp09-068 #dev_is #flow glow コスメへのこだわり  これ、試してみようかな if <makeup> is attached to this holomem, reveal 1 holomem with #flow glow from your deck, and add it to your hand. shuffle your deck."
   },
   {
     "cardNumber": "hBP09-069",
@@ -18186,16 +18186,16 @@
     "hp": 200,
     "color": "Purple",
     "tag": "#DEV_IS #FLOW GLOW",
-    "giftEffect": "12th Player : While your opponent has 7 or more cards in their hand, this holomem takes -50 Arts damage.",
+    "giftEffect": "12人目の選手 : While your opponent has 7 or more cards in their hand, this holomem takes -50 Arts damage.",
     "skills": [
       {
-        "name": "輝く出会い",
+        "name": "ヴィヴィはディフェンス推しやで！",
         "dmg": "100, +50 vs green"
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "kikirara vivi hbp09-069 #dev_is #flow glow 12th player : while your opponent has 7 or more cards in their hand, this holomem takes -50 arts damage. 輝く出会い "
+    "searchString": "kikirara vivi hbp09-069 #dev_is #flow glow 12人目の選手 : while your opponent has 7 or more cards in their hand, this holomem takes -50 arts damage. ヴィヴィはディフェンス推しやで！ "
   },
   {
     "cardNumber": "hBP09-070",
@@ -18205,10 +18205,10 @@
     "hp": 200,
     "color": "Purple",
     "tag": "#DEV_IS #FLOW GLOW",
-    "giftEffect": "Strong Communicator : [Center Position Only] While your opponent has 7 or more cards in their hand, this holomem's Arts require -2 colorless.",
+    "giftEffect": "ストロングコミュニケーター : [Center Position Only] While your opponent has 7 or more cards in their hand, this holomem's Arts require -2 colorless.",
     "skills": [
       {
-        "name": "き花吹雪の祝福",
+        "name": "ヴィヴェイシャスヴィジョン",
         "dmg": "120+, +50 vs yellow",
         "description": "If your opponent has 7 or more cards in their hand, this Arts gets +70. If your opponent has 10 or more cards in their hand, this Arts gets +100 instead."
       }
@@ -18216,7 +18216,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "kikirara vivi hbp09-070 #dev_is #flow glow strong communicator : [center position only] while your opponent has 7 or more cards in their hand, this holomem's arts require -2 colorless. き花吹雪の祝福 if your opponent has 7 or more cards in their hand, this arts gets +70. if your opponent has 10 or more cards in their hand, this arts gets +100 instead."
+    "searchString": "kikirara vivi hbp09-070 #dev_is #flow glow ストロングコミュニケーター : [center position only] while your opponent has 7 or more cards in their hand, this holomem's arts require -2 colorless. ヴィヴェイシャスヴィジョン if your opponent has 7 or more cards in their hand, this arts gets +70. if your opponent has 10 or more cards in their hand, this arts gets +100 instead."
   },
   {
     "cardNumber": "hBP09-071",
@@ -18226,17 +18226,17 @@
     "hp": 160,
     "color": "Purple",
     "tag": "#JP #Gen 0 #Singing",
-    "collabEffect": "Girl on a Pioneering Journey : Choose 1 <Kazama Iroha> on your stage. During this turn, the chosen holomem gets Arts+10 for each of your holo Power.",
+    "collabEffect": "開拓の旅路を歩む少女 : Choose 1 <Kazama Iroha> on your stage. During this turn, the chosen holomem gets Arts+10 for each of your holo Power.",
     "skills": [
       {
-        "name": "魔力の調べ",
+        "name": "輝く出会い",
         "dmg": 40,
         "description": "If <Kazama Iroha> is on your stage, draw 1 card."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "azki hbp09-071 #jp #gen 0 #singing girl on a pioneering journey : choose 1 <kazama iroha> on your stage. during this turn, the chosen holomem gets arts+10 for each of your holo power. 魔力の調べ if <kazama iroha> is on your stage, draw 1 card."
+    "searchString": "azki hbp09-071 #jp #gen 0 #singing 開拓の旅路を歩む少女 : choose 1 <kazama iroha> on your stage. during this turn, the chosen holomem gets arts+10 for each of your holo power. 輝く出会い if <kazama iroha> is on your stage, draw 1 card."
   },
   {
     "cardNumber": "hBP09-072",
@@ -18246,17 +18246,17 @@
     "hp": 160,
     "color": "Purple",
     "tag": "#ID #ID Gen 2 #Language",
-    "bloomEffect": "魔人の秘儀 : If your holomem has bloomed from archive this turn, draw 2 cards. You may only use Bloom Effect \"Danse Macabre\" once per turn.",
+    "bloomEffect": "ダンス・マカブル : If your holomem has bloomed from archive this turn, draw 2 cards. You may only use Bloom Effect \"Danse Macabre\" once per turn.",
     "skills": [
       {
-        "name": "秘儀の加護",
+        "name": "き花吹雪の祝福",
         "dmg": "30+",
         "description": "If your holomem has bloomed from archive this turn, this Arts gets +30."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "kureiji ollie hbp09-072 #id #id gen 2 #language 魔人の秘儀 : if your holomem has bloomed from archive this turn, draw 2 cards. you may only use bloom effect \"danse macabre\" once per turn. 秘儀の加護 if your holomem has bloomed from archive this turn, this arts gets +30."
+    "searchString": "kureiji ollie hbp09-072 #id #id gen 2 #language ダンス・マカブル : if your holomem has bloomed from archive this turn, draw 2 cards. you may only use bloom effect \"danse macabre\" once per turn. き花吹雪の祝福 if your holomem has bloomed from archive this turn, this arts gets +30."
   },
   {
     "cardNumber": "hBP09-073",
@@ -18266,16 +18266,16 @@
     "hp": 130,
     "color": "Purple",
     "tag": "#EN #Advent #Singing #Bird",
-    "giftEffect": "魔人のオフモード : [Center Position Only] While you have 2 or more cards in your holo Power, all of your <Nerissa Ravencroft> take -30 Arts damage.",
+    "giftEffect": "歌に乗せる願い : [Center Position Only] While you have 2 or more cards in your holo Power, all of your <Nerissa Ravencroft> take -30 Arts damage.",
     "skills": [
       {
-        "name": "安らぎの歌",
+        "name": "魔力の調べ",
         "dmg": 20
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "nerissa ravencroft hbp09-073 #en #advent #singing #bird 魔人のオフモード : [center position only] while you have 2 or more cards in your holo power, all of your <nerissa ravencroft> take -30 arts damage. 安らぎの歌 "
+    "searchString": "nerissa ravencroft hbp09-073 #en #advent #singing #bird 歌に乗せる願い : [center position only] while you have 2 or more cards in your holo power, all of your <nerissa ravencroft> take -30 arts damage. 魔力の調べ "
   },
   {
     "cardNumber": "hBP09-074",
@@ -18285,17 +18285,17 @@
     "hp": 150,
     "color": "Purple",
     "tag": "#EN #Advent #Singing #Bird",
-    "bloomEffect": "魔人の臥所 : You may return 1 [Debut holomem or 1st holomem] with #Advent from your archive to your hand.",
+    "bloomEffect": "魔人の秘儀 : You may return 1 [Debut holomem or 1st holomem] with #Advent from your archive to your hand.",
     "skills": [
       {
-        "name": "妖艶なる音色",
+        "name": "秘儀の加護",
         "dmg": "50+",
         "description": "If the target of this Arts is a 1st or greater holomem, this Arts gets +50."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "nerissa ravencroft hbp09-074 #en #advent #singing #bird 魔人の臥所 : you may return 1 [debut holomem or 1st holomem] with #advent from your archive to your hand. 妖艶なる音色 if the target of this arts is a 1st or greater holomem, this arts gets +50."
+    "searchString": "nerissa ravencroft hbp09-074 #en #advent #singing #bird 魔人の秘儀 : you may return 1 [debut holomem or 1st holomem] with #advent from your archive to your hand. 秘儀の加護 if the target of this arts is a 1st or greater holomem, this arts gets +50."
   },
   {
     "cardNumber": "hBP09-075",
@@ -18305,17 +18305,17 @@
     "hp": 140,
     "color": "Purple",
     "tag": "#EN #Advent #Singing #Bird",
-    "giftEffect": "Demon's Off-Mode : [Center Position Only] When you use your Oshi Skill, during this turn, your collab <Nerissa Ravencroft> requires -1 purple for its Arts.",
+    "giftEffect": "魔人のオフモード : [Center Position Only] When you use your Oshi Skill, during this turn, your collab <Nerissa Ravencroft> requires -1 purple for its Arts.",
     "skills": [
       {
-        "name": "待った？",
+        "name": "安らぎの歌",
         "dmg": 40,
         "description": "If your Oshi holomem is <Nerissa Ravencroft>, draw 1 card and put 1 card from your hand as holo Power."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "nerissa ravencroft hbp09-075 #en #advent #singing #bird demon's off-mode : [center position only] when you use your oshi skill, during this turn, your collab <nerissa ravencroft> requires -1 purple for its arts. 待った？ if your oshi holomem is <nerissa ravencroft>, draw 1 card and put 1 card from your hand as holo power."
+    "searchString": "nerissa ravencroft hbp09-075 #en #advent #singing #bird 魔人のオフモード : [center position only] when you use your oshi skill, during this turn, your collab <nerissa ravencroft> requires -1 purple for its arts. 安らぎの歌 if your oshi holomem is <nerissa ravencroft>, draw 1 card and put 1 card from your hand as holo power."
   },
   {
     "cardNumber": "hBP09-076",
@@ -18325,10 +18325,10 @@
     "hp": 200,
     "color": "Purple",
     "tag": "#EN #Advent #Singing #Bird",
-    "bloomEffect": "Demon's Bed : You may archive the top 1~3 cards of your holo Power: During this turn, all holomem on your stage with #Singing get Arts+30 for each holo Power archived this way.",
+    "bloomEffect": "魔人の臥所 : You may archive the top 1~3 cards of your holo Power: During this turn, all holomem on your stage with #Singing get Arts+30 for each holo Power archived this way.",
     "skills": [
       {
-        "name": "晩酌のお誘い",
+        "name": "妖艶なる音色",
         "dmg": "140, +50 vs green",
         "description": "When your opponent's holomem is downed by this Arts, return 1 <Nerissa Ravencroft> from your archive to your hand."
       }
@@ -18336,7 +18336,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "nerissa ravencroft hbp09-076 #en #advent #singing #bird demon's bed : you may archive the top 1~3 cards of your holo power: during this turn, all holomem on your stage with #singing get arts+30 for each holo power archived this way. 晩酌のお誘い when your opponent's holomem is downed by this arts, return 1 <nerissa ravencroft> from your archive to your hand."
+    "searchString": "nerissa ravencroft hbp09-076 #en #advent #singing #bird 魔人の臥所 : you may archive the top 1~3 cards of your holo power: during this turn, all holomem on your stage with #singing get arts+30 for each holo power archived this way. 妖艶なる音色 when your opponent's holomem is downed by this arts, return 1 <nerissa ravencroft> from your archive to your hand."
   },
   {
     "cardNumber": "hBP09-077",
@@ -18346,16 +18346,16 @@
     "hp": 130,
     "color": "Yellow",
     "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
-    "collabEffect": "Casual Lamy : Roll a die once. If it is 6, during this turn, this holomem gets Arts+20. If it is 1, rest this holomem.",
+    "collabEffect": "カジュアルラミィ : Roll a die once. If it is 6, during this turn, this holomem gets Arts+20. If it is 1, rest this holomem.",
     "skills": [
       {
-        "name": "令嬢のウィンク",
+        "name": "待った？",
         "dmg": 30
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "yukihana lamy hbp09-077 #jp #gen 5 #half-elf #alcohol casual lamy : roll a die once. if it is 6, during this turn, this holomem gets arts+20. if it is 1, rest this holomem. 令嬢のウィンク "
+    "searchString": "yukihana lamy hbp09-077 #jp #gen 5 #half-elf #alcohol カジュアルラミィ : roll a die once. if it is 6, during this turn, this holomem gets arts+20. if it is 1, rest this holomem. 待った？ "
   },
   {
     "cardNumber": "hBP09-078",
@@ -18365,15 +18365,15 @@
     "hp": 130,
     "color": "Yellow",
     "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
-    "collabEffect": "やきもちユニーリア : If you went second and it is your first turn, draw 3 cards and archive 1 card from your hand. If the archived card does not have #Lamy's Alcohol, archive 1 more card from your hand.",
+    "collabEffect": "熱を帯びた瞳 : If you went second and it is your first turn, draw 3 cards and archive 1 card from your hand. If the archived card does not have #Lamy's Alcohol, archive 1 more card from your hand.",
     "skills": [
       {
-        "name": "ラミィしか愛せないんじゃないの？",
+        "name": "晩酌のお誘い",
         "dmg": 10
       }
     ],
     "setName": "hBP09",
-    "searchString": "yukihana lamy hbp09-078 #jp #gen 5 #half-elf #alcohol やきもちユニーリア : if you went second and it is your first turn, draw 3 cards and archive 1 card from your hand. if the archived card does not have #lamy's alcohol, archive 1 more card from your hand. ラミィしか愛せないんじゃないの？ "
+    "searchString": "yukihana lamy hbp09-078 #jp #gen 5 #half-elf #alcohol 熱を帯びた瞳 : if you went second and it is your first turn, draw 3 cards and archive 1 card from your hand. if the archived card does not have #lamy's alcohol, archive 1 more card from your hand. 晩酌のお誘い "
   },
   {
     "cardNumber": "hBP09-079",
@@ -18383,17 +18383,17 @@
     "hp": 160,
     "color": "Yellow",
     "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
-    "bloomEffect": "The La in NePoLaBo : Look at the top 5 cards of your deck. Reveal 1 support card with #Lamy's Alcohol from among them, and add it to your hand. Return the remaining cards to the bottom of your deck in any order.",
+    "bloomEffect": "ねぽらぼのら担当 : Look at the top 5 cards of your deck. Reveal 1 support card with #Lamy's Alcohol from among them, and add it to your hand. Return the remaining cards to the bottom of your deck in any order.",
     "skills": [
       {
-        "name": "んー！ うますぎるー！",
+        "name": "令嬢のウィンク",
         "dmg": 30,
         "description": "If a support card is attached to your holomem, draw 1 card."
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "yukihana lamy hbp09-079 #jp #gen 5 #half-elf #alcohol the la in nepolabo : look at the top 5 cards of your deck. reveal 1 support card with #lamy's alcohol from among them, and add it to your hand. return the remaining cards to the bottom of your deck in any order. んー！ うますぎるー！ if a support card is attached to your holomem, draw 1 card."
+    "searchString": "yukihana lamy hbp09-079 #jp #gen 5 #half-elf #alcohol ねぽらぼのら担当 : look at the top 5 cards of your deck. reveal 1 support card with #lamy's alcohol from among them, and add it to your hand. return the remaining cards to the bottom of your deck in any order. 令嬢のウィンク if a support card is attached to your holomem, draw 1 card."
   },
   {
     "cardNumber": "hBP09-080",
@@ -18403,16 +18403,16 @@
     "hp": 190,
     "color": "Yellow",
     "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
-    "collabEffect": "Unylian Jealousy : Send 1 cheer from your archive to your holomem with #Alcohol.",
+    "collabEffect": "やきもちユニーリア : Send 1 cheer from your archive to your holomem with #Alcohol.",
     "skills": [
       {
-        "name": "この後は至福の一杯で",
+        "name": "ラミィしか愛せないんじゃないの？",
         "dmg": 20
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "yukihana lamy hbp09-080 #jp #gen 5 #half-elf #alcohol unylian jealousy : send 1 cheer from your archive to your holomem with #alcohol. この後は至福の一杯で "
+    "searchString": "yukihana lamy hbp09-080 #jp #gen 5 #half-elf #alcohol やきもちユニーリア : send 1 cheer from your archive to your holomem with #alcohol. ラミィしか愛せないんじゃないの？ "
   },
   {
     "cardNumber": "hBP09-081",
@@ -18422,17 +18422,17 @@
     "hp": 170,
     "color": "Yellow",
     "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
-    "giftEffect": "顔が肝臓 : While you have 1 or less support cards with #Lamy's Alcohol in your archive, this holomem's Arts require +1 colorless.",
+    "giftEffect": "BIG3懇親会 side L : While you have 1 or less support cards with #Lamy's Alcohol in your archive, this holomem's Arts require +1 colorless.",
     "skills": [
       {
-        "name": "酒、酒、つまみ、酒、酒、酒！　160±",
+        "name": "んー！ うますぎるー！",
         "dmg": 60,
         "description": "You may archive 2 cheers from this holomem: Deal 40 special damage to 1 of your opponent's holomem other than Debut."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "yukihana lamy hbp09-081 #jp #gen 5 #half-elf #alcohol 顔が肝臓 : while you have 1 or less support cards with #lamy's alcohol in your archive, this holomem's arts require +1 colorless. 酒、酒、つまみ、酒、酒、酒！　160± you may archive 2 cheers from this holomem: deal 40 special damage to 1 of your opponent's holomem other than debut."
+    "searchString": "yukihana lamy hbp09-081 #jp #gen 5 #half-elf #alcohol big3懇親会 side l : while you have 1 or less support cards with #lamy's alcohol in your archive, this holomem's arts require +1 colorless. んー！ うますぎるー！ you may archive 2 cheers from this holomem: deal 40 special damage to 1 of your opponent's holomem other than debut."
   },
   {
     "cardNumber": "hBP09-082",
@@ -18442,16 +18442,16 @@
     "hp": 200,
     "color": "Yellow",
     "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
-    "bloomEffect": "Training Complete : If you have a support card with #Lamy's Alcohol in your archive, send the top card of your cheer deck to your <Yukihana Lamy>.",
+    "bloomEffect": "トレーニング完了 : If you have a support card with #Lamy's Alcohol in your archive, send the top card of your cheer deck to your <Yukihana Lamy>.",
     "skills": [
       {
-        "name": "リボン、うれしいな",
+        "name": "この後は至福の一杯で",
         "dmg": "130, +50 vs blue"
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "yukihana lamy hbp09-082 #jp #gen 5 #half-elf #alcohol training complete : if you have a support card with #lamy's alcohol in your archive, send the top card of your cheer deck to your <yukihana lamy>. リボン、うれしいな "
+    "searchString": "yukihana lamy hbp09-082 #jp #gen 5 #half-elf #alcohol トレーニング完了 : if you have a support card with #lamy's alcohol in your archive, send the top card of your cheer deck to your <yukihana lamy>. この後は至福の一杯で "
   },
   {
     "cardNumber": "hBP09-083",
@@ -18461,10 +18461,10 @@
     "hp": 200,
     "color": "Yellow",
     "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
-    "giftEffect": "Liver for a Face : While you have 4 or less support cards with #Lamy's Alcohol in your archive, this holomem's Arts require +2 colorless.",
+    "giftEffect": "顔が肝臓 : While you have 4 or less support cards with #Lamy's Alcohol in your archive, this holomem's Arts require +2 colorless.",
     "skills": [
       {
-        "name": "かわいく描けたから見てよ～",
+        "name": "酒、酒、つまみ、酒、酒、酒！　160±",
         "dmg": "160±, +50 vs white",
         "description": "Roll a die once. If it is 6, this Arts gets +100. If it is 1, this Arts gets -100."
       }
@@ -18472,7 +18472,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "yukihana lamy hbp09-083 #jp #gen 5 #half-elf #alcohol liver for a face : while you have 4 or less support cards with #lamy's alcohol in your archive, this holomem's arts require +2 colorless. かわいく描けたから見てよ～ roll a die once. if it is 6, this arts gets +100. if it is 1, this arts gets -100."
+    "searchString": "yukihana lamy hbp09-083 #jp #gen 5 #half-elf #alcohol 顔が肝臓 : while you have 4 or less support cards with #lamy's alcohol in your archive, this holomem's arts require +2 colorless. 酒、酒、つまみ、酒、酒、酒！　160± roll a die once. if it is 6, this arts gets +100. if it is 1, this arts gets -100."
   },
   {
     "cardNumber": "hBP09-084",
@@ -18482,16 +18482,16 @@
     "hp": 110,
     "color": "Yellow",
     "tag": "#JP #Gen 1 #Shooter",
-    "collabEffect": "A Surprise Gift : You may archive 1 LIMITED support card from your hand: Search 1~2 Debut <Natsuiro Matsuri> from your deck, and place them on your stage. Shuffle your deck.",
+    "collabEffect": "サプライズなプレゼント : You may archive 1 LIMITED support card from your hand: Search 1~2 Debut <Natsuiro Matsuri> from your deck, and place them on your stage. Shuffle your deck.",
     "skills": [
       {
-        "name": "太鼓でわっしょーい！",
+        "name": "リボン、うれしいな",
         "dmg": 20
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "natsuiro matsuri hbp09-084 #jp #gen 1 #shooter a surprise gift : you may archive 1 limited support card from your hand: search 1~2 debut <natsuiro matsuri> from your deck, and place them on your stage. shuffle your deck. 太鼓でわっしょーい！ "
+    "searchString": "natsuiro matsuri hbp09-084 #jp #gen 1 #shooter サプライズなプレゼント : you may archive 1 limited support card from your hand: search 1~2 debut <natsuiro matsuri> from your deck, and place them on your stage. shuffle your deck. リボン、うれしいな "
   },
   {
     "cardNumber": "hBP09-085",
@@ -18501,16 +18501,16 @@
     "hp": 140,
     "color": "Yellow",
     "tag": "#JP #Gen 1 #Shooter",
-    "bloomEffect": "Sneakily During Class...... : If your Oshi holomem is <Natsuiro Matsuri>, you may return 1 LIMITED support card from your archive to the bottom of your deck: Choose 1 <Natsuiro Matsuri> on your stage. During this turn, the chosen holomem gets Arts+30.",
+    "bloomEffect": "授業中にこっそり…… : If your Oshi holomem is <Natsuiro Matsuri>, you may return 1 LIMITED support card from your archive to the bottom of your deck: Choose 1 <Natsuiro Matsuri> on your stage. During this turn, the chosen holomem gets Arts+30.",
     "skills": [
       {
-        "name": "夏色まつりは清楚だよなぁ！？",
+        "name": "かわいく描けたから見てよ～",
         "dmg": 50
       }
     ],
     "hasFoils": true,
     "setName": "hBP09",
-    "searchString": "natsuiro matsuri hbp09-085 #jp #gen 1 #shooter sneakily during class...... : if your oshi holomem is <natsuiro matsuri>, you may return 1 limited support card from your archive to the bottom of your deck: choose 1 <natsuiro matsuri> on your stage. during this turn, the chosen holomem gets arts+30. 夏色まつりは清楚だよなぁ！？ "
+    "searchString": "natsuiro matsuri hbp09-085 #jp #gen 1 #shooter 授業中にこっそり…… : if your oshi holomem is <natsuiro matsuri>, you may return 1 limited support card from your archive to the bottom of your deck: choose 1 <natsuiro matsuri> on your stage. during this turn, the chosen holomem gets arts+30. かわいく描けたから見てよ～ "
   },
   {
     "cardNumber": "hBP09-086",
@@ -18520,16 +18520,16 @@
     "hp": 170,
     "color": "Yellow",
     "tag": "#JP #Gen 1 #Shooter",
-    "bloomEffect": "Festival Commotion : If your Oshi holomem is <Natsuiro Matsuri>, look at the top 5 cards of your deck. Reveal 1 Limited support card from among them, and add it to your hand. Return the remaining cards to the bottom of your deck in any order.",
+    "bloomEffect": "おまつり騒ぎ : If your Oshi holomem is <Natsuiro Matsuri>, look at the top 5 cards of your deck. Reveal 1 Limited support card from among them, and add it to your hand. Return the remaining cards to the bottom of your deck in any order.",
     "skills": [
       {
-        "name": "布団にもぐりこんじゃうぞ",
+        "name": "太鼓でわっしょーい！",
         "dmg": 40
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "natsuiro matsuri hbp09-086 #jp #gen 1 #shooter festival commotion : if your oshi holomem is <natsuiro matsuri>, look at the top 5 cards of your deck. reveal 1 limited support card from among them, and add it to your hand. return the remaining cards to the bottom of your deck in any order. 布団にもぐりこんじゃうぞ "
+    "searchString": "natsuiro matsuri hbp09-086 #jp #gen 1 #shooter おまつり騒ぎ : if your oshi holomem is <natsuiro matsuri>, look at the top 5 cards of your deck. reveal 1 limited support card from among them, and add it to your hand. return the remaining cards to the bottom of your deck in any order. 太鼓でわっしょーい！ "
   },
   {
     "cardNumber": "hBP09-087",
@@ -18539,10 +18539,10 @@
     "hp": 210,
     "color": "Yellow",
     "tag": "#JP #Gen 1 #Shooter",
-    "collabEffect": "The Cunningly Innocent Type : If your Oshi holomem is yellow <Natsuiro Matsuri> and all holomem on your stage are <Natsuiro Matsuri>, you may archive the top card of your holo Power: During this turn, the number of LIMITED support cards you can use becomes 2.",
+    "collabEffect": "あざとい清楚担当 : If your Oshi holomem is yellow <Natsuiro Matsuri> and all holomem on your stage are <Natsuiro Matsuri>, you may archive the top card of your holo Power: During this turn, the number of LIMITED support cards you can use becomes 2.",
     "skills": [
       {
-        "name": "世界に響く美声",
+        "name": "夏色まつりは清楚だよなぁ！？",
         "dmg": "60+, +50 vs white",
         "description": "If you have 5 or more LIMITED support cards in your archive, this Arts gets +60."
       }
@@ -18550,7 +18550,7 @@
     "hasFullArt": true,
     "hasAlternativeArt": true,
     "setName": "hBP09",
-    "searchString": "natsuiro matsuri hbp09-087 #jp #gen 1 #shooter the cunningly innocent type : if your oshi holomem is yellow <natsuiro matsuri> and all holomem on your stage are <natsuiro matsuri>, you may archive the top card of your holo power: during this turn, the number of limited support cards you can use becomes 2. 世界に響く美声 if you have 5 or more limited support cards in your archive, this arts gets +60."
+    "searchString": "natsuiro matsuri hbp09-087 #jp #gen 1 #shooter あざとい清楚担当 : if your oshi holomem is yellow <natsuiro matsuri> and all holomem on your stage are <natsuiro matsuri>, you may archive the top card of your holo power: during this turn, the number of limited support cards you can use becomes 2. 夏色まつりは清楚だよなぁ！？ if you have 5 or more limited support cards in your archive, this arts gets +60."
   },
   {
     "cardNumber": "hBP09-088",
@@ -18560,17 +18560,17 @@
     "hp": 180,
     "color": "Yellow",
     "tag": "#JP #Gen 5 #Singing #Painting",
-    "giftEffect": "Sleeping in with You : If your Oshi holomem is <Momosuzu Nene>, when this holomem would take 200 or more Arts damage at once, this holomem does not take that damage.",
+    "giftEffect": "キミと二度寝 : If your Oshi holomem is <Momosuzu Nene>, when this holomem would take 200 or more Arts damage at once, this holomem does not take that damage.",
     "skills": [
       {
-        "name": "We'll Snuggle under the Covers",
+        "name": "布団にもぐりこんじゃうぞ",
         "dmg": "100, +50 vs blue",
         "description": "Send 1 cheer each from your archive to 1~2 of your holomem with #Gen 5."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "momosuzu nene hbp09-088 #jp #gen 5 #singing #painting sleeping in with you : if your oshi holomem is <momosuzu nene>, when this holomem would take 200 or more arts damage at once, this holomem does not take that damage. we'll snuggle under the covers send 1 cheer each from your archive to 1~2 of your holomem with #gen 5."
+    "searchString": "momosuzu nene hbp09-088 #jp #gen 5 #singing #painting キミと二度寝 : if your oshi holomem is <momosuzu nene>, when this holomem would take 200 or more arts damage at once, this holomem does not take that damage. 布団にもぐりこんじゃうぞ send 1 cheer each from your archive to 1~2 of your holomem with #gen 5."
   },
   {
     "cardNumber": "hBP09-089",
@@ -18580,17 +18580,17 @@
     "hp": 150,
     "color": "Yellow",
     "tag": "#ID #ID Gen 1 #Kemomimi #Singing",
-    "bloomEffect": "This Passion Is Us! : If you have [green, blue, and yellow] cheer on your stage, choose 1 of your holomem with #ID Gen 1. During this turn, the chosen holomem gets Arts+30.",
+    "bloomEffect": "この情熱が私達！ : If you have [green, blue, and yellow] cheer on your stage, choose 1 of your holomem with #ID Gen 1. During this turn, the chosen holomem gets Arts+30.",
     "skills": [
       {
-        "name": "A Beautiful Voice that Resonates Around the World",
+        "name": "世界に響く美声",
         "dmg": 50,
         "description": "If your Oshi holomem's color is green, blue or yellow, send the top card of your cheer deck to your holomem with #ID Gen 1."
       }
     ],
     "hasFullArt": true,
     "setName": "hBP09",
-    "searchString": "ayunda risu hbp09-089 #id #id gen 1 #kemomimi #singing this passion is us! : if you have [green, blue, and yellow] cheer on your stage, choose 1 of your holomem with #id gen 1. during this turn, the chosen holomem gets arts+30. a beautiful voice that resonates around the world if your oshi holomem's color is green, blue or yellow, send the top card of your cheer deck to your holomem with #id gen 1."
+    "searchString": "ayunda risu hbp09-089 #id #id gen 1 #kemomimi #singing この情熱が私達！ : if you have [green, blue, and yellow] cheer on your stage, choose 1 of your holomem with #id gen 1. during this turn, the chosen holomem gets arts+30. 世界に響く美声 if your oshi holomem's color is green, blue or yellow, send the top card of your cheer deck to your holomem with #id gen 1."
   },
   {
     "cardNumber": "hBP09-090",
