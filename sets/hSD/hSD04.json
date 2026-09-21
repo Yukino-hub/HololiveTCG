@@ -160,6 +160,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Purple",
+        "colorAdvantage": "Green",
         "tag": "#JP #Gen2 #Cooking",
         "skills": [
             {

@@ -199,6 +199,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "White",
+        "colorAdvantage": "Red",
         "tag": "#JP #Gen 2 #Bird",
         "collabEffect": "ひよこお部屋着 : Reveal 1 [<Oozora Police> or <Speeding Violation>] from your deck, and add it to your hand. Shuffle your deck.",
         "skills": [
@@ -216,6 +217,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "White",
+        "colorAdvantage": "Purple",
         "tag": "#JP #Gen 2 #Bird",
         "giftEffect": "それ、没収っスよ！ : [1/Turn] During your opponent's turn, when this holomem takes 200 or more Arts damage at once, your opponent returns all of their center holomem's cheers to the bottom of their cheer deck in any order.",
         "skills": [
@@ -322,6 +324,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "White",
+        "colorAdvantage": "Purple",
         "tag": "#DEV_IS #ReGLOSS #Baby",
         "giftEffect": "奇想天外な盤面 : This holomem does not rest during the Reset Phase.",
         "skills": [
@@ -340,6 +343,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "White",
+        "colorAdvantage": "Red",
         "tag": "#DEV_IS #ReGLOSS #Baby",
         "giftEffect": "ストイックダンサー : When this holomem downs your opponent's holomem, put the top card of your deck as holo Power.",
         "skills": [
@@ -359,6 +363,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "White",
+        "colorAdvantage": "Purple",
         "tag": "#JP #Gen 4 #Kemomimi #Singing",
         "bloomEffect": "わためいとの楽園 : Choose 1 holomem on your opponent's stage. If you have 10 or more holo Power, during this turn, the chosen holomem is regarded as a 2nd holomem.",
         "skills": [
@@ -501,6 +506,7 @@
         "bloomLevel": "2nd",
         "hp": 220,
         "color": "Green",
+        "colorAdvantage": "Yellow",
         "tag": "#JP #Gen 3 #Alcohol",
         "collabEffect": "白銀聖騎士団を背負う者 : Restore 10 HP to 1 of your holomem for each <Beef Bowl> in your archive.",
         "skills": [
@@ -519,6 +525,7 @@
         "bloomLevel": "2nd",
         "hp": 220,
         "color": "Green",
+        "colorAdvantage": "Blue",
         "tag": "#JP #Gen 3 #Alcohol",
         "giftEffect": "究極の牛丼道 : [1/Turn] This holomem restores +100 HP from the ability of <Beef Bowl>.",
         "skills": [
@@ -591,6 +598,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "Green",
+        "colorAdvantage": "Blue",
         "tag": "#JP #GAMERS #Kemomimi #Cooking",
         "bloomEffect": "癒しの空間 : If your Oshi holomem is <Ookami Mio>, draw 3 cards and return 2 cards from your hand to the top of your deck in any order.",
         "skills": [
@@ -628,6 +636,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Green",
+        "colorAdvantage": "Yellow",
         "tag": "#DEV_IS #FLOW GLOW",
         "giftEffect": "Fantastic Driver : If this holomem downed your opponent's holomem, choose 1 of your back holomem with #FLOW GLOW. You may return all of the chosen holomem's stacked holomem including that holomem to your hand.",
         "skills": [
@@ -734,6 +743,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Red",
+        "colorAdvantage": "Yellow",
         "tag": "#ID #ID Gen 3",
         "collabEffect": "Happy Summer Days : If you have 2 or more tools with #Kaela's Arms on your stage, send 1 cheer from your archive to your holomem.",
         "skills": [
@@ -752,6 +762,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Red",
+        "colorAdvantage": "Green",
         "tag": "#ID #ID Gen 3",
         "giftEffect": "師から受け継ぎしもの : While this holomem has a tool attached, you may attach up to 1 additional tool with #Kaela's Arms to this holomem.",
         "skills": [
@@ -771,6 +782,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Red",
+        "colorAdvantage": "Yellow",
         "tag": "#JP #Gen 1 #Cooking",
         "bloomEffect": "スイートはあちゃま : Roll a die once. If it is odd, deal 30 special damage to your opponent's center holomem. If it is even, draw 2 cards.",
         "skills": [
@@ -842,6 +854,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Red",
+        "colorAdvantage": "Green",
         "tag": "#EN #Promise #Kemomimi",
         "giftEffect": "熱き取り調べ : If your Oshi holomem is <Oozora Subaru>, this holomem's Arts require -3 colorless.",
         "skills": [
@@ -860,6 +873,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Red",
+        "colorAdvantage": "Purple",
         "tag": "#EN #Promise #Kemomimi",
         "collabEffect": "大空警察国際部代表 : If your Oshi holomem is <Oozora Subaru>, choose 1 of your opponent's back holomem. Swap your opponent's collab holomem and the chosen holomem. If your opponent has no collab holomem, move the chosen holomem to the collab position instead.",
         "skills": [
@@ -975,6 +989,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "Blue",
+        "colorAdvantage": "Red",
         "tag": "#JP #Gen 4 #Singing #Shooter",
         "skills": [
             {
@@ -997,6 +1012,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Blue",
+        "colorAdvantage": "White",
         "tag": "#JP #Gen 4 #Singing #Shooter",
         "skills": [
             {
@@ -1091,6 +1107,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Blue",
+        "colorAdvantage": "Red",
         "tag": "#ID #ID Gen 1 #Singing",
         "giftEffect": "夜を照らす光 : When this holomem downs your opponent's holomem, if there are 5 or more holomem with #ID Gen 1 on your stage, deal 50 special damage to 1 of your opponent's holomem.",
         "skills": [
@@ -1216,6 +1233,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Purple",
+        "colorAdvantage": "Green",
         "tag": "#DEV_IS #FLOW GLOW",
         "giftEffect": "12人目の選手 : While your opponent has 7 or more cards in their hand, this holomem takes -50 Arts damage.",
         "skills": [
@@ -1233,6 +1251,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Purple",
+        "colorAdvantage": "Yellow",
         "tag": "#DEV_IS #FLOW GLOW",
         "giftEffect": "ストロングコミュニケーター : [Center Position Only] While your opponent has 7 or more cards in their hand, this holomem's Arts require -2 colorless.",
         "skills": [
@@ -1341,6 +1360,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Purple",
+        "colorAdvantage": "Green",
         "tag": "#EN #Advent #Singing #Bird",
         "bloomEffect": "魔人の臥所 : You may archive the top 1~3 cards of your holo Power: During this turn, all holomem on your stage with #Singing get Arts+30 for each holo Power archived this way.",
         "skills": [
@@ -1446,6 +1466,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Yellow",
+        "colorAdvantage": "Blue",
         "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
         "bloomEffect": "トレーニング完了 : If you have a support card with #Lamy's Alcohol in your archive, send the top card of your cheer deck to your <Yukihana Lamy>.",
         "skills": [
@@ -1463,6 +1484,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Yellow",
+        "colorAdvantage": "White",
         "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
         "giftEffect": "顔が肝臓 : While you have 4 or less support cards with #Lamy's Alcohol in your archive, this holomem's Arts require +2 colorless.",
         "skills": [
@@ -1533,6 +1555,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "Yellow",
+        "colorAdvantage": "White",
         "tag": "#JP #Gen 1 #Shooter",
         "collabEffect": "あざとい清楚担当 : If your Oshi holomem is yellow <Natsuiro Matsuri> and all holomem on your stage are <Natsuiro Matsuri>, you may archive the top card of your holo Power: During this turn, the number of LIMITED support cards you can use becomes 2.",
         "skills": [
@@ -1552,6 +1575,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "Yellow",
+        "colorAdvantage": "Blue",
         "tag": "#JP #Gen 5 #Singing #Painting",
         "giftEffect": "キミと二度寝 : If your Oshi holomem is <Momosuzu Nene>, when this holomem would take 200 or more Arts damage at once, this holomem does not take that damage.",
         "skills": [

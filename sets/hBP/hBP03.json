@@ -254,6 +254,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "White",
+        "colorAdvantage": "Purple",
         "tag": "#JP #Gen4 #Baby",
         "bloomEffect": "ルーナについてくるのら～: If your Oshi holomem is 〈Himemori Luna〉, you may attach 1 〈Lu-knights〉 from your archive to your 〈Himemori Luna〉.",
         "skills": [
@@ -275,6 +276,7 @@
         "bloomLevel": "1st",
         "hp": 190,
         "color": "White",
+        "colorAdvantage": "Red",
         "tag": "#DEV_IS #ReGLOSS #Baby",
         "giftEffect": "メランコリャック: [Center Position only] Your collab holomem with #ReGLOSS takes -20 damage.",
         "skills": [
@@ -394,6 +396,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Green",
+        "colorAdvantage": "Blue",
         "tag": "#JP #Gen5 #Kemomimi #Shooter",
         "bloomEffect": "なんとかしてくれる獅白ぼたん: You may send 1 green cheer each from your archive to 1~2 of your back holomem with #Shooter.",
         "skills": [
@@ -459,6 +462,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Green",
+        "colorAdvantage": "White",
         "tag": "#JP #holoX",
         "bloomEffect": "風真が護る:　You may send 1 cheer each from your archive to 1 each of your [〈Kazama Iroha〉 and 〈Hoshimachi Suisei〉].",
         "skills": [
@@ -587,6 +591,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Red",
+        "colorAdvantage": "Green",
         "tag": "#JP #Gen0 #Baby",
         "giftEffect": "エリートギャンブル:　[Center Position only] (Once per turn) [1/Turn]During your main phase, if〈35P〉 is attached to this holomem, you may roll a die once:If it is 3 or 5, during this turn, this holomem gets Arts+50.",
         "skills": [
@@ -846,6 +851,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Blue",
+        "colorAdvantage": "Purple",
         "tag": "#EN #Advent #Kemomimi",
         "skills": [
             {
@@ -1129,6 +1135,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Purple",
+        "colorAdvantage": "Yellow",
         "tag": "#JP #Gen4 #Singing #Shooter",
         "skills": [
             {
@@ -1215,6 +1222,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Purple",
+        "colorAdvantage": "Green",
         "tag": "#JP #Gen0 #Shooter",
         "skills": [
             {
@@ -1338,6 +1346,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "Yellow",
+        "colorAdvantage": "White",
         "tag": "#JP #GAMERS #Kemomimi",
         "giftEffect": "わんだふぉ～♡: When this holomem is downed, send the top card of your cheer deck to your 〈Inugami Korone〉..",
         "skills": [
@@ -1461,6 +1470,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Yellow",
+        "colorAdvantage": "Blue",
         "tag": "#JP #Gen4 #Kemomimi #Singing",
         "giftEffect": "まだまだいくよー！: When this holomem is downed, you may reattach 1 cheer from this holomem to your other 〈Tsunomaki Watame〉..",
         "skills": [
@@ -1586,6 +1596,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Yellow",
+        "colorAdvantage": "Blue",
         "tag": "#ID #IDGen1 #Kemomimi #Singing",
         "bloomEffect": "マジカルサポート:　You may reattach 1 cheer from your holomem with #ID Gen 1 to your other holomem.",
         "skills": [

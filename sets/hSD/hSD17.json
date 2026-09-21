@@ -152,6 +152,7 @@
         "bloomLevel": "2nd",
         "hp": 170,
         "color": "Blue",
+        "colorAdvantage": "Purple",
         "tag": "#JP #Gen0 #Singing",
         "collabEffect": "踊ったもん勝ち！ : During this turn, this holomem gets Arts+20.",
         "skills": [

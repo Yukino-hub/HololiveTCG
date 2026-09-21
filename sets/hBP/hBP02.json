@@ -233,6 +233,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "White",
+        "colorAdvantage": "Purple",
         "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "giftEffect": "みんなと一緒! You may attach up to 2 mascots with different card names to this holomem.",
         "skills": [
@@ -439,6 +440,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Green",
+        "colorAdvantage": "White",
         "tag": "#ID #IDGen2 #Bird #Painting",
         "bloomEffect": "Kanjeng : Reveal 1 cheer from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck.",
         "skills": [
@@ -640,6 +642,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Red",
+        "colorAdvantage": "Purple",
         "tag": "#JP #Gen3 #Painting #Sea",
         "bloomEffect": "ゴシッククィーン: You may return 1 holomem from your archive to hand. If 3 or more holomem are stacked to this holomem, deal 50 special damage to your opponent's center holomem or collab holomem.",
         "skills": [
@@ -782,6 +785,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Blue",
+        "colorAdvantage": "White",
         "tag": "#JP #holoX #Sea",
         "giftEffect": "最高に激アツ～(Once per turn) When you reveal cards with this holomem's Art 「ホロックスロット」, if the three revealed cards are all holomems with the same Bloom level, your opponent loses 1 LIFE.",
         "skills": [
@@ -924,6 +928,7 @@
         "bloomLevel": "2nd",
         "hp": 130,
         "color": "Purple",
+        "colorAdvantage": "Green",
         "tag": "#JP #Gen2",
         "bloomEffect": "いたずらの魔法:You may roll a die once:If it is 4 or greater, reattach 1 cheer from your opponent's stage to your opponent's holomem.",
         "skills": [
@@ -1046,6 +1051,7 @@
         "bloomLevel": "2nd",
         "hp": 120,
         "color": "Purple",
+        "colorAdvantage": "Yellow",
         "tag": "#ID #IDGen2 #Language",
         "bloomEffect": "蘇りしゾンビ: You may archive 2 cards from your hand:During this turn, this holomem gets Arts+40.",
         "skills": [
@@ -1164,6 +1170,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Purple",
+        "colorAdvantage": "Blue",
         "tag": "#EN #Myth #Singing",
         "bloomEffect": "Soul Voice: Reveal 1 card from your deck, and archive it. Then, shuffle the deck.",
         "skills": [
@@ -1345,6 +1352,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "Purple",
+        "colorAdvantage": "Yellow",
         "tag": "#EN #Advent #Singing #Bird",
         "collabEffect": "音の魔人: During this turn, your [center holomem and collab holomem] with #Singing get Arts+30.",
         "skills": [

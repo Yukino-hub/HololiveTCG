@@ -152,6 +152,7 @@
         "bloomLevel": "2nd",
         "hp": 170,
         "color": "White",
+        "colorAdvantage": "Red",
         "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
         "giftEffect": "私は倒れちゃいけないな : During your opponent's turn, when this holomem is downed, if this holomem has a mascot attached, draw 1 card.",
         "skills": [

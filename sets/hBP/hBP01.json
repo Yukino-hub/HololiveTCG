@@ -244,6 +244,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "White",
+        "colorAdvantage": "Red",
         "tag": "#JP #Gen4 #Singing",
         "collabEffect": "堕ちた天使 : Deal 50 Special Damage to your opponent's center holomem.",
         "skills": [
@@ -358,6 +359,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "White",
+        "colorAdvantage": "Purple",
         "tag": "#EN #Promise #Bird #Painting",
         "collabEffect": "あの日の約束 : Reveal 1 holomem with #Promise from your deck, and add it to hand. Then, shuffle the deck.",
         "skills": [
@@ -412,6 +414,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "White",
+        "colorAdvantage": "Red",
         "tag": "#JP #Gen0 #Singing",
         "collabEffect": "私たちは前に向かって･･!: Draw 2 cards from your deck.",
         "skills": [
@@ -567,6 +570,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "White",
+        "colorAdvantage": "Red",
         "tag": "#EN #Promise #Singing",
         "collabEffect": "希望の庭園: Look at your holo Power. Reveal 1 card from among them, and add it to hand. Then, put the top card of your deck to holo Power.",
         "skills": [
@@ -683,6 +687,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Green",
+        "colorAdvantage": "White",
         "tag": "#JP #Gen1 #Half-Elf #Alcohol",
         "bloomEffect": "ゴシックドール: Send the top card of your cheer deck to your holomem. If a tool is attached to this holomem, restore 40 HP to this holomem.",
         "skills": [
@@ -800,6 +805,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Green",
+        "colorAdvantage": "Blue",
         "tag": "#JP #Gen3 #Kemomimi",
         "bloomEffect": "ラプリンセスドレス: Restore 50 HP to this Holomen.",
         "skills": [
@@ -876,6 +882,7 @@
         "hp": 220,
         "rarity": "RR",
         "color": "Green",
+        "colorAdvantage": "White",
         "tag": "#JP #Gen0 #Singing",
         "bloomEffect": "いのちの軌跡: Restore 40 HP to this holomem. You may roll a die once:If it is odd, you may send 1~3 green cheers from your archive to this holomem.",
         "skills": [
@@ -1034,6 +1041,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "Green",
+        "colorAdvantage": "Blue",
         "tag": "#ID #IDGen1 #Painting",
         "collabEffect": "AREA 15: You may send 1 cheer each from your archive to 1~3 of your holomem with #ID.",
         "skills": [
@@ -1153,6 +1161,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Red",
+        "colorAdvantage": "Yellow",
         "tag": "#JP #holoX #Bird #Alcohol",
         "bloomEffect": "組織の司令塔: You may return 1~2 holomem with #HoloX from your archive to hand.",
         "skills": [
@@ -1267,6 +1276,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Red",
+        "colorAdvantage": "Green",
         "tag": "#EN #Myth #Bird",
         "skills": [
             {
@@ -1428,6 +1438,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "Red",
+        "colorAdvantage": "Green",
         "tag": "#EN #Promise #Kemomimi",
         "collabEffect": "カオスシャッフル: Each player returns all cards from their hand to the bottom of their deck in any order. Next, each player draws 1 card from their deck for each card returned to the deck.",
         "skills": [
@@ -1543,6 +1554,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "Blue",
+        "colorAdvantage": "Red",
         "tag": "#JP #Gen0 #Singing",
         "collabEffect": "空を駆ける光 : Send the top card of your cheer deck to your blue holomem.",
         "skills": [
@@ -1657,6 +1669,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Blue",
+        "colorAdvantage": "Purple",
         "tag": "#ID #IDGen3",
         "skills": [
             {
@@ -1822,6 +1835,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Blue",
+        "colorAdvantage": "Red",
         "tag": "#EN #Promise",
         "collabEffect": "巻き戻し: Return 1 of your opponent's back holomem to Debut holomem (After removing Damage, 1 Debut holomem and all of the cheers remain, and return all other cards to hand).",
         "skills": [

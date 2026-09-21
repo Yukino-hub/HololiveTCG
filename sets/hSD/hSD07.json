@@ -165,6 +165,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Yellow",
+        "colorAdvantage": "Red",
         "tag": "#JP #Gen3 #Half-Elf",
         "giftEffect": "疲れ知らず : [Center position only] Whenever this holomem takes damage, it takes -10 damage.",
         "skills": [

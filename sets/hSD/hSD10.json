@@ -97,6 +97,7 @@
         "cardNumber": "hSD10-006",
         "rarity": "RR",
         "color": "Green",
+        "colorAdvantage": "White",
         "bloomLevel": "2nd",
         "hp": 200,
         "skills": [
@@ -154,6 +155,7 @@
         "cardNumber": "hSD10-009",
         "rarity": "RR",
         "color": "Purple",
+        "colorAdvantage": "Blue",
         "bloomLevel": "2nd",
         "hp": 200,
         "collabEffect": "美の求道者: Look at a number of cards from the top of your deck equal to the number of cards in your opponent's hand. Add 1 card from among them to hand. Then, return the remaining cards to your deck and shuffle it.",

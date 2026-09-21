@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchBar = document.getElementById('searchBar');
     const rarityFilter = document.getElementById('rarityFilter');
     const bloomTypeFilter = document.getElementById('bloomTypeFilter');
+    const colorAdvantageFilter = document.getElementById('colorAdvantageFilter');
     const altArtCheckbox = document.getElementById('altArtCheckbox');
     const fullArtCheckbox = document.getElementById('fullArtCheckbox');
     const foilCheckbox = document.getElementById('foilCheckbox');
@@ -174,6 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const searchText = searchBar.value.toLowerCase();
         const selectedRarity = rarityFilter.value;
         const selectedBloomType = bloomTypeFilter.value;
+        const selectedColorAdvantage = colorAdvantageFilter.value;
         const checkboxState = {
             altArt: altArtCheckbox.checked,
             fullArt: fullArtCheckbox.checked,
@@ -188,6 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
             matchesSeries(card, seriesFilter.category, seriesFilter.prefix) &&
             matchesRarity(card, selectedRarity) &&
             matchesBloomType(card, selectedBloomType) &&
+            matchesColorAdvantage(card, selectedColorAdvantage) &&
             matchesCheckboxes(card, checkboxState)
         );
 
@@ -232,7 +235,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Consolidated event listeners for all filter controls
     const filterControls = [
         altArtCheckbox, signedCheckbox, foilCheckbox, fullArtCheckbox, grandprixCheckbox, holomenRareCheckbox,
-        rarityFilter, bloomTypeFilter
+        rarityFilter, bloomTypeFilter, colorAdvantageFilter
     ];
 
     filterControls.forEach(control => {
