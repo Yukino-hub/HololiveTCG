@@ -192,6 +192,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "Green",
+        "colorAdvantage": "Blue",
         "tag": "#JP #Gen0 #Singing",
         "skills": [
             {

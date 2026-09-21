@@ -153,6 +153,7 @@
         "bloomLevel": "2nd",
         "hp": 160,
         "color": "Purple",
+        "colorAdvantage": "Green",
         "tag": "#EN #Myth #Singing",
         "collabEffect": "ペイルライダー : If you have 6 or more holomem in your archive, deal 20 special damage to your opponent's center holomem.",
         "skills": [

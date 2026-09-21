@@ -270,6 +270,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "White",
+    "colorAdvantage": "Red",
     "tag": "#JP #Gen4 #Singing",
     "collabEffect": "堕ちた天使 : Deal 50 Special Damage to your opponent's center holomem.",
     "skills": [
@@ -396,6 +397,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "White",
+    "colorAdvantage": "Purple",
     "tag": "#EN #Promise #Bird #Painting",
     "collabEffect": "あの日の約束 : Reveal 1 holomem with #Promise from your deck, and add it to hand. Then, shuffle the deck.",
     "skills": [
@@ -456,6 +458,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "White",
+    "colorAdvantage": "Red",
     "tag": "#JP #Gen0 #Singing",
     "collabEffect": "私たちは前に向かって･･!: Draw 2 cards from your deck.",
     "skills": [
@@ -627,6 +630,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "White",
+    "colorAdvantage": "Red",
     "tag": "#EN #Promise #Singing",
     "collabEffect": "希望の庭園: Look at your holo Power. Reveal 1 card from among them, and add it to hand. Then, put the top card of your deck to holo Power.",
     "skills": [
@@ -755,6 +759,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Green",
+    "colorAdvantage": "White",
     "tag": "#JP #Gen1 #Half-Elf #Alcohol",
     "bloomEffect": "ゴシックドール: Send the top card of your cheer deck to your holomem. If a tool is attached to this holomem, restore 40 HP to this holomem.",
     "skills": [
@@ -884,6 +889,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#JP #Gen3 #Kemomimi",
     "bloomEffect": "ラプリンセスドレス: Restore 50 HP to this Holomen.",
     "skills": [
@@ -968,6 +974,7 @@
     "hp": 220,
     "rarity": "RR",
     "color": "Green",
+    "colorAdvantage": "White",
     "tag": "#JP #Gen0 #Singing",
     "bloomEffect": "いのちの軌跡: Restore 40 HP to this holomem. You may roll a die once:If it is odd, you may send 1~3 green cheers from your archive to this holomem.",
     "skills": [
@@ -1142,6 +1149,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#ID #IDGen1 #Painting",
     "collabEffect": "AREA 15: You may send 1 cheer each from your archive to 1~3 of your holomem with #ID.",
     "skills": [
@@ -1273,6 +1281,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Red",
+    "colorAdvantage": "Yellow",
     "tag": "#JP #holoX #Bird #Alcohol",
     "bloomEffect": "組織の司令塔: You may return 1~2 holomem with #HoloX from your archive to hand.",
     "skills": [
@@ -1399,6 +1408,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Red",
+    "colorAdvantage": "Green",
     "tag": "#EN #Myth #Bird",
     "skills": [
       {
@@ -1576,6 +1586,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "Red",
+    "colorAdvantage": "Green",
     "tag": "#EN #Promise #Kemomimi",
     "collabEffect": "カオスシャッフル: Each player returns all cards from their hand to the bottom of their deck in any order. Next, each player draws 1 card from their deck for each card returned to the deck.",
     "skills": [
@@ -1703,6 +1714,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Blue",
+    "colorAdvantage": "Red",
     "tag": "#JP #Gen0 #Singing",
     "collabEffect": "空を駆ける光 : Send the top card of your cheer deck to your blue holomem.",
     "skills": [
@@ -1829,6 +1841,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Blue",
+    "colorAdvantage": "Purple",
     "tag": "#ID #IDGen3",
     "skills": [
       {
@@ -2010,6 +2023,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Blue",
+    "colorAdvantage": "Red",
     "tag": "#EN #Promise",
     "collabEffect": "巻き戻し: Return 1 of your opponent's back holomem to Debut holomem (After removing Damage, 1 Debut holomem and all of the cheers remain, and return all other cards to hand).",
     "skills": [
@@ -2641,6 +2655,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "White",
+    "colorAdvantage": "Purple",
     "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "giftEffect": "みんなと一緒! You may attach up to 2 mascots with different card names to this holomem.",
     "skills": [
@@ -2867,6 +2882,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Green",
+    "colorAdvantage": "White",
     "tag": "#ID #IDGen2 #Bird #Painting",
     "bloomEffect": "Kanjeng : Reveal 1 cheer from your cheer deck, and send it to your holomem. Then, shuffle the cheer deck.",
     "skills": [
@@ -3088,6 +3104,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Red",
+    "colorAdvantage": "Purple",
     "tag": "#JP #Gen3 #Painting #Sea",
     "bloomEffect": "ゴシッククィーン: You may return 1 holomem from your archive to hand. If 3 or more holomem are stacked to this holomem, deal 50 special damage to your opponent's center holomem or collab holomem.",
     "skills": [
@@ -3244,6 +3261,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Blue",
+    "colorAdvantage": "White",
     "tag": "#JP #holoX #Sea",
     "giftEffect": "最高に激アツ～(Once per turn) When you reveal cards with this holomem's Art 「ホロックスロット」, if the three revealed cards are all holomems with the same Bloom level, your opponent loses 1 LIFE.",
     "skills": [
@@ -3400,6 +3418,7 @@
     "bloomLevel": "2nd",
     "hp": 130,
     "color": "Purple",
+    "colorAdvantage": "Green",
     "tag": "#JP #Gen2",
     "bloomEffect": "いたずらの魔法:You may roll a die once:If it is 4 or greater, reattach 1 cheer from your opponent's stage to your opponent's holomem.",
     "skills": [
@@ -3534,6 +3553,7 @@
     "bloomLevel": "2nd",
     "hp": 120,
     "color": "Purple",
+    "colorAdvantage": "Yellow",
     "tag": "#ID #IDGen2 #Language",
     "bloomEffect": "蘇りしゾンビ: You may archive 2 cards from your hand:During this turn, this holomem gets Arts+40.",
     "skills": [
@@ -3664,6 +3684,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Purple",
+    "colorAdvantage": "Blue",
     "tag": "#EN #Myth #Singing",
     "bloomEffect": "Soul Voice: Reveal 1 card from your deck, and archive it. Then, shuffle the deck.",
     "skills": [
@@ -3863,6 +3884,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Purple",
+    "colorAdvantage": "Yellow",
     "tag": "#EN #Advent #Singing #Bird",
     "collabEffect": "音の魔人: During this turn, your [center holomem and collab holomem] with #Singing get Arts+30.",
     "skills": [
@@ -4586,6 +4608,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "White",
+    "colorAdvantage": "Purple",
     "tag": "#JP #Gen4 #Baby",
     "bloomEffect": "ルーナについてくるのら～: If your Oshi holomem is 〈Himemori Luna〉, you may attach 1 〈Lu-knights〉 from your archive to your 〈Himemori Luna〉.",
     "skills": [
@@ -4609,6 +4632,7 @@
     "bloomLevel": "1st",
     "hp": 190,
     "color": "White",
+    "colorAdvantage": "Red",
     "tag": "#DEV_IS #ReGLOSS #Baby",
     "giftEffect": "メランコリャック: [Center Position only] Your collab holomem with #ReGLOSS takes -20 damage.",
     "skills": [
@@ -4740,6 +4764,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#JP #Gen5 #Kemomimi #Shooter",
     "bloomEffect": "なんとかしてくれる獅白ぼたん: You may send 1 green cheer each from your archive to 1~2 of your back holomem with #Shooter.",
     "skills": [
@@ -4811,6 +4836,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Green",
+    "colorAdvantage": "White",
     "tag": "#JP #holoX",
     "bloomEffect": "風真が護る:　You may send 1 cheer each from your archive to 1 each of your [〈Kazama Iroha〉 and 〈Hoshimachi Suisei〉].",
     "skills": [
@@ -4951,6 +4977,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Red",
+    "colorAdvantage": "Green",
     "tag": "#JP #Gen0 #Baby",
     "giftEffect": "エリートギャンブル:　[Center Position only] (Once per turn) [1/Turn]During your main phase, if〈35P〉 is attached to this holomem, you may roll a die once:If it is 3 or 5, during this turn, this holomem gets Arts+50.",
     "skills": [
@@ -5236,6 +5263,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Blue",
+    "colorAdvantage": "Purple",
     "tag": "#EN #Advent #Kemomimi",
     "skills": [
       {
@@ -5545,6 +5573,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Purple",
+    "colorAdvantage": "Yellow",
     "tag": "#JP #Gen4 #Singing #Shooter",
     "skills": [
       {
@@ -5639,6 +5668,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Purple",
+    "colorAdvantage": "Green",
     "tag": "#JP #Gen0 #Shooter",
     "skills": [
       {
@@ -5774,6 +5804,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Yellow",
+    "colorAdvantage": "White",
     "tag": "#JP #GAMERS #Kemomimi",
     "giftEffect": "わんだふぉ～♡: When this holomem is downed, send the top card of your cheer deck to your 〈Inugami Korone〉..",
     "skills": [
@@ -5909,6 +5940,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "tag": "#JP #Gen4 #Kemomimi #Singing",
     "giftEffect": "まだまだいくよー！: When this holomem is downed, you may reattach 1 cheer from this holomem to your other 〈Tsunomaki Watame〉..",
     "skills": [
@@ -6046,6 +6078,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "tag": "#ID #IDGen1 #Kemomimi #Singing",
     "bloomEffect": "マジカルサポート:　You may reattach 1 cheer from your holomem with #ID Gen 1 to your other holomem.",
     "skills": [
@@ -6740,6 +6773,7 @@
     "cardNumber": "hBP04-013",
     "rarity": "RR",
     "color": "White",
+    "colorAdvantage": "Green",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "絶対諦めない！ : When this holomem downs an opponent's holomem, put the top card of your deck into your holo Power. Then look at your holo Power cards, reveal 1, and put it into your hand. Then shuffle your holo Power.",
@@ -6763,6 +6797,7 @@
     "cardNumber": "hBP04-014",
     "rarity": "R",
     "color": "White",
+    "colorAdvantage": "Green",
     "bloomLevel": "2nd",
     "hp": 200,
     "bloomEffect": "戻っておいで: You may return 1-2 cards with #ShirakamiCharacter from your archive to hand.",
@@ -6870,6 +6905,7 @@
     "cardNumber": "hBP04-019",
     "rarity": "R",
     "color": "White",
+    "colorAdvantage": "Red",
     "bloomLevel": "2nd",
     "hp": 190,
     "collabEffect": "只今、情報収集中　. : Look at the top three cards of your deck. Reveal one that is a holomem with #Painting and put it into your hand. Then put the remaining cards on the bottom of your deck in any order.",
@@ -7006,6 +7042,7 @@
     "cardNumber": "hBP04-025",
     "rarity": "RR",
     "color": "Green",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 200,
     "collabEffect": "伝統と革新 : Reveal 1 Event card with #Mushroom from your deck and put it into your hand. Then shuffle your deck.",
@@ -7029,6 +7066,7 @@
     "cardNumber": "hBP04-026",
     "rarity": "R",
     "color": "Green",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 190,
     "bloomEffect": "フブキは特別な存在 : If your Oshi holomem is <Shirakami Fubuki>, reveal 1 white cheer from your cheer deck and send it to one of your holomem named <Shirakami Fubuki>. Then shuffle your cheer deck.",
@@ -7133,6 +7171,7 @@
     "cardNumber": "hBP04-031",
     "rarity": "R",
     "color": "Green",
+    "colorAdvantage": "Yellow",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "海を越えたお茶会 : If there are any holomem on your opponent's stage with #JP or #ID, this holomem's arts gain +30 power.",
@@ -7270,6 +7309,7 @@
     "cardNumber": "hBP04-037",
     "rarity": "RR",
     "color": "Red",
+    "colorAdvantage": "Yellow",
     "bloomLevel": "2nd",
     "hp": 200,
     "bloomEffect": "KPG : You may roll a dice: If the result is 4 or more, and your opponent has no collab holomem, they choose one of their back holomem and move it to the collab position (this is not treated as collabing).",
@@ -7293,6 +7333,7 @@
     "cardNumber": "hBP04-038",
     "rarity": "R",
     "color": "Red",
+    "colorAdvantage": "Green",
     "bloomLevel": "2nd",
     "hp": 200,
     "bloomEffect": "どこ見ちゃってるのかな～！！♥♡ : Deal 10 damage to your opponent's center and collab holomem.",
@@ -7522,6 +7563,7 @@
     "cardNumber": "hBP04-048",
     "rarity": "RR",
     "color": "Blue",
+    "colorAdvantage": "Red",
     "bloomLevel": "2nd",
     "hp": 190,
     "bloomEffect": "ユニーリアの令嬢 : Send the top card of your cheer deck to one of your <Yukihana Lamy> with a <Yukimin> attached.",
@@ -7545,6 +7587,7 @@
     "cardNumber": "hBP04-049",
     "rarity": "R",
     "color": "Blue",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 190,
     "skills": [
@@ -7774,6 +7817,7 @@
     "cardNumber": "hBP04-059",
     "rarity": "RR",
     "color": "Purple",
+    "colorAdvantage": "Blue",
     "bloomLevel": "2nd",
     "hp": 200,
     "bloomEffect": "Yes My Dark！ : You may archive 1 card from your hand to roll a die 3 times: For each time you roll an odd number, draw 1 card. Your Bloom Effect 「Yes My Dark!」can only be used once per turn.",
@@ -7821,6 +7865,7 @@
     "cardNumber": "hBP04-061",
     "rarity": "R",
     "color": "Purple",
+    "colorAdvantage": "Green",
     "bloomLevel": "2nd",
     "hp": 200,
     "bloomEffect": "オリーを見てください！: When you Bloom with your SP Oshi Skill <蘇るオリー>, fully recover the HP of one of your <Kureiji Ollie>.",
@@ -7930,6 +7975,7 @@
     "cardNumber": "hBP04-066",
     "rarity": "RR",
     "color": "Purple",
+    "colorAdvantage": "Green",
     "bloomLevel": "2nd",
     "hp": 190,
     "bloomEffect": "『感情結晶体』 : You may count the number of cards in your hand and archive your entire hand: For each card archived this way, draw 1 card from your deck. Your Bloom Effect『感情結晶体』can only be used once per turn.",
@@ -8073,6 +8119,7 @@
     "cardNumber": "hBP04-072",
     "rarity": "RR",
     "color": "Yellow",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 190,
     "bloomEffect": "サンライトステージ : You may send 1 yellow cheer from your archive to any of your holomem.",
@@ -8204,6 +8251,7 @@
     "cardNumber": "hBP04-078",
     "rarity": "RR",
     "color": "Yellow",
+    "colorAdvantage": "Red",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "宝物みつけた: [Center Position / Collab Position Only] The Yellow (黄) cost required for the Arts of your center Holomem <Anya Melfissa> that has <Ancient Weapon> attached is reduced by 1.",
@@ -8293,6 +8341,7 @@
     "cardNumber": "hBP04-082",
     "rarity": "RR",
     "color": "Yellow",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 180,
     "bloomEffect": "レッツ ショッピング! : You may roll a dice once for each of your differently-named holomem with #Gen1. For each time the result is 4 or higher, send the top card of your cheer deck to this holomem.",
@@ -8383,6 +8432,7 @@
     "cardNumber": "hBP04-086",
     "rarity": "RR",
     "color": "Yellow",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 200,
     "skills": [
@@ -8873,6 +8923,7 @@
     "cardNumber": "hBP05-012",
     "rarity": "RR",
     "color": "White",
+    "colorAdvantage": "Green",
     "bloomLevel": "2nd",
     "hp": 220,
     "skills": [
@@ -8901,6 +8952,7 @@
     "cardNumber": "hBP05-013",
     "rarity": "R",
     "color": "White",
+    "colorAdvantage": "Red",
     "bloomLevel": "2nd",
     "hp": 210,
     "giftEffect": "Ray of Jewelry [Center position/collab position only] All holomem with #Gen0 on your stage get Arts+30.",
@@ -8970,6 +9022,7 @@
     "cardNumber": "hBP05-016",
     "rarity": "RR",
     "color": "White",
+    "colorAdvantage": "Red",
     "bloomLevel": "2nd",
     "hp": 210,
     "giftEffect": "最強女神: When this HoloMen uses an Arts, if the total of the dice rolled for that Arts is an odd number, draw 1 card from your deck. If it is an even number, draw 2 cards from your deck.",
@@ -9023,6 +9076,7 @@
     "cardNumber": "hBP05-018",
     "rarity": "R",
     "color": "White",
+    "colorAdvantage": "Purple",
     "bloomLevel": "2nd",
     "hp": 190,
     "buzz": true,
@@ -9135,6 +9189,7 @@
     "cardNumber": "hBP05-023",
     "rarity": "RR",
     "color": "Green",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "宇宙人のお姫様: When this holomem downs an opponent's holomem, you may send 1 cheer from your archive to your holomem with #IDGen1.",
@@ -9228,6 +9283,7 @@
     "cardNumber": "hBP05-027",
     "rarity": "RR",
     "color": "Green",
+    "colorAdvantage": "Blue",
     "bloomLevel": "2nd",
     "hp": 210,
     "bloomEffect": "ゲーム？ スポーティー？ キャンプ？！: You may archive 1 tool attached to this holomem:Reveal 1 [holomem or tool] from your deck,and add it to hand. Then, shuffle the deck.",
@@ -9394,6 +9450,7 @@
     "cardNumber": "hBP05-034",
     "rarity": "RR",
     "color": "Red",
+    "colorAdvantage": "Green",
     "bloomLevel": "2nd",
     "hp": 190,
     "bloomEffect": "おまたせ～！: [Center position only]You may archive any number of cards from your hand:For each card archived, return 1 <Troupe Member> from your archive to hand.",
@@ -9417,6 +9474,7 @@
     "cardNumber": "hBP05-035",
     "rarity": "R",
     "color": "Red",
+    "colorAdvantage": "Yellow",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "今のはちょっとね、練習で… [Center position/collab position only]Usable during your opponent's turn if 1 of your <Sakura Miko> is downed:Reveal 1 <MiOreHaji> from your deck, and add it to hand. Then, shuffle the deck.",
@@ -9460,6 +9518,7 @@
     "cardNumber": "hBP05-037",
     "rarity": "RR",
     "color": "Red",
+    "colorAdvantage": "Purple",
     "bloomLevel": "2nd",
     "hp": 210,
     "skills": [
@@ -9647,6 +9706,7 @@
     "cardNumber": "hBP05-045",
     "rarity": "RR",
     "color": "Blue",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "自分らしく居られる場所: [Center Position only]Your Oshi holomem <Nekomata Okayu> and all <Nekomata Okayu> on your stage deal +20 Damage when dealing Special Damage to your opponent's center holomem.",
@@ -9735,6 +9795,7 @@
     "cardNumber": "hBP05-049",
     "rarity": "RR",
     "color": "Blue",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 200,
     "skills": [
@@ -9893,6 +9954,7 @@
     "cardNumber": "hBP05-056",
     "rarity": "RR",
     "color": "Purple",
+    "colorAdvantage": "Blue",
     "bloomLevel": "2nd",
     "hp": 200,
     "skills": [
@@ -10011,6 +10073,7 @@
     "cardNumber": "hBP05-061",
     "rarity": "RR",
     "color": "Purple",
+    "colorAdvantage": "Blue",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "DEO: When this holomem downs your opponent's holomem, draw 2 cards from your deck.",
@@ -10034,6 +10097,7 @@
     "cardNumber": "hBP05-062",
     "rarity": "R",
     "color": "Purple",
+    "colorAdvantage": "Green",
     "bloomLevel": "2nd",
     "hp": 200,
     "bloomEffect": "友達がいっぱい増えたよ: Reveal 2 1st holomem other than Buzz from your deck with #Singing, and add them to hand. Then, shuffle your deck.",
@@ -10142,6 +10206,7 @@
     "cardNumber": "hBP05-067",
     "rarity": "RR",
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "カラフルストリーム: When this holomem uses Arts, you may reattach 2 cheers from this holomem to 1 of your back holomem. Then, return 1 1st holomem from your archive with the same name as the holomem that received the cheers to your hand.",
@@ -10208,6 +10273,7 @@
     "cardNumber": "hBP05-070",
     "rarity": "RR",
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "bloomLevel": "2nd",
     "hp": 200,
     "skills": [
@@ -10236,6 +10302,7 @@
     "cardNumber": "hBP05-071",
     "rarity": "R",
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "bloomLevel": "2nd",
     "hp": 200,
     "bloomEffect": "戌神族: Reveal 1 1st holomem other than Buzz from your deck with #Gamers, and add it to hand. Then, shuffle the deck.",
@@ -10288,6 +10355,7 @@
     "cardNumber": "hBP05-073",
     "rarity": "R",
     "color": "Yellow",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 200,
     "collabEffect": "BRRRR: Look at the top 3 cards of your cheer deck. Reveal 1 cheer from among them, and send it to your <Ayunda Risu>. Then, return the remaining cards to the bottom of the cheer deck in any order. Then, draw 1 card from your deck.",
@@ -10732,6 +10800,7 @@
     "cardNumber": "hBP06-014",
     "rarity": "RR",
     "color": "White",
+    "colorAdvantage": "Purple",
     "bloomLevel": "2nd",
     "hp": 210,
     "giftEffect": "夢紡ぎのアトリエ: When this holomem uses Arts, look at your holo Power. Reveal 1 card from among them, and add it to hand. If you added a card to hand, put 1 card from your hand to holo Power, then shuffle your holo Power.",
@@ -10866,6 +10935,7 @@
     "cardNumber": "hBP06-020",
     "rarity": "RR",
     "color": "White",
+    "colorAdvantage": "Red",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "意志の指揮者　: If this holomem is downed during your opponent's turn, you may archive the top 2 cards of your deck. If you do, draw 1 card from your deck for each differently-named holomem with #FLOW GLOW on your stage.",
@@ -10889,6 +10959,7 @@
     "cardNumber": "hBP06-021",
     "rarity": "R",
     "color": "White",
+    "colorAdvantage": "Red",
     "bloomLevel": "2nd",
     "hp": 190,
     "collabEffect": "君に届けっ:During this turn, 1 of your holomem with #HoloX gets Arts+30. If this holomem has a Support card with #KoyoLabo attached, that holomem gets Arts+50 instead.",
@@ -11016,6 +11087,7 @@
     "cardNumber": "hBP06-027",
     "rarity": "RR",
     "color": "Green",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 210,
     "giftEffect": "伝えたい想い: When this holomem downs your opponent's center holomem, you may bloom 1 of your <Kazama Iroha> that bloomed this turn once more using a holomem from your hand.",
@@ -11108,6 +11180,7 @@
     "cardNumber": "hBP06-031",
     "rarity": "RR",
     "color": "Green",
+    "colorAdvantage": "Blue",
     "bloomLevel": "2nd",
     "hp": 190,
     "bloomEffect": "んなっしょい！: If your Oshi holomem is <Himemori Luna>, you may archive 1~2 <Lu-knights> on your stage:For each card archived, send the top card of your cheer deck to 1 of your <Himemori Luna>.",
@@ -11281,6 +11354,7 @@
     "cardNumber": "hBP06-039",
     "rarity": "RR",
     "color": "Red",
+    "colorAdvantage": "Green",
     "bloomLevel": "2nd",
     "hp": 160,
     "giftEffect": "余、なんも聞いとらんかった。: [Center position only]If you have a collab holomem and your opponent does not have a collab holomem, all of your holomem take no Arts damage from your opponent.",
@@ -11414,6 +11488,7 @@
     "cardNumber": "hBP06-045",
     "rarity": "RR",
     "color": "Red",
+    "colorAdvantage": "Purple",
     "bloomLevel": "2nd",
     "hp": 200,
     "skills": [
@@ -11442,6 +11517,7 @@
     "cardNumber": "hBP06-046",
     "rarity": "R",
     "color": "Red",
+    "colorAdvantage": "Purple",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "間違っているぞ！: If you have used your SP Oshi Skill \"Hawkeye\" this game, this holomem has Arts+20.",
@@ -11464,6 +11540,7 @@
     "cardNumber": "hBP06-047",
     "rarity": "R",
     "color": "Red",
+    "colorAdvantage": "Purple",
     "bloomLevel": "2nd",
     "hp": 190,
     "collabEffect": "家にあるもの限界飯:If your Oshi holomem is <Ichijou Ririka> and there are 2 or more <Struggle Meal> in your archive, draw 2 cards.",
@@ -11603,6 +11680,7 @@
     "cardNumber": "hBP06-053",
     "rarity": "RR",
     "color": "Blue",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 200,
     "collabEffect": "星の運命: Choose your opponent's center holomem or collab holomem. Deal the same amount of special damage to the chosen holomem as the amount of damage taken by that holomem.",
@@ -11626,6 +11704,7 @@
     "cardNumber": "hBP06-054",
     "rarity": "R",
     "color": "Blue",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 200,
     "bloomEffect": "有言実行！！: If this holomem has a <Yukimin> attached, deal 20 special damage to your opponent's center holomem and draw 1 card. If this holomem has 3 or more <Yukimin> attached, draw 2 cards instead.",
@@ -11648,6 +11727,7 @@
     "cardNumber": "hBP06-055",
     "rarity": "R",
     "color": "Blue",
+    "colorAdvantage": "Red",
     "bloomLevel": "2nd",
     "hp": 190,
     "collabEffect": "ワンワーーン！！！: If your Oshi holomem is <Murasaki Shion>, send 3 cheers from your opponent's archive to your opponent's center holomem. Then, you may send 1 cheer from your archive to your <Murasaki Shion>.",
@@ -11670,6 +11750,7 @@
     "cardNumber": "hBP06-056",
     "rarity": "R",
     "color": "Blue",
+    "colorAdvantage": "Purple",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "ギャル叉と登校: f you have used your SP Oshi Skill \"Life Reset Button\" this game, this holomem's Arts \"Spend your youth with Sakamata?\" has its cost reduced by 1 colorless cheer.",
@@ -11756,6 +11837,7 @@
     "cardNumber": "hBP06-060",
     "rarity": "RR",
     "color": "Blue",
+    "colorAdvantage": "Red",
     "bloomLevel": "2nd",
     "hp": 210,
     "skills": [
@@ -11891,6 +11973,7 @@
     "cardNumber": "hBP06-066",
     "rarity": "RR",
     "color": "Purple",
+    "colorAdvantage": "Yellow",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "どり～む_コネクト.zero: [Center position only]When your collab holomem with #Gen 0 uses Arts, reveal 1 card from your deck and archive it. Then, shuffle the deck.",
@@ -11979,6 +12062,7 @@
     "cardNumber": "hBP06-070",
     "rarity": "RR",
     "color": "Purple",
+    "colorAdvantage": "Green",
     "bloomLevel": "2nd",
     "hp": 210,
     "giftEffect": "ワンダーヴァイキング: [Center position only][1/Turn]You may return 1 <Fingers> from your stage to the bottom of your deck:During this turn, this holomem's Arts cheer cost is reduced by 2 colorless cheer.",
@@ -12002,6 +12086,7 @@
     "cardNumber": "hBP06-071",
     "rarity": "R",
     "color": "Purple",
+    "colorAdvantage": "Yellow",
     "bloomLevel": "2nd",
     "hp": 200,
     "skills": [
@@ -12141,6 +12226,7 @@
     "cardNumber": "hBP06-077",
     "rarity": "RR",
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "bloomLevel": "2nd",
     "hp": 200,
     "bloomEffect": "Re:START: If your life is equal to or less than your opponent's life, you may send the top card of your cheer deck to your <Natsuiro Matsuri>.",
@@ -12228,6 +12314,7 @@
     "cardNumber": "hBP06-081",
     "rarity": "RR",
     "color": "Yellow",
+    "colorAdvantage": "Red",
     "bloomLevel": "2nd",
     "hp": 200,
     "bloomEffect": "出動！ ドタバタ大空警察!!: If your Oshi holomem is <Oozora Subaru>, you may archive 1 cheer from your stage:Reveal 1 <Oozora Subaru> from your deck, and add it to hand. Then, shuffle the deck.",
@@ -12251,6 +12338,7 @@
     "cardNumber": "hBP06-082",
     "rarity": "R",
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "眠らない街:　[Collab position only]If your Oshi holomem is <Anya Melfissa>, your [center holomem and collab holomem] with an <Ancient Weapon> attached take -30 Arts damage.",
@@ -12769,6 +12857,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "White",
+    "colorAdvantage": "Purple",
     "tag": "#JP #Gen4 #Kemomimi #Singing",
     "collabEffect": "はばないすでーい！！！ : During this turn, all <Tsunomaki Watame> on your stage get Arts+20. If 6 or more cheers are attached to your center holomem, draw 2 cards.",
     "skills": [
@@ -12791,6 +12880,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "White",
+    "colorAdvantage": "Red",
     "tag": "#JP #Gen4 #Kemomimi #Singing",
     "giftEffect": "キュートセクシー : This holomem gets +10 HP for each holomem stacked to this holomem.",
     "skills": [
@@ -12922,6 +13012,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "White",
+    "colorAdvantage": "Red",
     "tag": "#ID #IDGen3",
     "collabEffect": "Ya ya ya ya ya～! : Roll a die once. If it is odd, set your opponent's 2nd holomem in the center position's remaining HP to 100.",
     "skills": [
@@ -12943,6 +13034,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "White",
+    "colorAdvantage": "Purple",
     "tag": "#ID #IDGen3",
     "bloomEffect": "任務手伝ってくれる？ : Attach 1 [<BAZO> or <Zecretary>] from your archive to your holomem.",
     "skills": [
@@ -12966,6 +13058,7 @@
     "bloomLevel": "2nd",
     "hp": 220,
     "color": "White",
+    "colorAdvantage": "Purple",
     "tag": "#JP #Gen3 #Alcohol",
     "giftEffect": "筋肉は裏切らない！ : [Collab Position Only]During your opponent's turn, when your center holomem with #Gen3 is downed, return all of the stacked holomem including that downed holomem to hand.",
     "skills": [
@@ -13095,6 +13188,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#JP #GAMERS #Kemomimi #Cooking",
     "collabEffect": "金瞳の綺羅星 : Look at the top 2 cards of your deck. Add 1 card from among them to hand. Then, return the remaining card to the top of the deck.",
     "skills": [
@@ -13117,6 +13211,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Green",
+    "colorAdvantage": "Yellow",
     "tag": "#JP #GAMERS #Kemomimi #Cooking",
     "giftEffect": "緑の地母神 : [1/Turn]During your opponent's turn, when this holomem takes damage, if this holomem has a support card attached, restore 50 HP to this holomem.",
     "skills": [
@@ -13140,6 +13235,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Green",
+    "colorAdvantage": "Yellow",
     "tag": "#JP #holoX",
     "bloomEffect": "holoRêve -いろは- : When bloomed from a Buzz holomem, restore 100 HP to 1 of your holomem.",
     "skills": [
@@ -13249,6 +13345,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#DEV_IS #FLOWGLOW",
     "collabEffect": "Give Me Hype!! : Send the top card of your cheer deck to this holomem for each time your holomem with #FLOW GLOW bloomed this turn.",
     "skills": [
@@ -13378,6 +13475,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Red",
+    "colorAdvantage": "Green",
     "tag": "#JP #Gen1 #Cooking",
     "collabEffect": "EVERYBODY SAY HENTAI : Deal 50 special damage to your opponent's collab holomem.",
     "skills": [
@@ -13400,6 +13498,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Red",
+    "colorAdvantage": "Purple",
     "tag": "#JP #Gen1 #Cooking",
     "skills": [
       {
@@ -13428,6 +13527,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Red",
+    "colorAdvantage": "Purple",
     "tag": "#JP #Gen0 #Baby",
     "collabEffect": "holoRêve -みこ- : Choose the number 3 or 5. During this turn, when you roll a die using the ability of your Oshi holomem <Sakura Miko> or any <Sakura Miko> on your stage, regard all numbers on the faces of that die as the chosen number.",
     "skills": [
@@ -13450,6 +13550,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Red",
+    "colorAdvantage": "Purple",
     "tag": "#JP #Gen5 #Kemomimi",
     "giftEffect": "The Show Must Go On : [Center Position・Collab Position Only]During your opponent's turn, when your Buzz holomem with a fan attached is downed, if your Oshi holomem is <Omaru Polka>, you take -1 Life Damage.",
     "skills": [
@@ -13561,6 +13662,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Red",
+    "colorAdvantage": "Yellow",
     "tag": "#EN #Justice #Singing",
     "giftEffect": "絢爛のアインザッツ : [Center Position・Collab Position Only]When your holomem downs your opponent's holomem, choose 1 of your holomem. During this turn, the chosen holomem requires -2 colorless for its Arts.",
     "skills": [
@@ -13692,6 +13794,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Blue",
+    "colorAdvantage": "White",
     "tag": "#EN #Promise",
     "bloomEffect": "約束の未来へ : Choose 1 holomem with #Promise on your stage. During this turn, the chosen holomem gets Arts+50.",
     "skills": [
@@ -13713,6 +13816,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Blue",
+    "colorAdvantage": "Red",
     "tag": "#EN #Promise",
     "giftEffect": "時界を統べし者 : [Center Position Only]At the start of your performance phase, you may bloom 1 of your other <Ouro Kronii> using a holomem that is stacked to this holomem.",
     "skills": [
@@ -13736,6 +13840,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Blue",
+    "colorAdvantage": "Red",
     "tag": "#JP #GAMERS #Kemomimi",
     "collabEffect": "君と遊ぶとドキドキしちゃう… : Deal 30 special damage to 1 of your opponent's holomem.",
     "skills": [
@@ -13849,6 +13954,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Blue",
+    "colorAdvantage": "Red",
     "tag": "#EN #Advent",
     "collabEffect": "A New Crime & A New Me : You may archive 2 support cards from your hand:Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+50.",
     "skills": [
@@ -13982,6 +14088,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Purple",
+    "colorAdvantage": "Yellow",
     "tag": "#JP #Gen0 #Singing",
     "giftEffect": "Cost : 2 any color Power: 100, +50 vs yellow",
     "collabEffect": "共に歩んできた軌跡 : During this turn, this holomem gets Arts+20 for each differently named holomem with #Gen0 on your stage.",
@@ -14004,6 +14111,7 @@
     "bloomLevel": "2nd",
     "hp": 220,
     "color": "Purple",
+    "colorAdvantage": "Green",
     "tag": "#JP #Gen0 #Singing",
     "skills": [
       {
@@ -14118,6 +14226,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Purple",
+    "colorAdvantage": "Green",
     "tag": "#JP #holoX #Shooter #Singing",
     "bloomEffect": "ラッシュ行きます : Look at the top 3 cards of your deck. Reveal any number of holomem from among them, and add the revealed cards to hand. Then, return the remaining cards to the bottom of the deck in any order.",
     "skills": [
@@ -14141,6 +14250,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Purple",
+    "colorAdvantage": "Blue",
     "tag": "#EN #Advent #Baby",
     "giftEffect": "闇夜のハンター : If the target of this holomem's Arts is your opponent's holomem with the same color as a cheer in your archive, damage from that Arts cannot be reduced.",
     "skills": [
@@ -14293,6 +14403,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "tag": "#JP #Gen5 #Singing #Painting",
     "collabEffect": "ねぽらぼが最強です！！！！！！！！！！！！！ : Reveal 1 2nd holomem with #Gen5 from your deck, and add it to hand. Then, shuffle the deck.",
     "skills": [
@@ -14314,6 +14425,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Yellow",
+    "colorAdvantage": "Red",
     "tag": "#JP #Gen5 #Singing #Painting",
     "bloomEffect": "みんなのエナジードリンク : [Center Position Only]Until the end of your opponent's next turn, all holomem on both players' stage get Arts+40. Then, all 2nd holomem <Momosuzu Nene> on your stage get Arts+60.",
     "skills": [
@@ -14337,6 +14449,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "tag": "#JP #Gen1 #Shooter",
     "giftEffect": "一緒にゲームしよ : During your opponent's turn, when this holomem is downed, you may return 1 LIMITED support card from your archive to the bottom of your deck. If you do, return this holomem to hand instead of archiving it.",
     "skills": [
@@ -14381,6 +14494,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "tag": "#EN #Justice",
     "collabEffect": "執念のチェイサー : Choose 1 of your <Gigi Murin>. During this turn, you may also target your opponent's back holomem with reduced HP with the chosen holomem's Arts.",
     "skills": [
@@ -14466,6 +14580,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Yellow",
+    "colorAdvantage": "White",
     "tag": "#DEV_IS #FLOWGLOW",
     "collabEffect": "ここで終わっちゃう虎じゃないんだ！ : You may send 2 cheers from your archive to 1 of your holomem with #FLOW GLOW.",
     "skills": [
@@ -14930,6 +15045,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "White",
+    "colorAdvantage": "Purple",
     "tag": "#EN #Promise #Singing",
     "giftEffect": "勝利のティータイム : When this holomem downs your opponent's holomem, put the top card of your deck as holo power.",
     "skills": [
@@ -14952,6 +15068,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "White",
+    "colorAdvantage": "Red",
     "tag": "#EN #Promise #Singing",
     "bloomEffect": "絶望に残った光 : Deal 30 special damage to your opponent's center holomem. Additionally, if a purple cheer is attached to this holomem, deal 30 special damage to your opponent's collab holomem.",
     "skills": [
@@ -15044,6 +15161,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "White",
+    "colorAdvantage": "Red",
     "tag": "#JP #Gen0 #Singing",
     "bloomEffect": "アイドルになりたいわたし : [Center Position・Collab Position Only] Draw 2 cards.",
     "skills": [
@@ -15089,6 +15207,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "White",
+    "colorAdvantage": "Red",
     "tag": "#DEV_IS #FLOWGLOW",
     "collabEffect": "セクシーダンスクィーン : You may archive 1~2 cards from the top of your deck: Draw 1 card for each card archived.",
     "skills": [
@@ -15216,6 +15335,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#EN #Justice #Language",
     "collabEffect": "機巧のシュトライヒ : If you have 2 or more resting holomem with #Justice, during this turn, this holomem gets Arts+50.",
     "skills": [
@@ -15237,6 +15357,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Green",
+    "colorAdvantage": "Yellow",
     "tag": "#EN #Justice #Language",
     "bloomEffect": "絡繰のラプソディー : Send 1 cheer from your archive to this holomem for each of your resting holomem with #Justice.",
     "skills": [
@@ -15349,6 +15470,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#ID #IDGen2 #Bird #Painting",
     "bloomEffect": "新しい旅へ : Choose 1 2nd holomem [<Kureiji Ollie> or <Anya Melfissa>] on your stage. During this turn, the chosen holomem gets Arts+70.",
     "skills": [
@@ -15371,6 +15493,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#ID #IDGen2 #Bird #Painting",
     "collabEffect": "監視者の眼差し : Send 1 cheer from your cheer deck to your holomem with #ID. Then, shuffle the cheer deck.",
     "skills": [
@@ -15478,6 +15601,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Red",
+    "colorAdvantage": "Green",
     "tag": "#EN #Advent #Kemomimi",
     "collabEffect": "魔法の武器だもん！ : If your Oshi holomem is blue <FUWAMOCO>, return 1 holomem with #Advent from your archive to hand.",
     "skills": [
@@ -15499,6 +15623,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Red",
+    "colorAdvantage": "Purple",
     "tag": "#EN #Advent #Kemomimi",
     "bloomEffect": "深淵からの信頼 : If your stage has 6 or more blue cheers, set 1 of your resting <Fuwawa Abyssgard> to active.",
     "skills": [
@@ -15613,6 +15738,7 @@
     "bloomLevel": "2nd",
     "hp": 170,
     "color": "Red",
+    "colorAdvantage": "Purple",
     "tag": "#EN #Myth #Bird",
     "giftEffect": "光、再び灯りて : During your main phase, if your archive has 10 or more holomem, you may bloom 1 of your holomem using this holomem from your archive. (This ability can only be used while this holomem is in archive)",
     "skills": [
@@ -15636,6 +15762,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Red",
+    "colorAdvantage": "Green",
     "tag": "#EN #Promise #Kemomimi",
     "collabEffect": "今年は豊作になりそうやねん！ : During this turn, when you roll a die for the ability of your Oshi holomem <Hakos Baelz> or your holomem <Hakos Baelz>, regard all numbers on the die as doubled.",
     "skills": [
@@ -15785,6 +15912,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Blue",
+    "colorAdvantage": "Red",
     "tag": "#DEV_IS #FLOWGLOW",
     "skills": [
       {
@@ -15811,6 +15939,7 @@
     "bloomLevel": "2nd",
     "hp": 160,
     "color": "Blue",
+    "colorAdvantage": "White",
     "tag": "#DEV_IS #FLOWGLOW",
     "giftEffect": "しゅぴしゅわ～～っ！！！！ : [Center Position Only] While your opponent's center holomem requires 5 or more colorless cheers for its baton pass, your opponent's center holomem requires +2 colorless cheers for its Arts.",
     "skills": [
@@ -15834,6 +15963,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Blue",
+    "colorAdvantage": "Red",
     "tag": "#ID #IDGen1 #Singing",
     "bloomEffect": "この絆が私達！ : If your Oshi holomem's color is green, blue or yellow, send 1 blue cheer each from your archive to 1~3 of your holomem with #ID Gen 1.",
     "skills": [
@@ -15921,6 +16051,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Blue",
+    "colorAdvantage": "White",
     "tag": "#EN #Advent #Kemomimi",
     "skills": [
       {
@@ -15948,6 +16079,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Blue",
+    "colorAdvantage": "White",
     "tag": "#EN #Advent #Kemomimi",
     "giftEffect": "深淵からの愛情 : While your stage has 6 or more red cheers, you may also target your opponent's back holomem other than Debut with this holomem's Arts.",
     "skills": [
@@ -16101,6 +16233,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Purple",
+    "colorAdvantage": "Yellow",
     "tag": "#JP #holoX #Bird #Alcohol",
     "collabEffect": "そんなに顔赤い？ : You may return 1 support card from your archive to the top of your deck.",
     "skills": [
@@ -16123,6 +16256,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Purple",
+    "colorAdvantage": "Green",
     "tag": "#JP #holoX #Bird #Alcohol",
     "bloomEffect": "ヴァイオレットドミネーション : [Center Position Only] You may archive 2 cards from your hand: Reattach 1 cheer on your opponent's stage to their holomem.",
     "skills": [
@@ -16253,6 +16387,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Purple",
+    "colorAdvantage": "Blue",
     "tag": "#EN #Myth #Painting #Sea",
     "collabEffect": "お行儀よくしてね？ : Choose 2 holomem on your opponent's stage. During this turn, the chosen holomem are regarded as holomem with all colors.",
     "skills": [
@@ -16274,6 +16409,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Purple",
+    "colorAdvantage": "Yellow",
     "tag": "#EN #Myth #Painting #Sea",
     "bloomEffect": "目覚めよ、赤き眼の黒龍 : [Center Position Only] Draw 1 card for each holomem on your opponent's stage with a different color to their Oshi holomem.",
     "skills": [
@@ -16297,6 +16433,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Purple",
+    "colorAdvantage": "Yellow",
     "tag": "#JP #Gen0 #Shooter",
     "bloomEffect": "ロボ子さん↔ろぼさー : Reveal 1 <Roboser> from your deck, and add it to hand. Then, shuffle the deck.",
     "skills": [
@@ -16319,6 +16456,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Purple",
+    "colorAdvantage": "Blue",
     "tag": "#JP #Gen2 #Cooking",
     "collabEffect": "おいしいごはんの夢 : Look at the top 3 cards of your deck. Reveal 1 [holomem with #Cooking and/or event with #Food] each from among them, and add the revealed ccards to hand. Then, return the remaining cards to the bottom of the deck in any order.",
     "skills": [
@@ -16448,6 +16586,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Yellow",
+    "colorAdvantage": "White",
     "tag": "#DEV_IS #ReGLOSS #Singing",
     "collabEffect": "めでたい日なのに…… : If the number of cheers on your stage is more than your opponent's, during this turn, this holomem gets Arts+40.",
     "skills": [
@@ -16469,6 +16608,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "tag": "#DEV_IS #ReGLOSS #Singing",
     "bloomEffect": "テンション超アップ！ : If the number of cheers on your stage is less than or equal to your opponent's, send 1~2 cheers from your archive to this holomem.",
     "skills": [
@@ -16557,6 +16697,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "tag": "#JP #Gen3 #Half-Elf",
     "collabEffect": "ドリーミングエール : You may send 1~2 cheers from your archive to your [<Shiranui Flare> or holomem with #EN] center holomem.",
     "skills": [
@@ -16578,6 +16719,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Yellow",
+    "colorAdvantage": "White",
     "tag": "#JP #Gen3 #Half-Elf",
     "giftEffect": "メロゥ・フラワリー : [1/Turn] During your turn, when this holomem moves to the collab position, deal 20 special damage to your opponent's center holomem and collab holomem.",
     "skills": [
@@ -17056,6 +17198,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "White",
+    "colorAdvantage": "Red",
     "tag": "#JP #Gen 2 #Bird",
     "collabEffect": "ひよこお部屋着 : Reveal 1 [<Oozora Police> or <Speeding Violation>] from your deck, and add it to your hand. Shuffle your deck.",
     "skills": [
@@ -17075,6 +17218,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "White",
+    "colorAdvantage": "Purple",
     "tag": "#JP #Gen 2 #Bird",
     "giftEffect": "それ、没収っスよ！ : [1/Turn] During your opponent's turn, when this holomem takes 200 or more Arts damage at once, your opponent returns all of their center holomem's cheers to the bottom of their cheer deck in any order.",
     "skills": [
@@ -17193,6 +17337,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "White",
+    "colorAdvantage": "Purple",
     "tag": "#DEV_IS #ReGLOSS #Baby",
     "giftEffect": "奇想天外な盤面 : This holomem does not rest during the Reset Phase.",
     "skills": [
@@ -17213,6 +17358,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "White",
+    "colorAdvantage": "Red",
     "tag": "#DEV_IS #ReGLOSS #Baby",
     "giftEffect": "ストイックダンサー : When this holomem downs your opponent's holomem, put the top card of your deck as holo Power.",
     "skills": [
@@ -17234,6 +17380,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "White",
+    "colorAdvantage": "Purple",
     "tag": "#JP #Gen 4 #Kemomimi #Singing",
     "bloomEffect": "わためいとの楽園 : Choose 1 holomem on your opponent's stage. If you have 10 or more holo Power, during this turn, the chosen holomem is regarded as a 2nd holomem.",
     "skills": [
@@ -17392,6 +17539,7 @@
     "bloomLevel": "2nd",
     "hp": 220,
     "color": "Green",
+    "colorAdvantage": "Yellow",
     "tag": "#JP #Gen 3 #Alcohol",
     "collabEffect": "白銀聖騎士団を背負う者 : Restore 10 HP to 1 of your holomem for each <Beef Bowl> in your archive.",
     "skills": [
@@ -17412,6 +17560,7 @@
     "bloomLevel": "2nd",
     "hp": 220,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#JP #Gen 3 #Alcohol",
     "giftEffect": "究極の牛丼道 : [1/Turn] This holomem restores +100 HP from the ability of <Beef Bowl>.",
     "skills": [
@@ -17492,6 +17641,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#JP #GAMERS #Kemomimi #Cooking",
     "bloomEffect": "癒しの空間 : If your Oshi holomem is <Ookami Mio>, draw 3 cards and return 2 cards from your hand to the top of your deck in any order.",
     "skills": [
@@ -17533,6 +17683,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Green",
+    "colorAdvantage": "Yellow",
     "tag": "#DEV_IS #FLOW GLOW",
     "giftEffect": "Fantastic Driver : If this holomem downed your opponent's holomem, choose 1 of your back holomem with #FLOW GLOW. You may return all of the chosen holomem's stacked holomem including that holomem to your hand.",
     "skills": [
@@ -17651,6 +17802,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Red",
+    "colorAdvantage": "Yellow",
     "tag": "#ID #ID Gen 3",
     "collabEffect": "Happy Summer Days : If you have 2 or more tools with #Kaela's Arms on your stage, send 1 cheer from your archive to your holomem.",
     "skills": [
@@ -17671,6 +17823,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Red",
+    "colorAdvantage": "Green",
     "tag": "#ID #ID Gen 3",
     "giftEffect": "師から受け継ぎしもの : While this holomem has a tool attached, you may attach up to 1 additional tool with #Kaela's Arms to this holomem.",
     "skills": [
@@ -17692,6 +17845,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Red",
+    "colorAdvantage": "Yellow",
     "tag": "#JP #Gen 1 #Cooking",
     "bloomEffect": "スイートはあちゃま : Roll a die once. If it is odd, deal 30 special damage to your opponent's center holomem. If it is even, draw 2 cards.",
     "skills": [
@@ -17771,6 +17925,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Red",
+    "colorAdvantage": "Green",
     "tag": "#EN #Promise #Kemomimi",
     "giftEffect": "熱き取り調べ : If your Oshi holomem is <Oozora Subaru>, this holomem's Arts require -3 colorless.",
     "skills": [
@@ -17791,6 +17946,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Red",
+    "colorAdvantage": "Purple",
     "tag": "#EN #Promise #Kemomimi",
     "collabEffect": "大空警察国際部代表 : If your Oshi holomem is <Oozora Subaru>, choose 1 of your opponent's back holomem. Swap your opponent's collab holomem and the chosen holomem. If your opponent has no collab holomem, move the chosen holomem to the collab position instead.",
     "skills": [
@@ -17918,6 +18074,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Blue",
+    "colorAdvantage": "Red",
     "tag": "#JP #Gen 4 #Singing #Shooter",
     "skills": [
       {
@@ -17942,6 +18099,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Blue",
+    "colorAdvantage": "White",
     "tag": "#JP #Gen 4 #Singing #Shooter",
     "skills": [
       {
@@ -18046,6 +18204,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Blue",
+    "colorAdvantage": "Red",
     "tag": "#ID #ID Gen 1 #Singing",
     "giftEffect": "夜を照らす光 : When this holomem downs your opponent's holomem, if there are 5 or more holomem with #ID Gen 1 on your stage, deal 50 special damage to 1 of your opponent's holomem.",
     "skills": [
@@ -18185,6 +18344,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Purple",
+    "colorAdvantage": "Green",
     "tag": "#DEV_IS #FLOW GLOW",
     "giftEffect": "12人目の選手 : While your opponent has 7 or more cards in their hand, this holomem takes -50 Arts damage.",
     "skills": [
@@ -18204,6 +18364,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Purple",
+    "colorAdvantage": "Yellow",
     "tag": "#DEV_IS #FLOW GLOW",
     "giftEffect": "ストロングコミュニケーター : [Center Position Only] While your opponent has 7 or more cards in their hand, this holomem's Arts require -2 colorless.",
     "skills": [
@@ -18324,6 +18485,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Purple",
+    "colorAdvantage": "Green",
     "tag": "#EN #Advent #Singing #Bird",
     "bloomEffect": "魔人の臥所 : You may archive the top 1~3 cards of your holo Power: During this turn, all holomem on your stage with #Singing get Arts+30 for each holo Power archived this way.",
     "skills": [
@@ -18441,6 +18603,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
     "bloomEffect": "トレーニング完了 : If you have a support card with #Lamy's Alcohol in your archive, send the top card of your cheer deck to your <Yukihana Lamy>.",
     "skills": [
@@ -18460,6 +18623,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Yellow",
+    "colorAdvantage": "White",
     "tag": "#JP #Gen 5 #Half-Elf #Alcohol",
     "giftEffect": "顔が肝臓 : While you have 4 or less support cards with #Lamy's Alcohol in your archive, this holomem's Arts require +2 colorless.",
     "skills": [
@@ -18538,6 +18702,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Yellow",
+    "colorAdvantage": "White",
     "tag": "#JP #Gen 1 #Shooter",
     "collabEffect": "あざとい清楚担当 : If your Oshi holomem is yellow <Natsuiro Matsuri> and all holomem on your stage are <Natsuiro Matsuri>, you may archive the top card of your holo Power: During this turn, the number of LIMITED support cards you can use becomes 2.",
     "skills": [
@@ -18559,6 +18724,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "Yellow",
+    "colorAdvantage": "Blue",
     "tag": "#JP #Gen 5 #Singing #Painting",
     "giftEffect": "キミと二度寝 : If your Oshi holomem is <Momosuzu Nene>, when this holomem would take 200 or more Arts damage at once, this holomem does not take that damage.",
     "skills": [
@@ -18974,6 +19140,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Red",
+    "colorAdvantage": "Purple",
     "tag": "#JP #Gen 0 #Singing #Summer",
     "collabEffect": "この歌は、あなたのために。 : Reveal 1 2nd holomem <Tokino Sora> from your deck, and add it to your hand. Then, shuffle your deck.",
     "skills": [
@@ -18994,6 +19161,7 @@
     "bloomLevel": "2nd",
     "hp": 210,
     "color": "Red",
+    "colorAdvantage": "Green",
     "tag": "#JP #Gen 0 #Singing #Summer",
     "bloomEffect": "今日は、いつもの道も特別だね : [Center Position Only] You may roll a die once. If it's odd, choose 1 of your opponent's back holomem. Swap your opponent's center holomem and the chosen holomem.",
     "skills": [
@@ -19112,6 +19280,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Blue",
+    "colorAdvantage": "White",
     "tag": "#JP #Gen 3 #Painting #Sea #Summer",
     "skills": [
       {
@@ -19131,6 +19300,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Blue",
+    "colorAdvantage": "Red",
     "tag": "#JP #Gen 3 #Painting #Sea #Summer",
     "bloomEffect": "キミにも一口、あげるゾ♡ : Send 1 cheer from your archive to this holomem.",
     "skills": [
@@ -19253,6 +19423,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Yellow",
+    "colorAdvantage": "White",
     "tag": "#JP #holoX #Kemomimi #Summer",
     "bloomEffect": "助手くんお待ちかね、こよの水着姿だよ！ : You may return 1~4 <Hakui Koyori> from your archive to the bottom of the deck in any order you like. If you returned 4 cards, you may attach 1 support card with #KOYO LABO from your archive to your <Hakui Koyori>.",
     "skills": [
@@ -19273,6 +19444,7 @@
     "bloomLevel": "2nd",
     "hp": 200,
     "color": "Yellow",
+    "colorAdvantage": "White",
     "tag": "#JP #holoX #Kemomimi #Summer",
     "giftEffect": "こよに溺れちゃえ～っ！ : For each <Koyori's Assistants> attached to this holomem, this holomem gets +10 HP and this holomem's Arts requires -1 colorless.",
     "skills": [
@@ -20647,6 +20819,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#JP #Gen0 #Singing",
     "skills": [
       {
@@ -20986,6 +21159,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "Red",
+    "colorAdvantage": "Yellow",
     "tag": "#JP #Gen2 #Shooter",
     "skills": [
       {
@@ -21253,6 +21427,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "Blue",
+    "colorAdvantage": "White",
     "tag": "#JP #GAMERS #Kemomimi",
     "skills": [
       {
@@ -21525,6 +21700,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Purple",
+    "colorAdvantage": "Green",
     "tag": "#JP #Gen2 #Cooking",
     "skills": [
       {
@@ -21791,6 +21967,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "White",
+    "colorAdvantage": "Purple",
     "tag": "#DEV_IS #ReGLOSS #Baby",
     "bloomEffect": "ダンスでこの世界に彩を！ : Reveal 1 Debut Holomem or 1st Holomem card with #ReGLOSS from your deck and add it to your hand. Then, shuffle your deck.",
     "skills": [
@@ -22022,6 +22199,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#JP #holoX",
     "bloomEffect": "元気をお届け : Restore 30 HP to one of your holomems with $HoloX.",
     "skills": [
@@ -22299,6 +22477,7 @@
     "bloomLevel": "2nd",
     "hp": 190,
     "color": "Yellow",
+    "colorAdvantage": "Red",
     "tag": "#JP #Gen3 #Half-Elf",
     "giftEffect": "疲れ知らず : [Center position only] Whenever this holomem takes damage, it takes -10 damage.",
     "skills": [
@@ -22459,6 +22638,7 @@
     "cardNumber": "hSD08-003",
     "rarity": "R",
     "color": "White",
+    "colorAdvantage": "Green",
     "bloomLevel": "2nd",
     "hp": 200,
     "bloomEffect": "相談のるよ: Reveal 1 Debut holomem with #Gen4 from your deck, and add it to hand. Then, shuffle the deck.",
@@ -22480,6 +22660,7 @@
     "cardNumber": "hSD08-004",
     "rarity": "RR",
     "color": "White",
+    "colorAdvantage": "Red",
     "bloomLevel": "2nd",
     "hp": 180,
     "giftEffect": "エンジェルウィンド : [Center position only] Your collab Debut holomem with #Gen4 gets Arts+40.",
@@ -22621,6 +22802,7 @@
     "cardNumber": "hSD09-004",
     "rarity": "RR",
     "color": "Red",
+    "colorAdvantage": "Yellow",
     "bloomLevel": "2nd",
     "hp": 200,
     "skills": [
@@ -22809,6 +22991,7 @@
     "cardNumber": "hSD10-006",
     "rarity": "RR",
     "color": "Green",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 200,
     "skills": [
@@ -22872,6 +23055,7 @@
     "cardNumber": "hSD10-009",
     "rarity": "RR",
     "color": "Purple",
+    "colorAdvantage": "Blue",
     "bloomLevel": "2nd",
     "hp": 200,
     "collabEffect": "美の求道者: Look at a number of cards from the top of your deck equal to the number of cards in your opponent's hand. Add 1 card from among them to hand. Then, return the remaining cards to your deck and shuffle it.",
@@ -23044,6 +23228,7 @@
     "cardNumber": "hSD11-006",
     "rarity": "RR",
     "color": "Yellow",
+    "colorAdvantage": "Red",
     "bloomLevel": "2nd",
     "hp": 210,
     "giftEffect": "戯笑の使者: At the start of your Performance Phase, you may archive 1 holomem with #FLOWGLOW from your hand:Send 1 yellow cheer from your archive to your <Koganei Niko>.",
@@ -23105,6 +23290,7 @@
     "cardNumber": "hSD11-009",
     "rarity": "RR",
     "color": "Blue",
+    "colorAdvantage": "Purple",
     "bloomLevel": "2nd",
     "hp": 210,
     "collabEffect": "感情の伝令者: Until the end of your opponent's next turn, the Baton Pass cheer cost of the holomem currently in your opponent's center position is increased by +3 colorless cheer.",
@@ -23252,6 +23438,7 @@
     "cardNumber": "hSD12-007",
     "rarity": "RR",
     "color": "Blue",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 200,
     "giftEffect": "どんな知識が得られるかしら : [1/Turn]When this holomem downed your opponent's holomem, return 1 support card other than LIMITED from your archive to hand.",
@@ -23338,6 +23525,7 @@
     "cardNumber": "hSD12-011",
     "rarity": "RR",
     "color": "Purple",
+    "colorAdvantage": "Yellow",
     "bloomLevel": "2nd",
     "hp": 200,
     "bloomEffect": "ビブーと遊んでいかない？ : Draw 1 card. You may archive 1 cheer from your stage. If you archived cheer, choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+40.",
@@ -23559,6 +23747,7 @@
     "cardNumber": "hSD13-007",
     "rarity": "RR",
     "color": "Red",
+    "colorAdvantage": "Purple",
     "bloomLevel": "2nd",
     "hp": 180,
     "giftEffect": "猛炎のウォークライ: This holomem gets +10 HP for each of this holomem's cheers.",
@@ -23686,6 +23875,7 @@
     "cardNumber": "hSD13-013",
     "rarity": "RR",
     "color": "Yellow",
+    "colorAdvantage": "White",
     "bloomLevel": "2nd",
     "hp": 210,
     "giftEffect": "再起のストレングス : [1/Turn]During your main phase, you may archive 1 holomem stacked to your <Gigi Murin>:Send the top card of your cheer deck to this holomem.",
@@ -23941,6 +24131,7 @@
     "bloomLevel": "2nd",
     "hp": 170,
     "color": "White",
+    "colorAdvantage": "Red",
     "tag": "#JP #Gen1 #GAMERS #Kemomimi #Painting",
     "giftEffect": "私は倒れちゃいけないな : During your opponent's turn, when this holomem is downed, if this holomem has a mascot attached, draw 1 card.",
     "skills": [
@@ -24142,6 +24333,7 @@
     "bloomLevel": "2nd",
     "hp": 170,
     "color": "Green",
+    "colorAdvantage": "Blue",
     "tag": "#DEV_IS #ReGLOSS #Alcohol",
     "bloomEffect": "ザ・破天荒 : [Center Position Only]During this turn, this holomem gets Arts+20.",
     "skills": [
@@ -24333,6 +24525,7 @@
     "bloomLevel": "2nd",
     "hp": 170,
     "color": "Red",
+    "colorAdvantage": "Yellow",
     "tag": "#JP #Gen0 #Baby",
     "bloomEffect": "35P、ありがとうだよー！ : During this turn, for each <35P> on your stage, this holomem gets Arts+10.",
     "skills": [
@@ -24515,6 +24708,7 @@
     "bloomLevel": "2nd",
     "hp": 170,
     "color": "Blue",
+    "colorAdvantage": "Purple",
     "tag": "#JP #Gen0 #Singing",
     "collabEffect": "踊ったもん勝ち！ : During this turn, this holomem gets Arts+20.",
     "skills": [
@@ -24707,6 +24901,7 @@
     "bloomLevel": "2nd",
     "hp": 160,
     "color": "Purple",
+    "colorAdvantage": "Green",
     "tag": "#EN #Myth #Singing",
     "collabEffect": "ペイルライダー : If you have 6 or more holomem in your archive, deal 20 special damage to your opponent's center holomem.",
     "skills": [
@@ -24890,6 +25085,7 @@
     "bloomLevel": "2nd",
     "hp": 180,
     "color": "Yellow",
+    "colorAdvantage": "White",
     "tag": "#JP #Gen2 #Bird",
     "skills": [
       {

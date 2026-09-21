@@ -114,6 +114,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "Green",
+        "colorAdvantage": "Blue",
         "tag": "#JP #holoX",
         "bloomEffect": "元気をお届け : Restore 30 HP to one of your holomems with $HoloX.",
         "skills": [

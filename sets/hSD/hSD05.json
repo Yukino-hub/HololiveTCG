@@ -159,6 +159,7 @@
         "bloomLevel": "2nd",
         "hp": 190,
         "color": "White",
+        "colorAdvantage": "Purple",
         "tag": "#DEV_IS #ReGLOSS #Baby",
         "bloomEffect": "ダンスでこの世界に彩を！ : Reveal 1 Debut Holomem or 1st Holomem card with #ReGLOSS from your deck and add it to your hand. Then, shuffle your deck.",
         "skills": [

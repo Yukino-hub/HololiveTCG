@@ -137,6 +137,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "Red",
+        "colorAdvantage": "Purple",
         "tag": "#JP #Gen 0 #Singing #Summer",
         "collabEffect": "この歌は、あなたのために。 : Reveal 1 2nd holomem <Tokino Sora> from your deck, and add it to your hand. Then, shuffle your deck.",
         "skills": [
@@ -155,6 +156,7 @@
         "bloomLevel": "2nd",
         "hp": 210,
         "color": "Red",
+        "colorAdvantage": "Green",
         "tag": "#JP #Gen 0 #Singing #Summer",
         "bloomEffect": "今日は、いつもの道も特別だね : [Center Position Only] You may roll a die once. If it's odd, choose 1 of your opponent's back holomem. Swap your opponent's center holomem and the chosen holomem.",
         "skills": [
@@ -261,6 +263,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Blue",
+        "colorAdvantage": "White",
         "tag": "#JP #Gen 3 #Painting #Sea #Summer",
         "skills": [
             {
@@ -278,6 +281,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Blue",
+        "colorAdvantage": "Red",
         "tag": "#JP #Gen 3 #Painting #Sea #Summer",
         "bloomEffect": "キミにも一口、あげるゾ♡ : Send 1 cheer from your archive to this holomem.",
         "skills": [
@@ -388,6 +392,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Yellow",
+        "colorAdvantage": "White",
         "tag": "#JP #holoX #Kemomimi #Summer",
         "bloomEffect": "助手くんお待ちかね、こよの水着姿だよ！ : You may return 1~4 <Hakui Koyori> from your archive to the bottom of the deck in any order you like. If you returned 4 cards, you may attach 1 support card with #KOYO LABO from your archive to your <Hakui Koyori>.",
         "skills": [
@@ -406,6 +411,7 @@
         "bloomLevel": "2nd",
         "hp": 200,
         "color": "Yellow",
+        "colorAdvantage": "White",
         "tag": "#JP #holoX #Kemomimi #Summer",
         "giftEffect": "こよに溺れちゃえ～っ！ : For each <Koyori's Assistants> attached to this holomem, this holomem gets +10 HP and this holomem's Arts requires -1 colorless.",
         "skills": [

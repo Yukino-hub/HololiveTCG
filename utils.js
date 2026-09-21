@@ -92,6 +92,7 @@ function populateModalCommon(card) {
     const modalBloomLevel = document.getElementById('modalBloomLevel');
     const modalHP = document.getElementById('modalHP');
     const modalColor = document.getElementById('modalColor');
+    const modalColorAdvantage = document.getElementById('modalColorAdvantage');
     const modalLives = document.getElementById('modalLives');
     const modalBuzz = document.getElementById('modalBuzz');
     const modalType = document.getElementById('modalType');
@@ -122,6 +123,7 @@ function populateModalCommon(card) {
     const modalBloomLevelContainer = document.getElementById('modalBloomLevelContainer');
     const modalHPContainer = document.getElementById('modalHPContainer');
     const modalColorContainer = document.getElementById('modalColorContainer');
+    const modalColorAdvantageContainer = document.getElementById('modalColorAdvantageContainer');
     const modalLivesContainer = document.getElementById('modalLivesContainer');
     const modalBuzzContainer = document.getElementById('modalBuzzContainer');
     const modalTypeContainer = document.getElementById('modalTypeContainer');
@@ -142,6 +144,7 @@ function populateModalCommon(card) {
     if (modalBloomLevel) modalBloomLevel.textContent = card.bloomLevel || '';
     if (modalHP) modalHP.textContent = card.hp || '';
     if (modalColor) modalColor.textContent = card.color || '';
+    if (modalColorAdvantage) modalColorAdvantage.textContent = card.colorAdvantage || '';
     if (modalLives) modalLives.textContent = card.lives || '';
     if (modalBuzz) modalBuzz.textContent = card.buzz || '';
     if (modalType) modalType.textContent = card.type || '';
@@ -160,6 +163,7 @@ function populateModalCommon(card) {
     toggleVisibility(modalBloomLevelContainer, card.bloomLevel);
     toggleVisibility(modalHPContainer, card.hp);
     toggleVisibility(modalColorContainer, card.color);
+    toggleVisibility(modalColorAdvantageContainer, card.colorAdvantage);
     toggleVisibility(modalLivesContainer, card.lives);
     toggleVisibility(modalBuzzContainer, card.buzz);
     toggleVisibility(modalTypeContainer, card.type);
@@ -281,6 +285,11 @@ function matchesBloomType(card, selectedBloomType) {
     return card.bloomLevel === selectedBloomType || card.type === selectedBloomType;
 }
 
+function matchesColorAdvantage(card, selectedColorAdvantage) {
+    if (!selectedColorAdvantage) return true;
+    return card.colorAdvantage === selectedColorAdvantage;
+}
+
 function matchesCheckboxes(card, state) {
     return (!state.altArt || card.hasAlternativeArt) &&
         (!state.fullArt || card.hasFullArt) &&
@@ -312,6 +321,7 @@ function injectModalHtml(includeAddBtn) {
                 <p id="modalBloomLevelContainer"><strong>Bloom Level:</strong> <span id="modalBloomLevel"></span></p>
                 <p id="modalHPContainer"><strong>HP:</strong> <span id="modalHP"></span></p>
                 <p id="modalColorContainer"><strong>Color:</strong> <span id="modalColor"></span></p>
+                <p id="modalColorAdvantageContainer"><strong>Color Advantage:</strong> <span id="modalColorAdvantage"></span></p>
                 <p id="modalLivesContainer"><strong>Lives:</strong> <span id="modalLives"></span></p>
                 <p id="modalBuzzContainer"><strong>Buzz:</strong> <span id="modalBuzz"></span></p>
                 <p id="modalTypeContainer"><strong>Type:</strong> <span id="modalType"></span></p>

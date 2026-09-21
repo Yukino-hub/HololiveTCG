@@ -59,6 +59,7 @@
         "cardNumber": "hSD09-004",
         "rarity": "RR",
         "color": "Red",
+        "colorAdvantage": "Yellow",
         "bloomLevel": "2nd",
         "hp": 200,
         "skills": [

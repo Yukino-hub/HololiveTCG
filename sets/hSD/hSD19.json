@@ -153,6 +153,7 @@
         "bloomLevel": "2nd",
         "hp": 180,
         "color": "Yellow",
+        "colorAdvantage": "White",
         "tag": "#JP #Gen2 #Bird",
         "skills": [
             {
