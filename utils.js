@@ -7,7 +7,7 @@ const consolidatedDataFile = "sets/all_cards.json";
 
 const SERIES_SETS = {
     boosters: ['hBP01','hBP02','hBP03','hBP04','hBP05','hBP06','hBP07','hBP08','hBP09','hEB01'].map(p => ({ label: p, prefix: p })),
-    starters: Array.from({ length: 19 }, (_, i) => { const s = `hSD${String(i + 1).padStart(2, '0')}`; return { label: s, prefix: s }; }),
+    starters: Array.from({ length: 21 }, (_, i) => { const s = `hSD${String(i + 1).padStart(2, '0')}`; return { label: s, prefix: s }; }),
     promos:   [{ label: 'hPR', prefix: 'hPR' }, { label: 'hBD', prefix: 'hBD' }, { label: 'hY', prefix: 'hY' }, { label: 'hYS', prefix: 'hYS' }],
 };
 const CATEGORY_PREFIXES = {

@@ -1,0 +1,122 @@
+[
+    {
+        "cardNumber": "hSD21-001",
+        "name": "Achichi Mela",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "Purple",
+        "oshiStageSkill": "Salamander's Repayment : When your holomem collabs, if your center holomem is <Achichi Mela>, draw 1 card and archive 1 card from your hand.",
+        "oshiSkill": {
+            "name": "A Blessing, Ya Hear!",
+            "power": 2,
+            "description": "[1/Turn] Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+10 for each holomem with Gift in your archive. Additionally, if the chosen holomem is <Achichi Mela>, it requires -1 colorless for its Arts."
+        }
+    },
+    {
+        "cardNumber": "hSD21-002",
+        "name": "Achichi Mela",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "color": "Purple",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "giftEffect": "Basics of Fire Safety! : This holomem takes -10 Arts damage.",
+        "extraEffect": "You may include any number of this holomem in the deck",
+        "skills": [
+            {
+                "name": "Fire safety first, ya hear!",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD21-003",
+        "name": "Achichi Mela",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "Purple",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "collabEffect": "A Mysterious Ability to Quell Flames : If you went second and it is your first turn, reveal 2 <Achichi Mela> with Gift from your deck. Add 1 of them to your hand, and archive the remaining card. Shuffle your deck.",
+        "skills": [
+            {
+                "name": "Resounding Clappers",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD21-004",
+        "name": "Achichi Mela",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Purple",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "giftEffect": "Fire Safety in Place! : This holomem takes -20 Arts damage.",
+        "skills": [
+            {
+                "name": "Energetic Hard Worker",
+                "dmg": 30,
+                "description": "Draw 1 card, and archive 1 card from your hand."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD21-005",
+        "name": "Achichi Mela",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 170,
+        "color": "Purple",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "collabEffect": "A Whirlwind of Explosive Fun : If you have 3 or more holomem with Gift in your archive, deal 20 special damage to your opponent's center holomem or collab holomem.",
+        "skills": [
+            {
+                "name": "To the Most Extraordinary Life",
+                "dmg": 40
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD21-006",
+        "name": "Achichi Mela",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Purple",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "giftEffect": "Blessing Power : If this holomem is downed, you may choose 1~2 cheers attached to this holomem, and reattach them divided as you choose to your other holomem.",
+        "skills": [
+            {
+                "name": "Now Is the Time to Show My Firefighting Skills!",
+                "dmg": 60
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD21-007",
+        "name": "Achichi Mela",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 210,
+        "color": "Purple",
+        "colorAdvantage": "Yellow",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "giftEffect": "Salamander Firefighter : If this holomem is downed, draw 2 cards.",
+        "skills": [
+            {
+                "name": "Resident Blessing-Type Member",
+                "dmg": "100+, +50 vs yellow",
+                "description": "If you have 3 or more holomem with Gift in your archive, this Arts gets +50."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD21-008",
+        "name": "Achichi Mela's Wooden Clappers",
+        "type": "Support (Tool)",
+        "rarity": "U",
+        "ability": "The <Achichi Mela> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to a 1st or greater <Achichi Mela>\nIf this holomem downs your opponent's holomem, draw 1 card and archive 1 card from your hand.\n\nOnly 1 tool can be attached to each of your holomem."
+    }
+]
