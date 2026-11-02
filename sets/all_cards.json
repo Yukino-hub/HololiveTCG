@@ -25109,6 +25109,377 @@
     "searchString": "good mood curry hsd19-010 restore 30 hp to your holomem."
   },
   {
+    "cardNumber": "hSD20-001",
+    "name": "Hyakuto Kyoko",
+    "rarity": "OSR",
+    "lives": 5,
+    "color": "Red",
+    "oshiStageSkill": "Fiery Passion : When your holomem collabs, if your center holomem is <Hyakuto Kyoko>, send the top card of your cheer deck to your collab holomem.",
+    "oshiSkill": {
+      "name": "Hero Cop On the Move!",
+      "power": 3,
+      "description": "[1/Turn] Deal 10 special damage to your opponent's [center holomem and collab holomem] other than Debut for each cheer on your stage."
+    },
+    "setName": "hSD20",
+    "searchString": "hyakuto kyoko hsd20-001 fiery passion : when your holomem collabs, if your center holomem is <hyakuto kyoko>, send the top card of your cheer deck to your collab holomem. hero cop on the move! [1/turn] deal 10 special damage to your opponent's [center holomem and collab holomem] other than debut for each cheer on your stage."
+  },
+  {
+    "cardNumber": "hSD20-002",
+    "name": "Hyakuto Kyoko",
+    "rarity": "C",
+    "bloomLevel": "Debut",
+    "hp": 130,
+    "color": "Red",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "extraEffect": "You may include any number of this holomem in the deck",
+    "skills": [
+      {
+        "name": "Can I turn that frown upside down?!",
+        "dmg": "20+",
+        "description": "[Center Position Only] If you have 2 or more cheers on your stage, this Arts gets +20."
+      }
+    ],
+    "setName": "hSD20",
+    "searchString": "hyakuto kyoko hsd20-002 #asobi★mawari-tai! you may include any number of this holomem in the deck can i turn that frown upside down?! [center position only] if you have 2 or more cheers on your stage, this arts gets +20."
+  },
+  {
+    "cardNumber": "hSD20-003",
+    "name": "Hyakuto Kyoko",
+    "rarity": "U",
+    "bloomLevel": "Debut",
+    "hp": 130,
+    "color": "Red",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "collabEffect": "Gather Round! : If you went second and it is your first turn, reveal 1 Debut holomem with #ASOBI★MAWARI-TAI! and 1 1st holomem <Hyakuto Kyoko> from your deck, and add them to your hand. Shuffle your deck.",
+    "skills": [
+      {
+        "name": "The Wild Party Begins",
+        "dmg": 20
+      }
+    ],
+    "setName": "hSD20",
+    "searchString": "hyakuto kyoko hsd20-003 #asobi★mawari-tai! gather round! : if you went second and it is your first turn, reveal 1 debut holomem with #asobi★mawari-tai! and 1 1st holomem <hyakuto kyoko> from your deck, and add them to your hand. shuffle your deck. the wild party begins "
+  },
+  {
+    "cardNumber": "hSD20-004",
+    "name": "Hyakuto Kyoko",
+    "rarity": "C",
+    "bloomLevel": "1st",
+    "hp": 180,
+    "color": "Red",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "skills": [
+      {
+        "name": "Ready to Get to Work!",
+        "dmg": 60
+      },
+      {
+        "name": "Loud Enough, No Megaphone Needed",
+        "dmg": 140
+      }
+    ],
+    "setName": "hSD20",
+    "searchString": "hyakuto kyoko hsd20-004 #asobi★mawari-tai! ready to get to work!  loud enough, no megaphone needed "
+  },
+  {
+    "cardNumber": "hSD20-005",
+    "name": "Hyakuto Kyoko",
+    "rarity": "U",
+    "bloomLevel": "1st",
+    "hp": 150,
+    "color": "Red",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "bloomEffect": "An Outstretched Hand : Choose 1 holomem on your stage with #ASOBI★MAWARI-TAI!. During this turn, the chosen holomem gets Arts+20.",
+    "skills": [
+      {
+        "name": "Acting Before Thinking",
+        "dmg": 30
+      }
+    ],
+    "setName": "hSD20",
+    "searchString": "hyakuto kyoko hsd20-005 #asobi★mawari-tai! an outstretched hand : choose 1 holomem on your stage with #asobi★mawari-tai!. during this turn, the chosen holomem gets arts+20. acting before thinking "
+  },
+  {
+    "cardNumber": "hSD20-006",
+    "name": "Hyakuto Kyoko",
+    "rarity": "R",
+    "bloomLevel": "1st",
+    "hp": 160,
+    "color": "Red",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "collabEffect": "Reaching Out to Everyone! : You may archive 1 cheer from your stage: Return 1 holomem with #ASOBI★MAWARI-TAI! from your archive to your hand.",
+    "skills": [
+      {
+        "name": "Swirling High Tension",
+        "dmg": "50+",
+        "description": "If your stage has 6 or more cheers, this Arts gets +20."
+      }
+    ],
+    "setName": "hSD20",
+    "searchString": "hyakuto kyoko hsd20-006 #asobi★mawari-tai! reaching out to everyone! : you may archive 1 cheer from your stage: return 1 holomem with #asobi★mawari-tai! from your archive to your hand. swirling high tension if your stage has 6 or more cheers, this arts gets +20."
+  },
+  {
+    "cardNumber": "hSD20-007",
+    "name": "Hyakuto Kyoko",
+    "rarity": "RR",
+    "bloomLevel": "2nd",
+    "hp": 190,
+    "color": "Red",
+    "colorAdvantage": "Green",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "giftEffect": "Fiery Hero Cop : [Center Position Only] Your collab holomem gets Arts+20.",
+    "skills": [
+      {
+        "name": "Resident Strong-Type Member",
+        "dmg": "150+, +50 vs green",
+        "description": "If your stage has 6 or more cheers, this Arts gets +50."
+      }
+    ],
+    "setName": "hSD20",
+    "searchString": "hyakuto kyoko hsd20-007 #asobi★mawari-tai! fiery hero cop : [center position only] your collab holomem gets arts+20. resident strong-type member if your stage has 6 or more cheers, this arts gets +50."
+  },
+  {
+    "cardNumber": "hSD20-008",
+    "name": "Sorashina Sopia",
+    "rarity": "C",
+    "bloomLevel": "Debut",
+    "hp": 120,
+    "color": "Blue",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "giftEffect": "My dreams are like the Big Bang! : During your opponent's turn, if this holomem is downed, draw 1 card.",
+    "extraEffect": "You may include any number of this holomem in the deck",
+    "skills": [
+      {
+        "name": "I'm going to witness it all with my own eyes!",
+        "dmg": 10
+      }
+    ],
+    "setName": "hSD20",
+    "searchString": "sorashina sopia hsd20-008 #asobi★mawari-tai! my dreams are like the big bang! : during your opponent's turn, if this holomem is downed, draw 1 card. you may include any number of this holomem in the deck i'm going to witness it all with my own eyes! "
+  },
+  {
+    "cardNumber": "hSD20-009",
+    "name": "Sorashina Sopia",
+    "rarity": "U",
+    "bloomLevel": "1st",
+    "hp": 160,
+    "color": "Blue",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "bloomEffect": "Exploration of Fun : If your stage has 3 or more holomem with #ASOBI★MAWARI-TAI!, you may archive 1 cheer from this holomem: Draw 2 cards.",
+    "skills": [
+      {
+        "name": "Boundless Intellectual Curiosity",
+        "dmg": 30
+      }
+    ],
+    "setName": "hSD20",
+    "searchString": "sorashina sopia hsd20-009 #asobi★mawari-tai! exploration of fun : if your stage has 3 or more holomem with #asobi★mawari-tai!, you may archive 1 cheer from this holomem: draw 2 cards. boundless intellectual curiosity "
+  },
+  {
+    "cardNumber": "hSD20-010",
+    "name": "Sorashina Sopia",
+    "rarity": "R",
+    "bloomLevel": "1st",
+    "hp": 130,
+    "color": "Blue",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "bloomEffect": "Recruiting Friends! : Look at the top 3 cards of your deck, reveal 1 holomem with #ASOBI★MAWARI-TAI! from among them, and add it to hand. Return the remaining cards to the bottom of your deck in any order.",
+    "skills": [
+      {
+        "name": "Found Something Interesting!",
+        "dmg": 50,
+        "description": "You may reattach 1 cheer from this holomem to your other holomem with #ASOBI★MAWARI-TAI!."
+      }
+    ],
+    "setName": "hSD20",
+    "searchString": "sorashina sopia hsd20-010 #asobi★mawari-tai! recruiting friends! : look at the top 3 cards of your deck, reveal 1 holomem with #asobi★mawari-tai! from among them, and add it to hand. return the remaining cards to the bottom of your deck in any order. found something interesting! you may reattach 1 cheer from this holomem to your other holomem with #asobi★mawari-tai!."
+  },
+  {
+    "cardNumber": "hSD20-011",
+    "name": "Sorashina Sopia",
+    "rarity": "RR",
+    "bloomLevel": "2nd",
+    "hp": 200,
+    "color": "Blue",
+    "colorAdvantage": "White",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "collabEffect": "Self-Proclaimed Genius Astronaut : You may send 2 cheers from your archive to 1 of your holomem with #ASOBI★MAWARI-TAI!.",
+    "skills": [
+      {
+        "name": "Resident Inspiration-Type Member",
+        "dmg": "80+, +50 vs white",
+        "description": "You may archive 1~3 cheers from this holomem: This Arts gets +20 for each cheer archived this way."
+      }
+    ],
+    "setName": "hSD20",
+    "searchString": "sorashina sopia hsd20-011 #asobi★mawari-tai! self-proclaimed genius astronaut : you may send 2 cheers from your archive to 1 of your holomem with #asobi★mawari-tai!. resident inspiration-type member you may archive 1~3 cheers from this holomem: this arts gets +20 for each cheer archived this way."
+  },
+  {
+    "cardNumber": "hSD20-012",
+    "name": "ASOBI★MAWARI-TAI!",
+    "type": "Support (Event)",
+    "rarity": "U",
+    "limited": true,
+    "ability": ": Only one can be used per turn.\n\nThis card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of holomem with #ASOBI★MAWARI-TAI! from among them, and add the revealed holomem to hand. Return the remaining cards to the bottom of the deck in any order.",
+    "setName": "hSD20",
+    "searchString": "asobi★mawari-tai! hsd20-012 : only one can be used per turn.\n\nthis card can only be used if you have 6 or less cards in hand excluding this card.\n\nlook at the top 4 cards of your deck. reveal any number of holomem with #asobi★mawari-tai! from among them, and add the revealed holomem to hand. return the remaining cards to the bottom of the deck in any order."
+  },
+  {
+    "cardNumber": "hSD20-013",
+    "name": "Guruguru TIME!",
+    "type": "Support (Event)",
+    "rarity": "U",
+    "limited": true,
+    "ability": ": Only one can be used per turn.\n\nThis card can only be used if all holomem on your stage are holomem with #ASOBI★MAWARI-TAI!.\n\nSwap your opponent's center holomem with 1 of their back holomem. Play rock-paper-scissors with your opponent until there's a winner. If you won, draw 3 cards.",
+    "setName": "hSD20",
+    "searchString": "guruguru time! hsd20-013 : only one can be used per turn.\n\nthis card can only be used if all holomem on your stage are holomem with #asobi★mawari-tai!.\n\nswap your opponent's center holomem with 1 of their back holomem. play rock-paper-scissors with your opponent until there's a winner. if you won, draw 3 cards."
+  },
+  {
+    "cardNumber": "hSD20-014",
+    "name": "Hyakuto Kyoko's Megaphone",
+    "type": "Support (Tool)",
+    "rarity": "U",
+    "ability": "The <Hyakuto Kyoko> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to a 1st or greater <Hyakuto Kyoko>\nIf this holomem downs your opponent's holomem, you may send 1 cheer from your archive to your back holomem with #ASOBI★MAWARI-TAI!.\n\nOnly 1 tool can be attached to each of your holomem.",
+    "setName": "hSD20",
+    "searchString": "hyakuto kyoko's megaphone hsd20-014 the <hyakuto kyoko> this tool is attached to gets arts+20.\n\n◆additional ability if attached to a 1st or greater <hyakuto kyoko>\nif this holomem downs your opponent's holomem, you may send 1 cheer from your archive to your back holomem with #asobi★mawari-tai!.\n\nonly 1 tool can be attached to each of your holomem."
+  },
+  {
+    "cardNumber": "hSD21-001",
+    "name": "Achichi Mela",
+    "rarity": "OSR",
+    "lives": 5,
+    "color": "Purple",
+    "oshiStageSkill": "Salamander's Repayment : When your holomem collabs, if your center holomem is <Achichi Mela>, draw 1 card and archive 1 card from your hand.",
+    "oshiSkill": {
+      "name": "A Blessing, Ya Hear!",
+      "power": 2,
+      "description": "[1/Turn] Choose 1 holomem on your stage. During this turn, the chosen holomem gets Arts+10 for each holomem with Gift in your archive. Additionally, if the chosen holomem is <Achichi Mela>, it requires -1 colorless for its Arts."
+    },
+    "setName": "hSD21",
+    "searchString": "achichi mela hsd21-001 salamander's repayment : when your holomem collabs, if your center holomem is <achichi mela>, draw 1 card and archive 1 card from your hand. a blessing, ya hear! [1/turn] choose 1 holomem on your stage. during this turn, the chosen holomem gets arts+10 for each holomem with gift in your archive. additionally, if the chosen holomem is <achichi mela>, it requires -1 colorless for its arts."
+  },
+  {
+    "cardNumber": "hSD21-002",
+    "name": "Achichi Mela",
+    "rarity": "C",
+    "bloomLevel": "Debut",
+    "hp": 120,
+    "color": "Purple",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "giftEffect": "Basics of Fire Safety! : This holomem takes -10 Arts damage.",
+    "extraEffect": "You may include any number of this holomem in the deck",
+    "skills": [
+      {
+        "name": "Fire safety first, ya hear!",
+        "dmg": 20
+      }
+    ],
+    "setName": "hSD21",
+    "searchString": "achichi mela hsd21-002 #asobi★mawari-tai! basics of fire safety! : this holomem takes -10 arts damage. you may include any number of this holomem in the deck fire safety first, ya hear! "
+  },
+  {
+    "cardNumber": "hSD21-003",
+    "name": "Achichi Mela",
+    "rarity": "U",
+    "bloomLevel": "Debut",
+    "hp": 130,
+    "color": "Purple",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "collabEffect": "A Mysterious Ability to Quell Flames : If you went second and it is your first turn, reveal 2 <Achichi Mela> with Gift from your deck. Add 1 of them to your hand, and archive the remaining card. Shuffle your deck.",
+    "skills": [
+      {
+        "name": "Resounding Clappers",
+        "dmg": 20
+      }
+    ],
+    "setName": "hSD21",
+    "searchString": "achichi mela hsd21-003 #asobi★mawari-tai! a mysterious ability to quell flames : if you went second and it is your first turn, reveal 2 <achichi mela> with gift from your deck. add 1 of them to your hand, and archive the remaining card. shuffle your deck. resounding clappers "
+  },
+  {
+    "cardNumber": "hSD21-004",
+    "name": "Achichi Mela",
+    "rarity": "C",
+    "bloomLevel": "1st",
+    "hp": 160,
+    "color": "Purple",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "giftEffect": "Fire Safety in Place! : This holomem takes -20 Arts damage.",
+    "skills": [
+      {
+        "name": "Energetic Hard Worker",
+        "dmg": 30,
+        "description": "Draw 1 card, and archive 1 card from your hand."
+      }
+    ],
+    "setName": "hSD21",
+    "searchString": "achichi mela hsd21-004 #asobi★mawari-tai! fire safety in place! : this holomem takes -20 arts damage. energetic hard worker draw 1 card, and archive 1 card from your hand."
+  },
+  {
+    "cardNumber": "hSD21-005",
+    "name": "Achichi Mela",
+    "rarity": "U",
+    "bloomLevel": "1st",
+    "hp": 170,
+    "color": "Purple",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "collabEffect": "A Whirlwind of Explosive Fun : If you have 3 or more holomem with Gift in your archive, deal 20 special damage to your opponent's center holomem or collab holomem.",
+    "skills": [
+      {
+        "name": "To the Most Extraordinary Life",
+        "dmg": 40
+      }
+    ],
+    "setName": "hSD21",
+    "searchString": "achichi mela hsd21-005 #asobi★mawari-tai! a whirlwind of explosive fun : if you have 3 or more holomem with gift in your archive, deal 20 special damage to your opponent's center holomem or collab holomem. to the most extraordinary life "
+  },
+  {
+    "cardNumber": "hSD21-006",
+    "name": "Achichi Mela",
+    "rarity": "R",
+    "bloomLevel": "1st",
+    "hp": 160,
+    "color": "Purple",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "giftEffect": "Blessing Power : If this holomem is downed, you may choose 1~2 cheers attached to this holomem, and reattach them divided as you choose to your other holomem.",
+    "skills": [
+      {
+        "name": "Now Is the Time to Show My Firefighting Skills!",
+        "dmg": 60
+      }
+    ],
+    "setName": "hSD21",
+    "searchString": "achichi mela hsd21-006 #asobi★mawari-tai! blessing power : if this holomem is downed, you may choose 1~2 cheers attached to this holomem, and reattach them divided as you choose to your other holomem. now is the time to show my firefighting skills! "
+  },
+  {
+    "cardNumber": "hSD21-007",
+    "name": "Achichi Mela",
+    "rarity": "RR",
+    "bloomLevel": "2nd",
+    "hp": 210,
+    "color": "Purple",
+    "colorAdvantage": "Yellow",
+    "tag": "#ASOBI★MAWARI-TAI!",
+    "giftEffect": "Salamander Firefighter : If this holomem is downed, draw 2 cards.",
+    "skills": [
+      {
+        "name": "Resident Blessing-Type Member",
+        "dmg": "100+, +50 vs yellow",
+        "description": "If you have 3 or more holomem with Gift in your archive, this Arts gets +50."
+      }
+    ],
+    "setName": "hSD21",
+    "searchString": "achichi mela hsd21-007 #asobi★mawari-tai! salamander firefighter : if this holomem is downed, draw 2 cards. resident blessing-type member if you have 3 or more holomem with gift in your archive, this arts gets +50."
+  },
+  {
+    "cardNumber": "hSD21-008",
+    "name": "Achichi Mela's Wooden Clappers",
+    "type": "Support (Tool)",
+    "rarity": "U",
+    "ability": "The <Achichi Mela> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to a 1st or greater <Achichi Mela>\nIf this holomem downs your opponent's holomem, draw 1 card and archive 1 card from your hand.\n\nOnly 1 tool can be attached to each of your holomem.",
+    "setName": "hSD21",
+    "searchString": "achichi mela's wooden clappers hsd21-008 the <achichi mela> this tool is attached to gets arts+20.\n\n◆additional ability if attached to a 1st or greater <achichi mela>\nif this holomem downs your opponent's holomem, draw 1 card and archive 1 card from your hand.\n\nonly 1 tool can be attached to each of your holomem."
+  },
+  {
     "cardNumber": "hY01-003",
     "name": "White Cheer (FBK)",
     "rarity": "SY",

@@ -1,0 +1,209 @@
+[
+    {
+        "cardNumber": "hSD20-001",
+        "name": "Hyakuto Kyoko",
+        "rarity": "OSR",
+        "lives": 5,
+        "color": "Red",
+        "oshiStageSkill": "Fiery Passion : When your holomem collabs, if your center holomem is <Hyakuto Kyoko>, send the top card of your cheer deck to your collab holomem.",
+        "oshiSkill": {
+            "name": "Hero Cop On the Move!",
+            "power": 3,
+            "description": "[1/Turn] Deal 10 special damage to your opponent's [center holomem and collab holomem] other than Debut for each cheer on your stage."
+        }
+    },
+    {
+        "cardNumber": "hSD20-002",
+        "name": "Hyakuto Kyoko",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "Red",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "extraEffect": "You may include any number of this holomem in the deck",
+        "skills": [
+            {
+                "name": "Can I turn that frown upside down?!",
+                "dmg": "20+",
+                "description": "[Center Position Only] If you have 2 or more cheers on your stage, this Arts gets +20."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD20-003",
+        "name": "Hyakuto Kyoko",
+        "rarity": "U",
+        "bloomLevel": "Debut",
+        "hp": 130,
+        "color": "Red",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "collabEffect": "Gather Round! : If you went second and it is your first turn, reveal 1 Debut holomem with #ASOBI★MAWARI-TAI! and 1 1st holomem <Hyakuto Kyoko> from your deck, and add them to your hand. Shuffle your deck.",
+        "skills": [
+            {
+                "name": "The Wild Party Begins",
+                "dmg": 20
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD20-004",
+        "name": "Hyakuto Kyoko",
+        "rarity": "C",
+        "bloomLevel": "1st",
+        "hp": 180,
+        "color": "Red",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "skills": [
+            {
+                "name": "Ready to Get to Work!",
+                "dmg": 60
+            },
+            {
+                "name": "Loud Enough, No Megaphone Needed",
+                "dmg": 140
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD20-005",
+        "name": "Hyakuto Kyoko",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 150,
+        "color": "Red",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "bloomEffect": "An Outstretched Hand : Choose 1 holomem on your stage with #ASOBI★MAWARI-TAI!. During this turn, the chosen holomem gets Arts+20.",
+        "skills": [
+            {
+                "name": "Acting Before Thinking",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD20-006",
+        "name": "Hyakuto Kyoko",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Red",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "collabEffect": "Reaching Out to Everyone! : You may archive 1 cheer from your stage: Return 1 holomem with #ASOBI★MAWARI-TAI! from your archive to your hand.",
+        "skills": [
+            {
+                "name": "Swirling High Tension",
+                "dmg": "50+",
+                "description": "If your stage has 6 or more cheers, this Arts gets +20."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD20-007",
+        "name": "Hyakuto Kyoko",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 190,
+        "color": "Red",
+        "colorAdvantage": "Green",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "giftEffect": "Fiery Hero Cop : [Center Position Only] Your collab holomem gets Arts+20.",
+        "skills": [
+            {
+                "name": "Resident Strong-Type Member",
+                "dmg": "150+, +50 vs green",
+                "description": "If your stage has 6 or more cheers, this Arts gets +50."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD20-008",
+        "name": "Sorashina Sopia",
+        "rarity": "C",
+        "bloomLevel": "Debut",
+        "hp": 120,
+        "color": "Blue",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "giftEffect": "My dreams are like the Big Bang! : During your opponent's turn, if this holomem is downed, draw 1 card.",
+        "extraEffect": "You may include any number of this holomem in the deck",
+        "skills": [
+            {
+                "name": "I'm going to witness it all with my own eyes!",
+                "dmg": 10
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD20-009",
+        "name": "Sorashina Sopia",
+        "rarity": "U",
+        "bloomLevel": "1st",
+        "hp": 160,
+        "color": "Blue",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "bloomEffect": "Exploration of Fun : If your stage has 3 or more holomem with #ASOBI★MAWARI-TAI!, you may archive 1 cheer from this holomem: Draw 2 cards.",
+        "skills": [
+            {
+                "name": "Boundless Intellectual Curiosity",
+                "dmg": 30
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD20-010",
+        "name": "Sorashina Sopia",
+        "rarity": "R",
+        "bloomLevel": "1st",
+        "hp": 130,
+        "color": "Blue",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "bloomEffect": "Recruiting Friends! : Look at the top 3 cards of your deck, reveal 1 holomem with #ASOBI★MAWARI-TAI! from among them, and add it to hand. Return the remaining cards to the bottom of your deck in any order.",
+        "skills": [
+            {
+                "name": "Found Something Interesting!",
+                "dmg": 50,
+                "description": "You may reattach 1 cheer from this holomem to your other holomem with #ASOBI★MAWARI-TAI!."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD20-011",
+        "name": "Sorashina Sopia",
+        "rarity": "RR",
+        "bloomLevel": "2nd",
+        "hp": 200,
+        "color": "Blue",
+        "colorAdvantage": "White",
+        "tag": "#ASOBI★MAWARI-TAI!",
+        "collabEffect": "Self-Proclaimed Genius Astronaut : You may send 2 cheers from your archive to 1 of your holomem with #ASOBI★MAWARI-TAI!.",
+        "skills": [
+            {
+                "name": "Resident Inspiration-Type Member",
+                "dmg": "80+, +50 vs white",
+                "description": "You may archive 1~3 cheers from this holomem: This Arts gets +20 for each cheer archived this way."
+            }
+        ]
+    },
+    {
+        "cardNumber": "hSD20-012",
+        "name": "ASOBI★MAWARI-TAI!",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "limited": true,
+        "ability": ": Only one can be used per turn.\n\nThis card can only be used if you have 6 or less cards in hand excluding this card.\n\nLook at the top 4 cards of your deck. Reveal any number of holomem with #ASOBI★MAWARI-TAI! from among them, and add the revealed holomem to hand. Return the remaining cards to the bottom of the deck in any order."
+    },
+    {
+        "cardNumber": "hSD20-013",
+        "name": "Guruguru TIME!",
+        "type": "Support (Event)",
+        "rarity": "U",
+        "limited": true,
+        "ability": ": Only one can be used per turn.\n\nThis card can only be used if all holomem on your stage are holomem with #ASOBI★MAWARI-TAI!.\n\nSwap your opponent's center holomem with 1 of their back holomem. Play rock-paper-scissors with your opponent until there's a winner. If you won, draw 3 cards."
+    },
+    {
+        "cardNumber": "hSD20-014",
+        "name": "Hyakuto Kyoko's Megaphone",
+        "type": "Support (Tool)",
+        "rarity": "U",
+        "ability": "The <Hyakuto Kyoko> this tool is attached to gets Arts+20.\n\n◆Additional ability if attached to a 1st or greater <Hyakuto Kyoko>\nIf this holomem downs your opponent's holomem, you may send 1 cheer from your archive to your back holomem with #ASOBI★MAWARI-TAI!.\n\nOnly 1 tool can be attached to each of your holomem."
+    }
+]
